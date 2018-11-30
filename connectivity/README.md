@@ -20,4 +20,6 @@ Contains results of connectivity pipeline using Pathway Tools v19.5 on original 
 ## general_regulons_noenz ##
 Contains results of replicating the pipeline reported in [Ledezma-Tejeida et. al., 2017](https://www.frontiersin.org/articles/10.3389/fmicb.2017.01466/full) using version 19.5 of Pathway Tools. GENSOR Units included here does not contaon enzymatic regulation.
 
+Network representations of GENSOR Units of general regulons are available at [RegulonDB](http://regulondb.ccg.unam.mx/central_panel_menu/integrated_views_and_tools/gensor_unit_groups).
+
 ###### Questions and comments please contact Daniela Ledezma @ dledezma@lcg.unam.mx 
