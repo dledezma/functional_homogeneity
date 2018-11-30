@@ -1,0 +1,487 @@
+ALANYL-TRNA(ALA)	SIMPLE_MOLECULE	|Charged-ALA-tRNAs|
+ARGINYL-TRNA(ARG)	SIMPLE_MOLECULE	|Charged-ARG-tRNAs|
+ASPARAGINYL-TRNA(ASN)	SIMPLE_MOLECULE	|Charged-ASN-tRNAs|
+ASPARTYL-TRNA(ASP)	SIMPLE_MOLECULE	|Charged-ASP-tRNAs|
+AlaS	PROTEIN	ALAS-MONOMER
+ArgS	PROTEIN	ARGS-MONOMER
+AsnS	PROTEIN	ASNS-MONOMER
+AspS	PROTEIN	ASPS-MONOMER
+CysS	PROTEIN	CYSS-MONOMER
+GLUTAMINYL-TRNA(GLN)	SIMPLE_MOLECULE	|Charged-GLN-tRNAs|
+GLYCYL-TRNA(GLY)	SIMPLE_MOLECULE	|Charged-GLY-tRNAs|
+GlnS	PROTEIN	GLNS-MONOMER
+GltX	PROTEIN	GLURS-MONOMER
+GlyQ	PROTEIN	GLYQ-MONOMER
+GlyS	PROTEIN	GLYS-MONOMER
+GlyS-GlyQ	COMPLEX	GLYS-CPLX
+HisS	PROTEIN	HISS-MONOMER
+ISOLEUCYL-TRNA(ILE)	SIMPLE_MOLECULE	|Charged-ILE-tRNAs|
+IleS	PROTEIN	ILES-MONOMER
+L-glutamate	SIMPLE_MOLECULE	GLT
+L-methionyl-[initiator tRNAmet]	SIMPLE_MOLECULE	|L-methionyl-tRNAfmet|
+L-phenylalanyl-[tRNAphe]	SIMPLE_MOLECULE	|Charged-PHE-tRNAs|
+LYSYL-TRNA(LYS)	SIMPLE_MOLECULE	|Charged-LYS-tRNAs|
+LeuS	PROTEIN	LEUS-MONOMER
+LysS	PROTEIN	LYSS-MONOMER
+LysU	PROTEIN	LYSU-MONOMER
+METHIONYL-TRNA	SIMPLE_MOLECULE	|Charged-MET-tRNAs|
+MetG	PROTEIN	METG-MONOMER
+PROLYL-TRNA(PRO)	SIMPLE_MOLECULE	|Charged-PRO-tRNAs|
+PheS	PROTEIN	PHES-MONOMER
+PheS-PheT	COMPLEX	PHES-CPLX
+PheT	PROTEIN	PHET-MONOMER
+ProS	PROTEIN	PROS-MONOMER
+RNA:L-asparaginyl-tRNAasnW	PROTEIN	RNA0-310
+RNA:L-isoleucyl-tRNAileY	PROTEIN	RNA0-309
+RNA:L-lysyl-tRNAlysQ	PROTEIN	RNA0-314
+RNA:L-lysyl-tRNAlysY	PROTEIN	RNA0-312
+RNA:L-lysyl-tRNAlysZ	PROTEIN	RNA0-313
+RNA:L-methionyl-tRNAmetV	PROTEIN	RNA0-321
+RNA:L-methionyl-tRNAmetW	PROTEIN	RNA0-319
+RNA:L-methionyl-tRNAmetY	PROTEIN	RNA0-322
+RNA:L-methionyl-tRNAmetZ	PROTEIN	RNA0-323
+RNA:L-valyl-tRNAvalZ	PROTEIN	RNA0-311
+RNA:N-formyl-L-methionyl-tRNAmetV	PROTEIN	CHARGED-FMETV-TRNA
+RNA:N-formyl-L-methionyl-tRNAmetW	PROTEIN	CHARGED-FMETW-TRNA
+RNA:N-formyl-L-methionyl-tRNAmetY	PROTEIN	CHARGED-FMETY-TRNA
+RNA:N-formyl-L-methionyl-tRNAmetZ	PROTEIN	CHARGED-FMETZ-TRNA
+RNA:tRNAasnW	PROTEIN	RNA0-304
+RNA:tRNAileY	PROTEIN	RNA0-305
+RNA:tRNAlysQ	PROTEIN	RNA0-303
+RNA:tRNAlysY	PROTEIN	RNA0-301
+RNA:tRNAlysZ	PROTEIN	RNA0-302
+RNA:tRNAmetV	PROTEIN	RNA0-306
+RNA:tRNAvalZ	PROTEIN	RNA0-300
+SERYL-TRNA(SER)	SIMPLE_MOLECULE	|Charged-SER-tRNAs|
+SelB	PROTEIN	CPLX0-8053
+SerS	PROTEIN	SERS-MONOMER
+THREONYL-TRNA(THR)	SIMPLE_MOLECULE	|Charged-THR-tRNAs|
+TRNA(ALA)	SIMPLE_MOLECULE	|ALA-tRNAs|
+TRNA(ARG)	SIMPLE_MOLECULE	|ARG-tRNAs|
+TRNA(ASN)	SIMPLE_MOLECULE	|ASN-tRNAs|
+TRNA(ASP)	SIMPLE_MOLECULE	|ASP-tRNAs|
+TRNA(GLN)	SIMPLE_MOLECULE	|GLN-tRNAs|
+TRNA(GLT)	SIMPLE_MOLECULE	|GLT-tRNAs|
+TRNA(HIS)	SIMPLE_MOLECULE	|HIS-tRNAs|
+TRNA(ILE)	SIMPLE_MOLECULE	|ILE-tRNAs|
+TRNA(LEU)	SIMPLE_MOLECULE	|LEU-tRNAs|
+TRNA(LYS)	SIMPLE_MOLECULE	|LYS-tRNAs|
+TRNA(MET)	SIMPLE_MOLECULE	|Elongation-tRNAMet|
+TRNA(PHE)	SIMPLE_MOLECULE	|PHE-tRNAs|
+TRNA(PRO)	SIMPLE_MOLECULE	|PRO-tRNAs|
+TRNA(SER)	SIMPLE_MOLECULE	|SER-tRNAs|
+TRNA(THR)	SIMPLE_MOLECULE	|THR-tRNAs|
+TRNA(TYR)	SIMPLE_MOLECULE	|TYR-tRNAs|
+TRNA(VAL)	SIMPLE_MOLECULE	|VAL-tRNAs|
+TRNA-CHARGING-PWY	PROTEIN
+TYROSYL-TRNA(TYR)	SIMPLE_MOLECULE	|Charged-TYR-tRNAs|
+ThrS	PROTEIN	THRS-MONOMER
+TrpS	PROTEIN	TRPS-MONOMER
+TyrS	PROTEIN	TYRS-MONOMER
+VALYL-TRNA(VAL)	SIMPLE_MOLECULE	|Charged-VAL-tRNAs|
+ValS	PROTEIN	VALS-MONOMER
+alaS	GENE
+alaS_mRNA	RNA
+alaT	GENE
+alaT-tRNA	PROTEIN	|alaT-tRNA|
+alaT_mRNA	RNA
+alaU	GENE
+alaU-tRNA	PROTEIN	|alaU-tRNA|
+alaU_mRNA	RNA
+alaV	GENE
+alaV-tRNA	PROTEIN	|alaV-tRNA|
+alaV_mRNA	RNA
+alaW	GENE
+alaW-tRNA	PROTEIN	|alaW-tRNA|
+alaW_mRNA	RNA
+alaX	GENE
+alaX-tRNA	PROTEIN	|alaX-tRNA|
+alaX_mRNA	RNA
+alanine	SIMPLE_MOLECULE	L-ALPHA-ALANINE
+argQ	GENE
+argQ-tRNA	PROTEIN	|argQ-tRNA|
+argQ_mRNA	RNA
+argS	GENE
+argS_mRNA	RNA
+argU	GENE
+argU-tRNA	PROTEIN	|argU-tRNA|
+argU_mRNA	RNA
+argV	GENE
+argV-tRNA	PROTEIN	|argV-tRNA|
+argV_mRNA	RNA
+argW	GENE
+argW-tRNA	PROTEIN	|argW-tRNA|
+argW_mRNA	RNA
+argX	GENE
+argX-tRNA	PROTEIN	|argX-tRNA|
+argX_mRNA	RNA
+argY	GENE
+argY-tRNA	PROTEIN	|argY-tRNA|
+argY_mRNA	RNA
+argZ	GENE
+argZ-tRNA	PROTEIN	|argZ-tRNA|
+argZ_mRNA	RNA
+arginine	SIMPLE_MOLECULE	ARG
+asnS	GENE
+asnS_mRNA	RNA
+asnT	GENE
+asnT-tRNA	PROTEIN	|asnT-tRNA|
+asnT_mRNA	RNA
+asnU	GENE
+asnU-tRNA	PROTEIN	|asnU-tRNA|
+asnU_mRNA	RNA
+asnV	GENE
+asnV-tRNA	PROTEIN	|asnV-tRNA|
+asnV_mRNA	RNA
+asnW	GENE
+asnW_mRNA	RNA
+aspS	GENE
+aspS_mRNA	RNA
+aspT	GENE
+aspT-tRNA	PROTEIN	|aspT-tRNA|
+aspT_mRNA	RNA
+aspU	GENE
+aspU-tRNA	PROTEIN	|aspU-tRNA|
+aspU_mRNA	RNA
+aspV	GENE
+aspV-tRNA	PROTEIN	|aspV-tRNA|
+aspV_mRNA	RNA
+asparagine	SIMPLE_MOLECULE	ASN
+aspartate	SIMPLE_MOLECULE	L-ASPARTATE
+charged-alaT-tRNA	PROTEIN	|charged-alaT-tRNA|
+charged-alaU-tRNA	PROTEIN	|charged-alaU-tRNA|
+charged-alaV-tRNA	PROTEIN	|charged-alaV-tRNA|
+charged-alaW-tRNA	PROTEIN	|charged-alaW-tRNA|
+charged-alaX-tRNA	PROTEIN	|charged-alaX-tRNA|
+charged-argQ-tRNA	PROTEIN	|charged-argQ-tRNA|
+charged-argU-tRNA	PROTEIN	|charged-argU-tRNA|
+charged-argV-tRNA	PROTEIN	|charged-argV-tRNA|
+charged-argW-tRNA	PROTEIN	|charged-argW-tRNA|
+charged-argX-tRNA	PROTEIN	|charged-argX-tRNA|
+charged-argY-tRNA	PROTEIN	|charged-argY-tRNA|
+charged-argZ-tRNA	PROTEIN	|charged-argZ-tRNA|
+charged-asnT-tRNA	PROTEIN	|charged-asnT-tRNA|
+charged-asnU-tRNA	PROTEIN	|charged-asnU-tRNA|
+charged-asnV-tRNA	PROTEIN	|charged-asnV-tRNA|
+charged-aspT-tRNA	PROTEIN	|charged-aspT-tRNA|
+charged-aspU-tRNA	PROTEIN	|charged-aspU-tRNA|
+charged-aspV-tRNA	PROTEIN	|charged-aspV-tRNA|
+charged-cysT-tRNA	PROTEIN	|charged-cysT-tRNA|
+charged-glnU-tRNA	PROTEIN	|charged-glnU-tRNA|
+charged-glnV-tRNA	PROTEIN	|charged-glnV-tRNA|
+charged-glnW-tRNA	PROTEIN	|charged-glnW-tRNA|
+charged-glnX-tRNA	PROTEIN	|charged-glnX-tRNA|
+charged-gltT-tRNA	PROTEIN	|charged-gltT-tRNA|
+charged-gltU-tRNA	PROTEIN	|charged-gltU-tRNA|
+charged-gltV-tRNA	PROTEIN	|charged-gltV-tRNA|
+charged-gltW-tRNA	PROTEIN	|charged-gltW-tRNA|
+charged-glyT-tRNA	PROTEIN	|charged-glyT-tRNA|
+charged-glyU-tRNA	PROTEIN	|charged-glyU-tRNA|
+charged-glyV-tRNA	PROTEIN	|charged-glyV-tRNA|
+charged-glyW-tRNA	PROTEIN	|charged-glyW-tRNA|
+charged-glyX-tRNA	PROTEIN	|charged-glyX-tRNA|
+charged-glyY-tRNA	PROTEIN	|charged-glyY-tRNA|
+charged-hisR-tRNA	PROTEIN	|charged-hisR-tRNA|
+charged-ileT-tRNA	PROTEIN	|charged-ileT-tRNA|
+charged-ileU-tRNA	PROTEIN	|charged-ileU-tRNA|
+charged-ileV-tRNA	PROTEIN	|charged-ileV-tRNA|
+charged-ileX-tRNA	PROTEIN	|charged-ileX-tRNA|
+charged-leuP-tRNA	PROTEIN	|charged-leuP-tRNA|
+charged-leuQ-tRNA	PROTEIN	|charged-leuQ-tRNA|
+charged-leuT-tRNA	PROTEIN	|charged-leuT-tRNA|
+charged-leuU-tRNA	PROTEIN	|charged-leuU-tRNA|
+charged-leuV-tRNA	PROTEIN	|charged-leuV-tRNA|
+charged-leuW-tRNA	PROTEIN	|charged-leuW-tRNA|
+charged-leuX-tRNA	PROTEIN	|charged-leuX-tRNA|
+charged-leuZ-tRNA	PROTEIN	|charged-leuZ-tRNA|
+charged-lysT-tRNA	PROTEIN	|charged-lysT-tRNA|
+charged-lysV-tRNA	PROTEIN	|charged-lysV-tRNA|
+charged-lysW-tRNA	PROTEIN	|charged-lysW-tRNA|
+charged-metT-tRNA	PROTEIN	|charged-metT-tRNA|
+charged-metU-tRNA	PROTEIN	|charged-metU-tRNA|
+charged-pheU-tRNA	PROTEIN	|charged-pheU-tRNA|
+charged-pheV-tRNA	PROTEIN	|charged-pheV-tRNA|
+charged-proK-tRNA	PROTEIN	|charged-proK-tRNA|
+charged-proL-tRNA	PROTEIN	|charged-proL-tRNA|
+charged-proM-tRNA	PROTEIN	|charged-proM-tRNA|
+charged-selC-tRNA	PROTEIN	|charged-selC-tRNA|
+charged-serT-tRNA	PROTEIN	|charged-serT-tRNA|
+charged-serU-tRNA	PROTEIN	|charged-serU-tRNA|
+charged-serV-tRNA	PROTEIN	|charged-serV-tRNA|
+charged-serW-tRNA	PROTEIN	|charged-serW-tRNA|
+charged-serX-tRNA	PROTEIN	|charged-serX-tRNA|
+charged-thrT-tRNA	PROTEIN	|charged-thrT-tRNA|
+charged-thrU-tRNA	PROTEIN	|charged-thrU-tRNA|
+charged-thrV-tRNA	PROTEIN	|charged-thrV-tRNA|
+charged-thrW-tRNA	PROTEIN	|charged-thrW-tRNA|
+charged-trpT-tRNA	PROTEIN	|charged-trpT-tRNA|
+charged-tyrT-tRNA	PROTEIN	|charged-tyrT-tRNA|
+charged-tyrU-tRNA	PROTEIN	|charged-tyrU-tRNA|
+charged-tyrV-tRNA	PROTEIN	|charged-tyrV-tRNA|
+charged-valT-tRNA	PROTEIN	|charged-valT-tRNA|
+charged-valU-tRNA	PROTEIN	|charged-valU-tRNA|
+charged-valV-tRNA	PROTEIN	|charged-valV-tRNA|
+charged-valW-tRNA	PROTEIN	|charged-valW-tRNA|
+charged-valX-tRNA	PROTEIN	|charged-valX-tRNA|
+charged-valY-tRNA	PROTEIN	|charged-valY-tRNA|
+cysS	GENE
+cysS_mRNA	RNA
+cysT	GENE
+cysT-tRNA	PROTEIN	|cysT-tRNA|
+cysT_mRNA	RNA
+cysteine	SIMPLE_MOLECULE	CYS
+cysteinyl-tRNAcysT	SIMPLE_MOLECULE	|Charged-CYS-tRNAs|
+diphosphate	SIMPLE_MOLECULE	PPI
+glnS	GENE
+glnS_mRNA	RNA
+glnU	GENE
+glnU-tRNA	PROTEIN	|glnU-tRNA|
+glnU_mRNA	RNA
+glnV	GENE
+glnV-tRNA	PROTEIN	|glnV-tRNA|
+glnV_mRNA	RNA
+glnW	GENE
+glnW-tRNA	PROTEIN	|glnW-tRNA|
+glnW_mRNA	RNA
+glnX	GENE
+glnX-tRNA	PROTEIN	|glnX-tRNA|
+glnX_mRNA	RNA
+gltT	GENE
+gltT-tRNA	PROTEIN	|gltT-tRNA|
+gltT_mRNA	RNA
+gltU	GENE
+gltU-tRNA	PROTEIN	|gltU-tRNA|
+gltU_mRNA	RNA
+gltV	GENE
+gltV-tRNA	PROTEIN	|gltV-tRNA|
+gltV_mRNA	RNA
+gltW	GENE
+gltW-tRNA	PROTEIN	|gltW-tRNA|
+gltW_mRNA	RNA
+gltX	GENE
+gltX_mRNA	RNA
+glutamine	SIMPLE_MOLECULE	GLN
+glutamyl-tRNAglt	SIMPLE_MOLECULE	|Charged-GLT-tRNAs|
+glyQ	GENE
+glyQ_mRNA	RNA
+glyS	GENE
+glyS_mRNA	RNA
+glyT	GENE
+glyT-tRNA	PROTEIN	|glyT-tRNA|
+glyT_mRNA	RNA
+glyU	GENE
+glyU-tRNA	PROTEIN	|glyU-tRNA|
+glyU_mRNA	RNA
+glyV	GENE
+glyV-tRNA	PROTEIN	|glyV-tRNA|
+glyV_mRNA	RNA
+glyW	GENE
+glyW-tRNA	PROTEIN	|glyW-tRNA|
+glyW_mRNA	RNA
+glyX	GENE
+glyX-tRNA	PROTEIN	|glyX-tRNA|
+glyX_mRNA	RNA
+glyY	GENE
+glyY-tRNA	PROTEIN	|glyY-tRNA|
+glyY_mRNA	RNA
+glycine	SIMPLE_MOLECULE	GLY
+hisR	GENE
+hisR-tRNA	PROTEIN	|hisR-tRNA|
+hisR_mRNA	RNA
+hisS	GENE
+hisS_mRNA	RNA
+histidine	SIMPLE_MOLECULE	HIS
+histidyl-tRNAhisR	SIMPLE_MOLECULE	|Charged-HIS-tRNAs|
+ileS	GENE
+ileS_mRNA	RNA
+ileT	GENE
+ileT-tRNA	PROTEIN	|ileT-tRNA|
+ileT_mRNA	RNA
+ileU	GENE
+ileU-tRNA	PROTEIN	|ileU-tRNA|
+ileU_mRNA	RNA
+ileV	GENE
+ileV-tRNA	PROTEIN	|ileV-tRNA|
+ileV_mRNA	RNA
+ileX	GENE
+ileX-tRNA	PROTEIN	|ileX-tRNA|
+ileX_mRNA	RNA
+ileY	GENE
+ileY_mRNA	RNA
+initiator tRNAmet	SIMPLE_MOLECULE	|Initiation-tRNAmet|
+iso-leucine	SIMPLE_MOLECULE	ILE
+leuP	GENE
+leuP-tRNA	PROTEIN	|leuP-tRNA|
+leuP_mRNA	RNA
+leuQ	GENE
+leuQ-tRNA	PROTEIN	|leuQ-tRNA|
+leuQ_mRNA	RNA
+leuS	GENE
+leuS_mRNA	RNA
+leuT	GENE
+leuT-tRNA	PROTEIN	|leuT-tRNA|
+leuT_mRNA	RNA
+leuU	GENE
+leuU-tRNA	PROTEIN	|leuU-tRNA|
+leuU_mRNA	RNA
+leuV	GENE
+leuV-tRNA	PROTEIN	|leuV-tRNA|
+leuV_mRNA	RNA
+leuW	GENE
+leuW-tRNA	PROTEIN	|leuW-tRNA|
+leuW_mRNA	RNA
+leuX	GENE
+leuX-tRNA	PROTEIN	|leuX-tRNA|
+leuX_mRNA	RNA
+leuZ	GENE
+leuZ-tRNA	PROTEIN	|leuZ-tRNA|
+leuZ_mRNA	RNA
+leucine	SIMPLE_MOLECULE	LEU
+leucyl-tRNA	SIMPLE_MOLECULE	|Charged-LEU-tRNAs|
+lysQ	GENE
+lysQ_mRNA	RNA
+lysS	GENE
+lysS_mRNA	RNA
+lysT	GENE
+lysT-tRNA	PROTEIN	|lysT-tRNA|
+lysT_mRNA	RNA
+lysU	GENE
+lysU_mRNA	RNA
+lysV	GENE
+lysV-tRNA	PROTEIN	|lysV-tRNA|
+lysV_mRNA	RNA
+lysW	GENE
+lysW-tRNA	PROTEIN	|lysW-tRNA|
+lysW_mRNA	RNA
+lysY	GENE
+lysY_mRNA	RNA
+lysZ	GENE
+lysZ_mRNA	RNA
+lysine	SIMPLE_MOLECULE	LYS
+metG	GENE
+metG_mRNA	RNA
+metT	GENE
+metT-tRNA	PROTEIN	|metT-tRNA|
+metT_mRNA	RNA
+metU	GENE
+metU-tRNA	PROTEIN	|metU-tRNA|
+metU_mRNA	RNA
+metV	GENE
+metV_mRNA	RNA
+metW	GENE
+metW-tRNA	PROTEIN	|metW-tRNA|
+metW_mRNA	RNA
+metY	GENE
+metY-tRNA	PROTEIN	|metY-tRNA|
+metY_mRNA	RNA
+metZ	GENE
+metZ-tRNA	PROTEIN	|metZ-tRNA|
+metZ_mRNA	RNA
+methionine	SIMPLE_MOLECULE	MET
+modified-charged-selC-tRNA	PROTEIN	|modified-charged-selC-tRNA|
+pheS	GENE
+pheS_mRNA	RNA
+pheT	GENE
+pheT_mRNA	RNA
+pheU	GENE
+pheU-tRNA	PROTEIN	|pheU-tRNA|
+pheU_mRNA	RNA
+pheV	GENE
+pheV-tRNA	PROTEIN	|pheV-tRNA|
+pheV_mRNA	RNA
+phenylalanine	SIMPLE_MOLECULE	PHE
+proK	GENE
+proK-tRNA	PROTEIN	|proK-tRNA|
+proK_mRNA	RNA
+proL	GENE
+proL-tRNA	PROTEIN	|proL-tRNA|
+proL_mRNA	RNA
+proM	GENE
+proM-tRNA	PROTEIN	|proM-tRNA|
+proM_mRNA	RNA
+proS	GENE
+proS_mRNA	RNA
+proline	SIMPLE_MOLECULE	PRO
+selC	GENE
+selC-tRNA	PROTEIN	|selC-tRNA|
+selC_mRNA	RNA
+serS	GENE
+serS_mRNA	RNA
+serT	GENE
+serT-tRNA	PROTEIN	|serT-tRNA|
+serT_mRNA	RNA
+serU	GENE
+serU-tRNA	PROTEIN	|serU-tRNA|
+serU_mRNA	RNA
+serV	GENE
+serV-tRNA	PROTEIN	|serV-tRNA|
+serV_mRNA	RNA
+serW	GENE
+serW-tRNA	PROTEIN	|serW-tRNA|
+serW_mRNA	RNA
+serX	GENE
+serX-tRNA	PROTEIN	|serX-tRNA|
+serX_mRNA	RNA
+serine	SIMPLE_MOLECULE	SER
+seryl-tRNAsec	SIMPLE_MOLECULE	|L-seryl-SEC-tRNAs|
+tRNATrp	SIMPLE_MOLECULE	|TRP-tRNAs|
+tRNAcysT	SIMPLE_MOLECULE	|CYS-tRNAs|
+tRNAgly	SIMPLE_MOLECULE	|GLY-tRNAs|
+tRNAsec	SIMPLE_MOLECULE	|tRNA-Sec|
+thrS	GENE
+thrS_mRNA	RNA
+thrT	GENE
+thrT-tRNA	PROTEIN	|thrT-tRNA|
+thrT_mRNA	RNA
+thrU	GENE
+thrU-tRNA	PROTEIN	|thrU-tRNA|
+thrU_mRNA	RNA
+thrV	GENE
+thrV-tRNA	PROTEIN	|thrV-tRNA|
+thrV_mRNA	RNA
+thrW	GENE
+thrW-tRNA	PROTEIN	|thrW-tRNA|
+thrW_mRNA	RNA
+threonine	SIMPLE_MOLECULE	THR
+trpS	GENE
+trpS_mRNA	RNA
+trpT	GENE
+trpT-tRNA	PROTEIN	|trpT-tRNA|
+trpT_mRNA	RNA
+tryptophan	SIMPLE_MOLECULE	TRP
+tryptophanyl-tRNAtrpT	SIMPLE_MOLECULE	|Charged-TRP-tRNAs|
+tyrS	GENE
+tyrS_mRNA	RNA
+tyrT	GENE
+tyrT-tRNA	PROTEIN	|tyrT-tRNA|
+tyrT_mRNA	RNA
+tyrU	GENE
+tyrU-tRNA	PROTEIN	|tyrU-tRNA|
+tyrU_mRNA	RNA
+tyrV	GENE
+tyrV-tRNA	PROTEIN	|tyrV-tRNA|
+tyrV_mRNA	RNA
+tyrosine	SIMPLE_MOLECULE	TYR
+valS	GENE
+valS_mRNA	RNA
+valT	GENE
+valT-tRNA	PROTEIN	|valT-tRNA|
+valT_mRNA	RNA
+valU	GENE
+valU-tRNA	PROTEIN	|valU-tRNA|
+valU_mRNA	RNA
+valV	GENE
+valV-tRNA	PROTEIN	|valV-tRNA|
+valV_mRNA	RNA
+valW	GENE
+valW-tRNA	PROTEIN	|valW-tRNA|
+valW_mRNA	RNA
+valX	GENE
+valX-tRNA	PROTEIN	|valX-tRNA|
+valX_mRNA	RNA
+valY	GENE
+valY-tRNA	PROTEIN	|valY-tRNA|
+valY_mRNA	RNA
+valZ	GENE
+valZ_mRNA	RNA
+valine	SIMPLE_MOLECULE	VAL
