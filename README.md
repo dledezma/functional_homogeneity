@@ -1,9 +1,9 @@
 # Data repository for [Limits to a classic paradigm: Most transcription factors regulate genes in multiple biological processes](https://www.biorxiv.org/content/early/2018/11/28/479857.article-info?fbclid=IwAR3srQlqvJ73lQ3jzrKGwKo1Rcwqkb4Ss_J9KVuoed-D1lrZVdT5WHjE_58)
 Data is separated in 4 parts:
-    * Connectivity analysis. Includes the pipeline used to quantify connectivity for all group of genes.
-    * GO analysis. Includes the pipeline to identify dominant GO terms excluding levels 1 and 2 of the ontology, for all groups of genes.
-    * Coexpression analysis. Includes the pipeline used to calculate the Spearman correlation of all the groups of genes.
-    * Original data sets. Includes the pipeline used to 
+1. Connectivity analysis. Includes the pipeline used to quantify connectivity for all group of genes.
+2. GO analysis. Includes the pipeline to identify dominant GO terms excluding levels 1 and 2 of the ontology, for all groups of genes.
+3. Coexpression analysis. Includes the pipeline used to calculate the Spearman correlation of all the groups of genes.
+4. Original data sets. Includes the pipeline used to 
 
 ## connectivity ##
 Includes all the connectivity results reported in the article and the pipeline used to generate them.
