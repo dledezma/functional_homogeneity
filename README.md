@@ -17,5 +17,10 @@ Includes the dominant GO terms of all groups reported in the article. Both with 
 ## original_data_sets ##
 Includes the genes belonging to all regulons reported in the paper. It also includes the scripts used to generate them.
 
+### Download all data from terminal:
+
+```
+git clone https://github.com/dledezma/functional_homogeneity.git
+```
 
 ###### Questions and comments please contact Daniela Ledezma @ dledezma@lcg.unam.mx 
