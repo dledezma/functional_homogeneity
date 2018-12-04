@@ -1,6 +1,5 @@
 # Coexpression Analysis
 
-<<<<<<< HEAD
 ## Getting started
 
 ### Prerequisites
@@ -99,18 +98,5 @@ tail -f resultsCoex.out
 ## References
 
 Moretto, M., Sonego, P., Dierckxsens, N., Brilli, M., Bianco, L., Ledezma-Tejeida, D., ... & Collado-Vides, J. (2015). COLOMBOS v3. 0: leveraging gene expression compendia for cross-species analyses. Nucleic acids research, 44(D1), D620-D623.
-=======
-## data_sets_bnumbers ##
-Original data sets converted to bnumbers.
->>>>>>> parent of 3a0bbde... Updated coexpression folder
 
-## random_data_sets_bnumbers ##
-Randomized data sets using random_regulons.pl (found at scripts).
-
-## results ##
-Files with coexpression values per group, per data set.
-
-## scripts ##
-Scripts used in the analysis.
-
-###### Questions and comments please contact Daniela Ledezma @ dledezma@lcg.unam.mx 
+###### Questions and comments please contact Daniela Ledezma or Fernando Altamirano @ dledezma@lcg.unam.mx / feraltp@lcg.unam.mx
