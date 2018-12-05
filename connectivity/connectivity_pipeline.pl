@@ -29,7 +29,7 @@ chomp($outdir);
 
 #Retrieve files from library
 my $gu_assembly=$library . "gu_assembly_groups_enz_fromfile.pl";
-my $add_srs=$library . "add_super_reactions_v4.pl";
+my $add_srs=$library . "add_super_reactions_v5.pl";
 my $cal_conn=$library . "connectivity_from_gufiles_permissive_enx_v1.pl";
 my $cal_rncon=$library . "conn_of_random_sets_v4.pl";
 my $create_random=$library . "random_regulons_same_enzymes.pl";
@@ -69,7 +69,7 @@ foreach my $file (sort @datasets){
 
     # Call addition of complementary pathway reactions
     my $sr_output=$anasetdir . "CPR_count.txt"; # Path to output file
-    system("perl $add_srs $rawdir $comsetdir $sr_output 25");
+    system("perl $add_srs $library $rawdir $comsetdir $sr_output 25");
     
     # Call Connectivity calculation
     my $summary=$summ_dir . $dataset . ".txt";

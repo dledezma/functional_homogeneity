@@ -4,9 +4,13 @@
 ###### Finds super-reactions at most N reactions away. Copies gu_assembly_vX.pl #
 ###### output and includes them.                                           ######
 ###### [0] - gu_assembly_vX.pl output directory                            ######
-###### [1] - Output directory                                              ######
-###### [2] - Counts output file path                                       ######
-###### [3] - Number of allowed intermediate metabolites (default=9)        ######
+###### [1] - GU library including files:                                   ######
+######     > rxn_rpd_links.txt                                             ######
+######     > pwy_rxn_links.txt                                             ######
+######     > gu_compound_dictionary.txt                                    ######
+###### [2] - Output directory                                              ######
+###### [3] - Counts output file path                                       ######
+###### [4] - Number of allowed intermediate metabolites (default=9)        ######
 ###### History:                                                            ######
 ###### 21/10/15 > v1 > Print as reactants and products only molecules      ######
 ######              common to reaction in the GU and first not-GU reaction ######
@@ -30,18 +34,20 @@ $time=localtime();
 
 #Get args
 $in_dir=$ARGV[0];
-$out_dir=$ARGV[1];
-$outfile=$ARGV[2];
-$rxns_max=$ARGV[3];
+$library=$ARGV[1];
+$out_dir=$ARGV[2];
+$outfile=$ARGV[3];
+$rxns_max=$ARGV[4];
 chomp($rxns_max);
 
-#Files
-$rxn_link="/Users/Daniela/Documents/PhD/Datasets/ecocyc_links/rxn_rpd_links.txt";
-$pwy_link="/Users/Daniela/Documents/PhD/Datasets/ecocyc_links/pwy_rxn_links.txt";
+#Get name of necessary files.
+$rxn_link=$library . "rxn_rpd_links.txt";
+$pwy_link=$library . "pwy_rxn_links.txt";
+$dictionary=$library . "gu_compound_dictionary.txt";
 
 #Open outfile
 open(OUT,">$outfile") || die "Cannot open OUT file at $outfile.\n";
-print OUT"# From add_super_reactions_v4.pl on $time\n# Indir = $in_dir\n# Outdir = $out_dir\n# Maximum intermediate reactions = $rxns_max\n";
+print OUT"# From $0 on $time\n# Indir = $in_dir\n# Outdir = $out_dir\n# Maximum intermediate reactions = $rxns_max\n";
 
 if(!($rxns_max)){
   $rxns_max=10;
@@ -1144,7 +1150,7 @@ sub IDS {
   local($name)=($_[0]);
 
   $q_name=quotemeta($name);
-  open(SMS,"/Users/Daniela/Documents/PhD/Codigos/2016_2/GU_assembly/library_v9_5/gu_compound_dictionary.txt") || die "/Users/Daniela/Documents/PhD/Codigos/2016_2/GU_assembly/library_v9_5/gu_compound_dictionary.txt.\n";
+  open(SMS,$dictionary) || die "gu_compound_dictionary.txt file not found on dictionary. Please add.\n";
   while(<SMS>){
     if($_=~/^$q_name\t([^\t]+)\t/i){
       $name=$1;
