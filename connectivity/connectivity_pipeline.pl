@@ -69,7 +69,7 @@ foreach my $file (sort @datasets){
 
     # Call addition of complementary pathway reactions
     my $sr_output=$anasetdir . "CPR_count.txt"; # Path to output file
-    system("perl $add_srs $library $rawdir $comsetdir $sr_output 25");
+    system("perl $add_srs $rawdir $library $comsetdir $sr_output 25");
     
     # Call Connectivity calculation
     my $summary=$summ_dir . $dataset . ".txt";
@@ -77,6 +77,7 @@ foreach my $file (sort @datasets){
 
     ### Create random sets with same enzyme number ###
     # Obtain total enzymes per regulon from connectivity summary
+    print"total_enz\n";
     my $total_enz=$anasetdir . "total_enzymes.txt";
     system("grep -v '\#' $summary | cut -f1,2 > $total_enz");
 

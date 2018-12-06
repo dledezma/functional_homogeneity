@@ -42,7 +42,7 @@ chomp($rxns_max);
 
 #Get name of necessary files.
 $rxn_link=$library . "rxn_rpd_links.txt";
-$pwy_link=$library . "pwy_rxn_links.txt";
+$pwy_link=$library . "pwy_rxn_rpd_links.txt";
 $dictionary=$library . "gu_compound_dictionary.txt";
 
 #Open outfile
