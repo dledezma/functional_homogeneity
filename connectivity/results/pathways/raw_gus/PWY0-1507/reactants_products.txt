@@ -23,11 +23,25 @@ re8	unsulfurated [sulfur donor]	product
 re8	5'-deoxyadenosine	product
 re8	methionine	product
 re8	biotin	product
-re9	bioA_mRNA	reactant
-re9	BioA	product
-re10	KAPA	reactant
+re9	reduced [2Fe-2S] ferredoxin	reactant
+re9	sulfurated sulfur donor	reactant
+re9	dethiobiotin	reactant
+re9	SAM	reactant
+re9	oxidized [2Fe-2S] ferredoxin	product
+re9	unsulfurated [sulfur donor]	product
+re9	9-mercaptodethiobiotin	product
+re9	5'-deoxyadenosine	product
+re9	methionine	product
+re10	9-mercaptodethiobiotin	reactant
 re10	SAM	reactant
-re10	S-adenosyl-4-methylthio-2-oxobutanoate	product
-re10	DAPA	product
-re11	fdx_mRNA	reactant
-re11	Fdx	product
+re10	5'-deoxyadenosine	product
+re10	methionine	product
+re10	biotin	product
+re11	bioA_mRNA	reactant
+re11	BioA	product
+re12	KAPA	reactant
+re12	SAM	reactant
+re12	S-adenosyl-4-methylthio-2-oxobutanoate	product
+re12	DAPA	product
+re13	fdx_mRNA	reactant
+re13	Fdx	product

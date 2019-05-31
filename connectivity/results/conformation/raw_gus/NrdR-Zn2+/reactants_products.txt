@@ -18,8 +18,8 @@ re9	yfaE	reactant
 re9	yfaE_mRNA	product
 re10	nrdA_mRNA	reactant
 re10	NrdA	product
-re11	NrdB	reactant
 re11	NrdA	reactant
+re11	NrdB	reactant
 re11	NrdA-NrdB	product
 re12	nucleoside diphosphate	reactant
 re12	reduced thioredoxin	reactant
@@ -33,9 +33,9 @@ re14	reduced thioredoxin	reactant
 re14	uridine-diphosphate	reactant
 re14	thioredoxin disulfide	product
 re14	dUDP	product
-re15	thioredoxin disulfide	reactant
-re15	dADP	reactant
-re15	reduced thioredoxin	product
+re15	reduced thioredoxin	reactant
+re15	thioredoxin disulfide	product
+re15	dADP	product
 re16	guanosine-diphosphate	reactant
 re16	reduced thioredoxin	reactant
 re16	thioredoxin disulfide	product
@@ -44,29 +44,28 @@ re17	nrdB_mRNA	reactant
 re17	NrdB	product
 re18	nrdD_mRNA	reactant
 re18	NrdD	product
-re19	FldA	reactant
-re19	FldA	product
-re19	dATP	product
-re20	guanosine-triphosphate	reactant
-re20	FldA	reactant
-re20	FldA	product
-re20	dGTP	product
-re21	uridine-triphosphate	reactant
-re21	FldA	reactant
-re21	FldA	product
-re21	dUTP	product
-re22	cytidine-triphosphate	reactant
-re22	FldA	reactant
-re22	FldA	product
-re22	dCTP	product
-re23	nucleoside triphosphate	reactant
-re23	FldA	reactant
-re23	deoxynucleoside triphosphate	product
-re23	FldA	product
-re24	NrdG	reactant
+re19	nucleoside triphosphate	reactant
+re19	formate	reactant
+re19	deoxynucleoside triphosphate	product
+re19	CO2	product
+re20	formate	reactant
+re20	dATP	product
+re20	CO2	product
+re21	guanosine-triphosphate	reactant
+re21	formate	reactant
+re21	dGTP	product
+re21	CO2	product
+re22	uridine-triphosphate	reactant
+re22	formate	reactant
+re22	dUTP	product
+re22	CO2	product
+re23	cytidine-triphosphate	reactant
+re23	formate	reactant
+re23	dCTP	product
+re23	CO2	product
 re24	NrdD	reactant
-re24	Fpr	reactant
-re24	NrdD-NrdG-Fpr	product
+re24	NrdG	reactant
+re24	NrdD-NrdG	product
 re25	nrdE_mRNA	reactant
 re25	NrdE	product
 re26	NrdE	reactant
@@ -92,8 +91,10 @@ re31	NrdF	product
 re32	nrdG_mRNA	reactant
 re32	NrdG	product
 re33	inactive ribonucleoside triphosphate reductase	reactant
+re33	FldA	reactant
 re33	SAM	reactant
 re33	active ribonucleoside triphosphate reductase	product
+re33	flavodoxin semiquinone	product
 re33	5'-deoxyadenosine	product
 re33	methionine	product
 re34	nrdH_mRNA	reactant

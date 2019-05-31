@@ -1,7 +1,7 @@
-# From /Users/Daniela/Documents/CCG/GU_art_2/original_datasets/scripts/create_datasets.pl on Mon May 14 18:28:36 2018
-# Input = /Users/Daniela/Documents/CCG/datasets/TRN/tf_gene.txt
-# /Users/Daniela/Documents/PhD/Codigos/2016_2/GU_assembly/mesh/TF_active.txt
-# /Users/Daniela/Documents/PhD/Codigos/2016_2/GU_assembly/mesh/TF_inactive.txt
+# From /Users/Daniela/Documents/CCG/GU_art_2/v22/original_datasets/scripts/create_datasets_v2.pl on Thu Nov 22 14:59:17 2018
+# Input = /Users/Daniela/Documents/CCG/datasets/gu_library_v10/TF_gene.txt
+# /Users/Daniela/Documents/CCG/datasets/gu_library_v10/TF_active.txt
+# /Users/Daniela/Documents/CCG/datasets/gu_library_v10/TF_inactive.txt
 #GU name	Genes
 AcrR	acrR//
 Ada	ada//alkA//alkB//
@@ -9,7 +9,7 @@ AgaR	agaB//agaC//agaD//agaI//agaR//agaS//kbaY//
 AlaS	alaS//
 AllR	allA//allB//allS//gcl//glxK//glxR//hyi//ybbW//ybbY//
 AllS	allC//allD//allE//
-AlsR	alsA//alsB//alsC//alsE//rpiB//rpiR//
+AlsR	alsA//alsB//alsC//alsE//alsR//rpiB//
 ArcA	arcZ//ydeA//
 ArgP	dapB//dapD//lysC//
 ArgR	argA//argB//argC//argE//argF//argH//argI//argR//artI//artJ//artM//artP//artQ//lysO//
@@ -20,31 +20,30 @@ BasR	dgkA//
 BirA	bioA//bioB//bioC//bioD//bioF//
 BluR	ariR//ycgZ//ymgA//ymgC//
 BolA	ampC//dacC//
-CRP	aaeA//aaeB//aaeR//aaeX//agp//ampD//ampE//arfB//azuC//comR//cpdB//cstA//cyaA//dksA//glgS//glpE//glpG//glpR//gpsA//grpE//hflC//hflK//hflX//hfq//hofB//hofC//hofM//hofN//hofO//hofP//ilvB//ilvN//ivbL//lacI//manA//mcaS//mhpR//nadC//narQ//nlpE//ompA//patZ//ppdD//preA//preT//priB//raiA//rmf//rof//rplI//rpsF//rpsR//secB//sfsA//sohB//speC//spf//sxy//trxA//ubiG//xseA//yaeP//yaeQ//ychH//yeiP//yeiW//yhfA//ykgR//
+CRP	aaeA//aaeB//aaeR//aaeX//agp//ampD//ampE//arfB//azuC//comR//cpdB//cstA//cyaA//dksA//glgS//glpE//glpG//glpR//gpsA//grpE//hflC//hflK//hflX//hfq//hofB//hofC//hofM//hofN//hofO//hofP//ilvB//ilvN//ivbL//lacI//manA//mcaS//mhpR//nadC//narQ//nlpE//ompA//patZ//ppdD//preA//preT//priB//raiA//rmf//rof//rplI//rpsF//rpsR//secB//sfsA//sohB//speC//spf//sxy//trxA//ubiG//yaeP//yaeQ//ychH//yeiP//yeiW//yhfA//ykgR//
 CdaR	cdaR//garD//gudD//gudP//gudX//
 CecR	cecR//ybhF//ybhG//ybhR//ybhS//
-CpxR	bacA//cheA//cheW//cpxA//cpxP//cpxQ//cpxR//dsbA//dsbC//efeU_1//efeU_2//ftnB//kbp//ldtC//ldtD//motA//motB//mscM//mzrA//ppiD//psd//rdoA//sbmA//slt//tsr//ung//yaiW//yccA//yebE//yidQ//yqaE//yqjA//
+CpxR	bacA//cheA//cheW//cpxA//cpxP//cpxQ//cpxR//dsbA//dsbC//efeU_1//efeU_2//ftnB//kbp//ldtC//ldtD//motA//motB//mscM//mzrA//ppiD//psd//sbmA//slt//srkA//tsr//ung//yaiW//yccA//yebE//yidQ//yqaE//yqjA//
 Cra	eno//envC//fbaB//fruA//fruB//fruK//glk//gpmM//pfkA//ppc//ppsA//pykF//tpiA//yeaD//yibQ//
 CreB	talA//
 CsgD	dgcC//iraP//nlpA//pepD//wrbA//yccJ//yccT//yhbS//yhbT//
 CueR	copA//cueO//
 CynR	cynR//cynS//cynT//cynX//
-CysB	cysC//cysD//cysK//cysN//hslJ//tcyP//yciW//yfbR//ygeH//yoaC//
-Dan	ttdA//ttdB//ttdR//ttdT//
+CysB	cysC//cysD//cysK//cysN//hslJ//tcyP//yciW//ygeH//yoaC//
 DhaR	dhaK//dhaL//dhaM//dhaR//
-DicA	dicB//dicC//insD//intQ//ydfD//ydfE//ydfW//ydfX//
+DicA	dicB//dicC//insD-7//intQ//ydfD//ydfE//ydfW//ydfX//
 DnaA	polA//yjeV//
 EvgA	frc//oxc//yegR//yegZ//yfdE//yfdV//yfdX//
-FNR	arcA//bcsB//bcsZ//cheB//cheR//cheY//cheZ//fnrS//iraD//ompX//pdeF//pepT//pitA//rimM//rplS//rpsP//tap//tar//trmD//upp//uraA//xdhA//xdhB//xdhC//ychO//ydeJ//ysgA//
+FNR	arcA//bcsB//bcsZ//cheB//cheR//cheY//cheZ//fnrS//idlP//iraD//ompX//pdeF//pepT//pitA//ravA//rimM//rplS//rpsP//tap//tar//trmD//upp//uraA//viaA//xdhA//xdhB//xdhC//ychO//ydeJ//ysgA//
 FadR	accA//accD//fabD//fabG//fabH//fabI//fadM//fadR//
 FeaR	tynA//
 Fis	alaW//alaX//apaG//apaH//argU//argW//argX//aspV//cbpA//cbpM//flxA//glnU//glnV//glnW//glnX//gltX//glyT//glyU//gyrB//hisR//leuP//leuQ//leuT//leuV//leuW//leuX//lysT//lysV//lysW//metT//metU//msrA//pdxA//pheU//pheV//proK//proL//proM//queA//rsmA//serT//serX//thrT//thrU//thrW//topA//tpr//trmA//tufB//tyrT//tyrU//tyrV//valT//valU//valX//valY//
 FlhDC	flgA//flgB//flgC//flgD//flgE//flgF//flgG//flgH//flgI//flgJ//flgK//flgL//flhA//flhB//flhE//fliD//fliL//fliM//fliN//fliO//fliP//fliQ//fliR//fliS//fliT//gltI//gltJ//gltK//gltL//pdeH//ppdA//ppdB//ppdC//recC//sroC//ycgR//ygbK//ygdB//
 FliZ	mlrA//
-Fur	crl//entS//exbB//exbD//fecI//fecR//fepC//fepD//fepG//fhuA//fhuB//fhuC//fhuD//fhuE//gpmA//metJ//nohA//ryhB//tfaQ//tonB//ydfN//ygaC//yhhY//yjjZ//
-GadX	asnB//btuB//lon//murI//uspE//ybaS//ybaT//
+Fur	crl_1//entS//exbB//exbD//fepC//fepD//fepG//fhuA//fhuB//fhuC//fhuD//fhuE//gpmA//metJ//nohA//ryhB//tfaQ//tonB//ydfN//ygaC//yhhY//yjjZ//
+GadX	asnB//btuB//glsA//lon//murI//uspE//ybaT//
 GcvA	gcvA//gcvB//
-H-NS	adeD//adiY//chiA//cmoM//gspA//gspB//hchA//hdfR//mukB//mukE//mukF//rcsB//rcsD//yjjP//
+H-NS	adeD//adiY//chiA//cmoM//gspA//gspB//hchA//hdfR//mdtI//mdtJ//mukB//mukE//mukF//rcsB//rcsD//yjjP//
 HU	pgm//seqA//
 HcaR	hcaB//hcaC//hcaD//hcaE//hcaF//hcaR//
 IHF	amiA//hemF//htrE//ibpB//ihfB//uspB//yadV//
@@ -52,12 +51,12 @@ IlvY	ilvC//ilvY//
 IscR	erpA//iscA//iscR//iscS//iscU//rnlA//rnlB//ydiU//
 KdpE	kdpA//kdpB//kdpC//kdpF//
 LeuO	dsrA//leuA//leuB//leuC//leuD//leuL//
-LexA	cho//dinB//dinD//dinF//dinG//dinQ//dnaG//ftsK//hokE//insK//lexA//phr//polB//ptrA//recA//recB//recD//recN//recX//rpoD//rpsU//ruvA//ruvB//symE//tisB//umuC//umuD//uvrB//uvrC//uvrD//uvrY//yafN//yafO//yafP//ybfE//ydjM//yebG//
+LexA	cho//dinB//dinD//dinF//dinG//dinQ//dnaG//ftsK//hokE//insK//lexA//phr//polB//ptrA//recA//recB//recD//recN//recQ//recX//rpoD//rpsU//ruvA//ruvB//symE//tisB//umuC//umuD//uvrB//uvrC//uvrD//uvrY//yafN//yafO//yafP//ybfE//ybiB//ydjM//yebG//
 LrhA	lrhA//
-Lrp	alaA//avtA//kbl//leuE//livF//livG//livH//livJ//livK//livM//lysU//sdaA//tdh//yojI//
+Lrp	alaA//alaE//avtA//kbl//leuE//livF//livG//livH//livJ//livK//livM//lysU//sdaA//tdh//yojI//
 LysR	lysR//
 MalT	malZ//
-MarA	decR//yncE//
+MarA	decR//mlaB//mlaC//mlaD//mlaE//mlaF//yncE//
 MatA	ecpA//ecpR//
 McbR	mcbA//
 MetJ	folE//metA//metC//metF//yeiB//
@@ -79,8 +78,8 @@ OxyR	dsbG//flu//gor//grxA//hemH//isrC//oxyS//trxC//ychF//
 PaaX	paaX//paaY//
 PepA	pepA//
 PgrR	mpaA//ycjF//ycjG//ycjX//ycjY//ymjC//ymjD//
-PhoB	amn//cra//mipA//phnC//phnD//phnE_1//phnE_2//phnF//phnG//phnH//phnI//phnJ//phnK//phnL//phnM//phnN//phnO//phnP//phoA//phoB//phoE//phoH//phoR//pitB//psiF//sbcC//sbcD//tktB//ydfH//yegH//yhjC//
-PhoP	borD//glgB//glgX//mgrB//mgrR//mgtA//mgtL//ompT//pagP//phoP//rstA//rstB//slyB//treR//ybjG//yneM//
+PhoB	amn//cra//mipA//phnC//phnD//phnE_1//phnE_2//phnF//phnG//phnH//phnI//phnJ//phnK//phnL//phnM//phnN//phnO//phnP//phoA//phoB//phoE//phoH//phoR//pitB//psiF//sbcC//sbcD//tktB//ydfH//yegH//yhjC//ytfK//
+PhoP	borD//glgB//glgX//mgrB//mgrR//mgtA//mgtL//mgtS//ompT//pagP//phoP//rstA//rstB//slyB//treR//ybjG//
 PspF	pspF//
 PurR	cvpA//glnB//hflD//prs//purB//purC//purE//purF//purK//purL//speA//speB//ubiX//
 RbsR	add//
@@ -98,11 +97,13 @@ SoxS	fldA//fldB//ompN//pgi//ribA//ydbK//
 SutR	cysE//sutR//
 TorR	torR//
 TrpR	aroH//trpA//trpB//trpC//trpD//trpE//trpL//trpR//
+TtdR	ttdA//ttdB//ttdR//ttdT//
 TyrR	aroF//tyrA//tyrB//
 UidR	uidR//
-UvrY	csrB//luxS//
+UvrY	luxS//
 XapR	xapA//xapB//
 YdeO	uspD//yiiS//
+YhaJ	bssS//
 YjjQ	dgcN//gfcA//ybhL//yciX//yfiB//yfiR//ymiA//
 YpdB	yhjX//
 YqhC	dkgA//yqhD//

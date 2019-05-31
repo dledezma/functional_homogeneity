@@ -20,8 +20,8 @@ re10	trxC	reactant
 re10	trxC_mRNA	product
 re11	nrdA_mRNA	reactant
 re11	NrdA	product
-re12	NrdB	reactant
 re12	NrdA	reactant
+re12	NrdB	reactant
 re12	NrdA-NrdB	product
 re13	nucleoside diphosphate	reactant
 re13	reduced thioredoxin	reactant
@@ -31,13 +31,13 @@ re14	cytidine-diphosphate	reactant
 re14	reduced thioredoxin	reactant
 re14	thioredoxin disulfide	product
 re14	dCDP	product
-re15	reduced thioredoxin	reactant
 re15	uridine-diphosphate	reactant
+re15	reduced thioredoxin	reactant
 re15	thioredoxin disulfide	product
 re15	dUDP	product
-re16	thioredoxin disulfide	reactant
-re16	dADP	reactant
-re16	reduced thioredoxin	product
+re16	reduced thioredoxin	reactant
+re16	thioredoxin disulfide	product
+re16	dADP	product
 re17	guanosine-diphosphate	reactant
 re17	reduced thioredoxin	reactant
 re17	thioredoxin disulfide	product
@@ -88,29 +88,28 @@ re35	guanosine-diphosphate	reactant
 re35	guanosine-triphosphate	product
 re36	nrdD_mRNA	reactant
 re36	NrdD	product
-re37	FldA	reactant
-re37	FldA	product
-re37	dATP	product
-re38	guanosine-triphosphate	reactant
-re38	FldA	reactant
-re38	FldA	product
-re38	dGTP	product
-re39	uridine-triphosphate	reactant
-re39	FldA	reactant
-re39	FldA	product
-re39	dUTP	product
-re40	cytidine-triphosphate	reactant
-re40	FldA	reactant
-re40	FldA	product
-re40	dCTP	product
-re41	nucleoside triphosphate	reactant
-re41	FldA	reactant
-re41	deoxynucleoside triphosphate	product
-re41	FldA	product
+re37	nucleoside triphosphate	reactant
+re37	formate	reactant
+re37	deoxynucleoside triphosphate	product
+re37	CO2	product
+re38	formate	reactant
+re38	dATP	product
+re38	CO2	product
+re39	guanosine-triphosphate	reactant
+re39	formate	reactant
+re39	dGTP	product
+re39	CO2	product
+re40	uridine-triphosphate	reactant
+re40	formate	reactant
+re40	dUTP	product
+re40	CO2	product
+re41	cytidine-triphosphate	reactant
+re41	formate	reactant
+re41	dCTP	product
+re41	CO2	product
 re42	NrdG	reactant
 re42	NrdD	reactant
-re42	Fpr	reactant
-re42	NrdD-NrdG-Fpr	product
+re42	NrdD-NrdG	product
 re43	fldA_mRNA	reactant
 re43	FldA	product
 re44	nrdH_mRNA	reactant

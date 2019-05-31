@@ -81,8 +81,8 @@ re37	ketoglutarate	product
 re37	ammonium	product
 re38	gltB_mRNA	reactant
 re38	GltB	product
-re39	GltB	reactant
 re39	GltD	reactant
+re39	GltB	reactant
 re39	GltD-GltB	product
 re40	gltD_mRNA	reactant
 re40	GltD	product
@@ -97,22 +97,24 @@ re44	MnmE	reactant
 re44	MnmE-MnmG	product
 re45	guanosine-triphosphate	reactant
 re45	methylene-H4PteGlu(n)	reactant
-re45	tRNA uridine34	reactant
+re45	tRNA 2-thiouridine34	reactant
 re45	acceptors	reactant
 re45	glycine	reactant
-re45	5-carboxymethylaminomethyluridine in tRNA	product
+re45	5-carboxymethylaminomethyl-2-thiouridine in tRNA	product
 re45	guanosine-diphosphate	product
 re45	7,8-dihydrofolate	product
 re45	phosphate	product
 re45	A(H2)	product
 re46	guanosine-triphosphate	reactant
 re46	methylene-H4PteGlu(n)	reactant
-re46	tRNA 2-thiouridine34	reactant
+re46	tRNA uridine34	reactant
+re46	acceptors	reactant
 re46	glycine	reactant
-re46	5-carboxymethylaminomethyl-2-thiouridine in tRNA	product
+re46	5-carboxymethylaminomethyluridine in tRNA	product
 re46	guanosine-diphosphate	product
 re46	7,8-dihydrofolate	product
 re46	phosphate	product
+re46	A(H2)	product
 re47	guanosine-triphosphate	reactant
 re47	methylene-H4PteGlu(n)	reactant
 re47	tRNA 2-thiouridine34	reactant
@@ -149,22 +151,26 @@ re60	ABAL	reactant
 re60	GABA	product
 re61	serA_mRNA	reactant
 re61	SerA	product
-re62	2-hydroxyglutarate	reactant
-re62	ketoglutarate	product
-re63	3-P-D-glycerate	reactant
-re63	phosphohydroxypyruate	product
-re64	(R)-2-hydroxyglutarate	reactant
+re62	3-P-D-glycerate	reactant
+re62	phosphohydroxypyruate	product
+re63	(R)-2-hydroxyglutarate	reactant
+re63	ketoglutarate	product
+re64	2-hydroxyglutarate	reactant
 re64	ketoglutarate	product
 re65	ydcS_mRNA	reactant
 re65	YdcS	product
-re66	YdcT	reactant
-re66	YdcV	reactant
-re66	YdcS	reactant
 re66	YdcU	reactant
+re66	YdcV	reactant
+re66	YdcT	reactant
+re66	YdcS	reactant
 re66	YdcS-YdcT-YdcV-YdcU	product
-re67	ydcT_mRNA	reactant
-re67	YdcT	product
-re68	ydcU_mRNA	reactant
-re68	YdcU	product
-re69	ydcV_mRNA	reactant
-re69	YdcV	product
+re67	polyhydroxybutyrate	reactant
+re67	OH-butyryl-CoA	reactant
+re67	polyhydroxybutyrate	product
+re67	coenzyme A	product
+re68	ydcT_mRNA	reactant
+re68	YdcT	product
+re69	ydcU_mRNA	reactant
+re69	YdcU	product
+re70	ydcV_mRNA	reactant
+re70	YdcV	product

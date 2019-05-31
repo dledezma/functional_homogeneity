@@ -9,7 +9,6 @@
 (5Z)-dodec-5-enoyl-[acp]	SIMPLE_MOLECULE	|Cis-Delta5-dodecenoyl-ACPs|
 18:0-ACP	SIMPLE_MOLECULE	|Palmitoyl-ACPs|
 2,3,4-saturated fatty acyl-[acp]	SIMPLE_MOLECULE	|Saturated-Fatty-Acyl-ACPs|
-2,3-dihydroxybenzoyl-AMP	SIMPLE_MOLECULE	CPD-62
 2,3-dihydroxybenzoyl-EntB	SIMPLE_MOLECULE	|23DHB-EntB|
 2-pyrocatechuate	SIMPLE_MOLECULE	2-3-DIHYDROXYBENZOATE
 3-hydroxypimeloyl-[acp] methyl ester	SIMPLE_MOLECULE	|3-hydroxypimeloyl-ACP-methyl-esters|
@@ -36,7 +35,7 @@ AcpP	SIMPLE_MOLECULE	|b-Keto-cis-D5-dodecenoyl-ACPs|
 CH3(CH2)xCH=CHCO-S-ACP	SIMPLE_MOLECULE	TRANS-D2-ENOYL-ACP
 CO2	SIMPLE_MOLECULE	CARBON-DIOXIDE
 DHB-seryl-[EntF peptidyl-carrier protein]	SIMPLE_MOLECULE	|DHB-Seryl-EntF|
-EntB	PROTEIN	CPLX0-7849
+EntB	PROTEIN	ENTB-MONOMER
 EntB	PROTEIN	HOLO-ENTB
 EntB-EntD-EntF-EntE	COMPLEX	ENTMULTI-CPLX
 EntD	PROTEIN	ENTD-MONOMER
@@ -49,6 +48,9 @@ FabF	PROTEIN	3-OXOACYL-ACP-SYNTHII-MONOMER
 FabG	PROTEIN	3-OXOACYL-ACP-REDUCT-MONOMER
 FabI	PROTEIN	ENOYL-ACP-REDUCT-NADH-MONOMER
 FabZ	PROTEIN	FABZ-MONOMER
+KASI	PROTEIN	FABB-CPLX
+KASII	PROTEIN	3-OXOACYL-ACP-SYNTHII-CPLX
+Trans-D2-cis-D7-tetradecenoyl-ACPs	SIMPLE_MOLECULE	|Trans-D2-cis-D7-tetradecenoyl-ACPs|
 acetoacetyl-[acp]	SIMPLE_MOLECULE	|Acetoacetyl-ACPs|
 acetoacyl-ACP	SIMPLE_MOLECULE	B-KETOACYL-ACP
 acetyl-[acp]	SIMPLE_MOLECULE	ACETYL-ACP
@@ -101,5 +103,4 @@ seryl-[EntF peptidyl-carrier protein]	SIMPLE_MOLECULE	|Seryl-EntF|
 trans hex-2-enoyl-[acp]	SIMPLE_MOLECULE	|Hex-2-enoyl-ACPs|
 trans hexadecenoyl-[acp]	SIMPLE_MOLECULE	|2-Hexadecenoyl-ACPs|
 trans tetradec-2-enoyl-[acp]	SIMPLE_MOLECULE	|Tetradec-2-enoyl-ACPs|
-trans-delta3-cis-delta7-tetradecenoyl-[acp]	SIMPLE_MOLECULE	|Trans-D3-cis-D7-tetradecenoyl-ACPs|
 trans-delta3-cis-delta9-hexadecenoyl-[acp]	SIMPLE_MOLECULE	|Trans-D3-cis-D9-hexadecenoyl-ACPs|

@@ -23,36 +23,36 @@ re11	MazG	product
 re12	nucleoside triphosphate	reactant
 re12	mononucleotide	product
 re12	diphosphate	product
-re13	dITP	reactant
+re13	dCTP	reactant
 re13	diphosphate	product
-re13	dIMP	product
-re14	inosine triphosphate	reactant
+re13	dCMP	product
+re14	dUTP	reactant
 re14	diphosphate	product
-re14	5'-IMP	product
-re15	dCTP	reactant
+re14	dUMP	product
+re15	dATP	reactant
 re15	diphosphate	product
-re15	dCMP	product
-re16	uridine-triphosphate	reactant
+re15	dAMP	product
+re16	inosine triphosphate	reactant
 re16	diphosphate	product
-re16	5'-UMP	product
-re17	dTTP	reactant
+re16	5'-IMP	product
+re17	xanthosine 5' triphosphate	reactant
+re17	xanthosine-5-P	product
 re17	diphosphate	product
-re17	dTMP	product
-re18	dGTP	reactant
+re18	dTTP	reactant
 re18	diphosphate	product
-re18	dGMP	product
-re19	dATP	reactant
+re18	dTMP	product
+re19	dGTP	reactant
 re19	diphosphate	product
-re19	dAMP	product
-re20	dUTP	reactant
+re19	dGMP	product
+re20	cytidine-triphosphate	reactant
 re20	diphosphate	product
-re20	dUMP	product
-re21	xanthosine 5' triphosphate	reactant
-re21	xanthosine-5-P	product
+re20	cytidylate	product
+re21	uridine-triphosphate	reactant
 re21	diphosphate	product
-re22	cytidine-triphosphate	reactant
+re21	5'-UMP	product
+re22	dITP	reactant
 re22	diphosphate	product
-re22	cytidylate	product
+re22	dIMP	product
 re23	dut_mRNA	reactant
 re23	Dut	product
 re24	nudI_mRNA	reactant
@@ -104,9 +104,9 @@ re43	reduced thioredoxin	reactant
 re43	uridine-diphosphate	reactant
 re43	thioredoxin disulfide	product
 re43	dUDP	product
-re44	thioredoxin disulfide	reactant
-re44	dADP	reactant
-re44	reduced thioredoxin	product
+re44	reduced thioredoxin	reactant
+re44	thioredoxin disulfide	product
+re44	dADP	product
 re45	guanosine-diphosphate	reactant
 re45	reduced thioredoxin	reactant
 re45	thioredoxin disulfide	product

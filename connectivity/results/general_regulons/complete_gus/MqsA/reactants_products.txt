@@ -18,8 +18,8 @@ re9	csgD_mRNA	reactant
 re9	CsgD	product
 re10	csgE_mRNA	reactant
 re10	CsgE	product
-re11	CsgG	reactant
 re11	CsgE	reactant
+re11	CsgG	reactant
 re11	CsgE-CsgG	product
 re12	CsgA_Ext	reactant
 re12	CsgA	product
@@ -37,11 +37,11 @@ re17	MqsA-MqsR	product
 re18	mqsR_mRNA	reactant
 re18	MqsR	product
 re19	mRNA	reactant
-re19	single-stranded RNA	product
+re19	mRNA fragments	product
 re20	rpoS_mRNA	reactant
 re20	RpoS	product
-re21	RpoA	reactant
-re21	RpoC	reactant
 re21	RpoS	reactant
 re21	RpoB	reactant
+re21	RpoA	reactant
+re21	RpoC	reactant
 re21	RpoB-RpoC-RpoA-RpoS	product

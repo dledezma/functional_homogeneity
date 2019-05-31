@@ -6,6 +6,7 @@
 2-methylaconitate	SIMPLE_MOLECULE	CPD-1136
 2/3-phospho-D-glycerate	SIMPLE_MOLECULE	CPD-16758
 3-P-D-glycerate	SIMPLE_MOLECULE	G3P
+A(H2)	SIMPLE_MOLECULE	|Donor-H2|
 AceA	PROTEIN	ISOCIT-LYASE-MONOMER
 AceB	PROTEIN	MALATE-SYNTHASE
 AceE	PROTEIN	E1P-MONOMER
@@ -64,6 +65,8 @@ SucC	PROTEIN	SUCCCOASYN-BETA
 SucD	PROTEIN	SUCCCOASYN-ALPHA
 SucD-SucC	COMPLEX	SUCCCOASYN
 THF polyglutamate	SIMPLE_MOLECULE	THF-GLU-N
+Te0	SIMPLE_MOLECULE	CPD-16009
+TeO2	SIMPLE_MOLECULE	CPD-4544
 ThPP	SIMPLE_MOLECULE	THIAMINE-PYROPHOSPHATE
 TpiA	PROTEIN	TPI-MONOMER
 YbhA	PROTEIN	EG11239-MONOMER
@@ -77,6 +80,7 @@ YggF	PROTEIN	EG11245-MONOMER
 [protein]-N-phosphohistidine	SIMPLE_MOLECULE	|Protein-pi-phospho-L-histidines|
 [pyruvate dehydrogenase E2 protein] N6-dihydrolipoyl-L-lysine	SIMPLE_MOLECULE	|Pyruvate-dehydrogenase-dihydrolipoate|
 [pyruvate dehydrogenase E2 protein] N6-lipoyl-L-lysine	SIMPLE_MOLECULE	|Pyruvate-dehydrogenase-lipoate|
+acceptors	SIMPLE_MOLECULE	|Acceptor|
 aceA	GENE
 aceA_mRNA	RNA
 aceB	GENE

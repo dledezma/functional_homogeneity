@@ -6,14 +6,18 @@ re3	torD	reactant
 re3	torD_mRNA	product
 re4	torA_mRNA	reactant
 re4	TorA	product
-re5	TorA	reactant
 re5	TorC	reactant
+re5	TorA	reactant
 re5	TorC-TorA	product
 re6	menaquinol	reactant
 re6	TMAO	reactant
 re6	vitamin K2	product
 re6	(CH3)3NH	product
-re7	torC_mRNA	reactant
-re7	TorC	product
-re8	torD_mRNA	reactant
-re8	TorD	product
+re7	a-reduced-TorC-protein	reactant
+re7	TMAO	reactant
+re7	an-oxidized-TorC-protein	product
+re7	(CH3)3NH	product
+re8	torC_mRNA	reactant
+re8	TorC	product
+re9	torD_mRNA	reactant
+re9	TorD	product

@@ -1,108 +1,109 @@
-# From /Users/Daniela/Documents/CCG/codigos_random/random_regulons_same_enzymes.pl on Mon May 14 13:13:42 2018 using: /Users/Daniela/Documents/CCG/GU_art_2/connectivity/simple_regulons/random_sets/total_enzymes.txt
-# /Users/Daniela/Documents/CCG/GU_art_2/connectivity/simple_regulons/random_sets/simple_enzymes.txt
+# From /Users/Daniela/Documents/CCG/codigos_random/random_regulons_same_enzymes.pl on Sat Nov 24 05:21:33 2018 using: /Users/Daniela/Documents/CCG/GU_art_2/v22/connectivity/simple_regulons//analysis/total_enzymes.txt
+# /Users/Daniela/Documents/CCG/GU_art_2/v22/connectivity/simple_regulons//analysis/all_enzymes_in_set.txt
 AcrR	
-Ada	phnG//alaA//pheT//
-AgaR	cysD//
-AlaS	ada//
-AllR	glxK//cynT//cysD//nadC//speB//dhaK//
-AllS	purB//dgcC//cpdB//
-AlsR	glgX//speA//ttdB//
-ArcA	trpA//
-ArgP	purC//dacC//wzb//
-ArgR	uvrC//ruvA//add//phnJ//gpmM//hemF//thrS//phnM//accA//pgm//
-ArsR	argH//wecB//
+Ada	allA//alsE//ruvB//
+AgaR	hflX//
+AlaS	pgm//
+AllR	bcsB//pykF//argA//tdh//purC//wecB//
+AllS	asnB//malZ//ampD//
+AlsR	phnG//rpiB//talA//
+ArcA	cysC//
+ArgP	rpiB//hemH//bioF//
+ArgR	kbl//yqhD//tynA//sbcD//polB//patZ//argA//leuA//glmU//gor//
+ArsR	hcaD//ybjG//
 AscG	
-AsnC	metA//
-BasR	cheB//
-BirA	phnP//ppsA//trmD//dgkA//ilvB//
+AsnC	cheR//
+BasR	fbaB//
+BirA	wzc//ampC//talA//alkA//hcaC//
 BluR	
-BolA	rffG//phnG//
-CRP	xapA//dgcC//speB//umuC//hcaB//dgkA//hchA//mpaA//dhaM//trmD//asnB//paaY//fruK//pgpC//fbaB//allB//leuD//
-CdaR	purF//hcaF//hcaC//
-CecR	
-CpxR	hflX//ubiX//speC//ilvC//wecB//rffC//tadA//cyaA//phnL//
-Cra	fruK//glxR//cueO//adeD//purF//bcsZ//speC//ttdB//speB//upp//patD//gpsA//
-CreB	dhaK//
-CsgD	dhaK//glmS//bioF//
-CueR	dhaK//hchA//
-CynR	metF//hcaC//gor//
-CysB	allC//dhaL//bcsZ//bioA//ppsA//
-Dan	leuC//phnG//
-DhaR	kbl//
+BolA	rsmA//bioC//
+CRP	lysU//rfe//umuC//pheS//hflX//murI//metF//ychF//ilvN//patD//fabI//speB//oxc//pdeH//pagP//fabH//
+CdaR	bioB//bacA//cynT//
+CecR	leuA//
+CpxR	malZ//upp//argI//ppc//xdhC//leuA//hemF//argI//thrS//
+Cra	rfe//pdeF//avtA//dacC//argH//cheB//dhaK//trpC//purK//phnL//ruvA//
+CreB	pdeH//
+CsgD	glsA//purF//patZ//
+CueR	dacC//umuC//
+CynR	garD//rffC//gpmA//
+CysB	gudD//argI//hcaB//purF//
+DhaR	bioC//
 DicA	
-DnaA	ttdA//
-EvgA	ubiX//bioF//dacC//
-FNR	yeaG//trpC//gpsA//pgm//wzc//cysE//rpiB//hflX//preT//talA//paaY//
-FadR	dapB//purK//paaY//tehB//ilvB//leuB//
-FeaR	lysU//
-Fis	hcaB//trpB//fruK//eno//xdhB//fabH//lysC//amn//cynS//
-FlhDC	cysC//luxS//polB//
+DnaA	phnM//
+EvgA	pgpC//glpE//ybjG//
+FNR	ilvC//cysC//phnM//argI//polA//pgpC//cysD//adeD//frc//hcaC//alkB//
+FadR	cheR//trpC//pheT//mngB//yqhD//mltF//gcl//
+FeaR	arsC//
+Fis	trpE//hcaC//tadA//cysK//fabI//phnN//hflX//xdhC//patZ//
+FlhDC	polB//wecC//dacC//
 FliZ	
-Fur	leuA//tpiA//lysC//bcsZ//tyrA//add//glpE//
-GadX	yfdE//hflX//upp//phnL//phnP//
+Fur	phnO//ampC//gltX//purF//purL//hemF//
+GadX	purE//phoA//argI//metF//fabH//
 GcvA	
-H-NS	hyi//cysN//
-HU	ubiX//
-HcaR	ldtC//fabD//
-IHF	cysD//pheS//
-IlvY	hyi//
-IscR	wecC//wrbA//ampC//
-KdpE	glxK//
-LeuO	pfkA//fabG//allB//
-LexA	cyaA//yibQ//fabI//polB//trpD//trmD//fabD//bioC//bioC//tehB//
+H-NS	preA//amiA//phoA//dgkA//hcaC//
+HU	asnA//
+HcaR	dapB//tpiA//
+IHF	dinB//xdhC//
+IlvY	argC//
+IscR	pdeH//hemF//phnP//
+KdpE	accA//
+LeuO	yfdE//allB//talA//
+LexA	gor//gcl//speA//frc//upp//asnA//phr//wrbA//bioC//sbcD//gcl//trmA//fruK//
 LrhA	
-Lrp	preT//ybaS//bcsB//pdxA//apaH//tyrA//eno//uvrC//rdoA//
+Lrp	bioD//tynA//rpiB//polB//glxR//fadM//fabI//wzc//folE//hemF//
 LysR	
-MalT	garD//
+MalT	dkgA//
 MarA	
 MatA	
 McbR	
-MetJ	frc//wzb//tyrB//dhaK//
+MetJ	preA//trmA//pgi//glxK//
 MlrA	
-MngR	agp//ilvC//
+MngR	leuA//sbcC//
 MntR	
-MprA	speC//
-MqsA	glmS//
+MprA	nadC//
+MqsA	speB//
 MurR	
-Nac	adeD//
-NadR	iscS//wecC//fabI//
-NagC	glpE//yeaE//
+Nac	ldtD//leuC//
+NadR	pgm//ppc//accD//
+NagC	uvrB//garD//
 NanR	
-NimR	accD//
-NsrR	pykF//umuD//folE//tyrB//bcsB//cysN//phr//trpA//yeaG//dhaM//adeD//phnJ//amn//kbl//thrS//allA//dinB//rfe//cysE//
-NtrC	rffC//pdxA//pdeF//trpE//
-OmpR	queA//
-OxyR	glmU//pepD//slt//
-PaaX	amn//
-PepA	glgX//
-PgrR	argA//pgm//
-PhoB	hcaB//cheB//argA//rffG//pfkA//hemF//cheB//leuA//trpE//wecB//ybjG//
-PhoP	aroH//xapA//hcaB//alaA//nadC//mpaA//
+NimR	sdaA//
+NsrR	frc//argC//pagP//leuB//ydcS//cmoM//xapA//cheR//gpmA//alaS//ychF//argC//glxR//alaS//ubiX//accA//metA//agp//argI//pykF//
+NtrC	add//speA//speA//metC//
+OmpR	ybjG//
+OxyR	bacA//wrbA//fabI//bioC//
+PaaX	glmU//
+PepA	upp//
+PgrR	fadM//allA//
+PhoB	polA//dhaL//wzb//paaY//hcaF//upp//eno//ribA//iscS//adeD//phnO//metF//
+PhoP	pepD//cmoM//tyrB//pagP//oxc//dgcC//
 PspF	
-PurR	speC//trpA//mltF//hcaB//cynS//allE//trmA//trpA//yeaG//ppc//
-RbsR	speB//
+PurR	apaH//rpiB//glxK//pgi//cysE//rffG//dgkA//wrbA//dapD//dhaL//
+RbsR	agp//
 RcdA	
 RclR	
 RcnR	
-RcsAB	fabD//gpmA//
+RcsAB	phnJ//mltF//
 RcsB	
 RcsB-BglJ	
-Rob	polA//
+Rob	kbaY//
 RutR	
 SdiA	
-SgrR	cheR//ldtC//
-SoxS	phnL//bioF//ppc//dhaK//
-SutR	glk//
+SgrR	arsC//gcl//
+SoxS	gor//pepD//leuD//umuC//
+SutR	xdhB//
 TorR	
-TrpR	cyaA//fbaB//aroH//aroH//fabH//rffC//ribA//
-TyrR	aroH//slt//trpD//
+TrpR	gcl//alkA//folE//patZ//phr//metF//bacA//
+TtdR	uvrC//tehB//
+TyrR	argH//ruvB//recB//
 UidR	
-UvrY	arsC//
-XapR	pgm//cpdB//
+UvrY	murI//
+XapR	argE//fabG//
 YdeO	
-YjjQ	
+YhaJ	
+YjjQ	cynS//
 YpdB	
-YqhC	apaH//purC//
-ZntR	trpB//
+YqhC	eno//nadB//
+ZntR	nadC//
 ZraR	
-Zur	asnA//
+Zur	slt//

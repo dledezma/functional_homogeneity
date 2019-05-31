@@ -1,5 +1,6 @@
 (2S,3S)-2-methylcitrate	SIMPLE_MOLECULE	CPD-622
 2-methylaconitate	SIMPLE_MOLECULE	CPD-1136
+A(H2)	SIMPLE_MOLECULE	|Donor-H2|
 AceA	PROTEIN	ISOCIT-LYASE-MONOMER
 AceB	PROTEIN	MALATE-SYNTHASE
 AceE	PROTEIN	E1P-MONOMER
@@ -36,6 +37,8 @@ SucD	PROTEIN	SUCCCOASYN-ALPHA
 SucD-SucC	COMPLEX	SUCCCOASYN
 TCA-GLYOX-BYPASS	PROTEIN
 THF polyglutamate	SIMPLE_MOLECULE	THF-GLU-N
+Te0	SIMPLE_MOLECULE	CPD-16009
+TeO2	SIMPLE_MOLECULE	CPD-4544
 [2-oxoglutarate dehydrogenase E2 protein] N6-S-succinyldihydrolipoyl-L-lysine	SIMPLE_MOLECULE	|Oxo-glutarate-dehydro-suc-DH-lipoyl|
 [enzyme] N6-(S-acetyldihydrolipoyl)lysine	SIMPLE_MOLECULE	|Pyruvate-dehydrogenase-acetylDHlipoyl|
 [enzyme] N6-(dihydrolipoyl)lysine	SIMPLE_MOLECULE	|Dihydro-Lipoyl-Proteins|
@@ -44,6 +47,7 @@ THF polyglutamate	SIMPLE_MOLECULE	THF-GLU-N
 [glycine-cleavage complex H protein] N6-lipoyl-L-lysine	SIMPLE_MOLECULE	PROTEIN-LIPOYLLYSINE
 [pyruvate dehydrogenase E2 protein] N6-dihydrolipoyl-L-lysine	SIMPLE_MOLECULE	|Pyruvate-dehydrogenase-dihydrolipoate|
 [pyruvate dehydrogenase E2 protein] N6-lipoyl-L-lysine	SIMPLE_MOLECULE	|Pyruvate-dehydrogenase-lipoate|
+acceptors	SIMPLE_MOLECULE	|Acceptor|
 aceA	GENE
 aceA_mRNA	RNA
 aceB	GENE

@@ -4,6 +4,8 @@ A(H2)	SIMPLE_MOLECULE	|Donor-H2|
 AhpC	PROTEIN	EG11384-MONOMER
 AhpC-AhpF	COMPLEX	CPLX0-245
 AhpF	PROTEIN	EG11385-MONOMER
+CO2	SIMPLE_MOLECULE	CARBON-DIOXIDE
+Ccp	PROTEIN	EG12244-MONOMER
 Dps	PROTEIN	EG11415-MONOMER
 DsbG	PROTEIN	CPLX0-8004
 Fe+2	SIMPLE_MOLECULE	FE+2
@@ -26,10 +28,12 @@ MntH	PROTEIN	YFEP-MONOMER
 NH2OH	SIMPLE_MOLECULE	HYDROXYLAMINE
 NfsA	PROTEIN	EG11261-MONOMER
 OxyR	PROTEIN	PD00214
+PoxB	PROTEIN	PYRUVOXID-MONOMER
 RNA:IS102	PROTEIN	IS102-RNA
 RNA:OxyS	PROTEIN	OXYS-RNA
 ROOH	SIMPLE_MOLECULE	|Alkyl-Hydro-Peroxides|
 RimK	PROTEIN	EG10852-MONOMER
+S-sulfocysteine	SIMPLE_MOLECULE	SULFO-CYSTEINE
 SufA	PROTEIN	EG11378-MONOMER
 SufB	PROTEIN	G6909-MONOMER
 SufB-SufC-SufD	COMPLEX	CPLX0-1341
@@ -44,11 +48,12 @@ UxuB	PROTEIN	MANNONOXIDOREDUCT-MONOMER
 YbjC	PROTEIN	EG12842-MONOMER
 YbjN	PROTEIN	G6447-MONOMER
 YchF	PROTEIN	EG11404-MONOMER
-YhjA	PROTEIN	EG12244-MONOMER
 [L-cysteine desulfurase] L-cysteine persulfide	SIMPLE_MOLECULE	|L-Cysteine-Desulfurase-persulfide|
 [protein] C-terminal L-glutamate	SIMPLE_MOLECULE	|alpha-N-Peptidyl-LGlutamate|
 [protein] alpha-L-glu-alpha-L-glu	SIMPLE_MOLECULE	CPD0-2471
 acceptors	SIMPLE_MOLECULE	|Acceptor|
+acetate	SIMPLE_MOLECULE	ACET
+acetoin	SIMPLE_MOLECULE	ACETOIN
 ahpC	GENE
 ahpC_mRNA	RNA
 ahpF	GENE
@@ -56,11 +61,14 @@ ahpF_mRNA	RNA
 alanine	SIMPLE_MOLECULE	L-ALPHA-ALANINE
 alcohol	SIMPLE_MOLECULE	|Alcohols|
 ammonium	SIMPLE_MOLECULE	AMMONIUM
+ccp	GENE
+ccp_mRNA	RNA
 cysteine	SIMPLE_MOLECULE	CYS
 dps	GENE
 dps_mRNA	RNA
 dsbG	GENE
 dsbG_mRNA	RNA
+ethanal	SIMPLE_MOLECULE	ACETALD
 fhuF	GENE
 fhuF_mRNA	RNA
 flu	GENE
@@ -89,10 +97,12 @@ isrC_mRNA	RNA
 katG	GENE
 katG_mRNA	RNA
 mannonate	SIMPLE_MOLECULE	D-MANNONATE
+menaquinol	SIMPLE_MOLECULE	|Menaquinols|
 mntH	GENE
 mntH_mRNA	RNA
 nfsA	GENE
 nfsA_mRNA	RNA
+oxidized glutaredoxin	SIMPLE_MOLECULE	|Ox-Glutaredoxins|
 oxidized hybrid-cluster protein	SIMPLE_MOLECULE	|Ox-Hybrid-Cluster-Proteins|
 oxidized nitroaromatic compound	SIMPLE_MOLECULE	|Nitroaromatic-Ox-Compounds|
 oxyR	GENE
@@ -102,6 +112,8 @@ oxyS_mRNA	RNA
 oxygen	SIMPLE_MOLECULE	OXYGEN-MOLECULE
 perhydrol	SIMPLE_MOLECULE	HYDROGEN-PEROXIDE
 phosphate	SIMPLE_MOLECULE	|Pi|
+poxB	GENE
+poxB_mRNA	RNA
 protein cysteines	SIMPLE_MOLECULE	|Cysteine-Desulfurase-L-cysteine|
 protein with correct disulfide bonds	SIMPLE_MOLECULE	|Proteins-with-correct-disulfides|
 protein with incorrect disulfide bonds	SIMPLE_MOLECULE	|Proteins-with-incorrect-disulfides|
@@ -109,6 +121,8 @@ protein with oxidized disulfide bonds	SIMPLE_MOLECULE	|Protein-Ox-Disulfides|
 protein with reduced SH groups	SIMPLE_MOLECULE	|Protein-Red-Disulfides|
 protoheme IX	SIMPLE_MOLECULE	PROTOHEME
 protoporphyrin	SIMPLE_MOLECULE	PROTOPORPHYRIN_IX
+pyruvate	SIMPLE_MOLECULE	PYRUVATE
+reduced glutaredoxin	SIMPLE_MOLECULE	|Red-Glutaredoxins|
 reduced hybrid-cluster protein	SIMPLE_MOLECULE	|Red-Hybrid-Cluster-Proteins|
 reduced nitroaromatic compound	SIMPLE_MOLECULE	|Nitroaromatic-Red-Compounds|
 rimK	GENE
@@ -131,6 +145,8 @@ sulfite	SIMPLE_MOLECULE	SO3
 sulfurated sulfur donor	SIMPLE_MOLECULE	|Sulfurated-Sulfur-Acceptors|
 trxC	GENE
 trxC_mRNA	RNA
+ubiquinol	SIMPLE_MOLECULE	|Ubiquinols|
+ubiquinone	SIMPLE_MOLECULE	|Ubiquinones|
 unsulfurated [sulfur donor]	SIMPLE_MOLECULE	|Unsulfurated-Sulfur-Acceptors|
 uof	GENE
 uof_mRNA	RNA
@@ -138,11 +154,10 @@ uxuA	GENE
 uxuA_mRNA	RNA
 uxuB	GENE
 uxuB_mRNA	RNA
+vitamin K2	SIMPLE_MOLECULE	|Menaquinones|
 ybjC	GENE
 ybjC_mRNA	RNA
 ybjN	GENE
 ybjN_mRNA	RNA
 ychF	GENE
 ychF_mRNA	RNA
-yhjA	GENE
-yhjA_mRNA	RNA

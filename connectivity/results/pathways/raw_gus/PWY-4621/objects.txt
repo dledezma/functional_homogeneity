@@ -4,10 +4,12 @@ GrxB	PROTEIN	GRXB-MONOMER
 GrxC	PROTEIN	GRXC-MONOMER
 NrdH	PROTEIN	G7401-MONOMER
 PWY-4621	PROTEIN
+S-sulfocysteine	SIMPLE_MOLECULE	SULFO-CYSTEINE
 arsC	GENE
 arsC_mRNA	RNA
 arsenate	SIMPLE_MOLECULE	ARSENATE
 arsenite	SIMPLE_MOLECULE	CPD-763
+cysteine	SIMPLE_MOLECULE	CYS
 grxA	GENE
 grxA_mRNA	RNA
 grxB	GENE
@@ -17,4 +19,7 @@ grxC_mRNA	RNA
 nrdH	GENE
 nrdH_mRNA	RNA
 oxidized glutaredoxin	SIMPLE_MOLECULE	|Ox-Glutaredoxins|
+protein disulfide	SIMPLE_MOLECULE	|Protein-Disulfides|
+protein dithiol	SIMPLE_MOLECULE	|Protein-Dithiols|
 reduced glutaredoxin	SIMPLE_MOLECULE	|Red-Glutaredoxins|
+sulfite	SIMPLE_MOLECULE	SO3

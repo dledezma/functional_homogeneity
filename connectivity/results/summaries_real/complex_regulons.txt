@@ -1,0 +1,401 @@
+# From /Users/Daniela/Documents/CCG/data_sets_GUs/analysis/scripts/connectivity_from_gufiles_permissive_enx_v1.pl on Sat Nov 24 00:18:00 2018
+# Input = /Users/Daniela/Documents/CCG/GU_art_2/v22/connectivity/complex_regulons//complete_gus/
+GU name	Total enzymes	Enzymes	Total connected enzymes	Connected enzymes	Total components	Components	Total Enzymatic reactions	Total transport reactions	Connectivity
+AcrR_CRP_CpxR_Cra_Fis_MarA_MarR_Rob_SoxS	0		0		0	*	0	0	-0.0
+AcrR_CRP_FliZ_Fur_H-NS_HdfR_IHF_LrhA_MatA_OmpR_QseB_RcsAB_YjjQ	0		0		0	*	0	0	-0.0
+AcrR_EnvR_MarA_MprA_PhoP_Rob_SoxS	2	AcrD-AcrA-TolC,AcrA-TolC-AcrB,	0		6	*re11,*re7,*re10,*re5,*re8,*re9,*	6	6	0.0
+AcrR_FNR_Fur_SoxR	0		0		0	*	0	0	-0.0
+AcrR_FNR_Fur_SoxR_SoxS	0		0		0	*	0	0	-0.0
+AcrR_H-NS_HU_IHF_Lrp_MarA_OmpR_Rob_SoxS	0		0		0	*	0	0	-0.0
+Ada_AidB_Lrp	1	AidB,	0		1	*re3,*	1	0	0.0
+AdiY_ArcA_CRP_FNR_Fis_GadE-RcsB_GadW_GadX_H-NS_RcsB_TorR	1	GadA,	0		1	*re3,*	1	0	0.0
+AdiY_ArcA_CRP_FNR_Fis_GadE_GadE-RcsB_GadW_GadX_H-NS_PhoB_RcsB_RutR_TorR	0		0		0	*	0	0	-0.0
+AdiY_ArgR_CRP_FNR_Fur_GadE_HdfR_IHF_Lrp_Nac	0		0		0	*	0	0	-0.0
+AdiY_CRP_Fis_FliZ_GadE_GadW_GadX_RcsB	2	GadB,GadC,	2	GadC,GadB,	1	*re4,re6,*	2	1	1.0
+AdiY_H-NS_IHF	1	AdiA,	0		1	*re3,*	1	0	0.0
+AgaR_CRP	1	KbaY-KbaZ,	0		1	*re11,*	1	0	0.0
+AppY_ArcA_Fis_IscR_NarL_NarP_YdeO	0		0		0	*	0	0	-0.0
+AppY_ArcA_YdeO	2	AppC-AppB,AppA,	1	AppA,	3	*re6,*re10,re11,re9,re8,re7,*re14,*	7	1	0.2
+AraC_CRP	6	AraG-AraH-AraF,AraE,AraA,AraB,YgeA,AraD,	5	AraB,AraD,AraA,AraG-AraH-AraF,AraE,	2	*re11,re13,re15,re17,*re24,*	5	1	0.7
+AraC_CRP_XylR	2	XylA,XylB,	2	XylB,XylA,	2	*re9,*re6,re8,*	3	0	0.7
+AraC_NagC	0		0		0	*	0	0	-0.0
+ArcA_BetI_Cra	3	BetA,BetT,BetB,	3	BetB,BetT,BetA,	1	*re10,re6,re13,re7,re8,*	5	1	1.0
+ArcA_CRP_CaiF_FNR_H-NS	5	CaiC,CaiD,CaiA,CaiB,CaiT,	5	CaiD,CaiC,CaiA,CaiT,CaiB,	1	*re10,re12,re14,re8,re17,*	5	1	1.0
+ArcA_CRP_Cra_CusR_FNR_Fis_Fur_GadE_HprR_PdhR	2	CyoD-CyoA-CyoB-CyoC,CyoE,	0		2	*re13,*re8,*	2	1	0.0
+ArcA_CRP_Cra_FNR_Fis_Fur_PdhR	4	Lpd,AceE-AceF-Lpd,Lpd-GcvP-GcvH-GcvT,SucA-SucB-Lpd,	4	AceE-AceF-Lpd,Lpd-GcvP-GcvH-GcvT,Lpd,SucA-SucB-Lpd,	3	*re3,*re7,*re10,re11,re17,re13,re14,re15,re4,re18,re19,re20,re5,re9,re6,*	14	0	0.7
+ArcA_CRP_Cra_FNR_MarA_Rob_SoxS	1	AcnA,	1	AcnA,	1	*re3,re4,re5,*	2	0	1.0
+ArcA_CRP_Cra_FNR_NsrR_PdhR	3	AceE-AceF-Lpd,AceE,AceF,	3	AceE,AceE-AceF-Lpd,AceF,	1	*re10,re4,re5,re6,re9,re8,*	6	0	1.0
+ArcA_CRP_Cra_Fis	1	AcnB,	1	AcnB,	2	*re3,re4,re6,*re5,*	3	0	0.5
+ArcA_CRP_Cra_IHF_IclR	3	AceK,AceA,AceB,	3	AceK,AceB,AceA,	2	*re10,re9,*re5,re11,re7,*	4	0	0.8
+ArcA_CRP_DcuR	1	DctA,	0		6	*re5,*re4,*re8,*re6,*re3,*re7,*	6	6	0.0
+ArcA_CRP_DcuR_DpiA_FNR_NarL	0		0		0	*	0	0	-0.0
+ArcA_CRP_DcuR_FNR_Fis_Fur_NarL	1	FumB,	0		2	*re3,*re4,*	2	0	0.0
+ArcA_CRP_DnaA_FNR_MarA_Rob_SoxS	1	AldA,	0		2	*re3,*re4,*	2	0	0.0
+ArcA_CRP_DpiA_FNR_NarL	3	CitC,CitG,CitX,	3	CitX,CitC,CitG,	1	*re14,re16,re8,*	3	0	1.0
+ArcA_CRP_DpiA_FlhDC	1	Mdh,	0		1	*re3,*	1	0	0.0
+ArcA_CRP_EvgA_FliZ_GadE_GadW_GadX_H-NS_PhoP_YdeO	0		0		0	*	0	0	-0.0
+ArcA_CRP_FNR	1	FumA,	0		2	*re3,*re4,*	2	0	0.0
+ArcA_CRP_FNR_Fis_FlhDC_GlpR	1	GlpA-GlpB-GlpC,	0		1	*re6,*	1	0	0.0
+ArcA_CRP_FNR_Fis_Fur_PdhR	0		0		0	*	0	0	-0.0
+ArcA_CRP_FNR_Fis_IHF_NarL	1	PflB,	1	PflB,	1	*re3,re4,*	2	0	1.0
+ArcA_CRP_FNR_Fur	0		0		0	*	0	0	-0.0
+ArcA_CRP_FNR_Fur_IHF	4	SucA-SucB-Lpd,SucA,SucD-SucC,SucB,	4	SucA,SucA-SucB-Lpd,SucD-SucC,SucB,	1	*re10,re6,re16,re8,re14,re9,*	5	0	1.0
+ArcA_CRP_FNR_Fur_IHF_MarA_Rob_SoxS	1	SodA,	0		1	*re3,*	1	0	0.0
+ArcA_CRP_FNR_Fur_MarA_Rob_SoxR_SoxS	1	FumC,	0		1	*re3,*	1	0	0.0
+ArcA_CRP_FNR_IHF_NarL	1	FocA,	0		1	*re3,*	1	1	0.0
+ArcA_CRP_FNR_NarL	0		0		0	*	0	0	-0.0
+ArcA_CRP_FadR	1	FadD,	1	FadD,	1	*re4,re5,re6,re7,re8,*	5	4	1.0
+ArcA_CRP_FadR_HipB	1	FadH,	0		1	*re3,*	1	0	0.0
+ArcA_CRP_FadR_OmpR_PhoP	1	FadL,	0		1	*re3,*	1	1	0.0
+ArcA_CRP_Fis_Mlc_SoxS	1	PtsG-Crr,	1	PtsG-Crr,	1	*re5,re6,*	2	2	1.0
+ArcA_CRP_Fis_XylR	0		0		0	*	0	0	-0.0
+ArcA_CRP_Fur_GadX_MqsA	0		0		0	*	0	0	-0.0
+ArcA_CRP_GatR	3	GatY-GatZ,GatC-GatB-GatA,GatD,	3	GatY-GatZ,GatD,GatC-GatB-GatA,	3	*re14,re9,*re10,*re17,re19,*	4	2	0.6
+ArcA_CRP_GlpR	1	GlpD,	0		1	*re3,*	1	0	0.0
+ArcA_CRP_IHF	1	GltA,	0		1	*re3,*	1	0	0.0
+ArcA_CRP_PuuR	4	PuuB,PuuD,PuuC,PuuE,	4	PuuB,PuuD,PuuC,PuuE,	2	*re11,*re10,re16,re14,re12,re7,re9,*	7	0	0.8
+ArcA_CRP_RhaS	1	RhaT,	0		2	*re4,*re3,*	2	2	0.0
+ArcA_CRP_TreR	2	TreC,TreB-Crr,	2	TreB-Crr,TreC,	1	*re5,re7,*	2	1	1.0
+ArcA_CadC_GadE-RcsB_GadX_H-NS_Lrp	3	CadB,LdcI,CadA,	3	LdcI,CadA,CadB,	1	*re4,re7,re8,*	3	2	1.0
+ArcA_Cra	1	Icd,	1	Icd,	1	*re3,re4,re5,*	3	0	1.0
+ArcA_Cra_FNR_H-NS_HypT	1	CydA-CydB-CydX,	0		1	*re5,*	1	1	0.0
+ArcA_CysB_FNR	0		0		0	*	0	0	-0.0
+ArcA_DpiA_H-NS	0		0		0	*	0	0	-0.0
+ArcA_FNR	3	DcuC,AckA,Tpx,	1	DcuC,	4	*re17,*re16,*re19,re20,re21,*re37,*	6	3	0.2
+ArcA_FNR_Fis_Fur_IHF_NsrR_PdhR	1	Ndh,	0		3	*re3,*re4,*re5,*	3	0	0.0
+ArcA_FNR_Fis_IHF_NarL	1	NuoA-NuoH-NuoJ-NuoK-NuoL-NuoM-NuoN-NuoI-NuoG-NuoF-NuoE-NuoC-NuoB,	0		2	*re17,*re16,*	2	2	0.0
+ArcA_FNR_Fur_IHF	0		0		0	*	0	0	-0.0
+ArcA_FNR_IHF	2	PrmC,HemA,	0		2	*re5,*re8,*	2	0	0.0
+ArcA_FNR_IHF_NarL	2	UbiA,UbiC,	2	UbiC,UbiA,	1	*re4,re6,*	2	0	1.0
+ArcA_FNR_NarL	3	MoeB,CydD-CydC,MoeA,	2	MoeA,MoeB,	3	*re7,*re11,re14,re13,*re8,*	4	2	0.4
+ArcA_FNR_PhoP	0		0		0	*	0	0	-0.0
+ArcA_FNR_PuuR	2	PuuA,PuuP,	2	PuuA,PuuP,	1	*re4,re6,*	2	1	1.0
+ArcA_FadR	3	FadJ,FadE,FadI,	3	FadE,FadI,FadJ,	1	*re10,re11,re12,re21,re15,re16,re17,re18,re19,re20,re22,re31,re39,re29,re37,re28,re36,re9,re5,re32,re24,re40,re41,re42,re6,re33,re25,re7,re34,re26,re8,re35,re27,re30,re38,*	35	0	1.0
+ArcA_FadR_Fis	2	FadA,FadB,	2	FadA,FadB,	1	*re10,re11,re17,re25,re32,re30,re22,re14,re33,re4,re5,re15,re23,re6,re16,re24,re7,re18,re26,re8,re19,re27,re9,re20,re28,re31,re21,re29,*	28	0	1.0
+ArcA_Fur_Lrp_ModE	2	OppB-OppC-OppD-OppF-MppA,OppC-OppD-OppF-OppB-OppA,	0		3	*re10,*re9,*re8,*	3	3	0.0
+ArcA_GlcC_IHF_PdhR	3	GlcA,GlcB,GlcD-GlcE-GlcF,	3	GlcD-GlcE-GlcF,GlcA,GlcB,	3	*re10,*re12,re15,re16,re8,*re9,*	6	3	0.6
+ArcA_LexA	1	UvrB-UvrC-UvrA,	0		1	*re7,*	1	0	0.0
+ArcA_LldR	2	LldP,LldD,	2	LldP,LldD,	2	*re9,*re10,re6,re5,re8,*	5	3	0.7
+ArcA_NarL	1	HybA-HybB-HybO-HybC,	0		1	*re11,*	1	1	0.0
+ArcA_NtrC_PhoP_RutR	6	RutA,RutD,RutC,RutB,RutG,RutE,	6	RutC,RutA,RutD,RutB,RutE,RutG,	1	*re10,re14,re12,re13,re16,re18,re20,re9,re23,*	9	1	1.0
+ArgP_CRP_DnaA_Fis_H-NS_NrdR	1	NrdA-NrdB,	1	NrdA-NrdB,	1	*re10,re6,re7,re8,re9,*	5	0	1.0
+ArgP_CRP_FNR_Fur_Nac	1	GdhA,	0		1	*re3,*	1	0	0.0
+ArgP_DnaA	1	RecF-RecR-RecO,	0		1	*re9,*	1	0	0.0
+ArgP_Lrp	2	ArgO,LysP,	0		3	*re4,*re5,*re7,*	3	3	0.0
+ArgP_LysR	1	LysA,	0		1	*re3,*	1	0	0.0
+ArgP_PhoB	0		0		0	*	0	0	-0.0
+ArgR_CRP	1	ArgG,	0		1	*re3,*	1	0	0.0
+ArgR_CRP_Fis	3	Pnp,PNPase,TruB,	0		3	*re16,*re15,*re24,*	3	0	0.0
+ArgR_Fis_IHF_PepA_PurR_RutR	1	CarB-CarA,	1	CarB-CarA,	1	*re5,re6,re7,*	3	0	1.0
+ArgR_H-NS_NtrC	2	HisQ-HisP-HisM-ArgT,HisP-HisM-HisQ-HisJ,	0		4	*re12,*re11,*re7,*re10,*	4	4	0.0
+ArgR_NtrC	5	AstD,AstA,AstB,AstC,AstE,	5	AstE,AstB,AstC,AstA,AstD,	1	*re11,re12,re16,re14,re9,re7,*	6	0	1.0
+ArgR_PhoP	1	ArgD,	1	ArgD,	1	*re3,re4,*	2	0	1.0
+AscG_CRP	2	AscB,AscF,	2	AscF,AscB,	1	*re10,re6,re8,re5,re9,*	5	3	1.0
+AscG_CRP_PhoB_PrpR	0		0		0	*	0	0	-0.0
+AsnC_MraZ_Nac	0		0		0	*	0	0	-0.0
+AsnC_Nac	1	MnmE-MnmG,	1	MnmE-MnmG,	1	*re6,re7,re8,*	3	0	1.0
+AtoC_IHF	3	AtoA-AtoD,AtoB,AtoE,	3	AtoE,AtoB,AtoA-AtoD,	1	*re12,re7,re9,*	3	1	1.0
+BCCP_FadR	1	AccC,	0		1	*re6,*	1	0	0.0
+BaeR_CpxR	1	TolC-MdtC-MdtB-MdtA,	0		3	*re13,*re14,*re12,*	3	3	0.0
+BaeR_CpxR_EvgA	1	AcrD-AcrA-TolC,	0		1	*re4,*	1	1	0.0
+BasR_CRP_CpxR_Cra_CsgD_FliZ_H-NS_IHF_MlrA_MqsA_OmpR_RcdA_RcsAB_RstA	1	CsgE-CsgG,	0		1	*re8,*	1	1	0.0
+BasR_CpxR_PdhR	0		0		0	*	0	0	-0.0
+BasR_Fis	0		0		0	*	0	0	-0.0
+BasR_H-NS_IHF_NagC_NanR	0		0		0	*	0	0	-0.0
+BasR_MarA_PutA	1	PutA,	1	PutA,	1	*re3,re5,re4,*	2	0	1.0
+BasR_PhoP	0		0		0	*	0	0	-0.0
+BasR_QseB	0		0		0	*	0	0	-0.0
+BtsR_CRP	1	BtsT,	0		1	*re3,*	1	1	0.0
+CRP_CaiF_FNR	0		0		0	*	0	0	-0.0
+CRP_ChbR_NagC	3	ChbG,ChbA-ChbC-ChbB,ChbF,	3	ChbG,ChbA-ChbC-ChbB,ChbF,	1	*re10,re15,re9,re17,re14,re18,*	6	2	1.0
+CRP_ComR	0		0		0	*	0	0	-0.0
+CRP_CpxR	0		0		0	*	0	0	-0.0
+CRP_CpxR_CytR	1	PpiA,	0		1	*re3,*	1	0	0.0
+CRP_CpxR_CytR_DnaA_IHF	0		0		0	*	0	0	-0.0
+CRP_CpxR_EnvY_Fur_IHF_OmpR_PhoB_RstA	1	OmpF,	0		39	*re17,*re22,*re28,*re6,*re18,*re29,*re33,*re31,*re35,*re16,*re41,*re39,*re40,*re19,*re37,*re3,*re23,*re27,*re30,*re12,*re24,*re11,*re21,*re14,*re34,*re26,*re4,*re36,*re15,*re25,*re32,*re5,*re38,*re8,*re9,*re13,*re7,*re20,*re10,*	39	39	0.0
+CRP_CpxR_GlrR_IHF_NtrC_RcsB	0		0		0	*	0	0	-0.0
+CRP_Cra	6	Pgk,Mpl,GapA,Pck,FbaA,Epd,	6	Pgk,Mpl,GapA,Pck,FbaA,Epd,	2	*re10,re11,re8,re13,re20,re21,re18,*re15,re16,*	8	0	0.9
+CRP_Cra_FNR_Fis_H-NS_IHF_NarL_NarP	3	NirC,CysG,NirD-NirB,	3	NirC,CysG,NirD-NirB,	2	*re13,re15,*re10,re9,re6,re7,re8,*	7	1	0.8
+CRP_Cra_FNR_PdhR	0		0		0	*	0	0	-0.0
+CRP_Cra_Fis	3	MtlA,MtlD,EIIMtl,	3	MtlD,EIIMtl,MtlA,	1	*re12,re8,re9,*	3	2	1.0
+CRP_Cra_Fis_GlcC	0		0		0	*	0	0	-0.0
+CRP_Cra_Mlc_NagC	4	PtsG-Crr,TreB-Crr,MurP-Crr,ManZ-ManY-ManX,	4	PtsG-Crr,MurP-Crr,ManZ-ManY-ManX,TreB-Crr,	1	*re10,re12,re14,re17,re18,re19,re20,re21,re22,re9,*	10	10	1.0
+CRP_Cra_PrpR	4	PrpC,PrpB,PrpD,PrpE,	4	PrpE,PrpC,PrpB,PrpD,	1	*re11,re14,re8,re13,re9,re6,*	5	0	1.0
+CRP_CreB_Fis_MalT	1	MalK-MalF-MalG-MalE,	0		3	*re7,*re8,*re6,*	3	3	0.0
+CRP_CsiR_H-NS_Lrp	1	LhgO,	0		1	*re5,*	1	0	0.0
+CRP_CsiR_H-NS_Lrp_Nac	3	GabT,GabD,GabP,	3	GabT,GabD,GabP,	1	*re10,re9,re5,re7,*	4	1	1.0
+CRP_CspA_Fis	1	GyrA-GyrB,	0		1	*re4,*	1	0	0.0
+CRP_CytR	1	Udp,	0		1	*re6,*	1	0	0.0
+CRP_CytR_DeoR	2	NupG,Tsx,	0		11	*re6,*re12,*re11,*re14,*re4,*re5,*re8,*re9,*re13,*re7,*re10,*	11	11	0.0
+CRP_CytR_DeoR_Fis_ModE	4	DeoD,DeoC,DeoB,DeoA,	4	DeoD,DeoB,DeoC,DeoA,	1	*re10,re14,re15,re16,re18,re17,re19,re20,re6,re7,re9,re12,re21,*	12	0	1.0
+CRP_CytR_Nac	1	NupC,	0		9	*re3,*re6,*re7,*re10,*re5,*re8,*re9,*re4,*re11,*	9	9	0.0
+CRP_CytR_NsrR	1	Cdd,	1	Cdd,	1	*re3,re4,*	2	0	1.0
+CRP_DcuR_FNR_NarL	1	DcuB,	1	DcuB,	1	*re3,re4,re5,re7,re6,*	5	5	1.0
+CRP_DinJ-YafQ	0		0		0	*	0	0	-0.0
+CRP_DnaA_Fis_PurR	2	GuaB,GuaA,	2	GuaA,GuaB,	1	*re4,re5,re6,re8,*	4	0	1.0
+CRP_DpiA_ExuR	1	ExuT,	0		2	*re3,*re4,*	2	2	0.0
+CRP_DsdC	2	DsdA,DsdX,	2	DsdA,DsdX,	1	*re4,re5,re7,*	3	1	1.0
+CRP_EbgR	0		0		0	*	0	0	-0.0
+CRP_EvgA_FliZ_GadE_GadW_GadX_H-NS_YdeO	1	TolC-MdtE-MdtF,	0		1	*re5,*	1	1	0.0
+CRP_ExuR	1	UxaB,	0		1	*re3,*	1	0	0.0
+CRP_ExuR_FNR	2	UxaC,UxaA,	2	UxaC,UxaA,	2	*re4,re8,re7,*re6,*	3	0	0.7
+CRP_ExuR_OxyR_UxuR	2	UxuA,UxuB,	2	UxuB,UxuA,	1	*re4,re6,*	2	0	1.0
+CRP_ExuR_UxuR	0		0		0	*	0	0	-0.0
+CRP_FNR	0		0		0	*	0	0	-0.0
+CRP_FNR_FhlA_HyfR	1	HyfG-HyfI-HyfA-HyfB-HyfC-HyfD-HyfE-HyfF-HyfH,	0		1	*re16,*	1	0	0.0
+CRP_FNR_Fis	2	AnsB,AsnII,	0		1	*re5,*	1	0	0.0
+CRP_FNR_Fis_GlpR_IHF	2	GlpQ,GlpT,	2	GlpQ,GlpT,	1	*re4,re5,re7,*	3	1	1.0
+CRP_FNR_Fis_H-NS_SlyA	0		0		0	*	0	0	-0.0
+CRP_FNR_GcvA_Lrp_PurR	3	Lpd-GcvP-GcvH-GcvT,GcvT,GcvP,	3	GcvP,GcvT,Lpd-GcvP-GcvH-GcvT,	1	*re6,re7,re8,re9,*	4	0	1.0
+CRP_FNR_H-NS_NarL	0		0		0	*	0	0	-0.0
+CRP_FNR_IHF_TdcA_TdcR	5	TdcE,TdcC,TdcD,TdcB,TdcG,	5	TdcB,TdcC,TdcD,TdcE,TdcG,	1	*re10,re11,re15,re12,re13,re16,re24,re20,re21,re25,re18,*	9	2	1.0
+CRP_FNR_NarL	2	DcuA,AspA,	2	AspA,DcuA,	1	*re10,re5,re7,re8,re9,*	5	4	1.0
+CRP_FeaR_NsrR	1	FeaB,	0		1	*re3,*	1	0	0.0
+CRP_Fis	2	AldB,ProP,	0		3	*re12,*re7,*re13,*	3	2	0.0
+CRP_Fis_FlhDC_GalR_GalS	1	MglA-MglC-MglB,	0		2	*re6,*re5,*	2	2	0.0
+CRP_Fis_FliZ_IHF_Lrp	0		0		0	*	0	0	-0.0
+CRP_Fis_H-NS_HipAB_HipB_MazE_MazE-MazF	0		0		0	*	0	0	-0.0
+CRP_Fis_H-NS_LeuO_RcsB-BglJ_StpA	2	BglB,BglF,	2	BglB,BglF,	1	*re10,re11,re12,re7,re9,re5,re6,*	7	4	1.0
+CRP_Fis_IHF	3	DusB,ActP,Acs,	2	ActP,Acs,	2	*re14,*re10,re11,re12,re7,re8,*	6	3	0.5
+CRP_Fis_NanR	4	NanT,NanK,NanE,NanA,	4	NanK,NanA,NanE,NanT,	1	*re10,re12,re7,re14,re8,re15,*	6	2	1.0
+CRP_Fis_NtrC	1	GlnA,	0		1	*re5,*	1	0	0.0
+CRP_Fis_XylR	1	XylG-XylH-XylF,	0		1	*re6,*	1	1	0.0
+CRP_FlhDC_GalR_GalS	1	MglA-MglC-MglB,	0		2	*re5,*re4,*	2	2	0.0
+CRP_FucR	6	FucP,FucK,FucU,FucA,FucO,FucI,	5	FucA,FucO,FucI,FucK,FucU,	4	*re23,*re22,*re10,re16,re13,re18,re9,re15,re12,re26,re19,*re21,*	12	3	0.6
+CRP_Fur	10	EntB-EntD-EntF-EntE,EntH,ExbD-ExbB-TonB-FepA,Fiu,EntE,EntD,CirA,EntB,EntA,EntC,	7	EntE,EntC,EntA,EntH,EntB,EntB-EntD-EntF-EntE,EntD,	3	*re13,re15,re24,re17,re18,re19,re20,re21,re22,re26,re27,re30,re29,re32,re33,*re11,*re36,*	17	2	0.6
+CRP_Fur_HypT_PdhR	2	FecE-FecC-FecD-FecB,FecA-ExbD-ExbB-TonB,	0		1	*re9,*	1	1	0.0
+CRP_Fur_OxyR_SoxS	0		0		0	*	0	0	-0.0
+CRP_GalR_GalS	0		0		0	*	0	0	-0.0
+CRP_GalR_GalS_H-NS_HU	4	GalM,GalE,GalK,GalT,	4	GalK,GalM,GalE,GalT,	1	*re10,re8,re12,re6,*	4	0	1.0
+CRP_GalR_GalS_NagC	1	GalP,	0		2	*re3,*re4,*	2	2	0.0
+CRP_GlpR	3	GlpX,GlpK,GlpF,	2	GlpF,GlpK,	8	*re8,*re9,*re5,*re15,*re7,*re13,re6,*re10,*re11,*	9	7	0.2
+CRP_GntR	1	GntT,	0		1	*re4,*	1	1	0.0
+CRP_GntR_IdnR	6	IdnD,GntK,IdnK,IdnT,IdnO,GntU,	6	IdnT,IdnK,GntK,IdnO,GntU,IdnD,	1	*re11,re16,re13,re19,re21,re20,re9,*	6	3	1.0
+CRP_GntR_IscR	0		0		0	*	0	0	-0.0
+CRP_GutM_H-NS_SrlR	3	SrlD,GutQ,SrlA-SrlB-SrlE,	2	SrlA-SrlB-SrlE,SrlD,	2	*re10,*re13,re14,re17,*	4	2	0.5
+CRP_H-NS	0		0		0	*	0	0	-0.0
+CRP_H-NS_HipAB_HipB_NtrC	1	RelA,	1	RelA,	1	*re3,re5,re4,*	2	0	1.0
+CRP_H-NS_LacI	3	LacY,LacA,LacZ,	2	LacZ,LacY,	4	*re8,*re5,*re10,re16,re13,re14,re7,re15,re9,*re11,*	10	5	0.3
+CRP_H-NS_LeuO_SlyA	1	CasA-CasB-CasC-CasD-CasE,	0		1	*re13,*	1	0	0.0
+CRP_H-NS_MqsA	0		0		0	*	0	0	-0.0
+CRP_IHF	2	Hpt,Gcd,	1	Hpt,	2	*re7,*re10,re9,*	3	0	0.3
+CRP_IHF_MprA_OmpR	0		0		0	*	0	0	-0.0
+CRP_IHF_NsrR	1	SodB,	0		1	*re3,*	1	0	0.0
+CRP_IHF_PaaX	1	PaaZ,	1	PaaZ,	2	*re3,re4,*re5,*	3	0	0.5
+CRP_IHF_PaaX_SlyA	7	PaaF,PaaH,PaaE-PaaA-PaaC-PaaB,PaaG,PaaI,PaaK,PaaJ,	7	PaaG,PaaE-PaaA-PaaC-PaaB,PaaJ,PaaK,PaaI,PaaH,PaaF,	1	*re14,re23,re34,re27,re28,re30,re21,re25,re31,re33,*	9	0	1.0
+CRP_IHF_UlaR	4	UlaD,UlaE,UlaC-UlaB-UlaA,UlaF,	3	UlaF,UlaE,UlaD,	2	*re9,*re13,re15,re17,*	4	1	0.6
+CRP_IHF_YiaJ	6	SgbH,YiaK,YiaO-YiaN-YiaM,LyxK,SgbU,SgbE,	6	SgbH,LyxK,YiaK,SgbU,SgbE,YiaO-YiaN-YiaM,	1	*re12,re17,re13,re22,re26,re19,re15,*	7	1	1.0
+CRP_LexA	0		0		0	*	0	0	-0.0
+CRP_Lrp	4	DadX,AroA,SerC,DadA,	3	DadX,DadA,SerC,	3	*re13,re14,re15,*re11,re9,re8,*re6,*	7	0	0.5
+CRP_Lrp_Mlc	0		0		0	*	0	0	-0.0
+CRP_Lrp_Nac	1	SerA,	1	SerA,	2	*re4,re5,*re3,*	3	0	0.5
+CRP_LsrR	5	LsrG,LsrK,LsrB-LsrD-LsrC-LsrA,LsrF,Tam,	3	LsrF,LsrK,LsrG,	3	*re25,*re17,re19,re20,re22,*re12,*	6	1	0.4
+CRP_MalI	2	MalX,MalY,	1	MalY,	3	*re6,*re10,re12,re11,re9,*re7,*	6	2	0.2
+CRP_MalT	2	LamB,MalK-MalF-MalG-MalE,	0		4	*re6,*re10,*re9,*re5,*	4	4	0.0
+CRP_MalT_PhoP	1	MalS,	0		1	*re3,*	1	0	0.0
+CRP_MarA	1	XseA-XseB,	0		1	*re4,*	1	0	0.0
+CRP_MelR	2	MelA,MelB,	2	MelA,MelB,	3	*re10,re11,re12,re5,re8,*re13,*re6,re9,*	8	6	0.5
+CRP_MetJ	1	MetK,	0		1	*re3,*	1	0	0.0
+CRP_MhpR	6	MhpE,MhpB,MhpC,MhpA,MhpD,MhpF,	6	MhpF,MhpB,MhpD,MhpC,MhpA,MhpE,	1	*re11,re12,re15,re14,re17,re19,re21,re8,re9,*	9	0	1.0
+CRP_Mlc	0		0		0	*	0	0	-0.0
+CRP_ModE	1	ModC-ModB-ModA,	0		1	*re6,*	1	1	0.0
+CRP_MurR	3	MurP,MurQ,MurP-Crr,	2	MurQ,MurP-Crr,	2	*re6,*re5,re8,*	3	2	0.5
+CRP_Nac_NsrR_PhoB_QseB	0		0		0	*	0	0	-0.0
+CRP_NadR	1	PncB,	0		1	*re3,*	1	0	0.0
+CRP_NagC	5	ChiP,UmpH,NagE,EIINag,NagB,	3	NagB,NagE,EIINag,	7	*re19,*re22,*re18,*re8,*re20,*re21,*re11,re15,re14,*	9	3	0.3
+CRP_NagC_NanR	2	NanC,NanM,	2	NanC,NanM,	2	*re6,re8,*re5,*	3	2	0.7
+CRP_NagC_PhoP	1	NagA,	0		1	*re3,*	1	0	0.0
+CRP_OxyR	0		0		0	*	0	0	-0.0
+CRP_OxyR_UxuR	1	GntP,	0		2	*re3,*re4,*	2	2	0.0
+CRP_PhoB	2	UgpQ,UgpC-UgpA-UgpE-UgpB,	2	UgpC-UgpA-UgpE-UgpB,UgpQ,	1	*re10,re16,re11,re17,re18,re19,*	6	2	1.0
+CRP_PhoP	3	GlgP,GlgA,GlgC,	3	GlgP,GlgA,GlgC,	1	*re5,re7,re9,*	3	0	1.0
+CRP_PutA	1	PutP,	0		2	*re4,*re3,*	2	2	0.0
+CRP_RbsR	3	RbsK,RbsA-RbsC-RbsB,RbsD,	3	RbsA-RbsC-RbsB,RbsK,RbsD,	1	*re13,re17,re9,re15,*	3	1	1.0
+CRP_RhaR_RhaS	0		0		0	*	0	0	-0.0
+CRP_RhaS	3	RhaA,RhaB,RhaD,	3	RhaB,RhaA,RhaD,	2	*re10,re8,re11,re5,*re6,*	4	0	0.8
+CRP_Rob	1	LdtB,	1	LdtB,	1	*re3,re4,re5,*	3	0	1.0
+CRP_TorR	2	TnaA,TnaB,	2	TnaB,TnaA,	1	*re10,re5,re6,re8,re7,*	5	1	1.0
+CRP_UhpA_UvrY	1	UhpT,	0		4	*re4,*re5,*re6,*re3,*	4	4	0.0
+CRP_UidR_UxuR	2	UidB,UidA,	0		2	*re5,*re7,*	2	1	0.0
+CRP_UvrY	0		0		0	*	0	0	-0.0
+CRP_ZraR	0		0		0	*	0	0	-0.0
+CadC_FNR_H-NS_LeuO_MlrA	0		0		0	*	0	0	-0.0
+Cbl_CysB	2	TauD,TauA-TauC-TauB,	2	TauA-TauC-TauB,TauD,	1	*re11,re7,*	2	1	1.0
+Cbl_CysB_FNR_IHF	3	SsuA-SsuC-SsuB,SsuE,SsuD,	2	SsuD,SsuE,	2	*re12,re13,re14,re15,re17,*re8,*	6	1	0.5
+CdaR_FNR_Fis_Fur_H-NS	2	RnpB,RNA:RnpB,	2	RNA:RnpB,RnpB,	1	*re3,re4,*	2	0	1.0
+CdaR_FNR_Fur_H-NS	4	GarK,GarP,GarL,GarR,	4	GarP,GarR,GarK,GarL,	3	*re10,re14,re15,re6,re8,*re11,*re12,*	7	3	0.7
+CpxR_CsgD_FliZ	0		0		0	*	0	0	-0.0
+CpxR_CysB	1	DgcZ,	0		1	*re3,*	1	0	0.0
+CpxR_EnvY_IHF_Lrp_OmpR_YjjQ	1	OmpC,	0		39	*re18,*re33,*re29,*re22,*re17,*re28,*re6,*re23,*re27,*re12,*re30,*re24,*re31,*re35,*re16,*re41,*re39,*re40,*re37,*re19,*re3,*re4,*re26,*re34,*re36,*re21,*re11,*re14,*re20,*re10,*re13,*re7,*re15,*re32,*re25,*re5,*re38,*re9,*re8,*	39	39	0.0
+CpxR_GadE	3	FabZ,LpxD,LpxA,	3	LpxD,LpxA,FabZ,	2	*re10,re13,re18,re20,re14,re22,re26,re28,re31,re32,re35,re30,re15,re33,re16,re34,re17,re29,re8,re25,re9,re27,re11,re12,*re6,re24,re7,*	15	0	0.8
+CpxR_H-NS	1	DegP,	0		1	*re3,*	1	0	0.0
+CpxR_NsrR	0		0		0	*	0	0	-0.0
+CpxR_RcsB	0		0		0	*	0	0	-0.0
+CpxR_TyrR	1	AroG,	0		1	*re3,*	1	0	0.0
+Cra_FNR_Fis_Lrp_NarL	1	AdhE,	1	AdhE,	3	*re5,re6,*re4,*re3,*	4	0	0.3
+Cra_FNR_Fur_MarA_Rob_SoxS	1	Zwf,	0		1	*re3,*	1	0	0.0
+Cra_FNR_MarA_NarL_NarP_NsrR_OxyR_SoxS	1	PoxB,	1	PoxB,	1	*re3,re4,*	2	0	1.0
+Cra_FhlA_FlhDC	1	HypF,	1	HypF,	1	*re3,re4,re5,*	3	0	1.0
+Cra_GntR_KdgR	1	Edd,	0		1	*re3,*	1	0	0.0
+Cra_GntR_KdgR_PhoB	1	Eda,	1	Eda,	1	*re3,re4,re5,*	3	0	1.0
+Cra_PdeL	1	PdeL,	0		1	*re3,*	1	0	0.0
+Cra_SgrR	1	SetA,	0		1	*re5,*	1	1	0.0
+Cra_TyrR	1	AroP,	0		3	*re3,*re5,*re4,*	3	3	0.0
+CreB_NagC	0		0		0	*	0	0	-0.0
+CsgD_CysB_FlhDC_H-NS_IHF_MatA_NsrR_SutR	1	TcyN-TcyL-TcyJ,	0		6	*re6,*re4,*re7,*re8,*re9,*re5,*	6	6	0.0
+CsgD_FlhDC	0		0		0	*	0	0	-0.0
+CsgD_FlhDC_H-NS_IHF_MatA_NsrR_SutR	0		0		0	*	0	0	-0.0
+CspA_Fis_GadX_H-NS	0		0		0	*	0	0	-0.0
+CueR_FNR_ModE	3	MoaA,MoaD-MoaE,MoaC,	3	MoaD-MoaE,MoaC,MoaA,	1	*re10,re13,re7,*	3	0	1.0
+CusR_HprR_PhoB	2	YedX,CusC-CusB-CusF-CusA,	0		3	*re11,*re10,*re18,*	3	2	0.0
+CysB_H-NS	3	CysA-CysW-CysU-CysP,Sbp-CysW-CysU-CysA,CysM,	3	CysA-CysW-CysU-CysP,CysM,Sbp-CysW-CysU-CysA,	4	*re14,re15,re16,re17,re9,*re11,*re10,*re8,*	8	4	0.5
+CysB_HypT_IHF	1	CysH,	0		1	*re3,*	1	0	0.0
+CysB_IHF	2	CysJ-CysI,CysJ,	0		2	*re5,*re7,*	2	0	0.0
+CysB_NtrC	0		0		0	*	0	0	-0.0
+CysB_PhoP	0		0		0	*	0	0	-0.0
+DcuR_FNR_NarL	1	FrdA-FrdB-FrdC-FrdD,	0		1	*re7,*	1	0	0.0
+DinJ-YafQ_LexA	1	YafQ,	0		1	*re6,*	1	0	0.0
+DsdC_NsrR	0		0		0	*	0	0	-0.0
+EvgA_FNR	1	EmrK-EmrY-TolC,	0		1	*re5,*	1	1	0.0
+EvgA_H-NS	0		0		0	*	0	0	-0.0
+EvgA_H-NS_NagC_NarL_NarP_PhoP_RcsB_UvrY	0		0		0	*	0	0	-0.0
+EvgA_H-NS_PhoP_RcsB_YdeO	0		0		0	*	0	0	-0.0
+EvgA_PhoP_RcsB_YdeO	0		0		0	*	0	0	-0.0
+FNR_FhlA_IHF_NsrR	2	HypE,HypB,	0		2	*re9,*re14,*	2	0	0.0
+FNR_FhlA_NarL_NarP	2	FdhF-HycE-HycB-HycG-HycF-HycC-HycD,FdhF,	2	FdhF,FdhF-HycE-HycB-HycG-HycF-HycC-HycD,	1	*re4,re5,re6,*	3	0	1.0
+FNR_Fis_FlhDC_IHF_NarL_NarP_NsrR	2	NrfD-NrfC,NrfA,	2	NrfA,NrfD-NrfC,	1	*re10,re14,*	2	0	1.0
+FNR_Fis_IHF_ModE_NarL	1	DmsA-DmsB-DmsC,	0		1	*re6,*	1	0	0.0
+FNR_Fis_IHF_NarL	1	NarK,	1	NarK,	1	*re3,re4,*	2	2	1.0
+FNR_Fis_IHF_NarL_RstA	1	NarG-NarH-NarI,	1	NarG-NarH-NarI,	2	*re9,*re7,re8,*	3	2	0.5
+FNR_FlhDC	0		0		0	*	0	0	-0.0
+FNR_FlhDC_IscR_ModE_NarL_NarP	3	NapG-NapH,NapB-NapA,NapC,	2	NapG-NapH,NapB-NapA,	2	*re10,re18,*re13,*	3	0	0.5
+FNR_FlhDC_ModE_NarL_NarP	1	CcmD-CcmB-CcmA-CcmE-CcmC,	0		1	*re11,*	1	1	0.0
+FNR_Fur	2	AspC,GlnD,	2	AspC,GlnD,	2	*re10,re11,re12,*re4,re5,re6,re7,re8,*	8	0	0.7
+FNR_Fur_GadE	1	Gnd,	0		1	*re3,*	1	0	0.0
+FNR_Fur_GadX_NtrC	1	AmtB,	0		1	*re4,*	1	1	0.0
+FNR_Fur_H-NS	3	Fes,EntB-EntD-EntF-EntE,EntF,	3	EntB-EntD-EntF-EntE,Fes,EntF,	2	*re16,*re10,re11,re12,re13,re7,re17,re18,re19,re20,re8,re9,*	12	0	0.8
+FNR_Fur_MetR_NsrR	1	Hmp,	0		2	*re4,*re3,*	2	0	0.0
+FNR_Fur_Nac_NtrC	0		0		0	*	0	0	-0.0
+FNR_Fur_NagC	1	FeoB,	0		1	*re6,*	1	1	0.0
+FNR_Fur_OxyR	1	KatG,	1	KatG,	1	*re3,re4,*	2	0	1.0
+FNR_GadE_GadW_GadX_H-NS_PhoB_PhoP_RutR_SdiA_YdeO	0		0		0	*	0	0	-0.0
+FNR_H-NS	1	AcrE-AcrF-TolC,	0		1	*re5,*	1	1	0.0
+FNR_H-NS_NrdR	2	NrdG,NrdD,	1	NrdD,	2	*re11,*re4,re5,re6,re7,re8,*	6	0	0.3
+FNR_IHF	1	DppD-DppF-DppB-DppC-DppA,	0		1	*re8,*	1	1	0.0
+FNR_IHF_Lrp_YeiL	0		0		0	*	0	0	-0.0
+FNR_IHF_NarL_NarP_NorR	1	NorW,	0		1	*re6,*	1	0	0.0
+FNR_IHF_PhoB	0		0		0	*	0	0	-0.0
+FNR_MalT	2	MalQ,MalP,	2	MalQ,MalP,	1	*re11,re12,re13,re14,re15,re7,re4,re5,re6,re8,re9,*	10	0	1.0
+FNR_ModE	0		0		0	*	0	0	-0.0
+FNR_NarL	1	YnfE-YnfF-YnfG-YnfH,	0		1	*re12,*	1	0	0.0
+FNR_NarL_NarP	0		0		0	*	0	0	-0.0
+FNR_NarL_NarP_NsrR	0		0		0	*	0	0	-0.0
+FNR_NarL_NarP_NsrR_OxyR	2	Hcr,Hcp,	0		2	*re4,*re6,*	2	0	0.0
+FNR_NarL_NikR	1	NikD-NikE-NikB-NikC-NikA,	0		1	*re9,*	1	1	0.0
+FNR_NsrR	0		0		0	*	0	0	-0.0
+FNR_OxyR	1	Ccp,	0		1	*re3,*	1	0	0.0
+FNR_PurR	2	PurN,PurM,	2	PurN,PurM,	1	*re4,re7,re6,*	2	0	1.0
+FNR_YqjI	0		0		0	*	0	0	-0.0
+FabR_FadR	3	FabA,KASI,FabB,	3	FabB,KASI,FabA,	1	*re10,re11,re12,re14,re15,re16,re17,re18,re19,re20,re21,re22,re23,re24,re25,re26,re27,re29,re42,re43,re44,re46,re5,re32,re30,re31,re41,re38,re37,re34,re33,re36,re35,re40,re39,re45,re9,re4,re6,re7,re8,*	24	0	1.0
+FadR_IHF	0		0		0	*	0	0	-0.0
+FadR_IclR	0		0		0	*	0	0	-0.0
+FhlA_FlhDC	0		0		0	*	0	0	-0.0
+FhlA_IHF_ModE_NsrR	2	HycD-HycC-HycF-HycG-HycB-HycE,HycI,	0		2	*re21,*re13,*	2	0	0.0
+FhlA_IHF_NsrR	0		0		0	*	0	0	-0.0
+Fis_Fur	1	KatE,	1	KatE,	1	*re3,re4,*	2	0	1.0
+Fis_H-NS	0		0		0	*	0	0	-0.0
+Fis_H-NS_IHF_MntR_OxyR	0		0		0	*	0	0	-0.0
+Fis_H-NS_Lrp	0		0		0	*	0	0	-0.0
+Fis_H-NS_Lrp_StpA	1	Fau,	0		1	*re4,*	1	0	0.0
+Fis_IHF	0		0		0	*	0	0	-0.0
+Fis_IHF_NtrC	2	PatA,GlnQ-GlnP-GlnH,	1	PatA,	2	*re7,re8,*re5,*	3	1	0.3
+Fis_IHF_OmpR_RcsB	0		0		0	*	0	0	-0.0
+Fis_Lrp	0		0		0	*	0	0	-0.0
+Fis_MazE_MazE-MazF	1	MazG,	1	MazG,	1	*re10,re11,re12,re13,re3,re4,re5,re6,re7,re8,re9,*	11	0	1.0
+Fis_NarL	1	Ogt,	1	Ogt,	1	*re3,re4,*	2	0	1.0
+Fis_NarL_NarP_NsrR	0		0		0	*	0	0	-0.0
+Fis_PurR	1	PyrD,	1	PyrD,	1	*re3,re4,re5,*	3	0	1.0
+FliZ_GadE_GadW_GadX_H-NS_Lrp_MarA_PhoP_RcsB_TorR	0		0		0	*	0	0	-0.0
+FliZ_RutR	1	PdeR,	0		1	*re3,*	1	0	0.0
+Fur_H-NS	1	FtnA,	1	FtnA,	1	*re3,re4,re5,*	3	0	1.0
+Fur_H-NS_SlyA	1	GspO,	0		1	*re26,*	1	0	0.0
+Fur_IHF_IscR_NsrR_OxyR	1	SufS,	1	SufS,	1	*re14,re15,re16,re17,re18,*	5	0	1.0
+Fur_IscR_NrdR	1	NrdE-NrdF,	1	NrdE-NrdF,	2	*re10,re7,re8,re9,*re11,*	5	0	0.5
+Fur_MetR	1	MetH,	1	MetH,	1	*re3,re4,*	2	0	1.0
+Fur_MntR	1	MntP,	0		1	*re3,*	1	1	0.0
+Fur_MntR_OxyR	1	MntH,	0		2	*re4,*re3,*	2	2	0.0
+Fur_OxyR	0		0		0	*	0	0	-0.0
+Fur_PurR	1	PyrC,	0		1	*re5,*	1	0	0.0
+Fur_RcnR	1	RcnA,	0		2	*re4,*re5,*	2	2	0.0
+Fur_RutR	1	FepC-FepD-FepG-FepB,	0		1	*re4,*	1	1	0.0
+Fur_SlyA	0		0		0	*	0	0	-0.0
+Fur_SoxS_Zur	0		0		0	*	0	0	-0.0
+Fur_YqjI	1	YqjH,	1	YqjH,	1	*re3,re4,*	2	0	1.0
+GadE-RcsB_GadW_GadX_H-NS_MarA_YdeO	0		0		0	*	0	0	-0.0
+GadE-RcsB_H-NS	0		0		0	*	0	0	-0.0
+GadE-RcsB_PhoB	1	AdiC,	0		1	*re3,*	1	1	0.0
+GadE-RcsB_Rob	0		0		0	*	0	0	-0.0
+GadE_GadX_H-NS_PhoP_RcsB	0		0		0	*	0	0	-0.0
+GadE_H-NS_Lrp_NsrR	0		0		0	*	0	0	-0.0
+GadE_H-NS_MatA	0		0		0	*	0	0	-0.0
+GadE_H-NS_RcsAB	0		0		0	*	0	0	-0.0
+GadE_MarA_PurR	1	PurA,	0		1	*re3,*	1	0	0.0
+GadW_GadX_RcsB	0		0		0	*	0	0	-0.0
+GalR_GalS	0		0		0	*	0	0	-0.0
+GlrR_IHF	0		0		0	*	0	0	-0.0
+H-NS_IHF	1	ProV-ProW-ProX,	0		4	*re6,*re9,*re8,*re7,*	4	4	0.0
+H-NS_IHF_Lrp	0		0		0	*	0	0	-0.0
+H-NS_LeuO	0		0		0	*	0	0	-0.0
+H-NS_LeuO_LrhA_RcsB-BglJ_SlyA_StpA	0		0		0	*	0	0	-0.0
+H-NS_LrhA_Lrp	0		0		0	*	0	0	-0.0
+H-NS_Lrp	1	IlvI-IlvH,	1	IlvI-IlvH,	1	*re5,re6,*	2	0	1.0
+H-NS_Lrp_NhaR_RcsB	1	OsmC,	0		1	*re3,*	1	0	0.0
+H-NS_Lrp_StpA	0		0		0	*	0	0	-0.0
+H-NS_McbR	0		0		0	*	0	0	-0.0
+H-NS_NhaR	1	NhaA,	0		2	*re4,*re5,*	2	2	0.0
+H-NS_OmpR	0		0		0	*	0	0	-0.0
+H-NS_PhoB_RcdA_RstA	0		0		0	*	0	0	-0.0
+HU_IHF_TrpR_TyrR	1	Mtr,	0		2	*re4,*re3,*	2	2	0.0
+HU_IHF_TyrR	1	TyrP,	0		1	*re3,*	1	1	0.0
+HigA_HigB-HigA	1	HigB,	0		1	*re6,*	1	0	0.0
+HipAB_HipB_IHF	1	HipA,	0		1	*re5,*	1	0	0.0
+HypT_MetJ	1	MetN-MetI-MetQ,	0		5	*re6,*re9,*re8,*re10,*re7,*	5	5	0.0
+HypT_MetJ_PhoP	2	MetL,MetB,	2	MetL,MetB,	1	*re4,re10,re5,re6,re9,re11,re8,*	5	0	1.0
+IHF_Lrp	5	IlvA,BCAT,IlvO-IlvM,IlvE,IlvD,	5	IlvA,IlvO-IlvM,BCAT,IlvD,IlvE,	1	*re11,re15,re14,re16,re12,re28,re17,re27,re26,re22,re23,re25,re8,re9,*	10	0	1.0
+IHF_NsrR	0		0		0	*	0	0	-0.0
+IHF_NtrC	1	GlnQ-GlnP-GlnH,	0		1	*re5,*	1	1	0.0
+IHF_PhoP	0		0		0	*	0	0	-0.0
+IHF_PspF	1	PspE,	0		1	*re12,*	1	0	0.0
+IHF_RcsAB	0		0		0	*	0	0	-0.0
+IHF_RtcR	2	RtcA,RtcB,	2	RtcA,RtcB,	1	*re11,re12,re13,re15,re14,re4,re5,re6,re7,re8,re9,re16,*	12	0	1.0
+IHF_TyrR	1	FolA,	0		1	*re3,*	1	0	0.0
+IHF_UlaR	1	UlaG,	0		1	*re3,*	1	0	0.0
+IHF_UvrY	0		0		0	*	0	0	-0.0
+LexA_MraZ_PdhR	9	MraY,MurC,DdlB,MurG,MurE,MurD,LpxC,FtsI,MurF,	8	MurG,MurE,DdlB,MraY,MurC,MurD,FtsI,MurF,	2	*re20,*re13,re15,re30,re22,re32,re28,re26,re24,*	9	0	0.8
+LexA_MraZ_PdhR_RcsB_SdiA	0		0		0	*	0	0	-0.0
+LexA_MraZ_PdhR_SdiA	0		0		0	*	0	0	-0.0
+LexA_NagC	0		0		0	*	0	0	-0.0
+LexA_RcdA	0		0		0	*	0	0	-0.0
+LexA_RcsB-BglJ	0		0		0	*	0	0	-0.0
+MarA_OxyR_Rob_SoxS	2	RimK,NfsA,	0		2	*re6,*re8,*	2	0	0.0
+MarA_PhoP_Rob_SoxS	8	AcrE-AcrF-TolC,AcrD-AcrA-TolC,EmrK-EmrY-TolC,TolC-MdtC-MdtB-MdtA,TolC-MdtE-MdtF,TolC-MacB-MacA,EmrA-EmrB-TolC,AcrA-TolC-AcrB,	0		9	*re19,*re17,*re18,*re9,*re7,*re10,*re20,*re11,*re21,*	9	9	0.0
+MarA_Rob_SoxS	2	Nfo,NfsB,	0		3	*re12,*re11,*re9,*	3	0	0.0
+MarA_SoxS	3	WaaY,Fpr,WaaZ,	0		4	*re9,*re8,*re14,*re16,*	4	0	0.0
+MetJ_MetR	1	MetE,	0		1	*re4,*	1	0	0.0
+MetJ_OxyR	1	AhpC-AhpF,	0		1	*re5,*	1	0	0.0
+MetR_PurR	1	GlyA,	1	GlyA,	3	*re4,*re5,*re3,re6,re7,*	5	0	0.3
+MraZ_PdhR	1	RsmH,	0		1	*re5,*	1	0	0.0
+Nac_PurR	2	CodB,CodA,	2	CodA,CodB,	1	*re4,re5,re7,*	3	1	1.0
+NarL_TorR	2	TorA,TorC-TorA,	2	TorC-TorA,TorA,	1	*re6,re7,*	2	0	1.0
+NemR_RutR	2	NemA,GloA,	0		2	*re5,*re7,*	2	0	0.0
+NhaR_OmpR	3	PgaB,PgaA,PgaD-PgaC,	3	PgaD-PgaC,PgaA,PgaB,	1	*re11,re12,re8,re6,*	4	2	1.0
+NorR_NsrR	0		0		0	*	0	0	-0.0
+NsrR_PhoB	1	WaaH,	0		1	*re3,*	1	0	0.0
+OxyR_SoxS	0		0		0	*	0	0	-0.0
+PdhR_PhoP	1	HemL,	0		1	*re3,*	1	0	0.0
+PgrR_TyrR	0		0		0	*	0	0	-0.0
+PhoB_PhoP	0		0		0	*	0	0	-0.0
+PhoP_PurR_RbsR	2	PurH,PurD,	2	PurH,PurD,	1	*re4,re8,re6,re7,*	3	0	1.0
+RelB_RelB-RelE	1	RelE,	0		1	*re8,*	1	0	0.0
+TrpR_TyrR	1	AroL,	0		1	*re5,*	1	0	0.0
+YefM_YefM-YoeB	1	YoeB,	0		1	*re6,*	1	0	0.0

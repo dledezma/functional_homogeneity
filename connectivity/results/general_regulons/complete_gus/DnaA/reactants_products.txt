@@ -24,30 +24,30 @@ re12	yjeV	reactant
 re12	yjeV_mRNA	product
 re13	aldA_mRNA	reactant
 re13	AldA	product
-re14	glycoaldehyde	reactant
-re14	glycolate	product
-re15	lactaldehyde	reactant
-re15	lactate	product
+re14	lactaldehyde	reactant
+re14	lactate	product
+re15	glycoaldehyde	reactant
+re15	glycolate	product
 re16	dnaA_mRNA	reactant
 re16	DnaA	product
 re17	dnaN_mRNA	reactant
 re17	DnaN	product
+re18	HolB	reactant
+re18	HolD	reactant
+re18	DnaN	reactant
+re18	DnaQ	reactant
 re18	HolE	reactant
 re18	HolA	reactant
-re18	DnaN	reactant
-re18	HolB	reactant
-re18	HolC	reactant
-re18	HolD	reactant
 re18	DnaE	reactant
 re18	DnaX	reactant
-re18	DnaQ	reactant
+re18	HolC	reactant
 re18	HolE-DnaQ-DnaE-HolA-HolB-DnaX-DnaN-HolD-HolC	product
 re19	guaA_mRNA	reactant
 re19	GuaA	product
 re20	xanthosine-5-P	reactant
 re20	glutamine	reactant
-re20	diphosphate	product
 re20	L-glutamate	product
+re20	diphosphate	product
 re20	guanylate	product
 re21	glutamine	reactant
 re21	L-glutamate	product
@@ -77,9 +77,9 @@ re29	reduced thioredoxin	reactant
 re29	uridine-diphosphate	reactant
 re29	thioredoxin disulfide	product
 re29	dUDP	product
-re30	thioredoxin disulfide	reactant
-re30	dADP	reactant
-re30	reduced thioredoxin	product
+re30	reduced thioredoxin	reactant
+re30	thioredoxin disulfide	product
+re30	dADP	product
 re31	guanosine-diphosphate	reactant
 re31	reduced thioredoxin	reactant
 re31	thioredoxin disulfide	product
@@ -107,10 +107,10 @@ re39	unstable RecA filament-DNA complex	reactant
 re39	stabilized RecA filament-DNA complex	product
 re40	rpoH_mRNA	reactant
 re40	RpoH	product
-re41	RpoH	reactant
-re41	RpoA	reactant
 re41	RpoC	reactant
+re41	RpoH	reactant
 re41	RpoB	reactant
+re41	RpoA	reactant
 re41	RpoB-RpoC-RpoA-RpoH	product
 re42	yfaE_mRNA	reactant
 re42	YfaE	product

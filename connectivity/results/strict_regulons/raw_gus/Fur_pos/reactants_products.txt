@@ -46,60 +46,61 @@ re23	ammonium_Ext	reactant
 re23	ammonium	product
 re24	entS_mRNA	reactant
 re24	EntS	product
-re25	EntS	reactant
-re25	TolC	reactant
-re25	EntS-TolC	product
-re26	enterobactin_Ext	reactant
-re26	enterobactin	product
-re27	ftnA_mRNA	reactant
-re27	FtnA	product
+re25	enterobactin_Ext	reactant
+re25	enterobactin	product
+re26	ftnA_mRNA	reactant
+re26	FtnA	product
+re27	oxygen	reactant
+re27	Fe+2	reactant
+re27	[FeO(OH)] monomer	product
 re28	oxygen	reactant
 re28	Fe+2	reactant
 re28	[FeO(OH)] monomer	product
-re29	oxygen	reactant
+re28	perhydrol	product
+re29	perhydrol	reactant
 re29	Fe+2	reactant
 re29	[FeO(OH)] monomer	product
-re29	perhydrol	product
-re30	perhydrol	reactant
-re30	Fe+2	reactant
-re30	[FeO(OH)] monomer	product
-re31	fumB_mRNA	reactant
-re31	FumB	product
-re32	malate	reactant
-re32	fumarate	product
-re33	tartrate	reactant
-re33	oxalacetate	product
-re34	gdhA_mRNA	reactant
-re34	GdhA	product
-re35	L-glutamate	reactant
-re35	ketoglutarate	product
-re35	ammonium	product
-re36	glnK_mRNA	reactant
-re36	GlnK	product
-re37	katE_mRNA	reactant
-re37	KatE	product
+re30	fumB_mRNA	reactant
+re30	FumB	product
+re31	malate	reactant
+re31	fumarate	product
+re32	tartrate	reactant
+re32	oxalacetate	product
+re33	gdhA_mRNA	reactant
+re33	GdhA	product
+re34	L-glutamate	reactant
+re34	ketoglutarate	product
+re34	ammonium	product
+re35	glnK_mRNA	reactant
+re35	GlnK	product
+re36	katE_mRNA	reactant
+re36	KatE	product
+re37	perhydrol	reactant
+re37	oxygen	product
+re38	protoheme IX	reactant
 re38	perhydrol	reactant
-re38	oxygen	product
-re39	protoheme IX	reactant
-re39	perhydrol	reactant
-re39	heme d	product
-re40	katG_mRNA	reactant
-re40	KatG	product
-re41	perhydrol	reactant
-re41	A(H2)	reactant
-re41	acceptors	product
-re42	lpd_mRNA	reactant
-re42	Lpd	product
-re43	[enzyme] N6-(dihydrolipoyl)lysine	reactant
-re43	lipoyl-domain	product
-re44	[glycine-cleavage complex H protein] N6-dihydrolipoyl-L-lysine	reactant
-re44	[glycine-cleavage complex H protein] N6-lipoyl-L-lysine	product
-re45	[pyruvate dehydrogenase E2 protein] N6-dihydrolipoyl-L-lysine	reactant
-re45	[pyruvate dehydrogenase E2 protein] N6-lipoyl-L-lysine	product
-re46	enzyme N6-(dihydrolipoyl)lysine	reactant
-re46	enzyme N6-(lipoyl)lysine	product
-re47	SucB	reactant
+re38	heme d	product
+re39	katG_mRNA	reactant
+re39	KatG	product
+re40	perhydrol	reactant
+re40	A(H2)	reactant
+re40	acceptors	product
+re41	lpd_mRNA	reactant
+re41	Lpd	product
+re42	[enzyme] N6-(dihydrolipoyl)lysine	reactant
+re42	lipoyl-domain	product
+re43	[glycine-cleavage complex H protein] N6-dihydrolipoyl-L-lysine	reactant
+re43	[glycine-cleavage complex H protein] N6-lipoyl-L-lysine	product
+re44	[pyruvate dehydrogenase E2 protein] N6-dihydrolipoyl-L-lysine	reactant
+re44	[pyruvate dehydrogenase E2 protein] N6-lipoyl-L-lysine	product
+re45	enzyme N6-(dihydrolipoyl)lysine	reactant
+re45	enzyme N6-(lipoyl)lysine	product
+re46	A(H2)	reactant
+re46	TeO2	reactant
+re46	acceptors	product
+re46	Te0	product
 re47	SucA	reactant
+re47	SucB	reactant
 re47	Lpd	reactant
 re47	SucA-SucB-Lpd	product
 re48	ketoglutarate	reactant
@@ -114,8 +115,8 @@ re50	enzyme N6-(dihydrolipoyl)lysine	reactant
 re50	suc-coa	reactant
 re50	[2-oxoglutarate dehydrogenase E2 protein] N6-S-succinyldihydrolipoyl-L-lysine	product
 re50	coenzyme A	product
-re51	GcvP	reactant
 re51	GcvH	reactant
+re51	GcvP	reactant
 re51	GcvT	reactant
 re51	Lpd	reactant
 re51	Lpd-GcvP-GcvH-GcvT	product
@@ -155,72 +156,118 @@ re60	Mn(II)_Ext	reactant
 re60	Mn(II)	product
 re61	ompF_mRNA	reactant
 re61	OmpF	product
-re62	5-methylthioribose_Ext	reactant
-re62	5-methylthioribose	product
-re63	inositol_Ext	reactant
-re63	inositol	product
-re64	amino acid_Ext	reactant
-re64	amino acid	product
-re65	base(2)_Ext	reactant
-re65	base(2)	product
-re66	polyol_Ext	reactant
-re66	polyol	product
-re67	short-chain alcohol_Ext	reactant
-re67	short-chain alcohol	product
-re68	short-chain acid anion_Ext	reactant
-re68	short-chain acid anion	product
-re69	organosulfur compound_Ext	reactant
-re69	organosulfur compound	product
-re70	CO2_Ext	reactant
-re70	CO2	product
-re71	ion_Ext	reactant
-re71	ion	product
-re72	monosaccharide_Ext	reactant
-re72	monosaccharide	product
-re73	beta-Neu5Ac_Ext	reactant
-re73	beta-Neu5Ac	product
-re74	N-acetylneuraminate_Ext	reactant
-re74	N-acetylneuraminate	product
-re75	betaine_Ext	reactant
-re75	betaine	product
-re76	hydrophilic solute or ion 600 Da_Ext	reactant
-re76	hydrophilic solute or ion 600 Da	product
-re77	TolB	reactant
-re77	OmpF	reactant
-re77	TolB-OmpF	product
-re78	sdhA_mRNA	reactant
-re78	SdhA	product
-re79	SdhD	reactant
-re79	SdhA	reactant
-re79	SdhC	reactant
-re79	SdhB	reactant
-re79	SdhA-SdhB-SdhC-SdhD	product
-re80	sdhB_mRNA	reactant
-re80	SdhB	product
-re81	sdhC_mRNA	reactant
-re81	SdhC	product
-re82	sdhD_mRNA	reactant
-re82	SdhD	product
-re83	sucA_mRNA	reactant
-re83	SucA	product
-re84	sucB_mRNA	reactant
-re84	SucB	product
-re85	sucC_mRNA	reactant
-re85	SucC	product
-re86	SucD	reactant
-re86	SucC	reactant
-re86	SucD-SucC	product
-re87	coenzyme A	reactant
-re87	succinate	reactant
-re87	phosphate	product
-re87	suc-coa	product
-re88	sucD_mRNA	reactant
-re88	SucD	product
-re89	tonB_mRNA	reactant
-re89	TonB	product
-re90	ExbD	reactant
-re90	TonB	reactant
-re90	ExbB	reactant
-re90	TonB-ExbB-ExbD	product
-re91	zinT_mRNA	reactant
-re91	ZinT	product
+re62	hydrophilic solute or ion 600 Da_Ext	reactant
+re62	hydrophilic solute or ion 600 Da	product
+re63	organophosphorus compound_Ext	reactant
+re63	organophosphorus compound	product
+re64	glycoside_Ext	reactant
+re64	glycoside	product
+re65	sugar_Ext	reactant
+re65	sugar	product
+re66	beta-Neu5Ac_Ext	reactant
+re66	beta-Neu5Ac	product
+re67	N-acetylneuraminate_Ext	reactant
+re67	N-acetylneuraminate	product
+re68	sugar phosphate_Ext	reactant
+re68	sugar phosphate	product
+re69	aromatic compound_Ext	reactant
+re69	aromatic compound	product
+re70	trisaccharide_Ext	reactant
+re70	trisaccharide	product
+re71	disaccharide_Ext	reactant
+re71	disaccharide	product
+re72	maltose_Ext	reactant
+re72	maltose	product
+re73	chitobiose_Ext	reactant
+re73	chitobiose	product
+re74	oligopeptide_Ext	reactant
+re74	oligopeptide	product
+re75	nucleoside_Ext	reactant
+re75	nucleoside	product
+re76	nucleotide_Ext	reactant
+re76	nucleotide	product
+re77	nucleotide sugar_Ext	reactant
+re77	nucleotide sugar	product
+re78	RCHO_Ext	reactant
+re78	RCHO	product
+re79	lactone_Ext	reactant
+re79	lactone	product
+re80	amide_Ext	reactant
+re80	amide	product
+re81	amine_Ext	reactant
+re81	amine	product
+re82	hydroxy carboxylate_Ext	reactant
+re82	hydroxy carboxylate	product
+re83	aldonate_Ext	reactant
+re83	aldonate	product
+re84	MCFA_Ext	reactant
+re84	MCFA	product
+re85	caprate_Ext	reactant
+re85	caprate	product
+re86	monocarboxylate_Ext	reactant
+re86	monocarboxylate	product
+re87	betaine_Ext	reactant
+re87	betaine	product
+re88	dicarboxylate_Ext	reactant
+re88	dicarboxylate	product
+re89	5-methylthioribose_Ext	reactant
+re89	5-methylthioribose	product
+re90	inositol_Ext	reactant
+re90	inositol	product
+re91	amino acid_Ext	reactant
+re91	amino acid	product
+re92	base(2)_Ext	reactant
+re92	base(2)	product
+re93	polyol_Ext	reactant
+re93	polyol	product
+re94	short-chain alcohol_Ext	reactant
+re94	short-chain alcohol	product
+re95	short-chain acid anion_Ext	reactant
+re95	short-chain acid anion	product
+re96	organosulfur compound_Ext	reactant
+re96	organosulfur compound	product
+re97	sulfadiazine_Ext	reactant
+re97	sulfadiazine	product
+re98	ion_Ext	reactant
+re98	ion	product
+re99	glycerol 1-phosphate_Ext	reactant
+re99	glycerol 1-phosphate	product
+re100	TolB	reactant
+re100	OmpF	reactant
+re100	TolB-OmpF	product
+re101	sdhA_mRNA	reactant
+re101	SdhA	product
+re102	SdhB	reactant
+re102	SdhA	reactant
+re102	SdhD	reactant
+re102	SdhC	reactant
+re102	SdhA-SdhB-SdhC-SdhD	product
+re103	sdhB_mRNA	reactant
+re103	SdhB	product
+re104	sdhC_mRNA	reactant
+re104	SdhC	product
+re105	sdhD_mRNA	reactant
+re105	SdhD	product
+re106	sucA_mRNA	reactant
+re106	SucA	product
+re107	sucB_mRNA	reactant
+re107	SucB	product
+re108	sucC_mRNA	reactant
+re108	SucC	product
+re109	SucD	reactant
+re109	SucC	reactant
+re109	SucD-SucC	product
+re110	coenzyme A	reactant
+re110	succinate	reactant
+re110	phosphate	product
+re110	suc-coa	product
+re111	sucD_mRNA	reactant
+re111	SucD	product
+re112	tonB_mRNA	reactant
+re112	TonB	product
+re113	TonB	reactant
+re113	ExbD	reactant
+re113	ExbB	reactant
+re113	TonB-ExbB-ExbD	product
+re114	zinT_mRNA	reactant
+re114	ZinT	product

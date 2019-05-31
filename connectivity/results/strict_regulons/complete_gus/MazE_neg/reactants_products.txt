@@ -6,8 +6,8 @@ re3	mazG	reactant
 re3	mazG_mRNA	product
 re4	mazE_mRNA	reactant
 re4	MazE	product
-re5	MazF	reactant
 re5	MazE	reactant
+re5	MazF	reactant
 re5	MazF-MazE	product
 re6	mazF_mRNA	reactant
 re6	MazF	product
@@ -16,33 +16,33 @@ re7	MazG	product
 re8	nucleoside triphosphate	reactant
 re8	mononucleotide	product
 re8	diphosphate	product
-re9	dITP	reactant
+re9	dCTP	reactant
 re9	diphosphate	product
-re9	dIMP	product
-re10	inosine triphosphate	reactant
+re9	dCMP	product
+re10	dUTP	reactant
 re10	diphosphate	product
-re10	5'-IMP	product
-re11	dCTP	reactant
+re10	dUMP	product
+re11	dATP	reactant
 re11	diphosphate	product
-re11	dCMP	product
-re12	uridine-triphosphate	reactant
+re11	dAMP	product
+re12	inosine triphosphate	reactant
 re12	diphosphate	product
-re12	5'-UMP	product
-re13	dTTP	reactant
+re12	5'-IMP	product
+re13	xanthosine 5' triphosphate	reactant
+re13	xanthosine-5-P	product
 re13	diphosphate	product
-re13	dTMP	product
-re14	dGTP	reactant
+re14	dTTP	reactant
 re14	diphosphate	product
-re14	dGMP	product
-re15	dATP	reactant
+re14	dTMP	product
+re15	dGTP	reactant
 re15	diphosphate	product
-re15	dAMP	product
-re16	dUTP	reactant
+re15	dGMP	product
+re16	cytidine-triphosphate	reactant
 re16	diphosphate	product
-re16	dUMP	product
-re17	xanthosine 5' triphosphate	reactant
-re17	xanthosine-5-P	product
+re16	cytidylate	product
+re17	uridine-triphosphate	reactant
 re17	diphosphate	product
-re18	cytidine-triphosphate	reactant
+re17	5'-UMP	product
+re18	dITP	reactant
 re18	diphosphate	product
-re18	cytidylate	product
+re18	dIMP	product

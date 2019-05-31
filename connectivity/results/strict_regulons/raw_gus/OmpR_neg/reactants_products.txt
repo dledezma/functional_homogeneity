@@ -44,82 +44,131 @@ re21	nmpC_mRNA	reactant
 re21	NmpC	product
 re22	ompF_mRNA	reactant
 re22	OmpF	product
-re23	5-methylthioribose_Ext	reactant
-re23	5-methylthioribose	product
-re24	inositol_Ext	reactant
-re24	inositol	product
-re25	amino acid_Ext	reactant
-re25	amino acid	product
-re26	base(2)_Ext	reactant
-re26	base(2)	product
-re27	polyol_Ext	reactant
-re27	polyol	product
-re28	short-chain alcohol_Ext	reactant
-re28	short-chain alcohol	product
-re29	short-chain acid anion_Ext	reactant
-re29	short-chain acid anion	product
-re30	organosulfur compound_Ext	reactant
-re30	organosulfur compound	product
-re31	CO2_Ext	reactant
-re31	CO2	product
-re32	ion_Ext	reactant
-re32	ion	product
-re33	monosaccharide_Ext	reactant
-re33	monosaccharide	product
-re34	beta-Neu5Ac_Ext	reactant
-re34	beta-Neu5Ac	product
-re35	N-acetylneuraminate_Ext	reactant
-re35	N-acetylneuraminate	product
-re36	betaine_Ext	reactant
-re36	betaine	product
-re37	hydrophilic solute or ion 600 Da_Ext	reactant
-re37	hydrophilic solute or ion 600 Da	product
-re38	TolB	reactant
-re38	OmpF	reactant
-re38	TolB-OmpF	product
-re39	pgaA_mRNA	reactant
-re39	PgaA	product
-re40	partially N-deacetylated poly-beta-1,6-N-acetyl-D-glucosamine_Ext	reactant
-re40	partially N-deacetylated poly-beta-1,6-N-acetyl-D-glucosamine	product
-re41	pgaB_mRNA	reactant
-re41	PgaB	product
-re42	poly-beta-1,6-N-acetyl-D-glucosamine	reactant
-re42	partially N-deacetylated poly-beta-1,6-N-acetyl-D-glucosamine	product
-re42	acetate	product
-re43	pgaC_mRNA	reactant
-re43	PgaC	product
-re44	PgaC	reactant
-re44	PgaD	reactant
-re44	PgaD-PgaC	product
-re45	poly-beta-1,6-N-acetyl-D-glucosamine_Ext	reactant
-re45	poly-beta-1,6-N-acetyl-D-glucosamine	product
-re46	UDP-GlcNAc	reactant
-re46	poly-beta-1,6-N-acetyl-D-glucosamine	product
-re46	uridine-diphosphate	product
-re47	pgaD_mRNA	reactant
-re47	PgaD	product
-re48	sra_mRNA	reactant
-re48	Sra	product
-re49	RpsG	reactant
-re49	RpsP	reactant
-re49	RpsO	reactant
-re49	RpsF	reactant
-re49	RpsI	reactant
-re49	RpsD	reactant
-re49	RpsR	reactant
-re49	RpsC	reactant
-re49	RpsJ	reactant
-re49	RpsA	reactant
-re49	RpsM	reactant
-re49	RpsK	reactant
-re49	RpsS	reactant
-re49	RpsB	reactant
-re49	RpsL	reactant
-re49	RpsQ	reactant
-re49	RpsU	reactant
-re49	RpsH	reactant
-re49	RpsE	reactant
-re49	RpsT	reactant
-re49	RpsN	reactant
-re49	Sra	reactant
-re49	RpsA-RpsB-RpsC-RpsD-RpsE-RpsF-RpsG-RpsH-RpsI-RpsJ-RpsK-RpsL-RpsM-RpsN-RpsO-RpsP-RpsQ-RpsR-RpsS-RpsT-RpsU-Sra	product
+re23	hydrophilic solute or ion 600 Da_Ext	reactant
+re23	hydrophilic solute or ion 600 Da	product
+re24	organophosphorus compound_Ext	reactant
+re24	organophosphorus compound	product
+re25	glycoside_Ext	reactant
+re25	glycoside	product
+re26	sugar_Ext	reactant
+re26	sugar	product
+re27	beta-Neu5Ac_Ext	reactant
+re27	beta-Neu5Ac	product
+re28	N-acetylneuraminate_Ext	reactant
+re28	N-acetylneuraminate	product
+re29	sugar phosphate_Ext	reactant
+re29	sugar phosphate	product
+re30	aromatic compound_Ext	reactant
+re30	aromatic compound	product
+re31	enterobactin_Ext	reactant
+re31	enterobactin	product
+re32	trisaccharide_Ext	reactant
+re32	trisaccharide	product
+re33	disaccharide_Ext	reactant
+re33	disaccharide	product
+re34	maltose_Ext	reactant
+re34	maltose	product
+re35	chitobiose_Ext	reactant
+re35	chitobiose	product
+re36	oligopeptide_Ext	reactant
+re36	oligopeptide	product
+re37	nucleoside_Ext	reactant
+re37	nucleoside	product
+re38	nucleotide_Ext	reactant
+re38	nucleotide	product
+re39	nucleotide sugar_Ext	reactant
+re39	nucleotide sugar	product
+re40	RCHO_Ext	reactant
+re40	RCHO	product
+re41	lactone_Ext	reactant
+re41	lactone	product
+re42	amide_Ext	reactant
+re42	amide	product
+re43	amine_Ext	reactant
+re43	amine	product
+re44	hydroxy carboxylate_Ext	reactant
+re44	hydroxy carboxylate	product
+re45	aldonate_Ext	reactant
+re45	aldonate	product
+re46	MCFA_Ext	reactant
+re46	MCFA	product
+re47	caprate_Ext	reactant
+re47	caprate	product
+re48	monocarboxylate_Ext	reactant
+re48	monocarboxylate	product
+re49	betaine_Ext	reactant
+re49	betaine	product
+re50	dicarboxylate_Ext	reactant
+re50	dicarboxylate	product
+re51	5-methylthioribose_Ext	reactant
+re51	5-methylthioribose	product
+re52	inositol_Ext	reactant
+re52	inositol	product
+re53	amino acid_Ext	reactant
+re53	amino acid	product
+re54	base(2)_Ext	reactant
+re54	base(2)	product
+re55	polyol_Ext	reactant
+re55	polyol	product
+re56	short-chain alcohol_Ext	reactant
+re56	short-chain alcohol	product
+re57	short-chain acid anion_Ext	reactant
+re57	short-chain acid anion	product
+re58	organosulfur compound_Ext	reactant
+re58	organosulfur compound	product
+re59	sulfadiazine_Ext	reactant
+re59	sulfadiazine	product
+re60	ion_Ext	reactant
+re60	ion	product
+re61	glycerol 1-phosphate_Ext	reactant
+re61	glycerol 1-phosphate	product
+re62	TolB	reactant
+re62	OmpF	reactant
+re62	TolB-OmpF	product
+re63	pgaA_mRNA	reactant
+re63	PgaA	product
+re64	partially N-deacetylated poly-beta-1,6-N-acetyl-D-glucosamine_Ext	reactant
+re64	partially N-deacetylated poly-beta-1,6-N-acetyl-D-glucosamine	product
+re65	pgaB_mRNA	reactant
+re65	PgaB	product
+re66	poly-beta-1,6-N-acetyl-D-glucosamine	reactant
+re66	partially N-deacetylated poly-beta-1,6-N-acetyl-D-glucosamine	product
+re66	acetate	product
+re67	pgaC_mRNA	reactant
+re67	PgaC	product
+re68	PgaD	reactant
+re68	PgaC	reactant
+re68	PgaD-PgaC	product
+re69	poly-beta-1,6-N-acetyl-D-glucosamine_Ext	reactant
+re69	poly-beta-1,6-N-acetyl-D-glucosamine	product
+re70	UDP-GlcNAc	reactant
+re70	NAcGlc	reactant
+re70	poly-beta-1,6-N-acetyl-D-glucosamine	product
+re70	uridine-diphosphate	product
+re71	pgaD_mRNA	reactant
+re71	PgaD	product
+re72	sra_mRNA	reactant
+re72	Sra	product
+re73	RpsJ	reactant
+re73	RpsL	reactant
+re73	RpsE	reactant
+re73	RpsK	reactant
+re73	RpsD	reactant
+re73	RpsO	reactant
+re73	RpsA	reactant
+re73	RpsM	reactant
+re73	RpsP	reactant
+re73	RpsI	reactant
+re73	RpsN	reactant
+re73	RpsU	reactant
+re73	RpsR	reactant
+re73	RpsH	reactant
+re73	RpsG	reactant
+re73	RpsF	reactant
+re73	RpsC	reactant
+re73	RpsT	reactant
+re73	RpsQ	reactant
+re73	RpsS	reactant
+re73	RpsB	reactant
+re73	Sra	reactant
+re73	RpsA-RpsB-RpsC-RpsD-RpsE-RpsF-RpsG-RpsH-RpsI-RpsJ-RpsK-RpsL-RpsM-RpsN-RpsO-RpsP-RpsQ-RpsR-RpsS-RpsT-RpsU-Sra	product

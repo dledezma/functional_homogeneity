@@ -19,17 +19,17 @@ re9	FabA	product
 re10	beta-OH-acyl-ACP	reactant
 re10	CH3(CH2)xCH=CHCO-S-ACP	product
 re11	AcpP	reactant
-re11	trans hexadecenoyl-[acp]	product
-re12	beta-hydroxyhexanoyl-[acp]	reactant
-re12	trans hex-2-enoyl-[acp]	product
-re13	beta-hydroxydecanoyl-[acp]	reactant
-re13	(2E)-dec-2-enoyl-[acp]	product
-re14	beta-hydroxydodecanoyl-[acp]	reactant
-re14	(2E)-dodec-2-enoyl-[acp]	product
-re15	beta-hydroxymyristoyl-[acp]	reactant
-re15	trans tetradec-2-enoyl-[acp]	product
+re11	crotonyl-[acp]	product
+re12	beta-hydroxymyristoyl-[acp]	reactant
+re12	trans tetradec-2-enoyl-[acp]	product
+re13	beta-hydroxydodecanoyl-[acp]	reactant
+re13	(2E)-dodec-2-enoyl-[acp]	product
+re14	beta-hydroxyhexanoyl-[acp]	reactant
+re14	trans hex-2-enoyl-[acp]	product
+re15	beta-hydroxydecanoyl-[acp]	reactant
+re15	(2E)-dec-2-enoyl-[acp]	product
 re16	AcpP	reactant
-re16	crotonyl-[acp]	product
+re16	trans hexadecenoyl-[acp]	product
 re17	AcpP	reactant
 re17	AcpP	product
 re18	(2E)-dec-2-enoyl-[acp]	reactant
@@ -41,24 +41,24 @@ re20	enoylglutaryl-[acp] methyl ester	product
 re21	3-hydroxypimeloyl-[acp] methyl ester	reactant
 re21	enoylpimelyl-[acp] methyl ester	product
 re22	(3R)-3-hydroxy cis delta7-tetradecenoyl-[acp]	reactant
-re22	trans-delta3-cis-delta7-tetradecenoyl-[acp]	product
+re22	Trans-D2-cis-D7-tetradecenoyl-ACPs	product
 re23	(3R)-3-hydroxy cis delta9-hexadecenoyl-[acp]	reactant
 re23	trans-delta3-cis-delta9-hexadecenoyl-[acp]	product
 re24	(3R)-3-hydroxy-cis-vaccenoyl-[acp]	reactant
 re24	(2E,11Z)-octadeca-2,11-dienoyl-[acp]	product
 re25	fabI_mRNA	reactant
 re25	FabI	product
-re26	acyl-ACP	reactant
-re26	CH3(CH2)xCH=CHCO-S-ACP	product
-re27	CH3(CH2)xCH=CHCO-S-ACP	reactant
-re27	2,3,4-saturated fatty acyl-[acp]	product
-re28	(2E,11Z)-octadeca-2,11-dienoyl-[acp]	reactant
-re28	cis-vaccenoyl-[acp]	product
+re26	CH3(CH2)xCH=CHCO-S-ACP	reactant
+re26	acyl-ACP	product
+re27	(2E,11Z)-octadeca-2,11-dienoyl-[acp]	reactant
+re27	cis-vaccenoyl-[acp]	product
+re28	CH3(CH2)xCH=CHCO-S-ACP	reactant
+re28	2,3,4-saturated fatty acyl-[acp]	product
 re29	AcpP	reactant
 re29	(5Z)-dodec-5-enoyl-[acp]	product
 re30	trans-delta3-cis-delta9-hexadecenoyl-[acp]	reactant
 re30	palmitoleoyl-[acp]	product
-re31	trans-delta3-cis-delta7-tetradecenoyl-[acp]	reactant
+re31	Trans-D2-cis-D7-tetradecenoyl-ACPs	reactant
 re31	cis-delta7-tetradecenoyl-[acp]	product
 re32	enoylpimelyl-[acp] methyl ester	reactant
 re32	pimelyl-[acp] methyl ester	product
@@ -82,18 +82,18 @@ re41	fabG_mRNA	reactant
 re41	FabG	product
 re42	acetoacyl-ACP	reactant
 re42	beta-OH-acyl-ACP	product
-re43	3-oxo-palmitoyl-[acp]	reactant
-re43	AcpP	product
-re44	3-oxo-hexanoyl-[acp]	reactant
-re44	beta-hydroxyhexanoyl-[acp]	product
-re45	3-oxo-decanoyl-[acp]	reactant
-re45	beta-hydroxydecanoyl-[acp]	product
-re46	3-oxo-dodecanoyl-[acp]	reactant
-re46	beta-hydroxydodecanoyl-[acp]	product
-re47	3-oxo-myristoyl-[acp]	reactant
-re47	beta-hydroxymyristoyl-[acp]	product
-re48	3-oxo-cis-vaccenoyl-[acp]	reactant
-re48	(3R)-3-hydroxy-cis-vaccenoyl-[acp]	product
+re43	3-oxo-cis-vaccenoyl-[acp]	reactant
+re43	(3R)-3-hydroxy-cis-vaccenoyl-[acp]	product
+re44	3-oxo-myristoyl-[acp]	reactant
+re44	beta-hydroxymyristoyl-[acp]	product
+re45	3-oxo-dodecanoyl-[acp]	reactant
+re45	beta-hydroxydodecanoyl-[acp]	product
+re46	3-oxo-hexanoyl-[acp]	reactant
+re46	beta-hydroxyhexanoyl-[acp]	product
+re47	3-oxo-decanoyl-[acp]	reactant
+re47	beta-hydroxydecanoyl-[acp]	product
+re48	3-oxo-palmitoyl-[acp]	reactant
+re48	AcpP	product
 re49	3-oxo-octanoyl-[acp]	reactant
 re49	AcpP	product
 re50	3-oxo-cis-delta7-tetradecenoyl-[acp]	reactant
@@ -175,49 +175,55 @@ re68	CO2	product
 re69	malonyl-S-ACP	reactant
 re69	acetyl-[acp]	product
 re69	CO2	product
-re70	fabF_mRNA	reactant
-re70	FabF	product
-re71	palmitoleoyl-[acp]	reactant
+re70	fabB_mRNA	reactant
+re70	KASI	product
 re71	malonyl-S-ACP	reactant
-re71	3-oxo-cis-vaccenoyl-[acp]	product
+re71	AcpP	reactant
 re71	AcpP	product
 re71	CO2	product
-re72	entB_mRNA	reactant
-re72	EntB	product
-re73	isochorismate	reactant
-re73	(2S,3S)-2,3-dihydroxy-2,3-dihydrobenzoate	product
-re73	pyruvate	product
-re74	EntD	reactant
-re74	EntE	reactant
-re74	EntB	reactant
-re74	EntF	reactant
-re74	EntB-EntD-EntF-EntE	product
-re75	2-pyrocatechuate	reactant
-re75	serine	reactant
-re75	enterobactin	product
-re75	diphosphate	product
-re76	2-pyrocatechuate	reactant
-re76	2,3-dihydroxybenzoyl-AMP	product
-re76	diphosphate	product
-re77	2,3-dihydroxybenzoyl-AMP	reactant
-re77	holo EntB monomer	reactant
-re77	2,3-dihydroxybenzoyl-EntB	product
+re72	fabF_mRNA	reactant
+re72	FabF	product
+re73	palmitoleoyl-[acp]	reactant
+re73	malonyl-S-ACP	reactant
+re73	3-oxo-cis-vaccenoyl-[acp]	product
+re73	AcpP	product
+re73	CO2	product
+re74	fabF_mRNA	reactant
+re74	KASII	product
+re75	entB_mRNA	reactant
+re75	EntB	product
+re76	isochorismate	reactant
+re76	(2S,3S)-2,3-dihydroxy-2,3-dihydrobenzoate	product
+re76	pyruvate	product
+re77	EntB	reactant
+re77	EntE	reactant
+re77	EntD	reactant
+re77	EntF	reactant
+re77	EntB-EntD-EntF-EntE	product
+re78	2-pyrocatechuate	reactant
 re78	serine	reactant
+re78	enterobactin	product
 re78	diphosphate	product
-re78	seryl-AMP	product
-re79	holo-[EntF peptidyl-carrier protein]	reactant
-re79	seryl-AMP	reactant
-re79	seryl-[EntF peptidyl-carrier protein]	product
-re80	seryl-[EntF peptidyl-carrier protein]	reactant
-re80	2,3-dihydroxybenzoyl-EntB	reactant
-re80	DHB-seryl-[EntF peptidyl-carrier protein]	product
-re80	holo EntB monomer	product
-re81	DHB-seryl-[EntF peptidyl-carrier protein]	reactant
-re81	holo-[EntF peptidyl-carrier protein]	product
-re81	enterobactin	product
-re82	acpP_mRNA	reactant
-re82	AcpP	product
-re83	CH3(CH2)xCH=CHCO-S-ACP	reactant
-re83	2,3,4-saturated fatty acyl-[acp]	product
-re84	(2S,3S)-2,3-dihydroxy-2,3-dihydrobenzoate	reactant
-re84	2-pyrocatechuate	product
+re79	holo EntB monomer	reactant
+re79	2-pyrocatechuate	reactant
+re79	2,3-dihydroxybenzoyl-EntB	product
+re79	diphosphate	product
+re80	serine	reactant
+re80	diphosphate	product
+re80	seryl-AMP	product
+re81	holo-[EntF peptidyl-carrier protein]	reactant
+re81	seryl-AMP	reactant
+re81	seryl-[EntF peptidyl-carrier protein]	product
+re82	seryl-[EntF peptidyl-carrier protein]	reactant
+re82	2,3-dihydroxybenzoyl-EntB	reactant
+re82	DHB-seryl-[EntF peptidyl-carrier protein]	product
+re82	holo EntB monomer	product
+re83	DHB-seryl-[EntF peptidyl-carrier protein]	reactant
+re83	holo-[EntF peptidyl-carrier protein]	product
+re83	enterobactin	product
+re84	acpP_mRNA	reactant
+re84	AcpP	product
+re85	CH3(CH2)xCH=CHCO-S-ACP	reactant
+re85	2,3,4-saturated fatty acyl-[acp]	product
+re86	(2S,3S)-2,3-dihydroxy-2,3-dihydrobenzoate	reactant
+re86	2,3-dihydroxybenzoyl-EntB	product

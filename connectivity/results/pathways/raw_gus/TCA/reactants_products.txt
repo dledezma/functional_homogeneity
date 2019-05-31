@@ -48,12 +48,12 @@ re24	tartrate	reactant
 re24	oxalacetate	product
 re25	fumA_mRNA	reactant
 re25	FumA	product
-re26	oxalacetate	reactant
-re26	enol-oxaloacetate	product
+re26	enol-oxaloacetate	reactant
+re26	oxalacetate	product
 re27	sucD_mRNA	reactant
 re27	SucD	product
-re28	SucD	reactant
 re28	SucC	reactant
+re28	SucD	reactant
 re28	SucD-SucC	product
 re29	coenzyme A	reactant
 re29	succinate	reactant
@@ -91,83 +91,87 @@ re40	[glycine-cleavage complex H protein] N6-dihydrolipoyl-L-lysine	reactant
 re40	[glycine-cleavage complex H protein] N6-lipoyl-L-lysine	product
 re41	[pyruvate dehydrogenase E2 protein] N6-dihydrolipoyl-L-lysine	reactant
 re41	[pyruvate dehydrogenase E2 protein] N6-lipoyl-L-lysine	product
-re42	GcvP	reactant
-re42	GcvH	reactant
-re42	GcvT	reactant
-re42	Lpd	reactant
-re42	Lpd-GcvP-GcvH-GcvT	product
-re43	THF polyglutamate	reactant
-re43	glycine	reactant
-re43	methylene-H4PteGlu(n)	product
-re43	ammonium	product
-re43	CO2	product
-re44	[glycine-cleavage complex H protein] N6-lipoyl-L-lysine	reactant
+re42	A(H2)	reactant
+re42	TeO2	reactant
+re42	acceptors	product
+re42	Te0	product
+re43	GcvP	reactant
+re43	GcvT	reactant
+re43	GcvH	reactant
+re43	Lpd	reactant
+re43	Lpd-GcvP-GcvH-GcvT	product
+re44	THF polyglutamate	reactant
 re44	glycine	reactant
-re44	[glycine-cleavage complex H protein] N6-aminomethyldihydrolipoyl-L-lysine	product
+re44	methylene-H4PteGlu(n)	product
+re44	ammonium	product
 re44	CO2	product
-re45	[glycine-cleavage complex H protein] N6-aminomethyldihydrolipoyl-L-lysine	reactant
-re45	THF polyglutamate	reactant
-re45	[glycine-cleavage complex H protein] N6-dihydrolipoyl-L-lysine	product
-re45	methylene-H4PteGlu(n)	product
-re45	ammonium	product
-re46	AceF	reactant
-re46	AceE	reactant
-re46	Lpd	reactant
-re46	AceE-AceF-Lpd	product
-re47	coenzyme A	reactant
-re47	pyruvate	reactant
-re47	acetyl-CoA	product
-re47	CO2	product
-re48	[pyruvate dehydrogenase E2 protein] N6-lipoyl-L-lysine	reactant
+re45	[glycine-cleavage complex H protein] N6-lipoyl-L-lysine	reactant
+re45	glycine	reactant
+re45	[glycine-cleavage complex H protein] N6-aminomethyldihydrolipoyl-L-lysine	product
+re45	CO2	product
+re46	[glycine-cleavage complex H protein] N6-aminomethyldihydrolipoyl-L-lysine	reactant
+re46	THF polyglutamate	reactant
+re46	[glycine-cleavage complex H protein] N6-dihydrolipoyl-L-lysine	product
+re46	methylene-H4PteGlu(n)	product
+re46	ammonium	product
+re47	AceF	reactant
+re47	AceE	reactant
+re47	Lpd	reactant
+re47	AceE-AceF-Lpd	product
+re48	coenzyme A	reactant
 re48	pyruvate	reactant
-re48	[enzyme] N6-(S-acetyldihydrolipoyl)lysine	product
+re48	acetyl-CoA	product
 re48	CO2	product
-re49	[enzyme] N6-(S-acetyldihydrolipoyl)lysine	reactant
-re49	coenzyme A	reactant
-re49	[pyruvate dehydrogenase E2 protein] N6-dihydrolipoyl-L-lysine	product
-re49	acetyl-CoA	product
-re50	icd_mRNA	reactant
-re50	Icd	product
-re51	I-CIT	reactant
-re51	ketoglutarate	product
-re51	CO2	product
+re49	[pyruvate dehydrogenase E2 protein] N6-lipoyl-L-lysine	reactant
+re49	pyruvate	reactant
+re49	[enzyme] N6-(S-acetyldihydrolipoyl)lysine	product
+re49	CO2	product
+re50	[enzyme] N6-(S-acetyldihydrolipoyl)lysine	reactant
+re50	coenzyme A	reactant
+re50	[pyruvate dehydrogenase E2 protein] N6-dihydrolipoyl-L-lysine	product
+re50	acetyl-CoA	product
+re51	icd_mRNA	reactant
+re51	Icd	product
 re52	I-CIT	reactant
-re52	oxalosuccinate	product
-re53	oxalosuccinate	reactant
-re53	ketoglutarate	product
-re53	CO2	product
-re54	gltA_mRNA	reactant
-re54	GltA	product
-re55	oxalacetate	reactant
-re55	acetyl-CoA	reactant
-re55	coenzyme A	product
-re55	citrate	product
-re56	acnA_mRNA	reactant
-re56	AcnA	product
-re57	cis-aconitate	reactant
-re57	I-CIT	product
-re58	citrate	reactant
-re58	cis-aconitate	product
-re59	acnB_mRNA	reactant
-re59	AcnB	product
-re60	methylisocitrate	reactant
-re60	2-methylaconitate	product
-re61	sdhD_mRNA	reactant
-re61	SdhD	product
-re62	SdhD	reactant
-re62	SdhA	reactant
-re62	SdhC	reactant
-re62	SdhB	reactant
-re62	SdhA-SdhB-SdhC-SdhD	product
-re63	sdhC_mRNA	reactant
-re63	SdhC	product
-re64	sdhB_mRNA	reactant
-re64	SdhB	product
-re65	sdhA_mRNA	reactant
-re65	SdhA	product
-re66	mqo_mRNA	reactant
-re66	Mqo	product
-re67	electron-transfer quinone	reactant
-re67	malate	reactant
-re67	electron-transfer quinol	product
-re67	oxalacetate	product
+re52	ketoglutarate	product
+re52	CO2	product
+re53	I-CIT	reactant
+re53	oxalosuccinate	product
+re54	oxalosuccinate	reactant
+re54	ketoglutarate	product
+re54	CO2	product
+re55	gltA_mRNA	reactant
+re55	GltA	product
+re56	oxalacetate	reactant
+re56	acetyl-CoA	reactant
+re56	coenzyme A	product
+re56	citrate	product
+re57	acnA_mRNA	reactant
+re57	AcnA	product
+re58	cis-aconitate	reactant
+re58	I-CIT	product
+re59	citrate	reactant
+re59	cis-aconitate	product
+re60	acnB_mRNA	reactant
+re60	AcnB	product
+re61	methylisocitrate	reactant
+re61	2-methylaconitate	product
+re62	sdhD_mRNA	reactant
+re62	SdhD	product
+re63	SdhA	reactant
+re63	SdhD	reactant
+re63	SdhC	reactant
+re63	SdhB	reactant
+re63	SdhA-SdhB-SdhC-SdhD	product
+re64	sdhC_mRNA	reactant
+re64	SdhC	product
+re65	sdhB_mRNA	reactant
+re65	SdhB	product
+re66	sdhA_mRNA	reactant
+re66	SdhA	product
+re67	mqo_mRNA	reactant
+re67	Mqo	product
+re68	electron-transfer quinone	reactant
+re68	malate	reactant
+re68	electron-transfer quinol	product
+re68	oxalacetate	product

@@ -20,37 +20,37 @@ re10	csgG	reactant
 re10	csgG_mRNA	product
 re11	cyaR	reactant
 re11	cyaR_mRNA	product
-re12	efeU_1	reactant
-re12	efeU_1_mRNA	product
-re13	motA	reactant
-re13	motA_mRNA	product
-re14	motB	reactant
-re14	motB_mRNA	product
-re15	mscM	reactant
-re15	mscM_mRNA	product
-re16	ompF	reactant
-re16	ompF_mRNA	product
-re17	psd	reactant
-re17	psd_mRNA	product
-re18	rpoE	reactant
-re18	rpoE_mRNA	product
-re19	rseA	reactant
-re19	rseA_mRNA	product
-re20	rseB	reactant
-re20	rseB_mRNA	product
-re21	rseC	reactant
-re21	rseC_mRNA	product
+re12	motA	reactant
+re12	motA_mRNA	product
+re13	motB	reactant
+re13	motB_mRNA	product
+re14	mscM	reactant
+re14	mscM_mRNA	product
+re15	ompF	reactant
+re15	ompF_mRNA	product
+re16	psd	reactant
+re16	psd_mRNA	product
+re17	rpoE	reactant
+re17	rpoE_mRNA	product
+re18	rseA	reactant
+re18	rseA_mRNA	product
+re19	rseB	reactant
+re19	rseB_mRNA	product
+re20	rseC	reactant
+re20	rseC_mRNA	product
+re21	rseD	reactant
+re21	rseD_mRNA	product
 re22	tsr	reactant
 re22	tsr_mRNA	product
 re23	ung	reactant
 re23	ung_mRNA	product
 re24	bamE_mRNA	reactant
 re24	BamE	product
-re25	BamA	reactant
-re25	BamD	reactant
-re25	BamC	reactant
 re25	BamB	reactant
+re25	BamA	reactant
 re25	BamE	reactant
+re25	BamC	reactant
+re25	BamD	reactant
 re25	BamE-BamC-BamD-BamA-BamB	product
 re26	cheA_mRNA	reactant
 re26	CheA	product
@@ -93,91 +93,133 @@ re40	csgG_mRNA	reactant
 re40	CsgG	product
 re41	cyaR_mRNA	reactant
 re41	RNA:CyaR	product
-re42	efeU_1_mRNA	reactant
-re42	EfeU_1	product
-re43	EfeU_1	reactant
-re43	EfeO	reactant
-re43	EfeB	reactant
-re43	EfeU_1-EfeO-EfeB	product
-re44	motA_mRNA	reactant
-re44	MotA	product
-re45	FlgG	reactant
-re45	FliF	reactant
-re45	FlgB	reactant
-re45	MotA	reactant
-re45	FlgI	reactant
-re45	FlgF	reactant
-re45	FliG	reactant
-re45	FliL	reactant
-re45	FlgC	reactant
-re45	FlgH	reactant
-re45	MotB	reactant
-re45	FliM	reactant
-re45	FliE	reactant
-re45	FliN	reactant
-re45	FliN-FliM-FliG-FlgH-MotA-MotB-FlgB-FlgC-FlgF-FlgG-FlgI-FliF-FliE-FliL	product
-re46	motB_mRNA	reactant
-re46	MotB	product
-re47	mscM_mRNA	reactant
-re47	MscM	product
-re48	ompF_mRNA	reactant
-re48	OmpF	product
-re49	5-methylthioribose_Ext	reactant
-re49	5-methylthioribose	product
-re50	inositol_Ext	reactant
-re50	inositol	product
-re51	amino acid_Ext	reactant
-re51	amino acid	product
-re52	base(2)_Ext	reactant
-re52	base(2)	product
-re53	polyol_Ext	reactant
-re53	polyol	product
-re54	short-chain alcohol_Ext	reactant
-re54	short-chain alcohol	product
-re55	short-chain acid anion_Ext	reactant
-re55	short-chain acid anion	product
-re56	organosulfur compound_Ext	reactant
-re56	organosulfur compound	product
-re57	CO2_Ext	reactant
-re57	CO2	product
-re58	ion_Ext	reactant
-re58	ion	product
-re59	monosaccharide_Ext	reactant
-re59	monosaccharide	product
-re60	beta-Neu5Ac_Ext	reactant
-re60	beta-Neu5Ac	product
-re61	N-acetylneuraminate_Ext	reactant
-re61	N-acetylneuraminate	product
-re62	betaine_Ext	reactant
-re62	betaine	product
-re63	hydrophilic solute or ion 600 Da_Ext	reactant
-re63	hydrophilic solute or ion 600 Da	product
-re64	TolB	reactant
-re64	OmpF	reactant
-re64	TolB-OmpF	product
-re65	psd_mRNA	reactant
-re65	Psd	product
-re66	Psd	reactant
-re66	Psd-Psd	product
-re67	rpoE_mRNA	reactant
-re67	RpoE	product
-re68	RpoA	reactant
-re68	RpoC	reactant
-re68	RpoE	reactant
-re68	RpoB	reactant
-re68	RpoB-RpoC-RpoA-RpoE	product
-re69	rseA_mRNA	reactant
-re69	RseA	product
-re70	rseB_mRNA	reactant
-re70	rseB	product
-re71	rseB_mRNA	reactant
-re71	RseB	product
-re72	rseC_mRNA	reactant
-re72	RseC	product
-re73	tsr_mRNA	reactant
-re73	Tsr	product
-re74	ung_mRNA	reactant
-re74	Ung	product
-re75	DNA with uracil	reactant
-re75	DNA containing an apyrimidinic site	product
-re75	uracil	product
+re42	motA_mRNA	reactant
+re42	MotA	product
+re43	FliF	reactant
+re43	FliL	reactant
+re43	FliN	reactant
+re43	FlgF	reactant
+re43	FliM	reactant
+re43	FlgB	reactant
+re43	FlgC	reactant
+re43	FliE	reactant
+re43	MotA	reactant
+re43	FliG	reactant
+re43	FlgI	reactant
+re43	FlgG	reactant
+re43	MotB	reactant
+re43	FlgH	reactant
+re43	FliN-FliM-FliG-FlgH-MotA-MotB-FlgB-FlgC-FlgF-FlgG-FlgI-FliF-FliE-FliL	product
+re44	motB_mRNA	reactant
+re44	MotB	product
+re45	mscM_mRNA	reactant
+re45	MscM	product
+re46	ompF_mRNA	reactant
+re46	OmpF	product
+re47	hydrophilic solute or ion 600 Da_Ext	reactant
+re47	hydrophilic solute or ion 600 Da	product
+re48	organophosphorus compound_Ext	reactant
+re48	organophosphorus compound	product
+re49	glycoside_Ext	reactant
+re49	glycoside	product
+re50	sugar_Ext	reactant
+re50	sugar	product
+re51	beta-Neu5Ac_Ext	reactant
+re51	beta-Neu5Ac	product
+re52	N-acetylneuraminate_Ext	reactant
+re52	N-acetylneuraminate	product
+re53	sugar phosphate_Ext	reactant
+re53	sugar phosphate	product
+re54	aromatic compound_Ext	reactant
+re54	aromatic compound	product
+re55	enterobactin_Ext	reactant
+re55	enterobactin	product
+re56	trisaccharide_Ext	reactant
+re56	trisaccharide	product
+re57	disaccharide_Ext	reactant
+re57	disaccharide	product
+re58	maltose_Ext	reactant
+re58	maltose	product
+re59	chitobiose_Ext	reactant
+re59	chitobiose	product
+re60	oligopeptide_Ext	reactant
+re60	oligopeptide	product
+re61	nucleoside_Ext	reactant
+re61	nucleoside	product
+re62	nucleotide_Ext	reactant
+re62	nucleotide	product
+re63	nucleotide sugar_Ext	reactant
+re63	nucleotide sugar	product
+re64	RCHO_Ext	reactant
+re64	RCHO	product
+re65	lactone_Ext	reactant
+re65	lactone	product
+re66	amide_Ext	reactant
+re66	amide	product
+re67	amine_Ext	reactant
+re67	amine	product
+re68	hydroxy carboxylate_Ext	reactant
+re68	hydroxy carboxylate	product
+re69	aldonate_Ext	reactant
+re69	aldonate	product
+re70	MCFA_Ext	reactant
+re70	MCFA	product
+re71	caprate_Ext	reactant
+re71	caprate	product
+re72	monocarboxylate_Ext	reactant
+re72	monocarboxylate	product
+re73	betaine_Ext	reactant
+re73	betaine	product
+re74	dicarboxylate_Ext	reactant
+re74	dicarboxylate	product
+re75	5-methylthioribose_Ext	reactant
+re75	5-methylthioribose	product
+re76	inositol_Ext	reactant
+re76	inositol	product
+re77	amino acid_Ext	reactant
+re77	amino acid	product
+re78	base(2)_Ext	reactant
+re78	base(2)	product
+re79	polyol_Ext	reactant
+re79	polyol	product
+re80	short-chain alcohol_Ext	reactant
+re80	short-chain alcohol	product
+re81	short-chain acid anion_Ext	reactant
+re81	short-chain acid anion	product
+re82	organosulfur compound_Ext	reactant
+re82	organosulfur compound	product
+re83	sulfadiazine_Ext	reactant
+re83	sulfadiazine	product
+re84	ion_Ext	reactant
+re84	ion	product
+re85	glycerol 1-phosphate_Ext	reactant
+re85	glycerol 1-phosphate	product
+re86	TolB	reactant
+re86	OmpF	reactant
+re86	TolB-OmpF	product
+re87	psd_mRNA	reactant
+re87	Psd	product
+re88	Psd	reactant
+re88	Psd-Psd	product
+re89	rpoE_mRNA	reactant
+re89	RpoE	product
+re90	RpoA	reactant
+re90	RpoB	reactant
+re90	RpoE	reactant
+re90	RpoC	reactant
+re90	RpoB-RpoC-RpoA-RpoE	product
+re91	rseA_mRNA	reactant
+re91	RseA	product
+re92	rseB_mRNA	reactant
+re92	RseB	product
+re93	rseC_mRNA	reactant
+re93	RseC	product
+re94	rseD_mRNA	reactant
+re94	RseD	product
+re95	tsr_mRNA	reactant
+re95	Tsr	product
+re96	ung_mRNA	reactant
+re96	Ung	product
+re97	DNA with uracil	reactant
+re97	DNA containing an apyrimidinic site	product
+re97	uracil	product

@@ -1,0 +1,226 @@
+# From /Users/Daniela/Documents/CCG/data_sets_GUs/analysis/scripts/connectivity_from_gufiles_permissive_enx_v1.pl on Sun Nov 25 15:18:35 2018
+# Input = /Users/Daniela/Documents/CCG/GU_art_2/v22/connectivity/regulons_by_conformation//complete_gus/
+GU name	Total enzymes	Enzymes	Total connected enzymes	Connected enzymes	Total components	Components	Total Enzymatic reactions	Total transport reactions	Connectivity
+AcrR	2	AcrA-TolC-AcrB,AcrD-AcrA-TolC,	0		6	*re20,*re18,*re17,*re19,*re16,*re14,*	6	6	0.0
+Ada	4	AidB,AlkA,Ada,AlkB,	2	Ada,AlkB,	4	*re12,*re6,re7,re8,*re14,re15,re16,re17,re18,re19,*re10,*	11	0	0.3
+AdiY	4	AdiA,GadC,GadB,GadA,	4	GadA,GadB,GadC,AdiA,	1	*re10,re12,re15,*	3	1	1.0
+AgaR	1	KbaY-KbaZ,	0		1	*re25,*	1	0	0.0
+AidB	1	AidB,	0		1	*re3,*	1	0	0.0
+AlaS-L-alanine	1	AlaS,	0		1	*re3,*	1	0	0.0
+AllR-allantoin	6	GlxR,AllA,Gcl,Hyi,AllB,GlxK,	6	Gcl,GlxR,AllA,GlxK,AllB,Hyi,	1	*re11,re16,re20,re18,re22,re25,re13,*	6	0	1.0
+AllS-allantoin	3	AllC,AllE,AllD,	3	AllD,AllE,AllC,	1	*re5,re9,re7,*	3	0	1.0
+AlsR	3	RpiB,AlsE,AlsA-AlsC-AlsB,	2	RpiB,AlsE,	3	*re13,re16,*re9,*re17,*	4	1	0.4
+AppY	2	AppC-AppB,AppA,	1	AppA,	3	*re12,*re20,*re13,re14,re15,re16,re17,*	7	1	0.2
+AraC	3	AraA,AraB,AraD,	3	AraA,AraD,AraB,	1	*re11,re8,re6,*	3	0	1.0
+AraC-arabinose	8	AraA,AraG-AraH-AraF,AraB,AraE,YgeA,XylA,XylB,AraD,	7	AraG-AraH-AraF,AraA,XylA,AraE,AraB,XylB,AraD,	3	*re37,*re33,*re16,re18,re21,re32,re30,re23,*	8	1	0.7
+ArgP	8	RecF-RecR-RecO,LysP,DapD,DapB,LysC,GdhA,LysA,NrdA-NrdB,	6	DapB,LysC,LysA,NrdA-NrdB,LysP,DapD,	4	*re38,*re14,re16,re41,re40,re23,re27,re25,*re21,*re30,re31,re32,re33,re34,*	12	1	0.5
+ArgP-arginine	1	ArgO,	0		2	*re5,*re4,*	2	2	0.0
+ArgR-L-arginine	23	ArgC,NAGS,Pnp,AstD,HisQ-HisP-HisM-ArgT,AstC,ArgA,ArgD,ArgH,ArgE,TruB,HisP-HisM-HisQ-HisJ,ArtJ-ArtQ-ArtM-ArtP,ArgB,ArgI,CarB-CarA,ArgG,AstB,AstE,ArgF,AstA,LysO,PNPase,	18	ArgF,AstA,AstE,ArgG,CarB-CarA,AstB,ArgI,ArgB,ArtJ-ArtQ-ArtM-ArtP,ArgE,AstC,ArgD,ArgA,ArgH,HisQ-HisP-HisM-ArgT,AstD,ArgC,NAGS,	6	*re40,re43,re45,re47,re48,re72,re70,re68,re56,re54,re52,re50,re92,re79,re76,re74,re80,re81,re63,*re104,*re93,*re112,*re103,*re89,*	24	4	0.6
+ArsR	2	ArsB,ArsC,	2	ArsB,ArsC,	2	*re6,re8,*re5,*	3	2	0.7
+AscG	2	AscB,AscF,	2	AscB,AscF,	1	*re10,re11,re12,re8,re7,*	5	3	1.0
+AsnC	2	AsnA,MnmE-MnmG,	2	MnmE-MnmG,AsnA,	1	*re11,re12,re13,re6,*	4	0	1.0
+AtoC-Phosphorylated	3	AtoE,AtoB,AtoA-AtoD,	3	AtoA-AtoD,AtoB,AtoE,	1	*re12,re7,re9,*	3	1	1.0
+BCCP	1	AccC,	0		1	*re6,*	1	0	0.0
+BaeR-Phosphorylated	2	TolC-MdtC-MdtB-MdtA,AcrD-AcrA-TolC,	0		3	*re16,*re11,*re17,*	3	3	0.0
+BasR-Phosphorylated	3	PutA,CsgE-CsgG,DgkA,	1	PutA,	3	*re17,*re22,*re26,re33,re27,*	4	1	0.2
+BetI	3	BetB,BetT,BetA,	3	BetB,BetA,BetT,	1	*re10,re6,re13,re7,re8,*	5	1	1.0
+BirA-biotinyl-5-adenylate	5	BioF,BioA,BioD,BioC,BioB,	5	BioB,BioC,BioD,BioA,BioF,	1	*re10,re11,re13,re19,re7,re15,re17,re18,re9,*	8	0	1.0
+BluR	0		0		0	*	0	0	-0.0
+BolA	2	AmpC,DacC,	1	DacC,	2	*re4,*re6,re7,re8,re9,*	5	0	0.3
+BtsR-Phosphorylated	1	BtsT,	0		1	*re3,*	1	1	0.0
+CadC	3	CadA,CadB,LdcI,	3	CadA,CadB,LdcI,	1	*re5,re8,re9,*	3	2	1.0
+CaiF-L-carnitine	5	CaiB,CaiT,CaiC,CaiA,CaiD,	5	CaiD,CaiC,CaiA,CaiT,CaiB,	1	*re12,re14,re16,re18,re21,*	5	1	1.0
+Cbl	5	SsuD,SsuE,TauA-TauC-TauB,SsuA-SsuC-SsuB,TauD,	4	SsuD,SsuE,TauA-TauC-TauB,TauD,	2	*re12,*re16,re17,re18,re19,re21,re28,re24,*	8	2	0.7
+CdaR	9	GarD,RNA:RnpB,GudD,GarK,GudP,GarR,RnpB,GarL,GarP,	9	GarP,GarL,GudP,RnpB,GarR,GarK,RNA:RnpB,GarD,GudD,	2	*re13,re17,re23,re15,re19,re24,re26,re20,re27,re21,*re31,re32,*	12	3	0.9
+CecR	1	YbhS-YbhR-YbhF,	0		1	*re9,*	1	1	0.0
+ChbR	3	ChbG,ChbF,ChbA-ChbC-ChbB,	3	ChbA-ChbC-ChbB,ChbG,ChbF,	1	*re10,re15,re9,re17,re14,re18,*	6	2	1.0
+ChbR-N-monoacetylchitobiose-6-phosphate	3	ChbG,ChbF,ChbA-ChbC-ChbB,	3	ChbA-ChbC-ChbB,ChbF,ChbG,	1	*re10,re15,re9,re17,re14,re18,*	6	2	1.0
+ComR	0		0		0	*	0	0	-0.0
+CpxR-Phosphorylated	21	Dsf,LpxA,LdtD,SbmA,OmpC,PpiA,Slt,DegP,FabZ,OmpF,LpxD,AcrD-AcrA-TolC,DgcZ,Ung,TolC-MdtC-MdtB-MdtA,SrkA,AroG,LdtC,DsbC,BacA,CsgE-CsgG,	5	LdtC,LpxD,FabZ,LdtD,LpxA,	60	*re174,*re193,*re103,*re144,*re110,*re164,*re216,*re105,*re170,*re160,*re157,*re98,*re163,*re223,*re177,*re159,*re180,*re168,*re190,*re172,*re167,*re188,*re197,*re189,*re173,*re181,*re178,*re215,*re77,*re145,*re76,*re219,*re114,re231,re232,re115,re233,re116,re119,re124,re136,re120,re138,re234,re237,re238,re241,re236,re118,re121,re239,re122,re240,re123,re235,re117,*re211,*re112,re230,re113,*re166,*re183,*re156,*re187,*re192,*re179,*re182,*re107,*re162,*re186,*re185,*re191,*re129,re130,re131,re133,re134,*re169,*re171,*re176,*re158,*re74,*re214,*re72,*re175,*re155,*re165,*re184,*re161,*	77	44	0.1
+Cra	59	PpsA,FbaB,MtlD,BetB,CsgE-CsgG,CyoD-CyoA-CyoB-CyoC,AdhE,SucA-SucB-Lpd,AceE-AceF-Lpd,BetT,Icd,Glk,CydA-CydB-CydX,SetA,GapA,Zwf,PoxB,Edd,Epd,PfkA,MtlA,FruB-FruA,FruK,CyoE,NirC,Pgk,AroP,HypF,PrpB,PrpC,Pck,TpiA,AceB,TreB-Crr,AcnA,Eda,Lpd,AceK,PrpE,MurP-Crr,AceF,AceA,Eno,BetA,AceE,CysG,PrpD,Lpd-GcvP-GcvH-GcvT,GpmM,PykF,PdeL,Mpl,EIIMtl,PtsG-Crr,NirD-NirB,FbaA,Ppc,AcnB,ManZ-ManY-ManX,	55	AcnA,Eda,TreB-Crr,AceB,TpiA,AceK,PrpE,Lpd,Pgk,NirC,CyoE,Pck,PrpC,HypF,PrpB,EIIMtl,PtsG-Crr,Mpl,ManZ-ManY-ManX,AcnB,FbaA,Ppc,NirD-NirB,AceE,CysG,PrpD,Eno,BetA,AceF,AceA,MurP-Crr,PykF,GpmM,Lpd-GcvP-GcvH-GcvT,AceE-AceF-Lpd,SucA-SucB-Lpd,AdhE,CyoD-CyoA-CyoB-CyoC,FbaB,PpsA,BetB,MtlD,MtlA,PfkA,Epd,FruK,FruB-FruA,Glk,CydA-CydB-CydX,Icd,BetT,Edd,Zwf,GapA,PoxB,	14	*re267,*re94,re95,*re102,*re100,re254,re153,re154,re155,re189,re190,re191,re198,re105,re104,re248,re199,re195,re200,re256,re237,re159,re183,re245,re177,re165,re166,re163,re242,re271,re175,re172,re170,re171,re212,re123,re124,re126,re128,re207,re208,re209,re210,re181,re211,re223,re224,re227,re243,re180,re275,re278,re279,re250,re252,re247,re137,re202,re203,re194,re204,re232,re234,re85,re265,re277,re86,re87,re90,re257,re261,re145,re185,re186,re187,re83,re276,re81,re97,re98,re89,re280,re91,re259,re157,*re109,*re147,re148,re149,re150,re151,*re220,re221,*re193,*re103,*re111,re112,re113,re115,re118,re196,*re107,*re132,*re108,*re239,*	100	23	0.8
+CreB-Phosphorylated	2	MalK-MalF-MalG-MalE,TalA,	0		4	*re15,*re11,*re10,*re9,*	4	3	0.0
+CsgD	5	DgcC,WrbA,TcyN-TcyL-TcyJ,CsgE-CsgG,PepD,	2	PepD,TcyN-TcyL-TcyJ,	13	*re60,re64,*re58,*re72,*re71,*re66,*re39,*re68,*re59,*re63,*re35,*re67,*re70,*re65,*	14	7	0.1
+CsiR	4	GabD,LhgO,GabT,GabP,	4	GabT,GabP,GabD,LhgO,	1	*re10,re12,re13,re15,re8,*	5	1	1.0
+CspA	1	GyrA-GyrB,	0		1	*re5,*	1	0	0.0
+CueR-Cu	5	MoaC,MoaD-MoaE,CueO,MoaA,CopA,	5	CopA,CueO,MoaA,MoaD-MoaE,MoaC,	2	*re11,re12,re13,re14,re9,*re16,re19,re22,*	8	1	0.8
+CusR-Pasp	4	CyoE,CusC-CusB-CusF-CusA,YedX,CyoD-CyoA-CyoB-CyoC,	0		5	*re24,*re31,*re15,*re16,*re29,*	5	3	0.0
+CynR	0		0		0	*	0	0	-0.0
+CynR-cyanate	3	CynS,CynT,CynX,	3	CynS,CynX,CynT,	1	*re5,re10,re7,re9,*	3	1	1.0
+CysB	2	TcyP,TcyN-TcyL-TcyJ,	0		7	*re8,*re11,*re12,*re10,*re9,*re14,*re7,*	7	7	0.0
+CysB-O-acetyl-L-serine	15	TauD,CysJ-CysI,CysK,CysD-CysN,CysC,CysH,SsuA-SsuC-SsuB,CysM,TauA-TauC-TauB,CysJ,Sbp-CysW-CysU-CysA,DgcZ,SsuE,SsuD,CysA-CysW-CysU-CysP,	13	SsuE,SsuD,CysA-CysW-CysU-CysP,CysM,CysH,Sbp-CysW-CysU-CysA,DgcZ,TauA-TauC-TauB,CysC,CysJ-CysI,TauD,CysD-CysN,CysK,	5	*re34,*re32,re41,re38,re43,re46,re50,re51,re52,re55,re33,re69,re70,re71,re72,re74,re81,re77,re61,*re35,*re48,*re65,*	22	6	0.7
+CytR	10	Udp,DeoA,DeoD,DeoC,Tsx,PpiA,NupG,Cdd,DeoB,NupC,	8	DeoD,DeoC,NupG,DeoA,DeoB,NupC,Cdd,Udp,	3	*re48,*re15,re16,re20,re19,re22,re25,re29,re28,re23,re27,re30,re31,re33,re32,re43,re56,re53,re37,re55,re41,re35,re36,re38,re39,re40,re42,re46,*re45,*	27	11	0.7
+Dan-L-tartrate	2	TtdT,TtdA-TtdB,	2	TtdT,TtdA-TtdB,	1	*re11,re7,*	2	1	1.0
+DcuR-Phosphorylated	4	DcuB,DctA,FumB,FrdA-FrdB-FrdC-FrdD,	4	FumB,DctA,DcuB,FrdA-FrdB-FrdC-FrdD,	3	*re16,*re12,re20,re13,re18,re14,re26,re19,re15,re31,re21,re32,*re11,*	13	10	0.7
+DeoR	6	DeoA,DeoD,DeoC,Tsx,NupG,DeoB,	5	DeoB,NupG,DeoD,DeoC,DeoA,	5	*re30,*re24,*re25,*re11,re14,re18,re17,re12,re16,re19,re20,re22,re21,re33,re37,re36,re31,re8,re26,re9,re28,re29,re27,re34,*re32,*	23	11	0.5
+DhaR	1	DhaK-DhaL-DhaM,	1	DhaK-DhaL-DhaM,	1	*re7,re8,*	2	0	1.0
+DicA	0		0		0	*	0	0	-0.0
+DinJ-YafQ	1	YafQ,	0		1	*re8,*	1	0	0.0
+DnaA-ATP	6	RecF-RecR-RecO,AldA,NrdA-NrdB,PolA,GuaB,GuaA,	4	GuaB,GuaA,PolA,NrdA-NrdB,	5	*re15,*re14,*re20,re21,re22,re24,re36,re35,re44,re27,re28,re29,re30,re31,*re39,*re34,*	15	0	0.4
+DpiA-Pasp	5	CitX,Mdh,ExuT,CitC,CitG,	3	CitC,CitG,CitX,	4	*re14,re22,re20,*re27,*re26,*re29,*	6	2	0.4
+DsdC-D-serine	2	DsdA,DsdX,	2	DsdX,DsdA,	1	*re5,re6,re9,*	3	1	1.0
+EbgR	0		0		0	*	0	0	-0.0
+EnvR	2	AcrA-TolC-AcrB,AcrD-AcrA-TolC,	0		6	*re9,*re10,*re11,*re8,*re7,*re5,*	6	6	0.0
+EnvY	2	OmpF,OmpC,	0		39	*re24,*re10,*re9,*re14,*re25,*re36,*re12,*re37,*re41,*re22,*re11,*re31,*re17,*re34,*re8,*re20,*re30,*re42,*re19,*re39,*re21,*re18,*re13,*re15,*re35,*re7,*re32,*re40,*re38,*re6,*re16,*re28,*re29,*re23,*re33,*re5,*re4,*re27,*re26,*	39	39	0.0
+EvgA-Phosphorylated	6	Oxc,TolC-MdtE-MdtF,EmrK-EmrY-TolC,Frc,YfdE,AcrD-AcrA-TolC,	3	Oxc,Frc,YfdE,	2	*re21,*re28,re36,re42,*	4	1	0.4
+ExuR	6	UxuB,UxuA,UxaB,UxaA,UxaC,ExuT,	5	UxaC,UxaA,UxaB,UxuA,UxuB,	3	*re11,*re12,*re14,re16,re19,re21,re23,re18,*	8	2	0.6
+ExuR-alpha-D-galacturonate	0		0		0	*	0	0	-0.0
+FabR	3	FabA,FabB,KASI,	3	KASI,FabA,FabB,	1	*re10,re11,re12,re14,re15,re16,re17,re18,re19,re20,re21,re22,re23,re24,re25,re26,re27,re29,re42,re43,re44,re46,re5,re32,re30,re31,re41,re38,re37,re34,re33,re36,re35,re40,re39,re45,re9,re4,re6,re7,re8,*	24	0	1.0
+FadR	19	KASI,FadH,FadM,FadB,FabI,FadA,FadJ,FadI,KASIII,FabA,FabB,FabH,AccA-AccD,FadD,FabD,FadE,FadL,FabG,AccC,	17	FadB,KASI,FadM,FadJ,FabI,FadA,FabA,KASIII,FabH,FabB,FadI,FabG,AccC,FadD,AccA-AccD,FadE,FabD,	3	*re141,*re146,*re100,re101,re102,re108,re116,re123,re135,re132,re113,re105,re124,re95,re126,re127,re128,re129,re130,re137,re118,re110,re99,re138,re119,re111,re133,re114,re106,re96,re134,re115,re107,re97,re148,re59,re25,re29,re75,re42,re33,re38,re39,re40,re37,re66,re46,re43,re44,re45,re47,re48,re49,re50,re51,re52,re53,re54,re152,re55,re57,re67,re68,re73,re76,re82,re89,re98,re109,re117,re136,re139,re120,re112,re61,re32,re79,re81,re88,re36,re65,re87,re92,re34,re63,re91,re35,re64,re90,re70,re156,re84,re155,re69,re71,re157,re86,re158,re93,re121,re122,re72,re85,re62,re153,re154,re80,re83,*	101	5	0.8
+FadR-acyl-CoA	0		0		0	*	0	0	-0.0
+FeaR	2	TynA,FeaB,	2	TynA,FeaB,	1	*re4,re7,re6,re8,re9,*	5	0	1.0
+FhlA-formate	8	HyfG-HyfI-HyfA-HyfB-HyfC-HyfD-HyfE-HyfF-HyfH,HypF,FdhF,HycD-HycC-HycF-HycG-HycB-HycE,HypB,FdhF-HycE-HycB-HycG-HycF-HycC-HycD,HypE,HycI,	6	FdhF-HycE-HycB-HycG-HycF-HycC-HycD,HypF,HyfG-HyfI-HyfA-HyfB-HyfC-HyfD-HyfE-HyfF-HyfH,FdhF,HycD-HycC-HycF-HycG-HycB-HycE,HypE,	4	*re67,*re33,re34,re35,re41,re53,*re49,*re72,re74,re75,re76,*	11	0	0.5
+FlhDC	14	NapC,NapB-NapA,NrfA,TcyN-TcyL-TcyJ,GlpA-GlpB-GlpC,GltI-GltK-GltJ-GltL,RecD-RecC-RecB,MglA-MglC-MglB,HypF,CcmD-CcmB-CcmA-CcmE-CcmC,NapG-NapH,Mdh,PdeH,NrfD-NrfC,	8	NapG-NapH,NrfD-NrfC,HypF,GlpA-GlpB-GlpC,RecD-RecC-RecB,NapC,NapB-NapA,NrfA,	17	*re199,*re85,*re197,*re190,*re200,*re157,*re142,*re184,*re143,*re201,*re196,*re149,re150,re151,*re137,re165,re178,re174,re162,re170,*re153,*re191,re192,*re198,*re156,*	25	11	0.3
+FliZ	5	GadB,PdeR,GadC,TolC-MdtE-MdtF,CsgE-CsgG,	2	GadB,GadC,	4	*re50,*re35,re37,*re45,*re28,*	5	3	0.2
+FucR-L-fuculose-1-P	6	FucA,FucI,FucO,FucP,FucK,FucU,	5	FucK,FucU,FucO,FucI,FucA,	4	*re10,re16,re13,re18,re9,re15,re12,re26,re19,*re22,*re23,*re21,*	12	3	0.6
+Fur-Fe2	62	SodA,EntE,AmtB,GarK,Fiu,AspC,Zwf,KatG,NrdE-NrdF,CirA,GpmA,GlnD,RNA:RnpB,EntS,MntH,SucB,OmpF,Gnd,GdhA,EntH,ExbD-ExbB-TonB-FhuA,ExbD-ExbB-TonB-FepA,GarL,GarP,PyrC,FhuC-FhuB-FhuD,EntD,SufS,MetH,SucA-SucB-Lpd,FhuE-ExbD-ExbB-TonB,CyoD-CyoA-CyoB-CyoC,YqjH,AceE-AceF-Lpd,FecE-FecC-FecD-FecB,FumC,KatE,MntP,Lpd-GcvP-GcvH-GcvT,FecA-ExbD-ExbB-TonB,OppC-OppD-OppF-OppB-OppA,EntB,EntA,GspO,Ndh,SucA,FumB,FtnA,CyoE,Fes,EntC,EntB-EntD-EntF-EntE,RcnA,OppB-OppC-OppD-OppF-MppA,FepC-FepD-FepG-FepB,Hmp,SucD-SucC,GarR,Lpd,EntF,RnpB,FeoB,	51	SucB,OmpF,GdhA,Gnd,EntH,ExbD-ExbB-TonB-FepA,GarL,GarP,MetH,EntD,SufS,SucA-SucB-Lpd,CyoD-CyoA-CyoB-CyoC,YqjH,AceE-AceF-Lpd,SodA,EntE,AmtB,GarK,Fiu,AspC,Zwf,KatG,NrdE-NrdF,GpmA,CirA,EntS,RNA:RnpB,GlnD,MntH,CyoE,Fes,EntB-EntD-EntF-EntE,EntC,FepC-FepD-FepG-FepB,Hmp,SucD-SucC,GarR,Lpd,EntF,FeoB,RnpB,FumC,KatE,Lpd-GcvP-GcvH-GcvT,EntB,EntA,Ndh,FumB,FtnA,SucA,	60	*re342,*re340,*re383,*re346,*re326,*re338,*re344,*re215,*re356,*re358,*re355,*re354,*re363,*re280,*re361,*re216,*re360,*re366,*re353,*re343,*re332,*re318,*re365,*re322,re323,re324,re325,*re349,*re352,*re387,re388,*re317,*re144,re316,*re351,*re348,*re212,*re290,*re367,*re336,*re362,*re242,*re345,*re372,*re335,*re368,*re381,*re373,*re350,*re357,*re359,*re334,*re283,*re341,*re347,*re243,*re333,*re132,re248,re134,re135,re136,re137,re138,re296,re164,re158,re157,re149,re155,re151,re153,re162,re239,re245,re237,re241,re246,re261,re263,re262,re264,re265,re437,re438,re304,re165,re156,re159,re160,re170,re167,re168,re172,re250,re251,re252,re175,re206,re207,re208,re209,re428,re140,re205,re197,re193,re228,re229,re230,re285,re282,re399,re286,re288,re294,re419,re415,re416,re417,re418,re429,re173,re298,re293,re297,re259,re300,re301,re291,re302,re308,re309,re433,re440,re305,re292,re306,re406,re434,re439,re436,re435,re233,re232,re432,*re337,*re331,*re384,*re364,*re312,*re182,*re339,*	145	56	0.4
+GadE	10	GadB,LpxD,CyoE,CyoD-CyoA-CyoB-CyoC,TolC-MdtE-MdtF,GadC,Gnd,PurA,FabZ,LpxA,	6	LpxD,GadB,GadC,Gnd,LpxA,FabZ,	7	*re55,re57,re68,*re79,*re82,*re32,*re39,re87,re40,*re37,*re41,re88,re89,re42,re90,re43,re46,re51,re73,re47,re75,re91,re94,re95,re98,re93,re45,re48,re96,re49,re97,re50,re92,re44,*	22	3	0.4
+GadE-RcsB	5	AdiC,CadA,CadB,LdcI,GadA,	4	LdcI,CadA,CadB,GadA,	2	*re14,re17,re18,re21,*re11,*	5	3	0.7
+GadW	4	GadA,GadB,GadC,TolC-MdtE-MdtF,	3	GadA,GadB,GadC,	2	*re18,re21,*re32,*	3	2	0.6
+GadX	14	Lon,GadA,BtuB-ExbD-ExbB-TonB,MurI,GadB,AsnB,GlsA,AmtB,LdcI,SpeG,GadC,CadA,TolC-MdtE-MdtF,CadB,	11	MurI,GadA,GadB,AsnB,SpeG,LdcI,AmtB,GlsA,CadB,CadA,GadC,	6	*re72,*re42,*re43,*re80,re81,re82,*re35,re38,re37,re39,re52,re45,re48,re49,re55,re75,*re69,*	17	7	0.6
+GalR	6	GalE,MglA-MglC-MglB,GalP,GalM,GalK,GalT,	4	GalE,GalK,GalM,GalT,	4	*re24,*re11,re21,re13,re15,*re17,*re18,*	7	3	0.4
+GalR-beta-D-galactose	5	GalM,GalK,GalT,GalP,GalE,	4	GalT,GalK,GalM,GalE,	3	*re14,*re10,re12,re18,re8,*re15,*	6	2	0.6
+GalS	6	GalK,GalM,GalT,MglA-MglC-MglB,GalP,GalE,	4	GalM,GalK,GalT,GalE,	4	*re18,*re17,*re24,*re11,re21,re13,re15,*	7	3	0.4
+GalS-beta-D-galactose	5	GalP,GalE,GalK,GalM,GalT,	4	GalT,GalK,GalM,GalE,	3	*re14,*re10,re12,re18,re8,*re15,*	6	2	0.6
+GatR	3	GatY-GatZ,GatD,GatC-GatB-GatA,	3	GatD,GatC-GatB-GatA,GatY-GatZ,	3	*re17,re19,*re14,re9,*re10,*	4	2	0.6
+GcvA	3	GcvP,Lpd-GcvP-GcvH-GcvT,GcvT,	3	GcvT,Lpd-GcvP-GcvH-GcvT,GcvP,	1	*re10,re11,re12,re13,*	4	0	1.0
+GlcC-glycolate	3	GlcB,GlcD-GlcE-GlcF,GlcA,	3	GlcD-GlcE-GlcF,GlcB,GlcA,	3	*re13,re17,re18,re9,*re11,*re10,*	6	3	0.6
+GlpR	7	GlpX,GlpD,GlpA-GlpB-GlpC,GlpT,GlpQ,GlpF,GlpK,	6	GlpT,GlpF,GlpK,GlpQ,GlpD,GlpA-GlpB-GlpC,	8	*re20,*re24,*re12,re16,re26,re19,re29,re28,re31,*re22,*re23,*re33,*re18,*re21,*	14	8	0.4
+GlrR-Pasp56	0		0		0	*	0	0	-0.0
+GntR	9	IdnK,GntT,Edd,GntK,IdnT,IdnO,Eda,GntU,IdnD,	9	IdnK,GntT,Edd,IdnO,GntK,IdnT,Eda,GntU,IdnD,	1	*re14,re15,re16,re18,re20,re22,re28,re25,re31,re35,re32,*	10	3	1.0
+GutM	3	SrlD,GutQ,SrlA-SrlB-SrlE,	2	SrlD,SrlA-SrlB-SrlE,	2	*re10,*re13,re14,re17,*	4	2	0.5
+HU	7	Mtr,TyrP,GalE,GalT,Pgm,GalK,GalM,	5	GalK,GalM,GalT,Pgm,GalE,	4	*re20,*re11,re17,re13,re15,re23,re24,re25,*re28,*re21,*	10	3	0.5
+HcaR	0		0		0	*	0	0	-0.0
+HcaR-HCA	2	HcaB,HcaC-HcaD-HcaF-HcaE,	2	HcaC-HcaD-HcaF-HcaE,HcaB,	1	*re11,re12,re8,re7,*	4	0	1.0
+HdfR	0		0		0	*	0	0	-0.0
+HigA	1	HigB,	0		1	*re6,*	1	0	0.0
+HigB-HigA	1	HigB,	0		1	*re6,*	1	0	0.0
+HipAB	2	RelA,HipA,	1	RelA,	2	*re8,*re14,re16,re15,*	3	0	0.3
+HipB	3	FadH,HipA,RelA,	1	RelA,	3	*re11,*re17,re19,re18,*re8,*	4	0	0.2
+HprR-Phosphorylated	4	CyoD-CyoA-CyoB-CyoC,CusC-CusB-CusF-CusA,YedX,CyoE,	0		5	*re29,*re15,*re16,*re31,*re24,*	5	3	0.0
+HyfR	1	HyfG-HyfI-HyfA-HyfB-HyfC-HyfD-HyfE-HyfF-HyfH,	0		1	*re16,*	1	0	0.0
+HypT-Met-oxidized	7	FecA-ExbD-ExbB-TonB,MetN-MetI-MetQ,MetL,CydA-CydB-CydX,MetB,FecE-FecC-FecD-FecB,CysH,	2	MetB,MetL,	9	*re36,*re37,*re30,re31,re32,re45,re42,re46,re41,*re19,*re39,*re35,*re38,*re16,*re23,*	13	7	0.1
+IclR-pyruvate	3	AceA,AceK,AceB,	3	AceK,AceB,AceA,	2	*re10,re11,*re6,re13,re8,*	4	0	0.8
+IdnR-5-ketogluconate	5	IdnD,GntU,IdnO,GntK,IdnT,	5	IdnT,GntK,IdnO,GntU,IdnD,	1	*re10,re14,re12,re17,re19,re18,re8,*	6	3	1.0
+IlvY	0		0		0	*	0	0	-0.0
+IlvY-S-2-acetolactate	1	IlvC,	0		3	*re3,*re5,*re4,*	3	0	0.0
+IscR	6	RnlA,NapG-NapH,SufS,NapB-NapA,NapC,NrdE-NrdF,	4	NapG-NapH,NapB-NapA,SufS,NrdE-NrdF,	6	*re61,*re71,re72,re73,re74,re75,*re56,*re42,*re39,re47,*re52,re53,re54,re55,*	14	0	0.4
+IscR-2Fe-2S	2	IscU,IscS,	2	IscS,IscU,	1	*re10,re11,re12,re8,re14,re9,*	6	0	1.0
+KdgR	2	Eda,Edd,	2	Eda,Edd,	1	*re4,re5,re6,re8,*	4	0	1.0
+KdpE-Phosphorylated	1	KdpF-KdpA-KdpB-KdpC,	0		1	*re7,*	1	1	0.0
+LacI	3	LacZ,LacY,LacA,	2	LacZ,LacY,	4	*re8,*re10,re16,re13,re14,re7,re15,re9,*re11,*re5,*	10	5	0.3
+LeuO	6	CasA-CasB-CasC-CasD-CasE,LeuB,LeuA,LeuC-LeuD,BglF,BglB,	5	LeuC-LeuD,BglF,BglB,LeuB,LeuA,	3	*re39,*re46,re51,re48,re52,re53,*re22,re23,re27,re26,re28,re29,re24,*	13	4	0.6
+LexA	23	MraY,RecD-RecC-RecB,PolB,MurG,MurC,MurD,FtsI,MurE,MurF,DnaG,DinB,Phr,RecB,UmuC-UmuD,YafO,UvrB-UvrC-UvrA,RuvC-RuvB-RuvA,RecQ,RecD,LpxC,YafQ,DdlB,PtrA,	15	MurD,MurC,FtsI,MurE,MurF,DnaG,MraY,RecD-RecC-RecB,MurG,PolB,DdlB,DinB,Phr,UmuC-UmuD,RecQ,	10	*re103,re104,re105,*re89,*re116,*re109,*re128,*re141,*re148,*re113,*re107,re65,re75,re115,re114,re120,*re101,re91,re99,re63,re78,re97,re95,re93,*	24	0	0.5
+LldR	2	LldP,LldD,	2	LldP,LldD,	2	*re10,re6,re5,re8,*re9,*	5	3	0.7
+LldR-S-lactate	2	LldP,LldD,	2	LldD,LldP,	2	*re10,re6,re5,re8,*re9,*	5	3	0.7
+LrhA	0		0		0	*	0	0	-0.0
+Lrp	31	LdcI,AroA,IlvA,CadB,IlvE,AdhE,SerA,CadA,Kbl,IlvD,Tdh,LysP,SerC,Fau,OsmC,IlvI-IlvH,AidB,GcvT,OmpC,LysU,IlvO-IlvM,SdaA,LivK-LivM-LivH-LivG-LivF,GcvP,OppC-OppD-OppF-OppB-OppA,Lpd-GcvP-GcvH-GcvT,DadA,OppB-OppC-OppD-OppF-MppA,DadX,BCAT,LivF-LivG-LivH-LivM-LivJ,	26	LdcI,AroA,IlvA,CadB,AdhE,IlvE,CadA,SerA,Tdh,LysP,SerC,Kbl,IlvD,GcvT,IlvI-IlvH,OmpC,LysU,IlvO-IlvM,Lpd-GcvP-GcvH-GcvT,LivK-LivM-LivH-LivG-LivF,SdaA,GcvP,DadA,BCAT,DadX,LivF-LivG-LivH-LivM-LivJ,	46	*re141,*re182,*re148,*re179,*re183,*re156,*re166,*re149,*re169,*re162,*re153,*re176,*re171,*re62,*re158,*re161,re58,*re152,*re57,*re154,*re165,*re143,*re175,*re155,*re150,*re144,*re142,*re174,*re170,*re160,*re157,*re147,*re164,*re167,*re172,*re190,*re151,*re100,re101,re206,re121,re60,re59,re89,re113,re114,re193,re194,re72,re73,re75,re208,re91,re90,re66,re135,re137,re69,re70,re92,re209,re212,re210,re103,re107,re106,re108,re104,re109,re124,re197,re198,re200,re196,re201,re202,re211,re126,re127,re207,re125,re64,*re177,*re163,*re168,*re159,*re145,*re77,*re146,*re173,*re178,*	85	48	0.3
+Lrp-leucine	17	IlvE,AvtA,AlaE,LhgO,IlvD,SerA,AlaA,GabD,IlvA,LeuE,ArgO,LivF-LivG-LivH-LivM-LivJ,BCAT,GabP,OmpC,GabT,IlvO-IlvM,	15	AlaA,GabD,IlvA,LeuE,IlvE,AvtA,AlaE,IlvD,LhgO,SerA,GabT,IlvO-IlvM,LivF-LivG-LivH-LivM-LivJ,GabP,BCAT,	44	*re166,*re156,*re148,*re141,*re140,*re153,*re127,*re162,*re169,*re149,*re108,re109,re210,re122,re123,re211,re64,re114,re115,re111,re212,re77,re132,re66,re116,re112,re213,re117,re126,re129,re203,re204,re85,re81,re83,re86,re133,re134,re78,*re139,*re158,*re176,*re171,*re175,*re155,*re143,*re165,*re154,*re74,*re75,*re152,*re161,*re174,*re142,*re144,*re150,*re164,*re147,*re138,*re202,*re157,*re160,*re170,*re168,*re159,*re163,*re172,*re151,*re167,*re173,*re146,*re145,*	68	48	0.2
+LsrR	5	Tam,LsrG,LsrF,LsrK,LsrB-LsrD-LsrC-LsrA,	3	LsrG,LsrF,LsrK,	3	*re12,*re25,*re17,re19,re20,re22,*	6	1	0.4
+LysR	1	LysA,	0		1	*re4,*	1	0	0.0
+MalI	2	MalY,MalX,	1	MalY,	3	*re10,re12,re11,re9,*re7,*re6,*	6	2	0.2
+MalT-maltotriose-ATP	6	MalQ,MalS,MalP,MalZ,MalK-MalF-MalG-MalE,LamB,	6	MalS,MalP,MalQ,MalZ,MalK-MalF-MalG-MalE,LamB,	2	*re13,*re12,re30,re24,re23,re25,re26,re16,re27,re17,re33,re31,re32,re35,re28,re38,re37,re39,re40,re41,*	20	4	0.9
+MarA	24	EmrK-EmrY-TolC,NfsB,TolC-MdtE-MdtF,SodA,PoxB,Zwf,TolC-MacB-MacA,PutA,Fpr,EmrA-EmrB-TolC,PurA,AcrD-AcrA-TolC,WaaY,TolC-MdtC-MdtB-MdtA,WaaZ,AcnA,XseA-XseB,Nfo,FumC,AcrE-AcrF-TolC,AcrA-TolC-AcrB,RimK,AldA,NfsA,	7	PutA,PoxB,Nfo,AcnA,XseA-XseB,RimK,FumC,	23	*re100,re102,re136,re91,re92,re99,*re109,*re63,*re54,*re48,re133,re134,re49,re135,re70,*re123,re85,*re67,*re87,*re89,*re55,*re58,*re62,*re97,*re111,*re118,*re57,*re112,*re52,*re120,*re56,*re106,*re68,*re132,*	30	9	0.2
+MarR	0		0		0	*	0	0	-0.0
+MatA	1	TcyN-TcyL-TcyJ,	0		6	*re21,*re26,*re23,*re22,*re25,*re24,*	6	6	0.0
+MazE	1	MazG,	1	MazG,	1	*re10,re11,re12,re13,re14,re15,re16,re17,re18,re8,re9,*	11	0	1.0
+MazE-MazF	1	MazG,	1	MazG,	1	*re10,re11,re12,re13,re14,re15,re16,re17,re18,re8,re9,*	11	0	1.0
+McbR	0		0		0	*	0	0	-0.0
+MelR	2	MelB,MelA,	2	MelA,MelB,	3	*re10,re11,re12,re5,re8,*re13,*re6,re9,*	8	6	0.5
+MelR-melibiose	2	MelB,MelA,	2	MelA,MelB,	3	*re6,re9,*re13,*re10,re11,re12,re5,re8,*	8	6	0.5
+MetJ-adenosylmethionine	10	MetN-MetI-MetQ,MetL,AhpC-AhpF,MetF,MetA,MetE,MetK,MetB,MetC,FolE,	7	MetE,MetA,MetN-MetI-MetQ,MetL,MetC,MetB,MetK,	8	*re43,*re42,*re41,*re36,*re23,re25,re26,re27,re29,re30,re32,re31,re34,re39,re45,re53,re54,re48,re55,re47,*re40,*re21,*re18,*	20	5	0.4
+MetR	2	MetH,Hmp,	1	MetH,	3	*re4,*re5,*re7,re8,*	4	0	0.2
+MetR-L-homocysteine	2	MetE,GlyA,	1	GlyA,	4	*re11,*re6,*re7,*re5,re8,re9,*	6	0	0.2
+MhpR-3HPP	6	MhpD,MhpA,MhpC,MhpE,MhpF,MhpB,	6	MhpE,MhpF,MhpB,MhpD,MhpA,MhpC,	1	*re11,re12,re15,re14,re17,re19,re21,re8,re9,*	9	0	1.0
+Mlc	4	ManZ-ManY-ManX,PtsG-Crr,MurP-Crr,TreB-Crr,	4	MurP-Crr,ManZ-ManY-ManX,PtsG-Crr,TreB-Crr,	1	*re13,re14,re16,re18,re22,re23,re24,re25,re26,re27,*	10	10	1.0
+MlrA	1	CsgE-CsgG,	0		1	*re15,*	1	1	0.0
+MngR	2	MngA,MngB,	2	MngA,MngB,	1	*re5,re7,*	2	1	1.0
+MntR-Mn2+	2	MntH,MntP,	0		2	*re9,*re8,*	2	2	0.0
+ModE-MoO42-	17	DeoC,DeoD,MoaC,NapG-NapH,DeoA,OppC-OppD-OppF-OppB-OppA,HycD-HycC-HycF-HycG-HycB-HycE,DeoB,CcmD-CcmB-CcmA-CcmE-CcmC,MoaD-MoaE,OppB-OppC-OppD-OppF-MppA,MoaA,DmsA-DmsB-DmsC,HycI,ModC-ModB-ModA,NapB-NapA,NapC,	11	MoaA,DmsA-DmsB-DmsC,NapB-NapA,NapC,DeoC,DeoD,DeoA,NapG-NapH,MoaC,MoaD-MoaE,DeoB,	11	*re110,re76,*re90,*re82,*re102,*re123,*re59,re60,re62,re65,re69,re68,re63,re67,re70,re129,re71,re73,re72,*re107,re115,*re121,*re122,*re49,*re92,re95,re98,*	26	5	0.4
+MprA	3	EmrA-EmrB-TolC,AcrD-AcrA-TolC,AcrA-TolC-AcrB,	0		6	*re13,*re15,*re12,*re11,*re14,*re9,*	6	6	0.0
+MqsA	2	MqsR,CsgE-CsgG,	0		2	*re12,*re19,*	2	1	0.0
+MraZ	10	MurD,MurC,FtsI,MurF,MurE,MraY,MurG,LpxC,RsmH,DdlB,	8	DdlB,MurE,MurF,FtsI,MurD,MurC,MurG,MraY,	3	*re45,*re29,*re19,re22,re41,re32,re43,re39,re37,re35,*	10	0	0.7
+MurR	3	MurP-Crr,MurQ,MurP,	2	MurP-Crr,MurQ,	2	*re7,*re6,re9,*	3	2	0.5
+Nac	11	YdcS,CodA,GdhA,SerA,PatD,GabD,NupC,MnmE-MnmG,CodB,GabP,GabT,	9	SerA,GdhA,CodA,PatD,GabD,MnmE-MnmG,CodB,GabP,GabT,	12	*re56,*re53,*re52,*re24,re25,re37,re34,re30,re32,re60,re35,re63,re64,re47,re45,re46,re27,*re57,*re50,*re62,*re58,*re55,*re67,*re51,*re54,*	25	11	0.4
+NadR	4	NadB,NadA,PnuC,PncB,	2	NadB,NadA,	3	*re6,re8,re9,*re13,*re11,*	5	1	0.3
+NagC	19	NagE,GalP,UmpH,ChiP,NagB,GlmU,NanC,ChbF,PtsG-Crr,ChbG,NanM,ManZ-ManY-ManX,MurP-Crr,ChbA-ChbC-ChbB,TreB-Crr,NagA,FeoB,EIINag,GlmS,	17	GalP,NagE,ChiP,NagB,NanC,GlmU,ManZ-ManY-ManX,NanM,ChbG,PtsG-Crr,ChbF,ChbA-ChbC-ChbB,MurP-Crr,EIINag,NagA,TreB-Crr,GlmS,	10	*re109,*re100,*re40,re41,re46,re61,re62,re64,re66,re83,re84,re85,re86,re117,re77,re93,re45,re48,re49,re52,re87,re88,re95,re75,re79,re80,*re70,*re110,*re111,*re74,*re113,*re112,*re101,re103,*	33	18	0.6
+NanR	6	NanC,NanK,NanT,NanA,NanE,NanM,	6	NanM,NanE,NanA,NanT,NanK,NanC,	1	*re14,re15,re18,re24,re22,re20,re17,*	7	2	1.0
+NarL-Phosphorylated	41	AdhE,UbiC,HybA-HybB-HybO-HybC,NorW,UbiA,NrfA,AspA,DcuA,TorC-TorA,NapC,NikD-NikE-NikB-NikC-NikA,NapB-NapA,CydD-CydC,CitC,FrdA-FrdB-FrdC-FrdD,NarK,Hcp,DmsA-DmsB-DmsC,PoxB,CitG,NarG-NarH-NarI,FdhF,CcmD-CcmB-CcmA-CcmE-CcmC,NuoA-NuoH-NuoJ-NuoK-NuoL-NuoM-NuoN-NuoI-NuoG-NuoF-NuoE-NuoC-NuoB,FocA,CitX,YnfE-YnfF-YnfG-YnfH,MoeA,NirC,DcuB,Ogt,MoeB,FdhF-HycE-HycB-HycG-HycF-HycC-HycD,NirD-NirB,FumB,NrfD-NrfC,PflB,Hcr,TorA,NapG-NapH,CysG,	36	AspA,NrfA,UbiA,HybA-HybB-HybO-HybC,UbiC,AdhE,NapB-NapA,NapC,TorC-TorA,DcuA,Hcp,FrdA-FrdB-FrdC-FrdD,NarK,CitC,NarG-NarH-NarI,CitG,DmsA-DmsB-DmsC,PoxB,CitX,FocA,NuoA-NuoH-NuoJ-NuoK-NuoL-NuoM-NuoN-NuoI-NuoG-NuoF-NuoE-NuoC-NuoB,FdhF,Ogt,DcuB,NirC,MoeA,YnfE-YnfF-YnfG-YnfH,NrfD-NrfC,PflB,FumB,NirD-NirB,FdhF-HycE-HycB-HycG-HycF-HycC-HycD,MoeB,CysG,NapG-NapH,TorA,	11	*re253,*re156,*re206,*re127,*re157,*re160,re161,re162,re163,re164,*re128,re129,re301,re185,re186,re187,re193,re302,re204,re131,re166,re167,re168,re171,re196,re169,re201,re177,re216,re233,re242,re230,re238,re243,re249,re250,re261,re270,re274,re282,re308,re309,re304,re145,re153,re151,re227,re313,re315,re305,re332,re281,re202,re244,re326,re225,*re135,*re297,re298,*re126,*re267,*	60	17	0.7
+NarP-Phosphorylated	15	NrfA,NorW,NapB-NapA,NapC,Hcp,PoxB,FdhF,CcmD-CcmB-CcmA-CcmE-CcmC,NirC,Hcr,FdhF-HycE-HycB-HycG-HycF-HycC-HycD,NirD-NirB,NrfD-NrfC,NapG-NapH,CysG,	12	NrfD-NrfC,NirD-NirB,FdhF-HycE-HycB-HycG-HycF-HycC-HycD,CysG,NapG-NapH,FdhF,NirC,Hcp,PoxB,NrfA,NapB-NapA,NapC,	5	*re110,*re81,*re103,re105,re113,re117,re94,re79,re73,re123,re124,re71,re72,re99,re91,*re64,re65,re66,re67,re68,*re54,*	21	2	0.6
+NemR	2	GloA,NemA,	0		2	*re5,*re7,*	2	0	0.0
+NhaR-Na+	5	PgaB,OsmC,PgaD-PgaC,PgaA,NhaA,	3	PgaD-PgaC,PgaA,PgaB,	4	*re9,*re10,*re15,re17,re20,re21,*re13,*	7	4	0.4
+NikR-Ni2+	1	NikD-NikE-NikB-NikC-NikA,	0		1	*re9,*	1	1	0.0
+NimR	1	NimT,	0		2	*re6,*re5,*	2	2	0.0
+NorR	1	NorW,	0		1	*re8,*	1	0	0.0
+NrdR-Zn2+	4	NrdD,NrdE-NrdF,NrdA-NrdB,NrdG,	3	NrdD,NrdE-NrdF,NrdA-NrdB,	2	*re12,re13,re14,re15,re16,re28,re27,re29,re30,re37,re38,re19,re20,re21,re22,re23,*re33,*	15	0	0.6
+NsrR	40	SodB,Hcp,DkgB,ThrS,RffH,TadA,FeaB,PoxB,HycI,WecE,NrfA,TcyN-TcyL-TcyJ,SufS,HypE,PheS-PheT,RffG,AceE-AceF-Lpd,WecB,TehB,TehA,WzxE,WecC,YeaE,MepH,Hcr,NrfD-NrfC,RffT,Ndh,PgpC,AceE,HypB,RffC,MhpT,AceF,Hmp,HycD-HycC-HycF-HycG-HycB-HycE,WaaH,Cdd,Rfe,RffM,	27	WecC,WzxE,WecB,AceE-AceF-Lpd,RffG,PheS-PheT,SufS,TcyN-TcyL-TcyJ,WecE,NrfA,PoxB,TadA,RffH,ThrS,Hcp,SodB,RffM,Rfe,Cdd,WaaH,Hmp,AceF,RffC,AceE,Ndh,NrfD-NrfC,RffT,	25	*re155,*re214,*re118,*re121,*re148,*re106,*re153,re176,re177,re86,re87,re88,re91,re181,re189,re187,re179,re228,re230,re226,re235,re232,re183,re185,re173,re223,re90,re92,*re101,*re169,*re137,*re120,re195,*re102,*re217,*re125,*re221,*re151,*re215,*re219,*re133,*re212,*re142,*re103,*re150,*re116,re159,re163,re154,re209,re98,re99,re207,re203,re204,re205,re206,re213,*re216,*	59	10	0.4
+NtrC-Phosphorylated	21	PotG-PotH-PotI-PotF,RutD,PatA,RutA,AstC,RutE,HisP-HisM-HisQ-HisJ,DdpX,AstD,RutB,YeaG,AstE,AstA,RelA,GlnQ-GlnP-GlnH,AstB,RutG,AmtB,GlnA,HisQ-HisP-HisM-ArgT,RutC,	18	AstC,RutE,RutB,AstD,PotG-PotH-PotI-PotF,PatA,RutA,RutD,AmtB,GlnA,RutC,HisQ-HisP-HisM-ArgT,AstE,AstA,RelA,AstB,GlnQ-GlnP-GlnH,RutG,	7	*re56,*re90,*re130,*re105,re136,re106,*re54,*re100,re97,re62,re60,re123,re118,re117,re114,re115,re119,re128,re121,re125,re51,re78,re63,re67,re65,re96,re83,re58,re55,*re76,*	29	8	0.7
+OmpR-Phosphorylated	8	DtpA,FadL,PgaB,CsgE-CsgG,OmpF,OmpC,PgaD-PgaC,PgaA,	3	PgaD-PgaC,PgaA,PgaB,	44	*re47,*re55,*re78,*re79,*re69,*re45,*re65,*re61,*re64,*re27,*re70,*re77,*re76,*re44,*re67,*re51,*re73,*re32,*re35,*re63,*re54,*re48,*re31,*re80,*re68,*re59,*re56,*re86,re88,re91,re92,*re42,*re43,*re53,*re52,*re71,*re75,*re66,*re49,*re74,*re57,*re72,*re50,*re46,*re62,*re58,*re60,*	47	45	0.1
+OxyR	17	Hcr,NfsA,UxuB,GrxA,UxuA,RimK,HemH,Gor,GntP,DsbG,Ccp,AhpC-AhpF,KatG,Hcp,MntH,PoxB,SufS,	11	PoxB,KatG,Hcp,MntH,SufS,UxuA,GrxA,HemH,UxuB,Ccp,GntP,	13	*re70,*re61,re67,*re45,*re38,*re51,*re77,*re44,*re53,*re59,*re68,*re41,re64,re65,re57,re89,re85,re55,re86,re87,re88,*re74,re75,*re50,re95,re93,*	26	4	0.4
+PaaX	9	PaaI,PaaE-PaaA-PaaC-PaaB,PaaG,PaaH,PaaF,PaaJ,PaaK,PaaZ,PaaY,	9	PaaY,PaaK,PaaZ,PaaF,PaaJ,PaaG,PaaH,PaaI,PaaE-PaaA-PaaC-PaaB,	2	*re17,re26,re41,re42,re33,re24,re28,re34,re30,re31,re36,re39,*re43,*	13	0	0.9
+PdeL	1	PdeL,	0		1	*re3,*	1	0	0.0
+PdhR	25	MurG,MraY,FecE-FecC-FecD-FecB,AceE-AceF-Lpd,SucA-SucB-Lpd,FtsI,CyoD-CyoA-CyoB-CyoC,MurE,MurF,GlcB,MurC,GlcD-GlcE-GlcF,MurD,Ndh,HemL,Lpd-GcvP-GcvH-GcvT,FecA-ExbD-ExbB-TonB,AceE,AceF,DdlB,Lpd,GlcA,LpxC,RsmH,CyoE,	19	GlcA,Lpd,DdlB,Ndh,AceF,AceE,Lpd-GcvP-GcvH-GcvT,MurF,MurE,SucA-SucB-Lpd,FtsI,CyoD-CyoA-CyoB-CyoC,AceE-AceF-Lpd,MurC,GlcD-GlcE-GlcF,MurD,GlcB,MurG,MraY,	13	*re124,re53,*re129,*re80,*re101,re102,re103,re133,re47,re105,re106,re107,re97,re43,re44,re45,re48,re131,re132,re49,re83,re86,re79,re87,re99,re98,*re93,*re58,*re96,*re111,re120,re118,re116,re114,re60,re72,re122,*re81,*re64,*re109,*re125,*re126,*	39	5	0.5
+PepA	2	CarB-CarA,PepA,	1	CarB-CarA,	3	*re6,re7,re8,*re12,*re11,*	5	0	0.2
+PgrR	2	MpaA,YcjG,	2	YcjG,MpaA,	1	*re10,re14,*	2	0	1.0
+PhoB-Phosphorylated	20	PhnO,YedX,PhnM,UgpQ,PhnJ,CusC-CusB-CusF-CusA,PhnP,PhoA,Eda,PhnL-PhnH-PhnG-PhnI,PhnC-NP-Phn,WaaH,SbcC-SbcD,UgpC-UgpA-UgpE-UgpB,PhnN,PhoE,TktB,PitB,AdiC,OmpF,	13	PhnO,PhnM,UgpQ,PhnJ,PhnP,PhoA,Eda,PhnL-PhnH-PhnG-PhnI,UgpC-UgpA-UgpE-UgpB,PhoE,PhnN,TktB,OmpF,	83	*re68,*re91,*re186,re86,re89,*re108,*re121,*re204,*re187,*re155,*re165,re166,re167,*re118,*re97,*re196,*re60,*re111,*re92,*re201,*re117,*re83,*re115,*re164,*re95,*re202,*re157,*re160,*re105,*re244,*re99,*re103,*re88,*re85,*re215,*re126,*re180,*re159,*re98,*re104,*re100,*re106,*re153,re239,re233,re240,re178,re241,re181,re242,re154,re234,*re101,*re191,*re107,*re93,*re169,*re120,*re198,*re112,*re156,*re113,*re192,*re175,*re214,*re161,re162,re163,*re247,*re184,re185,re190,*re194,re195,*re158,*re96,*re116,*re213,*re110,*re131,re132,re142,re137,re136,re141,re182,re183,re151,re144,re251,re146,re147,re148,re149,re174,*re170,re171,*re84,*re90,*re193,*re87,*re173,re75,re203,re229,re179,re230,re176,re252,re76,re77,*re189,*re94,*re114,*re199,*re67,*re200,*re168,*re177,re197,*re102,*re188,*re226,*re125,*re109,*re172,*re119,*	125	49	0.1
+PhoP-Phosphorylated	32	GlgA,GlgB,TolC-MdtE-MdtF,RutG,GlgC,EmrK-EmrY-TolC,PurH,EmrA-EmrB-TolC,YbjG,RutC,FadL,OmpT,MetB,TolC-MacB-MacA,PurD,NagA,RutD,RutA,TolC-MdtC-MdtB-MdtA,GlgP,MetL,PagP,AcrD-AcrA-TolC,GlgX,HemL,RutB,MgtA,AcrE-AcrF-TolC,AcrA-TolC-AcrB,MalS,RutE,ArgD,	17	GlgB,RutG,GlgA,GlgC,MetB,RutC,PurH,MetL,GlgP,GlgX,PurD,RutA,RutD,ArgD,MalS,RutE,RutB,	19	*re113,*re59,*re93,*re107,*re150,*re61,*re64,*re119,re168,re121,re122,*re63,*re149,*re80,re82,re86,re84,re88,re96,*re62,*re115,*re111,*re74,*re65,*re157,*re147,*re100,re166,re98,re99,re137,re132,re131,re128,re129,re133,re142,re135,re139,re103,re167,re102,re165,re68,re69,*	41	12	0.3
+PrpR-2S3S-2-methylcitrate	4	PrpD,PrpB,PrpC,PrpE,	4	PrpD,PrpC,PrpB,PrpE,	1	*re10,re14,re9,re12,re16,re7,*	5	0	1.0
+PspF	1	PspE,	0		1	*re13,*	1	0	0.0
+PurR-hypoxanthine	26	GcvT,PurN,PurL,PurF,Lpd-GcvP-GcvH-GcvT,PurK,GcvP,CodB,PurD,UbiX,PyrD,SpeA,PurE,PurA,PurH,SpeB,Prs,PurC,PurM,CarB-CarA,GuaB,PyrC,CodA,GlyA,GuaA,PurB,	25	PyrD,PurD,CodB,GcvP,PurK,Lpd-GcvP-GcvH-GcvT,PurL,PurF,PurN,GcvT,PurB,GlyA,PyrC,CodA,GuaA,GuaB,CarB-CarA,PurM,PurC,SpeB,Prs,PurH,PurA,PurE,SpeA,	4	*re56,*re100,re102,re105,re46,re35,re34,re106,re36,re39,re40,re48,re47,re49,re55,re58,re59,re76,re108,re80,re107,re61,re62,re64,re69,re71,re72,re74,re78,re85,re89,re87,re91,re82,re83,re67,re42,re94,re96,re97,re98,*re104,*re57,*	39	1	0.9
+PutA	2	PutA,PutP,	2	PutP,PutA,	2	*re4,re7,re9,re5,*re8,*	4	2	0.7
+PuuR	6	PuuD,PuuB,PuuC,PuuA,PuuP,PuuE,	6	PuuE,PuuP,PuuB,PuuD,PuuC,PuuA,	2	*re11,re16,re18,re13,re20,re14,re9,re22,*re15,*	9	1	0.9
+QseB-Phosphorylated	0		0		0	*	0	0	-0.0
+RbsR	5	PurD,RbsD,RbsK,RbsA-RbsC-RbsB,PurH,	5	RbsD,PurD,RbsK,PurH,RbsA-RbsC-RbsB,	2	*re16,re20,re25,re22,*re10,re24,re12,re13,*	6	1	0.8
+RcdA	1	CsgE-CsgG,	0		1	*re15,*	1	1	0.0
+RclR	0		0		0	*	0	0	-0.0
+RcnR	1	RcnA,	0		2	*re6,*re5,*	2	2	0.0
+RcsAB	3	CsgE-CsgG,Wzc,Wzb,	2	Wzc,Wzb,	2	*re33,re35,*re20,*	3	1	0.5
+RcsB-BglJ	2	BglB,BglF,	2	BglB,BglF,	1	*re17,re18,re22,re21,re23,re24,re19,*	7	4	1.0
+RcsB-Pasp56	4	GadC,OsmC,GadA,GadB,	3	GadB,GadA,GadC,	2	*re43,*re31,re34,*	3	1	0.6
+RelB	1	RelE,	0		1	*re8,*	1	0	0.0
+RelB-RelE	1	RelE,	0		1	*re8,*	1	0	0.0
+RhaR-alpha-L-rhamnopyranose	0		0		0	*	0	0	-0.0
+RhaS	1	RhaT,	0		2	*re8,*re7,*	2	2	0.0
+RhaS-alpha-L-rhamnopyranose	4	RhaB,RhaD,RhaT,RhaA,	4	RhaA,RhaB,RhaD,RhaT,	3	*re18,re9,*re11,re13,re19,re8,*re17,*	6	2	0.7
+Rob	19	SodA,TolC-MacB-MacA,Zwf,EmrA-EmrB-TolC,EmrK-EmrY-TolC,NfsB,TolC-MdtE-MdtF,FumC,RimK,MltF,AcrE-AcrF-TolC,AcrA-TolC-AcrB,NfsA,AldA,AcrD-AcrA-TolC,LdtB,AcnA,TolC-MdtC-MdtB-MdtA,Nfo,	3	FumC,AcnA,LdtB,	21	*re65,*re29,re30,re88,re90,re89,re47,*re76,*re35,*re39,*re36,*re58,*re37,*re61,*re33,*re87,*re70,*re63,*re38,*re44,*re67,*re73,*re43,*re59,*re75,*re50,re51,re52,*	25	9	0.1
+RstA-Phosphorylated	3	OmpF,CsgE-CsgG,NarG-NarH-NarI,	1	NarG-NarH-NarI,	42	*re31,*re53,*re52,*re39,*re30,*re49,*re57,*re22,*re60,*re37,*re46,*re36,*re62,*re58,*re45,*re47,*re29,*re55,*re27,*re65,*re40,*re32,*re35,*re15,*re59,*re56,*re34,*re43,*re42,*re20,re21,*re50,*re41,*re28,*re61,*re64,*re33,*re51,*re44,*re54,*re38,*re48,*re63,*	43	42	0.0
+RtcR	2	RtcA,RtcB,	2	RtcB,RtcA,	1	*re11,re12,re13,re15,re14,re4,re5,re6,re7,re8,re9,re16,*	12	0	1.0
+RutR	11	RutC,NemA,RutG,GloA,CarB-CarA,RutB,RutE,PdeR,RutA,RutD,FepC-FepD-FepG-FepB,	7	RutD,RutA,RutB,RutE,CarB-CarA,RutG,RutC,	5	*re20,re21,re22,re46,re41,re40,re37,re38,re42,re51,re44,re48,*re26,*re30,*re35,*re32,*	16	2	0.5
+SdiA	0		0		0	*	0	0	-0.0
+SgrR	3	ThiQ-ThiP-TbpA,AlaC,SetA,	0		3	*re19,*re11,*re13,*	3	2	0.0
+SlyA	9	PaaK,PaaJ,PaaF,PaaG,GspO,PaaH,PaaI,PaaE-PaaA-PaaC-PaaB,CasA-CasB-CasC-CasD-CasE,	7	PaaE-PaaA-PaaC-PaaB,PaaI,PaaH,PaaG,PaaJ,PaaF,PaaK,	3	*re62,*re40,*re67,re76,re87,re80,re81,re83,re74,re78,re84,re86,*	11	0	0.6
+SoxR	6	TyrA,AroF,SodA,LpxC,MgtA,FumC,	2	TyrA,AroF,	5	*re17,*re13,re30,re26,re27,*re19,*re22,*re15,*	7	1	0.2
+SoxS	28	TolC-MacB-MacA,Zwf,PoxB,RibA,SodA,EmrA-EmrB-TolC,NepI,Fpr,NfsB,EmrK-EmrY-TolC,TolC-MdtE-MdtF,RimK,AcrA-TolC-AcrB,AcrE-AcrF-TolC,FumC,NfsA,AldA,PtsG-Crr,LpxC,WaaY,AcrD-AcrA-TolC,OmpN,YdbK,Nfo,Pgi,TolC-MdtC-MdtB-MdtA,WaaZ,AcnA,	10	Zwf,PoxB,Fpr,YdbK,LpxC,WaaY,AcnA,Pgi,FumC,PtsG-Crr,	25	*re88,*re81,*re105,*re55,*re69,*re126,*re124,re141,re130,re68,re94,re75,re95,*re52,*re62,*re58,*re117,*re57,*re90,*re84,*re116,*re110,*re63,*re82,*re54,*re48,re138,re139,re49,re140,re71,*re102,re103,re137,re92,*re114,*re56,*re86,*re107,*	35	14	0.2
+SrlR	3	SrlD,GutQ,SrlA-SrlB-SrlE,	2	SrlD,SrlA-SrlB-SrlE,	2	*re13,re14,re17,*re10,*	4	2	0.5
+StpA	3	BglF,Fau,BglB,	2	BglB,BglF,	2	*re19,*re10,re14,re13,re15,re16,re11,re9,*	8	4	0.5
+SutR	2	CysE,TcyN-TcyL-TcyJ,	0		7	*re19,*re18,*re15,*re20,*re17,*re16,*re7,*	7	6	0.0
+TdcA	5	TdcE,TdcC,TdcD,TdcG,TdcB,	5	TdcB,TdcG,TdcD,TdcC,TdcE,	1	*re10,re11,re15,re12,re13,re16,re24,re20,re21,re25,re18,*	9	2	1.0
+TdcR	5	TdcE,TdcC,TdcD,TdcG,TdcB,	5	TdcE,TdcD,TdcC,TdcG,TdcB,	1	*re10,re11,re15,re12,re13,re16,re24,re20,re21,re25,re18,*	9	2	1.0
+TorR-Phosphorylated	4	TorA,TnaA,TnaB,TorC-TorA,	4	TorC-TorA,TnaB,TorA,TnaA,	2	*re18,re19,*re10,re12,re11,re9,re14,*	7	1	0.8
+TorR-TorI	1	GadA,	0		1	*re7,*	1	0	0.0
+TreR	2	TreB-Crr,TreC,	2	TreC,TreB-Crr,	1	*re5,re7,*	2	1	1.0
+TrpR-tryptophan	9	TrpA,Mtr,TrpE-TrpD,AroL,AroH,TrpC,TrpB,TrpD,TrpA-TrpB,	9	TrpC,AroH,AroL,TrpE-TrpD,Mtr,TrpA,TrpA-TrpB,TrpD,TrpB,	1	*re14,re38,re16,re39,re19,re24,re23,re20,re25,re28,re29,re33,re32,*	11	2	1.0
+TyrR	1	TyrP,	0		1	*re4,*	1	1	0.0
+TyrR-phenylalanine	2	AroG,TyrP,	0		2	*re6,*re4,*	2	1	0.0
+TyrR-tyrosine	8	AroF,TyrA,Mtr,TyrP,AroL,FolA,AroP,TyrB,	7	AroP,TyrB,AroF,TyrA,TyrP,AroL,FolA,	3	*re12,re34,re14,re35,re36,re18,re30,re26,re25,re37,re28,re29,re31,re19,re21,*re23,*re17,*	13	4	0.7
+UhpA-Phosphorylated	1	UhpT,	0		4	*re4,*re5,*re3,*re6,*	4	4	0.0
+UidR	2	UidB,UidA,	0		2	*re6,*re8,*	2	1	0.0
+UlaR	5	UlaE,UlaF,UlaG,UlaD,UlaC-UlaB-UlaA,	5	UlaE,UlaF,UlaG,UlaD,UlaC-UlaB-UlaA,	1	*re10,re20,re14,re16,re18,*	5	1	1.0
+UvrY-Phosphorylated	2	UhpT,LuxS,	0		5	*re14,*re11,*re13,*re16,*re15,*	5	4	0.0
+UxuR	5	UidB,UidA,GntP,UxuB,UxuA,	4	UxuA,UxuB,GntP,UidA,	3	*re12,re23,re21,re25,re16,*re18,*re13,*	6	3	0.6
+XapR-xanthosine	2	XapA,XapB,	2	XapB,XapA,	1	*re4,re5,re6,re7,re9,*	5	1	1.0
+XylR-xylose	3	XylG-XylH-XylF,XylB,XylA,	2	XylA,XylB,	3	*re16,*re13,*re10,re12,*	4	1	0.4
+YdeO	3	AppC-AppB,AppA,TolC-MdtE-MdtF,	1	AppA,	4	*re24,re25,re26,re27,re28,*re31,*re23,*re48,*	8	2	0.2
+YefM	1	YoeB,	0		1	*re6,*	1	0	0.0
+YefM-YoeB	1	YoeB,	0		1	*re6,*	1	0	0.0
+YeiL	0		0		0	*	0	0	-0.0
+YhaJ	0		0		0	*	0	0	-0.0
+YiaJ	6	YiaO-YiaN-YiaM,YiaK,SgbH,LyxK,SgbU,SgbE,	6	SgbH,LyxK,SgbU,SgbE,YiaK,YiaO-YiaN-YiaM,	1	*re12,re17,re13,re22,re26,re19,re15,*	7	1	1.0
+YjjQ	2	OmpC,DgcN,	0		40	*re21,*re44,*re51,*re38,*re54,*re48,*re28,*re33,*re26,*re50,*re25,*re41,*re34,*re56,*re20,*re42,*re43,*re18,*re35,*re32,*re40,*re55,*re29,*re47,*re45,*re23,*re27,*re24,*re49,*re36,*re12,*re37,*re46,*re22,*re31,*re30,*re39,*re52,*re19,*re53,*	40	39	0.0
+YpdB-Phosphorylated	0		0		0	*	0	0	-0.0
+YqhC	2	YqhD,DkgA,	0		10	*re9,*re10,*re12,*re5,*re4,*re14,*re11,*re13,*re7,*re6,*	10	0	0.0
+YqjI	1	YqjH,	1	YqjH,	1	*re4,re5,*	2	0	1.0
+ZntR-Zn2	1	ZntA,	0		1	*re3,*	1	1	0.0
+ZntR-Zn2+	1	ZntA,	0		1	*re3,*	1	1	0.0
+ZraR-Phosphorylated	0		0		0	*	0	0	-0.0
+Zur-Zn2	1	ZnuC-ZnuB-ZnuA,	0		1	*re12,*	1	1	0.0
+Zur-Zn2+	1	ZnuC-ZnuB-ZnuA,	0		1	*re12,*	1	1	0.0

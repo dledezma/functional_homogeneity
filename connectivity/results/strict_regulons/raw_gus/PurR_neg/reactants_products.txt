@@ -62,13 +62,13 @@ re31	ubiX	reactant
 re31	ubiX_mRNA	product
 re32	carA_mRNA	reactant
 re32	CarA	product
-re33	CarB	reactant
 re33	CarA	reactant
+re33	CarB	reactant
 re33	CarB-CarA	product
-re34	glutamine	reactant
 re34	carbonate	reactant
-re34	L-glutamate	product
+re34	glutamine	reactant
 re34	carbamoyl-P	product
+re34	L-glutamate	product
 re34	phosphate	product
 re35	glutamine	reactant
 re35	L-glutamate	product
@@ -146,8 +146,8 @@ re60	guaA_mRNA	reactant
 re60	GuaA	product
 re61	xanthosine-5-P	reactant
 re61	glutamine	reactant
-re61	diphosphate	product
 re61	L-glutamate	product
+re61	diphosphate	product
 re61	guanylate	product
 re62	xanthosine-5-P	reactant
 re62	ammonium	reactant
@@ -199,8 +199,8 @@ re79	PurF	product
 re80	glutamine	reactant
 re80	PRPP	reactant
 re80	5-phosphoribosylamine	product
-re80	L-glutamate	product
 re80	diphosphate	product
+re80	L-glutamate	product
 re81	purH_mRNA	reactant
 re81	PurH	product
 re82	10-formyl-THF mono-L-glutamate	reactant
@@ -241,27 +241,31 @@ re94	dihydroorotate	reactant
 re94	carbamyl-aspartate	product
 re95	pyrD_mRNA	reactant
 re95	PyrD	product
+re96	electron-transfer quinone	reactant
 re96	dihydroorotate	reactant
-re96	ubiquinone	reactant
-re96	ubiquinol	product
+re96	electron-transfer quinol	product
 re96	orotate	product
 re97	dihydroorotate	reactant
-re97	vitamin K2	reactant
-re97	menaquinol	product
+re97	ubiquinone	reactant
+re97	ubiquinol	product
 re97	orotate	product
-re98	speA_mRNA	reactant
-re98	SpeA	product
-re99	arginine	reactant
-re99	agmatine	product
-re99	CO2	product
-re100	speB_mRNA	reactant
-re100	SpeB	product
-re101	agmatine	reactant
-re101	putrescine	product
-re101	urea	product
-re102	ubiX_mRNA	reactant
-re102	UbiX	product
-re103	dimethylallyl phosphate	reactant
-re103	Reduced FMN	reactant
-re103	prenylated FMNH2	product
-re103	phosphate	product
+re98	dihydroorotate	reactant
+re98	vitamin K2	reactant
+re98	menaquinol	product
+re98	orotate	product
+re99	speA_mRNA	reactant
+re99	SpeA	product
+re100	arginine	reactant
+re100	agmatine	product
+re100	CO2	product
+re101	speB_mRNA	reactant
+re101	SpeB	product
+re102	agmatine	reactant
+re102	putrescine	product
+re102	urea	product
+re103	ubiX_mRNA	reactant
+re103	UbiX	product
+re104	dimethylallyl phosphate	reactant
+re104	Reduced FMN	reactant
+re104	prenylated FMNH2	product
+re104	phosphate	product

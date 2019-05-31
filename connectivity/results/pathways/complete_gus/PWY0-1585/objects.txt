@@ -8,12 +8,15 @@ FdoG-FdoH-FdoI	COMPLEX	FORMATEDEHYDROGO-CPLX
 FdoH	PROTEIN	FDOH-MONOMER
 FdoI	PROTEIN	FDOI-MONOMER
 NrfA	PROTEIN	CYTOCHROMEC552-MONOMER
+NrfA-NrfB	COMPLEX	NRFMULTI-CPLX
 NrfB	PROTEIN	CYTOCHROMEC-MONOMER
 NrfC	PROTEIN	NRFC-MONOMER
 NrfD	PROTEIN	NRFD-MONOMER
-NrfD-NrfC-NrfB-NrfA	COMPLEX	NRFMULTI-CPLX
+NrfD-NrfC	COMPLEX	CPLX0-8238
 PWY0-1585	PROTEIN
+a-reduced-NrfB-protein	SIMPLE_MOLECULE	|a-reduced-NrfB-protein|
 ammonium	SIMPLE_MOLECULE	AMMONIUM
+an-oxidized-NrfB-protein	SIMPLE_MOLECULE	|an-oxidized-NrfB-protein|
 fdnG	GENE
 fdnG_mRNA	RNA
 fdnH	GENE
@@ -26,7 +29,6 @@ fdoH	GENE
 fdoH_mRNA	RNA
 fdoI	GENE
 fdoI_mRNA	RNA
-ferri c-type cytochrome	SIMPLE_MOLECULE	|Cytochromes-C-Oxidized|
 formate_Ext	SIMPLE_MOLECULE	FORMATE_Ext
 menaquinol	SIMPLE_MOLECULE	|Menaquinols|
 nitrite	SIMPLE_MOLECULE	NITRITE
@@ -38,6 +40,5 @@ nrfC	GENE
 nrfC_mRNA	RNA
 nrfD	GENE
 nrfD_mRNA	RNA
-reduced Cytochrome C protein	SIMPLE_MOLECULE	|Cytochromes-C-Reduced|
 vitamin K2	SIMPLE_MOLECULE	|Menaquinones|
 vitamin K2_Ext	SIMPLE_MOLECULE	|Menaquinones|_Ext

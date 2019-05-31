@@ -1,7 +1,7 @@
 2-P-D-glycerate	SIMPLE_MOLECULE	2-PG
 3-P-D-glycerate	SIMPLE_MOLECULE	G3P
-5'-UMP	SIMPLE_MOLECULE	UMP
 Cra	PROTEIN
+D-fructopyranose-1-phosphate	SIMPLE_MOLECULE	|D-fructopyranose-1-phosphate|
 DHAP	SIMPLE_MOLECULE	DIHYDROXY-ACETONE-PHOSPHATE
 Eno	PROTEIN	ENOLASE-MONOMER
 EnvC	PROTEIN	EG12297-MONOMER
@@ -27,11 +27,11 @@ Rne	PROTEIN	EG10859-MONOMER
 TpiA	PROTEIN	TPI-MONOMER
 YeaD	PROTEIN	G6966-MONOMER
 YibQ	PROTEIN	EG12298-MONOMER
+alpha-D-glucosamine phosphate	SIMPLE_MOLECULE	D-GLUCOSAMINE-6-P
 beta-D-fructofuranose-1-P	SIMPLE_MOLECULE	FRU1P
-beta-Levulose_Ext	SIMPLE_MOLECULE	BETA-D-FRUCTOSE_Ext
+beta-D-fructofuranose-1-P	SIMPLE_MOLECULE	|D-fructofuranose-1-phosphate|
 carbonate	SIMPLE_MOLECULE	HCO3
-cytidine-diphosphate	SIMPLE_MOLECULE	CDP
-cytidylate	SIMPLE_MOLECULE	CMP
+chitosamine	SIMPLE_MOLECULE	GLUCOSAMINE
 eno	GENE
 eno_mRNA	RNA
 envC	GENE
@@ -44,6 +44,8 @@ fruB	GENE
 fruB_mRNA	RNA
 fruK	GENE
 fruK_mRNA	RNA
+fructofuranose_Ext	SIMPLE_MOLECULE	|Fructofuranose|_Ext
+fructopyranose_Ext	SIMPLE_MOLECULE	|D-Fructopyranose|_Ext
 fructose 1,6-biphosphate	SIMPLE_MOLECULE	FRUCTOSE-16-DIPHOSPHATE
 fructose 1-phosphate	SIMPLE_MOLECULE	|D-fructose-1-phosphate|
 fructose-6-P	SIMPLE_MOLECULE	FRUCTOSE-6P
@@ -54,11 +56,7 @@ glucose-6-P	SIMPLE_MOLECULE	|D-glucopyranose-6-phosphate|
 glyceraldehyde-P	SIMPLE_MOLECULE	GAP
 gpmM	GENE
 gpmM_mRNA	RNA
-guanosine-diphosphate	SIMPLE_MOLECULE	GDP
-guanylate	SIMPLE_MOLECULE	GMP
 levugen_Ext	SIMPLE_MOLECULE	FRU_Ext
-mononucleotide	SIMPLE_MOLECULE	|Nucleoside-Monophosphates|
-nucleoside diphosphate	SIMPLE_MOLECULE	|Nucleoside-Diphosphates|
 oxalacetate	SIMPLE_MOLECULE	OXALACETIC_ACID
 pfkA	GENE
 pfkA_mRNA	RNA
@@ -74,7 +72,6 @@ sedoheptulose 1,7-bisphosphate	SIMPLE_MOLECULE	D-SEDOHEPTULOSE-1-7-P2
 sedoheptulose-7-P	SIMPLE_MOLECULE	D-SEDOHEPTULOSE-7-P
 tpiA	GENE
 tpiA_mRNA	RNA
-uridine-diphosphate	SIMPLE_MOLECULE	UDP
 yeaD	GENE
 yeaD_mRNA	RNA
 yibQ	GENE

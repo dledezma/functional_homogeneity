@@ -4,7 +4,7 @@ IscR	PROTEIN
 ModE	PROTEIN
 NapA	PROTEIN	NAPA-MONOMER
 NapB	PROTEIN	NAPB-MONOMER
-NapB-NapC-NapH-NapG-NapA	COMPLEX	NAP-CPLX
+NapB-NapA	COMPLEX	NAP-CPLX
 NapC	PROTEIN	NAPC-MONOMER
 NapD	PROTEIN	NAPD-MONOMER
 NapF	PROTEIN	NAPF-MONOMER
@@ -13,6 +13,9 @@ NapG-NapH	COMPLEX	CPLX0-3241
 NapH	PROTEIN	NAPH-MONOMER
 NarL	PROTEIN
 NarP	PROTEIN
+Oxidized-NapC-proteins	SIMPLE_MOLECULE	|Oxidized-NapC-proteins|
+Reduced-NapC-proteins	SIMPLE_MOLECULE	|Reduced-NapC-proteins|
+ferri c-type cytochrome	SIMPLE_MOLECULE	|Cytochromes-C-Oxidized|
 menaquinol	SIMPLE_MOLECULE	|Menaquinols|
 napA	GENE
 napA_mRNA	RNA
@@ -30,6 +33,7 @@ napH	GENE
 napH_mRNA	RNA
 nitrate	SIMPLE_MOLECULE	NITRATE
 nitrite	SIMPLE_MOLECULE	NITRITE
+reduced Cytochrome C protein	SIMPLE_MOLECULE	|Cytochromes-C-Reduced|
 ubiquinol	SIMPLE_MOLECULE	|Ubiquinols|
 ubiquinone	SIMPLE_MOLECULE	|Ubiquinones|
 vitamin K2	SIMPLE_MOLECULE	|Menaquinones|

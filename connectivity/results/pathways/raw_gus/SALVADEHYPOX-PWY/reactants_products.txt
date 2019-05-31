@@ -26,8 +26,8 @@ re13	nebularine	reactant
 re13	phosphate	reactant
 re13	ribose-1-phosphate	product
 re13	purine base	product
-re14	phosphate	reactant
 re14	guanosine	reactant
+re14	phosphate	reactant
 re14	ribose-1-phosphate	product
 re14	guanine	product
 re15	deoxyguanosine	reactant
@@ -56,10 +56,10 @@ re21	xanthosine	reactant
 re21	phosphate	reactant
 re21	ribose-1-phosphate	product
 re21	xanthine	product
-re22	ribose-1-phosphate	reactant
-re22	vitamin PP	reactant
-re22	nicotinamide ribose	product
-re22	phosphate	product
+re22	nicotinamide ribose	reactant
+re22	phosphate	reactant
+re22	ribose-1-phosphate	product
+re22	vitamin PP	product
 re23	add_mRNA	reactant
 re23	Add	product
 re24	deoxyadenosine	reactant
@@ -70,8 +70,8 @@ re25	ammonium	product
 re25	inosine	product
 re26	xdhA_mRNA	reactant
 re26	XdhA	product
-re27	XdhA	reactant
 re27	XdhC	reactant
+re27	XdhA	reactant
 re27	XdhB	reactant
 re27	XdhA-XdhB-XdhC	product
 re28	xanthine	reactant
@@ -93,35 +93,35 @@ re34	phosphate	product
 re35	5'-ribonucleotide	reactant
 re35	nucleoside	product
 re35	phosphate	product
-re36	guanylate	reactant
+re36	5'-IMP	reactant
 re36	phosphate	product
-re36	guanosine	product
+re36	inosine	product
 re37	5'-UMP	reactant
 re37	phosphate	product
 re37	uridine	product
 re38	cytidylate	reactant
 re38	phosphate	product
 re38	cytidine	product
-re39	5'-IMP	reactant
+re39	guanylate	reactant
+re39	guanosine	product
 re39	phosphate	product
-re39	inosine	product
-re40	ribonucleoside 3'-phosphate	reactant
+re40	3'-phosphomononucleotide	reactant
 re40	nucleoside	product
 re40	phosphate	product
-re41	3'-AMP	reactant
+re41	3'-CMP	reactant
 re41	phosphate	product
-re41	adenosine	product
-re42	3'-CMP	reactant
+re41	cytidine	product
+re42	3'-AMP	reactant
+re42	adenosine	product
 re42	phosphate	product
-re42	cytidine	product
 re43	deoxynucleoside monophosphate	reactant
 re43	deoxynucleoside	product
 re43	phosphate	product
-re44	dGMP	reactant
-re44	deoxyguanosine	product
+re44	dTMP	reactant
+re44	thymidine	product
 re44	phosphate	product
-re45	dAMP	reactant
-re45	deoxyadenosine	product
+re45	dGMP	reactant
+re45	deoxyguanosine	product
 re45	phosphate	product
 re46	dUMP	reactant
 re46	deoxyuridine	product
@@ -129,9 +129,9 @@ re46	phosphate	product
 re47	dCMP	reactant
 re47	d-cytidine	product
 re47	phosphate	product
-re48	dTMP	reactant
+re48	dAMP	reactant
+re48	deoxyadenosine	product
 re48	phosphate	product
-re48	thymidine	product
 re49	deoxynucleoside 3'-phosphate	reactant
 re49	deoxynucleoside	product
 re49	phosphate	product
@@ -151,8 +151,8 @@ re54	2'-deoxy-3'AMP	reactant
 re54	deoxyadenosine	product
 re54	phosphate	product
 re55	phosphothreonine	reactant
-re55	phosphate	product
 re55	threonine	product
+re55	phosphate	product
 re56	serine-3P	reactant
 re56	phosphate	product
 re56	serine	product
@@ -168,76 +168,132 @@ re60	UshA	product
 re61	UDP-sugar	reactant
 re61	D-glucose 1-phosphate	product
 re61	5'-UMP	product
-re62	phoA_mRNA	reactant
-re62	PhoA	product
-re63	beta-D-glucose-6-P	reactant
-re63	beta-glucose	product
-re63	phosphate	product
-re64	alpha-D-glucose-6-P	reactant
-re64	alpha-glucose	product
+re62	pNPP	reactant
+re62	phosphate	product
+re62	niphen	product
+re63	5'Ap3A	reactant
+re64	CPD-606	reactant
+re64	glycerol-3-phosphate	product
 re64	phosphate	product
-re65	diphosphate	reactant
-re65	phosphate	product
-re66	P3,i	reactant
-re66	diphosphate	product
+re64	cytidine	product
+re65	phoA_mRNA	reactant
+re65	PhoA	product
+re66	phosphoethanolamine	reactant
 re66	phosphate	product
-re67	ribose-5P	reactant
-re67	aldehydo-D-ribose	product
+re66	colamine	product
+re67	phosphocholine	reactant
 re67	phosphate	product
-re68	D-glucose 1-phosphate	reactant
-re68	glucopyranose	product
+re67	choline	product
+re68	phosphocysteamine	reactant
+re68	cysteamine	product
 re68	phosphate	product
-re69	glucose-6-P	reactant
-re69	glucopyranose	product
+re69	vitamin B6	reactant
+re69	pyridoxal	product
 re69	phosphate	product
-re70	2-glycerophosphate	reactant
+re70	pyridoxine-P	reactant
 re70	phosphate	product
-re70	glycerol	product
-re71	2-P-D-glycerate	reactant
-re71	glycerate	product
+re70	pyridoxol	product
+re71	3'-UMP	reactant
 re71	phosphate	product
-re72	fructose 1,6-biphosphate	reactant
-re72	fructose-6-P	product
+re71	uridine	product
+re72	2'-UMP	reactant
 re72	phosphate	product
-re73	flavin mononucleotide	reactant
-re73	riboflavin	product
+re72	uridine	product
+re73	2'CMP	reactant
 re73	phosphate	product
-re74	histidinol-P	reactant
+re73	cytidine	product
+re74	guanosine 2'-monophosphate	reactant
+re74	guanosine	product
 re74	phosphate	product
-re74	histidol	product
-re75	P-enol-pyruvate	reactant
+re75	2'-AMP	reactant
 re75	phosphate	product
-re75	pyruvate	product
-re76	2'-AMP	reactant
+re75	adenosine	product
+re76	P-enol-pyruvate	reactant
 re76	phosphate	product
-re76	adenosine	product
-re77	guanosine 2'-monophosphate	reactant
+re76	pyruvate	product
+re77	histidinol-P	reactant
 re77	phosphate	product
-re77	guanosine	product
-re78	2'CMP	reactant
+re77	histidol	product
+re78	flavin mononucleotide	reactant
+re78	riboflavin	product
 re78	phosphate	product
-re78	cytidine	product
-re79	2'-UMP	reactant
+re79	fructose 1,6-biphosphate	reactant
+re79	fructose-6-P	product
 re79	phosphate	product
-re79	uridine	product
-re80	3'-UMP	reactant
+re80	2-P-D-glycerate	reactant
+re80	glycerate	product
 re80	phosphate	product
-re80	uridine	product
-re81	pyridoxine-P	reactant
+re81	2-glycerophosphate	reactant
 re81	phosphate	product
-re81	pyridoxol	product
-re82	vitamin B6	reactant
-re82	pyridoxal	product
+re81	glycerol	product
+re82	ribose-5P	reactant
+re82	aldehydo-D-ribose	product
 re82	phosphate	product
-re83	pNPP	reactant
+re83	P3,i	reactant
+re83	diphosphate	product
 re83	phosphate	product
-re83	niphen	product
-re84	phosphocysteamine	reactant
-re84	cysteamine	product
+re84	diphosphate	reactant
 re84	phosphate	product
-re85	phosphocholine	reactant
+re85	glucose 1-phosphate	reactant
+re85	glucopyranose	product
 re85	phosphate	product
-re85	choline	product
-re86	phosphoethanolamine	reactant
+re86	glucose-6-P	reactant
+re86	glucopyranose	product
 re86	phosphate	product
-re86	colamine	product
+re87	sugar phosphate	reactant
+re87	phosphate	product
+re87	sugar	product
+re88	mannitol-1-P	reactant
+re88	phosphate	product
+re88	mannitol	product
+re89	sorbitol 6-phosphate	reactant
+re89	phosphate	product
+re89	gulitol	product
+re90	hexose phosphate	reactant
+re90	phosphate	product
+re90	hexose	product
+re91	D-glucose 1-phosphate	reactant
+re91	glucopyranose	product
+re91	phosphate	product
+re92	alpha-D-glucose-6-P	reactant
+re92	alpha-glucose	product
+re92	phosphate	product
+re93	beta-D-glucose-6-P	reactant
+re93	beta-glucose	product
+re93	phosphate	product
+re94	beta-D-fructofuranose-1-P	reactant
+re94	beta-Levulose	product
+re94	phosphate	product
+re95	mannose-6-P	reactant
+re95	phosphate	product
+re95	mannose	product
+re96	mannose-1-P	reactant
+re96	phosphate	product
+re96	mannose	product
+re97	alpha-D-glucosamine phosphate	reactant
+re97	chitosamine	product
+re97	phosphate	product
+re98	3-P-D-glycerate	reactant
+re98	glycerate	product
+re98	phosphate	product
+re99	2-P-glycolate	reactant
+re99	phosphate	product
+re99	glycolate	product
+re100	2-deoxy-D-glucose 6-phosphate	reactant
+re100	2-deoxyglucose	product
+re100	phosphate	product
+re101	neo-ton	reactant
+re101	phosphate	product
+re101	creatine	product
+re102	6-p gluconate	reactant
+re102	gluconate	product
+re102	phosphate	product
+re103	DHAP	reactant
+re103	phosphate	product
+re103	glycerone	product
+re104	glyceraldehyde-P	reactant
+re104	phosphate	product
+re104	glycerose	product
+re105	GAP	reactant
+re105	Glycerose	product
+re105	phosphate	product

@@ -9,7 +9,6 @@
 (5Z)-dodec-5-enoyl-[acp]	SIMPLE_MOLECULE	|Cis-Delta5-dodecenoyl-ACPs|
 18:0-ACP	SIMPLE_MOLECULE	|Palmitoyl-ACPs|
 2,3,4-saturated fatty acyl-[acp]	SIMPLE_MOLECULE	|Saturated-Fatty-Acyl-ACPs|
-2,3-dihydroxybenzoyl-AMP	SIMPLE_MOLECULE	CPD-62
 2,3-dihydroxybenzoyl-EntB	SIMPLE_MOLECULE	|23DHB-EntB|
 2-pyrocatechuate	SIMPLE_MOLECULE	2-3-DIHYDROXYBENZOATE
 3-hydroxypimeloyl-[acp] methyl ester	SIMPLE_MOLECULE	|3-hydroxypimeloyl-ACP-methyl-esters|
@@ -25,6 +24,7 @@
 3-oxo-octanoyl-[acp]	SIMPLE_MOLECULE	|3-Oxo-octanoyl-ACPs|
 3-oxo-palmitoyl-[acp]	SIMPLE_MOLECULE	|3-oxo-palmitoyl-ACPs|
 5'-deoxyadenosine	SIMPLE_MOLECULE	CH33ADO
+9-mercaptodethiobiotin	SIMPLE_MOLECULE	CPD-5662
 AcpP	PROTEIN	EG50003-MONOMER
 AcpP	SIMPLE_MOLECULE	ACP
 AcpP	SIMPLE_MOLECULE	|2-Octenoyl-ACPs|
@@ -46,7 +46,7 @@ CH3(CH2)xCH=CHCO-S-ACP	SIMPLE_MOLECULE	TRANS-D2-ENOYL-ACP
 CO2	SIMPLE_MOLECULE	CARBON-DIOXIDE
 DAPA	SIMPLE_MOLECULE	DIAMINONONANOATE
 DHB-seryl-[EntF peptidyl-carrier protein]	SIMPLE_MOLECULE	|DHB-Seryl-EntF|
-EntB	PROTEIN	CPLX0-7849
+EntB	PROTEIN	ENTB-MONOMER
 EntB	PROTEIN	HOLO-ENTB
 EntB-EntD-EntF-EntE	COMPLEX	ENTMULTI-CPLX
 EntD	PROTEIN	ENTD-MONOMER
@@ -58,9 +58,11 @@ FabI	PROTEIN	ENOYL-ACP-REDUCT-NADH-MONOMER
 FabZ	PROTEIN	FABZ-MONOMER
 Fdx	PROTEIN	FERREDOXIN-MONOMER
 KAPA	SIMPLE_MOLECULE	8-AMINO-7-OXONONANOATE
+KASI	PROTEIN	FABB-CPLX
 MeOH	SIMPLE_MOLECULE	METOH
 S-adenosyl-4-methylthio-2-oxobutanoate	SIMPLE_MOLECULE	S-ADENOSYL-4-METHYLTHIO-2-OXOBUTANOATE
 SAM	SIMPLE_MOLECULE	S-ADENOSYLMETHIONINE
+Trans-D2-cis-D7-tetradecenoyl-ACPs	SIMPLE_MOLECULE	|Trans-D2-cis-D7-tetradecenoyl-ACPs|
 acetoacetyl-[acp]	SIMPLE_MOLECULE	|Acetoacetyl-ACPs|
 acetoacyl-ACP	SIMPLE_MOLECULE	B-KETOACYL-ACP
 acetyl-[acp]	SIMPLE_MOLECULE	ACETYL-ACP
@@ -139,6 +141,5 @@ sulfurated sulfur donor	SIMPLE_MOLECULE	|Sulfurated-Sulfur-Acceptors|
 trans hex-2-enoyl-[acp]	SIMPLE_MOLECULE	|Hex-2-enoyl-ACPs|
 trans hexadecenoyl-[acp]	SIMPLE_MOLECULE	|2-Hexadecenoyl-ACPs|
 trans tetradec-2-enoyl-[acp]	SIMPLE_MOLECULE	|Tetradec-2-enoyl-ACPs|
-trans-delta3-cis-delta7-tetradecenoyl-[acp]	SIMPLE_MOLECULE	|Trans-D3-cis-D7-tetradecenoyl-ACPs|
 trans-delta3-cis-delta9-hexadecenoyl-[acp]	SIMPLE_MOLECULE	|Trans-D3-cis-D9-hexadecenoyl-ACPs|
 unsulfurated [sulfur donor]	SIMPLE_MOLECULE	|Unsulfurated-Sulfur-Acceptors|

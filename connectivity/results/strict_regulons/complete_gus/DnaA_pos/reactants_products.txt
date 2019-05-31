@@ -16,20 +16,20 @@ re8	dnaA_mRNA	reactant
 re8	DnaA	product
 re9	dnaN_mRNA	reactant
 re9	DnaN	product
-re10	HolE	reactant
-re10	HolA	reactant
-re10	DnaN	reactant
-re10	HolB	reactant
-re10	HolC	reactant
-re10	HolD	reactant
-re10	DnaE	reactant
 re10	DnaX	reactant
+re10	HolA	reactant
+re10	HolC	reactant
+re10	DnaN	reactant
 re10	DnaQ	reactant
+re10	DnaE	reactant
+re10	HolD	reactant
+re10	HolE	reactant
+re10	HolB	reactant
 re10	HolE-DnaQ-DnaE-HolA-HolB-DnaX-DnaN-HolD-HolC	product
 re11	nrdA_mRNA	reactant
 re11	NrdA	product
-re12	NrdB	reactant
 re12	NrdA	reactant
+re12	NrdB	reactant
 re12	NrdA-NrdB	product
 re13	nucleoside diphosphate	reactant
 re13	reduced thioredoxin	reactant
@@ -39,13 +39,13 @@ re14	cytidine-diphosphate	reactant
 re14	reduced thioredoxin	reactant
 re14	thioredoxin disulfide	product
 re14	dCDP	product
-re15	reduced thioredoxin	reactant
 re15	uridine-diphosphate	reactant
+re15	reduced thioredoxin	reactant
 re15	thioredoxin disulfide	product
 re15	dUDP	product
-re16	thioredoxin disulfide	reactant
-re16	dADP	reactant
-re16	reduced thioredoxin	product
+re16	reduced thioredoxin	reactant
+re16	thioredoxin disulfide	product
+re16	dADP	product
 re17	guanosine-diphosphate	reactant
 re17	reduced thioredoxin	reactant
 re17	thioredoxin disulfide	product
@@ -65,9 +65,9 @@ re22	diphosphate	product
 re22	DNA(N)	product
 re23	recF_mRNA	reactant
 re23	RecF	product
-re24	RecO	reactant
-re24	RecF	reactant
 re24	RecR	reactant
+re24	RecF	reactant
+re24	RecO	reactant
 re24	RecF-RecR-RecO	product
 re25	unstable RecA filament-DNA complex	reactant
 re25	stabilized RecA filament-DNA complex	product

@@ -1,4 +1,7 @@
 2-deoxy-D-ribose 5-phosphate	SIMPLE_MOLECULE	DEOXY-RIBOSE-5P
+3',8-cH2GTP	SIMPLE_MOLECULE	CPD-19179
+5'-deoxyadenosine	SIMPLE_MOLECULE	CH33ADO
+A(H2)	SIMPLE_MOLECULE	|Donor-H2|
 Ala-gamma-D-Glu-Dap	SIMPLE_MOLECULE	L-ALA-GAMMA-D-GLU-DAP
 Ala-gamma-D-Glu-Dap_Ext	SIMPLE_MOLECULE	L-ALA-GAMMA-D-GLU-DAP_Ext
 C terminal 32 amino-acid peptide	SIMPLE_MOLECULE	|C-terminal-32-aminoacid-Peptides|
@@ -32,6 +35,7 @@ HycF	PROTEIN	HYCF-MONOMER
 HycG	PROTEIN	HYCG-MONOMER
 HycH	PROTEIN	EG10481-MONOMER
 HycI	PROTEIN	G7414-MONOMER
+MPT-Synthase-small-subunits	SIMPLE_MOLECULE	|MPT-Synthase-small-subunits|
 MoaA	PROTEIN	EG11595-MONOMER
 MoaB	PROTEIN	MONOMER0-1501
 MoaC	PROTEIN	EG11666-MONOMER
@@ -46,7 +50,7 @@ ModE-MoO42-	PROTEIN
 MppA	PROTEIN	G6665-MONOMER
 NapA	PROTEIN	NAPA-MONOMER
 NapB	PROTEIN	NAPB-MONOMER
-NapB-NapC-NapH-NapG-NapA	COMPLEX	NAP-CPLX
+NapB-NapA	COMPLEX	NAP-CPLX
 NapC	PROTEIN	NAPC-MONOMER
 NapD	PROTEIN	NAPD-MONOMER
 NapF	PROTEIN	NAPF-MONOMER
@@ -62,8 +66,10 @@ OppC	PROTEIN	OPPC-MONOMER
 OppC-OppD-OppF-OppB-OppA	COMPLEX	ABC-22-CPLX
 OppD	PROTEIN	OPPD-MONOMER
 OppF	PROTEIN	OPPF-MONOMER
-Peptide	SIMPLE_MOLECULE	|Peptides|
-Peptide_Ext	SIMPLE_MOLECULE	|Peptides|_Ext
+Oxidized-NapC-proteins	SIMPLE_MOLECULE	|Oxidized-NapC-proteins|
+Reduced-NapC-proteins	SIMPLE_MOLECULE	|Reduced-NapC-proteins|
+SAM	SIMPLE_MOLECULE	S-ADENOSYLMETHIONINE
+acceptors	SIMPLE_MOLECULE	|Acceptor|
 adenine	SIMPLE_MOLECULE	ADENINE
 adenosine	SIMPLE_MOLECULE	ADENOSINE
 cPMP	SIMPLE_MOLECULE	PRECURSOR-Z
@@ -97,6 +103,8 @@ deoxyguanosine	SIMPLE_MOLECULE	DEOXYGUANOSINE
 deoxyinosine	SIMPLE_MOLECULE	DEOXYINOSINE
 deoxyuridine	SIMPLE_MOLECULE	DEOXYURIDINE
 dimethylsulfide	SIMPLE_MOLECULE	CPD-7670
+dipeptide	SIMPLE_MOLECULE	DIPEPTIDES
+dipeptide_Ext	SIMPLE_MOLECULE	DIPEPTIDES_Ext
 diphosphate	SIMPLE_MOLECULE	PPI
 dmsA	GENE
 dmsA_mRNA	RNA
@@ -105,6 +113,7 @@ dmsB_mRNA	RNA
 dmsC	GENE
 dmsC_mRNA	RNA
 ethanal	SIMPLE_MOLECULE	ACETALD
+ferri c-type cytochrome	SIMPLE_MOLECULE	|Cytochromes-C-Oxidized|
 glyceraldehyde-P	SIMPLE_MOLECULE	GAP
 guanine	SIMPLE_MOLECULE	GUANINE
 guanosine	SIMPLE_MOLECULE	GUANOSINE
@@ -132,6 +141,7 @@ hypoxanthine	SIMPLE_MOLECULE	HYPOXANTHINE
 inosine	SIMPLE_MOLECULE	INOSINE
 large subunit of hydrogenase 3	SIMPLE_MOLECULE	|Precursor-of-hydrogenase-3|
 menaquinol	SIMPLE_MOLECULE	|Menaquinols|
+methionine	SIMPLE_MOLECULE	MET
 moaA	GENE
 moaA_mRNA	RNA
 moaB	GENE
@@ -171,6 +181,8 @@ narX_mRNA	RNA
 nebularine	SIMPLE_MOLECULE	|Purine-Ribonucleosides|
 nitrate	SIMPLE_MOLECULE	NITRATE
 nitrite	SIMPLE_MOLECULE	NITRITE
+oligopeptide	SIMPLE_MOLECULE	OLIGOPEPTIDES
+oligopeptide_Ext	SIMPLE_MOLECULE	OLIGOPEPTIDES_Ext
 oppA	GENE
 oppA_mRNA	RNA
 oppB	GENE
@@ -187,10 +199,10 @@ precursor of large subunit of hydrogenase 3	SIMPLE_MOLECULE	|a-precursor-of-larg
 protoheme IX	SIMPLE_MOLECULE	PROTOHEME
 protoheme IX_Ext	SIMPLE_MOLECULE	PROTOHEME_Ext
 purine base	SIMPLE_MOLECULE	|Purine-Bases|
+reduced Cytochrome C protein	SIMPLE_MOLECULE	|Cytochromes-C-Reduced|
 reduced hydrogenase 3	SIMPLE_MOLECULE	|Reduced-hydrogenase-3|
 ribose-1-phosphate	SIMPLE_MOLECULE	RIBOSE-1P
 ribose-5P	SIMPLE_MOLECULE	RIBOSE-5P
-small subunit of molybdopterin synthase	SIMPLE_MOLECULE	|MPT-Synthases|
 thiocarboxylated small subunit of molybdopterin synthase	SIMPLE_MOLECULE	|Thiocarboxylated-MPT-synthases|
 thymidine	SIMPLE_MOLECULE	THYMIDINE
 thymine	SIMPLE_MOLECULE	THYMINE

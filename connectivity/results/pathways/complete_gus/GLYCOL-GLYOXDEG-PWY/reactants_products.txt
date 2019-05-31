@@ -37,8 +37,8 @@ re18	glxK_mRNA	reactant
 re18	GlxK	product
 re19	aceB_mRNA	reactant
 re19	AceB	product
-re20	acetyl-CoA	reactant
 re20	glyoxylate	reactant
+re20	acetyl-CoA	reactant
 re20	coenzyme A	product
 re20	malate	product
 re21	glcB_mRNA	reactant
@@ -49,23 +49,27 @@ re23	GlcF	reactant
 re23	GlcE	reactant
 re23	GlcD	reactant
 re23	GlcD-GlcE-GlcF	product
-re24	acceptors	reactant
 re24	glycolate	reactant
+re24	acceptors	reactant
 re24	glyoxylate	product
 re24	A(H2)	product
-re25	glcE_mRNA	reactant
-re25	GlcE	product
-re26	glcF_mRNA	reactant
-re26	GlcF	product
-re27	aldA_mRNA	reactant
-re27	AldA	product
-re28	glycoaldehyde	reactant
-re28	glycolate	product
+re25	electron-transfer quinone	reactant
+re25	glycolate	reactant
+re25	electron-transfer quinol	product
+re25	glyoxylate	product
+re26	glcE_mRNA	reactant
+re26	GlcE	product
+re27	glcF_mRNA	reactant
+re27	GlcF	product
+re28	aldA_mRNA	reactant
+re28	AldA	product
 re29	lactaldehyde	reactant
 re29	lactate	product
-re30	fucO_mRNA	reactant
-re30	FucO	product
-re31	glycol	reactant
-re31	glycoaldehyde	product
-re32	1,2-propanediol	reactant
-re32	lactaldehyde	product
+re30	glycoaldehyde	reactant
+re30	glycolate	product
+re31	fucO_mRNA	reactant
+re31	FucO	product
+re32	glycol	reactant
+re32	glycoaldehyde	product
+re33	1,2-propanediol	reactant
+re33	lactaldehyde	product

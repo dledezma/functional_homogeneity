@@ -44,15 +44,15 @@ re22	pgl	reactant
 re22	pgl_mRNA	product
 re23	eda_mRNA	reactant
 re23	Eda	product
-re24	oxalacetate	reactant
+re24	KDGP	reactant
+re24	glyceraldehyde-P	product
 re24	pyruvate	product
-re24	CO2	product
-re25	KDGP	reactant
-re25	glyceraldehyde-P	product
+re25	4-hydroxy-2-oxoglutarate	reactant
+re25	glyoxylate	product
 re25	pyruvate	product
-re26	4-hydroxy-2-oxoglutarate	reactant
-re26	glyoxylate	product
+re26	oxalacetate	reactant
 re26	pyruvate	product
+re26	CO2	product
 re27	edd_mRNA	reactant
 re27	Edd	product
 re28	6-p gluconate	reactant
@@ -68,10 +68,10 @@ re32	Eno	product
 re33	2-P-D-glycerate	reactant
 re33	P-enol-pyruvate	product
 re34	RhlB	reactant
-re34	Rne	reactant
 re34	Pnp	reactant
-re34	Ppk	reactant
+re34	Rne	reactant
 re34	Eno	reactant
+re34	Ppk	reactant
 re34	Ppk-Rne-RhlB-Pnp-Eno	product
 re35	gpmM_mRNA	reactant
 re35	GpmM	product
@@ -129,8 +129,8 @@ re58	GlpX	product
 re59	ybhA_mRNA	reactant
 re59	YbhA	product
 re60	vitamin B6	reactant
-re60	pyridoxal	product
 re60	phosphate	product
+re60	pyridoxal	product
 re61	yggF_mRNA	reactant
 re61	YggF	product
 re62	gpmA_mRNA	reactant

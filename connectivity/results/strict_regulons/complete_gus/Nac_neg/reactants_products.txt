@@ -25,8 +25,8 @@ re12	ketoglutarate	product
 re12	ammonium	product
 re13	gltB_mRNA	reactant
 re13	GltB	product
-re14	GltB	reactant
 re14	GltD	reactant
+re14	GltB	reactant
 re14	GltD-GltB	product
 re15	gltD_mRNA	reactant
 re15	GltD	product
@@ -36,27 +36,29 @@ re17	mioC_mRNA	reactant
 re17	MioC	product
 re18	mnmG_mRNA	reactant
 re18	MnmG	product
-re19	MnmG	reactant
 re19	MnmE	reactant
+re19	MnmG	reactant
 re19	MnmE-MnmG	product
 re20	guanosine-triphosphate	reactant
 re20	methylene-H4PteGlu(n)	reactant
-re20	tRNA uridine34	reactant
+re20	tRNA 2-thiouridine34	reactant
 re20	acceptors	reactant
 re20	glycine	reactant
-re20	5-carboxymethylaminomethyluridine in tRNA	product
+re20	5-carboxymethylaminomethyl-2-thiouridine in tRNA	product
 re20	guanosine-diphosphate	product
 re20	7,8-dihydrofolate	product
 re20	phosphate	product
 re20	A(H2)	product
 re21	guanosine-triphosphate	reactant
 re21	methylene-H4PteGlu(n)	reactant
-re21	tRNA 2-thiouridine34	reactant
+re21	tRNA uridine34	reactant
+re21	acceptors	reactant
 re21	glycine	reactant
-re21	5-carboxymethylaminomethyl-2-thiouridine in tRNA	product
+re21	5-carboxymethylaminomethyluridine in tRNA	product
 re21	guanosine-diphosphate	product
 re21	7,8-dihydrofolate	product
 re21	phosphate	product
+re21	A(H2)	product
 re22	guanosine-triphosphate	reactant
 re22	methylene-H4PteGlu(n)	reactant
 re22	tRNA 2-thiouridine34	reactant
@@ -69,9 +71,9 @@ re23	nac_mRNA	reactant
 re23	Nac	product
 re24	serA_mRNA	reactant
 re24	SerA	product
-re25	2-hydroxyglutarate	reactant
-re25	ketoglutarate	product
-re26	3-P-D-glycerate	reactant
-re26	phosphohydroxypyruate	product
-re27	(R)-2-hydroxyglutarate	reactant
+re25	3-P-D-glycerate	reactant
+re25	phosphohydroxypyruate	product
+re26	(R)-2-hydroxyglutarate	reactant
+re26	ketoglutarate	product
+re27	2-hydroxyglutarate	reactant
 re27	ketoglutarate	product

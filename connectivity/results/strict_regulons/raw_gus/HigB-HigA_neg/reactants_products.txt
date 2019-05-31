@@ -4,7 +4,10 @@ re2	higB	reactant
 re2	higB_mRNA	product
 re3	higA_mRNA	reactant
 re3	HigA	product
-re4	higB_mRNA	reactant
-re4	HigB	product
-re5	mRNA	reactant
-re5	single-stranded RNA	product
+re4	HigB	reactant
+re4	HigA	reactant
+re4	HigB-HigA	product
+re5	higB_mRNA	reactant
+re5	HigB	product
+re6	mRNA	reactant
+re6	mRNA fragments	product

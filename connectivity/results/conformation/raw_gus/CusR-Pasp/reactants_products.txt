@@ -24,10 +24,10 @@ re12	yedX	reactant
 re12	yedX_mRNA	product
 re13	cusA_mRNA	reactant
 re13	CusA	product
-re14	CusB	reactant
+re14	CusF	reactant
 re14	CusC	reactant
 re14	CusA	reactant
-re14	CusF	reactant
+re14	CusB	reactant
 re14	CusC-CusB-CusF-CusA	product
 re15	Cu(I)_Ext	reactant
 re15	Cu(I)	product
@@ -45,10 +45,10 @@ re21	cusS_mRNA	reactant
 re21	CusS	product
 re22	cyoA_mRNA	reactant
 re22	CyoA	product
-re23	CyoC	reactant
-re23	CyoA	reactant
 re23	CyoD	reactant
 re23	CyoB	reactant
+re23	CyoA	reactant
+re23	CyoC	reactant
 re23	CyoD-CyoA-CyoB-CyoC	product
 re24	ubiquinol_Ext	reactant
 re24	oxygen_Ext	reactant
@@ -67,3 +67,5 @@ re29	diphosphate	product
 re29	ferroheme o	product
 re30	yedX_mRNA	reactant
 re30	YedX	product
+re31	(S)-5-hydroxyisourate	reactant
+re31	(S)-OHCU	product

@@ -3,9 +3,6 @@ re14	INHIBITION	5'-UMP	REG0-7374
 re14	INHIBITION	ammonium	REG0-7382
 re15	CATALYSIS	CarB-CarA
 re15	CATALYSIS	PyrG
-re15	INHIBITION	L-glutamate	REG0-7397
-re15	INHIBITION	L-glutamate	REG0-8740
-re15	INHIBITION	L-glutamate	REG0-8754
 re16	CATALYSIS	CarB-CarA
 re20	CATALYSIS	PyrB-PyrI
 re20	INHIBITION	cytidine-triphosphate	REG0-7800
@@ -13,16 +10,17 @@ re23	CATALYSIS	PyrC
 re25	CATALYSIS	PyrE
 re27	CATALYSIS	PyrF
 re29	CATALYSIS	PyrD
-re29	INHIBITION	orotate	REG0-10781
+re29	INHIBITION	orotate	REG-15268
 re30	CATALYSIS	PyrD
-re32	CATALYSIS	PyrH
-re32	INHIBITION	guanosine-triphosphate	REG0-7089
-re32	INHIBITION	uridine-triphosphate	REG0-7088
-re34	CATALYSIS	Ndk
-re34	INHIBITION	guanosine-diphosphate	REG0-8480
-re34	INHIBITION	guanosine-triphosphate	REG0-8481
-re34	INHIBITION	guanosine-triphosphate	REG0-8482
+re30	INHIBITION	orotate	REG0-10781
+re31	CATALYSIS	PyrD
+re33	CATALYSIS	PyrH
+re33	INHIBITION	guanosine-triphosphate	REG0-7089
+re33	INHIBITION	uridine-triphosphate	REG0-7088
 re35	CATALYSIS	Ndk
+re35	INHIBITION	guanosine-diphosphate	REG0-8480
+re35	INHIBITION	guanosine-triphosphate	REG0-8481
+re35	INHIBITION	guanosine-triphosphate	REG0-8482
 re36	CATALYSIS	Ndk
 re37	CATALYSIS	Ndk
 re38	CATALYSIS	Ndk
@@ -30,7 +28,8 @@ re39	CATALYSIS	Ndk
 re40	CATALYSIS	Ndk
 re41	CATALYSIS	Ndk
 re42	CATALYSIS	Ndk
-re44	CATALYSIS	PyrG
-re44	INHIBITION	cytidine-triphosphate	REG0-7070
-re44	INHIBITION	guanosine-triphosphate	REG0-7073
+re43	CATALYSIS	Ndk
 re45	CATALYSIS	PyrG
+re45	INHIBITION	cytidine-triphosphate	REG0-7070
+re45	INHIBITION	guanosine-triphosphate	REG0-7073
+re46	CATALYSIS	PyrG

@@ -5,6 +5,8 @@ GrxA	PROTEIN	RED-GLUTAREDOXIN
 GrxB	PROTEIN	GRXB-MONOMER
 GrxC	PROTEIN	GRXC-MONOMER
 NrdH	PROTEIN	G7401-MONOMER
+S-sulfocysteine	SIMPLE_MOLECULE	SULFO-CYSTEINE
+cysteine	SIMPLE_MOLECULE	CYS
 glutathione	SIMPLE_MOLECULE	GLUTATHIONE
 gor	GENE
 gor_mRNA	RNA
@@ -16,3 +18,8 @@ grxC	GENE
 grxC_mRNA	RNA
 nrdH	GENE
 nrdH_mRNA	RNA
+oxidized glutaredoxin	SIMPLE_MOLECULE	|Ox-Glutaredoxins|
+protein disulfide	SIMPLE_MOLECULE	|Protein-Disulfides|
+protein dithiol	SIMPLE_MOLECULE	|Protein-Dithiols|
+reduced glutaredoxin	SIMPLE_MOLECULE	|Red-Glutaredoxins|
+sulfite	SIMPLE_MOLECULE	SO3

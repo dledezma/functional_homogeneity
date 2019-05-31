@@ -3,12 +3,16 @@ AceF	SIMPLE_MOLECULE	ACEF-LIPOATE
 AceF	SIMPLE_MOLECULE	E2P-MONOMER
 C-8 acid	SIMPLE_MOLECULE	CPD-195
 Fdx	PROTEIN	FERREDOXIN-MONOMER
+Fe+2	SIMPLE_MOLECULE	FE+2
+Fe4S4-Cluster-Protein	SIMPLE_MOLECULE	|Fe4S4-Cluster-Protein|
 LipA	PROTEIN	EG11306-MONOMER
 LplA	PROTEIN	EG11796-MONOMER
 PWY0-1275	PROTEIN
 SAM	SIMPLE_MOLECULE	S-ADENOSYLMETHIONINE
 SucB	SIMPLE_MOLECULE	E2O-MONOMER
 SucB	SIMPLE_MOLECULE	SUCB-LIPOATE
+[Fe-S] cluster scaffold protein	SIMPLE_MOLECULE	|Iron-Sulfur-Cluster-Scaffold-Proteins|
+[enzyme] N6-(dihydrolipoyl)lysine	SIMPLE_MOLECULE	|Dihydro-Lipoyl-Proteins|
 [glycine-cleavage complex H protein] N6-lipoyl-L-lysine	SIMPLE_MOLECULE	PROTEIN-LIPOYLLYSINE
 [lipoyl-carrier protein]-L-lysine	SIMPLE_MOLECULE	|Lipoyl-Protein-L-Lysine|
 diphosphate	SIMPLE_MOLECULE	PPI
@@ -24,7 +28,6 @@ lplA	GENE
 lplA_mRNA	RNA
 methionine	SIMPLE_MOLECULE	MET
 octanoylated protein lipoyl-domain	SIMPLE_MOLECULE	|Octanoylated-domains|
-oxidized [2Fe-2S] ferredoxin	SIMPLE_MOLECULE	|Oxidized-2Fe-2S-Ferredoxins|
-reduced [2Fe-2S] ferredoxin	SIMPLE_MOLECULE	|Reduced-2Fe-2S-Ferredoxins|
-sulfurated sulfur donor	SIMPLE_MOLECULE	|Sulfurated-Sulfur-Acceptors|
-unsulfurated [sulfur donor]	SIMPLE_MOLECULE	|Unsulfurated-Sulfur-Acceptors|
+oxidized ferredoxin	SIMPLE_MOLECULE	|Oxidized-ferredoxins|
+reduced ferredoxin	SIMPLE_MOLECULE	|Reduced-ferredoxins|
+sulfur(2-)	SIMPLE_MOLECULE	CPD-7046

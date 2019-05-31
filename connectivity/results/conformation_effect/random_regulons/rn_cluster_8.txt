@@ -1,134 +1,306 @@
-# From /Users/Daniela/Documents/CCG/codigos_random/random_regulons_same_enzymes.pl on Mon May 14 13:03:04 2018 using: /Users/Daniela/Documents/CCG/GU_art_2/connectivity/conformation_effect/random_sets/total_enzymes.txt
-# /Users/Daniela/Documents/CCG/GU_art_2/connectivity/conformation_effect/random_sets/conf_effect_enzymes.txt
-Ada-Methylated_neg	ynfG//purF//
-Ada-Methylated_pos	speB//glpQ//purB//napH//
-AlaS-L-alanine_neg	rnpB//
-AllS-allantoin_pos	gltB//dnaE//hcp//
-AraC-L-arabinose_neg	tam//prmC//nanA//dapD//fucA//
-AraC-L-arabinose_pos	gdhA//glcF//pdeF//eda//tam//
-ArcA-Phosphorylated_neg	tdcE//rbsD//moeA//glgC//ilvN//trmD//sdhA//katG//nagA//dapD//puuD//galM//chbG//nagB//chbG//betB//hpt//dgcZ//prmC//allD//prmC//hycC//cysG//acnA//katG//icd//mutL//lsrF//mhpF//napC//lysA//folA//lpxA//chbG//ahpC//pagP//napH//deoB//citD//xylA//tadA//puuE//ssuE//fucO//glpQ//nrdD//ynfE//dapD//glpA//glcB//hycC//narI//dusB//astC//ndh//torC//napH//purD//waaH//glgP//aroA//aldB//aspA//pheS//galM//psd//thrS//phnJ//
-ArcA-Phosphorylated_pos	entB//aldA//betB//gabD//tam//hycF//bcsA//garK//murQ//fau//dapD//cyaA//sdhC//purD//acs//nrfC//frdB//entF//pgpC//ndh//trpC//feaB//nrfA//sdaA//katE//fucK//preA//hcp//alaA//yqjH//galT//sucC//sdhD//
-ArgP-L-arginine_neg	
-ArgP-L-arginine_pos	slt//trpD//malY//glcF//ubiG//rdoA//cysD//garK//tsaE//metF//nrfA//
-ArgR-L-arginine_neg	tehB//caiD//ynfH//ilvB//codA//gcvT//tdcB//prs//metE//malQ//tyrA//dusB//sodB//appA//aspC//ubiC//gcvH//nanE//
-ArgR-L-arginine_pos	glcD//malS//glcF//hyaC//tdh//
-AtoC-phosphorylated_pos	serC//sdhD//purE//
-BaeR-Phosphorylated_pos	hyaC//hycF//
-BirA-bio-5-AMP_neg	galK//acnA//pgpC//ulaD//pncB//
-CRP-cAMP_neg	lacZ//gltA//phoA//pagP//prpB//umpH//sucD//purC//lsrG//bioF//aspA//araB//uxaA//astB//gatZ//bcsB//nrdE//gcvH//nrdB//ssuD//upp//uxuB//atoA//ilvC//ulaE//aroA//entA//hyaB//pgpC//feaB//nirD//fumB//nanE//cynT//recF//pheS//pta//purB//tktB//avtA//rdoA//entF//aroL//lysC//tdcD//ynfE//udp//citF//paaF//pgaC//dnaE//fadE//sucC//argC//ung//sdhB//abgB//sdhA//metF//napA//purM//gatD//melA//malS//nrfB//sdhB//paaB//paaK//preA//idnD//ilvI//galM//lacZ//galM//hyaA//ulaE//manA//aroF//
-CRP-cAMP_pos	guaA//xdhA//nanA//sodB//araD//gltA//sucD//hyaA//serA//lpxD//fadA//ansB//dkgB//tdh//rutA//aroL//nanM//pgaC//prpB//argE//nirD//gcvP//hypB//napC//pheS//cysH//rbsD//folE//nrdD//nanM//yeaE//bioA//deoB//gpmA//dmsA//pagP//bioF//slt//narG//glgC//sucD//lpxB//fau//nrdA//tdcB//ilvA//glpC//phoA//purB//bioA//allD//nrdB//gabD//hycC//hycF//dmsB//adhE//xapA//slt//edd//prpD//xapA//trpC//nanK//astD//sodA//appA//ubiG//rutE//serA//xdhB//caiC//katE//gcvT//ulaD//sdhD//appA//avtA//rhaA//umpH//carA//garR//xylA//nadC//caiB//lysU//aceE//ahpC//prpB//prpB//upp//moeB//epd//paaG//phnO//gcvT//fadJ//ung//fadE//ampD//ubiA//prpC//mhpF//fadD//pheT//dadA//citX//dmsA//deoA//paaE//betB//dusB//cysN//mhpA//purH//fadD//umpH//metC//glpE//aceA//caiD//moeB//appA//tyrB//abgB//ulaE//nrdF//katE//glpQ//fumB//uxuB//ssuD//fumC//icd//acnB//treC//malS//pagP//dnaE//paaF//ubiC//aceA//ispE//trmD//speB//frc//trpC//ynfG//frdB//xdhB//betB//fau//idnK//atoB//tdcG//dgcZ//uxaA//amn//tdcB//malY//paaG//gltB//puuC//ada//ung//glgA//pgaD//astE//puuA//narG//tadA//rutE//pagP//mutL//waaH//pdeF//fbaA//oxc//avtA//caiD//fadD//phnN//fbaA//mltC//garK//ugpQ//hemL//sdhD//trpC//acs//tnaA//epd//metE//bcsB//metB//nirD//lpxB//lpxD//argE//rhaA//ppiA//prmC//frc//allD//cynT//lpxB//purE//tauD//galK//ulaD//gatD//mdh//fau//cysG//ansB//cheB//xylB//aroH//tehB//trpD//fabZ//paaF//caiC//gcvP//aroA//prpD//glpA//phnP//umpH//argB//avtA//glgX//hmp//fadI//rhaD//dsdA//glpK//lpxA//bcsA//ampD//mhpD//fau//mhpD//
-ChbR-Monoacetylchitobiose-6P_neg	betB//nrfB//napA//
-ChbR-Monoacetylchitobiose-6P_pos	udp//ilvN//paaG//
-CpxR-Phosphorylated_neg	puuD//paaB//pck//
-CpxR-Phosphorylated_pos	araB//abgA//fumB//gpmA//cdd//argA//ulaE//nanM//trpA//xylB//frdB//phnP//pdeF//ilvN//prpD//gltB//alaA//tsaE//tdcD//
-CreB-Phosphorylated_neg	pgk//
-CreB-Phosphorylated_pos	upp//paaI//
-CueR-Ag_neg	glpE//katG//
-CueR-Ag_pos	citD//rdoA//
-CueR-Cu+_neg	lsrK//cadA//
-CueR-Cu+_pos	acs//nrdE//
-CuerR-Au_neg	yeaE//adhE//
-CuerR-Au_pos	puuA//paaG//
-CusR-Pasp_pos	xylA//deoB//sdhA//
-CynR-Cyanate_neg	
-CynR-Cyanate_pos	murQ//moaE//dgcZ//
-CysB-N-acetyl-L-serine_neg	garR//xdhC//citD//
-CysB-N-acetyl-L-serine_pos	xdhC//rhaA//glcB//ppiA//fucK//araA//paaI//pncB//argF//tdh//nrfC//alaA//hycG//
-CysB-O-acetyl-L-serine_neg	cpdB//ilvB//entH//
-CysB-O-acetyl-L-serine_pos	yfeW//nrdA//lsrK//abgB//lacZ//murQ//pagP//cysD//cysC//glcF//agp//nrdE//folE//allC//
-DcuR-Phosphorylated_pos	frdA//icd//malY//uxuB//
-DnaA-ATP_neg	rutD//fabZ//ynfF//ssuD//glpQ//
-DnaA-ATP_pos	nanK//dadX//paaZ//
+# From /Users/Daniela/Documents/CCG/codigos_random/random_regulons_same_enzymes.pl on Mon Nov 26 08:19:28 2018 using: /Users/Daniela/Documents/CCG/GU_art_2/v22/connectivity/regulons_by_conformation_effect//analysis/total_enzymes.txt
+# /Users/Daniela/Documents/CCG/GU_art_2/v22/connectivity/regulons_by_conformation_effect//analysis/all_enzymes_in_set.txt
+AcrR_neg	hypB//entA//
+Ada_neg	ldtC//bglB//
+Ada_pos	pgm//ftsI//aldA//glpQ//
+AdiY_pos	recB//uxuB//wzc//hcaF//
+AgaR_neg	phnO//
+AidB_neg	fadM//
+AlaS-L-alanine_neg	glxK//
+AllR-allantoin_neg	hycE//feaB//citE//tdcE//citC//dinB//
+AllS-allantoin_pos	kbaY//entA//yqjH//
+AlsR_neg	speB//hycC//udp//
+AppY_pos	ddlB//putA//
+AraC-arabinose_neg	paaB//mhpE//alaC//ulaG//gabD//
+AraC-arabinose_pos	tyrB//cysD//nrfA//gnd//accA//prs//
+AraC_neg	mpaA//carB//paaZ//
+AraC_pos	lldD//entH//fadE//
+ArgP-arginine_neg	
+ArgP-arginine_pos	argB//
+ArgP_pos	murG//gcvP//phnM//pgpC//astE//ahpC//fbaB//zwf//
+ArgR-L-arginine_neg	rhaB//pncB//ulaE//metK//umuC//psd//narG//cysC//ppsA//purH//entB//bacA//astC//entA//paaY//tpiA//umuD//prpB//
+ArgR-L-arginine_pos	pgm//phr//wecC//idnO//relA//
+ArsR_neg	icd//srkA//
+AscG_neg	phoA//hyaB//
+AsnC_neg	fabZ//
+AsnC_pos	frdC//
+AtoC-Phosphorylated_pos	ulaG//deoC//hyaB//
+BCCP_neg	astC//
+BaeR-Phosphorylated_pos	rffT//entB//
+BasR-Phosphorylated_neg	metB//
+BasR-Phosphorylated_pos	pgi//purK//
+BetI_neg	sucB//tdcB//patA//
+BirA-biotinyl-5-adenylate_neg	fucA//lsrK//ruvB//mdh//gnd//
+BluR_neg	
+BolA_neg	araA//gutQ//
+BolA_pos	melA//moaC//
+BtsR-Phosphorylated_pos	putA//
+CadC_pos	betA//aceB//putA//
+CaiF-L-carnitine_pos	uxaA//cdd//torC//prpB//malQ//
+Cbl_pos	fabZ//pck//glgC//sodA//gabD//
+CdaR_pos	yeaG//lacA//rhaB//allD//uxuB//prs//ftnA//nanE//alkB//
+CecR_neg	metK//
+ChbR-N-monoacetylchitobiose6-phosphate_neg	pagP//sbcC//argF//
+ChbR-N-monoacetylchitobiose6-phosphate_pos	aldA//aroF//purE//
+ChbR_neg	paaJ//thrS//ynfH//
+ChbR_pos	entD//atoB//fadB//
+ComR_neg	
+CpxR-Phosphorylated_neg	atoD//pgm//fabI//
+CpxR-Phosphorylated_pos	malY//relA//paaK//ynfG//argE//codA//citF//phoA//paaC//hmp//nrdE//allC//nfsA//zwf//mpaA//glyA//moaA//aroF//
+Cra_neg	bglB//mhpA//galK//rbsK//gcvH//tdcG//rffM//argB//fadM//ppc//bglB//cysI//rhaA//araD//pykF//ynfH//rffM//dsdA//gpmM//paaE//prpE//ldtD//tdcE//hyi//metL//pgaD//rutA//glxK//wrbA//fadI//nanM//ahpC//fucI//fucO//pgpC//bioB//umuC//speB//fadH//frdA//wzb//uxuA//waaZ//aceB//uidA//
+Cra_pos	wzb//rfe//rpiB//wzb//astA//fabB//gcvH//waaZ//nfsB//nirB//aceE//argE//ppc//paaI//napG//talA//allC//
+CreB-Phosphorylated_neg	gadB//
+CreB-Phosphorylated_pos	truB//
+CsgD_neg	phnG//psd//
+CsgD_pos	tdcB//sucC//fucO//
+CsiR_neg	gudD//dsdA//caiB//puuB//
+CspA_pos	astE//
+CueR-Cu_neg	feaB//ruvB//nagA//
+CueR-Cu_pos	bioA//rtcA//
+CusR-Pasp_pos	putA//nirB//caiD//phoA//
+CynR-cyanate_pos	murI//argA//entF//
+CynR_neg	
+CysB-O-acetyl-L-serine_neg	gatZ//gpmA//phnM//
+CysB-O-acetyl-L-serine_pos	pflB//codA//fdhF//ynfH//narG//ahpF//ahpC//ybjG//aroF//allB//ftsI//hcaD//
+CysB_neg	
+CysB_pos	hcaE//gcvP//
+CytR_neg	astA//astE//lldD//tauD//frc//malS//hyaC//ruvB//uvrA//rutB//
+Dan-L-tartrate_pos	chbG//srkA//
+DcuR-Phosphorylated_pos	fadI//ynfE//rhaB//gcl//
+DeoR_neg	ung//lacA//cynT//xylB//dsdA//phnJ//
+DhaR_neg	
+DhaR_pos	fbaA//
+DicA_neg	
+DinJ-YafQ_neg	galK//
+DnaA-ATP_neg	aroG//phnM//garL//dhaL//dhaL//
+DnaA-ATP_pos	mhpF//cysE//rffC//
 DpiA-Pasp_neg	
-DpiA-Pasp_pos	mtlD//hemA//nrdA//argA//cysC//
+DpiA-Pasp_pos	gcvH//araB//paaF//rffM//uvrB//
 DsdC-D-serine_neg	
-DsdC-D-serine_pos	aceE//uvrA//
-EvgA-Phosphorylated_pos	frc//alkB//argA//purD//xdhB//
-FNR-Fe_neg	astB//cysK//atoB//purH//glpK//tehB//dnaE//chbF//ilvG_2//ilvE//nagA//argD//rutA//hcp//lsrK//aceB//purH//nanK//hpt//purD//bioD//fbaA//gcvT//malQ//caiC//ubiX//lysC//ynfF//tyrA//abgA//narI//avtA//folA//caiD//prpD//tdcD//mhpE//astC//uxaC//xapA//pgk//uxaC//glgP//sdhC//mpl//cheR//ugpQ//
-FNR-Fe_pos	atoD//hcp//caiD//ilvE//nrfC//abgB//sdhD//frdB//phnJ//rutB//phnJ//purE//preA//bacA//frdD//nrdF//xapA//gabD//xapA//mutY//cysD//uxaB//citD//bioC//cynS//sdhC//metE//hpt//purH//cysJ//tdh//trpE//nrdE//hpt//phnG//hyaC//epd//melA//deoB//garL//bioB//prmC//dmsB//sucD//rhaA//lpxB//alkB//napA//folA//ubiG//fadJ//kbl//chbF//hycD//ascB//cysN//polA//cysD//aroL//pgpC//waaH//cysN//bcsB//glpX//fdhF//hcp//hycG//fdhF//moeB//tsaE//glcB//purA//bioD//purH//nirB//bcsZ//miaA//rbsD//ahpF//yfbR//entD//hycG//adhE//napG//entA//ackA//nrdE//pheS//prpE//trmD//abgB//slt//
-FhlA-Formate_pos	ulaD//ada//narH//nrdF//lacA//argA//gadB//
-FucR-L-fuculose-1-phosphate_pos	sodB//betB//bioB//phoA//trpB//talA//
-Fur-Fe2+_neg	recF//phnI//ulaF//argE//folA//ubiC//xylA//astC//aceF//pgaD//bioA//ilvN//nrdD//xylA//ogt//ispE//tsaE//phnI//aspA//fadH//bacA//rhaA//prpB//purM//cyaA//xdhA//mdh//araB//kbl//nrdE//nanA//ldtC//phnJ//paaA//speB//dmsB//fumC//narH//prpE//prpD//glpK//lysA//aceF//melA//sdhA//atoB//aceE//udp//sucA//trpE//rnpB//metK//astA//hemA//murQ//icd//fabZ//glpX//yqjH//
-Fur-Fe2+_pos	cheB//hflX//prpD//frdA//preA//glpX//bioA//guaA//ubiC//frdA//guaA//serC//caiD//cysG//dusB//frdC//citF//citF//hycD//ulaF//
-Fur-Mn2+_neg	moeA//iscS//mhpD//phnL//bioB//melA//dusB//ogt//narI//ndh//phnI//bglB//fadA//torA//napG//guaA//pdeF//yjeF//purL//dkgB//fadH//bglB//pheT//mhpC//hycG//paaG//rhaB//sodB//ampD//ybjG//glpX//nanM//garR//psd//rbsD//ndh//speB//umpH//trpD//dmsB//ansB//glpB//torA//paaZ//purN//katG//nrdF//glpD//mhpF//oxc//ynfH//pagP//sdhB//ubiX//moaA//citC//pgaC//phnH//nanM//
-Fur-Mn2+_pos	metH//lysU//cysC//gabT//entA//purH//patZ//cdd//astB//napA//ubiA//edd//torC//tdcD//tdcG//sucA//fumC//tdcE//purC//pgaB//
-GlcC-Acetate_neg	
-GlcC-Acetate_pos	glpQ//nrfB//tadA//
-GlcC-Glycolate_neg	
-GlcC-Glycolate_pos	glcD//gpmA//caiC//
+DsdC-D-serine_pos	gatD//allA//
+EbgR_neg	
+EnvR_neg	frdB//tnaA//
+EnvY_pos	yiaK//ddlB//
+EvgA-Phosphorylated_pos	allC//yiaK//pnp//deoB//astD//gudD//
+ExuR-alpha-D-galacturonate_neg	
+ExuR_neg	gor//ldtD//recB//fabZ//phnG//glgX//
+FabR_neg	fadM//pgaB//araB//
+FadR-acyl-CoA_pos	
+FadR_neg	rffG//zwf//patD//aroL//ychF//glnA//citG//pgk//fadJ//
+FadR_pos	caiA//thrS//hcaE//recF//fbaA//fabH//ilvC//purH//murQ//ulaF//
+FeaR_pos	gloA//citE//
+FhlA-formate_pos	galE//murD//pnp//argH//pspE//paaH//yiaK//ynfG//
+FlhDC_neg	rhaA//hypB//
+FlhDC_pos	lsrK//dkgB//sdhD//ada//glxK//dinB//uxuB//sbcC//napG//argF//feaB//ddlB//
+FliZ_neg	ascB//asnA//araA//ulaG//bioD//
+FucR-L-fuculose-1-P_pos	fadJ//glpA//fumB//fau//grxA//rimK//
+Fur-Fe2_neg	glxR//phnP//patD//ascB//srkA//aspA//carB//phnP//tadA//chbF//uvrC//hcaE//nanE//aspA//murC//psd//ynfG//fadE//fabG//hypB//fadI//sgbE//aroL//cysC//citX//nrfD//ilvC//cysC//fadA//rbsK//metL//hcaB//frdD//nagB//prs//gltB//glmS//trpE//purK//yedX//purL//bioC//bioA//nemA//pheS//citC//fadD//glgB//sucD//gntK//tauD//astC//umuD//
+Fur-Fe2_pos	moeB//argC//zwf//mhpB//metB//paaG//torA//wecE//citC//ugpQ//ynfE//hcp//gor//ppsA//nrdF//moaC//
+GadE-RcsB_pos	trpB//citF//nagA//waaH//citE//
+GadE_pos	gntK//rutE//yqjH//rpiB//ulaE//puuE//mngB//rffM//trpC//pfkA//
+GadW_neg	galT//argA//poxB//
+GadW_pos	tyrA//paaG//tauD//mraY//
+GadX_neg	alkB//hycC//metK//
+GadX_pos	hycF//rutA//tynA//argG//frdB//uvrC//ugpQ//lyxK//purN//argE//hycD//
+GalR-beta-D-galactose_neg	dgcZ//katG//dgcN//sgbH//bacA//
+GalR-beta-D-galactose_pos	fucA//aceB//sodA//fadH//
+GalR_neg	pdeR//cadA//malY//eda//fbaA//galT//
+GalR_pos	yiaK//ynfH//glpD//deoC//
+GalS-beta-D-galactose_neg	narI//katE//rsmH//talA//cueO//
+GalS-beta-D-galactose_pos	narG//alaS//metB//yqhD//
+GalS_neg	cysI//fabG//rimK//fabH//paaH//lysA//
+GalS_pos	waaZ//aspA//ogt//polA//
+GatR_neg	patD//glcD//napG//
+GcvA_neg	aspA//xylA//fucK//
+GcvA_pos	udp//pagP//bioA//
+GlcC-glycolate_neg	
+GlcC-glycolate_pos	astC//paaB//glmU//
+GlpR_neg	hypB//astC//ada//nrfC//guaB//pfkA//hypF//
 GlrR-Pasp56_pos	
-IclR-pyruvate_neg	dadX//citE//purF//
-IdnR-5-ketogluconate_neg	prmC//pdeF//
-IdnR-5-ketogluconate_pos	melA//ilvC//cysM//fadJ//
-IdnR-Idonate_neg	aceE//yfdE//
-IdnR-Idonate_pos	dsdA//mpl//glpC//pgaD//
-IlvY-2-acetolactate_neg	
-IlvY-2-acetolactate_pos	pdeF//
-IlvY-Alfa-acetohydroxybutirate_neg	
-IlvY-Alfa-acetohydroxybutirate_pos	aceF//
-IscR-2Fe_neg	sdaA//lacA//cheB//pyrD//mtlD//
-IscR-2Fe_pos	upp//rhaB//
-LldR-L-lactate_neg	ulaF//phnH//
-LldR-L-lactate_pos	purB//metE//
-Lrp-Leucine_neg	dsdA//nrdB//caiA//mtlD//glpB//ilvE//gdhA//puuE//napC//fes//frc//napH//aroH//frdD//astC//upp//gdhA//glpQ//ilvE//ugpQ//aceE//ldtB//argE//folA//
-Lrp-Leucine_pos	treC//gpsA//fumA//xdhB//lacA//alaS//yeaE//tam//ynfE//cueO//ppiA//ahpF//argI//atoA//mhpF//uxuA//glyA//cysI//
-LsrR_neg	hyaB//prpC//deoB//fumC//prs//
-MalT-ADP-Maltotriose_pos	napG//pgaD//ilvN//napB//metC//idnO//
-MalT-Maltotriose-ATP_pos	nadC//paaE//thrS//adhE//sodB//rhaA//
-MelR-Melibiose_neg	purD//sucA//
-MelR-Melibiose_pos	talA//glcE//
-MetJ-S-adenosylmethionine_neg	gatY//paaK//patZ//carB//abgB//aroF//ilvC//nagB//icd//hypF//
-MetR-L-homocysteine_neg	ilvB//
-MetR-L-homocysteine_pos	fadH//glgP//aroF//xylA//
-MhpR-3-DHPP_pos	patZ//tdh//fucO//xdhB//moaD//gltA//
-MhpR-3HPP_pos	tktB//cueO//purK//paaJ//rutA//uxaA//
-MntR-Cd2+_neg	narI//
-MntR-Cd2+_pos	dsdA//
-ModE-MoO42-_neg	bacA//hemL//umpH//avtA//xylA//hycF//ubiG//yeaE//
-ModE-MoO42-_pos	prpB//torC//fes//speA//paaC//metA//
-NarL-Phosphorylated_neg	lldD//sdhD//astD//mltC//citE//cysG//ssuE//tyrA//ugpQ//astA//gutQ//ispE//trpD//pheT//rbsD//araB//entC//speA//pgpC//oxc//sodA//puuB//glpD//glpK//
-NarL-Phosphorylated_pos	uvrA//ilvD//phnP//eda//puuB//aroH//prpB//araB//glcE//uidA//fucO//miaA//fumA//galK//aceF//
-NarP-Phosphorylated_neg	gltA//cyaA//deoD//
-NarP-Phosphorylated_pos	allC//glpX//aceE//nrfB//upp//cysM//dnaE//cynT//nrfA//nrdF//
-NhaR-Na+_pos	ilvC//bioB//rutA//frdA//
-NikR-Cd2+_neg	cueO//
-NikR-Co2+_neg	fucO//
-NikR-Cu2+_neg	tktB//
-NikR-Ni2+_neg	epd//
-NikR-Zn2+_neg	nrdF//
-NrdR-ATP_neg	mhpE//paaJ//bioB//deoB//
-NrdR-Zn2+_neg	mhpF//ubiA//gdhA//xdhA//
-NrdR-dATP_neg	waaH//lldD//gltA//murQ//
-NsrR-2Fe_neg	gltB//dnaE//moaA//rhaD//deoB//ldtB//ansB//puuD//pgaC//dusB//slt//eda//galK//astE//frdA//edd//puuD//ilvG_2//metC//aceA//caiC//pgaD//gnd//yfeW//allD//bcsA//appA//cyoE//glpK//tyrB//
-PhoB-Phosphorylated_neg	purA//mhpD//nanE//iscS//frdA//
-PhoB-Phosphorylated_pos	phnP//oxc//glcE//aspC//mhpC//tyrA//hypF//malQ//hypB//ulaD//malZ//astE//melA//ung//gcvT//bcsB//betA//
-PhoP-Phosphorylated_neg	narI//sdhB//ilvM//
-PhoP-Phosphorylated_pos	aceA//mhpF//hyaC//astA//bcsB//kbl//fau//lpd//nrfB//nrdE//glpB//caiC//srlD//moaE//pdeF//hcp//allE//mutY//moeB//entE//folA//rnpB//caiD//aroF//glcB//fadB//napA//udp//lsrF//purL//yeaE//fumC//argD//frdD//
-PrpR-2-methylcitrate_neg	
-PrpR-2-methylcitrate_pos	dsdA//glpX//gcvH//mpl//
-PurR-Guanine_neg	fucU//gpsA//pheT//gpsA//gabT//ackA//paaC//sodB//puuC//dgcZ//uxaC//purB//tnaA//hyaC//metE//gatY//phnI//purF//serA//atoB//napC//ilvM//hemA//galT//metK//ascB//ulaE//
-PurR-Hypoxanthine_neg	argA//ilvI//ahpC//moeB//tdcE//galE//miaA//fdhF//deoC//tyrA//glnA//hycE//sdhA//hycE//gltA//mtlD//slt//mutL//speA//pyrD//gltB//nanM//metA//astD//mhpC//cynS//garR//
+GntR_neg	citE//mngB//recD//hycC//cysI//bioC//argE//paaA//uxaB//
+GutM_pos	ttdA//ldtC//wecE//
+HU_neg	hycF//lldD//entC//tdcE//lysC//prpC//bioC//
+HU_pos	
+HcaR-HCA_pos	uidA//uxaC//
+HcaR_neg	
+HdfR_neg	
+HdfR_pos	
+HigA_neg	putA//
+HigB-HigA_neg	phnJ//
+HipAB_neg	relA//citX//
+HipB_neg	arsC//tynA//cysC//
+HprR-Phosphorylated_neg	astA//citD//
+HprR-Phosphorylated_pos	fabZ//prpC//
+HyfR_pos	rbsK//
+HypT-Met-oxidized_neg	waaY//sdhD//
+HypT-Met-oxidized_pos	cysD//mhpC//rfe//chbF//citG//
+IclR-pyruvate_neg	adiA//ldtB//ruvA//
+IdnR-5-ketogluconate_neg	speB//paaF//
+IdnR-5-ketogluconate_pos	paaB//deoC//yfdE//
+IlvY-2-acetolactate_pos	garK//
+IlvY_neg	
+IscR-2Fe-2S_neg	nrdB//lacZ//
+IscR_neg	tyrB//malP//nanK//alaC//
+IscR_pos	cysI//cynS//
+KdgR_neg	yedX//prpE//
+KdpE-Phosphorylated_pos	entB//
+LacI_neg	iscS//gloA//araA//
+LeuO_neg	
+LeuO_pos	torC//pepD//rutA//trpD//cysE//dgcC//
+LexA_neg	tam//garK//aroF//hyaB//nadA//hycB//puuD//slt//sdhA//lsrF//rutE//entF//bioF//cysH//betA//accA//mhpA//phnH//gnd//idnK//phnI//recB//puuD//
+LldR-lactate_neg	glgC//mhpB//
+LldR-lactate_pos	tyrB//mazG//
+LldR_neg	paaA//speB//
+LldR_pos	galK//mltF//
+LrhA_neg	
+LrhA_pos	
+LsrR_neg	phnN//entC//tnaA//hcaC//sbcD//
+LysR_neg	
+LysR_pos	waaZ//
+MalI_neg	metB//fabH//
+MalT-maltotriose-ATP_pos	ycjG//hemL//pykF//nrdE//fbaA//torA//
+MarA_neg	entF//
+MarA_pos	ulaD//entC//udp//purK//nrfD//purE//ppc//phnM//cdd//purD//gabD//glgA//treC//umuD//glpD//uxaC//atoD//pgk//mhpE//pgm//yeaE//fumC//wrbA//
+MarR_neg	
+MatA_neg	entF//
+MatA_pos	
+MazE-MazF_neg	wzc//
+MazE_neg	moaD//
+McbR_neg	
+McbR_pos	
+MelR-melibiose_neg	cysI//speA//
+MelR-melibiose_pos	folA//deoA//
+MelR_neg	moaE//rffG//
+MelR_pos	yqjH//torA//
+MetJ-adenosylmethionine_neg	mdh//ynfF//hycE//sdhA//murG//moaE//prpE//chbG//garR//moaD//
+MetR-L-homocysteine_neg	allB//
+MetR-L-homocysteine_pos	glsA//cyoE//
+MetR_pos	sucB//hycC//
+MhpR-3HPP_pos	nirB//allB//psd//bioA//fucK//ldtC//
+Mlc_neg	fadA//ndh//caiA//pagP//
+MlrA_pos	thrS//
+MngR_neg	asnB//pflB//
+MntR-Mn2_neg	paaG//
+MntR-Mn2_pos	nirB//
+ModE-MoO42-_neg	melA//glpQ//frdD//ulaF//cadA//hcp//talA//uxuB//
+ModE-MoO42-_pos	galT//allA//gatD//glmS//chbG//malQ//cysN//glnA//atoB//
+MprA_neg	speA//ycjG//ribA//
+MqsA_neg	pfkA//napB//
+MraZ_neg	glpD//pgaB//betA//hypB//moeA//entD//alaC//cysN//bioB//mpaA//
+MurR_neg	chbG//caiC//poxB//
+MurR_pos	
+Nac_neg	allC//deoA//yqjH//
+Nac_pos	yeaG//polA//metH//astE//treC//uvrA//dhaK//allC//
+NadR_neg	fadE//ygeA//uxaB//ccp//
+NagC_neg	pflB//aceB//gor//hyaA//ftnA//gadB//ugpQ//cysJ//ppc//carB//hcaF//sdhC//entB//purL//hcaD//feaB//sdhA//purA//
+NagC_pos	hyaC//glcE//
+NanR_neg	yqhD//napB//hcaE//hcp//fadE//phoA//
+NanR_pos	
+NarL-Phosphorylated_neg	folE//bioC//napB//sgbE//nrdD//dsdA//gcvT//rffC//nanK//fabG//deoA//metF//umuC//sucC//napG//fucA//purD//rbsD//fadH//patA//mpl//ampC//grxA//argB//yfdE//dkgA//yfdE//pheS//
+NarL-Phosphorylated_pos	iscS//murI//moeB//entA//alaC//sgbE//bioC//phnG//metK//glcE//rsmH//ogt//metH//fruK//yeaG//
+NarP-Phosphorylated_neg	ulaE//nagA//argG//rimK//phnI//
+NarP-Phosphorylated_pos	metB//lsrF//moaA//fucK//sdhC//carB//ribA//appA//dhaM//tdcG//accC//cysC//glnA//frdC//
+NemR_neg	fucI//udp//
+NhaR-Na_pos	paaH//lsrG//argI//gatZ//lpd//
+NikR-Ni2_neg	sucB//
+NimR_neg	serA//
+NorR_neg	
+NorR_pos	uxaC//
+NrdR-Zn2_neg	fdhF//mdh//glpX//dinB//
+NsrR_neg	entA//nrdE//rutD//folA//hyaB//phnH//ascB//ppc//murD//sgbH//gatY//aceE//polB//metH//paaI//rffC//fucA//treC//cysI//cysM//hycG//pgm//eno//lsrG//glxK//yeaG//astE//sgbE//fadE//yedX//ugpQ//galM//glsA//bioF//tehB//nrfD//acnB//narH//glgX//putA//
+NtrC-Phosphorylated_neg	gltB//bioC//
+NtrC-Phosphorylated_pos	fadI//glgC//glyA//rhaD//nanE//malS//pfkA//rffG//garL//argG//purF//ribA//chbG//glk//gnd//wecE//asnA//argD//yfdE//relA//trpA//
+OmpR-Phosphorylated_neg	ubiX//folA//uxaA//mngB//frdD//
+OmpR-Phosphorylated_pos	ugpQ//lacA//murD//murQ//
+OxyR_neg	phoA//phnL//nrfC//umuD//sdhC//
+OxyR_pos	hyi//hcaF//speG//atoD//lpxA//purD//argC//wecB//nanK//purH//mtlD//ruvA//
+PaaX_neg	entE//paaJ//rfe//garR//metA//glcF//torA//kbaY//pdeH//
+PdeL_pos	mhpB//
+PdhR_neg	sdhB//murE//purA//dmsB//allE//leuB//fbaB//gltD//citC//ldtD//rhaD//pck//frdD//iscS//mhpE//malQ//hycG//ndh//metL//glpC//ruvB//puuA//aceE//
+PdhR_pos	umuD//betB//
+PepA_neg	polA//fumC//
+PgrR_neg	idnD//glpX//
+PhoB-Phosphorylated_neg	prpC//gntK//argC//glcB//lhgO//
+PhoB-Phosphorylated_pos	rutA//hycG//feaB//gabD//pgaB//rbsK//allC//deoC//adiA//dhaL//nagB//nrdE//sdhA//argD//tadA//pgaB//paaY//
+PhoP-Phosphorylated_neg	alsE//mhpC//fadM//
+PhoP-Phosphorylated_pos	rffC//cysJ//ribA//hyi//psd//frdC//yqhD//araA//allA//phnG//nagA//uvrB//ftsI//aceA//dgcZ//eno//purM//astE//ynfE//xylA//gltD//dhaK//pagP//mhpE//pagP//pdeL//ampC//gor//atoD//gloA//glpQ//
+PrpR-2S3S-2-methylcitrate_neg	
+PrpR-2S3S-2-methylcitrate_pos	hycC//fadJ//paaG//umuD//
+PspF_neg	
+PspF_pos	nirB//
+PurR-hypoxanthine_neg	ynfG//citC//paaJ//aroL//metF//garR//trpB//trpD//ppiA//moaC//accC//hycC//uxuB//garL//metF//nrfD//glgP//ascB//pgaC//pagP//leuB//ldtB//malS//sodA//ldtD//malP//
+PutA_neg	ttdB//astE//
+PuuR_neg	lysA//sucD//paaJ//tdcB//astE//lacZ//
+QseB-Phosphorylated_neg	
 QseB-Phosphorylated_pos	
-RhaR-L-rhamnose_pos	
-RhaS-L-rhamnose_pos	oxc//purE//araD//
-RstA-Phosphorylated_neg	malS//napH//
-RstA-Phosphorylated_pos	ulaD//
-SoxR-2Fe_neg	
-SoxR-2Fe_pos	patZ//ldtB//
+RbsR_neg	pgaD//deoB//uxaA//nirD//moeB//
+RcdA_neg	
+RcdA_pos	ccp//
+RclR_pos	
+RcnR_neg	ampC//
+RcsAB_neg	prpC//
+RcsAB_pos	purB//treC//
+RcsB-BglJ_pos	speA//aroG//
+RcsB-Pasp56_neg	nrdA//
+RcsB-Pasp56_pos	epd//argF//paaK//
+RelB-RelE_neg	betB//
+RelB_neg	mtlD//
+RhaR-alpha-L-rhamnopyranose_pos	
+RhaS-alpha-L-rhamnopyranose_pos	rhaA//allB//glpC//ldtB//
+Rob_neg	
+Rob_pos	thrS//nagB//idnD//gntK//ynfH//glpD//citC//cynT//glgB//lysA//sdhC//adiA//grxA//ascB//fadJ//rnpB//gadB//luxS//metA//
+RstA-Phosphorylated_neg	wecC//udp//
+RstA-Phosphorylated_pos	allC//
+RtcR_pos	gltD//fumC//
+RutR_neg	uidA//glpX//murG//pgaD//rhaD//cysD//ubiX//nrfC//fes//malY//
+RutR_pos	nagA//
+SdiA_neg	
+SdiA_pos	
+SgrR_neg	fucK//
+SgrR_pos	cyoE//rnpB//
+SlyA_neg	
+SlyA_pos	gatZ//mpaA//cysN//paaY//hyaC//glpA//umuD//deoA//recD//
+SoxR_neg	
+SoxR_pos	murG//wzc//allD//prpD//fadJ//waaH//
+SoxS_neg	
+SoxS_pos	accD//uxaA//paaB//aceA//gcl//puuE//gdhA//entA//metC//pgk//argH//caiA//dgkA//idnK//carB//argE//ycjG//recB//astA//serA//hyaC//entC//appA//polB//phnJ//glpK//deoB//accC//
+SrlR_neg	ssuD//lldD//hycG//
+StpA_neg	murC//paaH//trpB//
+SutR_neg	hycD//hyaC//
+SutR_pos	
+TdcA_pos	umuC//aspC//mnmG//hycE//fau//
+TdcR_pos	guaA//psd//purK//talA//paaF//
 TorR-Phosphorylated_neg	
-TorR-Phosphorylated_pos	pheT//ppiA//yfeW//
-TrpR-Tryptophan_neg	purF//cpdB//hpt//paaB//fadI//nirD//tauD//chbG//frdB//
-TyrR-L-tryptophan_neg	phnJ//gabD//prpB//sdhD//araB//udp//fdhF//
-TyrR-L-tryptophan_pos	rnpB//dapD//phnG//
-TyrR-Phenylalanine_neg	edd//napH//glpC//yqjH//glnA//entE//aroL//
-TyrR-Phenylalanine_pos	zwf//fabZ//galT//
-TyrR-Tyrosine_neg	psd//sucD//pncB//hyaA//argI//fucA//ssuE//
-TyrR-Tyrosine_pos	nagA//aldB//purD//
-UhpA-Phosphorylated_pos	purF//
-XapR-xanthosine_pos	gltB//dusB//
-XylR-Xylose_pos	speB//dmsB//hmp//
-ZntR-Cd2+_pos	cueO//
-ZntR-Hg_pos	mhpA//
-ZntR-Zn2+_pos	phnG//
+TorR-Phosphorylated_pos	uxaB//uxaB//ttdA//paaZ//
+TorR-TorI_neg	phnO//
+TorR-TorI_pos	
+TreR_neg	allE//glpQ//
+TrpR-tryptophan_neg	lldD//bioF//mhpF//ahpC//ydcS//fabZ//phnM//garL//lacZ//
+TyrR-phenylalanine_neg	ldtD//napH//
+TyrR-phenylalanine_pos	pflB//
+TyrR-tyrosine_neg	prpD//aspA//sufS//luxS//purH//entA//
+TyrR-tyrosine_pos	glyA//hmp//
+TyrR_neg	cysK//
+TyrR_pos	aspC//
+UhpA-Phosphorylated_pos	prpE//
+UidR_neg	mhpB//argC//
+UlaR_neg	sbcC//xylB//rutE//caiD//moeB//
+UvrY-Phosphorylated_pos	gcvP//purH//
+UxuR_neg	lacA//deoC//polB//trpB//pheS//
+XapR-xanthosine_pos	pflB//paaH//
+XylR-xylose_neg	
+XylR-xylose_pos	dsdA//puuD//metF//
+YdeO_neg	
+YdeO_pos	aspA//purF//citF//
+YefM-YoeB_neg	metH//
+YefM_neg	leuB//
+YeiL_pos	
+YhaJ_pos	
+YiaJ_neg	wzc//nanM//astC//nrdD//bioF//nadA//
+YjjQ_neg	ribA//wecC//
+YpdB-Phosphorylated_pos	
+YqhC_pos	glpB//pflB//
+YqjI_neg	aroG//
+ZntR-Zn2_pos	araB//
 ZraR-Phosphorylated_pos	
-Zur-Zn2+_neg	phnP//
+Zur-Zn2_neg	argA//

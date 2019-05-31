@@ -1,58 +1,6 @@
 re10	CATALYSIS	FabI
-re10	INHIBITION	(2E)-dec-2-enoyl-[acp]	REG0-8493
-re10	INHIBITION	(2E)-dodec-2-enoyl-[acp]	REG0-8493
-re10	INHIBITION	(2E,11Z)-octadeca-2,11-dienoyl-[acp]	REG0-8493
-re10	INHIBITION	(3R)-3-hydroxy cis delta7-tetradecenoyl-[acp]	REG0-8493
-re10	INHIBITION	(3R)-3-hydroxy cis delta9-hexadecenoyl-[acp]	REG0-8493
-re10	INHIBITION	(3R)-3-hydroxy-cis-vaccenoyl-[acp]	REG0-8493
-re10	INHIBITION	(3R)-3-hydroxyglutaryl-[acp] methyl ester	REG0-8493
-re10	INHIBITION	(5Z)-dodec-5-enoyl-[acp]	REG0-8493
-re10	INHIBITION	18:0-ACP	REG0-8493
-re10	INHIBITION	2,3,4-saturated fatty acyl-[acp]	REG0-8493
-re10	INHIBITION	2,3-dihydroxybenzoyl-EntB	REG0-8493
-re10	INHIBITION	3-hydroxypimeloyl-[acp] methyl ester	REG0-8493
-re10	INHIBITION	3-ketopimelyl-[acp] methyl ester	REG0-8493
-re10	INHIBITION	3-oxo-cis-delta7-tetradecenoyl-[acp]	REG0-8493
-re10	INHIBITION	3-oxo-cis-delta9-hexadecenoyl-[acp]	REG0-8493
-re10	INHIBITION	3-oxo-cis-vaccenoyl-[acp]	REG0-8493
-re10	INHIBITION	3-oxo-decanoyl-[acp]	REG0-8493
-re10	INHIBITION	3-oxo-dodecanoyl-[acp]	REG0-8493
-re10	INHIBITION	3-oxo-glutaryl-[acp] methyl ester	REG0-8493
-re10	INHIBITION	3-oxo-hexanoyl-[acp]	REG0-8493
-re10	INHIBITION	3-oxo-myristoyl-[acp]	REG0-8493
-re10	INHIBITION	3-oxo-octanoyl-[acp]	REG0-8493
-re10	INHIBITION	3-oxo-palmitoyl-[acp]	REG0-8493
-re10	INHIBITION	AcpP	REG0-8493
-re10	INHIBITION	CH3(CH2)xCH=CHCO-S-ACP	REG0-8493
-re10	INHIBITION	acetoacetyl-[acp]	REG0-8493
-re10	INHIBITION	acetoacyl-ACP	REG0-8493
-re10	INHIBITION	acetyl-[acp]	REG0-8493
-re10	INHIBITION	acyl-ACP	REG0-8493
-re10	INHIBITION	beta-OH-acyl-ACP	REG0-8493
-re10	INHIBITION	beta-hydroxydecanoyl-[acp]	REG0-8493
-re10	INHIBITION	beta-hydroxydodecanoyl-[acp]	REG0-8493
-re10	INHIBITION	beta-hydroxyhexanoyl-[acp]	REG0-8493
-re10	INHIBITION	beta-hydroxymyristoyl-[acp]	REG0-8493
-re10	INHIBITION	butyryl-[acp]	REG0-8493
-re10	INHIBITION	cis-delta7-tetradecenoyl-[acp]	REG0-8493
-re10	INHIBITION	cis-vaccenoyl-[acp]	REG0-8493
-re10	INHIBITION	crotonyl-[acp]	REG0-8493
-re10	INHIBITION	decanoyl-[acp]	REG0-8493
-re10	INHIBITION	enoylglutaryl-[acp] methyl ester	REG0-8493
-re10	INHIBITION	enoylpimelyl-[acp] methyl ester	REG0-8493
-re10	INHIBITION	glutaryl-[acp] methyl ester	REG0-8493
-re10	INHIBITION	hexanoyl-[acp]	REG0-8493
-re10	INHIBITION	lauryl-[acp]	REG0-8493
-re10	INHIBITION	myristoyl-[acp]	REG0-8493
-re10	INHIBITION	octanoyl-[acp]	REG0-8493
-re10	INHIBITION	palmitoleoyl-[acp]	REG0-8493
-re10	INHIBITION	pimelyl-[acp] methyl ester	REG0-8493
-re10	INHIBITION	trans hex-2-enoyl-[acp]	REG0-8493
-re10	INHIBITION	trans hexadecenoyl-[acp]	REG0-8493
-re10	INHIBITION	trans tetradec-2-enoyl-[acp]	REG0-8493
-re10	INHIBITION	trans-delta3-cis-delta7-tetradecenoyl-[acp]	REG0-8493
-re10	INHIBITION	trans-delta3-cis-delta9-hexadecenoyl-[acp]	REG0-8493
 re11	CATALYSIS	FabI
+re11	INHIBITION	acyl-ACP	REG0-8493
 re12	CATALYSIS	FabI
 re13	CATALYSIS	FabI
 re14	CATALYSIS	FabI
@@ -82,32 +30,40 @@ re36	CATALYSIS	FabG
 re37	CATALYSIS	FabG
 re38	CATALYSIS	FabG
 re40	CATALYSIS	FabB
+re40	CATALYSIS	KASI
 re41	CATALYSIS	FabB
+re41	CATALYSIS	KASI
 re42	CATALYSIS	FabB
+re42	CATALYSIS	KASI
 re43	CATALYSIS	FabB
+re43	CATALYSIS	KASI
 re44	CATALYSIS	FabB
+re44	CATALYSIS	KASI
 re45	CATALYSIS	FabB
+re45	CATALYSIS	KASI
 re46	CATALYSIS	FabB
+re46	CATALYSIS	KASI
 re47	CATALYSIS	FabB
+re47	CATALYSIS	KASI
 re48	CATALYSIS	FabB
+re48	CATALYSIS	KASI
 re49	CATALYSIS	FabB
+re49	CATALYSIS	KASI
 re50	CATALYSIS	FabB
 re51	CATALYSIS	FabB
+re51	CATALYSIS	KASI
 re52	CATALYSIS	FabB
+re52	CATALYSIS	KASI
 re52	INHIBITION	AcpP	REG0-11706
-re52	INHIBITION	holo EntB monomer	REG0-11706
 re53	CATALYSIS	FabB
-re55	CATALYSIS	FabZ
-re56	CATALYSIS	FabZ
+re53	CATALYSIS	KASI
+re55	CATALYSIS	KASI
 re57	CATALYSIS	FabZ
 re58	CATALYSIS	FabZ
-re59	CATALYSIS	FabA
 re59	CATALYSIS	FabZ
-re60	CATALYSIS	FabA
 re60	CATALYSIS	FabZ
 re61	CATALYSIS	FabA
 re61	CATALYSIS	FabZ
-re62	CATALYSIS	FabA
 re62	CATALYSIS	FabZ
 re63	CATALYSIS	FabA
 re63	CATALYSIS	FabZ
@@ -115,14 +71,18 @@ re64	CATALYSIS	FabA
 re64	CATALYSIS	FabZ
 re65	CATALYSIS	FabA
 re65	CATALYSIS	FabZ
+re66	CATALYSIS	FabA
 re66	CATALYSIS	FabZ
+re67	CATALYSIS	FabA
+re67	CATALYSIS	FabZ
 re68	CATALYSIS	FabA
-re70	CATALYSIS	EntB
-re72	CATALYSIS	EntB-EntD-EntF-EntE
-re73	CATALYSIS	EntB-EntD-EntF-EntE
+re68	CATALYSIS	FabZ
+re70	CATALYSIS	FabA
+re72	CATALYSIS	EntB
 re74	CATALYSIS	EntB-EntD-EntF-EntE
 re75	CATALYSIS	EntB-EntD-EntF-EntE
 re76	CATALYSIS	EntB-EntD-EntF-EntE
 re77	CATALYSIS	EntB-EntD-EntF-EntE
 re78	CATALYSIS	EntB-EntD-EntF-EntE
+re79	CATALYSIS	EntB-EntD-EntF-EntE
 re9	CATALYSIS	FabI

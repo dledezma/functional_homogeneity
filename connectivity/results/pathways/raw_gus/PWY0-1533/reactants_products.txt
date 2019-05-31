@@ -14,36 +14,55 @@ re7	phnP	reactant
 re7	phnP_mRNA	product
 re8	phnL_mRNA	reactant
 re8	PhnL	product
-re9	PhnL	reactant
-re9	PhnG	reactant
 re9	PhnI	reactant
+re9	PhnL	reactant
 re9	PhnH	reactant
+re9	PhnG	reactant
 re9	PhnL-PhnH-PhnG-PhnI	product
-re10	MePn	reactant
-re10	alpha-D-ribose-1-methylphosphonate-5-triphosphate	product
+re10	2-N-acetamidomethylphosphonate	reactant
+re10	5-triphospho-alpha-D-ribosyl-1-(2-N-acetamidomethylphosphonate)	product
 re10	adenine	product
-re11	phnH_mRNA	reactant
-re11	PhnH	product
-re12	PhnJ	reactant
-re12	PhnG	reactant
-re12	PhnI	reactant
-re12	PhnH	reactant
-re12	PhnJ-PhnI-PhnH-PhnG	product
-re13	phnG_mRNA	reactant
-re13	PhnG	product
-re14	phnI_mRNA	reactant
-re14	PhnI	product
-re15	phnM_mRNA	reactant
-re15	PhnM	product
-re16	alpha-D-ribose-1-methylphosphonate-5-triphosphate	reactant
-re16	alpha-D-ribose-1-methylphosphonate 5-phosphate	product
-re16	diphosphate	product
-re17	phnJ_mRNA	reactant
-re17	PhnJ	product
-re18	alpha-D-ribose-1-methylphosphonate 5-phosphate	reactant
-re18	5-phospho-alpha-D-ribose 1,2-cyclic phosphate	product
-re18	methane	product
-re19	phnP_mRNA	reactant
-re19	PhnP	product
-re20	5-phospho-alpha-D-ribose 1,2-cyclic phosphate	reactant
-re20	ribose-1,5-bisphosphate	product
+re11	MePn	reactant
+re11	alpha-D-ribose-1-methylphosphonate-5-triphosphate	product
+re11	adenine	product
+re12	phnH_mRNA	reactant
+re12	PhnH	product
+re13	PhnH	reactant
+re13	PhnJ	reactant
+re13	PhnI	reactant
+re13	PhnG	reactant
+re13	PhnJ-PhnI-PhnH-PhnG	product
+re14	phnG_mRNA	reactant
+re14	PhnG	product
+re15	phnI_mRNA	reactant
+re15	PhnI	product
+re16	phnM_mRNA	reactant
+re16	PhnM	product
+re17	5-triphospho-alpha-D-ribosyl-1-(2-N-acetamidomethylphosphonate)	reactant
+re17	1-(2-N-acetamidomethylphosphonato) 5-phospho-alpha-D-ribose	product
+re17	diphosphate	product
+re18	alpha-D-ribose-1-methylphosphonate-5-triphosphate	reactant
+re18	alpha-D-ribose-1-methylphosphonate 5-phosphate	product
+re18	diphosphate	product
+re19	phnJ_mRNA	reactant
+re19	PhnJ	product
+re20	1-(2-N-acetamidomethylphosphonato) 5-phospho-alpha-D-ribose	reactant
+re20	A(H2)	reactant
+re20	SAM	reactant
+re20	5-phospho-alpha-D-ribose 1,2-cyclic phosphate	product
+re20	N-methylacetamide	product
+re20	5'-deoxyadenosine	product
+re20	methionine	product
+re20	acceptors	product
+re21	alpha-D-ribose-1-methylphosphonate 5-phosphate	reactant
+re21	A(H2)	reactant
+re21	SAM	reactant
+re21	5-phospho-alpha-D-ribose 1,2-cyclic phosphate	product
+re21	5'-deoxyadenosine	product
+re21	methionine	product
+re21	acceptors	product
+re21	methane	product
+re22	phnP_mRNA	reactant
+re22	PhnP	product
+re23	5-phospho-alpha-D-ribose 1,2-cyclic phosphate	reactant
+re23	ribose-1,5-bisphosphate	product

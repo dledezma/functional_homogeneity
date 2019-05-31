@@ -12,44 +12,66 @@ re6	DNA 6-O-methylguanine	reactant
 re6	peptide cysteine	reactant
 re6	[protein]-S-methyl-L-cysteine	product
 re6	DNA guanine	product
-re7	aidB_mRNA	reactant
-re7	AidB	product
-re8	isovaleryl-CoA	reactant
-re8	oxidized ETF	reactant
-re8	3-methylcrotonyl-CoA	product
-re8	reduced ETF	product
-re9	alkA_mRNA	reactant
-re9	AlkA	product
-re10	alkylated DNA	reactant
-re10	base(2)	product
-re10	DNA(N)	product
-re11	alkB_mRNA	reactant
-re11	AlkB	product
-re12	ketoglutarate	reactant
-re12	DNA-base-CH3	reactant
-re12	oxygen	reactant
-re12	nucleobase within DNA	product
-re12	succinate	product
-re12	formol	product
-re12	CO2	product
-re13	1-ethyladenine	reactant
-re13	ketoglutarate	reactant
-re13	oxygen	reactant
-re13	succinate	product
-re13	adenine	product
-re13	ethanal	product
-re13	CO2	product
-re14	N3-methylcytosine	reactant
+re7	a modified nucleobase within DNA	reactant
+re7	peptide cysteine	reactant
+re7	[protein]-S-methyl-L-cysteine	product
+re7	a-thymine-in-DNA	product
+re8	a DNA containing Spmethyl phosphotriester	reactant
+re8	peptide cysteine	reactant
+re8	a DNA without Spmethyl phosphotriester	product
+re8	[protein]-S-methyl-L-cysteine	product
+re9	aidB_mRNA	reactant
+re9	AidB	product
+re10	isovaleryl-CoA	reactant
+re10	oxidized ETF	reactant
+re10	3-methylcrotonyl-CoA	product
+re10	reduced ETF	product
+re11	alkA_mRNA	reactant
+re11	AlkA	product
+re12	alkylated DNA	reactant
+re12	DNA containing an AP site	product
+re12	base(2)	product
+re13	alkB_mRNA	reactant
+re13	AlkB	product
+re14	an-Nsup1sup-methyladenine-in-DNA	reactant
 re14	ketoglutarate	reactant
 re14	oxygen	reactant
+re14	DNA adenine	product
 re14	succinate	product
-re14	cytosine	product
 re14	formol	product
 re14	CO2	product
-re15	1-methyladenine	reactant
+re15	an-Nsup3sup-methylcytosine-in-DNA	reactant
 re15	ketoglutarate	reactant
 re15	oxygen	reactant
+re15	DNA dcytosine	product
 re15	succinate	product
-re15	adenine	product
 re15	formol	product
 re15	CO2	product
+re16	an-iNisup1sup-ethyladenine-in-DNA	reactant
+re16	ketoglutarate	reactant
+re16	oxygen	reactant
+re16	DNA adenine	product
+re16	succinate	product
+re16	ethanal	product
+re16	CO2	product
+re17	1iNisup6sup-ethenoadenine-in-DNA	reactant
+re17	ketoglutarate	reactant
+re17	oxygen	reactant
+re17	DNA adenine	product
+re17	succinate	product
+re17	glyoxal	product
+re17	CO2	product
+re18	1-methyl-dATP	reactant
+re18	ketoglutarate	reactant
+re18	oxygen	reactant
+re18	succinate	product
+re18	formol	product
+re18	dATP	product
+re18	CO2	product
+re19	1-methyl-dAMP	reactant
+re19	ketoglutarate	reactant
+re19	oxygen	reactant
+re19	succinate	product
+re19	formol	product
+re19	dAMP	product
+re19	CO2	product

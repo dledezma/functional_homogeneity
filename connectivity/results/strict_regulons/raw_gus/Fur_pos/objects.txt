@@ -6,9 +6,7 @@ AceE-AceF-Lpd	COMPLEX	PYRUVATEDEH-CPLX
 AceF	PROTEIN	E2P-MONOMER
 AmtB	PROTEIN	AMTB-MONOMER
 CO2	SIMPLE_MOLECULE	CARBON-DIOXIDE
-CO2_Ext	SIMPLE_MOLECULE	CARBON-DIOXIDE_Ext
 EntS	PROTEIN	YBDA-MONOMER
-EntS-TolC	COMPLEX	CPLX0-5
 ExbB	PROTEIN	EG10271-MONOMER
 ExbD	PROTEIN	EG10272-MONOMER
 Fe+2	SIMPLE_MOLECULE	FE+2
@@ -25,12 +23,16 @@ KatG	PROTEIN	HYDROPEROXIDI-MONOMER
 L-glutamate	SIMPLE_MOLECULE	GLT
 Lpd	PROTEIN	E3-MONOMER
 Lpd-GcvP-GcvH-GcvT	COMPLEX	GCVMULTI-CPLX
+MCFA	SIMPLE_MOLECULE	|Medium-chain-fatty-acids|
+MCFA_Ext	SIMPLE_MOLECULE	|Medium-chain-fatty-acids|_Ext
 Mn(II)	SIMPLE_MOLECULE	MN+2
 Mn(II)_Ext	SIMPLE_MOLECULE	MN+2_Ext
 MntP	PROTEIN	G6999-MONOMER
 N-acetylneuraminate	SIMPLE_MOLECULE	N-ACETYLNEURAMINATE
 N-acetylneuraminate_Ext	SIMPLE_MOLECULE	N-ACETYLNEURAMINATE_Ext
 OmpF	PROTEIN	EG10671-MONOMER
+RCHO	SIMPLE_MOLECULE	|Aldehydes|
+RCHO_Ext	SIMPLE_MOLECULE	|Aldehydes|_Ext
 SdhA	PROTEIN	SDH-FLAVO
 SdhA-SdhB-SdhC-SdhD	COMPLEX	SUCC-DEHASE
 SdhB	PROTEIN	SDH-FE-S
@@ -43,9 +45,10 @@ SucC	PROTEIN	SUCCCOASYN-BETA
 SucD	PROTEIN	SUCCCOASYN-ALPHA
 SucD-SucC	COMPLEX	SUCCCOASYN
 THF polyglutamate	SIMPLE_MOLECULE	THF-GLU-N
+Te0	SIMPLE_MOLECULE	CPD-16009
+TeO2	SIMPLE_MOLECULE	CPD-4544
 TolB	PROTEIN	EG11008-MONOMER
 TolB-OmpF	COMPLEX	CPLX0-2221
-TolC	PROTEIN	EG11009-MONOMER
 TonB	PROTEIN	EG11012-MONOMER
 TonB-ExbB-ExbD	COMPLEX	CPLX0-1923
 ZinT	PROTEIN	G7061-MONOMER
@@ -60,19 +63,35 @@ ZinT	PROTEIN	G7061-MONOMER
 [pyruvate dehydrogenase E2 protein] N6-lipoyl-L-lysine	SIMPLE_MOLECULE	|Pyruvate-dehydrogenase-lipoate|
 acceptors	SIMPLE_MOLECULE	|Acceptor|
 acetyl-CoA	SIMPLE_MOLECULE	ACETYL-COA
+aldonate	SIMPLE_MOLECULE	|Aldonic-Acids|
+aldonate_Ext	SIMPLE_MOLECULE	|Aldonic-Acids|_Ext
+amide	SIMPLE_MOLECULE	|Amides|
+amide_Ext	SIMPLE_MOLECULE	|Amides|_Ext
+amine	SIMPLE_MOLECULE	|All-Amines|
+amine_Ext	SIMPLE_MOLECULE	|All-Amines|_Ext
 amino acid	SIMPLE_MOLECULE	|Amino-Acids|
 amino acid_Ext	SIMPLE_MOLECULE	|Amino-Acids|_Ext
 ammonium	SIMPLE_MOLECULE	AMMONIUM
 ammonium_Ext	SIMPLE_MOLECULE	AMMONIUM_Ext
 amtB	GENE
 amtB_mRNA	RNA
+aromatic compound	SIMPLE_MOLECULE	|Aromatics|
+aromatic compound_Ext	SIMPLE_MOLECULE	|Aromatics|_Ext
 base(2)	SIMPLE_MOLECULE	|Bases|
 base(2)_Ext	SIMPLE_MOLECULE	|Bases|_Ext
 beta-Neu5Ac	SIMPLE_MOLECULE	CPD0-1123
 beta-Neu5Ac_Ext	SIMPLE_MOLECULE	CPD0-1123_Ext
 betaine	SIMPLE_MOLECULE	BETAINE
 betaine_Ext	SIMPLE_MOLECULE	BETAINE_Ext
+caprate	SIMPLE_MOLECULE	CPD-3617
+caprate_Ext	SIMPLE_MOLECULE	CPD-3617_Ext
+chitobiose	SIMPLE_MOLECULE	CHITOBIOSE
+chitobiose_Ext	SIMPLE_MOLECULE	CHITOBIOSE_Ext
 coenzyme A	SIMPLE_MOLECULE	CO-A
+dicarboxylate	SIMPLE_MOLECULE	|dicarboxylate|
+dicarboxylate_Ext	SIMPLE_MOLECULE	|dicarboxylate|_Ext
+disaccharide	SIMPLE_MOLECULE	|Disaccharides|
+disaccharide_Ext	SIMPLE_MOLECULE	|Disaccharides|_Ext
 entS	GENE
 entS_mRNA	RNA
 enterobactin	SIMPLE_MOLECULE	ENTEROBACTIN
@@ -88,10 +107,16 @@ gdhA	GENE
 gdhA_mRNA	RNA
 glnK	GENE
 glnK_mRNA	RNA
+glycerol 1-phosphate	SIMPLE_MOLECULE	|Glycerol-1-phosphate|
+glycerol 1-phosphate_Ext	SIMPLE_MOLECULE	|Glycerol-1-phosphate|_Ext
 glycine	SIMPLE_MOLECULE	GLY
+glycoside	SIMPLE_MOLECULE	|Glycosides|
+glycoside_Ext	SIMPLE_MOLECULE	|Glycosides|_Ext
 heme d	SIMPLE_MOLECULE	HEME_D
 hydrophilic solute or ion 600 Da	SIMPLE_MOLECULE	|Hydrophilic-Solute-Or-Ion-LT-600Da|
 hydrophilic solute or ion 600 Da_Ext	SIMPLE_MOLECULE	|Hydrophilic-Solute-Or-Ion-LT-600Da|_Ext
+hydroxy carboxylate	SIMPLE_MOLECULE	|Hydroxy-carboxylates|
+hydroxy carboxylate_Ext	SIMPLE_MOLECULE	|Hydroxy-carboxylates|_Ext
 inositol	SIMPLE_MOLECULE	|Inositols|
 inositol_Ext	SIMPLE_MOLECULE	|Inositols|_Ext
 ion	SIMPLE_MOLECULE	|Ions|
@@ -101,17 +126,31 @@ katE_mRNA	RNA
 katG	GENE
 katG_mRNA	RNA
 ketoglutarate	SIMPLE_MOLECULE	2-KETOGLUTARATE
+lactone	SIMPLE_MOLECULE	|Lactones|
+lactone_Ext	SIMPLE_MOLECULE	|Lactones|_Ext
 lipoyl-domain	SIMPLE_MOLECULE	|Lipoyl-Protein-N6-lipoyllysine|
 lpd	GENE
 lpd_mRNA	RNA
 malate	SIMPLE_MOLECULE	MAL
+maltose	SIMPLE_MOLECULE	MALTOSE
+maltose_Ext	SIMPLE_MOLECULE	MALTOSE_Ext
 methylene-H4PteGlu(n)	SIMPLE_MOLECULE	METHYLENE-THF-GLU-N
 mntP	GENE
 mntP_mRNA	RNA
-monosaccharide	SIMPLE_MOLECULE	|Monosaccharides|
-monosaccharide_Ext	SIMPLE_MOLECULE	|Monosaccharides|_Ext
+monocarboxylate	SIMPLE_MOLECULE	|Monocarboxylates|
+monocarboxylate_Ext	SIMPLE_MOLECULE	|Monocarboxylates|_Ext
+nucleoside	SIMPLE_MOLECULE	|Nucleosides|
+nucleoside_Ext	SIMPLE_MOLECULE	|Nucleosides|_Ext
+nucleotide	SIMPLE_MOLECULE	|Nucleotides|
+nucleotide sugar	SIMPLE_MOLECULE	NUCLEOTIDE-SUGARS
+nucleotide sugar_Ext	SIMPLE_MOLECULE	NUCLEOTIDE-SUGARS_Ext
+nucleotide_Ext	SIMPLE_MOLECULE	|Nucleotides|_Ext
+oligopeptide	SIMPLE_MOLECULE	OLIGOPEPTIDES
+oligopeptide_Ext	SIMPLE_MOLECULE	OLIGOPEPTIDES_Ext
 ompF	GENE
 ompF_mRNA	RNA
+organophosphorus compound	SIMPLE_MOLECULE	|Organophosphorus-Compounds|
+organophosphorus compound_Ext	SIMPLE_MOLECULE	|Organophosphorus-Compounds|_Ext
 organosulfur compound	SIMPLE_MOLECULE	ORGANOSULFUR
 organosulfur compound_Ext	SIMPLE_MOLECULE	ORGANOSULFUR_Ext
 oxalacetate	SIMPLE_MOLECULE	OXALACETIC_ACID
@@ -145,8 +184,16 @@ sucC_mRNA	RNA
 sucD	GENE
 sucD_mRNA	RNA
 succinate	SIMPLE_MOLECULE	SUC
+sugar	SIMPLE_MOLECULE	|Sugar|
+sugar phosphate	SIMPLE_MOLECULE	|Sugar-Phosphate|
+sugar phosphate_Ext	SIMPLE_MOLECULE	|Sugar-Phosphate|_Ext
+sugar_Ext	SIMPLE_MOLECULE	|Sugar|_Ext
+sulfadiazine	SIMPLE_MOLECULE	CPD-20940
+sulfadiazine_Ext	SIMPLE_MOLECULE	CPD-20940_Ext
 tartrate	SIMPLE_MOLECULE	D-TARTRATE
 tonB	GENE
 tonB_mRNA	RNA
+trisaccharide	SIMPLE_MOLECULE	|Trisaccharides|
+trisaccharide_Ext	SIMPLE_MOLECULE	|Trisaccharides|_Ext
 zinT	GENE
 zinT_mRNA	RNA

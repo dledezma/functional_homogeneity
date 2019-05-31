@@ -6,15 +6,21 @@ re3	lldR	reactant
 re3	lldR_mRNA	product
 re4	lldD_mRNA	reactant
 re4	LldD	product
-re5	acceptors	reactant
+re5	electron-transfer quinone	reactant
 re5	lactate	reactant
+re5	electron-transfer quinol	product
 re5	pyruvate	product
-re5	A(H2)	product
-re6	lldP_mRNA	reactant
-re6	LldP	product
-re7	glycolate_Ext	reactant
-re7	glycolate	product
+re6	electron-transfer quinone	reactant
+re6	2-hydroxybutyrate	reactant
+re6	electron-transfer quinol	product
+re6	2-oxobutyrate	product
+re7	lldP_mRNA	reactant
+re7	LldP	product
 re8	lactate_Ext	reactant
 re8	lactate	product
-re9	lldR_mRNA	reactant
-re9	LldR	product
+re9	glycolate_Ext	reactant
+re9	glycolate	product
+re10	2-hydroxybutyrate_Ext	reactant
+re10	2-hydroxybutyrate	product
+re11	lldR_mRNA	reactant
+re11	LldR	product

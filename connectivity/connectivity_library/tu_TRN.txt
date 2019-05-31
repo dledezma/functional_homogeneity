@@ -1,29 +1,28 @@
+# Copies and Copyright-Notice
 #
-#      RegulonDB is free for academic/noncommercial use 
-# 
-#      User is not entitled to change or erase data sets of the RegulonDB 
-#      database or to eliminate copyright notices from RegulonDB. Furthermore, 
-#      User is not entitled to expand RegulonDB or to integrate RegulonDB partly 
-#      or as a whole into other databank systems, without prior written consent 
-#      from CCG-UNAM. 
-# 
-#      Please check the license at http://regulondb.ccg.unam.mx/menu/download/full_version/terms_and_conditions.jsp 
-# 
-# Citation 
-# 
-#      Gama-Castro S. et al. (2016). "RegulonDB version 9.0: high-level integration of gene regulation, coexpression, motif clustering and beyond". 
-#      Nucleic Acids Res. 2016 Jan 4;44(D1):D133-43. doi: 10.1093/nar/gkv1156. Epub 2015 Nov 2. 
-# 
-# 
-# Contact 
-# 
-#      Person: RegulonDB Team 
-#      Web Page: http://regulondb.ccg.unam.mx/menu/about_regulondb/contact_us/index.jsp 
-#          (regulondb@ccg.unam.mx) 
-# 
+#      RegulonDB is free for academic/noncommercial use
 #
-
-# Release: 9.1 Date: 04-07-2016
+#      database or to eliminate copyright notices from RegulonDB. Furthermore,
+#      User is not entitled to expand RegulonDB or to integrate RegulonDB partly
+#      or as a whole into other databank systems, without prior written consent
+#      from CCG-UNAM.
+#
+#      Please check the license at http://regulondb.ccg.unam.mx/menu/download/full_version/terms_and_conditions.jsp
+#
+# Citation
+#
+#      Gama-Castro S et al. (2016). "RegulonDB version 9.0: high-level integration of gene regulation, coexpression, motif clustering and beyond.",
+#      Nucleic Acids Res. 2016 Jan 4;44(D1):D133-43. doi: 10.1093/nar/gkv1156. Epub 2015 Nov 2.
+#
+#
+# Contact
+#
+#      Person: RegulonDB Team
+#      Web Page: http://regulondb.ccg.unam.mx/menu/about_regulondb/contact_us/index.jsp
+#          (regulondb@ccg.unam.mx)
+#
+#
+# Release: 10.0 Date: 18/06/18
 # ___________________________________________________________________________
 #
 # Columns:
@@ -31,10 +30,11 @@
 #  (2) TUName (regulated)
 #  (3) Regulatory effect of the TF on the regulated gene (+ activator, - repressor, +- dual, ? unknown)
 #  (4) Evidence that supports the existence of the regulatory interaction
+#  (5) Evidence Type [Weak, Strong, Confirmed] For details see: http://regulondb.ccg.unam.mx/evidenceclassification
 #
-AccB	accBC[accBp]	-	[null]	Weak	
-AcrR	acrAB[acrAp]	-	[BCE, BPP, GEA, HIBSCS]	Weak	
-AcrR	acrR[acrRp]	-	[AIBSCS, BCE, BPP, GEA, HIBSCS]	Weak	
+AcrR	acrAB[acrAp]	-	[BCE, BPP, GEA, HIBSCS]	Strong	
+AcrR	acrR[acrRp]	-	[AIBSCS, BCE, BPP, GEA, HIBSCS]	Strong	
+AcrR	flhDC[flhDp]	-	[GEA, HIBSCS]	Weak	
 AcrR	marRAB[marRp]	-	[BPP, GEA, HIBSCS]	Strong	
 AcrR	micF[micFp]	-	[AIBSCS]	Weak	
 AcrR	soxR[soxRp]	-	[BPP, GEA, HIBSCS]	Strong	
@@ -51,21 +51,21 @@ AgaR	agaS-kbaY-agaBCDI[agaSp]	-	[BPP, GEA, HIBSCS]	Strong
 AgaR	kbaZ-agaVWA[kbaZp]	-	[BPP, GEA, HIBSCS]	Strong	
 AidB	aidB[aidBp]	-	[BPP, GEA]	Strong	
 AlaS	alaS[alaSp]	-	[BPP, GEA]	Strong	
-AllR	allA[allAp]	-	[BCE, BPP, GEA, SM]	Weak	
-AllR	allS[allSp]	-	[BCE, BPP, GEA, SM]	Weak	
-AllR	gcl-hyi-glxR-ybbW-allB-ybbY-glxK[gclp]	-	[BCE, BPP, GEA, SM]	Weak	
+AllR	allA[allAp]	-	[BCE, BPP, GEA, SM]	Strong	
+AllR	allS[allSp]	-	[BCE, BPP, GEA, SM]	Strong	
+AllR	gcl-hyi-glxR-ybbW-allB-ybbY-glxK[gclp]	-	[BCE, BPP, GEA, SM]	Strong	
 AllS	allDCE[allDp]	+	[BCE, HIBSCS]	Weak	
+AlsR	alsRBACE[alsRp2]	-	[GEA]	Weak	
+AlsR	alsRBACE[alsRp1]	-	[GEA]	Weak	
 AlsR	rpiB[rpiBp]	-	[GEA]	Weak	
-AlsR	rpiR-alsBACE[alsRp2]	-	[GEA]	Weak	
-AlsR	rpiR-alsBACE[alsRp1]	-	[GEA]	Weak	
 AppY	appCBXA[appCp]	+	[GEA]	Weak	
 AppY	hyaABCDEF[hyaAp]	+	[GEA]	Weak	
 AraC	araBAD[araBp]	+	[BPP, GEA, HIBSCS, SM, BCE]	Strong	
 AraC	araC[araCp]	+	[BPP, GEA, HIBSCS, SM, BCE]	Strong	
 AraC	araE[araEp]	+	[BPP, HIBSCS]	Strong	
 AraC	araE-ygeA[araEp]	+	[BPP, HIBSCS]	Strong	
-AraC	araFGH[araFp]	+	[AIBSCS, BPP, HIBSCS, SM]	Weak	
-AraC	araJ[araJp]	+	[AIBSCS, BPP, HIBSCS]	Weak	
+AraC	araFGH[araFp]	+	[AIBSCS, BPP, HIBSCS, SM]	Strong	
+AraC	araJ[araJp]	+	[AIBSCS, BPP, HIBSCS]	Strong	
 AraC	xylAB[xylAp]	-	[BCE, GEA, HIBSCS]	Weak	
 AraC	ydeNM[ydeNp]	-	[GEA]	Weak	
 ArcA	aceBAK[aceBp]	-	[RBM]	Weak	
@@ -73,8 +73,9 @@ ArcA	aceEF[aceEp]	-	[GEA]	Weak
 ArcA	ackA[ackAp]	+	[GEA]	Weak	
 ArcA	acnA[acnAp2]	-	[GEA, HIBSCS]	Weak	
 ArcA	acnB[acnBp]	-	[GEA, HIBSCS]	Weak	
-ArcA	aldA[aldAp]	-	[AIBSCS, BPP, HIBSCS, SM]	Weak	
+ArcA	aldA[aldAp]	-	[AIBSCS, BPP, HIBSCS, SM]	Strong	
 ArcA	appCBXA[appCp]	+	[GEA]	Weak	
+ArcA	appY[appYp2]	+	[AIBSCS]	Weak	
 ArcA	arcZ[arcZp]	-	[GEA, HIBSCS]	Weak	
 ArcA	betIBA[betIp]	-	[BCE, GEA]	Weak	
 ArcA	betT[betTp]	-	[BCE, GEA]	Weak	
@@ -83,19 +84,19 @@ ArcA	caiTABCDE[caiTp]	+	[AIBSCS, GEA]	Weak
 ArcA	citCDEFXG[citCp1]	-	[AIBSCS]	Weak	
 ArcA	cydAB[cydAp3]	+	[AIBSCS, GEA]	Weak	
 ArcA	cydAB[cydAp4]	+	[AIBSCS, GEA]	Weak	
-ArcA	cydAB[cydAp1]	+	[AIBSCS, BCE, BPP, GEA, HIBSCS]	Weak	
+ArcA	cydAB[cydAp1]	+	[AIBSCS, BCE, BPP, GEA, HIBSCS]	Strong	
 ArcA	cydAB[cydAp2]	+	[BPP, GEA, HIBSCS]	Strong	
 ArcA	cydDC[cydDp]	+	[GEA]	Weak	
 ArcA	cyoABCDE[cyoAp]	-	[BCE, GEA]	Weak	
 ArcA	dctA[dctAp]	-	[GEA]	Weak	
 ArcA	dcuC[dcuCp]	+	[GEA, HIBSCS]	Weak	
 ArcA	dpiBA[dpiBp]	+	[AIBSCS]	Weak	
-ArcA	fadBA[fadBp]	-	[AIBSCS, BPP, GEA]	Weak	
-ArcA	fadD-sroD[fadDp]	-	[AIBSCS, BPP]	Weak	
-ArcA	fadE[fadEp]	-	[AIBSCS, BPP, GEA]	Weak	
+ArcA	fadBA[fadBp]	-	[AIBSCS, BPP, GEA]	Strong	
+ArcA	fadD-sroD[fadDp]	-	[AIBSCS, BPP]	Strong	
+ArcA	fadE[fadEp]	-	[AIBSCS, BPP, GEA]	Strong	
 ArcA	fadH[fadHp]	-	[GEA, HIBSCS]	Weak	
-ArcA	fadIJ[fadIp]	-	[AIBSCS, BPP, GEA]	Weak	
-ArcA	fadL[fadLp]	-	[AIBSCS, BPP]	Weak	
+ArcA	fadIJ[fadIp]	-	[AIBSCS, BPP, GEA]	Strong	
+ArcA	fadL[fadLp]	-	[AIBSCS, BPP]	Strong	
 ArcA	fnr[fnrp]	-	[GEA]	Weak	
 ArcA	focA-pflB[focAp1]	+	[BPP, GEA, HIBSCS]	Strong	
 ArcA	focA-pflB[focAp2]	+	[GEA, HIBSCS]	Weak	
@@ -104,10 +105,10 @@ ArcA	fumAC[fumAp]	-	[GEA]	Weak
 ArcA	fumB[fumBp]	+	[GEA]	Weak	
 ArcA	fumC[fumCp]	-	[GEA]	Weak	
 ArcA	gadAX[gadAp]	+	[AIBSCS, GEA]	Weak	
-ArcA	gadE[gadEp1]	+	[BPP, GEA]	Strong	
-ArcA	gadE[gadEp3]	+	[BPP, GEA]	Strong	
+ArcA	gadEF[gadEp1]	+	[BPP, GEA]	Strong	
+ArcA	gadEF[gadEp3]	+	[BPP, GEA]	Strong	
 ArcA	gatYZABCD[gatYp]	-	[AIBSCS, GEA]	Weak	
-ArcA	glcDEFGBA[glcDp]	-	[AIBSCS, BPP, GEA]	Weak	
+ArcA	glcDEFGBA[glcDp]	-	[AIBSCS, BPP, GEA]	Strong	
 ArcA	glpABC[glpABCp]	-	[GEA]	Weak	
 ArcA	glpD[glpDp]	-	[GEA]	Weak	
 ArcA	gltA[gltAp1]	-	[BCE, GEA, HIBSCS]	Weak	
@@ -117,12 +118,13 @@ ArcA	hyaABCDEF[hyaAp]	+	[BPP, GEA, HIBSCS]	Strong
 ArcA	hybOABCDEFG[hybOp1]	-	[GEA, HIBSCS]	Weak	
 ArcA	icd[icdAp1]	-	[BPP, GEA, HIBSCS]	Strong	
 ArcA	iraM[iraMp]	+	[AIBSCS]	Weak	
-ArcA	lldPRD[lldPp]	-	[AIBSCS, BPP, GEA, HIBSCS]	Weak	
-ArcA	lpd[lpdAp]	-	[AIBSCS, BPP, GEA]	Weak	
+ArcA	lldPRD[lldPp]	-	[AIBSCS, BPP, GEA, HIBSCS]	Strong	
+ArcA	lpd[lpdAp]	-	[AIBSCS, BPP, GEA]	Strong	
 ArcA	mdh[mdhp1]	-	[BCE, GEA]	Weak	
 ArcA	moeAB[moeAp]	+	[BPP, GEA]	Strong	
 ArcA	ndh[ndhp]	-	[AIBSCS, GEA]	Weak	
-ArcA	nuoABCEFGHIJKLMN[nuoAp2]	-	[BCE, GEA, SM]	Weak	
+ArcA	nuoABCEFGHIJKLMN[nuoAp2]	-	[BCE, GEA, SM]	Strong	
+ArcA	ompW[ompWp]	-	[AIBSCS, BPP, GEA]	Strong	
 ArcA	oppABCDF[oppAp]	-	[AIBSCS, GEA]	Weak	
 ArcA	ptsG[ptsGp1]	-	[BPP, GEA]	Strong	
 ArcA	puuAP[puuAp]	-	[AIBSCS, GEA]	Weak	
@@ -145,46 +147,47 @@ ArcA	uvrA[uvrAp]	-	[BPP, GEA, HIBSCS]	Strong
 ArcA	xylR[xylRp]	+	[AIBSCS, GEA]	Weak	
 ArcA	ybdN[ybdNp]	+	[AIBSCS]	Weak	
 ArcA	ydeA[ydeAp]	-	[AIBSCS, GEA]	Weak	
-ArgP	argO[argOp]	+	[BCE, BPP, GEA, HIBSCS, IC]	Weak	
+ArgP	argO[argOp]	+	[BCE, BPP, GEA, HIBSCS, IC, SM]	Strong	
 ArgP	argP[argPp]	-	[GEA, HIBSCS, IC]	Weak	
-ArgP	dapB[dapBp1]	+	[BCE, BPP, GEA, HIBSCS, IC]	Weak	
+ArgP	dapB[dapBp1]	+	[BCE, BPP, GEA, HIBSCS, IC, SM]	Strong	
 ArgP	dapD[dapDp]	+	[BPP, GEA]	Strong	
 ArgP	dnaAN-recF[dnaAp1]	+	[BPP, GEA, IC]	Strong	
-ArgP	gdhA[gdhAp1]	+	[BPP, GEA]	Strong	
+ArgP	gdhA[gdhAp1]	+	[BPP, GEA, SM]	Strong	
 ArgP	lysA[lysAp]	+	[BPP, GEA]	Strong	
 ArgP	lysC[lysCp1]	+	[BPP, GEA]	Strong	
 ArgP	lysP[lysPp]	+	[BPP, GEA, HIBSCS, IC, SM]	Strong	
 ArgP	nrdAB-yfaE[nrdAp]	+	[BPP, GEA, IC]	Strong	
-ArgR	argA[argAp]	-	[AIBSCS, BPP, GEA, HIBSCS]	Weak	
-ArgR	argCBH[argCp]	-	[AIBSCS, BCE, BPP, GEA, SM]	Weak	
-ArgR	argD[argDp]	-	[AIBSCS, BPP, GEA, HIBSCS]	Weak	
-ArgR	argE[argEp1]	-	[AIBSCS, BCE, BPP, GEA, SM]	Weak	
-ArgR	argF[argFp]	-	[AIBSCS, BCE, BPP, GEA, SM]	Weak	
-ArgR	argG[argGp]	-	[AIBSCS, BPP, GEA, HIBSCS]	Weak	
-ArgR	argI[argIp]	-	[AIBSCS, BCE, BPP, GEA]	Weak	
-ArgR	argR[argRp1]	-	[AIBSCS, BPP, GEA, HIBSCS]	Weak	
-ArgR	artJ[artJp]	-	[AIBSCS, BPP, GEA, SM]	Weak	
-ArgR	artPIQM[artPp]	-	[AIBSCS, BPP, GEA, SM]	Weak	
-ArgR	astCADBE[astCp2]	+	[AIBSCS, BPP, GEA]	Weak	
-ArgR	carAB[carAp2]	-	[AIBSCS, BPP, GEA, HIBSCS, SM]	Weak	
+ArgR	argA[argAp]	-	[AIBSCS, BPP, GEA, HIBSCS]	Strong	
+ArgR	argCBH[argCp]	-	[AIBSCS, BCE, BPP, GEA, SM]	Strong	
+ArgR	argD[argDp]	-	[AIBSCS, BPP, GEA, HIBSCS]	Strong	
+ArgR	argE[argEp1]	-	[AIBSCS, BCE, BPP, GEA, SM]	Strong	
+ArgR	argF[argFp]	-	[AIBSCS, BCE, BPP, GEA, SM]	Strong	
+ArgR	argG[argGp]	-	[AIBSCS, BPP, GEA, HIBSCS]	Strong	
+ArgR	argI[argIp]	-	[AIBSCS, BCE, BPP, GEA]	Strong	
+ArgR	argR[argRp1]	-	[AIBSCS, BPP, GEA, HIBSCS]	Strong	
+ArgR	artJ[artJp]	-	[AIBSCS, BPP, GEA, SM]	Strong	
+ArgR	artPIQM[artPp]	-	[AIBSCS, BPP, GEA, SM]	Strong	
+ArgR	astCADBE[astCp2]	+	[AIBSCS, BPP, GEA]	Strong	
+ArgR	carAB[carAp2]	-	[AIBSCS, BPP, GEA, HIBSCS, SM]	Strong	
 ArgR	gltBDF[gltBp]	-	[BPP, GEA, HIBSCS]	Strong	
-ArgR	hisJQMP[hisJp]	-	[AIBSCS, BPP, GEA, SM]	Weak	
+ArgR	hisJQMP[hisJp]	-	[AIBSCS, BPP, GEA, SM]	Strong	
 ArgR	lysO[lysOp]	-	[BPP, GEA, SM]	Strong	
-ArgR	metY[metYp2]	-	[AIBSCS, BPP, GEA, HIBSCS]	Weak	
-ArgR	metY-rimP-nusA-infB-rbfA-truB-rpsO-pnp[metYp2]	-	[AIBSCS, BPP, GEA, HIBSCS]	Weak	
-ArsR	arsRBC[arsRp]	-	[AIBSCS, BPP, GEA]	Weak	
-AscG	ascFB[ascFp]	-	[AIBSCS, BPP, GEA]	Weak	
-AscG	htpG[htpGp1]	-	[AIBSCS, BPP]	Weak	
-AscG	prpR[prpRp]	-	[AIBSCS, BPP, GEA]	Weak	
-AscG	ybiT[ybiTp]	-	[AIBSCS, BPP]	Weak	
-AsnC	asnA[asnAp]	+	[GEA]	Weak	
-AsnC	asnC[asnCp]	-	[GEA]	Weak	
-AsnC	asnC-mioC[asnCp]	-	[GEA]	Weak	
-AsnC	asnC-mioC-mnmG[asnCp]	-	[GEA]	Weak	
+ArgR	metY[metYp2]	-	[AIBSCS, BPP, GEA, HIBSCS]	Strong	
+ArgR	metY-rimP-nusA-infB-rbfA-truB-rpsO-pnp[metYp2]	-	[AIBSCS, BPP, GEA, HIBSCS]	Strong	
+ArsR	arsRBC[arsRp]	-	[AIBSCS, BPP, GEA]	Strong	
+AscG	ascFB[ascFp]	-	[AIBSCS, BPP, GEA]	Strong	
+AscG	htpG[htpGp1]	-	[AIBSCS, BPP]	Strong	
+AscG	prpR[prpRp]	-	[AIBSCS, BPP, GEA]	Strong	
+AscG	ybiT[ybiTp]	-	[AIBSCS, BPP]	Strong	
+AsnC	asnA[asnAp]	+	[AIBSCS, GEA]	Weak	
+AsnC	asnC[asnCp]	-	[AIBSCS, GEA]	Weak	
+AsnC	asnC-mioC[asnCp]	-	[AIBSCS, GEA]	Weak	
+AsnC	asnC-mioC-mnmG[asnCp]	-	[AIBSCS, GEA]	Weak	
 AtoC	atoDAEB[atoDp]	+	[BPP, GEA, HIBSCS, SM]	Strong	
+BCCP	accBC[accBp]	-	[GEA, IMP]	Weak	
 BaeR	acrD[acrDp2]	+	[BPP, GEA, IC]	Strong	
-BaeR	mdtABCD-baeSR[mdtAp]	+	[AIBSCS, BPP, GEA]	Weak	
-BaeR	spy[spyp]	+	[AIBSCS, BPP, GEA, HIBSCS, IC]	Weak	
+BaeR	mdtABCD-baeSR[mdtAp]	+	[AIBSCS, BPP, GEA]	Strong	
+BaeR	spy[spyp]	+	[AIBSCS, BPP, GEA, HIBSCS, IC]	Strong	
 BasR	csgDEFG[csgDp1]	+	[BPP, GEA, HIBSCS]	Strong	
 BasR	cspI[cspIp]	+	[BPP, HIBSCS]	Strong	
 BasR	dgkA[dgkAp1]	+	[BPP, GEA, HIBSCS, SM]	Strong	
@@ -197,56 +200,59 @@ BetI	betIBA[betIp]	-	[GEA, HIBSCS]	Weak
 BetI	betT[betTp]	-	[GEA, HIBSCS]	Weak	
 BirA	bioA[bioAp]	-	[SM]	Strong	
 BirA	bioBFCD[bioBp]	-	[SM]	Strong	
-BluR	ycgZ-ymgA-ariR-ymgC[ycgZp]	-	[BPP, GEA]	Strong	
+BluR	ycgZ-ymgA-ariR-ymgC[ycgZp]	-	[BPP, GEA, SM]	Strong	
 BolA	ampC[ampCp]	+-	[GEA, IMP]	Weak	
 BolA	dacC[dacCp]	+-	[GEA, IMP]	Weak	
-CRP	aaeR[aaeRp]	-	[GEA, HIBSCS]	Weak	
-CRP	aaeXAB[aaeXp]	+	[GEA, HIBSCS]	Weak	
+BtsR	btsT[yjiYp]	+	[BPP, GEA, SM]	Strong	
+CRP	aaeR[aaeRp]	-	[AIBSCS, GEA, HIBSCS]	Weak	
+CRP	aaeXAB[aaeXp]	+	[AIBSCS, GEA, HIBSCS]	Weak	
 CRP	aceBAK[aceBp]	-	[AIBSCS, GEA]	Weak	
 CRP	acnA[acnAp2]	+	[GEA, HIBSCS]	Weak	
 CRP	acnB[acnBp]	+	[GEA, HIBSCS]	Weak	
-CRP	acs-yjcH-actP[acsp2]	+	[AIBSCS, BPP, GEA, SM]	Weak	
-CRP	aer[aerp]	+	[AIBSCS, BCE, BPP, GEA, SM]	Weak	
+CRP	acs-yjcH-actP[acsp2]	+	[AIBSCS, BPP, GEA, SM]	Strong	
+CRP	aer[aerp]	+	[AIBSCS, BCE, BPP, GEA, SM]	Strong	
 CRP	agp[agpp]	+	[AIBSCS, GEA]	Weak	
 CRP	aldA[aldAp]	+	[BCE, GEA]	Weak	
-CRP	aldB[aldBp]	+	[AIBSCS, BPP]	Weak	
+CRP	aldB[aldBp]	+	[AIBSCS, BPP]	Strong	
 CRP	ampDE[ampD]	-	[AIBSCS, GEA, HIBSCS]	Weak	
-CRP	ansB[ansBp2]	+	[BCE, SM]	Weak	
+CRP	ansB[ansBp2]	+	[BCE, SM]	Strong	
 CRP	araBAD[araBp]	+	[BPP, GEA, HIBSCS, SM]	Strong	
 CRP	araC[araCp]	+	[BPP, GEA, HIBSCS, SM]	Strong	
-CRP	araE[araEp]	+	[AIBSCS, BPP]	Weak	
-CRP	araE-ygeA[araEp]	+	[AIBSCS, BPP]	Weak	
+CRP	araE[araEp]	+	[AIBSCS, BPP]	Strong	
+CRP	araE-ygeA[araEp]	+	[AIBSCS, BPP]	Strong	
 CRP	araFGH[araFp]	+	[BPP, GEA, HIBSCS, SM]	Strong	
 CRP	araJ[araJp]	+	[BPP, HIBSCS]	Strong	
 CRP	argG[argGp]	+	[BPP, GEA, SM]	Strong	
 CRP	ascFB[ascFp]	+	[BPP, ICWHO]	Strong	
-CRP	aspA[aspAp]	+	[GEA, HIBSCS]	Weak	
-CRP	aspA-dcuA[aspAp]	+	[GEA, HIBSCS]	Weak	
+CRP	aspA[aspAp]	+	[AIBSCS, GEA, HIBSCS]	Weak	
+CRP	aspA-dcuA[aspAp]	+	[AIBSCS, GEA, HIBSCS]	Weak	
 CRP	azuC[azuCp]	-	[GEA, HIBSCS]	Weak	
-CRP	bglG[bglGp]	+	[AIBSCS, BPP, GEA, SM]	Weak	
-CRP	bglG[bglGp2]	+	[AIBSCS, BPP, GEA, SM]	Weak	
-CRP	bglGFB[bglGp]	+	[AIBSCS, BPP, GEA, SM]	Weak	
+CRP	bglG[bglGp]	+	[AIBSCS, BPP, GEA, SM]	Strong	
+CRP	bglG[bglGp2]	+	[AIBSCS, BPP, GEA, SM]	Strong	
+CRP	bglGFB[bglGp]	+	[AIBSCS, BPP, GEA, SM]	Strong	
 CRP	bhsA[bhsAp]	-	[BPP, GEA, HIBSCS]	Strong	
+CRP	btsT[yjiYp]	+	[AIBSCS, GEA, SM]	Strong	
 CRP	caiF[caiFp]	+	[BCE, GEA]	Weak	
-CRP	caiTABCDE[caiTp]	+	[BCE, GEA, HIBSCS]	Weak	
-CRP	casABCDE12[casp]	-	[BPP, GEA, HIBSCS]	Strong	
+CRP	caiTABCDE[caiTp]	+	[AIBSCS, BCE, GEA, HIBSCS]	Weak	
+CRP	casABCDE12[casAp]	-	[BPP, GEA, HIBSCS]	Strong	
 CRP	cdd[cddp]	+	[BPP, GEA, SM]	Strong	
-CRP	chbBCARFG[chbBp]	+	[AIBSCS, BPP, GEA, HIBSCS]	Weak	
-CRP	chiP-ybfN[chiPp]	+	[HIBSCS]	Weak	
+CRP	chbBCARFG[chbBp]	+	[AIBSCS, BPP, GEA, HIBSCS]	Strong	
+CRP	chiPQ[chiPp]	+	[HIBSCS]	Weak	
 CRP	cirA[cirAp2]	+	[]	null	
 CRP	cirA[cirAp1]	+	[GEA, HIBSCS]	Weak	
 CRP	citCDEFXG[citCp2]	-	[AIBSCS]	Weak	
 CRP	comR[comRp]	-	[BPP, GEA, HIBSCS]	Strong	
-CRP	cpdB[cpdBp]	+	[BCE, SM]	Weak	
+CRP	cpdB[cpdBp]	+	[BCE, SM]	Strong	
 CRP	crp[crpp1]	+	[BPP, HIBSCS, SM, AIBSCS, GEA]	Strong	
 CRP	csgDEFG[csgDp1]	+	[AIBSCS, GEA]	Weak	
-CRP	csiD-lhgO-gabDTP[csiDp]	+	[AIBSCS, BPP, GEA]	Weak	
+CRP	csiD-lhgO-gabDTP[csiDp]	+	[AIBSCS, BPP, GEA]	Strong	
 CRP	csiE[csiEp]	+	[GEA]	Weak	
-CRP	cspD[cspDp]	+	[AIBSCS, BPP, GEA, HIBSCS, SM]	Weak	
+CRP	cspD[cspDp]	+	[AIBSCS, BPP, GEA, HIBSCS, SM]	Strong	
 CRP	cspE[cspEp2]	+	[BPP, GEA, HIBSCS, SM]	Strong	
-CRP	cstA[cstAp1]	+	[GEA, SM]	Weak	
+CRP	csrC[csrCp]	-	[BPP, GEA, HIBSCS]	Strong	
+CRP	cstA[cstAp1]	+	[GEA, SM]	Strong	
 CRP	cyaA[cyaAp]	-	[BPP, GEA, HIBSCS]	Strong	
-CRP	cyaR[cyaRp]	+	[AIBSCS, BPP, GEA, SM]	Weak	
+CRP	cyaR[cyaRp]	+	[AIBSCS, BPP, GEA, SM]	Strong	
 CRP	cyoABCDE[cyoAp]	+	[AIBSCS, GEA]	Weak	
 CRP	cytR[cytRp]	+-	[BPP, GEA, HIBSCS]	Strong	
 CRP	dadAX[dadAp2]	+	[BPP, GEA, HIBSCS]	Strong	
@@ -259,13 +265,14 @@ CRP	deoCABD[deoCp2]	+	[BPP, GEA, HIBSCS, SM, AIBSCS]	Strong
 CRP	dpiBA[dpiBp]	-	[AIBSCS]	Weak	
 CRP	dsdA[dsdAp]	+	[HIBSCS]	Weak	
 CRP	dsdXA[dsdXp]	+	[BCE]	Weak	
-CRP	dusB-fis[dusBp]	+	[AIBSCS, GEA, BPP]	Weak	
+CRP	dusB-fis[dusBp]	+	[AIBSCS, GEA, BPP]	Strong	
 CRP	ebgAC[ebgAp]	+	[HIBSCS]	Weak	
 CRP	entCEBAH[entCp]	+	[AIBSCS, GEA]	Weak	
-CRP	epd-pgk[epdp]	+	[BCE, GEA, HIBSCS, SM]	Weak	
-CRP	epd-pgk-fbaA[epdp]	+	[BCE, GEA, HIBSCS, SM]	Weak	
-CRP	exuT[exuTp2]	+	[AIBSCS, HIBSCS]	Weak	
-CRP	fadD-sroD[fadDp]	+	[AIBSCS, BPP, GEA]	Weak	
+CRP	epd-pgk[epdp]	+	[BCE, GEA, HIBSCS, SM]	Strong	
+CRP	epd-pgk-fbaA[epdp]	+	[BCE, GEA, HIBSCS, SM]	Strong	
+CRP	exuR[exuRp2]	-	[GEA, HIBSCS]	Weak	
+CRP	exuT[exuTp2]	+	[AIBSCS, GEA, HIBSCS]	Weak	
+CRP	fadD-sroD[fadDp]	+	[AIBSCS, BPP, GEA]	Strong	
 CRP	fadH[fadHp]	+	[GEA, HIBSCS]	Weak	
 CRP	fadL[fadLp]	+	[BPP, GEA]	Strong	
 CRP	feaB[feaBp1]	+	[GEA, HIBSCS]	Weak	
@@ -275,29 +282,29 @@ CRP	fepA-entD[fepAp]	+	[AIBSCS, GEA]	Weak
 CRP	fiu[fiup]	+	[AIBSCS, GEA]	Weak	
 CRP	fixABCX[fixAp]	+	[GEA, HIBSCS]	Weak	
 CRP	flhDC[flhDp]	+	[BPP, GEA, HIBSCS]	Strong	
-CRP	focA-pflB[focAp1]	+	[AIBSCS, BCE, GEA, HIBSCS, SM]	Weak	
+CRP	focA-pflB[focAp1]	+	[AIBSCS, BCE, GEA, HIBSCS, SM]	Strong	
 CRP	fucAO[fucAp]	+	[AIBSCS, GEA, IMP]	Weak	
-CRP	fucPIKUR[fucPp]	+	[AIBSCS, BPP, GEA, SM]	Weak	
-CRP	fumA[fumAp]	+	[AIBSCS, BPP, GEA, HIBSCS, SM]	Weak	
-CRP	fumAC[fumAp]	+	[AIBSCS, BPP, GEA, HIBSCS, SM]	Weak	
+CRP	fucPIKUR[fucPp]	+	[AIBSCS, BPP, GEA, SM]	Strong	
+CRP	fumA[fumAp]	+	[AIBSCS, BPP, GEA, HIBSCS, SM]	Strong	
+CRP	fumAC[fumAp]	+	[AIBSCS, BPP, GEA, HIBSCS, SM]	Strong	
 CRP	fumC[fumCp]	+	[BPP, GEA, HIBSCS, SM]	Strong	
-CRP	fur[furpb]	+	[HIBSCS, SM]	Weak	
-CRP	fur[furpa]	+	[HIBSCS, SM]	Weak	
+CRP	fur[furpb]	+	[HIBSCS, SM]	Strong	
+CRP	fur[furpa]	+	[HIBSCS, SM]	Strong	
 CRP	gadAX[gadAp]	-	[GEA, HIBSCS]	Weak	
 CRP	gadBC[gadBp]	-	[GEA, HIBSCS]	Weak	
-CRP	gadE-mdtEF[gadEp]	-	[BPP, HIBSCS]	Strong	
-CRP	galE[galEp1]	+	[GEA, HIBSCS, SM]	Weak	
-CRP	galE[galEp2]	-	[GEA, HIBSCS, SM]	Weak	
-CRP	galET[galEp1]	+	[GEA, HIBSCS, SM]	Weak	
-CRP	galET[galEp2]	-	[GEA, HIBSCS, SM]	Weak	
-CRP	galETK[galEp1]	+	[GEA, HIBSCS, SM]	Weak	
-CRP	galETK[galEp2]	-	[GEA, HIBSCS, SM]	Weak	
-CRP	galETKM[galEp1]	+	[GEA, HIBSCS, SM]	Weak	
-CRP	galETKM[galEp2]	-	[GEA, HIBSCS, SM]	Weak	
-CRP	galP[galPp]	+	[GEA, HIBSCS]	Weak	
+CRP	gadEF-mdtEF[gadEp]	-	[BPP, HIBSCS]	Strong	
+CRP	galE[galEp1]	+	[GEA, HIBSCS, SM]	Strong	
+CRP	galE[galEp2]	-	[GEA, HIBSCS, SM]	Strong	
+CRP	galET[galEp1]	+	[GEA, HIBSCS, SM]	Strong	
+CRP	galET[galEp2]	-	[GEA, HIBSCS, SM]	Strong	
+CRP	galETK[galEp1]	+	[GEA, HIBSCS, SM]	Strong	
+CRP	galETK[galEp2]	-	[GEA, HIBSCS, SM]	Strong	
+CRP	galETKM[galEp1]	+	[GEA, HIBSCS, SM]	Strong	
+CRP	galETKM[galEp2]	-	[GEA, HIBSCS, SM]	Strong	
+CRP	galP[galPp]	+	[AIBSCS, GEA, HIBSCS]	Weak	
 CRP	galS[galSp]	+	[AIBSCS, BCE, GEA, HIBSCS]	Weak	
 CRP	gapA[gapAp3]	+	[GEA, HIBSCS]	Weak	
-CRP	gatYZABCD[gatYp]	+	[AIBSCS, BCE, GEA, SM]	Weak	
+CRP	gatYZABCD[gatYp]	+	[AIBSCS, BCE, GEA, SM]	Strong	
 CRP	gcd[gcdp1]	-	[BPP, GEA, HIBSCS, SM]	Strong	
 CRP	gcvTHP[gcvTp]	+	[BPP, GEA, HIBSCS, SM]	Strong	
 CRP	gdhA[gdhAp1]	-	[HIBSCS]	Weak	
@@ -305,34 +312,33 @@ CRP	glcC[glcCp]	+	[AIBSCS, GEA]	Weak
 CRP	glgCAP[glgCp1]	+	[BPP, GEA]	Strong	
 CRP	glgS[glgSp1]	+	[GEA, HIBSCS]	Weak	
 CRP	glnA[glnAp1]	+	[HIBSCS]	Weak	
-CRP	glnA[glnAp2]	-	[AIBSCS, BPP, GEA]	Weak	
+CRP	glnA[glnAp2]	-	[AIBSCS, BPP, GEA]	Strong	
 CRP	glnALG[glnAp1]	+	[HIBSCS]	Weak	
-CRP	glnALG[glnAp2]	-	[AIBSCS, BPP, GEA]	Weak	
-CRP	glpABC[glpABCp]	+	[AIBSCS, BPP, GEA, HIBSCS]	Weak	
+CRP	glnALG[glnAp2]	-	[AIBSCS, BPP, GEA]	Strong	
+CRP	glpABC[glpABCp]	+	[AIBSCS, BPP, GEA, HIBSCS]	Strong	
 CRP	glpD[glpDp]	+	[BPP, GEA, HIBSCS]	Strong	
 CRP	glpEGR[glpEp]	+	[BPP, GEA, HIBSCS]	Strong	
 CRP	glpFKX[glpFp]	+	[GEA, HIBSCS]	Weak	
-CRP	glpTQ[glpTQp]	+	[AIBSCS, BPP, GEA, HIBSCS]	Weak	
+CRP	glpTQ[glpTQp]	+	[AIBSCS, BPP, GEA, HIBSCS]	Strong	
 CRP	gltA[gltAp1]	+	[AIBSCS, BCE, GEA]	Weak	
 CRP	gltBDF[gltBp]	-	[BPP, GEA, HIBSCS, SM]	Strong	
 CRP	gntK[gntKp]	+	[BCE, GEA, HIBSCS]	Weak	
 CRP	gntKU[gntKp]	+	[BCE, GEA, HIBSCS]	Weak	
-CRP	gntP[gntPp]	+	[AIBSCS, BPP, GEA, HIBSCS]	Weak	
+CRP	gntP[gntPp]	+	[AIBSCS, BPP, GEA, HIBSCS]	Strong	
 CRP	gntT[gntTp3]	+	[BPP, GEA, HIBSCS, SM, TASES]	Strong	
 CRP	gntT[gntTp2]	+	[BPP, GEA, HIBSCS, SM, TASES]	Strong	
 CRP	gntT[gntTp1]	+	[BPP, GEA, HIBSCS, SM, TASES]	Strong	
-CRP	gntX-nfuA[gntXp]	+	[AIBSCS]	Weak	
 CRP	grcA[grcAp1]	+	[AIBSCS, GEA]	Weak	
 CRP	grpE[grpEp]	+	[AIBSCS, GEA]	Weak	
 CRP	guaBA[guaBp]	+	[BPP, GEA, SM]	Strong	
 CRP	gyrA[gyrAp]	+	[GEA]	Weak	
 CRP	hfq-hflXKC[hfqp3]	-	[BPP, GEA, HIBSCS]	Strong	
 CRP	hlyE[hlyEp]	+	[BPP, GEA, SM]	Strong	
-CRP	hofMNOP[hofMp]	+	[AIBSCS, BPP]	Weak	
+CRP	hofMNOP[hofMp]	+	[AIBSCS, BPP]	Strong	
 CRP	hpt[hptp]	+	[BPP, GEA, HIBSCS, SM]	Strong	
 CRP	hupA[hupAp]	+	[BPP, GEA]	Strong	
 CRP	hupB[hupBp3]	+	[BPP, GEA]	Strong	
-CRP	hyfABCDEFGHIJR-focB[hyfAp]	+	[GEA, HIBSCS]	Weak	
+CRP	hyfABCDEFGHIJR-focB[hyfAp]	+	[AIBSCS, GEA, HIBSCS]	Weak	
 CRP	idnDOTR[idnDp]	+	[AIBSCS, GEA, HIBSCS]	Weak	
 CRP	idnK[idnKp]	+	[AIBSCS, GEA, HIBSCS]	Weak	
 CRP	ivbL[ivbLp]	+	[BPP, HIBSCS]	Strong	
@@ -341,48 +347,49 @@ CRP	kbaZ-agaVWA[kbaZp]	+	[BPP, GEA, HIBSCS]	Strong
 CRP	lacZYA[lacZp3]	-	[BPP, GEA, HIBSCS, SM]	Strong	
 CRP	lacZYA[lacZp2]	-	[BPP, GEA, HIBSCS, SM]	Strong	
 CRP	lacZYA[lacZp1]	+	[BPP, GEA, HIBSCS, SM]	Strong	
-CRP	ldtB[ybisp]	-	[AIBSCS, GEA]	Weak	
+CRP	ldtB[ldtBp]	+-	[AIBSCS, GEA, HIBSCS]	Weak	
+CRP	lgoR[lgoRp4]	+	[GEA, HIBSCS]	Weak	
 CRP	lpd[lpdAp]	-	[AIBSCS, GEA]	Weak	
 CRP	lsrACDBFG-tam[lsrAp]	+	[BPP, GEA, HIBSCS, SM]	Strong	
 CRP	lsrRK[lsrRp]	+	[BPP, GEA, HIBSCS, SM]	Strong	
-CRP	malEFG[malEp]	+	[AIBSCS, BPP, HIBSCS, SM]	Weak	
-CRP	malI[malIp]	+	[AIBSCS, BCE, BPP, GEA, SM]	Weak	
-CRP	malK-lamB-malM[malKp]	+	[AIBSCS, BPP, HIBSCS, SM]	Weak	
-CRP	malS[malSp]	+	[AIBSCS]	Weak	
+CRP	malEFG[malEp]	+	[AIBSCS, BPP, HIBSCS, SM]	Strong	
+CRP	malI[malIp]	+	[AIBSCS, BCE, BPP, GEA, SM]	Strong	
+CRP	malK-lamB-malM[malKp]	+	[AIBSCS, BPP, HIBSCS, SM]	Strong	
+CRP	malS[malSp]	+	[AIBSCS, GEA]	Weak	
 CRP	malT[malTp]	+	[BPP, GEA, HIBSCS]	Strong	
-CRP	malXY[malXp]	+	[AIBSCS, BCE, BPP, GEA, SM]	Weak	
+CRP	malXY[malXp]	+	[AIBSCS, BCE, BPP, GEA, SM]	Strong	
 CRP	manA[manAp]	+	[HIBSCS]	Weak	
 CRP	manXYZ[manXp]	+	[AIBSCS, BCE, GEA, HIBSCS]	Weak	
 CRP	marRAB[marRp]	+	[AIBSCS, GEA, IMP]	Weak	
 CRP	mcaS[mcaSp]	+	[BPP, GEA, HIBSCS]	Strong	
 CRP	mdh[mdhp1]	+	[BCE, GEA]	Weak	
-CRP	melAB[melAp]	+	[AIBSCS, BPP, GEA, HIBSCS]	Weak	
-CRP	melR[melRp]	+	[AIBSCS, BPP, GEA, HIBSCS]	Weak	
+CRP	melAB[melAp]	+	[AIBSCS, BPP, GEA, HIBSCS]	Strong	
+CRP	melR[melRp]	+	[AIBSCS, BPP, GEA, HIBSCS]	Strong	
 CRP	metK[metKp]	-	[AIBSCS, GEA]	Weak	
 CRP	metY[metYp2]	-	[BPP, GEA, SM]	Strong	
 CRP	metY-rimP-nusA-infB-rbfA-truB-rpsO-pnp[metYp2]	-	[BPP, GEA, SM]	Strong	
-CRP	mglBAC[mglBp]	+	[AIBSCS, BCE, BPP, GEA, SM]	Weak	
+CRP	mglBAC[mglBp]	+	[AIBSCS, BCE, BPP, GEA, SM]	Strong	
 CRP	mhpABCDFE[mhpAp]	+	[BCE, GEA, HIBSCS]	Weak	
 CRP	mhpR-lacI[mhpRp1]	+	[BPP, GEA, HIBSCS]	Strong	
-CRP	mlc[mlcp1]	-	[GEA, HIBSCS]	Weak	
-CRP	mlc-ynfK[mlcp2]	+	[GEA, HIBSCS]	Weak	
+CRP	mlc[mlcp1]	-	[AIBSCS, GEA, HIBSCS]	Weak	
+CRP	mlc-ynfK[mlcp2]	+	[AIBSCS, GEA, HIBSCS]	Weak	
 CRP	modABC[modAp]	+	[AIBSCS, GEA]	Weak	
 CRP	mpl[mplp1]	+	[AIBSCS]	Weak	
 CRP	mtlADR[mtlAp]	+	[BPP, HIBSCS]	Strong	
-CRP	murQP[murQp1]	+	[AIBSCS, BPP, GEA]	Weak	
-CRP	murQP[murQp2]	+	[AIBSCS, BPP, GEA]	Weak	
+CRP	murQP[murQp1]	+	[AIBSCS, BPP, GEA]	Strong	
+CRP	murQP[murQp2]	+	[AIBSCS, BPP, GEA]	Strong	
 CRP	nadC[nadCp]	+	[AIBSCS, GEA]	Weak	
-CRP	nagBAC-umpH[nagBp]	+-	[BCE, BPP, GEA, HIBSCS]	Weak	
-CRP	nagE[nagEp]	+-	[BCE, BPP, GEA, HIBSCS]	Weak	
+CRP	nagBAC-umpH[nagBp]	+-	[BCE, BPP, GEA, HIBSCS]	Strong	
+CRP	nagE[nagEp]	+-	[BCE, BPP, GEA, HIBSCS]	Strong	
 CRP	nanA[nanAp]	+	[BPP]	Strong	
 CRP	nanATEK-yhcH[nanAp]	+	[BPP]	Strong	
-CRP	nanCM[nanCp]	+	[AIBSCS, BPP, GEA]	Weak	
-CRP	nanCMS[nanCp]	+	[AIBSCS, BPP, GEA]	Weak	
+CRP	nanCM[nanCp]	+	[AIBSCS, BPP, GEA]	Strong	
+CRP	nanCMS[nanCp]	+	[AIBSCS, BPP, GEA]	Strong	
 CRP	narQ[narQp]	-	[GEA, HIBSCS]	Weak	
 CRP	nirBDC-cysG[nirBp]	-	[AIBSCS, GEA]	Weak	
-CRP	nmpC[nmpCp]	+	[HIBSCS, SM]	Weak	
+CRP	nmpC[nmpCp]	+	[HIBSCS, SM]	Strong	
 CRP	nrdAB-yfaE[nrdAp]	+	[AIBSCS, GEA]	Weak	
-CRP	nupC[nupCp]	+	[GEA, HIBSCS]	Weak	
+CRP	nupC[nupCp]	+	[AIBSCS, GEA, HIBSCS]	Weak	
 CRP	nupG[nupGp]	+	[BPP, HIBSCS, SM, AIBSCS, GEA, BCE]	Strong	
 CRP	ompA[ompAp1]	+	[GEA, HIBSCS]	Weak	
 CRP	ompF[ompFp]	+	[AIBSCS, GEA]	Weak	
@@ -390,6 +397,7 @@ CRP	ompR-envZ[ompRp2]	+	[BPP, HIBSCS, SM]	Strong
 CRP	ompR-envZ[ompRp1]	-	[BPP, HIBSCS, SM]	Strong	
 CRP	ompR-envZ[ompRp3]	+	[BPP, HIBSCS, SM]	Strong	
 CRP	ompR-envZ[ompRp4]	-	[BPP, HIBSCS, SM]	Strong	
+CRP	ompW[ompWp]	-	[AIBSCS, BPP, GEA]	Strong	
 CRP	osmY[osmYp]	-	[GEA, HIBSCS, IHBCE]	Weak	
 CRP	oxyR[oxyRp]	+	[GEA, HIBSCS]	Weak	
 CRP	paaABCDEFGHIJK[paaAp]	+	[BPP, GEA, HIBSCS, SM]	Strong	
@@ -398,44 +406,45 @@ CRP	patZ[pkap]	+	[AIBSCS, GEA]	Weak
 CRP	pck[pckp]	+	[BPP, GEA, HIBSCS]	Strong	
 CRP	pdhR-aceEF-lpd[pdhRp]	+	[AIBSCS, GEA, HIBSCS]	Weak	
 CRP	pncB[pncBp]	-	[AIBSCS, GEA]	Weak	
-CRP	ppdD-hofBC[ppdDp]	+	[AIBSCS, BPP]	Weak	
+CRP	ppdD-hofBC[ppdDp]	+	[AIBSCS, BPP]	Strong	
 CRP	ppiA[ppiAp2]	+-	[BPP, GEA, HIBSCS]	Strong	
 CRP	ppiA[ppiAp3]	+-	[BPP, GEA, HIBSCS]	Strong	
 CRP	ppiA[ppiAp4]	-	[BPP, GEA, HIBSCS]	Strong	
-CRP	preTA[yeiTp]	+	[AIBSCS]	Weak	
+CRP	preTA[preTp]	+	[AIBSCS, GEA]	Weak	
 CRP	proP[proPp2]	+	[BPP, GEA, HIBSCS]	Strong	
-CRP	proP[proPp1]	-	[BCE, GEA, SM]	Weak	
+CRP	proP[proPp1]	-	[BCE, GEA, SM]	Strong	
 CRP	prpBCDE[prpBp]	+	[BPP, GEA, HIBSCS, SM]	Strong	
 CRP	prpR[prpRp]	+	[BPP, GEA, HIBSCS, SM]	Strong	
 CRP	psiE[psiEp]	-	[BPP, GEA, HIBSCS]	Strong	
-CRP	ptsG[ptsGp1]	+	[AIBSCS, BPP, GEA]	Weak	
+CRP	ptsG[ptsGp1]	+	[AIBSCS, BPP, GEA]	Strong	
 CRP	ptsHI-crr[ptsHp4]	+	[BPP, GEA, HIBSCS]	Strong	
 CRP	ptsHI-crr[ptsHp5]	+	[BPP, GEA, HIBSCS]	Strong	
 CRP	ptsHI-crr[ptsHp2]	-	[AIBSCS, GEA, HIBSCS]	Weak	
 CRP	ptsHI-crr[ptsHp1]	+	[AIBSCS, GEA, HIBSCS]	Weak	
 CRP	putP[putPp4]	-	[GEA, HIBSCS]	Weak	
 CRP	puuDRCBE[puuDp]	-	[HIBSCS, IEP]	Weak	
-CRP	raiA[raiAp]	+	[AIBSCS, BPP, GEA]	Weak	
+CRP	raiA[raiAp]	+	[AIBSCS, BPP, GEA]	Strong	
 CRP	rbsDACBKR[rbsDp]	+	[AIBSCS, GEA]	Weak	
 CRP	relA-mazEF[relAp2]	+	[BPP, HIBSCS, SM]	Strong	
 CRP	rhaBAD[rhaBp]	+	[AIBSCS, BCE, GEA, HIBSCS]	Weak	
-CRP	rhaSR[rhaSp]	+	[AIBSCS, BPP, GEA, HIBSCS, SM]	Weak	
+CRP	rhaSR[rhaSp]	+	[AIBSCS, BPP, GEA, HIBSCS, SM]	Strong	
 CRP	rhaT[rhaTp]	+	[AIBSCS, GEA]	Weak	
-CRP	rmf[rmfp]	+	[AIBSCS, BPP, GEA]	Weak	
-CRP	rplM-rpsI[rplMp]	-	[AIBSCS, BPP, GEA]	Weak	
-CRP	rpoH[rpoHp5]	+	[BCE, AIBSCS, BPP, GEA]	Weak	
-CRP	rpoH[rpoHp4]	-	[AIBSCS, BPP, GEA]	Weak	
-CRP	rpoH[rpoHp3]	-	[AIBSCS, BPP, GEA]	Weak	
-CRP	rpoS[rpoSp]	?	[BCE]	Weak	
-CRP	rpsF-priB-rpsR-rplI[rpsFp]	+	[AIBSCS, BPP, GEA]	Weak	
-CRP	sbmC[sbmCp2]	+	[AIBSCS, BPP, IHBCE]	Weak	
+CRP	rmf[rmfp]	+	[AIBSCS, BPP, GEA]	Strong	
+CRP	rplM-rpsI[rplMp]	-	[AIBSCS, BPP, GEA]	Strong	
+CRP	rpoH[rpoHp5]	+	[BCE, AIBSCS, BPP, GEA]	Strong	
+CRP	rpoH[rpoHp4]	-	[AIBSCS, BPP, GEA]	Strong	
+CRP	rpoH[rpoHp3]	-	[AIBSCS, BPP, GEA]	Strong	
+CRP	rpoS[rpoSp]	+	[BCE, SM]	Strong	
+CRP	rpsF-priB-rpsR-rplI[rpsFp]	+	[AIBSCS, BPP, GEA]	Strong	
+CRP	rseD-rpoE-rseABC[rpoEp2b]	+	[BPP, GEA, HIBSCS]	Strong	
+CRP	sbmC[sbmCp2]	+	[AIBSCS, BPP, IHBCE]	Strong	
 CRP	sdhCDAB-sucABCD[sdhCp]	+	[AIBSCS, BCE, GEA]	Weak	
 CRP	sdhDAB[sdhDp2]	+	[BCE]	Weak	
 CRP	secB-gpsA[secBp]	+	[BPP, GEA, HIBSCS, SM]	Strong	
 CRP	serA[serAp2]	+	[GEA, HIBSCS]	Weak	
-CRP	serC[serCp]	-	[GEA, HIBSCS, SM]	Weak	
-CRP	serC-aroA[serCp]	-	[GEA, HIBSCS, SM]	Weak	
-CRP	sfsA-dksA[sfsAp]	+	[HIBSCS]	Weak	
+CRP	serC[serCp]	-	[GEA, HIBSCS, SM]	Strong	
+CRP	serC-aroA[serCp]	-	[GEA, HIBSCS, SM]	Strong	
+CRP	sfsA-dksA[sfsAp]	+	[AIBSCS, GEA, HIBSCS]	Weak	
 CRP	sodA[sodAp]	+	[AIBSCS, GEA]	Weak	
 CRP	sodB[sodBp]	-	[AIBSCS, GEA]	Weak	
 CRP	sohB[sohBp1]	-	[AIBSCS]	Weak	
@@ -444,37 +453,37 @@ CRP	speC[speCp]	-	[GEA, IMP]	Weak
 CRP	spf[spfp]	-	[HIBSCS]	Weak	
 CRP	srlAEBD-gutM-srlR-gutQ[srlAp]	+	[AIBSCS, GEA]	Weak	
 CRP	sxy[sxyp]	+	[GEA, HIBSCS]	Weak	
-CRP	tdcABCDEFG[tdcAp]	+	[BCE, BPP, GEA, HIBSCS, SM]	Weak	
+CRP	tdcABCDEFG[tdcAp]	+	[BCE, BPP, GEA, HIBSCS, SM]	Strong	
 CRP	tnaC[tnaCp]	+	[AIBSCS, BCE, GEA, HIBSCS]	Weak	
 CRP	tnaCAB[tnaCp]	+	[AIBSCS, BCE, GEA, HIBSCS]	Weak	
 CRP	treBC[treBp]	-	[HIBSCS, AIBSCS, GEA]	Weak	
-CRP	trg[trgp1]	+	[AIBSCS, BPP]	Weak	
+CRP	trg[trgp1]	+	[AIBSCS, BPP]	Strong	
 CRP	trxA[trxAp1]	-	[BPP, GEA]	Strong	
-CRP	tsx[tsxp2]	+-	[AIBSCS, BPP, GEA, HIBSCS, SM]	Weak	
+CRP	tsx[tsxp2]	+-	[AIBSCS, BPP, GEA, HIBSCS, SM]	Strong	
 CRP	ubiG[ubiGp]	+	[GEA]	Weak	
 CRP	udp[udpP]	+	[BPP, GEA, HIBSCS, SM]	Strong	
 CRP	ugpBAECQ[ugpBp2]	+	[BPP, HIBSCS]	Strong	
-CRP	uhpT[uhpTp]	+	[BCE, BPP, GEA, HIBSCS, SM]	Weak	
-CRP	uidABC[uidAp]	+	[GEA, HIBSCS]	Weak	
-CRP	ulaABCDEF[ulaAp]	+	[BCE, GEA, SM]	Weak	
+CRP	uhpT[uhpTp]	+	[BCE, BPP, GEA, HIBSCS, SM]	Strong	
+CRP	uidABC[uidAp]	+	[AIBSCS, GEA, HIBSCS]	Weak	
+CRP	ulaABCDEF[ulaAp]	+	[BCE, GEA, SM]	Strong	
 CRP	uxaB[uxaBp]	+	[HIBSCS]	Weak	
-CRP	uxaCA[uxaCp]	+	[HIBSCS]	Weak	
-CRP	uxuAB[uxuAp]	+	[AIBSCS, BPP, GEA, HIBSCS]	Weak	
+CRP	uxaCA[uxaCp]	+	[AIBSCS, GEA, HIBSCS]	Weak	
+CRP	uxuAB[uxuAp]	+	[AIBSCS, BPP, GEA, HIBSCS]	Strong	
 CRP	uxuR[uxuRp]	+	[GEA, HIBSCS]	Weak	
 CRP	xseA[xseAp]	-	[BPP, GEA, SM]	Strong	
 CRP	xylAB[xylAp]	+	[AIBSCS, GEA, HIBSCS]	Weak	
 CRP	xylFGHR[xylFp]	+	[AIBSCS, GEA, HIBSCS]	Weak	
 CRP	yaeP-rof[yaePp]	-	[GEA, HIBSCS]	Weak	
 CRP	yaeQ-arfB-nlpE[yaeQp]	-	[GEA, HIBSCS]	Weak	
-CRP	ybiT[ybiTp]	+	[AIBSCS, GEA, HIBSCS]	Weak	
-CRP	ycdZ[ycdZp4]	+	[AIBSCS]	Weak	
-CRP	ychH[ychHp]	+	[AIBSCS, BCE, GEA, SM]	Weak	
+CRP	ybiT[ybiTp]	+-	[AIBSCS, GEA, HIBSCS]	Weak	
+CRP	ycdZ[ycdZp4]	+-	[AIBSCS, GEA]	Weak	
+CRP	ychH[ychHp]	+	[AIBSCS, BCE, GEA, SM]	Strong	
 CRP	yeiP[yeiPp]	+	[AIBSCS, GEA]	Weak	
 CRP	yeiW[yeiWp]	+	[AIBSCS, GEA, HIBSCS]	Weak	
-CRP	yhfA[yhfAp]	+	[AIBSCS, BPP, GEA, HIBSCS, SM]	Weak	
+CRP	yhfA[yhfAp]	+	[AIBSCS, BPP, GEA, HIBSCS, SM]	Strong	
+CRP	yhgH-nfuA[gntXp]	+	[AIBSCS]	Weak	
 CRP	yiaJ[yiaJp]	-	[BPP, GEA, HIBSCS]	Strong	
 CRP	yiaKLMNO-lyxK-sgbHUE[yiaKp]	+	[BPP, GEA, HIBSCS]	Strong	
-CRP	yjiY[yjiYp]	+	[AIBSCS, GEA, SM]	Weak	
 CRP	ykgR[ykgRp]	+	[GEA, HIBSCS]	Weak	
 CRP	zraSR[zraSp]	+	[AIBSCS, GEA]	Weak	
 CadC	cadBA[cadBp]	+	[BPP, GEA]	Strong	
@@ -487,59 +496,61 @@ CdaR	cdaR[cdaRp]	+	[GEA]	Weak
 CdaR	garD[garDp]	+	[GEA]	Weak	
 CdaR	garPLRK-rnpB[garPp]	+	[GEA]	Weak	
 CdaR	gudPXD[gudPp]	+	[GEA]	Weak	
-ChbR	chbBCARFG[chbBp]	+	[BPP, GEA]	Strong	
+CecR	cecR-ybhGFSR[cecRp]	-	[BPP, GEA, HIBSCS]	Strong	
+ChbR	chbBCARFG[chbBp]	+-	[BPP, GEA]	Strong	
 ComR	bhsA[bhsAp]	-	[BPP, GEA]	Strong	
 CpxR	acrD[acrDp2]	+	[BPP, GEA, IC]	Strong	
 CpxR	aroG[aroGp]	+	[BPP, HIBSCS]	Strong	
 CpxR	bacA[bacAp]	+	[ICA]	Weak	
 CpxR	bamE[bamEp]	-	[ICA]	Weak	
-CpxR	cpxP[cpxPp]	+	[BPP, GEA, HIBSCS]	Strong	
+CpxR	cpxPQ[cpxPp]	+	[BPP, GEA, HIBSCS]	Strong	
 CpxR	cpxRA[cpxRp]	+	[BPP, GEA, HIBSCS]	Strong	
-CpxR	csgBAC[csgBp]	-	[AIBSCS, BPP, GEA, HIBSCS]	Weak	
+CpxR	csgBAC[csgBp]	-	[AIBSCS, BPP, GEA, HIBSCS]	Strong	
 CpxR	csgDEFG[csgDp1]	-	[BPP, GEA, HIBSCS]	Strong	
 CpxR	cyaR[cyaRp]	-	[BPP, GEA]	Strong	
-CpxR	degP[degPp]	+	[AIBSCS, BPP, GEA, HIBSCS]	Weak	
+CpxR	degP[degPp]	+	[AIBSCS, BPP, GEA, HIBSCS]	Strong	
 CpxR	dgcZ[dgcZp]	+	[BPP, GEA, HIBSCS]	Strong	
 CpxR	dsbC[dsbCp]	+	[GEA, HIBSCS]	Weak	
 CpxR	efeU_1U_2[efeU_1p]	-	[BPP, GEA, HIBSCS]	Strong	
 CpxR	ftnB[ftnBp2]	+	[BPP, HIBSCS]	Strong	
 CpxR	ldtC[ycfSp]	+	[BPP, HIBSCS]	Strong	
+CpxR	ldtD[ldtDp]	+	[BPP, GEA, HIBSCS]	Strong	
 CpxR	marRAB[marRp]	+	[BPP, GEA, HIBSCS]	Strong	
 CpxR	mdtABCD-baeSR[mdtAp]	+	[BPP, GEA, IC]	Strong	
 CpxR	motAB-cheAW[motAp]	-	[BPP, GEA]	Strong	
-CpxR	ompC[ompCp1]	+	[AIBSCS, BPP, GEA]	Weak	
-CpxR	ompF[ompFp]	-	[AIBSCS, BPP, GEA]	Weak	
+CpxR	ompC[ompCp1]	+	[AIBSCS, BPP, GEA]	Strong	
+CpxR	ompF[ompFp]	-	[AIBSCS, BPP, GEA]	Strong	
 CpxR	ppiA[ppiAp1]	+	[BPP, GEA, HIBSCS]	Strong	
-CpxR	ppiD[ppiDp2]	+	[HIBSCS, SM]	Weak	
+CpxR	ppiD[ppiDp2]	+	[HIBSCS, SM]	Strong	
 CpxR	psd-mscM[psdp]	-	[ICA]	Weak	
-CpxR	rdoA-dsbA[rdoAp]	+	[BPP, GEA, HIBSCS]	Strong	
-CpxR	rpoE-rseABC[rpoEp1]	-	[AIBSCS, GEA]	Weak	
 CpxR	rpoH[rpoHp1]	+	[GEA]	Weak	
 CpxR	rprA[rprAp]	+	[BPP, GEA]	Strong	
+CpxR	rseD-rpoE-rseABC[rpoEp1a]	-	[AIBSCS, GEA]	Weak	
 CpxR	sbmA-yaiW[sbmAp]	+	[AIBSCS, GEA]	Weak	
 CpxR	skp-lpxD-fabZ-lpxA[hlpAp]	+	[GEA, HIBSCS]	Weak	
-CpxR	slt[sltp7]	+	[AIBSCS, GEA]	Weak	
+CpxR	slt[sltp7]	+	[AIBSCS, BPP, GEA, HIBSCS, IGI]	Strong	
 CpxR	spy[spyp]	+	[BPP, GEA, HIBSCS]	Strong	
+CpxR	srkA-dsbA[srkAp]	+	[BPP, GEA, HIBSCS]	Strong	
 CpxR	tomB-hha[tomBp1]	+	[BPP, HIBSCS]	Strong	
 CpxR	tsr[tsrp1]	-	[BPP]	Strong	
-CpxR	ung[ungp]	-	[BCE, BPP]	Weak	
+CpxR	ung[ungp]	-	[BCE, BPP]	Strong	
 CpxR	yccA[yccAp]	+	[BPP, GEA, HIBSCS]	Strong	
 CpxR	yebE[yebEp]	+	[BPP, GEA, HIBSCS]	Strong	
-CpxR	ygaU[ygaUp4]	+	[AIBSCS, GEA]	Weak	
 CpxR	yidQ[yidQp]	+	[GEA, HIBSCS]	Weak	
-CpxR	yqaE[yqaEp]	+	[AIBSCS, BPP, GEA]	Weak	
+CpxR	yqaE[yqaEp]	+	[AIBSCS, BPP, GEA, HIBSCS]	Strong	
+CpxR	yqaE-kbp[yqaEp]	+	[AIBSCS, BPP, GEA, HIBSCS]	Strong	
 CpxR	yqjA-mzrA[yqjAp1]	+	[BPP, HIBSCS]	Strong	
 Cra	aceBAK[aceBp]	+	[BPP, GEA, SM]	Strong	
 Cra	acnA[acnAp2]	+	[GEA]	Weak	
 Cra	acnB[acnBp]	-	[GEA]	Weak	
-Cra	adhE[adhEp1]	-	[BCE, GEA, ICWHO, SM]	Weak	
+Cra	adhE[adhEp1]	-	[BCE, GEA, ICWHO, SM]	Strong	
 Cra	aroP[aroPp1]	+	[AIBSCS, GEA]	Weak	
 Cra	aroP[aroPp2]	+	[AIBSCS, GEA, ICWHO]	Weak	
 Cra	betIBA[betIp]	+	[GEA]	Weak	
 Cra	betT[betTp]	+	[GEA]	Weak	
 Cra	crp[crpp1]	+	[BPP, GEA, SM]	Strong	
-Cra	csgDEFG[csgDp1]	+	[AIBSCS, BPP, GEA, SM]	Weak	
-Cra	cydAB[cydAp5]	+	[AIBSCS, BPP, GEA]	Weak	
+Cra	csgDEFG[csgDp1]	+	[AIBSCS, BPP, GEA, SM]	Strong	
+Cra	cydAB[cydAp5]	+	[AIBSCS, BPP, GEA]	Strong	
 Cra	cyoABCDE[cyoAp]	-	[AIBSCS, GEA]	Weak	
 Cra	edd-eda[eddp1]	-	[BPP, GEA, HIBSCS, SM]	Strong	
 Cra	eno[enop1]	-	[BPP, GEA, HIBSCS]	Strong	
@@ -549,10 +560,10 @@ Cra	epd-pgk[epdp]	-	[BPP, GEA, HIBSCS, SM]	Strong
 Cra	epd-pgk-fbaA[epdp]	-	[BPP, GEA, HIBSCS, SM]	Strong	
 Cra	fbaB[fbaBp]	-	[AIBSCS, GEA]	Weak	
 Cra	fruBKA[fruBp]	-	[AIBSCS, GEA, NTAS]	Weak	
-Cra	gapA[gapAp1]	-	[AIBSCS, BPP, GEA, HIBSCS]	Weak	
-Cra	gapA[gapAp3]	-	[AIBSCS, BPP, GEA, HIBSCS]	Weak	
-Cra	gapA[gapAp4]	-	[AIBSCS, BPP, GEA, HIBSCS]	Weak	
-Cra	gapA-yeaD[gapAp2]	-	[AIBSCS, BPP, GEA, HIBSCS]	Weak	
+Cra	gapA[gapAp1]	-	[AIBSCS, BPP, GEA, HIBSCS]	Strong	
+Cra	gapA[gapAp3]	-	[AIBSCS, BPP, GEA, HIBSCS]	Strong	
+Cra	gapA[gapAp4]	-	[AIBSCS, BPP, GEA, HIBSCS]	Strong	
+Cra	gapA-yeaD[gapAp2]	-	[AIBSCS, BPP, GEA, HIBSCS]	Strong	
 Cra	glcC[glcCp]	-	[AIBSCS, GEA]	Weak	
 Cra	glk[glkp]	-	[AIBSCS, GEA, HIBSCS]	Weak	
 Cra	gpmM-envC-yibQ[gpmMp]	-	[AIBSCS, GEA]	Weak	
@@ -565,27 +576,27 @@ Cra	mpl[mplp1]	-	[AIBSCS, GEA]	Weak
 Cra	mtlADR[mtlAp]	-	[BPP, GEA]	Strong	
 Cra	nirBDC-cysG[nirBp]	-	[BCE, GEA, HIBSCS]	Weak	
 Cra	pck[pckp]	+	[BPP, GEA, HIBSCS, SM]	Strong	
-Cra	pdeL[yahAp1]	-	[AIBSCS, BPP, GEA, HIBSCS]	Weak	
+Cra	pdeL[pdeLp1]	-	[AIBSCS, BPP, GEA, HIBSCS]	Strong	
 Cra	pdhR-aceEF-lpd[pdhRp]	-	[AIBSCS, GEA]	Weak	
 Cra	pfkA[pfkAp2]	-	[BPP]	Strong	
 Cra	poxB[poxBp]	+	[GEA]	Weak	
 Cra	ppc[ppcp]	-	[AIBSCS, GEA]	Weak	
-Cra	ppsA[ppsp]	+	[AIBSCS, BPP, GEA, ICWHO]	Weak	
+Cra	ppsA[ppsp]	+	[AIBSCS, BPP, GEA, ICWHO]	Strong	
 Cra	prpBCDE[prpBp]	-	[AIBSCS, GEA]	Weak	
-Cra	ptsHI-crr[ptsHp2]	+	[AIBSCS, BPP, GEA, HIBSCS]	Weak	
-Cra	ptsHI-crr[ptsHp1]	-	[AIBSCS, BPP, GEA, HIBSCS]	Weak	
-Cra	pykF[pykFp]	-	[BCE, SM]	Weak	
+Cra	ptsHI-crr[ptsHp2]	+	[AIBSCS, BPP, GEA, HIBSCS]	Strong	
+Cra	ptsHI-crr[ptsHp1]	-	[AIBSCS, BPP, GEA, HIBSCS]	Strong	
+Cra	pykF[pykFp]	-	[BCE, SM]	Strong	
 Cra	sgrST-setA[sgrSp]	-	[AIBSCS, GEA]	Weak	
 Cra	tpiA[tpiAp2]	-	[AIBSCS, GEA]	Weak	
 Cra	zwf[zwfp]	-	[AIBSCS, GEA]	Weak	
-CreB	creD[creDp]	+	[AIBSCS, BPP, GEA]	Weak	
+CreB	creD[creDp]	+	[AIBSCS, BPP, GEA]	Strong	
 CreB	malEFG[malEp]	-	[AIBSCS, GEA]	Weak	
 CreB	talA[talAp]	+	[AIBSCS, GEA]	Weak	
-CsgD	csgBAC[csgBp]	+	[AIBSCS, BPP, GEA, HIBSCS, SM]	Weak	
+CsgD	csgBAC[csgBp]	+	[AIBSCS, BPP, GEA, HIBSCS, SM]	Strong	
 CsgD	csgDEFG[csgDp1]	+	[BPP, GEA, HIBSCS]	Strong	
-CsgD	dgcC[adrAp]	+	[AIBSCS, BPP, GEA, HIBSCS, SM]	Weak	
+CsgD	dgcC[adrAp]	+	[AIBSCS, BPP, GEA, HIBSCS, SM]	Strong	
 CsgD	flgMN[flgMp]	-	[BPP, HIBSCS]	Strong	
-CsgD	fliAZ-tcyJ[fliAp1]	-	[AIBSCS, BPP]	Weak	
+CsgD	fliAZ-tcyJ[fliAp1]	-	[AIBSCS, BPP]	Strong	
 CsgD	fliE[fliEp]	-	[BPP, GEA, HIBSCS]	Strong	
 CsgD	fliE[fliEp1]	-	[BPP, GEA, HIBSCS]	Strong	
 CsgD	fliFGHIJK[fliFp1]	-	[BPP, GEA, HIBSCS]	Strong	
@@ -604,7 +615,7 @@ CueR	moaABCDE[moaAp1]	-	[GEA, HIBSCS]	Weak
 CusR	cusCFBA[cusCp]	+	[BPP, GEA, HIBSCS]	Strong	
 CusR	cusRS[cusRp]	+	[BPP, GEA, HIBSCS]	Strong	
 CusR	cyoABCDE[cyoAp]	+	[HIBSCS]	Weak	
-CusR	yedX[yedXp]	+	[AIBSCS, BPP, GEA]	Weak	
+CusR	yedX[yedXp]	+	[AIBSCS, BPP, GEA]	Strong	
 CynR	cynR[cynRp]	-	[BPP, HIBSCS]	Strong	
 CynR	cynTS[cynTp]	+	[BPP, GEA, HIBSCS]	Strong	
 CynR	cynTSX[cynTp]	+	[BPP, GEA, HIBSCS]	Strong	
@@ -612,15 +623,16 @@ CysB	cbl[cblp]	+	[BPP, GEA]	Strong
 CysB	cysB[cysBp]	-	[HIBSCS]	Weak	
 CysB	cysDNC[cysDp]	+	[BCE]	Weak	
 CysB	cysJIH[cysJp]	+	[HIBSCS]	Weak	
-CysB	cysK[cysKp1]	+	[HIBSCS, SM]	Weak	
+CysB	cysK[cysKp1]	+	[HIBSCS, SM]	Strong	
 CysB	cysPUWAM[cysPp]	+	[BPP, GEA]	Strong	
 CysB	dgcZ[dgcZp]	+	[AIBSCS]	Weak	
-CysB	hslJ[hslJp]	-	[AIBSCS, BPP, GEA]	Weak	
+CysB	hslJ[hslJp]	-	[AIBSCS, BPP, GEA]	Strong	
 CysB	ssuEADCB[ssuEp]	-	[BPP, GEA]	Strong	
 CysB	tauABCD[tauAp]	+	[BPP, GEA]	Strong	
+CysB	tcyJ[tcyJp]	+	[GEA]	Weak	
+CysB	tcyP[tcyPp]	+	[GEA]	Weak	
 CysB	ybdN[ybdNp]	+	[AIBSCS]	Weak	
 CysB	yciW[yciWp]	+	[AIBSCS, GEA]	Weak	
-CysB	yfbR[yfbRp3]	+	[AIBSCS]	Weak	
 CysB	ygeH[ygeHp10]	+	[AIBSCS]	Weak	
 CysB	yoaC[yoaCp1]	+	[AIBSCS]	Weak	
 CytR	cdd[cddp]	-	[BPP, GEA, HIBSCS, SM]	Strong	
@@ -637,19 +649,17 @@ CytR	rpoH[rpoHp3]	-	[BPP, GEA, HIBSCS]	Strong
 CytR	tsx[tsxp2]	-	[BPP, GEA, HIBSCS, IHBCE, IC, SM]	Strong	
 CytR	udp[udpP]	-	[BPP, GEA, HIBSCS, SM]	Strong	
 CytR	ycdZ[ycdZp4]	-	[AIBSCS]	Weak	
-Dan	ttdABT[ttdAp]	+	[BPP, GEA, HIBSCS]	Strong	
-Dan	ttdR[ttdRp]	+	[BPP]	Strong	
 DcuR	dctA[dctAp]	+	[BPP, GEA]	Strong	
 DcuR	dcuB-fumB[dcuBp2]	+	[BPP, GEA]	Strong	
 DcuR	dpiBA[dpiBp2]	+	[BPP, HIBSCS]	Strong	
 DcuR	frdABCD[frdAp]	+	[BPP, GEA]	Strong	
-DeoR	deoCABD[deoCp1]	-	[HIBSCS, SM]	Weak	
-DeoR	deoCABD[deoCp2]	-	[HIBSCS, SM]	Weak	
+DeoR	deoCABD[deoCp1]	-	[HIBSCS, SM]	Strong	
+DeoR	deoCABD[deoCp2]	-	[HIBSCS, SM]	Strong	
 DeoR	nupG[nupGp]	-	[GEA, HIBSCS]	Weak	
 DeoR	tsx[tsxp1]	-	[BCE, GEA]	Weak	
 DhaR	dhaKLM[dhaKp]	+	[GEA]	Weak	
 DhaR	dhaR[dhaRp]	-	[GEA]	Weak	
-DicA	dicB-ydfDE-insD-intQ[dicBp]	-	[GEA]	Weak	
+DicA	dicB-ydfDE-insD-7-intQ[dicBp]	-	[GEA]	Weak	
 DicA	dicC-ydfXW[dicCp]	-	[BPP, GEA, IHBCE]	Strong	
 DinJ-YafQ	cspE[cspEp1]	-	[BPP, GEA, SM]	Strong	
 DinJ-YafQ	dinJ-yafQ[dinJp]	-	[BPP, HIBSCS, SM]	Strong	
@@ -674,21 +684,22 @@ DsdC	dsdA[dsdAp]	+	[GEA]	Weak
 DsdC	dsdC[dsdCp]	-	[GEA]	Weak	
 DsdC	dsdXA[dsdXp]	+	[GEA]	Weak	
 EbgR	ebgAC[ebgAp]	-	[GEA]	Weak	
-EnvR	acrAB[acrAp]	-	[AIBSCS, BPP, GEA]	Weak	
+EnvR	acrAB[acrAp]	-	[AIBSCS, BPP, GEA]	Strong	
 EnvY	ompC[ompCp1]	+	[IMP]	Weak	
 EnvY	ompF[ompFp]	+	[IMP]	Weak	
 EvgA	acrD[acrDp]	+	[AIBSCS, GEA]	Weak	
-EvgA	emrKY[emrKp]	+	[AIBSCS, BPP, GEA, HIBSCS]	Weak	
-EvgA	evgAS[evgAp2]	+	[AIBSCS, BPP, GEA, HIBSCS]	Weak	
-EvgA	evgAS[evgAp1]	+	[AIBSCS, BPP, GEA, HIBSCS]	Weak	
-EvgA	frc[frcp]	+	[AIBSCS, BPP, GEA]	Weak	
-EvgA	gadE-mdtEF[gadEp]	+	[BPP, GEA]	Strong	
-EvgA	safA-ydeO[safAp]	+	[AIBSCS, BPP, GEA]	Weak	
-EvgA	ydeP[ydePp]	+	[AIBSCS, BPP, GEA]	Weak	
-EvgA	yegRZ[yegRp]	+	[AIBSCS, BPP, GEA]	Weak	
-EvgA	yfdX-frc-oxc-yfdVE[yfdXp]	+	[AIBSCS, BPP, GEA]	Weak	
-ExuR	exuR[exuRp]	-	[GEA, HIBSCS]	Weak	
+EvgA	emrKY[emrKp]	+	[AIBSCS, BPP, GEA, HIBSCS]	Strong	
+EvgA	evgAS[evgAp2]	+	[AIBSCS, BPP, GEA, HIBSCS]	Strong	
+EvgA	evgAS[evgAp1]	+	[AIBSCS, BPP, GEA, HIBSCS]	Strong	
+EvgA	frc[frcp]	+	[AIBSCS, BPP, GEA]	Strong	
+EvgA	gadEF-mdtEF[gadEp]	+	[BPP, GEA]	Strong	
+EvgA	safA-ydeO[safAp]	+	[AIBSCS, BPP, GEA]	Strong	
+EvgA	ydeP[ydePp]	+	[AIBSCS, BPP, GEA]	Strong	
+EvgA	yegRZ[yegRp]	+	[AIBSCS, BPP, GEA]	Strong	
+EvgA	yfdX-frc-oxc-yfdVE[yfdXp]	+	[AIBSCS, BPP, GEA]	Strong	
+ExuR	exuR[exuRp2]	-	[BPP, GEA, HIBSCS]	Strong	
 ExuR	exuT[exuTp2]	-	[AIBSCS, GEA]	Weak	
+ExuR	lgoR[lgoRp4]	-	[BPP]	Strong	
 ExuR	uxaB[uxaBp]	-	[GEA, HIBSCS]	Weak	
 ExuR	uxaCA[uxaCp]	-	[AIBSCS, GEA]	Weak	
 ExuR	uxuAB[uxuAp]	-	[GEA, HIBSCS]	Weak	
@@ -700,7 +711,7 @@ FNR	acrEF[acrEp]	+	[AIBSCS, GEA]	Weak
 FNR	adhE[adhEp2]	+	[GEA, HIBSCS]	Weak	
 FNR	aer[aerp]	+	[AIBSCS, GEA]	Weak	
 FNR	aldA[aldAp]	-	[AIBSCS, GEA]	Weak	
-FNR	ansB[ansBp2]	+	[BCE, SM]	Weak	
+FNR	ansB[ansBp2]	+	[BCE, SM]	Strong	
 FNR	arcA[arcAp1]	+	[GEA, HIBSCS]	Weak	
 FNR	arcA[arcAp3]	-	[GEA, HIBSCS]	Weak	
 FNR	aspA[aspAp]	+	[GEA, HIBSCS]	Weak	
@@ -710,29 +721,30 @@ FNR	bcsBZ[bcsBp]	+	[AIBSCS, GEA]	Weak
 FNR	cadC[cadCp]	+	[AIBSCS, GEA]	Weak	
 FNR	caiF[caiFp]	+	[BCE, GEA]	Weak	
 FNR	caiTABCDE[caiTp]	+	[AIBSCS, GEA]	Weak	
+FNR	ccp[yhjAp]	+	[AIBSCS, BPP]	Strong	
 FNR	citCDEFXG[citCp2]	-	[AIBSCS]	Weak	
-FNR	cydAB[cydAp3]	-	[AIBSCS, BPP, GEA, HIBSCS]	Weak	
-FNR	cydAB[cydAp4]	-	[AIBSCS, BPP, GEA, HIBSCS]	Weak	
-FNR	cydAB[cydAp1]	-	[AIBSCS, BPP, GEA, HIBSCS]	Weak	
-FNR	cydAB[cydAp2]	+	[AIBSCS, BPP, GEA, HIBSCS]	Weak	
+FNR	cydAB[cydAp3]	-	[AIBSCS, BPP, GEA, HIBSCS]	Strong	
+FNR	cydAB[cydAp4]	-	[AIBSCS, BPP, GEA, HIBSCS]	Strong	
+FNR	cydAB[cydAp1]	-	[AIBSCS, BPP, GEA, HIBSCS]	Strong	
+FNR	cydAB[cydAp2]	+	[AIBSCS, BPP, GEA, HIBSCS]	Strong	
 FNR	cydDC[cydDp]	+	[GEA, HIBSCS]	Weak	
 FNR	cyoABCDE[cyoAp]	-	[AIBSCS, GEA]	Weak	
 FNR	dcuB-fumB[dcuBp]	+	[GEA, HIBSCS]	Weak	
 FNR	dcuC[dcuCp]	+	[GEA, HIBSCS]	Weak	
 FNR	dcuSR[dcuSp]	+	[AIBSCS, GEA]	Weak	
-FNR	dmsABC[dmsAp1]	+	[BCE, BPP, GEA, SM]	Weak	
+FNR	dmsABC[dmsAp1]	+	[BCE, BPP, GEA, SM]	Strong	
 FNR	dpiBA[dpiBp]	-	[AIBSCS]	Weak	
 FNR	dppABCDF[dppAp]	-	[AIBSCS, GEA]	Weak	
 FNR	emrKY[emrKp]	+	[AIBSCS, GEA]	Weak	
 FNR	fdhF[fdhFp]	+	[GEA]	Weak	
-FNR	fdnGHI[fdnGp]	+	[GEA, HIBSCS, SM]	Weak	
+FNR	fdnGHI[fdnGp]	+	[GEA, HIBSCS, SM]	Strong	
 FNR	feoABC[feoAp]	+	[GEA, HIBSCS]	Weak	
 FNR	fes-ybdZ-entF-fepE[fesp]	+	[AIBSCS, GEA]	Weak	
 FNR	fixABCX[fixAp]	+	[AIBSCS, GEA]	Weak	
-FNR	fnr[fnrp]	-	[BCE, BPP, GEA, HIBSCS]	Weak	
+FNR	fnr[fnrp]	-	[BCE, BPP, GEA, HIBSCS]	Strong	
 FNR	fnrS[fnrSp]	+	[BPP, GEA, HIBSCS]	Strong	
-FNR	focA-pflB[focAp1]	+	[BCE, GEA, HIBSCS, SM]	Weak	
-FNR	focA-pflB[focAp3]	+	[BCE, GEA, SM]	Weak	
+FNR	focA-pflB[focAp1]	+	[BCE, GEA, HIBSCS, SM]	Strong	
+FNR	focA-pflB[focAp3]	+	[BCE, GEA, SM]	Strong	
 FNR	frdABCD[frdAp]	+	[BCE, GEA]	Weak	
 FNR	fumA[fumAp]	-	[GEA]	Weak	
 FNR	fumAC[fumAp]	-	[GEA]	Weak	
@@ -752,13 +764,14 @@ FNR	gltBDF[gltBp]	-	[AIBSCS, GEA]	Weak
 FNR	gnd[gndp]	-	[GEA]	Weak	
 FNR	grcA[grcAp1]	+-	[BPP, GEA, SM]	Strong	
 FNR	hcp-hcr[hcpp]	+	[BPP, GEA, HIBSCS, SM]	Strong	
+FNR	hcp-hcr-poxB[hcpp]	+	[BPP, GEA, HIBSCS, SM]	Strong	
 FNR	hemA-prfA-prmC[hemAp1]	-	[BPP, GEA]	Strong	
 FNR	hlyE[hlyEp]	+	[BPP, GEA]	Strong	
 FNR	hmp[hmpAp]	-	[BPP, GEA, HIBSCS, SM]	Strong	
 FNR	hyfABCDEFGHIJR-focB[hyfAp]	-	[GEA, HIBSCS]	Weak	
-FNR	hypBCDE[hypBp]	+	[BCE, BPP, GEA]	Weak	
-FNR	hypBCDE-fhlA[hypBp]	+	[BCE, BPP, GEA]	Weak	
-FNR	iraD[iraDp2]	+	[AIBSCS, GEA]	Weak	
+FNR	hypBCDE[hypBp]	+	[BCE, BPP, GEA]	Strong	
+FNR	hypBCDE-fhlA[hypBp]	+	[BCE, BPP, GEA]	Strong	
+FNR	idlP-iraD[iraDp2]	+	[AIBSCS, GEA]	Weak	
 FNR	iraM[iraMp]	+	[AIBSCS]	Weak	
 FNR	katG[katGp]	+	[AIBSCS, GEA]	Weak	
 FNR	lpd[lpdAp]	+-	[AIBSCS, GEA]	Weak	
@@ -766,18 +779,18 @@ FNR	malPQ[malPp]	+	[AIBSCS, GEA]	Weak
 FNR	moaABCDE[moaAp1]	+	[GEA, HIBSCS]	Weak	
 FNR	moeAB[moeAp]	-	[BPP, GEA]	Strong	
 FNR	nac[nacp]	-	[GEA]	Weak	
-FNR	napFDAGHBC-ccmABCDEFGH[napFp1]	+	[GEA, HIBSCS, SM]	Weak	
+FNR	napFDAGHBC-ccmABCDEFGH[napFp1]	+	[GEA, HIBSCS, SM]	Strong	
 FNR	narGHJI[narGp]	+	[BPP, GEA, HIBSCS, SM]	Strong	
-FNR	narK[narKp1]	+	[BCE, BPP, GEA, SM]	Weak	
-FNR	narXL[narXp]	-	[BCE, BPP, HIBSCS]	Weak	
-FNR	ndh[ndhp]	-	[BCE, GEA, SM]	Weak	
-FNR	nikABCDER[nikAp1]	+	[GEA, HIBSCS, SM]	Weak	
+FNR	narK[narKp1]	+	[BCE, BPP, GEA, SM]	Strong	
+FNR	narXL[narXp]	-	[BCE, BPP, HIBSCS]	Strong	
+FNR	ndh[ndhp]	-	[BCE, GEA, SM]	Strong	
+FNR	nikABCDER[nikAp1]	+	[GEA, HIBSCS, SM]	Strong	
 FNR	nirBDC-cysG[nirBp]	+	[BPP, GEA, HIBSCS, SM]	Strong	
 FNR	norVW[norVp]	-	[GEA, HIBSCS]	Weak	
 FNR	nrdDG[nrdDp]	+	[BPP, GEA, HIBSCS, SM]	Strong	
-FNR	nrfABCDEFG[nrfAp]	+	[BCE, BPP, GEA]	Weak	
-FNR	nuoABCEFGHIJKLMN[nuoAp2]	-	[BCE, GEA, SM]	Weak	
-FNR	ompW[ompWp]	+	[AIBSCS, GEA]	Weak	
+FNR	nrfABCDEFG[nrfAp]	+	[BCE, BPP, GEA]	Strong	
+FNR	nuoABCEFGHIJKLMN[nuoAp2]	-	[BCE, GEA, SM]	Strong	
+FNR	ompW[ompWp]	+	[AIBSCS, BPP, GEA, HIBSCS]	Strong	
 FNR	ompX[ompXp2]	-	[AIBSCS, GEA]	Weak	
 FNR	pdeF[yfgFp]	+	[BPP, GEA, HIBSCS]	Strong	
 FNR	pdhR-aceEF-lpd[pdhRp]	+-	[AIBSCS, BCE, GEA]	Weak	
@@ -786,8 +799,9 @@ FNR	pitA[pitAp]	+	[AIBSCS, GEA]	Weak
 FNR	pstS[pstSp]	+	[AIBSCS, GEA]	Weak	
 FNR	pstSCA[pstSp]	+	[AIBSCS, GEA]	Weak	
 FNR	pstSCAB-phoU[pstSp]	+	[AIBSCS, GEA]	Weak	
-FNR	purMN[purMp]	-	[AIBSCS, GEA, HIBSCS, SM]	Weak	
+FNR	purMN[purMp]	-	[AIBSCS, GEA, HIBSCS, SM]	Strong	
 FNR	puuAP[puuAp]	-	[AIBSCS, GEA]	Weak	
+FNR	ravA-viaA[ravAp]	+	[BPP, GEA, HIBSCS, SM]	Strong	
 FNR	rplM-rpsI[rplMp]	-	[AIBSCS, GEA]	Weak	
 FNR	rplT[rplTp]	-	[GEA]	Weak	
 FNR	rplT-pheM[rplTp]	-	[GEA]	Weak	
@@ -814,31 +828,30 @@ FNR	ydhYVWXUT[ydhYp]	+	[BPP, GEA, HIBSCS, SM]	Strong
 FNR	yecR[yecRp]	+	[AIBSCS, GEA]	Weak	
 FNR	yeiL[yeiLp]	-	[GEA, HIBSCS]	Weak	
 FNR	ygbA[ygbAp]	-	[AIBSCS, GEA]	Weak	
-FNR	yhjA[yhjAp]	+	[AIBSCS, BPP]	Weak	
-FNR	ynfEFGH-dmsD[ynfEp]	+	[AIBSCS, BPP, GEA, SM]	Weak	
+FNR	ynfEFGH-dmsD[ynfEp]	+	[AIBSCS, BPP, GEA, SM]	Strong	
 FNR	yqjI[yqjIp]	+	[AIBSCS, GEA]	Weak	
 FNR	ysgA[ysgAp]	-	[AIBSCS, GEA]	Weak	
 FNR	ytfE[ytfEp]	-	[GEA]	Weak	
 FNR	zwf[zwfp]	-	[GEA]	Weak	
-FabR	fabA[fabAp]	-	[AIBSCS, BCE, BPP, GEA, HIBSCS]	Weak	
-FabR	fabB[fabBp]	-	[BCE, BPP, GEA, HIBSCS]	Weak	
-FadR	accA[accAp2]	+	[AIBSCS, BPP, GEA]	Weak	
-FadR	accBC[accBp2]	+	[AIBSCS, BPP, GEA]	Weak	
-FadR	accD[accDp]	+	[AIBSCS, BPP, GEA]	Weak	
+FabR	fabA[fabAp]	-	[AIBSCS, BCE, BPP, GEA, HIBSCS]	Strong	
+FabR	fabB[fabBp]	-	[BCE, BPP, GEA, HIBSCS]	Strong	
+FadR	accA[accAp2]	+	[AIBSCS, BPP, GEA]	Strong	
+FadR	accBC[accBp2]	+	[AIBSCS, BPP, GEA]	Strong	
+FadR	accD[accDp]	+	[AIBSCS, BPP, GEA]	Strong	
 FadR	fabA[fabAp]	+	[BCE, GEA, HIBSCS]	Weak	
 FadR	fabB[fabBp]	+	[BPP, GEA, HIBSCS]	Strong	
 FadR	fabHDG[fabHp]	+	[BPP, GEA, HIBSCS, SM]	Strong	
-FadR	fabI[fabIp]	+	[AIBSCS, BPP, GEA]	Weak	
+FadR	fabI[fabIp]	+	[AIBSCS, BPP, GEA]	Strong	
 FadR	fadBA[fadBp]	-	[BCE, HIBSCS]	Weak	
 FadR	fadD-sroD[fadDp]	-	[BPP]	Strong	
 FadR	fadE[fadEp]	-	[BPP, GEA, HIBSCS]	Strong	
 FadR	fadH[fadHp]	-	[BPP, GEA, HIBSCS]	Strong	
 FadR	fadIJ[fadIp]	-	[BPP, GEA, HIBSCS]	Strong	
-FadR	fadL[fadLp]	-	[BCE, BPP, GEA, HIBSCS]	Weak	
+FadR	fadL[fadLp]	-	[BCE, BPP, GEA, HIBSCS]	Strong	
 FadR	fadM[fadMp1]	-	[HIBSCS]	Weak	
 FadR	fadR[fadRp]	+	[AIBSCS]	Weak	
 FadR	iclR[iclRp]	+	[BPP, GEA, SM]	Strong	
-FadR	uspA[uspAp1]	-	[BCE, BPP, GEA, HIBSCS]	Weak	
+FadR	uspA[uspAp1]	-	[BCE, BPP, GEA, HIBSCS]	Strong	
 FeaR	feaB[feaBp1]	+	[BPP, GEA, HIBSCS, SM]	Strong	
 FeaR	tynA[tynAp1]	+	[BPP, GEA, HIBSCS, SM]	Strong	
 FhlA	fdhF[fdhFp]	+	[BPP, GEA, HIBSCS]	Strong	
@@ -849,12 +862,12 @@ FhlA	hypABCDE[hypAp]	+	[BPP, GEA, HIBSCS]	Strong
 FhlA	hypABCDE-fhlA[hypAp]	+	[BPP, GEA, HIBSCS]	Strong	
 Fis	acnB[acnBp]	-	[GEA, HIBSCS]	Weak	
 Fis	acs-yjcH-actP[acsp1]	-	[BPP, GEA]	Strong	
-Fis	acs-yjcH-actP[acsp2]	-	[AIBSCS, BPP, GEA, SM]	Weak	
+Fis	acs-yjcH-actP[acsp2]	-	[AIBSCS, BPP, GEA, SM]	Strong	
 Fis	adhE[adhEp1]	+	[BPP, GEA, HIBSCS]	Strong	
 Fis	alaWX[alaWp]	+	[BCE]	Weak	
-Fis	aldB[aldBp]	-	[AIBSCS, BPP, GEA, HIBSCS]	Weak	
+Fis	aldB[aldBp]	-	[AIBSCS, BPP, GEA, HIBSCS]	Strong	
 Fis	ansB[ansBp1]	-	[AIBSCS, GEA]	Weak	
-Fis	argU[argUp]	+	[BCE]	Weak	
+Fis	argU[argUp]	+	[IHBCE]	Weak	
 Fis	argW[argWp]	+	[BCE]	Weak	
 Fis	argX-hisR-leuT-proM[argXp]	+	[BCE]	Weak	
 Fis	aspV[aspVp]	+	[BCE]	Weak	
@@ -866,7 +879,9 @@ Fis	cbpAM[cbpAp4]	-	[]	null
 Fis	crp[crpp1]	-	[BPP, GEA, HIBSCS]	Strong	
 Fis	crp[crpp3]	-	[BPP, GEA, HIBSCS]	Strong	
 Fis	crp[crpp2]	-	[BPP, GEA, HIBSCS]	Strong	
+Fis	cspA[cspAp1]	+	[AIBSCS, BPP, GEA]	Strong	
 Fis	cspI[cspIp]	-	[AIBSCS, GEA]	Weak	
+Fis	cyoABCDE[cyoAp]	+	[GEA]	Weak	
 Fis	deoCABD[deoCp2]	+	[AIBSCS, GEA]	Weak	
 Fis	dmsABC[dmsAp1]	-	[AIBSCS, GEA]	Weak	
 Fis	dps[dpsp]	-	[BPP, GEA, HIBSCS]	Strong	
@@ -877,15 +892,15 @@ Fis	fumB[fumBp]	-	[GEA]	Weak
 Fis	gadAX[gadAp]	-	[AIBSCS, GEA]	Weak	
 Fis	gadBC[gadBp]	-	[AIBSCS, GEA]	Weak	
 Fis	glcC[glcCp]	-	[AIBSCS, GEA]	Weak	
-Fis	glnA[glnAp2]	+	[AIBSCS, BPP, GEA]	Weak	
-Fis	glnALG[glnAp2]	+	[AIBSCS, BPP, GEA]	Weak	
+Fis	glnA[glnAp2]	+	[AIBSCS, BPP, GEA]	Strong	
+Fis	glnALG[glnAp2]	+	[AIBSCS, BPP, GEA]	Strong	
 Fis	glnQ[glnQp]	-	[GEA]	Weak	
 Fis	glpABC[glpABCp]	+	[AIBSCS, GEA]	Weak	
 Fis	glpTQ[glpTQp]	+	[AIBSCS, GEA]	Weak	
-Fis	gltX[gltXp3]	-	[AIBSCS, BCE, BPP, HIBSCS, SM]	Weak	
+Fis	gltX[gltXp3]	-	[AIBSCS, BCE, BPP, HIBSCS, SM]	Strong	
 Fis	glyU[glyUp]	+	[BCE]	Weak	
 Fis	grcA[grcAp1]	+	[AIBSCS, GEA]	Weak	
-Fis	guaBA[guaBp]	-	[AIBSCS, BPP, SM]	Weak	
+Fis	guaBA[guaBp]	-	[AIBSCS, BPP, SM]	Strong	
 Fis	gyrA[gyrAp]	-	[BPP, GEA, HIBSCS]	Strong	
 Fis	gyrB[gyrBp]	-	[BPP, GEA, HIBSCS]	Strong	
 Fis	hlyE[hlyEp]	-	[AIBSCS, GEA]	Weak	
@@ -895,18 +910,18 @@ Fis	hupB[hupBp2]	-	[BPP, GEA]	Strong
 Fis	hupB[hupBp3]	-	[BPP, GEA]	Strong	
 Fis	hyaABCDEF[hyaAp]	-	[AIBSCS, GEA]	Weak	
 Fis	katE[katEp]	-	[AIBSCS, GEA]	Weak	
-Fis	leuQPV[leuQp]	+	[BCE, GEA, HIBSCS]	Weak	
+Fis	leuQPV[leuQp]	+	[BCE, GEA, HIBSCS, IHBCE]	Weak	
 Fis	leuX[leuXp]	+	[BCE]	Weak	
-Fis	lpd[lpdAp]	+	[BCE, BPP]	Weak	
-Fis	lysT-valT-lysW[lysTp]	+	[BCE]	Weak	
+Fis	lpd[lpdAp]	+	[BCE, BPP]	Strong	
+Fis	lysT-valT-lysW[lysTp]	+	[IHBCE]	Weak	
 Fis	malEFG[malEp]	+	[AIBSCS, GEA]	Weak	
 Fis	marRAB[marRp]	+	[BPP, GEA, SM]	Strong	
 Fis	mazEFG[mazEp1]	+	[BPP, GEA, SM]	Strong	
 Fis	mazEFG[mazEp2]	+	[BPP, GEA, SM]	Strong	
-Fis	metT-leuW-glnUW-metU-glnVX[metTp]	+	[BCE]	Weak	
-Fis	metY[metYp1]	+	[BCE]	Weak	
-Fis	metY-rimP-nusA-infB[metYp1]	+	[BCE]	Weak	
-Fis	metY-rimP-nusA-infB-rbfA-truB-rpsO-pnp[metYp1]	+	[BCE]	Weak	
+Fis	metT-leuW-glnUW-metU-glnVX[metTp]	+	[IHBCE]	Weak	
+Fis	metY[metYp1]	+	[BCE, IHBCE]	Weak	
+Fis	metY-rimP-nusA-infB[metYp1]	+	[BCE, IHBCE]	Weak	
+Fis	metY-rimP-nusA-infB-rbfA-truB-rpsO-pnp[metYp1]	+	[BCE, IHBCE]	Weak	
 Fis	mglAC[mglAp]	-	[GEA]	Weak	
 Fis	msrA[msrAp]	-	[AIBSCS, GEA]	Weak	
 Fis	mtlADR[mtlAp]	-	[AIBSCS, GEA]	Weak	
@@ -915,7 +930,7 @@ Fis	nanATEK-yhcH[nanAp]	-	[AIBSCS, GEA]	Weak
 Fis	narGHJI[narGp]	-	[AIBSCS, GEA]	Weak	
 Fis	narK[narKp1]	-	[AIBSCS, GEA]	Weak	
 Fis	ndh[ndhp]	+	[BPP, HIBSCS, SM]	Strong	
-Fis	nirBDC-cysG[nirBp]	-	[AIBSCS, BPP, GEA, HIBSCS]	Weak	
+Fis	nirBDC-cysG[nirBp]	-	[AIBSCS, BPP, GEA, HIBSCS]	Strong	
 Fis	nrdAB-yfaE[nrdAp]	+	[BPP, GEA, HIBSCS, SM]	Strong	
 Fis	nrfABCDEFG[nrfAp]	-	[BPP, GEA]	Strong	
 Fis	nuoABCEFGHIJKLMN[nuoAp1]	+	[BPP, GEA, HIBSCS]	Strong	
@@ -926,7 +941,7 @@ Fis	patA[patAp]	?	[AIBSCS]	Weak
 Fis	pdxA-rsmA[pdxAp]	+	[GEA]	Weak	
 Fis	pdxA-rsmA-apaGH[pdxAp]	+	[GEA]	Weak	
 Fis	pflB[pflBp1]	-	[AIBSCS, GEA]	Weak	
-Fis	pheU[pheUp]	+	[BCE]	Weak	
+Fis	pheU[pheUp]	+	[IHBCE]	Weak	
 Fis	pheV[pheVp]	+	[BCE]	Weak	
 Fis	proK[proKp]	+	[BCE]	Weak	
 Fis	proL[proLp]	+	[BCE]	Weak	
@@ -944,30 +959,31 @@ Fis	rrsD-ileU-alaU-rrlD-rrfD-thrV-rrfF[rrsDp1]	+	[BPP, GEA]	Strong
 Fis	rrsE-gltV-rrlE-rrfE[rrsEp]	+	[BPP, GEA]	Strong	
 Fis	rrsG-gltW-rrlG-rrfG[rrsGp1]	+	[BPP, GEA]	Strong	
 Fis	rrsH-ileV-alaV-rrlH-rrfH[rrsHp1]	+	[BPP, GEA]	Strong	
-Fis	serT[serTp]	+	[BCE]	Weak	
+Fis	serT[serTp]	+	[IHBCE]	Weak	
 Fis	serX[serXp]	+	[BCE]	Weak	
 Fis	sra[srap]	+	[GEA]	Weak	
 Fis	ssrS[ssrSp1]	+	[BPP, GEA]	Strong	
 Fis	ssrS[ssrSp2]	-	[BPP, GEA]	Strong	
 Fis	ssrS-fau[ssrSp1]	+	[BPP, GEA]	Strong	
 Fis	ssrS-fau[ssrSp2]	-	[BPP, GEA]	Strong	
-Fis	thrU-tyrU-glyT-thrT-tufB[thrUp]	+	[BPP, GEA, HIBSCS]	Strong	
+Fis	thrU-tyrU-glyT-thrT-tufB[thrUp]	+	[BPP, GEA, HIBSCS, IHBCE]	Strong	
 Fis	thrW[thrWp]	+	[BCE]	Weak	
-Fis	topA[topAp1]	+	[AIBSCS, BPP, GEA, HIBSCS]	Weak	
+Fis	topA[topAp1]	+	[AIBSCS, BPP, GEA, HIBSCS]	Strong	
 Fis	topA[topAp4]	-	[BPP, GEA, HIBSCS]	Strong	
 Fis	trg[trgp1]	+	[AIBSCS, GEA]	Weak	
 Fis	trmA[trmAp]	+	[HIBSCS]	Weak	
-Fis	tyrTV-tpr[tyrTp]	+	[AIBSCS, BCE, BPP, GEA]	Weak	
-Fis	valUXY-lysV[valUp]	+	[AIBSCS, BCE, BPP, HIBSCS, SM]	Weak	
+Fis	tyrTV-tpr[tyrTp]	+	[AIBSCS, BCE, BPP, GEA]	Strong	
+Fis	valUXY-lysV[valUp]	+	[AIBSCS, BCE, BPP, HIBSCS, SM]	Strong	
 Fis	xylFGHR[xylFp]	-	[AIBSCS, GEA]	Weak	
 Fis	yeaR-yoaG[yeaRp]	-	[BPP]	Strong	
 FlhDC	flgAMN[flgAp]	+	[GEA, HIBSCS]	Weak	
 FlhDC	flgBCDEFGHIJ[flgBp]	+	[BPP, GEA, HIBSCS]	Strong	
+FlhDC	flgKL[flgKp]	+	[BPP, GEA]	Strong	
 FlhDC	flhBAE[flhBp]	+	[BPP, GEA, HIBSCS]	Strong	
 FlhDC	fliAZ-tcyJ[fliAp1]	+	[BPP, GEA, HIBSCS, SM]	Strong	
-FlhDC	fliDST[fliDp]	+	[HIBSCS]	Weak	
-FlhDC	fliE[fliEp1]	+	[HIBSCS]	Weak	
-FlhDC	fliFGHIJK[fliFp1]	+	[HIBSCS]	Weak	
+FlhDC	fliDST[fliDp]	+	[BPP, GEA, HIBSCS]	Strong	
+FlhDC	fliE[fliEp1]	+	[BPP, GEA, HIBSCS]	Strong	
+FlhDC	fliFGHIJK[fliFp1]	+	[BPP, GEA, HIBSCS]	Strong	
 FlhDC	fliLMNOPQR[fliLp1]	+	[BPP, GEA, HIBSCS]	Strong	
 FlhDC	glpABC[glpABCp]	+	[GEA]	Weak	
 FlhDC	gltI-sroC-gltJKL[gltIp1]	+	[BPP, GEA, HIBSCS]	Strong	
@@ -987,32 +1003,32 @@ FliZ	csgDEFG[csgDp1]	-	[BPP, GEA]	Strong
 FliZ	csgDEFG[csgDp2]	-	[BPP, GEA]	Strong	
 FliZ	flhDC[flhDp]	-	[BPP, GEA]	Strong	
 FliZ	gadBC[gadBp]	-	[BPP, GEA]	Strong	
-FliZ	gadE-mdtEF[gadEp]	-	[BPP, GEA, SM]	Strong	
+FliZ	gadEF-mdtEF[gadEp]	-	[BPP, GEA, SM]	Strong	
 FliZ	hdeAB-yhiD[hdeAp]	-	[BPP, GEA]	Strong	
 FliZ	mlrA[mlrAp]	-	[BPP, GEA, SM]	Strong	
 FliZ	osmY[osmYp]	-	[BPP, GEA]	Strong	
-FliZ	pdeR[gmrp]	-	[BPP, GEA, SM]	Strong	
+FliZ	pdeR[pdeRp]	-	[BPP, GEA, SM]	Strong	
 FucR	fucAO[fucAp]	+	[GEA, IMP]	Weak	
 FucR	fucPIKUR[fucPp]	+	[GEA]	Weak	
 Fur	aspC[aspCp]	-	[GEA]	Weak	
-Fur	cirA[cirAp2]	-	[AIBSCS, BPP, GEA, HIBSCS]	Weak	
-Fur	cirA[cirAp1]	-	[AIBSCS, BCE, BPP, GEA, HIBSCS]	Weak	
-Fur	crl[crlp1]	-	[BPP, GEA]	Strong	
+Fur	cirA[cirAp2]	-	[AIBSCS, BPP, GEA, HIBSCS]	Strong	
+Fur	cirA[cirAp1]	-	[AIBSCS, BCE, BPP, GEA, HIBSCS]	Strong	
+Fur	crl_1[crlp1]	-	[BPP, GEA]	Strong	
 Fur	cyoABCDE[cyoAp]	-	[AIBSCS, GEA]	Weak	
-Fur	entCEBAH[entCp]	-	[AIBSCS, BPP, GEA, HIBSCS]	Weak	
+Fur	entCEBAH[entCp]	-	[AIBSCS, BPP, GEA, HIBSCS]	Strong	
 Fur	entS[entSp1]	+-	[BPP, GEA, HIBSCS]	Strong	
-Fur	exbBD[exbBp]	-	[AIBSCS, BPP, HIBSCS]	Weak	
+Fur	exbBD[exbBp]	-	[AIBSCS, BPP, HIBSCS]	Strong	
 Fur	exbD[exbDp]	-	[HIBSCS]	Weak	
-Fur	fecABCDE[fecAp]	-	[AIBSCS, BPP, GEA, HIBSCS]	Weak	
-Fur	fecIR[fecIp]	-	[AIBSCS, BPP, GEA, HIBSCS, SM]	Weak	
+Fur	fecABCDE[fecAp]	-	[AIBSCS, BPP, GEA, HIBSCS]	Strong	
+Fur	fecIR[fecIp]	-	[AIBSCS, BPP, GEA, HIBSCS, SM]	Strong	
 Fur	feoABC[feoAp]	-	[GEA, HIBSCS]	Weak	
-Fur	fepA-entD[fepAp]	-	[AIBSCS, BPP, GEA, HIBSCS]	Weak	
-Fur	fepB[fepBp]	-	[AIBSCS, BPP, GEA, HIBSCS, SM]	Weak	
+Fur	fepA-entD[fepAp]	-	[AIBSCS, BPP, GEA, HIBSCS]	Strong	
+Fur	fepB[fepBp]	-	[AIBSCS, BPP, GEA, HIBSCS, SM]	Strong	
 Fur	fepDGC[fepDp1]	-	[BPP, GEA, HIBSCS]	Strong	
-Fur	fes-ybdZ-entF-fepE[fesp]	-	[AIBSCS, BPP, GEA, HIBSCS]	Weak	
+Fur	fes-ybdZ-entF-fepE[fesp]	-	[AIBSCS, BPP, GEA, HIBSCS]	Strong	
 Fur	fhuACDB[fhuAp]	-	[BPP, GEA, HIBSCS]	Strong	
 Fur	fhuE[fhuEp]	-	[AIBSCS, HIBSCS]	Weak	
-Fur	fhuF[fhuFp]	-	[AIBSCS, BPP, GEA, HIBSCS]	Weak	
+Fur	fhuF[fhuFp]	-	[AIBSCS, BPP, GEA, HIBSCS]	Strong	
 Fur	fiu[fiup]	-	[HIBSCS]	Weak	
 Fur	flhDC[flhDp]	-	[AIBSCS]	Weak	
 Fur	fnr[fnrp]	-	[GEA]	Weak	
@@ -1027,7 +1043,7 @@ Fur	glnD[glnDp]	-	[GEA]	Weak
 Fur	glnK-amtB[glnKp]	+-	[GEA]	Weak	
 Fur	gltBDF[gltBp]	-	[GEA]	Weak	
 Fur	gnd[gndp]	-	[GEA]	Weak	
-Fur	gpmA[gpmAp]	-	[AIBSCS, BPP, GEA, HIBSCS]	Weak	
+Fur	gpmA[gpmAp]	-	[AIBSCS, BPP, GEA, HIBSCS]	Strong	
 Fur	grcA[grcAp1]	-	[GEA]	Weak	
 Fur	gspCDEFGHIJKLMO[gspCp3]	-	[BPP, HIBSCS]	Strong	
 Fur	hmp[hmpAp]	-	[AS, GEA, HIBSCS, IMP]	Weak	
@@ -1048,30 +1064,30 @@ Fur	purR[purRp]	-	[AIBSCS]	Weak
 Fur	pyrC[pyrCp]	-	[BPP, GEA, HIBSCS]	Strong	
 Fur	rcnAB[rcnAp]	-	[AIBSCS, GEA, HIBSCS]	Weak	
 Fur	rpoS[rpoSp]	-	[GEA, IEP]	Weak	
-Fur	ryhB[ryhBp]	-	[AIBSCS, BPP, GEA, HIBSCS]	Weak	
+Fur	ryhB[ryhBp]	-	[AIBSCS, BPP, GEA, HIBSCS]	Strong	
 Fur	sdhCDAB-sucABCD[sdhCp]	+	[AIBSCS, GEA]	Weak	
-Fur	sodA[sodAp]	-	[BCE, BPP, GEA, HIBSCS]	Weak	
+Fur	sodA[sodAp]	-	[BCE, BPP, GEA, HIBSCS]	Strong	
 Fur	soxR[soxRp]	-	[GEA]	Weak	
 Fur	soxS[soxSp]	-	[GEA]	Weak	
 Fur	sufABCDSE[sufAp]	-	[BPP, GEA, HIBSCS, SM]	Strong	
-Fur	tonB[tonBp]	+	[AIBSCS, BPP, HIBSCS, BCE]	Weak	
+Fur	tonB[tonBp]	+	[AIBSCS, BPP, HIBSCS, BCE]	Strong	
 Fur	ygaC[ygaCp]	-	[AIBSCS, GEA]	Weak	
 Fur	yhhY[yhhYp]	-	[AIBSCS, GEA, HIBSCS]	Weak	
-Fur	yjjZ[yjjZp]	-	[AIBSCS, BPP, GEA, HIBSCS]	Weak	
+Fur	yjjZ[yjjZp]	-	[AIBSCS, BPP, GEA, HIBSCS]	Strong	
 Fur	yqjH[yqjHp]	-	[AIBSCS, GEA, HIBSCS]	Weak	
 Fur	zinT[zinTp]	+	[GEA]	Weak	
 Fur	zwf[zwfp]	-	[GEA]	Weak	
 GadE	cyoABCDE[cyoAp]	+	[GEA]	Weak	
 GadE	fliC[fliCp]	+	[GEA]	Weak	
 GadE	gadBC[gadBp]	+	[BPP, GEA, HIBSCS]	Strong	
-GadE	gadE[gadEp1]	+	[GEA]	Weak	
-GadE	gadE-mdtEF[gadEp]	+	[BPP, GEA, HIBSCS]	Strong	
+GadE	gadEF[gadEp1]	+	[GEA]	Weak	
+GadE	gadEF-mdtEF[gadEp]	+	[BPP, GEA, HIBSCS]	Strong	
 GadE	gadX[gadXp]	+	[BPP, GEA]	Strong	
 GadE	gadXW[gadXp]	+	[BPP, GEA]	Strong	
 GadE	gltBDF[gltBp]	+	[BPP, GEA]	Strong	
 GadE	gnd[gndp]	+	[GEA]	Weak	
-GadE	hdeAB-yhiD[hdeAp]	+	[AIBSCS, BPP, GEA, HIBSCS]	Weak	
-GadE	hdeD[hdeDp]	+	[AIBSCS, BPP, GEA, HIBSCS]	Weak	
+GadE	hdeAB-yhiD[hdeAp]	+	[AIBSCS, BPP, GEA, HIBSCS]	Strong	
+GadE	hdeD[hdeDp]	+	[AIBSCS, BPP, GEA, HIBSCS]	Strong	
 GadE	lrp[lrpp]	+	[GEA]	Weak	
 GadE	purA[purAp]	+	[GEA]	Weak	
 GadE	rcsA[rcsAp]	+	[BPP, GEA]	Strong	
@@ -1084,79 +1100,79 @@ GadE-RcsB	slp-dctR[slpp]	+	[BPP, GEA]	Strong
 GadE-RcsB	yhiM[yhiMp]	+	[BPP]	Strong	
 GadW	gadAX[gadAp]	+-	[BPP, GEA, HIBSCS]	Strong	
 GadW	gadBC[gadBp]	+-	[BPP, GEA, HIBSCS]	Strong	
-GadW	gadE-mdtEF[gadEp]	+	[AIBSCS, GEA, HIBSCS]	Weak	
+GadW	gadEF-mdtEF[gadEp]	+	[AIBSCS, GEA, HIBSCS]	Weak	
 GadW	gadW[gadWp2]	-	[GEA]	Weak	
 GadW	gadX[gadXp]	-	[GEA]	Weak	
 GadW	gadXW[gadXp]	-	[GEA]	Weak	
 GadW	gadY[gadYp]	-	[GEA]	Weak	
-GadW	hdeAB-yhiD[hdeAp]	+-	[AIBSCS, BPP, GEA, HIBSCS]	Weak	
+GadW	hdeAB-yhiD[hdeAp]	+-	[AIBSCS, BPP, GEA, HIBSCS]	Strong	
 GadW	slp-dctR[slpp]	-	[AIBSCS, GEA, HIBSCS]	Weak	
 GadX	asnB[asnBp]	+	[GEA]	Weak	
 GadX	btuB-murI[btuBp]	-	[BPP, GEA, HIBSCS]	Strong	
 GadX	cadBA[cadBp]	+	[GEA]	Weak	
 GadX	gadAX[gadAp]	+	[BPP, GEA, HIBSCS]	Strong	
 GadX	gadBC[gadBp]	+	[BPP, GEA, HIBSCS]	Strong	
-GadX	gadE[gadEp3]	+	[AIBSCS, BPP, GEA, HIBSCS]	Weak	
-GadX	gadE-mdtEF[gadEp]	+	[GEA, HIBSCS]	Weak	
+GadX	gadEF[gadEp3]	+	[AIBSCS, BPP, GEA, HIBSCS]	Strong	
+GadX	gadEF-mdtEF[gadEp]	+	[GEA, HIBSCS]	Weak	
 GadX	gadW[gadWp2]	-	[GEA]	Weak	
 GadX	gadX[gadXp]	+	[GEA]	Weak	
 GadX	gadXW[gadXp]	+	[GEA]	Weak	
 GadX	gadY[gadYp]	+	[GEA]	Weak	
 GadX	glnK-amtB[glnKp]	+	[GEA]	Weak	
-GadX	hdeAB-yhiD[hdeAp]	+-	[AIBSCS, BPP, GEA, HIBSCS]	Weak	
-GadX	hdeD[hdeDp]	+	[AIBSCS, BPP, GEA, HIBSCS]	Weak	
+GadX	glsA-ybaT[glsAp]	+	[GEA]	Weak	
+GadX	hdeAB-yhiD[hdeAp]	+-	[AIBSCS, BPP, GEA, HIBSCS]	Strong	
+GadX	hdeD[hdeDp]	+	[AIBSCS, BPP, GEA, HIBSCS]	Strong	
 GadX	hns[hnsp]	+	[GEA]	Weak	
 GadX	lon[lonp]	+	[GEA]	Weak	
 GadX	rpoS[rpoSp]	+	[GEA]	Weak	
-GadX	slp-dctR[slpp]	+	[AIBSCS, BPP, GEA, HIBSCS]	Weak	
+GadX	slp-dctR[slpp]	+	[AIBSCS, BPP, GEA, HIBSCS]	Strong	
 GadX	uspE[uspEp]	+	[GEA]	Weak	
-GadX	ybaST[ybaSp]	+	[GEA]	Weak	
 GalR	galE[galEp1]	-	[BPP, GEA, HIBSCS, SM]	Strong	
-GalR	galE[galEp2]	+	[BPP, GEA, HIBSCS, SM]	Strong	
+GalR	galE[galEp2]	+-	[BPP, GEA, HIBSCS, SM]	Strong	
 GalR	galET[galEp1]	-	[BPP, GEA, HIBSCS, SM]	Strong	
-GalR	galET[galEp2]	+	[BPP, GEA, HIBSCS, SM]	Strong	
+GalR	galET[galEp2]	+-	[BPP, GEA, HIBSCS, SM]	Strong	
 GalR	galETK[galEp1]	-	[BPP, GEA, HIBSCS, SM]	Strong	
-GalR	galETK[galEp2]	+	[BPP, GEA, HIBSCS, SM]	Strong	
+GalR	galETK[galEp2]	+-	[BPP, GEA, HIBSCS, SM]	Strong	
 GalR	galETKM[galEp1]	-	[BPP, GEA, HIBSCS, SM]	Strong	
-GalR	galETKM[galEp2]	+	[BPP, GEA, HIBSCS, SM]	Strong	
-GalR	galP[galPp]	-	[AIBSCS, BPP, GEA, HIBSCS, SM]	Weak	
+GalR	galETKM[galEp2]	+-	[BPP, GEA, HIBSCS, SM]	Strong	
+GalR	galP[galPp]	-	[AIBSCS, BPP, GEA, HIBSCS, SM]	Strong	
 GalR	galR[galRp]	-	[BPP, GEA, HIBSCS]	Strong	
 GalR	galS[galSp]	-	[GEA, HIBSCS]	Weak	
 GalR	mglBAC[mglBp]	-	[GEA, HIBSCS]	Weak	
 GalS	galE[galEp1]	-	[BPP, GEA, HIBSCS]	Strong	
-GalS	galE[galEp2]	+	[BPP, GEA, HIBSCS]	Strong	
+GalS	galE[galEp2]	+-	[BPP, GEA, HIBSCS]	Strong	
 GalS	galET[galEp1]	-	[BPP, GEA, HIBSCS]	Strong	
-GalS	galET[galEp2]	+	[BPP, GEA, HIBSCS]	Strong	
+GalS	galET[galEp2]	+-	[BPP, GEA, HIBSCS]	Strong	
 GalS	galETK[galEp1]	-	[BPP, GEA, HIBSCS]	Strong	
-GalS	galETK[galEp2]	+	[BPP, GEA, HIBSCS]	Strong	
+GalS	galETK[galEp2]	+-	[BPP, GEA, HIBSCS]	Strong	
 GalS	galETKM[galEp1]	-	[BPP, GEA, HIBSCS]	Strong	
-GalS	galETKM[galEp2]	+	[BPP, GEA, HIBSCS]	Strong	
-GalS	galP[galPp]	-	[AIBSCS, BPP, GEA, SM]	Weak	
+GalS	galETKM[galEp2]	+-	[BPP, GEA, HIBSCS]	Strong	
+GalS	galP[galPp]	-	[AIBSCS, BPP, GEA, SM]	Strong	
 GalS	galR[galRp]	-	[GEA, HIBSCS]	Weak	
 GalS	galS[galSp]	-	[BCE, GEA]	Weak	
 GalS	mglBAC[mglBp]	-	[GEA, HIBSCS]	Weak	
 GatR	gatYZABCD[gatYp]	-	[GEA]	Weak	
-GcvA	gcvA[gcvAp]	-	[AIBSCS, BCE, BPP, GEA, HIBSCS, IC, SM]	Weak	
-GcvA	gcvB[gcvBp]	+	[AIBSCS, BCE, BPP, GEA, HIBSCS, IC, SM]	Weak	
-GcvA	gcvTHP[gcvTp]	+-	[BCE, BPP, GEA, HIBSCS, SM, IC]	Weak	
-GlcC	glcC[glcCp]	-	[BCE, GEA, SM]	Weak	
-GlcC	glcDEFGBA[glcDp]	+	[BCE, GEA, SM]	Weak	
+GcvA	gcvA[gcvAp]	-	[AIBSCS, BCE, BPP, GEA, HIBSCS, IC, SM]	Strong	
+GcvA	gcvB[gcvBp]	+	[AIBSCS, BCE, BPP, GEA, HIBSCS, IC, SM]	Strong	
+GcvA	gcvTHP[gcvTp]	+-	[BCE, BPP, GEA, HIBSCS, SM, IC]	Strong	
+GlcC	glcC[glcCp]	-	[BCE, GEA, SM]	Strong	
+GlcC	glcDEFGBA[glcDp]	+	[BCE, GEA, SM]	Strong	
 GlpR	glpABC[glpABCp]	-	[BPP, HIBSCS, SM]	Strong	
 GlpR	glpD[glpDp]	-	[BPP, GEA, HIBSCS, SM]	Strong	
 GlpR	glpFKX[glpFp]	-	[BPP, HIBSCS]	Strong	
 GlpR	glpTQ[glpTQp]	-	[BPP, GEA, HIBSCS, SM]	Strong	
 GlrR	glmY[glmYp1]	+	[BPP, GEA, HIBSCS, SM]	Strong	
-GntR	edd-eda[eddp1]	-	[AIBSCS, BPP, HIBSCS, SM]	Weak	
-GntR	gntK[gntKp]	-	[AIBSCS, BPP, GEA, HIBSCS, SM]	Weak	
-GntR	gntKU[gntKp]	-	[AIBSCS, BPP, GEA, HIBSCS, SM]	Weak	
-GntR	gntT[gntTp3]	-	[AIBSCS, BPP, GEA, HIBSCS, TASES]	Weak	
-GntR	gntT[gntTp2]	-	[AIBSCS, BPP, GEA, HIBSCS, TASES]	Weak	
-GntR	gntT[gntTp1]	-	[AIBSCS, BPP, GEA, HIBSCS, TASES]	Weak	
-GntR	gntX-nfuA[gntXp]	-	[AIBSCS]	Weak	
+GlrR	rseD-rpoE-rseABC[rpoEp2b]	+	[BPP, GEA, HIBSCS]	Strong	
+GntR	edd-eda[eddp1]	-	[AIBSCS, BPP, HIBSCS, SM]	Strong	
+GntR	gntK[gntKp]	-	[AIBSCS, BPP, GEA, HIBSCS, SM]	Strong	
+GntR	gntKU[gntKp]	-	[AIBSCS, BPP, GEA, HIBSCS, SM]	Strong	
+GntR	gntT[gntTp3]	-	[AIBSCS, BPP, GEA, HIBSCS, TASES]	Strong	
+GntR	gntT[gntTp2]	-	[AIBSCS, BPP, GEA, HIBSCS, TASES]	Strong	
+GntR	gntT[gntTp1]	-	[AIBSCS, BPP, GEA, HIBSCS, TASES]	Strong	
 GntR	idnDOTR[idnDp]	-	[AIBSCS, GEA, HIBSCS]	Weak	
 GntR	idnK[idnKp]	-	[AIBSCS, GEA, HIBSCS]	Weak	
+GntR	yhgH-nfuA[gntXp]	-	[AIBSCS]	Weak	
 GutM	srlAEBD-gutM-srlR-gutQ[srlAp]	+	[GEA]	Weak	
-GutR	srlAEBD-gutM-srlR-gutQ[]	-	[]	
 H-NS	acrEF[acrEp]	-	[GEA]	Weak	
 H-NS	adeD[adep]	-	[GEA]	Weak	
 H-NS	adiA[adiAp]	-	[GEA]	Weak	
@@ -1166,14 +1182,17 @@ H-NS	asr[asrp]	-	[GEA, IMP]	Weak
 H-NS	bglG[bglGp]	-	[BPP, GEA]	Strong	
 H-NS	bglGFB[bglGp]	-	[BPP, GEA]	Strong	
 H-NS	bolA[bolAp1]	-	[GEA]	Weak	
-H-NS	cadBA[cadBp]	-	[AIBSCS, BPP, GEA]	Weak	
+H-NS	cadBA[cadBp]	-	[AIBSCS, BPP, GEA]	Strong	
 H-NS	cadC[cadCp]	-	[BPP]	Strong	
 H-NS	caiF[caiFp]	-	[GEA]	Weak	
 H-NS	caiTABCDE[caiTp]	-	[IMP]	Weak	
-H-NS	casABCDE12[casp]	-	[BPP, GEA]	Strong	
+H-NS	casABCDE12[casAp]	-	[BPP, GEA]	Strong	
 H-NS	chiA[chiAp]	-	[BPP, GEA]	Strong	
+H-NS	cmoM-mukFEB[cmoMp]	+	[GEA]	Weak	
+H-NS	csgDEFG[csgDp1]	-	[BPP, GEA]	Strong	
 H-NS	csiD-lhgO-gabDTP[csiDp]	+	[GEA]	Weak	
 H-NS	csiE[csiEp]	+	[GEA]	Weak	
+H-NS	cspA[cspAp1]	-	[AIBSCS, BPP, GEA]	Strong	
 H-NS	cspD[cspDp]	+	[GEA]	Weak	
 H-NS	cydAB[cydAp3]	-	[BPP, GEA]	Strong	
 H-NS	cydAB[cydAp4]	-	[BPP, GEA]	Strong	
@@ -1194,7 +1213,7 @@ H-NS	fliAZ-tcyJ[fliAp1]	+	[GEA, IMP]	Weak
 H-NS	fliC[fliCp]	+	[GEA]	Weak	
 H-NS	ftnA[ftnAp]	-	[BPP, GEA]	Strong	
 H-NS	gadAX[gadAp]	-	[BPP, GEA]	Strong	
-H-NS	gadE-mdtEF[gadEp]	-	[BPP]	Strong	
+H-NS	gadEF-mdtEF[gadEp]	-	[BPP]	Strong	
 H-NS	gadW[gadWp2]	-	[BPP]	Strong	
 H-NS	gadX[gadXp]	-	[BPP, GEA]	Strong	
 H-NS	gadXW[gadXp]	-	[BPP, GEA]	Strong	
@@ -1220,6 +1239,7 @@ H-NS	lacZYA[lacZp1]	-	[BPP]	Strong
 H-NS	leuO[leuOp]	-	[GEA, HIBSCS]	Weak	
 H-NS	leuO[leuOp2]	-	[BPP, GEA, HIBSCS]	Strong	
 H-NS	lrp[lrpp]	-	[BPP, GEA]	Strong	
+H-NS	mdtJI[mdtJp]	-	[AIBSCS, BPP, GEA]	Strong	
 H-NS	micF[micFp]	-	[GEA]	Weak	
 H-NS	nhaAR[nhaAp1]	-	[GEA]	Weak	
 H-NS	nirBDC-cysG[nirBp]	-	[BPP, GEA]	Strong	
@@ -1228,7 +1248,7 @@ H-NS	nrdDG[nrdDp]	-	[BPP, GEA]	Strong
 H-NS	osmC[osmCp1]	-	[GEA]	Weak	
 H-NS	osmC[osmCp2]	-	[GEA]	Weak	
 H-NS	proVWX[proVp1]	-	[BPP, GEA]	Strong	
-H-NS	proVWX[proVp3]	-	[AIBSCS, BPP, GEA]	Weak	
+H-NS	proVWX[proVp3]	-	[AIBSCS, BPP, GEA]	Strong	
 H-NS	rcsA[rcsAp]	-	[GEA]	Weak	
 H-NS	rcsDB[rcsDp]	-	[BPP]	Strong	
 H-NS	relA-mazEF[relAp2]	+	[GEA]	Weak	
@@ -1238,13 +1258,12 @@ H-NS	rrsD-ileU-alaU-rrlD-rrfD-thrV-rrfF[rrsDp1]	-	[GEA]	Weak
 H-NS	rrsG-gltW-rrlG-rrfG[rrsGp1]	-	[GEA, TAS]	Weak	
 H-NS	rrsH-ileV-alaV-rrlH-rrfH[rrsHp1]	-	[GEA]	Weak	
 H-NS	slp-dctR[slpp]	-	[BPP]	Strong	
-H-NS	smtA-mukFEB[smtAp]	+	[GEA]	Weak	
 H-NS	srlAEBD-gutM-srlR-gutQ[srlAp]	+	[GEA]	Weak	
 H-NS	ssrS[ssrSp1]	-	[BPP, GEA]	Strong	
 H-NS	ssrS[ssrSp2]	-	[BPP, GEA]	Strong	
 H-NS	ssrS-fau[ssrSp1]	-	[BPP, GEA]	Strong	
 H-NS	ssrS-fau[ssrSp2]	-	[BPP, GEA]	Strong	
-H-NS	stpA[stpAp1]	-	[BCE, BPP, GEA]	Weak	
+H-NS	stpA[stpAp1]	-	[BCE, BPP, GEA]	Strong	
 H-NS	yciG[yciGp]	-	[BPP, GEA, HIBSCS]	Strong	
 H-NS	yciGFE[yciGp]	-	[BPP, GEA, HIBSCS]	Strong	
 H-NS	ydeO[ydeOp]	-	[BPP]	Strong	
@@ -1264,15 +1283,20 @@ HU	micF[micFp]	+	[GEA]	Weak
 HU	mtr[mtrp2]	-	[GEA]	Weak	
 HU	seqA-pgm[seqAp]	-	[GEA]	Weak	
 HU	tyrP[tyrPp1]	-	[GEA]	Weak	
-HcaR	hcaEFCBD[hcaEp]	+	[AIBSCS, BPP, GEA]	Weak	
-HcaR	hcaR[hcaRp]	-	[AIBSCS, BPP, GEA]	Weak	
+HcaR	hcaEFCBD[hcaEp]	+	[AIBSCS, BPP, GEA]	Strong	
+HcaR	hcaR[hcaRp]	-	[AIBSCS, BPP, GEA]	Strong	
 HdfR	flhDC[flhDp]	-	[BPP, GEA]	Strong	
 HdfR	gltBDF[gltBp]	+	[BPP]	Strong	
+HigA	higBA[higBp]	-	[BPP, IHBCE]	Strong	
 HipAB	hipBA[hipBp]	-	[BPP, GEA, HIBSCS]	Strong	
 HipAB	relA-mazEF[relAp1]	-	[BPP, GEA]	Strong	
 HipB	fadH[fadHp]	-	[BPP, GEA, HIBSCS]	Strong	
 HipB	hipBA[hipBp]	-	[BPP, GEA, HIBSCS]	Strong	
-HipB	relA-mazEF[relAp1]	-	[AIBSCS, BPP, GEA]	Weak	
+HipB	relA-mazEF[relAp1]	-	[AIBSCS, BPP, GEA]	Strong	
+HprR	cusCFBA[cusCp]	+	[BPP, HIBSCS]	Strong	
+HprR	cusRS[cusRp]	+	[BPP, HIBSCS]	Strong	
+HprR	cyoABCDE[cyoAp]	-	[GEA, HIBSCS]	Weak	
+HprR	yedX[yedXp]	+	[BPP, GEA, HIBSCS]	Strong	
 HyfR	hyfABCDEFGHIJR-focB[hyfAp]	+	[AIBSCS, GEA]	Weak	
 HypT	cydAB[cydAp1]	+	[BPP, GEA]	Strong	
 HypT	cysH[cysHp]	+	[GEA]	Weak	
@@ -1281,12 +1305,13 @@ HypT	metBL[metBp]	+	[GEA]	Weak
 HypT	metNIQ[metNp]	+	[BPP, GEA]	Strong	
 IHF	aceBAK[aceBp]	+	[BPP, GEA]	Strong	
 IHF	acs-yjcH-actP[acsp1]	-	[BPP, GEA]	Strong	
-IHF	acs-yjcH-actP[acsp2]	-	[AIBSCS, BPP, GEA, SM]	Weak	
-IHF	adiA[adiAp]	+	[GEA, SM]	Weak	
+IHF	acs-yjcH-actP[acsp2]	-	[AIBSCS, BPP, GEA, SM]	Strong	
+IHF	adiA[adiAp]	+	[GEA, SM]	Strong	
 IHF	amiA-hemF[amiAp]	-	[HIBSCS]	Weak	
-IHF	atoDAEB[atoDp]	+	[GEA, HIBSCS, SM]	Weak	
-IHF	carAB[carAp1]	+-	[BCE, BPP, GEA, HIBSCS, SM]	Weak	
+IHF	atoDAEB[atoDp]	+	[GEA, HIBSCS, SM]	Strong	
+IHF	carAB[carAp1]	+-	[BCE, BPP, GEA, HIBSCS, SM]	Strong	
 IHF	csgDEFG[csgDp1]	+	[BPP, GEA]	Strong	
+IHF	csrB[csrBp]	+	[AIBSCS, GEA]	Weak	
 IHF	cysJIH[cysJp]	+	[BPP, GEA]	Strong	
 IHF	dcuD[dcuDp2]	+	[HIBSCS]	Weak	
 IHF	dmsABC[dmsAp2]	-	[BPP, GEA, HIBSCS]	Strong	
@@ -1296,10 +1321,11 @@ IHF	dusB-fis[dusBp]	+	[BPP, GEA, HIBSCS, SM]	Strong
 IHF	fimAICDFGH[fimAp]	+	[GEA, HIBSCS]	Weak	
 IHF	fimB[fimBp2]	+	[BPP, HIBSCS, SM]	Strong	
 IHF	flhDC[flhDp]	-	[HIBSCS]	Weak	
+IHF	fliAZ-tcyJ[fliAp1]	-	[GEA, IHBCE, SM]	Strong	
 IHF	fnr[fnrp]	+	[BPP, GEA, SM]	Strong	
-IHF	focA-pflB[focAp1]	+	[BCE, BPP, GEA, HIBSCS, SM]	Weak	
+IHF	focA-pflB[focAp1]	+	[BCE, BPP, GEA, HIBSCS, SM]	Strong	
 IHF	folA[folAp]	+	[GEA, HIBSCS]	Weak	
-IHF	gcd[gcdp1]	+	[GEA, HIBSCS, SM]	Weak	
+IHF	gcd[gcdp1]	+	[GEA, HIBSCS, SM]	Strong	
 IHF	glcDEFGBA[glcDp]	+	[BCE, GEA]	Weak	
 IHF	glmY[glmYp1]	+	[BPP, GEA, HIBSCS, SM]	Strong	
 IHF	glnHPQ[glnHp2]	+	[BPP, HIBSCS, SM]	Strong	
@@ -1309,7 +1335,7 @@ IHF	gltBDF[gltBp]	+	[BPP, GEA]	Strong
 IHF	hemA-prfA-prmC[hemAp1]	+	[GEA]	Weak	
 IHF	hemF[hemFp]	-	[HIBSCS]	Weak	
 IHF	hipBA[hipBp]	+	[HIBSCS]	Weak	
-IHF	hpt[hptp]	-	[GEA, HIBSCS, SM]	Weak	
+IHF	hpt[hptp]	-	[GEA, HIBSCS, SM]	Strong	
 IHF	hycABCDEFGHI[hycAp]	+	[BPP, GEA, HIBSCS]	Strong	
 IHF	hypABCDE[hypAp]	+	[BPP, GEA, HIBSCS]	Strong	
 IHF	hypABCDE-fhlA[hypAp]	+	[BPP, GEA, HIBSCS]	Strong	
@@ -1320,32 +1346,33 @@ IHF	ilvL[ilvLp1]	-	[BPP, GEA, HIBSCS, SM]	Strong
 IHF	ilvL[ilvLp2]	+	[BPP, GEA, HIBSCS, SM]	Strong	
 IHF	ilvLXG_1G_2MEDA[ilvLp1]	-	[BPP, GEA, HIBSCS, SM]	Strong	
 IHF	ilvLXG_1G_2MEDA[ilvLp2]	+	[BPP, GEA, HIBSCS, SM]	Strong	
-IHF	micF[micFp]	-	[BCE, BPP, GEA, HIBSCS]	Weak	
+IHF	micF[micFp]	-	[BCE, BPP, GEA, HIBSCS]	Strong	
 IHF	mtr[mtrp2]	-	[GEA]	Weak	
-IHF	narGHJI[narGp]	+	[BCE, BPP, GEA, HIBSCS]	Weak	
+IHF	narGHJI[narGp]	+	[BCE, BPP, GEA, HIBSCS]	Strong	
 IHF	narK[narKp1]	+	[BPP, GEA]	Strong	
-IHF	ndh[ndhp]	-	[BCE, BPP, GEA, HIBSCS]	Weak	
+IHF	ndh[ndhp]	-	[BCE, BPP, GEA, HIBSCS]	Strong	
 IHF	nirBDC-cysG[nirBp]	+	[BPP, GEA, HIBSCS, BCE]	Strong	
-IHF	nmpC[nmpCp]	-	[HIBSCS, SM]	Weak	
+IHF	nmpC[nmpCp]	-	[HIBSCS, SM]	Strong	
 IHF	norVW[norVp]	+	[BPP]	Strong	
-IHF	nrfABCDEFG[nrfAp]	+	[AIBSCS, BPP, GEA, SM]	Weak	
+IHF	nrfABCDEFG[nrfAp]	+	[AIBSCS, BPP, GEA, SM]	Strong	
 IHF	nuoABCEFGHIJKLMN[nuoAp2]	-	[BPP, GEA, HIBSCS, SM]	Strong	
-IHF	ompC[ompCp1]	-	[BCE, BPP, GEA, HIBSCS]	Weak	
-IHF	ompC[ompCp3]	-	[BCE, BPP, GEA, HIBSCS]	Weak	
+IHF	ompC[ompCp1]	-	[BCE, BPP, GEA, HIBSCS]	Strong	
+IHF	ompC[ompCp3]	-	[BCE, BPP, GEA, HIBSCS]	Strong	
 IHF	ompF[ompFp]	+	[BCE, HIBSCS]	Weak	
 IHF	ompR-envZ[ompRp1]	-	[BPP, SM]	Strong	
 IHF	osmE[osmEp]	-	[GEA, HIBSCS]	Weak	
-IHF	osmY[osmYp]	-	[BCE, BPP, GEA, HIBSCS]	Weak	
+IHF	osmY[osmYp]	-	[BCE, BPP, GEA, HIBSCS]	Strong	
 IHF	paaABCDEFGHIJK[paaAp]	+	[BPP, GEA, HIBSCS, SM]	Strong	
 IHF	paaZ[paaZp]	+	[BPP, GEA, HIBSCS, SM]	Strong	
 IHF	patA[patAp]	?	[AIBSCS]	Weak	
 IHF	proVWX[proVp3]	+	[BPP, GEA]	Strong	
-IHF	pspABCDE[pspAp]	+	[BCE, BPP, GEA, HIBSCS]	Weak	
+IHF	pspABCDE[pspAp]	+	[BCE, BPP, GEA, HIBSCS]	Strong	
 IHF	pspG[pspGp]	+	[ICA]	Weak	
 IHF	pstS[pstSp]	+	[BPP, GEA]	Strong	
 IHF	pstSCA[pstSp]	+	[BPP, GEA]	Strong	
 IHF	pstSCAB-phoU[pstSp]	+	[BPP, GEA]	Strong	
 IHF	rpoH[rpoHp6]	+	[BPP, GEA]	Strong	
+IHF	rseD-rpoE-rseABC[rpoEp1b]	-	[GEA, HIBSCS, IC]	Weak	
 IHF	rtcBA[rtcBp]	+	[AIBSCS]	Weak	
 IHF	sodA[sodAp]	-	[BPP, HIBSCS]	Strong	
 IHF	sodB[sodBp]	-	[AIBSCS, GEA]	Weak	
@@ -1354,7 +1381,7 @@ IHF	ssuEADCB[ssuEp]	+	[BPP, GEA, HIBSCS]	Strong
 IHF	sucAB[sucAp]	-	[AIBSCS, GEA]	Weak	
 IHF	sucABCD[sucAp]	-	[AIBSCS, GEA]	Weak	
 IHF	sufABCDSE[sufAp]	+	[BPP, SM]	Strong	
-IHF	tdcABCDEFG[tdcAp]	+	[BCE, BPP, HIBSCS, SM]	Weak	
+IHF	tdcABCDEFG[tdcAp]	+	[BCE, BPP, HIBSCS, SM]	Strong	
 IHF	tyrP[tyrPp1]	-	[GEA]	Weak	
 IHF	ubiCA[ubiCp]	-	[GEA, HIBSCS]	Weak	
 IHF	ulaABCDEF[ulaAp]	-	[BCE, NTAS]	Weak	
@@ -1375,8 +1402,8 @@ IdnR	gntK[gntKp]	-	[GEA]	Weak
 IdnR	gntKU[gntKp]	-	[GEA]	Weak	
 IdnR	idnDOTR[idnDp]	+	[AIBSCS, GEA]	Weak	
 IdnR	idnK[idnKp]	+	[AIBSCS, GEA]	Weak	
-IlvY	ilvC[ilvCp]	+	[BCE, BPP, GEA, HIBSCS, IC]	Weak	
-IlvY	ilvY[ilvYp]	-	[BCE, BPP, GEA, HIBSCS, IC]	Weak	
+IlvY	ilvC[ilvCp]	+	[BCE, BPP, GEA, HIBSCS, IC]	Strong	
+IlvY	ilvY[ilvYp]	-	[BCE, BPP, GEA, HIBSCS, IC]	Strong	
 IscR	erpA[erpAp]	-	[BPP, GEA]	Strong	
 IscR	hyaABCDEF[hyaAp]	-	[BPP, GEA, HIBSCS]	Strong	
 IscR	iscRSUA[iscRp]	-	[BPP, GEA, SM]	Strong	
@@ -1389,11 +1416,11 @@ IscR	ydiU[ydiUp]	+	[BPP, GEA]	Strong
 KdgR	eda[edap1]	-	[BPP, GEA, HIBSCS]	Strong	
 KdgR	edd-eda[eddp1]	-	[AIBSCS, HIBSCS]	Weak	
 KdpE	kdpFABC[kdpFp]	+	[BPP, GEA, HIBSCS, SM]	Strong	
-LacI	lacZYA[lacZp1]	-	[HIBSCS, SM]	Weak	
+LacI	lacZYA[lacZp1]	-	[HIBSCS, SM]	Strong	
 LeuO	bglG[bglGp]	+	[BPP, GEA, IC]	Strong	
 LeuO	bglGFB[bglGp]	+	[BPP, GEA, IC]	Strong	
 LeuO	cadC[cadCp]	-	[GEA]	Weak	
-LeuO	casABCDE12[casp]	+	[BPP, GEA, IC]	Strong	
+LeuO	casABCDE12[casAp]	+	[BPP, GEA, IC]	Strong	
 LeuO	dsrA[dsrAp]	-	[GEA]	Weak	
 LeuO	leuL[leuLp]	+	[GEA]	Weak	
 LeuO	leuLABCD[leuLp]	+	[GEA]	Weak	
@@ -1403,30 +1430,31 @@ LeuO	yjjQ-bglJ[yjjQp]	+	[BPP]	Strong
 LexA	cho[chop]	-	[AIBSCS, HIBSCS]	Weak	
 LexA	dinB-yafNOP[dinBp]	-	[AIBSCS, HIBSCS, ICWHO]	Weak	
 LexA	dinD[dinDp]	-	[AIBSCS, GEA, HIBSCS]	Weak	
-LexA	dinG[dinGp]	-	[AIBSCS, BPP, GEA]	Weak	
-LexA	dinI[dinIp]	-	[AIBSCS, BPP, GEA, HIBSCS, IHBCE, SM]	Weak	
+LexA	dinG-ybiB[dinGp]	-	[AIBSCS, BPP, GEA]	Strong	
+LexA	dinI[dinIp]	-	[AIBSCS, BPP, GEA, HIBSCS, IHBCE, SM]	Strong	
 LexA	dinJ-yafQ[dinJp]	-	[AIBSCS, GEA]	Weak	
 LexA	dinQ[dinQp]	-	[AIBSCS, GEA, HIBSCS]	Weak	
-LexA	ftsK[ftsKp1]	-	[AIBSCS, BPP, GEA]	Weak	
+LexA	ftsK[ftsKp1]	-	[AIBSCS, BPP, GEA]	Strong	
 LexA	ftsLI-murEF-mraY-murD-ftsW-murGC-ddlB-ftsQAZ-lpxC[ftsLp2]	-	[HIBSCS]	Weak	
 LexA	hokE[hokEp]	-	[AIBSCS]	Weak	
 LexA	insK[insKp]	-	[AIBSCS, GEA]	Weak	
 LexA	lexA-dinF[lexAp]	-	[BPP, HIBSCS]	Strong	
 LexA	molR_1[molR_1p]	-	[AIBSCS]	Weak	
-LexA	phr[phrBp]	-	[GEA, HIBSCS]	Weak	
-LexA	polB[polBp]	-	[AIBSCS, BPP, GEA]	Weak	
+LexA	phr[phrp]	-	[GEA, HIBSCS]	Weak	
+LexA	polB[polBp]	-	[AIBSCS, BPP, GEA]	Strong	
 LexA	ptrA[ptrAp]	-	[BPP, SM]	Strong	
 LexA	ptrA-recBD[ptrAp]	-	[BPP, SM]	Strong	
 LexA	recA[recAp]	-	[BPP]	Strong	
 LexA	recAX[recAp]	-	[BPP]	Strong	
-LexA	recN[recNp]	-	[AIBSCS, BPP]	Weak	
-LexA	rpsU-dnaG-rpoD[rpsUp3]	-	[BCE, SM]	Weak	
+LexA	recN[recNp]	-	[AIBSCS, BPP]	Strong	
+LexA	recQ[recQp]	-	[GEA, HIBSCS]	Weak	
+LexA	rpsU-dnaG-rpoD[rpsUp3]	-	[BCE, SM]	Strong	
 LexA	ruvAB[ruvAp2]	-	[BPP, HIBSCS]	Strong	
 LexA	ruvAB[ruvAp1]	-	[BPP, HIBSCS]	Strong	
 LexA	sbmC[sbmCp2]	-	[GEA, IHBCE]	Weak	
 LexA	ssb[ssbp3]	-	[BCE, HIBSCS]	Weak	
 LexA	sulA[sulAp]	-	[BCE]	Weak	
-LexA	symE[symEp]	-	[AIBSCS, BPP]	Weak	
+LexA	symE[symEp]	-	[AIBSCS, BPP]	Strong	
 LexA	tisB[tisBp]	-	[GEA, ICA]	Weak	
 LexA	umuDC[umuDp]	-	[BPP, HIBSCS]	Strong	
 LexA	uvrA[uvrAp]	-	[BCE, HIBSCS]	Weak	
@@ -1436,15 +1464,19 @@ LexA	uvrD[uvrDp1]	-	[HIBSCS]	Weak
 LexA	uvrYC[uvrYp2]	-	[AIBSCS, GEA]	Weak	
 LexA	yafNOP[yafNp]	-	[HIBSCS]	Weak	
 LexA	ybfE[ybfEp]	-	[AIBSCS]	Weak	
-LexA	ydjM[ydjMp]	-	[AIBSCS, BPP, GEA]	Weak	
+LexA	ydjM[ydjMp]	-	[AIBSCS, BPP, GEA]	Strong	
 LexA	yebG[yebGp]	-	[AIBSCS, GEA, HIBSCS, IHBCE]	Weak	
-LldR	lldPRD[lldPp]	+	[AIBSCS, BPP, GEA, SM, HIBSCS]	Weak	
+LldR	lldPRD[lldPp]	+-	[AIBSCS, BPP, GEA, SM, HIBSCS]	Strong	
 LrhA	fimE[fimEp]	+	[BPP, GEA]	Strong	
 LrhA	flhDC[flhDp]	-	[BPP, GEA]	Strong	
+LrhA	leuO[leuOp]	+	[BPP, GEA]	Strong	
+LrhA	leuO[leuOp1]	+	[BPP, GEA]	Strong	
+LrhA	leuO[leuOp3]	+	[BPP, GEA]	Strong	
 LrhA	lrhA[lrhAp]	+	[BPP, GEA]	Strong	
 Lrp	adhE[adhEp1]	-	[AIBSCS, GEA]	Weak	
 Lrp	aidB[aidBp]	-	[BPP, HIBSCS]	Strong	
 Lrp	alaA[alaAp9]	-	[GEA]	Weak	
+Lrp	alaE[alaEp]	+	[BCE, BPP, GEA, HIBSCS]	Strong	
 Lrp	argO[argOp]	+	[BPP, GEA, HIBSCS]	Strong	
 Lrp	avtA[avtAp]	-	[GEA]	Weak	
 Lrp	cadBA[cadBp]	+	[BPP, GEA]	Strong	
@@ -1454,30 +1486,30 @@ Lrp	dadAX[dadAp1]	-	[BPP, GEA, HIBSCS, SM]	Strong
 Lrp	dadAX[dadAp3]	-	[BPP, GEA, HIBSCS, SM]	Strong	
 Lrp	fimAICDFGH[fimAp]	+	[BPP, HIBSCS, SM]	Strong	
 Lrp	fimE[fimEp]	+	[GEA]	Weak	
-Lrp	gcvTHP[gcvTp]	+	[GEA, SM]	Weak	
-Lrp	gltBDF[gltBp]	+	[AIBSCS, BPP, GEA, HIBSCS, SM]	Weak	
+Lrp	gcvTHP[gcvTp]	+	[GEA, SM]	Strong	
+Lrp	gltBDF[gltBp]	+	[AIBSCS, BPP, GEA, HIBSCS, SM]	Strong	
 Lrp	hdeAB-yhiD[hdeAp]	-	[AIBSCS, GEA]	Weak	
-Lrp	ilvIH[ilvIp2]	-	[BCE, BPP, GEA, HIBSCS, SM]	Weak	
-Lrp	ilvIH[ilvIHp1]	+	[BCE, BPP, GEA, HIBSCS, SM]	Weak	
-Lrp	ilvL[ilvLp2]	-	[HIBSCS, SM]	Weak	
-Lrp	ilvLXG_1G_2MEDA[ilvLp2]	-	[HIBSCS, SM]	Weak	
-Lrp	kbl-tdh[kblp]	+	[AIBSCS, BPP, GEA, HIBSCS]	Weak	
+Lrp	ilvIH[ilvIp2]	-	[BCE, BPP, GEA, HIBSCS, SM]	Strong	
+Lrp	ilvIH[ilvIHp1]	+	[BCE, BPP, GEA, HIBSCS, SM]	Strong	
+Lrp	ilvL[ilvLp2]	-	[HIBSCS, SM]	Strong	
+Lrp	ilvLXG_1G_2MEDA[ilvLp2]	-	[HIBSCS, SM]	Strong	
+Lrp	kbl-tdh[kblp]	+	[AIBSCS, BPP, GEA, HIBSCS]	Strong	
 Lrp	leuE[leuEp]	-	[AIBSCS]	Weak	
 Lrp	livJ[livJp]	-	[BPP, GEA, HIBSCS, SM]	Strong	
 Lrp	livKHMGF[livKp1]	-	[GEA]	Weak	
-Lrp	lrp[lrpp]	-	[AIBSCS, BCE, GEA, HIBSCS, SM]	Weak	
+Lrp	lrp[lrpp]	-	[AIBSCS, BCE, GEA, HIBSCS, SM]	Strong	
 Lrp	lysP[lysPp]	+	[BPP, GEA]	Strong	
-Lrp	lysU[lysUp1]	-	[HIBSCS, SM]	Weak	
+Lrp	lysU[lysUp1]	-	[HIBSCS, SM]	Strong	
 Lrp	malT[malTp]	+	[GEA]	Weak	
 Lrp	micF[micFp]	-	[BPP, GEA]	Strong	
-Lrp	ompC[ompCp1]	-	[AIBSCS, BPP, GEA]	Weak	
-Lrp	ompC[ompCp2]	-	[AIBSCS, BPP, GEA]	Weak	
-Lrp	ompC[ompCp3]	-	[AIBSCS, BPP, GEA]	Weak	
+Lrp	ompC[ompCp1]	-	[AIBSCS, BPP, GEA]	Strong	
+Lrp	ompC[ompCp2]	-	[AIBSCS, BPP, GEA]	Strong	
+Lrp	ompC[ompCp3]	-	[AIBSCS, BPP, GEA]	Strong	
 Lrp	oppABCDF[oppAp]	-	[BPP]	Strong	
 Lrp	osmC[osmCp1]	-	[BPP, GEA, HIBSCS, SM]	Strong	
 Lrp	osmC[osmCp2]	+	[BPP, GEA, HIBSCS, SM]	Strong	
 Lrp	osmY[osmYp]	-	[BPP, GEA, HIBSCS]	Strong	
-Lrp	rrsA-ileT-alaT-rrlA-rrfA[rrsAp1]	-	[BCE, BPP]	Weak	
+Lrp	rrsA-ileT-alaT-rrlA-rrfA[rrsAp1]	-	[BCE, BPP]	Strong	
 Lrp	rrsB-gltT-rrlB-rrfB[rrsBp1]	-	[BPP, GEA, IEP]	Strong	
 Lrp	rrsC-gltU-rrlC-rrfC[rrsCp1]	-	[BPP, IDA]	Strong	
 Lrp	rrsD-ileU-alaU-rrlD-rrfD-thrV-rrfF[rrsDp1]	-	[GEA]	Weak	
@@ -1487,39 +1519,42 @@ Lrp	rrsH-ileV-alaV-rrlH-rrfH[rrsHp1]	-	[GEA]	Weak
 Lrp	sdaA[sdaAp]	-	[AIBSCS]	Weak	
 Lrp	serA[serAp2]	-	[BPP, GEA]	Strong	
 Lrp	serA[serAp1]	+	[BPP, GEA]	Strong	
-Lrp	serC[serCp]	+	[GEA, HIBSCS, SM]	Weak	
-Lrp	serC-aroA[serCp]	+	[GEA, HIBSCS, SM]	Weak	
+Lrp	serC[serCp]	+	[GEA, HIBSCS, SM]	Strong	
+Lrp	serC-aroA[serCp]	+	[GEA, HIBSCS, SM]	Strong	
 Lrp	ssrS[ssrSp1]	-	[BPP, GEA]	Strong	
 Lrp	ssrS[ssrSp2]	-	[BPP, GEA]	Strong	
 Lrp	ssrS-fau[ssrSp1]	-	[BPP, GEA]	Strong	
 Lrp	ssrS-fau[ssrSp2]	-	[BPP, GEA]	Strong	
-Lrp	stpA[stpAp1]	+	[BCE, BPP, GEA, HIBSCS]	Weak	
+Lrp	stpA[stpAp1]	+	[BCE, BPP, GEA, HIBSCS]	Strong	
 Lrp	yeiL[yeiLp]	+	[GEA, HIBSCS]	Weak	
 Lrp	yojI[yojIp]	+	[GEA, ICWHO]	Weak	
 LsrR	lsrACDBFG-tam[lsrAp]	-	[BPP, GEA, SM]	Strong	
 LsrR	lsrRK[lsrRp]	-	[BPP, GEA, SM]	Strong	
 LysR	lysA[lysAp]	+	[GEA]	Weak	
 LysR	lysR[lysRp]	-	[GEA]	Weak	
-MalI	malI[malIp]	-	[BCE, GEA, SM]	Weak	
-MalI	malXY[malXp]	-	[BCE, GEA, SM]	Weak	
-MalT	malEFG[malEp]	+	[AIBSCS, BPP, HIBSCS, SM]	Weak	
-MalT	malK-lamB-malM[malKp]	+	[AIBSCS, BPP, HIBSCS, SM]	Weak	
-MalT	malPQ[malPp]	+	[AIBSCS, BPP, SM]	Weak	
+MalI	malI[malIp]	-	[BCE, GEA, SM]	Strong	
+MalI	malXY[malXp]	-	[BCE, GEA, SM]	Strong	
+MalT	malEFG[malEp]	+	[AIBSCS, BPP, HIBSCS, SM]	Strong	
+MalT	malK-lamB-malM[malKp]	+	[AIBSCS, BPP, HIBSCS, SM]	Strong	
+MalT	malPQ[malPp]	+	[AIBSCS, BPP, SM]	Strong	
 MalT	malS[malSp]	+	[AIBSCS, BCE]	Weak	
 MalT	malZ[malZp]	+	[AIBSCS]	Weak	
 MarA	acnA[acnAp2]	+	[BPP, GEA, HIBSCS]	Strong	
-MarA	acrAB[acrAp]	+	[AIBSCS, BPP, GEA, HIBSCS]	Weak	
+MarA	acrAB[acrAp]	+	[AIBSCS, BPP, GEA, HIBSCS]	Strong	
 MarA	acrZ[acrZp]	+	[GEA, IHBCE]	Weak	
-MarA	fpr[fprp]	+	[AIBSCS, BPP, GEA, HIBSCS]	Weak	
+MarA	aldA[aldAp]	+	[AIBSCS, GEA]	Weak	
+MarA	decR[ybaOp]	+	[AIBSCS]	Weak	
+MarA	fpr[fprp]	+	[AIBSCS, BPP, GEA, HIBSCS]	Strong	
 MarA	fumC[fumCp]	+	[BPP, GEA]	Strong	
 MarA	hdeAB-yhiD[hdeAp]	-	[APPH, GEA, HIBSCS, SM]	Strong	
 MarA	inaA[inaAp]	+	[BPP, GEA, HIBSCS]	Strong	
-MarA	marRAB[marRp]	+	[AIBSCS, BPP, GEA, HIBSCS]	Weak	
-MarA	micF[micFp]	+	[AIBSCS, BPP, GEA, HIBSCS]	Weak	
+MarA	marRAB[marRp]	+	[AIBSCS, BPP, GEA, HIBSCS]	Strong	
+MarA	micF[micFp]	+	[AIBSCS, BPP, GEA, HIBSCS]	Strong	
+MarA	mlaFEDCB[mlaFp2]	+	[BPP, GEA, ICWHO]	Strong	
 MarA	nfo[nfop]	+	[AIBSCS, GEA, HIBSCS]	Weak	
 MarA	nfsB[nfsBp]	+	[BPP, GEA, HIBSCS]	Strong	
 MarA	poxB[poxBp]	+	[GEA, HIBSCS]	Weak	
-MarA	pqiAB[pqiAp1]	+	[BPP, GEA, HIBSCS]	Strong	
+MarA	pqiABC[pqiAp1]	+	[BPP, GEA, HIBSCS]	Strong	
 MarA	purA[purAp]	-	[BPP, GEA, HIBSCS, SM]	Strong	
 MarA	putA[putAp]	+	[GEA]	Weak	
 MarA	rob[robp]	-	[BPP, GEA, HIBSCS, SM]	Strong	
@@ -1527,34 +1562,34 @@ MarA	slp-dctR[slpp]	-	[GEA, HIBSCS]	Weak
 MarA	sodA[sodAp]	+	[BPP, HIBSCS]	Strong	
 MarA	tolC-ygiABC[tolCp4]	+	[AIBSCS, GEA]	Weak	
 MarA	tolC-ygiABC[tolCp3]	+	[AIBSCS, GEA]	Weak	
-MarA	waaYZ[rfaYp]	+	[GEA, HIBSCS]	Weak	
-MarA	ybaO[ybaOp]	+	[AIBSCS]	Weak	
+MarA	waaYZ[waaYp]	+	[GEA, HIBSCS]	Weak	
+MarA	xseA[xseAp]	+	[BPP, GEA, ICWHO]	Strong	
 MarA	ybjC-nfsA-rimK-ybjN[ybjCp]	+	[BPP, GEA, HIBSCS]	Strong	
 MarA	yncE[yncEp]	+	[GEA, HIBSCS]	Weak	
 MarA	zwf[zwfp]	+	[BPP, GEA, HIBSCS]	Strong	
-MarR	marRAB[marRp]	-	[AIBSCS, BPP, GEA, HIBSCS, SM]	Weak	
+MarR	marRAB[marRp]	-	[AIBSCS, BPP, GEA, HIBSCS, SM]	Strong	
 MatA	ecpA[matBp5]	+	[BPP]	Strong	
 MatA	ecpR[matAp1]	+	[BPP]	Strong	
 MatA	flhDC[flhDp]	-	[BPP, GEA]	Strong	
 MatA	flhDC[flhDp2]	-	[BPP, GEA]	Strong	
 MatA	fliAZ-tcyJ[fliAp1]	-	[BPP]	Strong	
 MatA	fliC[fliCp]	-	[BPP]	Strong	
-MazE	mazEFG[mazEp1]	-	[BCE, GEA, SM]	Weak	
-MazE	mazEFG[mazEp2]	-	[BCE, GEA, SM]	Weak	
-MazE-MazF	mazEFG[mazEp1]	-	[BCE, GEA, SM]	Weak	
-MazE-MazF	mazEFG[mazEp2]	-	[BCE, GEA, SM]	Weak	
+MazE	mazEFG[mazEp1]	-	[BCE, GEA, SM]	Strong	
+MazE	mazEFG[mazEp2]	-	[BCE, GEA, SM]	Strong	
+MazE-MazF	mazEFG[mazEp1]	-	[BCE, GEA, SM]	Strong	
+MazE-MazF	mazEFG[mazEp2]	-	[BCE, GEA, SM]	Strong	
 McbR	mcbA[mcbAp5]	-	[BPP, GEA]	Strong	
 McbR	yciG[yciGp]	+	[BPP, GEA]	Strong	
 McbR	yciGFE[yciGp]	+	[BPP, GEA]	Strong	
 MelR	melAB[melAp]	+	[BPP, GEA, HIBSCS, SM]	Strong	
 MelR	melR[melRp]	+	[BPP, GEA, SM, HIBSCS]	Strong	
 MetJ	ahpCF[ahpCp]	-	[AIBSCS]	Weak	
-MetJ	folE-yeiB[folEp]	-	[AIBSCS, BPP, GEA]	Weak	
-MetJ	metA[metAp1]	-	[AIBSCS, BCE, BPP, GEA]	Weak	
+MetJ	folE-yeiB[folEp]	-	[AIBSCS, BPP, GEA]	Strong	
+MetJ	metA[metAp1]	-	[AIBSCS, BCE, BPP, GEA]	Strong	
 MetJ	metBL[metBp]	-	[AIBSCS, GEA]	Weak	
 MetJ	metC[metCp]	-	[BPP]	Strong	
 MetJ	metE[metEp]	-	[BPP]	Strong	
-MetJ	metF[metFp]	-	[AIBSCS, BCE, SM]	Weak	
+MetJ	metF[metFp]	-	[AIBSCS, BCE, SM]	Strong	
 MetJ	metK[metKp]	-	[AIBSCS]	Weak	
 MetJ	metNIQ[metNp]	-	[AIBSCS, GEA, HIBSCS]	Weak	
 MetJ	metR[metRp1]	-	[BPP]	Strong	
@@ -1565,7 +1600,7 @@ MetR	metE[metEp]	+	[BPP, GEA, HIBSCS]	Strong
 MetR	metH[metHp]	+	[GEA, HIBSCS]	Weak	
 MetR	metR[metRp1]	-	[BPP, GEA, HIBSCS]	Strong	
 MetR	metR[metRp2]	-	[BPP, GEA, HIBSCS]	Strong	
-MhpR	mhpABCDFE[mhpAp]	+	[BCE, GEA, HIBSCS, SM]	Weak	
+MhpR	mhpABCDFE[mhpAp]	+	[BCE, GEA, HIBSCS, SM]	Strong	
 Mlc	malT[malTp]	-	[BCE, GEA, HIBSCS]	Weak	
 Mlc	manXYZ[manXp]	-	[BCE, GEA]	Weak	
 Mlc	mlc[mlcp1]	-	[BCE, GEA, HIBSCS]	Weak	
@@ -1577,10 +1612,11 @@ MlrA	cadC[cadCp]	+	[BPP, HIBSCS]	Strong
 MlrA	csgDEFG[csgDp1]	+	[BPP, GEA]	Strong	
 MlrA	ibaG[ibaGp2]	+	[BPP, HIBSCS]	Strong	
 MlrA	rplU-rpmA[rplUp]	+	[BPP, HIBSCS]	Strong	
+MlrA	rplU-rpmA-yhbE-obgE[rplUp]	+	[BPP, HIBSCS]	Strong	
 MngR	mngAB[mngAp]	-	[BPP, GEA, HIBSCS]	Strong	
 MngR	mngR[mngRp]	-	[BPP, GEA, HIBSCS]	Strong	
 MntR	dps[dpsp]	-	[GEA, HIBSCS]	Weak	
-MntR	mntH[mntHp]	-	[AIBSCS, BPP, GEA]	Weak	
+MntR	mntH[mntHp]	-	[AIBSCS, BPP, GEA]	Strong	
 MntR	mntP[mntPp]	+	[GEA, HIBSCS]	Weak	
 MntR	rybA-mntS[rybAp]	-	[GEA, HIBSCS]	Weak	
 ModE	deoCABD[deoCp2]	-	[BPP, GEA, HIBSCS]	Strong	
@@ -1595,19 +1631,19 @@ ModE	oppABCDF[oppAp]	-	[GEA]	Weak
 MprA	acrAB[acrAp]	-	[AIBSCS]	Weak	
 MprA	mprA-emrAB[mprAp]	-	[BPP]	Strong	
 MprA	nmpC[nmpCp]	-	[AIBSCS]	Weak	
+MqsA	csgDEFG[csgDp1]	-	[BPP, GEA, HIBSCS]	Strong	
 MqsA	cspD[cspDp]	-	[BPP, GEA]	Strong	
 MqsA	mqsRA[mqsRp]	-	[BPP, HIBSCS, IHBCE]	Strong	
 MqsA	rpoS[rpoSp]	-	[BPP, GEA, IHBCE, SM]	Strong	
-MraZ	mioC[mioCp]	-	[AIBSCS, BPP, GEA]	Weak	
-MraZ	mraZ-rsmH-ftsLI-murEF-mraY-murD-ftsW-murGC-ddlB-ftsQAZ-lpxC[mraZp]	-	[AIBSCS, BPP, GEA, SM]	Weak	
-MtlR	mtlADR[mtlAp]	-	[GEA]	Weak	
+MraZ	mioC[mioCp]	-	[AIBSCS, BPP, GEA]	Strong	
+MraZ	mraZ-rsmH-ftsLI-murEF-mraY-murD-ftsW-murGC-ddlB-ftsQAZ-lpxC[mraZp]	-	[AIBSCS, BPP, GEA, SM]	Strong	
 MurR	murQP[murQp1]	-	[BPP, GEA, ICWHO]	Strong	
 MurR	murQP[murQp2]	-	[BPP, GEA, ICWHO]	Strong	
 MurR	murR[murRp]	+-	[GEA, HIBSCS]	Weak	
 Nac	asnC[asnCp]	-	[GEA, HIBSCS]	Weak	
 Nac	asnC-mioC[asnCp]	-	[GEA, HIBSCS]	Weak	
 Nac	asnC-mioC-mnmG[asnCp]	-	[GEA, HIBSCS]	Weak	
-Nac	codBA[codBp]	+	[AIBSCS, BPP, GEA, SM]	Weak	
+Nac	codBA[codBp]	+	[AIBSCS, BPP, GEA, SM]	Strong	
 Nac	feaR[feaRp2]	+	[IHBCE]	Weak	
 Nac	gabDTP[gabDp1]	+	[GEA, HIBSCS]	Weak	
 Nac	gdhA[gdhAp1]	-	[GEA, HIBSCS]	Weak	
@@ -1615,24 +1651,24 @@ Nac	gltBDF[gltBp]	-	[GEA]	Weak
 Nac	nac[nacp]	-	[BPP, GEA, HIBSCS]	Strong	
 Nac	nupC[nupCp]	+	[GEA]	Weak	
 Nac	serA[serAp1]	-	[GEA, HIBSCS]	Weak	
-Nac	ydcSTUV-patD[ydcSp1]	+	[GEA, HIBSCS, IDA]	Weak	
+Nac	ydcSTUV-patD[ydcSp1]	+	[GEA, HIBSCS, IDA]	Strong	
 NadR	nadA-pnuC[nadAp]	-	[ICWHO, IMP]	Weak	
-NadR	nadB[nadBp]	-	[AIBSCS, BPP, GEA, IMP]	Weak	
+NadR	nadB[nadBp]	-	[AIBSCS, BPP, GEA, IMP]	Strong	
 NadR	pncB[pncBp]	-	[AIBSCS]	Weak	
-NagC	chbBCARFG[chbBp]	-	[AIBSCS, BPP, GEA, HIBSCS, SM]	Weak	
-NagC	chiP-ybfN[chiPp]	-	[AIBSCS, BPP, GEA]	Weak	
+NagC	chbBCARFG[chbBp]	-	[AIBSCS, BPP, GEA, HIBSCS, SM]	Strong	
+NagC	chiPQ[chiPp]	-	[AIBSCS, BPP, GEA]	Strong	
 NagC	creABCD[creAp]	-	[AIBSCS]	Weak	
 NagC	dinI[dinIp]	-	[AIBSCS]	Weak	
 NagC	feoABC[feoAp]	?	[AIBSCS]	Weak	
-NagC	fimB[fimBp2]	+	[AIBSCS, BPP, GEA, HIBSCS, SM]	Weak	
-NagC	galP[galPp]	-	[AIBSCS, BPP, SM]	Weak	
+NagC	fimB[fimBp2]	+	[AIBSCS, BPP, GEA, HIBSCS, SM]	Strong	
+NagC	galP[galPp]	-	[AIBSCS, BPP, SM]	Strong	
 NagC	glmUS[glmUp1]	+	[BPP, HIBSCS, SM]	Strong	
 NagC	glmUS[glmUp2]	-	[BPP, HIBSCS, SM]	Strong	
 NagC	manXYZ[manXp]	-	[AIBSCS, BCE, GEA, HIBSCS]	Weak	
 NagC	nagBAC-umpH[nagBp]	-	[BPP, GEA, SM]	Strong	
 NagC	nagE[nagEp]	-	[BPP, GEA, SM]	Strong	
-NagC	nanCM[nanCp]	-	[AIBSCS, BPP, GEA, HIBSCS, SM]	Weak	
-NagC	nanCMS[nanCp]	-	[AIBSCS, BPP, GEA, HIBSCS, SM]	Weak	
+NagC	nanCM[nanCp]	-	[AIBSCS, BPP, GEA, HIBSCS, SM]	Strong	
+NagC	nanCMS[nanCp]	-	[AIBSCS, BPP, GEA, HIBSCS, SM]	Strong	
 NagC	ptsHI-crr[ptsHp4]	-	[AIBSCS]	Weak	
 NagC	ptsHI-crr[ptsHp5]	-	[AIBSCS]	Weak	
 NagC	ptsHI-crr[ptsHp3]	-	[AIBSCS]	Weak	
@@ -1653,58 +1689,61 @@ NarL	citCDEFXG[citCp2]	-	[AIBSCS]	Weak
 NarL	cydDC[cydDp]	+	[GEA, HIBSCS]	Weak	
 NarL	dcuB-fumB[dcuBp]	-	[GEA, HIBSCS]	Weak	
 NarL	dcuSR[dcuSp]	-	[BPP, GEA, HIBSCS]	Strong	
-NarL	dmsABC[dmsAp1]	-	[BCE, BPP, HIBSCS]	Weak	
+NarL	dmsABC[dmsAp1]	-	[BCE, BPP, HIBSCS]	Strong	
 NarL	dpiBA[dpiBp]	-	[AIBSCS]	Weak	
 NarL	dpiBA[dpiBp2]	-	[AIBSCS]	Weak	
 NarL	fdhF[fdhFp]	-	[BPP, GEA]	Strong	
-NarL	fdnGHI[fdnGp]	+	[BCE, BPP, GEA, HIBSCS, SM]	Weak	
+NarL	fdnGHI[fdnGp]	+	[BCE, BPP, GEA, HIBSCS, SM]	Strong	
 NarL	focA-pflB[focAp1]	-	[BPP, GEA, HIBSCS]	Strong	
 NarL	focA-pflB[focAp3]	-	[BPP, GEA, HIBSCS]	Strong	
 NarL	frdABCD[frdAp]	-	[BPP, HIBSCS]	Strong	
 NarL	hcp-hcr[hcpp]	+	[BPP, GEA, HIBSCS]	Strong	
+NarL	hcp-hcr-poxB[hcpp]	+	[BPP, GEA, HIBSCS]	Strong	
 NarL	hyaABCDEF[hyaAp]	-	[GEA, HIBSCS]	Weak	
 NarL	hybOABCDEFG[hybOp1]	-	[GEA, HIBSCS]	Weak	
 NarL	moeAB[moeAp]	+	[AIBSCS, GEA]	Weak	
-NarL	napFDAGHBC-ccmABCDEFGH[napFp1]	-	[GEA, HIBSCS, SM]	Weak	
-NarL	napFDAGHBC-ccmABCDEFGH[napFp2]	-	[GEA, HIBSCS, SM]	Weak	
+NarL	napFDAGHBC-ccmABCDEFGH[napFp1]	-	[GEA, HIBSCS, SM]	Strong	
+NarL	napFDAGHBC-ccmABCDEFGH[napFp2]	-	[GEA, HIBSCS, SM]	Strong	
 NarL	narGHJI[narGp]	+	[BPP, GEA, HIBSCS, SM]	Strong	
 NarL	narK[narKp1]	+	[BPP, HIBSCS, SM]	Strong	
 NarL	nikABCDER[nikAp1]	-	[GEA]	Weak	
-NarL	nirBDC-cysG[nirBp]	+	[BCE, BPP, GEA, SM]	Weak	
+NarL	nirBDC-cysG[nirBp]	+	[BCE, BPP, GEA, SM]	Strong	
 NarL	norVW[norVp]	-	[GEA, HIBSCS]	Weak	
-NarL	nrfABCDEFG[nrfAp]	+	[AIBSCS, BPP, GEA, HIBSCS, SM]	Weak	
+NarL	nrfABCDEFG[nrfAp]	+	[AIBSCS, BPP, GEA, HIBSCS, SM]	Strong	
 NarL	nuoABCEFGHIJKLMN[nuoAp2]	+	[GEA, HIBSCS]	Weak	
 NarL	ogt[ogtp]	+	[BPP]	Strong	
+NarL	ompW[ompWp]	-	[AIBSCS, BPP, GEA]	Strong	
 NarL	torCAD[torCp]	-	[IMP]	Weak	
 NarL	ubiCA[ubiCp]	-	[GEA]	Weak	
 NarL	ydeP[ydePp]	+	[BPP, GEA]	Strong	
 NarL	ydhYVWXUT[ydhYp]	-	[BPP, GEA, HIBSCS, SM]	Strong	
-NarL	yeaR-yoaG[yeaRp]	+	[AIBSCS, BPP, GEA]	Weak	
-NarL	ynfEFGH-dmsD[ynfEp]	-	[AIBSCS, BPP]	Weak	
+NarL	yeaR-yoaG[yeaRp]	+	[AIBSCS, BPP, GEA]	Strong	
+NarL	ynfEFGH-dmsD[ynfEp]	-	[AIBSCS, BPP]	Strong	
 NarL	ytfE[ytfEp]	+	[AIBSCS]	Weak	
 NarP	fdhF[fdhFp]	+	[GEA]	Weak	
-NarP	fdnGHI[fdnGp]	-	[GEA, SM]	Weak	
+NarP	fdnGHI[fdnGp]	-	[GEA, SM]	Strong	
 NarP	hcp-hcr[hcpp]	+	[GEA, HIBSCS]	Weak	
+NarP	hcp-hcr-poxB[hcpp]	+	[GEA, HIBSCS]	Weak	
 NarP	hyaABCDEF[hyaAp]	-	[GEA, HIBSCS]	Weak	
-NarP	napFDAGHBC-ccmABCDEFGH[napFp1]	+	[GEA, HIBSCS, SM]	Weak	
-NarP	napFDAGHBC-ccmABCDEFGH[napFp2]	-	[GEA, HIBSCS, SM]	Weak	
-NarP	nirBDC-cysG[nirBp]	+	[BCE, BPP, GEA, SM]	Weak	
+NarP	napFDAGHBC-ccmABCDEFGH[napFp1]	+	[GEA, HIBSCS, SM]	Strong	
+NarP	napFDAGHBC-ccmABCDEFGH[napFp2]	-	[GEA, HIBSCS, SM]	Strong	
+NarP	nirBDC-cysG[nirBp]	+	[BCE, BPP, GEA, SM]	Strong	
 NarP	norVW[norVp]	-	[GEA, HIBSCS]	Weak	
 NarP	nrfABCDEFG[nrfAp]	+	[BPP, GEA, HIBSCS, SM]	Strong	
 NarP	ydeP[ydePp]	-	[BPP, GEA]	Strong	
 NarP	ydhYVWXUT[ydhYp]	-	[BPP, GEA, HIBSCS, SM]	Strong	
 NarP	yeaR-yoaG[yeaRp]	+	[AIBSCS, GEA]	Weak	
 NarP	ytfE[ytfEp]	+	[AIBSCS]	Weak	
-NemR	nemRA[nemRp]	-	[AIBSCS, BPP, GEA]	Weak	
-NemR	nemRA-gloA[nemRp]	-	[AIBSCS, BPP, GEA]	Weak	
-NhaR	nhaAR[nhaAp1]	+	[BCE, BPP, GEA]	Weak	
-NhaR	osmC[osmCp1]	+	[BCE, GEA, SM]	Weak	
+NemR	nemRA[nemRp]	-	[AIBSCS, BPP, GEA]	Strong	
+NemR	nemRA-gloA[nemRp]	-	[AIBSCS, BPP, GEA]	Strong	
+NhaR	nhaAR[nhaAp1]	+	[BCE, BPP, GEA]	Strong	
+NhaR	osmC[osmCp1]	+	[BCE, GEA, SM]	Strong	
 NhaR	pgaABCD[pgaAp]	+	[BPP, GEA, HIBSCS]	Strong	
 NikR	nikABCDER[nikAp1]	-	[BPP]	Strong	
 NimR	nimR[nimRp]	-	[BPP, GEA, ICWHO]	Strong	
 NimR	nimT[nimTp]	-	[BPP, GEA, ICWHO]	Strong	
-NorR	norR[norRp]	-	[AIBSCS, BPP, GEA]	Weak	
-NorR	norVW[norVp]	+	[AIBSCS, BPP, GEA]	Weak	
+NorR	norR[norRp]	-	[AIBSCS, BPP, GEA]	Strong	
+NorR	norVW[norVp]	+	[AIBSCS, BPP, GEA]	Strong	
 NrdR	nrdAB-yfaE[nrdAp]	-	[BPP, GEA, HIBSCS, SM]	Strong	
 NrdR	nrdDG[nrdDp]	-	[BPP, GEA, HIBSCS]	Strong	
 NrdR	nrdHIEF[nrdHp]	-	[BPP, GEA, HIBSCS]	Strong	
@@ -1716,22 +1755,23 @@ NsrR	dkgB[dkgBp]	-	[GEA, HIBSCS]	Weak
 NsrR	dsdC[dsdCp]	-	[GEA, HIBSCS]	Weak	
 NsrR	feaB[feaBp1]	-	[GEA, HIBSCS]	Weak	
 NsrR	feaR[feaRp2]	-	[GEA, HIBSCS]	Weak	
-NsrR	fliAZ-tcyJ[fliAp1]	-	[GEA, HIBSCS, SM]	Weak	
+NsrR	fliAZ-tcyJ[fliAp1]	-	[GEA, HIBSCS, SM]	Strong	
 NsrR	fliAZ-tcyJ[fliAp2]	-	[GEA, HIBSCS]	Weak	
 NsrR	grxD[grxD]	-	[GEA, HIBSCS]	Weak	
-NsrR	hcp-hcr[hcpp]	-	[BCE, GEA, HIBSCS, SM]	Weak	
+NsrR	hcp-hcr[hcpp]	-	[BCE, GEA, HIBSCS, SM]	Strong	
+NsrR	hcp-hcr-poxB[hcpp]	-	[BCE, GEA, HIBSCS, SM]	Strong	
 NsrR	hmp[hmpAp]	-	[AIBSCS, GEA, HIBSCS]	Weak	
 NsrR	hycABCDEFGHI[hycAp]	-	[GEA, HIBSCS]	Weak	
 NsrR	hypABCDE[hypAp]	-	[GEA, HIBSCS]	Weak	
 NsrR	hypABCDE-fhlA[hypAp]	-	[GEA, HIBSCS]	Weak	
 NsrR	lrp[lrpp]	-	[GEA, HIBSCS]	Weak	
-NsrR	mepH[ydhOp]	-	[GEA, HIBSCS]	Weak	
+NsrR	mepH[mepHp]	-	[GEA, HIBSCS]	Weak	
 NsrR	mhpT[mhpTp]	-	[GEA, HIBSCS]	Weak	
 NsrR	ndh[ndhp]	-	[GEA, HIBSCS]	Weak	
 NsrR	norR[norRp]	-	[GEA, HIBSCS]	Weak	
-NsrR	nrfABCDEFG[nrfAp]	-	[BCE, GEA, HIBSCS, SM]	Weak	
+NsrR	nrfABCDEFG[nrfAp]	-	[BCE, GEA, HIBSCS, SM]	Strong	
 NsrR	pgpC-tadA[pgpCp]	-	[GEA, HIBSCS]	Weak	
-NsrR	rfe-wzzE-wecBC-rffGHCA-wzxE-rffT-wzyE-rffM[rfep]	-	[GEA, HIBSCS]	Weak	
+NsrR	rfe-wzzE-wecBC-rffGHC-wecE-wzxE-rffT-wzyE-rffM[rfep]	-	[GEA, HIBSCS]	Weak	
 NsrR	rybB[rybBp]	-	[GEA]	Weak	
 NsrR	sodB[sodBp]	-	[AIBSCS, GEA]	Weak	
 NsrR	sufABCDSE[sufAp]	-	[GEA, HIBSCS]	Weak	
@@ -1744,9 +1784,9 @@ NsrR	ydbD[ydbDp]	-	[GEA, HIBSCS]	Weak
 NsrR	yeaE[yeaEp]	-	[GEA, HIBSCS]	Weak	
 NsrR	yeaR-yoaG[yeaRp]	-	[AIBSCS, GEA]	Weak	
 NsrR	ygbA[ygbAp]	-	[AIBSCS, GEA, HIBSCS]	Weak	
-NsrR	ytfE[ytfEp]	-	[AIBSCS, GEA, HIBSCS, SM]	Weak	
+NsrR	ytfE[ytfEp]	-	[AIBSCS, GEA, HIBSCS, SM]	Strong	
 NtrC	argT-hisJQMP[argTp]	+	[AIBSCS, GEA]	Weak	
-NtrC	astCADBE[astCp2]	+	[AIBSCS, BPP, GEA]	Weak	
+NtrC	astCADBE[astCp2]	+	[AIBSCS, BPP, GEA]	Strong	
 NtrC	cbl[cblp]	+	[GEA]	Weak	
 NtrC	ddpXABCDF[ddpXp]	+	[AIBSCS, GEA]	Weak	
 NtrC	glnA[glnAp1]	-	[BPP, GEA, HIBSCS, SM]	Strong	
@@ -1760,6 +1800,7 @@ NtrC	nac[nacp]	+	[HIBSCS]	Weak
 NtrC	patA[patAp]	+	[AIBSCS, GEA, IEP]	Weak	
 NtrC	potFGHI[potFp1]	+	[GEA]	Weak	
 NtrC	relA[relAp4]	+	[BPP, GEA]	Strong	
+NtrC	rseD-rpoE-rseABC[rpoEp2b]	+	[BPP, HIBSCS]	Strong	
 NtrC	rutABCDEFG[rutAp]	+	[AIBSCS, GEA]	Weak	
 NtrC	yeaGH[yeaGp1]	+	[GEA]	Weak	
 NtrC	yhdWXYZ[yhdWp]	+	[AIBSCS, GEA]	Weak	
@@ -1767,10 +1808,10 @@ OmpR	bolA[bolAp1]	-	[BPP, HIBSCS]	Strong
 OmpR	csgDEFG[csgDp1]	+	[BPP, GEA, HIBSCS]	Strong	
 OmpR	dtpA[tppBp]	+	[BPP, GEA]	Strong	
 OmpR	ecnB[ecnBp]	-	[HIBSCS]	Weak	
-OmpR	fadL[fadLp]	-	[GEA, HIBSCS, SM]	Weak	
+OmpR	fadL[fadLp]	-	[GEA, HIBSCS, SM]	Strong	
 OmpR	flhDC[flhDp]	-	[HIBSCS]	Weak	
 OmpR	micF[micFp]	+	[BPP, GEA, HIBSCS, SM]	Strong	
-OmpR	nmpC[nmpCp]	-	[HIBSCS, SM]	Weak	
+OmpR	nmpC[nmpCp]	-	[HIBSCS, SM]	Strong	
 OmpR	ompC[ompCp1]	+	[BPP, GEA, HIBSCS, SM]	Strong	
 OmpR	ompF[ompFp]	+	[BPP, GEA, HIBSCS, SM, AIBSCS, BCE]	Strong	
 OmpR	omrA[omrAp]	+	[GEA, HIBSCS]	Weak	
@@ -1779,6 +1820,7 @@ OmpR	pgaABCD[pgaAp]	-	[BPP, GEA, HIBSCS]	Strong
 OmpR	sra[srap]	-	[GEA]	Weak	
 OxyR	ahpCF[ahpCp]	+	[BPP, GEA, HIBSCS]	Strong	
 OxyR	ahpCF[ahpCp2]	+	[BPP, GEA, HIBSCS]	Strong	
+OxyR	ccp[yhjAp]	+	[AIBSCS, BPP, HIBSCS]	Strong	
 OxyR	dps[dpsp]	+	[HIBSCS]	Weak	
 OxyR	dsbG[dsbGp]	+	[BPP, GEA, HIBSCS]	Strong	
 OxyR	fhuF[fhuFp]	-	[BPP, GEA, HIBSCS]	Strong	
@@ -1786,10 +1828,11 @@ OxyR	gntP[gntPp]	-	[GEA, HIBSCS]	Weak
 OxyR	gor[gorp]	+	[GEA]	Weak	
 OxyR	grxA[grxAp]	+	[BPP, GEA, HIBSCS]	Strong	
 OxyR	hcp-hcr[hcpp]	+	[BPP, GEA]	Strong	
+OxyR	hcp-hcr-poxB[hcpp]	+	[BPP, GEA]	Strong	
 OxyR	hemH[hemHp]	+	[BPP, GEA]	Strong	
 OxyR	isrC-flu[flup]	-	[BPP, GEA, HIBSCS, SM]	Strong	
 OxyR	katG[katGp]	+	[BPP, GEA, HIBSCS]	Strong	
-OxyR	mntH[mntHp]	+	[AIBSCS, GEA, HIBSCS, SM]	Weak	
+OxyR	mntH[mntHp]	+	[AIBSCS, GEA, HIBSCS, SM]	Strong	
 OxyR	oxyR[oxyRp]	-	[BPP, GEA, HIBSCS]	Strong	
 OxyR	oxyS[oxySp]	+	[BPP, GEA, HIBSCS]	Strong	
 OxyR	sufABCDSE[sufAp]	+	[BPP, GEA, SM]	Strong	
@@ -1798,23 +1841,26 @@ OxyR	uof-fur[uofp]	+	[BPP, GEA, HIBSCS]	Strong
 OxyR	uxuAB[uxuAp]	-	[GEA, HIBSCS]	Weak	
 OxyR	ybjC-nfsA-rimK-ybjN[ybjCp]	-	[BPP, GEA, HIBSCS]	Strong	
 OxyR	ychF[ychFp]	-	[BPP, HIBSCS]	Strong	
-OxyR	yhjA[yhjAp]	+	[AIBSCS, BPP, HIBSCS]	Weak	
-PaaX	paaABCDEFGHIJK[paaAp]	-	[BCE, GEA, HIBSCS, SM]	Weak	
+PaaX	paaABCDEFGHIJK[paaAp]	-	[BCE, GEA, HIBSCS, SM]	Strong	
 PaaX	paaXY[paaXp]	-	[BPP, HIBSCS]	Strong	
-PaaX	paaZ[paaZp]	-	[BCE, GEA, HIBSCS, SM]	Weak	
+PaaX	paaZ[paaZp]	-	[BCE, GEA, HIBSCS, SM]	Strong	
+PdeL	pdeL[pdeLp2]	+	[BPP, GEA, IHBCE]	Strong	
 PdhR	cyoABCDE[cyoAp]	-	[BPP, GEA, HIBSCS]	Strong	
 PdhR	fecABCDE[fecAp]	+	[AIBSCS, GEA]	Weak	
-PdhR	glcDEFGBA[glcDp]	-	[AIBSCS, BPP, GEA]	Weak	
+PdhR	glcDEFGBA[glcDp]	-	[AIBSCS, BPP, GEA]	Strong	
 PdhR	grcA[grcAp1]	-	[GEA, HIBSCS]	Weak	
 PdhR	hemL[hemLp]	-	[AIBSCS]	Weak	
-PdhR	mraZ-rsmH-ftsLI-murEF-mraY-murD-ftsW-murGC-ddlB-ftsQAZ-lpxC[mraZp]	-	[AIBSCS, BPP, GEA]	Weak	
+PdhR	mraZ-rsmH-ftsLI-murEF-mraY-murD-ftsW-murGC-ddlB-ftsQAZ-lpxC[mraZp]	-	[AIBSCS, BPP, GEA]	Strong	
 PdhR	ndh[ndhp]	-	[BPP, GEA, HIBSCS]	Strong	
-PdhR	pdhR-aceEF-lpd[pdhRp]	-	[AIBSCS, BCE, BPP, GEA, HIBSCS]	Weak	
+PdhR	pdhR-aceEF-lpd[pdhRp]	-	[AIBSCS, BCE, BPP, GEA, HIBSCS]	Strong	
 PdhR	tomB-hha[tomBp1]	-	[AIBSCS]	Weak	
 PepA	carAB[carAp1]	-	[BPP, GEA, IMP]	Strong	
 PepA	pepA[pepAp1]	-	[BPP]	Strong	
-PgrR	ycjY[ycjYp6]	-	[BPP, GEA]	Strong	
-PgrR	ycjY-ymjDC-mpaA[ycjYp6]	-	[BPP, GEA]	Strong	
+PgrR	tyrR[tyrRp]	-	[BPP, GEA, IGI]	Strong	
+PgrR	ycjG[ycjGp]	-	[BPP, GEA, IGI]	Strong	
+PgrR	ycjXF-tyrR[ycjXp]	-	[BPP, GEA, IGI]	Strong	
+PgrR	ycjY[ycjYp6]	-	[BPP, GEA, IGI]	Strong	
+PgrR	ycjY-ymjDC-mpaA[ycjYp6]	-	[BPP, GEA, IGI]	Strong	
 PhoB	adiC[adiCp7]	+	[GEA]	Weak	
 PhoB	amn[amnp1]	+	[AIBSCS, GEA]	Weak	
 PhoB	argP[argPp]	+	[GEA, HIBSCS]	Weak	
@@ -1829,18 +1875,18 @@ PhoB	gadXW[gadXp]	+	[GEA]	Weak
 PhoB	mipA[mipAp]	+	[BPP, GEA, HIBSCS]	Strong	
 PhoB	ompF[ompFp]	+	[GEA]	Weak	
 PhoB	phnCDE_1E_2FGHIJKLMNOP[phnCp]	+	[BPP, GEA, HIBSCS]	Strong	
-PhoB	phoA-psiF[phoAp]	+	[BCE, GEA, SM]	Weak	
+PhoB	phoA-psiF[phoAp]	+	[BCE, GEA, SM]	Strong	
 PhoB	phoBR[phoBp]	+	[BPP, GEA, HIBSCS]	Strong	
-PhoB	phoE[phoEp]	+	[BCE, GEA, SM]	Weak	
+PhoB	phoE[phoEp]	+	[BCE, GEA, SM]	Strong	
 PhoB	phoH[phoHp1]	+	[BPP, GEA, HIBSCS]	Strong	
 PhoB	phoQ[phoQp5]	+	[GEA]	Weak	
 PhoB	phoU[phoUp]	+	[GEA]	Weak	
 PhoB	pitB[pitBp]	-	[IMP]	Weak	
 PhoB	prpR[prpRp]	-	[BPP, GEA, HIBSCS]	Strong	
 PhoB	psiE[psiEp]	+	[BPP, GEA, HIBSCS]	Strong	
-PhoB	pstS[pstSp]	+	[BCE, GEA, HIBSCS, SM]	Weak	
-PhoB	pstSCA[pstSp]	+	[BCE, GEA, HIBSCS, SM]	Weak	
-PhoB	pstSCAB-phoU[pstSp]	+	[BCE, GEA, HIBSCS, SM]	Weak	
+PhoB	pstS[pstSp]	+	[BCE, GEA, HIBSCS, SM]	Strong	
+PhoB	pstSCA[pstSp]	+	[BCE, GEA, HIBSCS, SM]	Strong	
+PhoB	pstSCAB-phoU[pstSp]	+	[BCE, GEA, HIBSCS, SM]	Strong	
 PhoB	sbcDC[sbcDp]	-	[BPP, GEA, HIBSCS]	Strong	
 PhoB	tktB[tktBp]	+	[GEA]	Weak	
 PhoB	ugpBAECQ[ugpBp1]	+	[BPP, GEA, HIBSCS]	Strong	
@@ -1850,13 +1896,14 @@ PhoB	ydfH[ydfHp]	+	[BPP, GEA, HIBSCS]	Strong
 PhoB	yedX[yedXp]	+	[BPP, GEA, HIBSCS]	Strong	
 PhoB	yegH[yegHp]	+	[BPP, GEA, HIBSCS]	Strong	
 PhoB	yhjC[yhjCp]	+	[BPP, GEA, HIBSCS]	Strong	
+PhoB	ytfK[ytfKp]	+	[GEA, HIBSCS]	Weak	
 PhoP	acrAB[acrAp]	-	[GEA]	Weak	
 PhoP	argD[argDp]	-	[AIBSCS, GEA]	Weak	
 PhoP	borD[borDp]	+	[BPP, HIBSCS]	Strong	
 PhoP	cysB[cysBp]	+	[AIBSCS, HIBSCS]	Weak	
 PhoP	dcuD[dcuDp]	-	[AIBSCS, GEA]	Weak	
 PhoP	fadL[fadLp]	+	[AIBSCS, GEA]	Weak	
-PhoP	gadE[gadEp1]	+	[GEA, HIBSCS]	Weak	
+PhoP	gadEF[gadEp1]	+	[GEA, HIBSCS]	Weak	
 PhoP	gadW[gadWp2]	+	[BPP, GEA, HIBSCS]	Strong	
 PhoP	glgAP[glgAp]	+	[GEA]	Weak	
 PhoP	glgBXCAP[glgBp]	+	[AIBSCS, GEA]	Weak	
@@ -1870,15 +1917,16 @@ PhoP	metBL[metBp]	+	[AIBSCS, GEA]	Weak
 PhoP	mgrB[mgrBp]	+	[BPP, GEA, HIBSCS]	Strong	
 PhoP	mgrR[mgrRp]	+	[GEA, HIBSCS]	Weak	
 PhoP	mgtLA[mgtAp1]	+	[BPP, GEA, HIBSCS, SM]	Strong	
+PhoP	mgtS[mgtSp]	+	[GEA, HIBSCS]	Weak	
 PhoP	nagA[nagAp]	+	[BPP, GEA, HIBSCS]	Strong	
 PhoP	ompT[ompTp]	+	[GEA, HIBSCS]	Weak	
 PhoP	pagP[pagPp]	+	[GEA, HIBSCS]	Weak	
-PhoP	phoPQ[phoPp1]	-	[AIBSCS, BPP, GEA, HIBSCS]	Weak	
-PhoP	phoPQ[phoPp2]	+	[AIBSCS, BPP, GEA, HIBSCS]	Weak	
+PhoP	phoPQ[phoPp1]	-	[AIBSCS, BPP, GEA, HIBSCS]	Strong	
+PhoP	phoPQ[phoPp2]	+	[AIBSCS, BPP, GEA, HIBSCS]	Strong	
 PhoP	purHD[purHp]	+	[AIBSCS, GEA]	Weak	
-PhoP	rstAB[rstAp]	+	[AIBSCS, BPP, GEA, HIBSCS]	Weak	
+PhoP	rstAB[rstAp]	+	[AIBSCS, BPP, GEA, HIBSCS]	Strong	
 PhoP	rutABCDEFG[rutAp]	+	[AIBSCS, GEA]	Weak	
-PhoP	safA-ydeO[safAp]	-	[GEA, HIBSCS, SM]	Weak	
+PhoP	safA-ydeO[safAp]	-	[GEA, HIBSCS, SM]	Strong	
 PhoP	slyB[slyBp1]	+	[BPP, GEA, HIBSCS]	Strong	
 PhoP	slyB[slyBp2]	-	[BPP, GEA, HIBSCS]	Strong	
 PhoP	tolC-ygiABC[tolCp2]	+	[GEA, HIBSCS]	Weak	
@@ -1886,30 +1934,29 @@ PhoP	treR[treRp3]	-	[BPP, GEA, HIBSCS, SM]	Strong
 PhoP	treR[treRp4]	-	[BPP, GEA, HIBSCS, SM]	Strong	
 PhoP	ybjG[ybjGp]	+	[GEA, HIBSCS]	Weak	
 PhoP	ydeP[ydePp]	-	[GEA, HIBSCS]	Weak	
-PhoP	yneM[yneMp]	+	[GEA, HIBSCS]	Weak	
-PhoP	yrbL[yrbLp]	+	[AIBSCS, BPP, GEA, HIBSCS]	Weak	
+PhoP	yrbL[yrbLp]	+	[AIBSCS, BPP, GEA, HIBSCS]	Strong	
 PrpR	prpBCDE[prpBp]	+	[GEA, HIBSCS]	Weak	
 PrpR	prpR[prpRp]	-	[GEA, HIBSCS]	Weak	
-PspF	pspABCDE[pspAp]	+	[BCE, BPP, GEA]	Weak	
-PspF	pspF[pspFp1]	-	[BCE, BPP, GEA]	Weak	
+PspF	pspABCDE[pspAp]	+	[BCE, BPP, GEA]	Strong	
+PspF	pspF[pspFp1]	-	[BCE, BPP, GEA]	Strong	
 PspF	pspG[pspGp]	+	[BPP, GEA, ICA]	Strong	
-PurR	carAB[carAp1]	-	[AIBSCS, BPP, GEA]	Weak	
+PurR	carAB[carAp1]	-	[AIBSCS, BPP, GEA]	Strong	
 PurR	codBA[codBp]	-	[AIBSCS, GEA, HIBSCS]	Weak	
-PurR	cvpA-purF-ubiX[cvpAp1]	-	[BCE, BPP, GEA, HIBSCS, SM]	Weak	
+PurR	cvpA-purF-ubiX[cvpAp1]	-	[BCE, BPP, GEA, HIBSCS, SM]	Strong	
 PurR	gcvTHP[gcvTp]	-	[AIBSCS, GEA, HIBSCS]	Weak	
 PurR	glnB[glnBp2]	-	[BCE, GEA, HIBSCS]	Weak	
 PurR	glnB[glnBp1]	-	[BCE, GEA, HIBSCS]	Weak	
-PurR	glyA[glyAp]	-	[AIBSCS, BPP, GEA, HIBSCS, SM]	Weak	
+PurR	glyA[glyAp]	-	[AIBSCS, BPP, GEA, HIBSCS, SM]	Strong	
 PurR	guaBA[guaBp]	-	[AIBSCS, BCE, GEA]	Weak	
-PurR	hflD-purB[hflDp]	-	[AIBSCS, BPP, GEA, HIBSCS]	Weak	
+PurR	hflD-purB[hflDp]	-	[AIBSCS, BPP, GEA, HIBSCS]	Strong	
 PurR	prs[prsp]	-	[BCE, GEA, HIBSCS]	Weak	
 PurR	purA[purAp]	-	[BPP, GEA, HIBSCS]	Strong	
-PurR	purC[purCp]	-	[AIBSCS, BPP, GEA, HIBSCS]	Weak	
+PurR	purC[purCp]	-	[AIBSCS, BPP, GEA, HIBSCS]	Strong	
 PurR	purEK[purEp]	-	[AIBSCS, BCE, GEA, HIBSCS]	Weak	
-PurR	purHD[purHp]	-	[AIBSCS, BPP, GEA, HIBSCS]	Weak	
+PurR	purHD[purHp]	-	[AIBSCS, BPP, GEA, HIBSCS]	Strong	
 PurR	purL[purLp]	-	[AIBSCS, BCE, GEA, HIBSCS]	Weak	
-PurR	purMN[purMp]	-	[AIBSCS, GEA, HIBSCS, SM]	Weak	
-PurR	purR[purRp]	-	[BCE, BPP, GEA, HIBSCS, SM]	Weak	
+PurR	purMN[purMp]	-	[AIBSCS, GEA, HIBSCS, SM]	Strong	
+PurR	purR[purRp]	-	[BCE, BPP, GEA, HIBSCS, SM]	Strong	
 PurR	pyrC[pyrCp]	-	[BPP, GEA, HIBSCS, SM]	Strong	
 PurR	pyrD[pyrDp]	-	[AIBSCS, BCE, GEA, HIBSCS]	Weak	
 PurR	speAB[speAp]	-	[BCE, GEA, HIBSCS]	Weak	
@@ -1917,11 +1964,13 @@ PutA	putA[putAp]	-	[BPP, GEA, SM]	Strong
 PutA	putP[putPp1]	-	[BPP, GEA, SM]	Strong	
 PuuR	puuAP[puuAp]	-	[BPP, GEA, IC, SM]	Strong	
 PuuR	puuDRCBE[puuDp]	-	[BPP, GEA, IC, SM]	Strong	
+QseB	feaR[feaRp1]	+	[AIBSCS, GEA]	Weak	
+QseB	feaR[feaRp2]	-	[AIBSCS, GEA]	Weak	
 QseB	flhDC[flhDp]	+	[GEA]	Weak	
 QseB	qseBC[qseBp2]	+	[BPP, GEA]	Strong	
-RbsR	add[addp6]	+	[AIBSCS, BPP, GEA]	Weak	
-RbsR	purHD[purHp]	-	[AIBSCS, BPP, GEA]	Weak	
-RbsR	rbsDACBKR[rbsDp]	-	[AIBSCS, BPP, GEA]	Weak	
+RbsR	add[addp6]	+	[AIBSCS, BPP, GEA]	Strong	
+RbsR	purHD[purHp]	-	[AIBSCS, BPP, GEA]	Strong	
+RbsR	rbsDACBKR[rbsDp]	-	[AIBSCS, BPP, GEA]	Strong	
 RcdA	asr[asrp]	+	[BPP, GEA, IC]	Strong	
 RcdA	bluF[bluFp]	+	[BPP, GEA, HIBSCS]	Strong	
 RcdA	csgDEFG[csgDp1]	+	[BPP, GEA, IC]	Strong	
@@ -1933,12 +1982,12 @@ RcnR	rcnAB[rcnAp]	-	[BPP, GEA]	Strong
 RcnR	rcnR[rcnRp]	-	[BPP, GEA]	Strong	
 RcsAB	csgDEFG[csgDp1]	-	[GEA]	Weak	
 RcsAB	flhDC[flhDp]	-	[BPP, GEA, SM]	Strong	
-RcsAB	rcsA[rcsAp]	+	[AIBSCS, BCE, BPP, GEA, SM]	Weak	
-RcsAB	wza-wzb-wzc-wcaAB[wzap]	+	[AIBSCS, BPP, GEA, SM]	Weak	
+RcsAB	rcsA[rcsAp]	+	[AIBSCS, BCE, BPP, GEA, SM]	Strong	
+RcsAB	wza-wzb-wzc-wcaAB[wzap]	+	[AIBSCS, BPP, GEA, SM]	Strong	
 RcsAB	yjbE[yjbEp1]	+	[GEA, HIBSCS]	Weak	
 RcsAB	yjbEFGH[yjbEp1]	+	[GEA, HIBSCS]	Weak	
 RcsB	bdm-sra[bdmp]	+	[BPP, GEA]	Strong	
-RcsB	ftsAZ[ftsAp1]	+	[GEA, HIBSCS, SM]	Weak	
+RcsB	ftsAZ[ftsAp1]	+	[GEA, HIBSCS, SM]	Strong	
 RcsB	gadAX[gadAp]	-	[BPP, GEA, IHBCE, SM]	Strong	
 RcsB	gadBC[gadBp]	+	[GEA, HIBSCS]	Weak	
 RcsB	gadY[gadYp]	+	[GEA]	Weak	
@@ -1947,13 +1996,14 @@ RcsB	hdeD[hdeDp]	+	[GEA]	Weak
 RcsB	lolA-rarA[lolAp]	+	[GEA, HIBSCS]	Weak	
 RcsB	osmB[osmBp1]	+	[GEA, HIBSCS]	Weak	
 RcsB	osmC[osmCp1]	+	[BPP, GEA, SM]	Strong	
-RcsB	rprA[rprAp]	+	[GEA, HIBSCS, SM]	Weak	
+RcsB	rprA[rprAp]	+	[GEA, HIBSCS, SM]	Strong	
+RcsB	rseD-rpoE-rseABC[rpoEp2b]	+	[BPP, HIBSCS, SM]	Strong	
 RcsB	safA-ydeO[safAp]	+	[GEA]	Weak	
 RcsB	ydeP[ydePp]	+	[BPP, GEA]	Strong	
-RcsB-BglJ	bglG[bglGp]	+	[AIBSCS, GEA, HIBSCS, SM]	Weak	
-RcsB-BglJ	bglG[bglGp2]	+	[AIBSCS, GEA, HIBSCS, SM]	Weak	
-RcsB-BglJ	bglGFB[bglGp]	+	[AIBSCS, GEA, HIBSCS, SM]	Weak	
-RcsB-BglJ	leuO[leuOp2]	+	[GEA, HIBSCS, SM]	Weak	
+RcsB-BglJ	bglG[bglGp]	+	[AIBSCS, GEA, HIBSCS, SM]	Strong	
+RcsB-BglJ	bglG[bglGp2]	+	[AIBSCS, GEA, HIBSCS, SM]	Strong	
+RcsB-BglJ	bglGFB[bglGp]	+	[AIBSCS, GEA, HIBSCS, SM]	Strong	
+RcsB-BglJ	leuO[leuOp2]	+	[GEA, HIBSCS, SM]	Strong	
 RcsB-BglJ	molR_1[molR_1p]	+	[AIBSCS, GEA]	Weak	
 RcsB-BglJ	sfsB[sfsBp]	+	[AIBSCS, GEA]	Weak	
 RcsB-BglJ	yecT[yecTp]	+	[AIBSCS, GEA]	Weak	
@@ -1964,18 +2014,18 @@ RcsB-BglJ	ynbABCD[ynbAp]	+	[AIBSCS, GEA]	Weak
 RcsB-BglJ	ynjI[ynjIp]	+	[AIBSCS, GEA]	Weak	
 RcsB-BglJ	yqhG[yqhGp]	+	[AIBSCS, GEA]	Weak	
 RelB	relBE-hokD[relBp]	-	[BPP, GEA, HIBSCS]	Strong	
-RelB-RelE	relBE-hokD[]	-	[]	
-RhaR	rhaSR[rhaSp]	+	[BCE, BPP, GEA, HIBSCS]	Weak	
-RhaS	rhaBAD[rhaBp]	+	[BCE, BPP, GEA, HIBSCS, SM]	Weak	
+RhaR	rhaSR[rhaSp]	+	[BCE, BPP, GEA, HIBSCS]	Strong	
+RhaS	rhaBAD[rhaBp]	+	[BCE, BPP, GEA, HIBSCS, SM]	Strong	
 RhaS	rhaSR[rhaSp]	+	[BPP, GEA, HIBSCS]	Strong	
-RhaS	rhaT[rhaTp]	+	[AIBSCS, BPP, GEA, HIBSCS, SM]	Weak	
+RhaS	rhaT[rhaTp]	+	[AIBSCS, BPP, GEA, HIBSCS, SM]	Strong	
 Rob	acnA[acnAp2]	+	[GEA, HIBSCS]	Weak	
 Rob	acrAB[acrAp]	+	[BPP, GEA]	Strong	
 Rob	acrZ[acrZp]	+	[GEA, IHBCE]	Weak	
+Rob	aldA[aldAp]	+	[AIBSCS, GEA]	Weak	
 Rob	aslB[aslBp]	+	[GEA]	Weak	
 Rob	fumC[fumCp1]	+	[BPP, GEA, IEP]	Strong	
 Rob	inaA[inaAp]	+	[BPP, GEA, HIBSCS]	Strong	
-Rob	ldtB[ybisp]	+	[GEA]	Weak	
+Rob	ldtB[ldtBp]	+	[GEA]	Weak	
 Rob	marRAB[marRp]	+	[BPP, GEA, HIBSCS, SM]	Strong	
 Rob	micF[micFp]	+	[BPP, GEA, HIBSCS]	Strong	
 Rob	mltF[mltFp]	+	[GEA]	Weak	
@@ -1993,55 +2043,62 @@ RstA	csgDEFG[csgDp2]	-	[BPP, GEA, HIBSCS]	Strong
 RstA	narGHJI[narGp]	+	[HIBSCS]	Weak	
 RstA	ompF[ompFp]	-	[HIBSCS, NTAS]	Weak	
 RtcR	rtcBA[rtcBp]	+	[GEA]	Weak	
-RutR	carAB[carAp1]	+	[AIBSCS, BPP, GEA, SM]	Weak	
-RutR	fepB[fepBp]	-	[AIBSCS, BPP, GEA]	Weak	
+RutR	carAB[carAp1]	+	[AIBSCS, BPP, GEA, SM]	Strong	
+RutR	fepB[fepBp]	-	[AIBSCS, BPP, GEA]	Strong	
 RutR	gadX[gadXp]	-	[BPP, GEA]	Strong	
 RutR	gadXW[gadXp]	-	[BPP, GEA]	Strong	
-RutR	nemRA[nemRp]	-	[AIBSCS, BPP, GEA]	Weak	
-RutR	nemRA-gloA[nemRp]	-	[AIBSCS, BPP, GEA]	Weak	
-RutR	pdeR[gmrp]	-	[GEA]	Weak	
-RutR	rutABCDEFG[rutAp]	-	[AIBSCS, BPP, GEA, SM]	Weak	
-RutR	rutR[rutRp2]	-	[AIBSCS, BPP, GEA, SM]	Weak	
+RutR	nemRA[nemRp]	-	[AIBSCS, BPP, GEA]	Strong	
+RutR	nemRA-gloA[nemRp]	-	[AIBSCS, BPP, GEA]	Strong	
+RutR	pdeR[pdeRp]	-	[GEA]	Weak	
+RutR	rutABCDEFG[rutAp]	-	[AIBSCS, BPP, GEA, SM]	Strong	
+RutR	rutR[rutRp2]	-	[AIBSCS, BPP, GEA, SM]	Strong	
 SdiA	ftsQ[ftsQp2]	+	[BPP, GEA]	Strong	
 SdiA	ftsQAZ[ftsQp1]	-	[BPP, GEA]	Strong	
 SdiA	gadW[gadWp2]	+	[GEA]	Weak	
-SdiA	ydiV[ydiVp]	+	[AIBSCS, BPP, GEA]	Weak	
-SgrR	alaC[alaCp]	+	[GEA, HIBSCS, SM]	Weak	
+SdiA	ydiV[ydiVp]	+	[AIBSCS, BPP, GEA]	Strong	
+SgrR	alaC[alaCp]	+	[GEA, HIBSCS, SM]	Strong	
 SgrR	sgrR-sroA-tbpA-thiPQ[sgrRp]	-	[BPP, GEA, HIBSCS, SM]	Strong	
 SgrR	sgrST-setA[sgrSp]	+	[BPP, GEA, HIBSCS, SM]	Strong	
+SlyA	casABCDE12[casAp]	+	[AIBSCS, BPP, GEA]	Strong	
+SlyA	fecIR[fecIp]	-	[AIBSCS, BPP, GEA]	Strong	
+SlyA	gspCDEFGHIJKLMO[gspCp2]	+	[AIBSCS, BPP, GEA]	Strong	
 SlyA	hlyE[hlyEp]	+	[BPP, GEA]	Strong	
+SlyA	leuO[leuOp]	+	[AIBSCS, BPP, GEA]	Strong	
+SlyA	paaABCDEFGHIJK[paaAp]	+	[AIBSCS, BPP, GEA]	Strong	
 SoxR	fumC[fumCp]	+	[BPP, GEA]	Strong	
 SoxR	soxR[soxRp]	-	[BPP, GEA]	Strong	
 SoxR	soxS[soxSp]	+	[BPP, GEA]	Strong	
 SoxS	acnA[acnAp2]	+	[BPP, GEA, HIBSCS]	Strong	
 SoxS	acrAB[acrAp]	+	[BPP, GEA, HIBSCS]	Strong	
 SoxS	acrZ[acrZp]	+	[GEA, IHBCE]	Weak	
+SoxS	aldA[aldAp]	+	[AIBSCS, GEA]	Weak	
 SoxS	fldA-uof-fur[fldAp]	+	[BPP, GEA, HIBSCS]	Strong	
 SoxS	fldB[fldBp]	+	[GEA, HIBSCS]	Weak	
 SoxS	fpr[fprp]	+	[BPP, GEA, HIBSCS]	Strong	
 SoxS	fumC[fumCp]	+	[BPP, GEA]	Strong	
 SoxS	inaA[inaAp]	+	[BPP, GEA, HIBSCS]	Strong	
 SoxS	marRAB[marRp]	+	[BPP, GEA, HIBSCS]	Strong	
-SoxS	micF[micFp]	+	[BCE, BPP]	Weak	
+SoxS	micF[micFp]	+	[BCE, BPP]	Strong	
 SoxS	nfo[nfop]	+	[BCE, GEA, HIBSCS]	Weak	
 SoxS	nfsB[nfsBp]	+	[BPP, GEA, HIBSCS]	Strong	
 SoxS	pgi[pgip]	+	[GEA, HIBSCS]	Weak	
 SoxS	poxB[poxBp]	+	[GEA, HIBSCS]	Weak	
-SoxS	pqiAB[pqiAp1]	+	[BPP, GEA, HIBSCS, SM]	Strong	
+SoxS	pqiABC[pqiAp1]	+	[BPP, GEA, HIBSCS, SM]	Strong	
 SoxS	ptsG[ptsGp1]	+	[BPP, GEA, HIBSCS]	Strong	
 SoxS	ribA[ribAp1]	+	[BPP, GEA, HIBSCS]	Strong	
 SoxS	rob[robp]	-	[BPP, HIBSCS]	Strong	
-SoxS	sodA[sodAp]	+	[BCE, BPP, GEA, HIBSCS]	Weak	
+SoxS	sodA[sodAp]	+	[BCE, BPP, GEA, HIBSCS]	Strong	
 SoxS	soxS[soxSp]	-	[BPP, GEA]	Strong	
 SoxS	tolC-ygiABC[tolCp4]	+	[AIBSCS, GEA]	Weak	
 SoxS	tolC-ygiABC[tolCp3]	+	[AIBSCS, GEA]	Weak	
 SoxS	uof-fur[uofp]	+	[BPP]	Strong	
-SoxS	waaYZ[rfaYp]	+	[BPP, GEA, HIBSCS]	Strong	
+SoxS	waaYZ[waaYp]	+	[BPP, GEA, HIBSCS]	Strong	
 SoxS	ybjC-nfsA-rimK-ybjN[ybjCp]	+	[BPP, GEA, HIBSCS]	Strong	
 SoxS	ydbK[ydbKp]	+	[BPP, GEA, HIBSCS, SM]	Strong	
 SoxS	ydbK-ompN[ydbKp]	+	[BPP, GEA, HIBSCS, SM]	Strong	
 SoxS	zinT[zinTp]	+	[GEA]	Weak	
 SoxS	zwf[zwfp]	+	[BPP, GEA, HIBSCS, SM]	Strong	
+SrlR	srlAEBD-gutM-srlR-gutQ[srlAp]	-	[GEA]	Weak	
 StpA	bglG[bglGp]	-	[GEA]	Weak	
 StpA	bglGFB[bglGp]	-	[GEA]	Weak	
 StpA	leuO[leuOp2]	-	[GEA]	Weak	
@@ -2051,16 +2108,15 @@ StpA	ssrS-fau[ssrSp1]	-	[BPP, GEA]	Strong
 StpA	ssrS-fau[ssrSp2]	-	[BPP, GEA]	Strong	
 StpA	stpA[stpAp1]	-	[GEA]	Weak	
 SutR	cysE[cysEp]	-	[BPP, GEA]	Strong	
-SutR	fliAZ-tcyJ[fliAp1]	-	[AIBSCS, BPP, GEA]	Weak	
+SutR	fliAZ-tcyJ[fliAp1]	-	[AIBSCS, BPP, GEA]	Strong	
 SutR	sutR[sutRp]	+	[BPP, GEA, HIBSCS]	Strong	
-TdcA	tdcABCDEFG[tdcAp]	+	[BCE, GEA, SM]	Weak	
-TdcR	tdcABCDEFG[]	+	[]	
+TdcA	tdcABCDEFG[tdcAp]	+	[BCE, GEA, SM]	Strong	
 TorR	gadAX[gadAp]	-	[AIBSCS, GEA]	Weak	
 TorR	hdeAB-yhiD[hdeAp]	+	[AIBSCS, GEA]	Weak	
 TorR	tnaC[tnaCp]	+	[BPP, GEA]	Strong	
 TorR	tnaCAB[tnaCp]	+	[BPP, GEA]	Strong	
-TorR	torCAD[torCp]	+	[BCE, BPP, GEA, HIBSCS, SM]	Weak	
-TorR	torR[torRp]	-	[BCE, BPP, GEA, HIBSCS, SM]	Weak	
+TorR	torCAD[torCp]	+	[BCE, BPP, GEA, HIBSCS, SM]	Strong	
+TorR	torR[torRp]	-	[BCE, BPP, GEA, HIBSCS, SM]	Strong	
 TreR	treBC[treBp]	-	[BPP, GEA, HIBSCS]	Strong	
 TrpR	aroH[aroHp1]	-	[BPP, GEA, HIBSCS]	Strong	
 TrpR	aroL-yaiA-aroM[aroLp]	-	[BPP, GEA, HIBSCS, SM]	Strong	
@@ -2068,7 +2124,9 @@ TrpR	mtr[mtrp2]	-	[BPP, GEA, HIBSCS]	Strong
 TrpR	trpL[trpLp]	-	[BPP, GEA, HIBSCS, SM]	Strong	
 TrpR	trpLEDCBA[trpLp]	-	[BPP, GEA, HIBSCS, SM]	Strong	
 TrpR	trpR[trpRp]	-	[BPP, GEA, HIBSCS]	Strong	
-TyrR	aroF-tyrA[aroFp]	-	[GEA, HIBSCS, SM]	Weak	
+TtdR	ttdABT[ttdAp]	+	[BPP, GEA, HIBSCS]	Strong	
+TtdR	ttdR[ttdRp]	+	[BPP]	Strong	
+TyrR	aroF-tyrA[aroFp]	-	[GEA, HIBSCS, SM]	Strong	
 TyrR	aroG[aroGp]	-	[BPP, HIBSCS, SM]	Strong	
 TyrR	aroL-yaiA-aroM[aroLp]	-	[BPP, GEA, SM]	Strong	
 TyrR	aroP[aroPp1]	-	[BPP, GEA, HIBSCS, SM]	Strong	
@@ -2076,43 +2134,43 @@ TyrR	aroP[aroPp2]	-	[BPP, GEA, HIBSCS, SM]	Strong
 TyrR	folA[folAp]	+	[BPP, GEA, HIBSCS, SM]	Strong	
 TyrR	mtr[mtrp2]	+	[BPP, GEA, HIBSCS, SM]	Strong	
 TyrR	tyrB[tyrBp]	-	[BPP, GEA, HIBSCS, SM]	Strong	
-TyrR	tyrP[tyrPp1]	+	[BCE, BPP, GEA, SM]	Weak	
+TyrR	tyrP[tyrPp1]	+-	[BCE, BPP, GEA, SM]	Strong	
 TyrR	tyrR[tyrRp]	-	[GEA, HIBSCS]	Weak	
-UhpA	uhpT[uhpTp]	+	[BCE, BPP, GEA, SM]	Weak	
+UhpA	uhpT[uhpTp]	+	[BCE, BPP, GEA, SM]	Strong	
 UidR	uidABC[uidAp]	-	[GEA]	Weak	
 UidR	uidR[uidRp]	-	[GEA]	Weak	
 UlaR	ulaABCDEF[ulaAp]	-	[BPP, GEA, SM]	Strong	
 UlaR	ulaG[ulaGp]	-	[BPP, GEA]	Strong	
+UvrY	csrB[csrBp]	+	[BPP, GEA]	Strong	
+UvrY	csrC[csrCp]	+	[BPP, GEA]	Strong	
+UvrY	luxS[luxSp2]	+	[BPP, GEA]	Strong	
 UvrY	uhpT[uhpTp]	+	[BPP, GEA]	Strong	
 UvrY	ydeP[ydePp]	+	[BPP, GEA]	Strong	
+UxuR	exuR[exuRp2]	-	[BPP, GEA, HIBSCS]	Strong	
 UxuR	gntP[gntPp]	-	[BPP, GEA, HIBSCS, SM]	Strong	
-UxuR	lgoR[yjjMp4]	-	[GEA]	Weak	
+UxuR	lgoR[lgoRp4]	-	[BPP, GEA]	Strong	
 UxuR	uidABC[uidAp]	-	[GEA, HIBSCS]	Weak	
 UxuR	uxuAB[uxuAp]	-	[BPP, GEA, HIBSCS, SM]	Strong	
 UxuR	uxuR[uxuRp]	-	[AIBSCS, GEA]	Weak	
 XapR	xapAB[xapAp]	+	[GEA, HIBSCS]	Weak	
+XylR	araC[araCp]	-	[AIBSCS, BPP, GEA]	Strong	
 XylR	xylAB[xylAp]	+	[BPP, GEA, HIBSCS]	Strong	
 XylR	xylFGHR[xylFp]	+	[BPP, GEA, HIBSCS]	Strong	
 YdeO	appCBXA[appCp]	+	[BPP, GEA, IHBCE]	Strong	
-YdeO	gadE[gadEp3]	+	[BPP, GEA, IHBCE]	Strong	
-YdeO	gadE-mdtEF[gadEp]	+	[BPP, GEA]	Strong	
+YdeO	gadEF[gadEp3]	+	[BPP, GEA, IHBCE]	Strong	
+YdeO	gadEF-mdtEF[gadEp]	+	[BPP, GEA]	Strong	
 YdeO	gadW[gadWp1]	+	[BPP, GEA, IHBCE]	Strong	
 YdeO	hyaABCDEF[hyaAp]	+	[BPP, GEA, IHBCE]	Strong	
 YdeO	safA-ydeO[safAp]	-	[GEA]	Weak	
 YdeO	slp-dctR[slpp]	+	[BPP, GEA, IHBCE]	Strong	
 YdeO	yiiS-uspD[yiiSp]	+	[BPP, GEA, IHBCE]	Strong	
-YedW	cusCFBA[cusCp]	+	[HIBSCS]	Weak	
-YedW	cusRS[cusRp]	+	[HIBSCS]	Weak	
-YedW	cyoABCDE[cyoAp]	-	[GEA, HIBSCS]	Weak	
-YedW	yedX[yedXp]	+	[BPP, GEA, HIBSCS]	Strong	
 YefM	yefM-yoeB[yefMp]	-	[BPP, GEA, HIBSCS]	Strong	
-YefM-YoeB	yefM-yoeB[]	-	[]	
-YehT	yjiY[yjiYp]	+	[BPP, GEA, SM]	Strong	
 YeiL	yeiL[yeiLp]	+	[GEA]	Weak	
+YhaJ	bssS[bssSp1]	+	[BPP, GEA]	Strong	
 YiaJ	yiaJ[yiaJp]	-	[BCE, GEA]	Weak	
 YiaJ	yiaKLMNO-lyxK-sgbHUE[yiaKp]	-	[BCE, GEA]	Weak	
-YjjQ	flhDC[flhDp]	-	[AIBSCS, GEA, SM]	Weak	
-YjjQ	gfcA[gfcAp]	-	[AIBSCS, GEA, SM]	Weak	
+YjjQ	flhDC[flhDp]	-	[AIBSCS, GEA, SM]	Strong	
+YjjQ	gfcA[gfcAp]	-	[AIBSCS, GEA, SM]	Strong	
 YjjQ	ompC[ompCp1]	-	[AIBSCS, GEA]	Weak	
 YjjQ	ybhL[ybhLp]	-	[AIBSCS, GEA]	Weak	
 YjjQ	yfiR-dgcN-yfiB[yfiRp]	-	[AIBSCS, GEA]	Weak	

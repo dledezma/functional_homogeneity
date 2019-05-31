@@ -1,6 +1,7 @@
 #From syns_file_perlcyc_v4.pl on Wed Mar 16 11:56:05 2016 using Ecocyc v9.5
 # Added Regulon effectors on their corresponding IDs, when none were available RegulonDB ids were added at EOF.
 # Eliminated "a", "an", "L-\w", "D-\w" prefixes in common names to avoid ambiguity in connectivity measurements.
+# Manually added missing metabolites from newer versions.
 ### Dependent files: ###
 ### /Users/Daniela/Documents/PhD/Datasets/ecocyc_links/rxn_rpd_links.txt
 CR	chromium	//Cr//chromium//
@@ -11549,7 +11550,7 @@ EPITHIONITRILES	epithionitrile	//an epithionitrile//
 CPD-18254	hydrophilic solute 900 Da	//hydrophilic solute < 900 Da//
 |Drugs|	drug	//a drug//
 |Hydrophilic-Solute-Or-Ion-LT-600Da|	hydrophilic solute or ion 600 Da	//hydrophilic solute or ion < 600 Da//
-|Light|	h&nu;	//h&nu;//light//a photon//
+|Light|	light	//h&nu;//light//a photon//
 NCCS	NCCs	//a nonfluorescent chlorophyll catabolite//NCCs//
 UNKNOWN	unknown	//an unknown compound//unknown//
 |Unknown-Inducers|	unknown inducer	//an unknown inducer//unknown inducer//
@@ -13324,3 +13325,164 @@ RegulonDB	[2Fe-2S]2+ reduced	//[2Fe-2S]<sup>2+</sup> reduced//[2Fe-2S]2+ reduced
 RegulonDB	[4Fe-4S]2+ reduced	//[4Fe-4S]<sup>2+</sup> reduced//
 RegulonDB	[2Fe-2S]1+	//[2Fe-2S]1+//[2Fe-2S]<sup>1+</sup>//
 RegulonDB	L-lactose	//L-lactose//
+RegulonDB	rhodamine 6G	//rhodamine 6G//
+RegulonDB	allose	//allose//
+RegulonDB	beta-D-fructose-1,6-bisphosphate	//&beta;-D-fructose 1,6-bisphosphate//
+RegulonDB	beta-D-fructofuranose-1-P	//beta-D-fructofuranose-1-P//
+RegulonDB	Met-oxidized	//Met-oxidized//
+RegulonDB	(4S)-4-hydroxy-5-phosphooxypentane-2,3-dione	//(4S)-4-hydroxy-5-phosphooxypentane-2,3-dione//
+RegulonDB	maltotriose-ATP	//maltotriose-ATP//
+RegulonDB	N-acetyl-D-muramate 6-phosphate	//<i>N</i>-acetyl-D-muramate 6-phosphate//
+RegulonDB	N-acetyl-D-glucosamine 6-phosphate	//<i>N</i>-acetyl-D-glucosamine 6-phosphate//
+RegulonDB	ADP-Maltotriose	//ADP-Maltotriose//
+
+#New version compounds
+CPD-20901	rhodamine 6G	//rhodamine 6G//
+CPD-21070	acriflavine	//3,6-diamino-10-methylacridinium chloride//acriflavine//10-methyl-3,6-diaminoacridinium chloride//Trypaflavin//acriflavin//euflavine//
+CPD-9288	hexane	//n-hexane//hexane//
+CPD-19186	a modified nucleobase within DNA	//a modified nucleobase within DNA//
+CPD-19181	a DNA containing Spmethyl phosphotriester	//a DNA containing <i>S</i><sub>p</sub> methyl phosphotriester//
+CPD-19185	a DNA without Spmethyl phosphotriester	//a DNA without <i>S</i><sub>p</sub> methyl phosphotriester//
+CPD-20036	1-methyl-dATP	//1-methyl-dATP//<i>N</i><sup>1</sup>-methyl-2'-deoxyadenosine 5'-triphosphate//1-methyldeoxyadenosine triphosphate//
+CPD-20035	1-methyl-dAMP	//1-methyl-dAMP//<i>N</i><sup>1</sup>-methyl-2'deoxyadenosine 5'-monophosphate//1-methyldeoxyadenosine monophosphate//
+CPD-18901	I(2,3,4,5)P4	//D-<i>myo</i>-inositol (2,3,4,5) tetrakisphosphate//1D-<i>myo</i>-inositol (2,3,4,5) tetra<i>kis</i>phosphate//<i>myo</i>-inositol (2,3,4,5) tetrakisphosphate//Ins(2,3,4,5)P<sub>4</sub>//I(2,3,4,5)P<sub>4</sub>//
+CPD-18902	I(2,4,5)P3	//D-<i>myo</i>-inositol (2,4,5) trisphosphate//1D-<i>myo</i>-inositol (2,4,5) trisphosphate//Ins(2,4,5)P<sub>3</sub>//I(2,4,5)P<sub>3</sub>//
+CPD-18903	I(2,5)P2	//D-<i>myo</i>-inositol (2,5) bisphosphate//Ins(2,5)P<sub>2</sub>//I(2,5)P<sub>2</sub>//1D-<i>myo</i>-inositol (2,5) bisphosphate//inositol (2,5) bisphosphate//
+CPD-15826	keto-D-tagatose 6-phosphate	//<i>keto</i>-D-tagatose 6-phosphate//
+CPD-19171	(S)-3-hydroxy-18:1-delta9-CoA	//(S)-3-hydroxy-(9Z)-octadecenoyl-CoA//(S)-3-hydroxy-18:1-&Delta;9-CoA//(S)-3-hydroxy-9-cis-octadecenoyl-CoA//
+CPD-19169	3-oxo-18:1-delta9-CoA	//3-oxo-(9Z)-octadecenoyl-CoA//3-oxo-18:1-&Delta;9-CoA//3-oxo-9-cis-octadecenoyl-CoA//
+CPD-19168	(S)-3-hydroxy-16:1-delta7-CoA	//(S)-3-hydroxy-(7Z)-hexadecenoyl-CoA//(S)-3-hydroxy-16:1-&Delta;7-CoA//(S)-3-hydroxy-7-cis-hexadecenoyl-CoA//
+CPD-19167	3-oxo-16:1-delta7-CoA	//3-oxo-(7Z)-hexadecenoyl-CoA//3-oxo-16:1-&Delta;7-CoA//3-oxo-7-cis-hexadecenoyl-CoA//
+CPD-19159	(S)-3-hydroxy-18:1-delta11-CoA	//(S)-3-hydroxy-(11Z)-octadecenoyl-CoA//(S)-3-hydroxy-18:1-&Delta;11-CoA//(S)-3-hydroxy-11-cis-octadecenoyl-CoA//
+CPD-19160	3-oxo-18:1-delta11-CoA	//3-oxo-(11Z)-octadecenoyl-CoA//3-oxo-18:1-&Delta;11-CoA//3-oxo-11-cis-octadecenoyl-CoA//
+CPD-19155	(S)-3-hydroxy-16:1-delta9-CoA	//(S)-3-hydroxy-(9Z)-hexadecenoyl-CoA//(S)-3-hydroxy-16:1-&Delta;9-CoA//(S)-3-hydroxy-9-cis-hexadecenoyl-CoA//
+CPD-19158	3-oxo-16:1-delta9-CoA	//3-oxo-(9Z)-hexadecenoyl-CoA//3-oxo-16:1-&Delta;9-CoA//3-oxo-9-cis-hexadecenoyl-CoA//
+CPD-19154	(S)-3-hydroxy-14:1-delta7-CoA	//(S)-3-hydroxy-(7Z)-tetradecenoyl-CoA//(S)-3-hydroxy-14:1-&Delta;7-CoA//(S)-3-hydroxy-7-cis-tetradecenoyl-CoA//
+CPD-19157	3-oxo-14:1-delta7-CoA	//3-oxo-(7Z)-tetradecenoyl-CoA//3-oxo-14:1-&Delta;7-CoA//3-oxo-7-cis-tetradecenoyl-CoA//
+CPD-19151	(S)-3-hydroxy-12:1-delta5-CoA	//(S)-3-hydroxy-(5Z)-dodecenoyl-CoA//(S)-3-hydroxy-12:1-&Delta;5-CoA//(S)-3-hydroxy-5-cis-dodecenoyl-CoA//
+CPD-19153	3-oxo-12:1-delta5-CoA	//3-oxo-(5Z)-dodecenoyl-CoA//3-oxo-12:1-&Delta;5-CoA//3-oxo-5-cis-dodecenoyl-CoA//
+CPD-19172	(2E,9Z)-octadecenoyl-CoA	//(2E,9Z)-octadecenoyl-CoA//18:2-&Delta;2,&Delta;9-CoA//2-trans,9-cis-octadecenoyl-CoA//
+CPD-19171	(S)-3-hydroxy-18:1-delta9-CoA	//(S)-3-hydroxy-(9Z)-octadecenoyl-CoA//(S)-3-hydroxy-18:1-&Delta;9-CoA//(S)-3-hydroxy-9-cis-octadecenoyl-CoA//
+CPD-19170	(2E,7Z)-hexadecenoyl-CoA	//(2E,7Z)-hexadecenoyl-CoA//16:2-&Delta;2,&Delta;7-CoA//2-trans,7-cis-hexadecenoyl-CoA//
+CPD-19168	(S)-3-hydroxy-16:1-delta7-CoA	//(S)-3-hydroxy-(7Z)-hexadecenoyl-CoA//(S)-3-hydroxy-16:1-&Delta;7-CoA//(S)-3-hydroxy-7-cis-hexadecenoyl-CoA//
+CPD-19163	(2E,11Z)-octadecenoyl-CoA	//(2E,11Z)-octadecenoyl-CoA//18:2-&Delta;2,&Delta;11-CoA//2-trans,11-cis-octadecenoyl-CoA//
+CPD-19159	(S)-3-hydroxy-18:1-delta11-CoA	//(S)-3-hydroxy-(11Z)-octadecenoyl-CoA//(S)-3-hydroxy-18:1-&Delta;11-CoA//(S)-3-hydroxy-11-cis-octadecenoyl-CoA//
+CPD-19162	(2E,9Z)-hexadecenoyl-CoA	//(2E,9Z)-hexadecenoyl-CoA//16:2-&Delta;2,&Delta;9-CoA//2-trans,9-cis-hexadecenoyl-CoA//
+CPD-19155	(S)-3-hydroxy-16:1-delta9-CoA	//(S)-3-hydroxy-(9Z)-hexadecenoyl-CoA//(S)-3-hydroxy-16:1-&Delta;9-CoA//(S)-3-hydroxy-9-cis-hexadecenoyl-CoA//
+CPD-19161	(2E,7Z)-tetradecenoyl-CoA	//(2E,7Z)-tetradecenoyl-CoA//14:2-&Delta;2,&Delta;7-CoA//2-trans,7-cis-tetradecenoyl-CoA//
+CPD-19154	(S)-3-hydroxy-14:1-delta7-CoA	//(S)-3-hydroxy-(7Z)-tetradecenoyl-CoA//(S)-3-hydroxy-14:1-&Delta;7-CoA//(S)-3-hydroxy-7-cis-tetradecenoyl-CoA//
+CPD-19150	(2E,5Z)-dodecenoyl-CoA	//(2E,5Z)-dodecenoyl-CoA//12:2-&Delta;2,&Delta;5-CoA//2-trans,5-cis-dodecenoyl-CoA//
+CPD-19151	(S)-3-hydroxy-12:1-delta5-CoA	//(S)-3-hydroxy-(5Z)-dodecenoyl-CoA//(S)-3-hydroxy-12:1-&Delta;5-CoA//(S)-3-hydroxy-5-cis-dodecenoyl-CoA//
+CPD-19169	3-oxo-18:1-delta9-CoA	//3-oxo-(9Z)-octadecenoyl-CoA//3-oxo-18:1-&Delta;9-CoA//3-oxo-9-cis-octadecenoyl-CoA//
+CPD-19144	16:1(n-9)	//(7Z)-hexadecenoyl-CoA//<i>cis</i>-hexadec-7-enoyl-CoA//(7Z)-hexadec-7-enoyl-CoA//16:1 <i>cis</i>-7//16:1(n-9)//
+CPD-19167	3-oxo-16:1-delta7-CoA	//3-oxo-(7Z)-hexadecenoyl-CoA//3-oxo-16:1-&Delta;7-CoA//3-oxo-7-cis-hexadecenoyl-CoA//
+CPD-15436	14:1(n-9)	//(5Z)-tetradecenoyl-CoA//<i>cis</i>-tetradec-5-enoyl-CoA//14:1 <i>cis</i>-5//14:1(n-9)//(5Z)-tetradec-5-enoyl-CoA//
+CPD-19160	3-oxo-18:1-delta11-CoA	//3-oxo-(11Z)-octadecenoyl-CoA//3-oxo-18:1-&Delta;11-CoA//3-oxo-11-cis-octadecenoyl-CoA//
+CPD-19158	3-oxo-16:1-delta9-CoA	//3-oxo-(9Z)-hexadecenoyl-CoA//3-oxo-16:1-&Delta;9-CoA//3-oxo-9-cis-hexadecenoyl-CoA//
+CPD-19147	14:1(n-7)-CoA	//(7Z)-tetradecenoyl-CoA//14:1-&Delta;7-CoA//cis-7-tetradecenoyl-CoA//14:1(n-7)-CoA//(7Z)-tetradec-7-enoyl-CoA//
+CPD-19157	3-oxo-14:1-delta7-CoA	//3-oxo-(7Z)-tetradecenoyl-CoA//3-oxo-14:1-&Delta;7-CoA//3-oxo-7-cis-tetradecenoyl-CoA//
+CPD-19148	12:1(n-7)-CoA	//(5Z)-dodecenoyl-CoA//12:1-&Delta;5-CoA//cis-5-dodecenoyl-CoA//12:1(n-7)-CoA//(5Z)-dodec-5-enoyl-CoA//
+CPD-19153	3-oxo-12:1-delta5-CoA	//3-oxo-(5Z)-dodecenoyl-CoA//3-oxo-12:1-&Delta;5-CoA//3-oxo-5-cis-dodecenoyl-CoA//
+CPD-14925	10:1(n-7)-CoA	//(3Z)-dec-3-enoyl-CoA//3-<i>cis</i>-decenoyl-CoA//10:1(n-7)-CoA//10:1-&Delta;3-CoA//(3Z)-decenoyl-CoA//
+CPD-19172	(2E,9Z)-octadecenoyl-CoA	//(2E,9Z)-octadecenoyl-CoA//18:2-&Delta;2,&Delta;9-CoA//2-trans,9-cis-octadecenoyl-CoA//
+CPD-19144	16:1(n-9)	//(7Z)-hexadecenoyl-CoA//<i>cis</i>-hexadec-7-enoyl-CoA//(7Z)-hexadec-7-enoyl-CoA//16:1 <i>cis</i>-7//16:1(n-9)//
+CPD-19170	(2E,7Z)-hexadecenoyl-CoA	//(2E,7Z)-hexadecenoyl-CoA//16:2-&Delta;2,&Delta;7-CoA//2-trans,7-cis-hexadecenoyl-CoA//
+CPD-15436	14:1(n-9)	//(5Z)-tetradecenoyl-CoA//<i>cis</i>-tetradec-5-enoyl-CoA//14:1 <i>cis</i>-5//14:1(n-9)//(5Z)-tetradec-5-enoyl-CoA//
+CPD-19163	(2E,11Z)-octadecenoyl-CoA	//(2E,11Z)-octadecenoyl-CoA//18:2-&Delta;2,&Delta;11-CoA//2-trans,11-cis-octadecenoyl-CoA//
+CPD-19162	(2E,9Z)-hexadecenoyl-CoA	//(2E,9Z)-hexadecenoyl-CoA//16:2-&Delta;2,&Delta;9-CoA//2-trans,9-cis-hexadecenoyl-CoA//
+CPD-19147	14:1(n-7)-CoA	//(7Z)-tetradecenoyl-CoA//14:1-&Delta;7-CoA//cis-7-tetradecenoyl-CoA//14:1(n-7)-CoA//(7Z)-tetradec-7-enoyl-CoA//
+CPD-19161	(2E,7Z)-tetradecenoyl-CoA	//(2E,7Z)-tetradecenoyl-CoA//14:2-&Delta;2,&Delta;7-CoA//2-trans,7-cis-tetradecenoyl-CoA//
+CPD-19148	12:1(n-7)-CoA	//(5Z)-dodecenoyl-CoA//12:1-&Delta;5-CoA//cis-5-dodecenoyl-CoA//12:1(n-7)-CoA//(5Z)-dodec-5-enoyl-CoA//
+CPD-19150	(2E,5Z)-dodecenoyl-CoA	//(2E,5Z)-dodecenoyl-CoA//12:2-&Delta;2,&Delta;5-CoA//2-trans,5-cis-dodecenoyl-CoA//
+CPD-19169	3-oxo-18:1-delta9-CoA	//3-oxo-(9Z)-octadecenoyl-CoA//3-oxo-18:1-&Delta;9-CoA//3-oxo-9-cis-octadecenoyl-CoA//
+CPD-19144	16:1(n-9)	//(7Z)-hexadecenoyl-CoA//<i>cis</i>-hexadec-7-enoyl-CoA//(7Z)-hexadec-7-enoyl-CoA//16:1 <i>cis</i>-7//16:1(n-9)//
+CPD-19167	3-oxo-16:1-delta7-CoA	//3-oxo-(7Z)-hexadecenoyl-CoA//3-oxo-16:1-&Delta;7-CoA//3-oxo-7-cis-hexadecenoyl-CoA//
+CPD-15436	14:1(n-9)	//(5Z)-tetradecenoyl-CoA//<i>cis</i>-tetradec-5-enoyl-CoA//14:1 <i>cis</i>-5//14:1(n-9)//(5Z)-tetradec-5-enoyl-CoA//
+CPD-19160	3-oxo-18:1-delta11-CoA	//3-oxo-(11Z)-octadecenoyl-CoA//3-oxo-18:1-&Delta;11-CoA//3-oxo-11-cis-octadecenoyl-CoA//
+CPD-19158	3-oxo-16:1-delta9-CoA	//3-oxo-(9Z)-hexadecenoyl-CoA//3-oxo-16:1-&Delta;9-CoA//3-oxo-9-cis-hexadecenoyl-CoA//
+CPD-19147	14:1(n-7)-CoA	//(7Z)-tetradecenoyl-CoA//14:1-&Delta;7-CoA//cis-7-tetradecenoyl-CoA//14:1(n-7)-CoA//(7Z)-tetradec-7-enoyl-CoA//
+CPD-19157	3-oxo-14:1-delta7-CoA	//3-oxo-(7Z)-tetradecenoyl-CoA//3-oxo-14:1-&Delta;7-CoA//3-oxo-7-cis-tetradecenoyl-CoA//
+CPD-19148	12:1(n-7)-CoA	//(5Z)-dodecenoyl-CoA//12:1-&Delta;5-CoA//cis-5-dodecenoyl-CoA//12:1(n-7)-CoA//(5Z)-dodec-5-enoyl-CoA//
+CPD-19153	3-oxo-12:1-delta5-CoA	//3-oxo-(5Z)-dodecenoyl-CoA//3-oxo-12:1-&Delta;5-CoA//3-oxo-5-cis-dodecenoyl-CoA//
+CPD-14925	10:1(n-7)-CoA	//(3Z)-dec-3-enoyl-CoA//3-<i>cis</i>-decenoyl-CoA//10:1(n-7)-CoA//10:1-&Delta;3-CoA//(3Z)-decenoyl-CoA//
+CPD-19171	(S)-3-hydroxy-18:1-delta9-CoA	//(S)-3-hydroxy-(9Z)-octadecenoyl-CoA//(S)-3-hydroxy-18:1-&Delta;9-CoA//(S)-3-hydroxy-9-cis-octadecenoyl-CoA//
+CPD-19169	3-oxo-18:1-delta9-CoA	//3-oxo-(9Z)-octadecenoyl-CoA//3-oxo-18:1-&Delta;9-CoA//3-oxo-9-cis-octadecenoyl-CoA//
+CPD-19168	(S)-3-hydroxy-16:1-delta7-CoA	//(S)-3-hydroxy-(7Z)-hexadecenoyl-CoA//(S)-3-hydroxy-16:1-&Delta;7-CoA//(S)-3-hydroxy-7-cis-hexadecenoyl-CoA//
+CPD-19167	3-oxo-16:1-delta7-CoA	//3-oxo-(7Z)-hexadecenoyl-CoA//3-oxo-16:1-&Delta;7-CoA//3-oxo-7-cis-hexadecenoyl-CoA//
+CPD-19159	(S)-3-hydroxy-18:1-delta11-CoA	//(S)-3-hydroxy-(11Z)-octadecenoyl-CoA//(S)-3-hydroxy-18:1-&Delta;11-CoA//(S)-3-hydroxy-11-cis-octadecenoyl-CoA//
+CPD-19160	3-oxo-18:1-delta11-CoA	//3-oxo-(11Z)-octadecenoyl-CoA//3-oxo-18:1-&Delta;11-CoA//3-oxo-11-cis-octadecenoyl-CoA//
+CPD-19155	(S)-3-hydroxy-16:1-delta9-CoA	//(S)-3-hydroxy-(9Z)-hexadecenoyl-CoA//(S)-3-hydroxy-16:1-&Delta;9-CoA//(S)-3-hydroxy-9-cis-hexadecenoyl-CoA//
+CPD-19158	3-oxo-16:1-delta9-CoA	//3-oxo-(9Z)-hexadecenoyl-CoA//3-oxo-16:1-&Delta;9-CoA//3-oxo-9-cis-hexadecenoyl-CoA//
+CPD-19154	(S)-3-hydroxy-14:1-delta7-CoA	//(S)-3-hydroxy-(7Z)-tetradecenoyl-CoA//(S)-3-hydroxy-14:1-&Delta;7-CoA//(S)-3-hydroxy-7-cis-tetradecenoyl-CoA//
+CPD-19157	3-oxo-14:1-delta7-CoA	//3-oxo-(7Z)-tetradecenoyl-CoA//3-oxo-14:1-&Delta;7-CoA//3-oxo-7-cis-tetradecenoyl-CoA//
+CPD-19151	(S)-3-hydroxy-12:1-delta5-CoA	//(S)-3-hydroxy-(5Z)-dodecenoyl-CoA//(S)-3-hydroxy-12:1-&Delta;5-CoA//(S)-3-hydroxy-5-cis-dodecenoyl-CoA//
+CPD-19153	3-oxo-12:1-delta5-CoA	//3-oxo-(5Z)-dodecenoyl-CoA//3-oxo-12:1-&Delta;5-CoA//3-oxo-5-cis-dodecenoyl-CoA//
+CPD-19172	(2E,9Z)-octadecenoyl-CoA	//(2E,9Z)-octadecenoyl-CoA//18:2-&Delta;2,&Delta;9-CoA//2-trans,9-cis-octadecenoyl-CoA//
+CPD-19171	(S)-3-hydroxy-18:1-delta9-CoA	//(S)-3-hydroxy-(9Z)-octadecenoyl-CoA//(S)-3-hydroxy-18:1-&Delta;9-CoA//(S)-3-hydroxy-9-cis-octadecenoyl-CoA//
+CPD-19170	(2E,7Z)-hexadecenoyl-CoA	//(2E,7Z)-hexadecenoyl-CoA//16:2-&Delta;2,&Delta;7-CoA//2-trans,7-cis-hexadecenoyl-CoA//
+CPD-19168	(S)-3-hydroxy-16:1-delta7-CoA	//(S)-3-hydroxy-(7Z)-hexadecenoyl-CoA//(S)-3-hydroxy-16:1-&Delta;7-CoA//(S)-3-hydroxy-7-cis-hexadecenoyl-CoA//
+CPD-19163	(2E,11Z)-octadecenoyl-CoA	//(2E,11Z)-octadecenoyl-CoA//18:2-&Delta;2,&Delta;11-CoA//2-trans,11-cis-octadecenoyl-CoA//
+CPD-19159	(S)-3-hydroxy-18:1-delta11-CoA	//(S)-3-hydroxy-(11Z)-octadecenoyl-CoA//(S)-3-hydroxy-18:1-&Delta;11-CoA//(S)-3-hydroxy-11-cis-octadecenoyl-CoA//
+CPD-19162	(2E,9Z)-hexadecenoyl-CoA	//(2E,9Z)-hexadecenoyl-CoA//16:2-&Delta;2,&Delta;9-CoA//2-trans,9-cis-hexadecenoyl-CoA//
+CPD-19155	(S)-3-hydroxy-16:1-delta9-CoA	//(S)-3-hydroxy-(9Z)-hexadecenoyl-CoA//(S)-3-hydroxy-16:1-&Delta;9-CoA//(S)-3-hydroxy-9-cis-hexadecenoyl-CoA//
+CPD-19161	(2E,7Z)-tetradecenoyl-CoA	//(2E,7Z)-tetradecenoyl-CoA//14:2-&Delta;2,&Delta;7-CoA//2-trans,7-cis-tetradecenoyl-CoA//
+CPD-19154	(S)-3-hydroxy-14:1-delta7-CoA	//(S)-3-hydroxy-(7Z)-tetradecenoyl-CoA//(S)-3-hydroxy-14:1-&Delta;7-CoA//(S)-3-hydroxy-7-cis-tetradecenoyl-CoA//
+CPD-19150	(2E,5Z)-dodecenoyl-CoA	//(2E,5Z)-dodecenoyl-CoA//12:2-&Delta;2,&Delta;5-CoA//2-trans,5-cis-dodecenoyl-CoA//
+CPD-19151	(S)-3-hydroxy-12:1-delta5-CoA	//(S)-3-hydroxy-(5Z)-dodecenoyl-CoA//(S)-3-hydroxy-12:1-&Delta;5-CoA//(S)-3-hydroxy-5-cis-dodecenoyl-CoA//
+CPD-18901	I(2,3,4,5)P4	//D-<i>myo</i>-inositol (2,3,4,5) tetrakisphosphate//1D-<i>myo</i>-inositol (2,3,4,5) tetra<i>kis</i>phosphate//<i>myo</i>-inositol (2,3,4,5) tetrakisphosphate//Ins(2,3,4,5)P<sub>4</sub>//I(2,3,4,5)P<sub>4</sub>//
+CPD-18902	I(2,4,5)P3	//D-<i>myo</i>-inositol (2,4,5) trisphosphate//1D-<i>myo</i>-inositol (2,4,5) trisphosphate//Ins(2,4,5)P<sub>3</sub>//I(2,4,5)P<sub>3</sub>//
+CPD-18903	I(2,5)P2	//D-<i>myo</i>-inositol (2,5) bisphosphate//Ins(2,5)P<sub>2</sub>//I(2,5)P<sub>2</sub>//1D-<i>myo</i>-inositol (2,5) bisphosphate//inositol (2,5) bisphosphate//
+CPD-15417	novobiocin	//novobiocin//
+CPD-20746	diacetyl-lys-D-ala	//N&alpha;,N&epsilon;-diacetyl-lysyl-D-alanine//diacetyl-lys-D-ala//
+CPD-20756	NAM-pentapeptide	//N-acetyl-muramoyl-(L-alanyl-&gamma;-D-glutamyl-L-lysyl-D-alanyl-D-alanine)//NAM-(L-Ala-D-isoGlu-L-Lys-D-Ala-D-Ala)//NAM-pentapeptide//
+CPD-20757	NAM-tetrapeptide	//N-acetyl-muramoyl-(L-alanyl-&gamma;-D-glutamyl-L-lysyl-D-alanine)//NAM-(L-Ala-D-isoGlu-L-Lys-D-Ala//NAM-tetrapeptide//
+CPD-20940	sulfadiazine	//sulfadiazine//
+CPD-12587	(E,E)-farnesyl phosphate	//(2<i>E</i>,6<i>E</i>)-farnesyl phosphate//2,6,10-dodecatrien-1-ol, 3,7,11-trimethyl-, dihydrogen phosphate, (<i>2E,6E</i>)-//2,6,10-dodecatrien-1-ol, 3,7,11-trimethyl-, dihydrogen phosphate, (<i>E,E</i>)//(<i>E,E</i>)-farnesyl monophosphate//(<i>E,E</i>)-farnesyl phosphate//(<i>trans, trans</i>)-farnesyl monophosphate//2-<i>trans</i>,-6-<i>trans</i>-farnesyl monophosphate//2-<i>trans</i>,-6-<i>trans</i>-farnesyl phosphate//
+CPD-18804	a mature peptidoglycan (meso-diaminopimelate containing)	//a mature peptidoglycan (<i>meso</i>-diaminopimelate containing)//
+CPD-18805	a mature peptidoglycan strand with GlcNAc terminus	//a mature peptidoglycan strand with GlcNAc terminus//
+CPD-18806	a mature peptidoglycan strand with 1,6-anhydro-MurNAc terminus	//a mature peptidoglycan strand with 1,6-anhydro-MurNAc terminus//
+CPD-20940	sulfadiazine	//sulfadiazine//
+CPD-18719	keto-D-fructose 6-phosphate	//<i>keto</i>-D-fructose 6-phosphate//
+HOMOCYSTINE	L,L-homocystine	//L,L-homocystine//
+CPD-12797	DMP	//2,6-dimethoxyphenol//DMP//1,3-di-O-methylpyrogallol//1,3-dimethoxy-2-hydroxybenzene//1,3-dimethyl pyrogallate//2-hydroxy-1,3-dimethoxybenzene//pyrogallol 1,3-dimethyl ether//
+CPD-19233	TMPQ	//3,3',5,5'-tetramethoxydiphenoquinone//3,3',5,5'-tetramethoxy-1,1'-bi(cyclohexa-2,5-dien-1-ylidene)-4,4'-dione//coerulignone//cerulignone//TMPQ//
+CPD-19179	3',8-cH2GTP	//(8<i>S</i>)-3',8-cyclo-7,8-dihydroguanosine 5'-triphosphate//3',8-cH2GTP//
+5-HYDROXYISOURATE	(S)-5-hydroxyisourate	//(<i>S</i>)-5-hydroxyisourate//
+CPD-5821	(S)-OHCU	//(<i>S</i>)-2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazoline//(<i>S</i>)-5-hydroxy-2-oxo-4-ureido-2,5-dihydro-1H imidazole-5-carboxylate//(<i>S</i>)-OHCU//4-(carbamoylamino)-5-hydroxy-2-oxo-2,5-dihydro-1H-imidazole-5-carboxylate//
+SULFO-CYSTEINE	S-sulfocysteine	//<i>S</i>-sulfo-L-cysteine//S-sulfocysteine//
+HOMOCYSTINE	L,L-homocystine	//L,L-homocystine//
+CPD-20940	sulfadiazine	//sulfadiazine//
+A-DOUBLE-STRANDED-DNA-WITH-A-3-OVERHANG	a polynucleotide	//a polynucleotide//
+HOMOCYSTINE	L,L-homocystine	//L,L-homocystine//
+CPD-20940	sulfadiazine	//sulfadiazine//
+5-HYDROXYISOURATE	(S)-5-hydroxyisourate	//(<i>S</i>)-5-hydroxyisourate//
+CPD-5821	(S)-OHCU	//(<i>S</i>)-2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazoline//(<i>S</i>)-5-hydroxy-2-oxo-4-ureido-2,5-dihydro-1H imidazole-5-carboxylate//(<i>S</i>)-OHCU//4-(carbamoylamino)-5-hydroxy-2-oxo-2,5-dihydro-1H-imidazole-5-carboxylate//
+A-DOUBLE-STRANDED-DNA-WITH-A-3-OVERHANG	a polynucleotide	//a polynucleotide//
+HOMOCYSTINE	L,L-homocystine	//L,L-homocystine//
+CPD-18719	keto-D-fructose 6-phosphate	//<i>keto</i>-D-fructose 6-phosphate//
+CPD-19179	3',8-cH2GTP	//(8<i>S</i>)-3',8-cyclo-7,8-dihydroguanosine 5'-triphosphate//3',8-cH2GTP//
+CPD-18719	keto-D-fructose 6-phosphate	//<i>keto</i>-D-fructose 6-phosphate//
+HOMOCYSTINE	L,L-homocystine	//L,L-homocystine//
+CPD-20940	sulfadiazine	//sulfadiazine//
+SULFO-CYSTEINE	S-sulfocysteine	//<i>S</i>-sulfo-L-cysteine//S-sulfocysteine//
+TRANS-23-DEHYDROADIPYL-COA	2,3-didehydroadipyl-CoA	//trans-2,3-dehydroadipyl-coA//cis-2,3-didehydroadipyl-CoA//2,3-didehydroadipyl-CoA//
+CPD-19235	5-triphospho-alpha-D-ribosyl-1-(2-N-acetamidomethylphosphonate)	//&alpha;-D-ribose-1-(2-<i>N</i>-acetamidomethylphosphonate)-5-triphosphate//5-triphospho-&alpha;-D-ribosyl-1-(2-<i>N</i>-acetamidomethylphosphonate)//
+CPD-19236	1-(2-N-acetamidomethylphosphonato) 5-phospho-alpha-D-ribose	//&alpha;-D-ribose-1-(2-<i>N</i>-acetamidomethylphosphonate) 5-phosphate//1-(2-<i>N</i>-acetamidomethylphosphonato) 5-phospho-&alpha;-D-ribose//
+CPD-19237	N-methylacetamide	//<i>N</i>-methylacetamide//
+CPD-19235	5-triphospho-alpha-D-ribosyl-1-(2-N-acetamidomethylphosphonate)	//&alpha;-D-ribose-1-(2-<i>N</i>-acetamidomethylphosphonate)-5-triphosphate//5-triphospho-&alpha;-D-ribosyl-1-(2-<i>N</i>-acetamidomethylphosphonate)//
+CPD-19236	1-(2-N-acetamidomethylphosphonato) 5-phospho-alpha-D-ribose	//&alpha;-D-ribose-1-(2-<i>N</i>-acetamidomethylphosphonate) 5-phosphate//1-(2-<i>N</i>-acetamidomethylphosphonato) 5-phospho-&alpha;-D-ribose//
+CPD-19240	[(1S)-1-acetamidoethyl]phosphonate	//[(1S)-1-acetamidoethyl]phosphonate//
+CPD-19243	(2-acetamidoethyl)phosphonate	//(2-acetamidoethyl)phosphonate//
+CPD-19241	[(R)-1-aminoethyl]phosphonate	//[(<i>R</i>)-1-aminoethyl]phosphonate//
+CPD-19242	[(1R)-1-acetamidoethyl]phosphonate	//[(1R)-1-acetamidoethyl]phosphonate//
+CPD-20940	sulfadiazine	//sulfadiazine//
+5-HYDROXYISOURATE	(S)-5-hydroxyisourate	//(<i>S</i>)-5-hydroxyisourate//
+CPD-5821	(S)-OHCU	//(<i>S</i>)-2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazoline//(<i>S</i>)-5-hydroxy-2-oxo-4-ureido-2,5-dihydro-1H imidazole-5-carboxylate//(<i>S</i>)-OHCU//4-(carbamoylamino)-5-hydroxy-2-oxo-2,5-dihydro-1H-imidazole-5-carboxylate//
+CPD-20940	sulfadiazine	//sulfadiazine//
+CREATINE	creatine	//creatine//methylguanidinoacetic acid//<i>N</i>-amidinosarcosine//methylglycocyamine//<i>N</i>-methyl-<i>N</i>-guanylglycine//
+CREATINE-P	neo-ton	//<i>N</i><sup>&omega;</sup>-phosphocreatine//creatine-phosphate//neo-ton//phosphorylcreatine//phosphocreatine//P-creatine//creatine-P//
+CPD-20940	sulfadiazine	//sulfadiazine//
+TRANS-23-DEHYDROADIPYL-COA	2,3-didehydroadipyl-CoA	//trans-2,3-dehydroadipyl-coA//cis-2,3-didehydroadipyl-CoA//2,3-didehydroadipyl-CoA//
+HOMOCYSTINE	L,L-homocystine	//L,L-homocystine//
+CPD-18719	keto-D-fructose 6-phosphate	//<i>keto</i>-D-fructose 6-phosphate//
+CPD-20940	sulfadiazine	//sulfadiazine//

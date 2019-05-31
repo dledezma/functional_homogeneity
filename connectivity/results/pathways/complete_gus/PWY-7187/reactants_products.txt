@@ -26,36 +26,36 @@ re12	MazG	product
 re13	nucleoside triphosphate	reactant
 re13	mononucleotide	product
 re13	diphosphate	product
-re14	dITP	reactant
+re14	dCTP	reactant
 re14	diphosphate	product
-re14	dIMP	product
-re15	inosine triphosphate	reactant
+re14	dCMP	product
+re15	dUTP	reactant
 re15	diphosphate	product
-re15	5'-IMP	product
-re16	dCTP	reactant
+re15	dUMP	product
+re16	dATP	reactant
 re16	diphosphate	product
-re16	dCMP	product
-re17	uridine-triphosphate	reactant
+re16	dAMP	product
+re17	inosine triphosphate	reactant
 re17	diphosphate	product
-re17	5'-UMP	product
-re18	dTTP	reactant
+re17	5'-IMP	product
+re18	xanthosine 5' triphosphate	reactant
+re18	xanthosine-5-P	product
 re18	diphosphate	product
-re18	dTMP	product
-re19	dGTP	reactant
+re19	dTTP	reactant
 re19	diphosphate	product
-re19	dGMP	product
-re20	dATP	reactant
+re19	dTMP	product
+re20	dGTP	reactant
 re20	diphosphate	product
-re20	dAMP	product
-re21	dUTP	reactant
+re20	dGMP	product
+re21	cytidine-triphosphate	reactant
 re21	diphosphate	product
-re21	dUMP	product
-re22	xanthosine 5' triphosphate	reactant
-re22	xanthosine-5-P	product
+re21	cytidylate	product
+re22	uridine-triphosphate	reactant
 re22	diphosphate	product
-re23	cytidine-triphosphate	reactant
+re22	5'-UMP	product
+re23	dITP	reactant
 re23	diphosphate	product
-re23	cytidylate	product
+re23	dIMP	product
 re24	dut_mRNA	reactant
 re24	Dut	product
 re25	nudI_mRNA	reactant
@@ -92,29 +92,28 @@ re39	guanosine-diphosphate	reactant
 re39	guanosine-triphosphate	product
 re40	nrdD_mRNA	reactant
 re40	NrdD	product
-re41	FldA	reactant
-re41	FldA	product
-re41	dATP	product
-re42	guanosine-triphosphate	reactant
-re42	FldA	reactant
-re42	FldA	product
-re42	dGTP	product
-re43	uridine-triphosphate	reactant
-re43	FldA	reactant
-re43	FldA	product
-re43	dUTP	product
-re44	cytidine-triphosphate	reactant
-re44	FldA	reactant
-re44	FldA	product
-re44	dCTP	product
-re45	nucleoside triphosphate	reactant
-re45	FldA	reactant
-re45	deoxynucleoside triphosphate	product
-re45	FldA	product
+re41	nucleoside triphosphate	reactant
+re41	formate	reactant
+re41	deoxynucleoside triphosphate	product
+re41	CO2	product
+re42	formate	reactant
+re42	dATP	product
+re42	CO2	product
+re43	guanosine-triphosphate	reactant
+re43	formate	reactant
+re43	dGTP	product
+re43	CO2	product
+re44	uridine-triphosphate	reactant
+re44	formate	reactant
+re44	dUTP	product
+re44	CO2	product
+re45	cytidine-triphosphate	reactant
+re45	formate	reactant
+re45	dCTP	product
+re45	CO2	product
 re46	NrdG	reactant
 re46	NrdD	reactant
-re46	Fpr	reactant
-re46	NrdD-NrdG-Fpr	product
+re46	NrdD-NrdG	product
 re47	fldA_mRNA	reactant
 re47	FldA	product
 re48	uridine-triphosphate	reactant

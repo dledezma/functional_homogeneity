@@ -33,16 +33,16 @@ AcpP	SIMPLE_MOLECULE	|R-3-Hydroxypalmitoyl-ACPs|
 AcpP	SIMPLE_MOLECULE	|Trans-D3-cis-D5-dodecenoyl-ACPs|
 AcpP	SIMPLE_MOLECULE	|b-Hydroxy-cis-D5-dodecenoyl-ACPs|
 AcpP	SIMPLE_MOLECULE	|b-Keto-cis-D5-dodecenoyl-ACPs|
-BCCP	SIMPLE_MOLECULE	|BCCP-dimers|
 CH3(CH2)xCH=CHCO-S-ACP	SIMPLE_MOLECULE	TRANS-D2-ENOYL-ACP
 CO2	SIMPLE_MOLECULE	CARBON-DIOXIDE
 FabD	PROTEIN	MALONYL-COA-ACP-TRANSACYL-MONOMER
-FabE	SIMPLE_MOLECULE	|Carboxybiotin-BCCP|
 FabG	PROTEIN	3-OXOACYL-ACP-REDUCT-MONOMER
 FabH	PROTEIN	FABH-MONOMER
 FabI	PROTEIN	ENOYL-ACP-REDUCT-NADH-MONOMER
 FadM	PROTEIN	G6244-MONOMER
 FadR	PROTEIN	PD01520
+KASIII	PROTEIN	CPLX0-252
+Trans-D2-cis-D7-tetradecenoyl-ACPs	SIMPLE_MOLECULE	|Trans-D2-cis-D7-tetradecenoyl-ACPs|
 accA	GENE
 accA_mRNA	RNA
 accD	GENE
@@ -57,7 +57,9 @@ beta-hydroxydecanoyl-[acp]	SIMPLE_MOLECULE	|Beta-hydroxydecanoyl-ACPs|
 beta-hydroxydodecanoyl-[acp]	SIMPLE_MOLECULE	|R-3-hydroxydodecanoyl-ACPs|
 beta-hydroxyhexanoyl-[acp]	SIMPLE_MOLECULE	|R-3-hydroxyhexanoyl-ACPs|
 beta-hydroxymyristoyl-[acp]	SIMPLE_MOLECULE	|R-3-hydroxymyristoyl-ACPs|
+biotin-L-lysine-in-BCCP-dimers	SIMPLE_MOLECULE	|biotin-L-lysine-in-BCCP-dimers|
 butyryl-[acp]	SIMPLE_MOLECULE	|Butanoyl-ACPs|
+carboxybiotin-L-lysine-in-BCCP-dimers	SIMPLE_MOLECULE	|carboxybiotin-L-lysine-in-BCCP-dimers|
 cis-delta7-tetradecenoyl-[acp]	SIMPLE_MOLECULE	|Cis-Delta7-tetradecenoyl-ACPs|
 cis-vaccenoyl-[acp]	SIMPLE_MOLECULE	|Cis-vaccenoyl-ACPs|
 coenzyme A	SIMPLE_MOLECULE	CO-A
@@ -85,10 +87,8 @@ malonyl-S-ACP	SIMPLE_MOLECULE	MALONYL-ACP
 myristoyl-[acp]	SIMPLE_MOLECULE	|Myristoyl-ACPs|
 octanoyl-[acp]	SIMPLE_MOLECULE	|Octanoyl-ACPs|
 palmitoleoyl-[acp]	SIMPLE_MOLECULE	|Palmitoleoyl-ACPs|
-phosphate	SIMPLE_MOLECULE	|Pi|
 pimelyl-[acp] methyl ester	SIMPLE_MOLECULE	|Pimeloyl-ACP-methyl-esters|
 trans hex-2-enoyl-[acp]	SIMPLE_MOLECULE	|Hex-2-enoyl-ACPs|
 trans hexadecenoyl-[acp]	SIMPLE_MOLECULE	|2-Hexadecenoyl-ACPs|
 trans tetradec-2-enoyl-[acp]	SIMPLE_MOLECULE	|Tetradec-2-enoyl-ACPs|
-trans-delta3-cis-delta7-tetradecenoyl-[acp]	SIMPLE_MOLECULE	|Trans-D3-cis-D7-tetradecenoyl-ACPs|
 trans-delta3-cis-delta9-hexadecenoyl-[acp]	SIMPLE_MOLECULE	|Trans-D3-cis-D9-hexadecenoyl-ACPs|

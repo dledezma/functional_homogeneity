@@ -70,26 +70,26 @@ re35	rseB	reactant
 re35	rseB_mRNA	product
 re36	rseC	reactant
 re36	rseC_mRNA	product
-re37	rutA	reactant
-re37	rutA_mRNA	product
-re38	rutB	reactant
-re38	rutB_mRNA	product
-re39	rutC	reactant
-re39	rutC_mRNA	product
-re40	rutD	reactant
-re40	rutD_mRNA	product
-re41	rutE	reactant
-re41	rutE_mRNA	product
-re42	rutF	reactant
-re42	rutF_mRNA	product
-re43	rutG	reactant
-re43	rutG_mRNA	product
-re44	yeaG	reactant
-re44	yeaG_mRNA	product
-re45	yeaH	reactant
-re45	yeaH_mRNA	product
-re46	yhdW	reactant
-re46	yhdW_mRNA	product
+re37	rseD	reactant
+re37	rseD_mRNA	product
+re38	rutA	reactant
+re38	rutA_mRNA	product
+re39	rutB	reactant
+re39	rutB_mRNA	product
+re40	rutC	reactant
+re40	rutC_mRNA	product
+re41	rutD	reactant
+re41	rutD_mRNA	product
+re42	rutE	reactant
+re42	rutE_mRNA	product
+re43	rutF	reactant
+re43	rutF_mRNA	product
+re44	rutG	reactant
+re44	rutG_mRNA	product
+re45	yeaG	reactant
+re45	yeaG_mRNA	product
+re46	yeaH	reactant
+re46	yeaH_mRNA	product
 re47	yhdX	reactant
 re47	yhdX_mRNA	product
 re48	yhdY	reactant
@@ -103,9 +103,9 @@ re51	ammonium	product
 re52	argT_mRNA	reactant
 re52	ArgT	product
 re53	HisM	reactant
-re53	HisP	reactant
 re53	ArgT	reactant
 re53	HisQ	reactant
+re53	HisP	reactant
 re53	HisQ-HisP-HisM-ArgT	product
 re54	Ornithine_Ext	reactant
 re54	Ornithine	product
@@ -148,11 +148,11 @@ re68	cbl_mRNA	reactant
 re68	Cbl	product
 re69	ddpA_mRNA	reactant
 re69	DdpA	product
-re70	DdpB	reactant
-re70	DdpD	reactant
+re70	DdpC	reactant
 re70	DdpA	reactant
 re70	DdpF	reactant
-re70	DdpC	reactant
+re70	DdpB	reactant
+re70	DdpD	reactant
 re70	DdpB-DdpC-DdpA-DdpD-DdpF	product
 re71	ddpB_mRNA	reactant
 re71	DdpB	product
@@ -194,10 +194,10 @@ re87	glnQ_mRNA	reactant
 re87	GlnQ	product
 re88	hisJ_mRNA	reactant
 re88	HisJ	product
-re89	HisJ	reactant
 re89	HisM	reactant
-re89	HisP	reactant
 re89	HisQ	reactant
+re89	HisJ	reactant
+re89	HisP	reactant
 re89	HisP-HisM-HisQ-HisJ	product
 re90	histidine_Ext	reactant
 re90	histidine	product
@@ -222,8 +222,8 @@ re97	ABAL	product
 re98	potF_mRNA	reactant
 re98	PotF	product
 re99	PotI	reactant
-re99	PotG	reactant
 re99	PotF	reactant
+re99	PotG	reactant
 re99	PotH	reactant
 re99	PotG-PotH-PotI-PotF	product
 re100	putrescine_Ext	reactant
@@ -242,19 +242,19 @@ re106	guanosine-triphosphate	reactant
 re106	pppGpp	product
 re107	rpoE_mRNA	reactant
 re107	RpoE	product
-re108	RpoA	reactant
 re108	RpoC	reactant
+re108	RpoA	reactant
 re108	RpoE	reactant
 re108	RpoB	reactant
 re108	RpoB-RpoC-RpoA-RpoE	product
 re109	rseA_mRNA	reactant
 re109	RseA	product
 re110	rseB_mRNA	reactant
-re110	rseB	product
-re111	rseB_mRNA	reactant
-re111	RseB	product
-re112	rseC_mRNA	reactant
-re112	RseC	product
+re110	RseB	product
+re111	rseC_mRNA	reactant
+re111	RseC	product
+re112	rseD_mRNA	reactant
+re112	RseD	product
 re113	rutA_mRNA	reactant
 re113	RutA	product
 re114	Reduced FMN	reactant
@@ -269,14 +269,14 @@ re115	(Z)-2-methylureidoperacrylic acid	product
 re115	flavin mononucleotide	product
 re116	rutB_mRNA	reactant
 re116	RutB	product
-re117	(Z)-2-methylureidoperacrylic acid	reactant
-re117	(Z)-2-methyl-peroxyaminoacrylate	product
+re117	ureidoperacrylic acid	reactant
+re117	peroxy aminoacrylate	product
 re117	carbamate	product
-re118	ureidoperacrylic acid	reactant
-re118	peroxy aminoacrylate	product
+re118	3-ureidoacrylate	reactant
+re118	aminoacrylate	product
 re118	carbamate	product
-re119	3-ureidoacrylate	reactant
-re119	aminoacrylate	product
+re119	(Z)-2-methylureidoperacrylic acid	reactant
+re119	(Z)-2-methyl-peroxyaminoacrylate	product
 re119	carbamate	product
 re120	rutC_mRNA	reactant
 re120	RutC	product
@@ -305,18 +305,16 @@ re130	[protein]-L-serine/L-threonine	reactant
 re130	[protein] (L-serine/L-threonine) phosphate	product
 re131	yeaH_mRNA	reactant
 re131	YeaH	product
-re132	yhdW_mRNA	reactant
-re132	YhdW	product
+re132	yhdX_mRNA	reactant
+re132	YhdX	product
 re133	YhdZ	reactant
-re133	YhdY	reactant
 re133	YhdW	reactant
+re133	YhdY	reactant
 re133	YhdX	reactant
 re133	YhdZ-YhdY-YhdX-YhdW	product
-re134	yhdX_mRNA	reactant
-re134	YhdX	product
-re135	yhdY_mRNA	reactant
-re135	YhdY	product
-re136	yhdZ_mRNA	reactant
-re136	YhdZ	product
-re137	pppGpp	reactant
-re137	guanosine-diphosphate	product
+re134	yhdY_mRNA	reactant
+re134	YhdY	product
+re135	yhdZ_mRNA	reactant
+re135	YhdZ	product
+re136	pppGpp	reactant
+re136	guanosine-diphosphate	product

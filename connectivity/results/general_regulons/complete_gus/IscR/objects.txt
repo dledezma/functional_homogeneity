@@ -14,7 +14,7 @@ IscS	PROTEIN	G7325-MONOMER
 IscU	PROTEIN	G7324-MONOMER
 NapA	PROTEIN	NAPA-MONOMER
 NapB	PROTEIN	NAPB-MONOMER
-NapB-NapC-NapH-NapG-NapA	COMPLEX	NAP-CPLX
+NapB-NapA	COMPLEX	NAP-CPLX
 NapC	PROTEIN	NAPC-MONOMER
 NapD	PROTEIN	NAPD-MONOMER
 NapF	PROTEIN	NAPF-MONOMER
@@ -27,6 +27,8 @@ NrdE-NrdF	COMPLEX	RIBONUCLEOSIDE-DIP-REDUCTII-CPLX
 NrdF	PROTEIN	NRDF-MONOMER
 NrdH	PROTEIN	G7401-MONOMER
 NrdI	PROTEIN	G7402-MONOMER
+Oxidized-NapC-proteins	SIMPLE_MOLECULE	|Oxidized-NapC-proteins|
+Reduced-NapC-proteins	SIMPLE_MOLECULE	|Reduced-NapC-proteins|
 RnlA	PROTEIN	G7365-MONOMER
 RnlB	PROTEIN	G7366-MONOMER
 RnlB-RnlA	COMPLEX	CPLX0-7909
@@ -56,6 +58,7 @@ dUDP	SIMPLE_MOLECULE	DUDP
 deoxynucleoside diphosphate	SIMPLE_MOLECULE	|Deoxy-Ribonucleoside-Diphosphates|
 erpA	GENE
 erpA_mRNA	RNA
+ferri c-type cytochrome	SIMPLE_MOLECULE	|Cytochromes-C-Oxidized|
 guanosine-diphosphate	SIMPLE_MOLECULE	GDP
 hyaA	GENE
 hyaA_mRNA	RNA
@@ -78,6 +81,7 @@ iscS_mRNA	RNA
 iscU	GENE
 iscU_mRNA	RNA
 mRNA	SIMPLE_MOLECULE	|mRNAs|
+mRNA fragments	SIMPLE_MOLECULE	|mRNA-Fragments|
 menaquinol	SIMPLE_MOLECULE	|Menaquinols|
 napA	GENE
 napA_mRNA	RNA
@@ -108,6 +112,7 @@ nrdI_mRNA	RNA
 nucleoside diphosphate	SIMPLE_MOLECULE	|Ribonucleoside-Diphosphates|
 oxidized NrdH glutaredoxin-like protein	SIMPLE_MOLECULE	|Oxidized-NrdH-Proteins|
 protein cysteines	SIMPLE_MOLECULE	|Cysteine-Desulfurase-L-cysteine|
+reduced Cytochrome C protein	SIMPLE_MOLECULE	|Cytochromes-C-Reduced|
 reduced thioredoxin	SIMPLE_MOLECULE	|Red-Thioredoxin|
 rnlA	GENE
 rnlA_mRNA	RNA
@@ -115,7 +120,6 @@ rnlB	GENE
 rnlB_mRNA	RNA
 selenide	SIMPLE_MOLECULE	SE-2
 selenocysteine	SIMPLE_MOLECULE	L-SELENOCYSTEINE
-single-stranded RNA	SIMPLE_MOLECULE	|ssRNAs|
 sufA	GENE
 sufA_mRNA	RNA
 sufB	GENE

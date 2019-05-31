@@ -15,13 +15,17 @@ re7	GABA	product
 re8	ydcS_mRNA	reactant
 re8	YdcS	product
 re9	YdcT	reactant
-re9	YdcV	reactant
 re9	YdcS	reactant
+re9	YdcV	reactant
 re9	YdcU	reactant
 re9	YdcS-YdcT-YdcV-YdcU	product
-re10	ydcT_mRNA	reactant
-re10	YdcT	product
-re11	ydcU_mRNA	reactant
-re11	YdcU	product
-re12	ydcV_mRNA	reactant
-re12	YdcV	product
+re10	polyhydroxybutyrate	reactant
+re10	OH-butyryl-CoA	reactant
+re10	polyhydroxybutyrate	product
+re10	coenzyme A	product
+re11	ydcT_mRNA	reactant
+re11	YdcT	product
+re12	ydcU_mRNA	reactant
+re12	YdcU	product
+re13	ydcV_mRNA	reactant
+re13	YdcV	product

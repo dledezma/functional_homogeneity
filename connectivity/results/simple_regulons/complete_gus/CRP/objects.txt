@@ -9,9 +9,9 @@
 3'-CMP	SIMPLE_MOLECULE	CPD-3711
 3'-GMP	SIMPLE_MOLECULE	CPD-3708
 3'-UMP	SIMPLE_MOLECULE	CPD-3724
+3'-phosphomononucleotide	SIMPLE_MOLECULE	|3-Phosphomonucleotides|
 4-hydroxybenzoate	SIMPLE_MOLECULE	|4-hydroxybenzoate|
 4-hydroxybenzoate_Ext	SIMPLE_MOLECULE	|4-hydroxybenzoate|_Ext
-5'-ribonucleotide	SIMPLE_MOLECULE	|Ribonucleoside-Monophosphates|
 AaeA	PROTEIN	G7686-MONOMER
 AaeA-AaeB	COMPLEX	CPLX0-4
 AaeB	PROTEIN	G7685-MONOMER
@@ -140,6 +140,7 @@ RpsO	PROTEIN	EG10914-MONOMER
 RpsP	PROTEIN	EG10915-MONOMER
 RpsQ	PROTEIN	EG10916-MONOMER
 RpsR	PROTEIN	EG10917-MONOMER
+RpsR-RpsF	COMPLEX	CPLX0-8208
 RpsS	PROTEIN	EG10918-MONOMER
 RpsT	PROTEIN	EG10919-MONOMER
 RpsU	PROTEIN	EG10920-MONOMER
@@ -152,9 +153,6 @@ Sra	PROTEIN	EG11508-MONOMER
 Sxy	PROTEIN	G6494-MONOMER
 TrxA	PROTEIN	RED-THIOREDOXIN-MONOMER
 UbiG	PROTEIN	DHHB-METHYLTRANSFER-MONOMER
-XseA	PROTEIN	EG11072-MONOMER
-XseA-XseB	COMPLEX	CPLX-3946
-XseB	PROTEIN	EG11098-MONOMER
 YaeP	PROTEIN	MONOMER0-741
 YaeQ	PROTEIN	G6098-MONOMER
 YchH	PROTEIN	EG11533-MONOMER
@@ -186,6 +184,7 @@ arfB	GENE
 arfB_mRNA	RNA
 azuC	GENE
 azuC_mRNA	RNA
+cleaved type-1 transmembrane domains	SIMPLE_MOLECULE	|Cleaved-type-1-transmembrane-domains|
 coenzyme A	SIMPLE_MOLECULE	CO-A
 comR	GENE
 comR_mRNA	RNA
@@ -264,12 +263,10 @@ nlpE	GENE
 nlpE_mRNA	RNA
 nucleoside	SIMPLE_MOLECULE	|Ribonucleosides|
 nucleoside 2',3'-cyclic phosphate	SIMPLE_MOLECULE	|Cyclic-2-3-Ribonucleoside-Monophosphates|
-oligonucleotide(n)	SIMPLE_MOLECULE	|SS-Oligodeoxyribonucleotides|
 ompA	GENE
 ompA_mRNA	RNA
 patZ	GENE
 patZ_mRNA	RNA
-peptide	SIMPLE_MOLECULE	|Peptides-holder|
 phosphate	SIMPLE_MOLECULE	|Pi|
 phytate	SIMPLE_MOLECULE	MI-HEXAKISPHOSPHATE
 ppdD	GENE
@@ -280,14 +277,12 @@ preT	GENE
 preT_mRNA	RNA
 priB	GENE
 priB_mRNA	RNA
-protein	SIMPLE_MOLECULE	|General-Protein-Substrates|
 putrescine	SIMPLE_MOLECULE	PUTRESCINE
 pyruvate	SIMPLE_MOLECULE	PYRUVATE
 quinolinate	SIMPLE_MOLECULE	QUINOLINATE
 raiA	GENE
 raiA_mRNA	RNA
 reduced thioredoxin	SIMPLE_MOLECULE	|Red-Thioredoxin|
-ribonucleoside 3'-phosphate	SIMPLE_MOLECULE	|3-Prime-Ribonucleoside-Monophosphates|
 rmf	GENE
 rmf_mRNA	RNA
 rof	GENE
@@ -302,7 +297,6 @@ secB	GENE
 secB_mRNA	RNA
 sfsA	GENE
 sfsA_mRNA	RNA
-single stranded DNA	SIMPLE_MOLECULE	|Single-Stranded-DNAs|
 sohB	GENE
 sohB_mRNA	RNA
 speC	GENE
@@ -319,14 +313,13 @@ thiosulfate	SIMPLE_MOLECULE	S2O3
 thymine	SIMPLE_MOLECULE	THYMINE
 trxA	GENE
 trxA_mRNA	RNA
+type-1 transmembrane domains	SIMPLE_MOLECULE	|Type-1-transmemberane-domains|
 ubiG	GENE
 ubiG_mRNA	RNA
 ubiquinol(8)	SIMPLE_MOLECULE	CPD-9956
 uncharged tRNA	SIMPLE_MOLECULE	|tRNAs|
 uracil	SIMPLE_MOLECULE	URACIL
 uridine	SIMPLE_MOLECULE	URIDINE
-xseA	GENE
-xseA_mRNA	RNA
 yaeP	GENE
 yaeP_mRNA	RNA
 yaeQ	GENE

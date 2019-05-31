@@ -4,33 +4,34 @@ re2	nrdG	reactant
 re2	nrdG_mRNA	product
 re3	nrdD_mRNA	reactant
 re3	NrdD	product
-re4	FldA	reactant
-re4	FldA	product
-re4	dATP	product
-re5	guanosine-triphosphate	reactant
-re5	FldA	reactant
-re5	FldA	product
-re5	dGTP	product
-re6	uridine-triphosphate	reactant
-re6	FldA	reactant
-re6	FldA	product
-re6	dUTP	product
-re7	cytidine-triphosphate	reactant
-re7	FldA	reactant
-re7	FldA	product
-re7	dCTP	product
-re8	nucleoside triphosphate	reactant
-re8	FldA	reactant
-re8	deoxynucleoside triphosphate	product
-re8	FldA	product
+re4	nucleoside triphosphate	reactant
+re4	formate	reactant
+re4	deoxynucleoside triphosphate	product
+re4	CO2	product
+re5	formate	reactant
+re5	dATP	product
+re5	CO2	product
+re6	guanosine-triphosphate	reactant
+re6	formate	reactant
+re6	dGTP	product
+re6	CO2	product
+re7	uridine-triphosphate	reactant
+re7	formate	reactant
+re7	dUTP	product
+re7	CO2	product
+re8	cytidine-triphosphate	reactant
+re8	formate	reactant
+re8	dCTP	product
+re8	CO2	product
 re9	NrdG	reactant
 re9	NrdD	reactant
-re9	Fpr	reactant
-re9	NrdD-NrdG-Fpr	product
+re9	NrdD-NrdG	product
 re10	nrdG_mRNA	reactant
 re10	NrdG	product
 re11	inactive ribonucleoside triphosphate reductase	reactant
+re11	FldA	reactant
 re11	SAM	reactant
 re11	active ribonucleoside triphosphate reductase	product
+re11	flavodoxin semiquinone	product
 re11	5'-deoxyadenosine	product
 re11	methionine	product

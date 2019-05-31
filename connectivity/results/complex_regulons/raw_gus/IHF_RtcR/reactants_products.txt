@@ -4,17 +4,49 @@ re2	rtcB	reactant
 re2	rtcB_mRNA	product
 re3	rtcA_mRNA	reactant
 re3	RtcA	product
-re4	RNA 3'-terminal-phosphate	reactant
-re4	RNA terminal-2',3'-cyclic-phosphate	product
+re4	5-Phospho-RNA	reactant
+re4	A-5-prime-PP-5-prime-RNA	product
 re4	diphosphate	product
-re5	5'-phosphopolynucleotide	reactant
-re5	5' adenylylated polynucleotide	product
+re5	RNA 3'-terminal-phosphate	reactant
+re5	RNA terminal-2',3'-cyclic-phosphate	product
 re5	diphosphate	product
-re6	rtcB_mRNA	reactant
-re6	RtcB	product
-re7	RNA terminal-2',3'-cyclic-phosphate	reactant
-re7	5'-hydroxyl terminated RNA	reactant
-re7	guanosine-triphosphate	reactant
-re7	diphosphate	product
-re7	ligated RNA	product
-re7	guanylate	product
+re6	RNA-3-prime-P-cyclase-L-histidine	reactant
+re6	RNA-3-prime-P-cyclase-L-His-adenylate	product
+re6	diphosphate	product
+re7	RNA-3-prime-P-cyclase-L-His-adenylate	reactant
+re7	RNA 3'-terminal-phosphate	reactant
+re7	RNA-3-prime-P-cyclase-L-histidine	product
+re7	RNA-with-3-prime-pp-5-prime-A-cap	product
+re8	RNA-with-3-prime-pp-5-prime-A-cap	reactant
+re8	RNA terminal-2',3'-cyclic-phosphate	product
+re9	5'-phospho-DNA	reactant
+re9	A-5-prime-PP-5-prime-DNA	product
+re9	diphosphate	product
+re10	rtcB_mRNA	reactant
+re10	RtcB	product
+re11	5'-hydroxyl terminated RNA	reactant
+re11	RNA 3'-terminal-phosphate	reactant
+re11	guanosine-triphosphate	reactant
+re11	diphosphate	product
+re11	guanylate	product
+re11	RNA(n)	product
+re12	RNA terminal-2',3'-cyclic-phosphate	reactant
+re12	5'-hydroxyl terminated RNA	reactant
+re12	guanosine-triphosphate	reactant
+re12	diphosphate	product
+re12	guanylate	product
+re12	RNA(n)	product
+re13	RNA terminal-2',3'-cyclic-phosphate	reactant
+re13	RNA 3'-terminal-phosphate	product
+re14	RNA-Ligase-L-histidine	reactant
+re14	guanosine-triphosphate	reactant
+re14	RNA-Ligase-L-histidine-guanylate	product
+re14	diphosphate	product
+re15	RNA-Ligase-L-histidine-guanylate	reactant
+re15	RNA 3'-terminal-phosphate	reactant
+re15	RNA-with-3-prime-pp-5-prime-G-cap	product
+re15	RNA-Ligase-L-histidine	product
+re16	RNA-with-3-prime-pp-5-prime-G-cap	reactant
+re16	5'-hydroxyl terminated RNA	reactant
+re16	guanylate	product
+re16	RNA(n)	product

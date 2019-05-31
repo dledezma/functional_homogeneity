@@ -20,56 +20,105 @@ re10	ymiA	reactant
 re10	ymiA_mRNA	product
 re11	dgcN_mRNA	reactant
 re11	DgcN	product
-re12	flhC_mRNA	reactant
-re12	FlhC	product
-re13	FlhC	reactant
-re13	FlhD	reactant
-re13	FlhD-FlhC	product
-re14	flhD_mRNA	reactant
-re14	FlhD	product
-re15	gfcA_mRNA	reactant
-re15	GfcA	product
-re16	ompC_mRNA	reactant
-re16	OmpC	product
-re17	hydrophilic solute or ion 600 Da_Ext	reactant
-re17	hydrophilic solute or ion 600 Da	product
-re18	betaine_Ext	reactant
-re18	betaine	product
-re19	5-methylthioribose_Ext	reactant
-re19	5-methylthioribose	product
-re20	inositol_Ext	reactant
-re20	inositol	product
-re21	amino acid_Ext	reactant
-re21	amino acid	product
-re22	base(2)_Ext	reactant
-re22	base(2)	product
-re23	C4-dicarboxylate_Ext	reactant
-re23	C4-dicarboxylate	product
-re24	polyol_Ext	reactant
-re24	polyol	product
-re25	short-chain alcohol_Ext	reactant
-re25	short-chain alcohol	product
-re26	short-chain acid anion_Ext	reactant
-re26	short-chain acid anion	product
-re27	organosulfur compound_Ext	reactant
-re27	organosulfur compound	product
-re28	CO2_Ext	reactant
-re28	CO2	product
-re29	ion_Ext	reactant
-re29	ion	product
-re30	monosaccharide_Ext	reactant
-re30	monosaccharide	product
-re31	beta-Neu5Ac_Ext	reactant
-re31	beta-Neu5Ac	product
-re32	N-acetylneuraminate_Ext	reactant
-re32	N-acetylneuraminate	product
-re33	ybhL_mRNA	reactant
-re33	YbhL	product
-re34	yciX_mRNA	reactant
-re34	YciX	product
-re35	yfiB_mRNA	reactant
-re35	YfiB	product
-re36	yfiR_mRNA	reactant
-re36	YfiR	product
-re37	ymiA_mRNA	reactant
-re37	YmiA	product
+re12	guanosine-triphosphate	reactant
+re12	diphosphate	product
+re12	c-di-GMP	product
+re13	flhC_mRNA	reactant
+re13	FlhC	product
+re14	FlhC	reactant
+re14	FlhD	reactant
+re14	FlhD-FlhC	product
+re15	flhD_mRNA	reactant
+re15	FlhD	product
+re16	gfcA_mRNA	reactant
+re16	GfcA	product
+re17	ompC_mRNA	reactant
+re17	OmpC	product
+re18	hydrophilic solute or ion 600 Da_Ext	reactant
+re18	hydrophilic solute or ion 600 Da	product
+re19	organophosphorus compound_Ext	reactant
+re19	organophosphorus compound	product
+re20	MCFA_Ext	reactant
+re20	MCFA	product
+re21	caprate_Ext	reactant
+re21	caprate	product
+re22	glycoside_Ext	reactant
+re22	glycoside	product
+re23	sugar_Ext	reactant
+re23	sugar	product
+re24	beta-Neu5Ac_Ext	reactant
+re24	beta-Neu5Ac	product
+re25	N-acetylneuraminate_Ext	reactant
+re25	N-acetylneuraminate	product
+re26	sugar phosphate_Ext	reactant
+re26	sugar phosphate	product
+re27	monocarboxylate_Ext	reactant
+re27	monocarboxylate	product
+re28	aromatic compound_Ext	reactant
+re28	aromatic compound	product
+re29	enterobactin_Ext	reactant
+re29	enterobactin	product
+re30	trisaccharide_Ext	reactant
+re30	trisaccharide	product
+re31	disaccharide_Ext	reactant
+re31	disaccharide	product
+re32	maltose_Ext	reactant
+re32	maltose	product
+re33	chitobiose_Ext	reactant
+re33	chitobiose	product
+re34	oligopeptide_Ext	reactant
+re34	oligopeptide	product
+re35	nucleotide_Ext	reactant
+re35	nucleotide	product
+re36	nucleotide sugar_Ext	reactant
+re36	nucleotide sugar	product
+re37	nucleoside_Ext	reactant
+re37	nucleoside	product
+re38	RCHO_Ext	reactant
+re38	RCHO	product
+re39	lactone_Ext	reactant
+re39	lactone	product
+re40	amide_Ext	reactant
+re40	amide	product
+re41	amine_Ext	reactant
+re41	amine	product
+re42	hydroxy carboxylate_Ext	reactant
+re42	hydroxy carboxylate	product
+re43	aldonate_Ext	reactant
+re43	aldonate	product
+re44	betaine_Ext	reactant
+re44	betaine	product
+re45	5-methylthioribose_Ext	reactant
+re45	5-methylthioribose	product
+re46	inositol_Ext	reactant
+re46	inositol	product
+re47	amino acid_Ext	reactant
+re47	amino acid	product
+re48	base(2)_Ext	reactant
+re48	base(2)	product
+re49	dicarboxylate_Ext	reactant
+re49	dicarboxylate	product
+re50	polyol_Ext	reactant
+re50	polyol	product
+re51	short-chain alcohol_Ext	reactant
+re51	short-chain alcohol	product
+re52	short-chain acid anion_Ext	reactant
+re52	short-chain acid anion	product
+re53	organosulfur compound_Ext	reactant
+re53	organosulfur compound	product
+re54	sulfadiazine_Ext	reactant
+re54	sulfadiazine	product
+re55	ion_Ext	reactant
+re55	ion	product
+re56	glycerol 1-phosphate_Ext	reactant
+re56	glycerol 1-phosphate	product
+re57	ybhL_mRNA	reactant
+re57	YbhL	product
+re58	yciX_mRNA	reactant
+re58	YciX	product
+re59	yfiB_mRNA	reactant
+re59	YfiB	product
+re60	yfiR_mRNA	reactant
+re60	YfiR	product
+re61	ymiA_mRNA	reactant
+re61	YmiA	product

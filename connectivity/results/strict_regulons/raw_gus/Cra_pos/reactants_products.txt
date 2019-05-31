@@ -57,11 +57,11 @@ re27	coenzyme A	product
 re27	malate	product
 re28	aceK_mRNA	reactant
 re28	AceK	product
-re29	isocitrate dehydrogenase-P	reactant
-re29	isocitrate-dehydrogenase	product
-re29	phosphate	product
-re30	isocitrate-dehydrogenase	reactant
-re30	isocitrate dehydrogenase-P	product
+re29	isocitrate-dehydrogenase	reactant
+re29	isocitrate dehydrogenase-P	product
+re30	isocitrate dehydrogenase-P	reactant
+re30	isocitrate-dehydrogenase	product
+re30	phosphate	product
 re31	acnA_mRNA	reactant
 re31	AcnA	product
 re32	cis-aconitate	reactant
@@ -82,103 +82,114 @@ re39	acceptors	reactant
 re39	choline	reactant
 re39	betaine aldehyde	product
 re39	A(H2)	product
-re40	betB_mRNA	reactant
-re40	BetB	product
-re41	betaine aldehyde	reactant
+re40	electron-transfer quinone	reactant
+re40	choline	reactant
+re40	electron-transfer quinol	product
+re40	betaine aldehyde	product
+re41	electron-transfer quinone	reactant
+re41	betaine aldehyde hydrate	reactant
+re41	electron-transfer quinol	product
 re41	betaine	product
-re42	betI_mRNA	reactant
-re42	BetI	product
-re43	betT_mRNA	reactant
-re43	BetT	product
-re44	choline_Ext	reactant
-re44	choline	product
-re45	crp_mRNA	reactant
-re45	Crp	product
-re46	crp_mRNA	reactant
-re46	CRP	product
-re47	crr_mRNA	reactant
-re47	Crr	product
-re48	PtsG	reactant
-re48	Crr	reactant
-re48	PtsG-Crr	product
-re49	HPr - phosphorylated_Ext	reactant
-re49	beta-glucose_Ext	reactant
-re49	beta-D-glucose-6-P	product
-re49	PtsH	product
-re50	HPr - phosphorylated_Ext	reactant
-re50	Methyl-D-glucoside_Ext	reactant
-re50	methyl alpha-D-glucoside 6-phosphate	product
-re50	PtsH	product
-re51	TreB	reactant
-re51	Crr	reactant
-re51	TreB-Crr	product
+re42	betB_mRNA	reactant
+re42	BetB	product
+re43	betaine aldehyde	reactant
+re43	betaine	product
+re44	betI_mRNA	reactant
+re44	BetI	product
+re45	betT_mRNA	reactant
+re45	BetT	product
+re46	choline_Ext	reactant
+re46	choline	product
+re47	crp_mRNA	reactant
+re47	Crp	product
+re48	crp_mRNA	reactant
+re48	CRP	product
+re49	crr_mRNA	reactant
+re49	Crr	product
+re50	PtsG	reactant
+re50	Crr	reactant
+re50	PtsG-Crr	product
+re51	HPr - phosphorylated_Ext	reactant
+re51	glucopyranose_Ext	reactant
+re51	glucose-6-P	product
+re51	PtsH	product
 re52	HPr - phosphorylated_Ext	reactant
-re52	trehalose_Ext	reactant
-re52	alpha,alpha-trehalose 6-phosphate	product
+re52	Methyl-D-glucoside_Ext	reactant
+re52	methyl alpha-D-glucoside 6-phosphate	product
 re52	PtsH	product
-re53	MurP	reactant
+re53	TreB	reactant
 re53	Crr	reactant
-re53	MurP-Crr	product
+re53	TreB-Crr	product
 re54	HPr - phosphorylated_Ext	reactant
-re54	MurNAc_Ext	reactant
-re54	MurNAc-6-P	product
+re54	trehalose_Ext	reactant
+re54	alpha,alpha-trehalose 6-phosphate	product
 re54	PtsH	product
-re55	csgD_mRNA	reactant
-re55	CsgD	product
-re56	csgE_mRNA	reactant
-re56	CsgE	product
-re57	CsgG	reactant
-re57	CsgE	reactant
-re57	CsgE-CsgG	product
-re58	CsgA_Ext	reactant
-re58	CsgA	product
-re59	csgF_mRNA	reactant
-re59	CsgF	product
-re60	csgG_mRNA	reactant
-re60	CsgG	product
-re61	cydA_mRNA	reactant
-re61	CydA	product
-re62	CydX	reactant
-re62	CydA	reactant
-re62	CydB	reactant
-re62	CydA-CydB-CydX	product
-re63	ubiquinol_Ext	reactant
-re63	oxygen_Ext	reactant
-re63	ubiquinone	product
-re64	cydB_mRNA	reactant
-re64	CydB	product
-re65	icd_mRNA	reactant
-re65	Icd	product
-re66	I-CIT	reactant
-re66	ketoglutarate	product
-re66	CO2	product
-re67	I-CIT	reactant
-re67	oxalosuccinate	product
-re68	oxalosuccinate	reactant
+re55	MurP	reactant
+re55	Crr	reactant
+re55	MurP-Crr	product
+re56	HPr - phosphorylated_Ext	reactant
+re56	MurNAc_Ext	reactant
+re56	MurNAc-6-P	product
+re56	PtsH	product
+re57	csgD_mRNA	reactant
+re57	CsgD	product
+re58	csgE_mRNA	reactant
+re58	CsgE	product
+re59	CsgG	reactant
+re59	CsgE	reactant
+re59	CsgE-CsgG	product
+re60	CsgA_Ext	reactant
+re60	CsgA	product
+re61	csgF_mRNA	reactant
+re61	CsgF	product
+re62	csgG_mRNA	reactant
+re62	CsgG	product
+re63	cydA_mRNA	reactant
+re63	CydA	product
+re64	CydX	reactant
+re64	CydB	reactant
+re64	CydA	reactant
+re64	CydA-CydB-CydX	product
+re65	ubiquinol_Ext	reactant
+re65	oxygen_Ext	reactant
+re65	ubiquinone	product
+re66	cydB_mRNA	reactant
+re66	CydB	product
+re67	icd_mRNA	reactant
+re67	Icd	product
+re68	I-CIT	reactant
 re68	ketoglutarate	product
 re68	CO2	product
-re69	pck_mRNA	reactant
-re69	Pck	product
-re70	oxalacetate	reactant
-re70	P-enol-pyruvate	product
+re69	I-CIT	reactant
+re69	oxalosuccinate	product
+re70	oxalosuccinate	reactant
+re70	ketoglutarate	product
 re70	CO2	product
-re71	poxB_mRNA	reactant
-re71	PoxB	product
-re72	ubiquinone	reactant
-re72	pyruvate	reactant
-re72	ubiquinol	product
-re72	acetate	product
+re71	pck_mRNA	reactant
+re71	Pck	product
+re72	oxalacetate	reactant
+re72	P-enol-pyruvate	product
 re72	CO2	product
-re73	pyruvate	reactant
-re73	ethanal	reactant
-re73	acetoin	product
-re73	CO2	product
-re74	ppsA_mRNA	reactant
-re74	PpsA	product
+re73	poxB_mRNA	reactant
+re73	PoxB	product
+re74	ubiquinone	reactant
+re74	pyruvate	reactant
+re74	ubiquinol	product
+re74	acetate	product
+re74	CO2	product
 re75	pyruvate	reactant
-re75	P-enol-pyruvate	product
-re75	phosphate	product
-re76	ptsH_mRNA	reactant
-re76	PtsH	product
-re77	ptsI_mRNA	reactant
-re77	PtsI	product
+re75	ethanal	reactant
+re75	acetoin	product
+re75	CO2	product
+re76	ppsA_mRNA	reactant
+re76	PpsA	product
+re77	pyruvate	reactant
+re77	P-enol-pyruvate	product
+re77	phosphate	product
+re78	ptsH_mRNA	reactant
+re78	PtsH	product
+re79	MtlR	reactant
+re79	PtsH	reactant
+re79	MtlR-PtsH	product
+re80	ptsI_mRNA	reactant
+re80	PtsI	product

@@ -1,4 +1,3 @@
-'activated' tRNA	SIMPLE_MOLECULE	|Activated-tRNA|
 3-sulfinoalanine	SIMPLE_MOLECULE	3-SULFINOALANINE
 4-cresol	SIMPLE_MOLECULE	CPD-108
 5'-deoxyadenosine	SIMPLE_MOLECULE	CH33ADO
@@ -28,9 +27,6 @@ ThiI	PROTEIN	THII-MONOMER
 ThiI	SIMPLE_MOLECULE	|Sulfur-Carrier-Proteins-ThiI|
 ThiL	PROTEIN	THI-P-KIN-MONOMER
 ThiS	PROTEIN	THIS-MONOMER
-ThiS	SIMPLE_MOLECULE	THIS-COAMP-MONOMER
-ThiS	SIMPLE_MOLECULE	THIS-COSH-MONOMER
-ThiS	SIMPLE_MOLECULE	THIS-MONOMER
 ThiS	SIMPLE_MOLECULE	|Adenylated-ThiS-Proteins|
 ThiS sulfur-carrier protein	SIMPLE_MOLECULE	|Thi-S|
 [L-cysteine desulfurase] L-cysteine persulfide	SIMPLE_MOLECULE	|L-Cysteine-Desulfurase-persulfide|
@@ -58,13 +54,12 @@ pyruvate	SIMPLE_MOLECULE	PYRUVATE
 reduced ferredoxin	SIMPLE_MOLECULE	|Reduced-ferredoxins|
 selenide	SIMPLE_MOLECULE	SE-2
 selenocysteine	SIMPLE_MOLECULE	L-SELENOCYSTEINE
-serine	SIMPLE_MOLECULE	SER
 sufS	GENE
 sufS_mRNA	RNA
 sulfite	SIMPLE_MOLECULE	SO3
 sulfurated sulfur donor	SIMPLE_MOLECULE	|Sulfurated-Sulfur-Acceptors|
 sulfurylated sulfur-carrier protein ThiI	SIMPLE_MOLECULE	|Sulfurylated-ThiI|
-tRNA containing a thionucleotide	SIMPLE_MOLECULE	|tRNA-Containing-Thionucleotide|
+tRNA 4-thiouridine	SIMPLE_MOLECULE	|tRNA-4-thiouridine|
 thiC	GENE
 thiC_mRNA	RNA
 thiD	GENE
@@ -87,3 +82,4 @@ thiamin-P	SIMPLE_MOLECULE	THIAMINE-P
 thiocarboxy-[ThiS-Protein]	SIMPLE_MOLECULE	|Thiocarboxyadenylated-ThiS-Proteins|
 tyrosine	SIMPLE_MOLECULE	TYR
 unsulfurated [sulfur donor]	SIMPLE_MOLECULE	|Unsulfurated-Sulfur-Acceptors|
+uracil in tRNA	SIMPLE_MOLECULE	|Uracil-tRNAs|

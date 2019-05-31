@@ -84,8 +84,8 @@ re42	lpd	reactant
 re42	lpd_mRNA	product
 re43	aceB_mRNA	reactant
 re43	AceB	product
-re44	acetyl-CoA	reactant
 re44	glyoxylate	reactant
+re44	acetyl-CoA	reactant
 re44	coenzyme A	product
 re44	malate	product
 re45	glcB_mRNA	reactant
@@ -109,8 +109,8 @@ re53	tartrate	reactant
 re53	oxalacetate	product
 re54	fumA_mRNA	reactant
 re54	FumA	product
-re55	oxalacetate	reactant
-re55	enol-oxaloacetate	product
+re55	enol-oxaloacetate	reactant
+re55	oxalacetate	product
 re56	sucD_mRNA	reactant
 re56	SucD	product
 re57	SucD	reactant
@@ -178,10 +178,10 @@ re79	methylisocitrate	reactant
 re79	2-methylaconitate	product
 re80	sdhD_mRNA	reactant
 re80	SdhD	product
-re81	SdhD	reactant
+re81	SdhB	reactant
 re81	SdhA	reactant
 re81	SdhC	reactant
-re81	SdhB	reactant
+re81	SdhD	reactant
 re81	SdhA-SdhB-SdhC-SdhD	product
 re82	sdhC_mRNA	reactant
 re82	SdhC	product
@@ -206,10 +206,10 @@ re90	Eno	product
 re91	2-P-D-glycerate	reactant
 re91	P-enol-pyruvate	product
 re92	RhlB	reactant
-re92	Rne	reactant
-re92	Pnp	reactant
-re92	Ppk	reactant
 re92	Eno	reactant
+re92	Ppk	reactant
+re92	Pnp	reactant
+re92	Rne	reactant
 re92	Ppk-Rne-RhlB-Pnp-Eno	product
 re93	gpmM_mRNA	reactant
 re93	GpmM	product
@@ -325,22 +325,26 @@ re135	[enzyme] N6-(dihydrolipoyl)lysine	reactant
 re135	lipoyl-domain	product
 re136	[glycine-cleavage complex H protein] N6-dihydrolipoyl-L-lysine	reactant
 re136	[glycine-cleavage complex H protein] N6-lipoyl-L-lysine	product
-re137	GcvP	reactant
-re137	GcvH	reactant
-re137	GcvT	reactant
-re137	Lpd	reactant
-re137	Lpd-GcvP-GcvH-GcvT	product
-re138	THF polyglutamate	reactant
-re138	glycine	reactant
-re138	methylene-H4PteGlu(n)	product
-re138	ammonium	product
-re138	CO2	product
-re139	[glycine-cleavage complex H protein] N6-lipoyl-L-lysine	reactant
+re137	A(H2)	reactant
+re137	TeO2	reactant
+re137	acceptors	product
+re137	Te0	product
+re138	GcvP	reactant
+re138	GcvT	reactant
+re138	GcvH	reactant
+re138	Lpd	reactant
+re138	Lpd-GcvP-GcvH-GcvT	product
+re139	THF polyglutamate	reactant
 re139	glycine	reactant
-re139	[glycine-cleavage complex H protein] N6-aminomethyldihydrolipoyl-L-lysine	product
+re139	methylene-H4PteGlu(n)	product
+re139	ammonium	product
 re139	CO2	product
-re140	[glycine-cleavage complex H protein] N6-aminomethyldihydrolipoyl-L-lysine	reactant
-re140	THF polyglutamate	reactant
-re140	[glycine-cleavage complex H protein] N6-dihydrolipoyl-L-lysine	product
-re140	methylene-H4PteGlu(n)	product
-re140	ammonium	product
+re140	[glycine-cleavage complex H protein] N6-lipoyl-L-lysine	reactant
+re140	glycine	reactant
+re140	[glycine-cleavage complex H protein] N6-aminomethyldihydrolipoyl-L-lysine	product
+re140	CO2	product
+re141	[glycine-cleavage complex H protein] N6-aminomethyldihydrolipoyl-L-lysine	reactant
+re141	THF polyglutamate	reactant
+re141	[glycine-cleavage complex H protein] N6-dihydrolipoyl-L-lysine	product
+re141	methylene-H4PteGlu(n)	product
+re141	ammonium	product

@@ -17,8 +17,8 @@ re8	metQ_mRNA	product
 re9	cydA_mRNA	reactant
 re9	CydA	product
 re10	CydX	reactant
-re10	CydA	reactant
 re10	CydB	reactant
+re10	CydA	reactant
 re10	CydA-CydB-CydX	product
 re11	ubiquinol_Ext	reactant
 re11	oxygen_Ext	reactant
@@ -48,26 +48,30 @@ re18	succinate	product
 re19	metI_mRNA	reactant
 re19	MetI	product
 re20	MetI	reactant
-re20	MetN	reactant
 re20	MetQ	reactant
+re20	MetN	reactant
 re20	MetN-MetI-MetQ	product
-re21	Methionine S-oxide_Ext	reactant
-re21	Methionine S-oxide	product
-re22	acetyl-DL-methionine_Ext	reactant
-re22	acetyl-DL-methionine	product
-re23	methionine_Ext	reactant
-re23	methionine	product
-re24	metL_mRNA	reactant
-re24	MetL	product
-re25	aspartate	reactant
-re25	aspartyl-4-P	product
-re26	aspartate-semialdehyde	reactant
-re26	homo-ser	product
-re27	metN_mRNA	reactant
-re27	MetN	product
-re28	metQ_mRNA	reactant
-re28	MetQ	product
-re29	homo-ser	reactant
-re29	succinyl-homoserine	product
-re30	aspartyl-4-P	reactant
-re30	aspartate-semialdehyde	product
+re21	methionine_Ext	reactant
+re21	methionine	product
+re22	Methionine S-oxide_Ext	reactant
+re22	Methionine S-oxide	product
+re23	methionine-R-sulfoxide_Ext	reactant
+re23	methionine-R-sulfoxide	product
+re24	methionine-(S)-S-oxide_Ext	reactant
+re24	methionine-(S)-S-oxide	product
+re25	acetyl-DL-methionine_Ext	reactant
+re25	acetyl-DL-methionine	product
+re26	metL_mRNA	reactant
+re26	MetL	product
+re27	aspartate	reactant
+re27	aspartyl-4-P	product
+re28	aspartate-semialdehyde	reactant
+re28	homo-ser	product
+re29	metN_mRNA	reactant
+re29	MetN	product
+re30	metQ_mRNA	reactant
+re30	MetQ	product
+re31	homo-ser	reactant
+re31	succinyl-homoserine	product
+re32	aspartyl-4-P	reactant
+re32	aspartate-semialdehyde	product

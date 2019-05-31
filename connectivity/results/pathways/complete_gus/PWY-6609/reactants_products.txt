@@ -18,14 +18,14 @@ re8	phosphate	reactant
 re8	inosine	reactant
 re8	ribose-1-phosphate	product
 re8	hypoxanthine	product
-re9	phosphate	reactant
 re9	guanosine	reactant
+re9	phosphate	reactant
 re9	ribose-1-phosphate	product
 re9	guanine	product
-re10	ribose-1-phosphate	reactant
-re10	vitamin PP	reactant
-re10	nicotinamide ribose	product
-re10	phosphate	product
+re10	nicotinamide ribose	reactant
+re10	phosphate	reactant
+re10	ribose-1-phosphate	product
+re10	vitamin PP	product
 re11	deoD_mRNA	reactant
 re11	DeoD	product
 re12	nebularine	reactant
@@ -40,8 +40,8 @@ re14	deoxyinosine	reactant
 re14	phosphate	reactant
 re14	deoxy-D-ribose 1-phosphate	product
 re14	hypoxanthine	product
-re15	phosphate	reactant
 re15	adenosine	reactant
+re15	phosphate	reactant
 re15	ribose-1-phosphate	product
 re15	adenine	product
 re16	deoxyadenosine	reactant
@@ -58,14 +58,14 @@ re19	ammonium	product
 re19	inosine	product
 re20	hpt_mRNA	reactant
 re20	Hpt	product
-re21	guanine	reactant
+re21	hypoxanthine	reactant
 re21	PRPP	reactant
 re21	diphosphate	product
-re21	guanylate	product
-re22	hypoxanthine	reactant
+re21	5'-IMP	product
+re22	guanine	reactant
 re22	PRPP	reactant
 re22	diphosphate	product
-re22	5'-IMP	product
+re22	guanylate	product
 re23	gpt_mRNA	reactant
 re23	Gpt	product
 re24	xanthine	reactant

@@ -12,315 +12,384 @@ re6	cpxA	reactant
 re6	cpxA_mRNA	product
 re7	cpxP	reactant
 re7	cpxP_mRNA	product
-re8	cpxR	reactant
-re8	cpxR_mRNA	product
-re9	degP	reactant
-re9	degP_mRNA	product
-re10	dgcZ	reactant
-re10	dgcZ_mRNA	product
-re11	dsbA	reactant
-re11	dsbA_mRNA	product
-re12	dsbC	reactant
-re12	dsbC_mRNA	product
-re13	fabZ	reactant
-re13	fabZ_mRNA	product
-re14	ftnB	reactant
-re14	ftnB_mRNA	product
-re15	hha	reactant
-re15	hha_mRNA	product
-re16	ldtC	reactant
-re16	ldtC_mRNA	product
-re17	ldtD	reactant
-re17	ldtD_mRNA	product
-re18	lpxA	reactant
-re18	lpxA_mRNA	product
-re19	lpxD	reactant
-re19	lpxD_mRNA	product
-re20	marA	reactant
-re20	marA_mRNA	product
-re21	marB	reactant
-re21	marB_mRNA	product
-re22	marR	reactant
-re22	marR_mRNA	product
-re23	mdtA	reactant
-re23	mdtA_mRNA	product
-re24	mdtB	reactant
-re24	mdtB_mRNA	product
-re25	mdtC	reactant
-re25	mdtC_mRNA	product
-re26	mdtD	reactant
-re26	mdtD_mRNA	product
-re27	mzrA	reactant
-re27	mzrA_mRNA	product
-re28	ompC	reactant
-re28	ompC_mRNA	product
-re29	ppiA	reactant
-re29	ppiA_mRNA	product
-re30	ppiD	reactant
-re30	ppiD_mRNA	product
-re31	rdoA	reactant
-re31	rdoA_mRNA	product
-re32	rpoH	reactant
-re32	rpoH_mRNA	product
-re33	rprA	reactant
-re33	rprA_mRNA	product
-re34	sbmA	reactant
-re34	sbmA_mRNA	product
-re35	skp	reactant
-re35	skp_mRNA	product
-re36	slt	reactant
-re36	slt_mRNA	product
-re37	spy	reactant
-re37	spy_mRNA	product
-re38	tomB	reactant
-re38	tomB_mRNA	product
-re39	yaiW	reactant
-re39	yaiW_mRNA	product
-re40	yccA	reactant
-re40	yccA_mRNA	product
-re41	yebE	reactant
-re41	yebE_mRNA	product
-re42	yidQ	reactant
-re42	yidQ_mRNA	product
-re43	yqaE	reactant
-re43	yqaE_mRNA	product
-re44	yqjA	reactant
-re44	yqjA_mRNA	product
-re45	acrD_mRNA	reactant
-re45	AcrD	product
-re46	AcrD	reactant
-re46	AcrA	reactant
-re46	TolC	reactant
-re46	AcrD-AcrA-TolC	product
-re47	drug_Ext	reactant
-re47	drug	product
-re48	aroG_mRNA	reactant
-re48	AroG	product
-re49	P-enol-pyruvate	reactant
-re49	erythrose-4P	reactant
-re49	phosphate	product
-re49	DAHP	product
-re50	bacA_mRNA	reactant
-re50	BacA	product
-re51	UPP (ambiguous)	reactant
-re51	ditrans,polycis-undecaprenyl phosphate	product
+re8	cpxQ	reactant
+re8	cpxQ_mRNA	product
+re9	cpxR	reactant
+re9	cpxR_mRNA	product
+re10	degP	reactant
+re10	degP_mRNA	product
+re11	dgcZ	reactant
+re11	dgcZ_mRNA	product
+re12	dsbA	reactant
+re12	dsbA_mRNA	product
+re13	dsbC	reactant
+re13	dsbC_mRNA	product
+re14	fabZ	reactant
+re14	fabZ_mRNA	product
+re15	ftnB	reactant
+re15	ftnB_mRNA	product
+re16	hha	reactant
+re16	hha_mRNA	product
+re17	kbp	reactant
+re17	kbp_mRNA	product
+re18	ldtC	reactant
+re18	ldtC_mRNA	product
+re19	ldtD	reactant
+re19	ldtD_mRNA	product
+re20	lpxA	reactant
+re20	lpxA_mRNA	product
+re21	lpxD	reactant
+re21	lpxD_mRNA	product
+re22	marA	reactant
+re22	marA_mRNA	product
+re23	marB	reactant
+re23	marB_mRNA	product
+re24	marR	reactant
+re24	marR_mRNA	product
+re25	mdtA	reactant
+re25	mdtA_mRNA	product
+re26	mdtB	reactant
+re26	mdtB_mRNA	product
+re27	mdtC	reactant
+re27	mdtC_mRNA	product
+re28	mdtD	reactant
+re28	mdtD_mRNA	product
+re29	mzrA	reactant
+re29	mzrA_mRNA	product
+re30	ompC	reactant
+re30	ompC_mRNA	product
+re31	ppiA	reactant
+re31	ppiA_mRNA	product
+re32	ppiD	reactant
+re32	ppiD_mRNA	product
+re33	rpoH	reactant
+re33	rpoH_mRNA	product
+re34	rprA	reactant
+re34	rprA_mRNA	product
+re35	sbmA	reactant
+re35	sbmA_mRNA	product
+re36	skp	reactant
+re36	skp_mRNA	product
+re37	slt	reactant
+re37	slt_mRNA	product
+re38	spy	reactant
+re38	spy_mRNA	product
+re39	srkA	reactant
+re39	srkA_mRNA	product
+re40	tomB	reactant
+re40	tomB_mRNA	product
+re41	yaiW	reactant
+re41	yaiW_mRNA	product
+re42	yccA	reactant
+re42	yccA_mRNA	product
+re43	yebE	reactant
+re43	yebE_mRNA	product
+re44	yidQ	reactant
+re44	yidQ_mRNA	product
+re45	yqaE	reactant
+re45	yqaE_mRNA	product
+re46	yqjA	reactant
+re46	yqjA_mRNA	product
+re47	acrD_mRNA	reactant
+re47	AcrD	product
+re48	AcrD	reactant
+re48	AcrA	reactant
+re48	TolC	reactant
+re48	AcrD-AcrA-TolC	product
+re49	drug_Ext	reactant
+re49	drug	product
+re50	aroG_mRNA	reactant
+re50	AroG	product
+re51	P-enol-pyruvate	reactant
+re51	erythrose-4P	reactant
 re51	phosphate	product
-re52	baeR_mRNA	reactant
-re52	BaeR	product
-re53	baeS_mRNA	reactant
-re53	BaeS	product
-re54	cpxA_mRNA	reactant
-re54	CpxA	product
-re55	cpxP_mRNA	reactant
-re55	CpxP	product
-re56	cpxR_mRNA	reactant
-re56	CpxR	product
-re57	degP_mRNA	reactant
-re57	DegP	product
-re58	protein	reactant
-re58	peptide	product
-re59	dgcZ_mRNA	reactant
-re59	DgcZ	product
-re60	guanosine-triphosphate	reactant
-re60	diphosphate	product
-re60	c-di-GMP	product
-re61	dsbA_mRNA	reactant
-re61	DsbA	product
-re62	protein with reduced SH groups	reactant
-re62	protein with oxidized disulfide bonds	product
-re63	dsbC_mRNA	reactant
-re63	DsbC	product
-re64	protein with incorrect disulfide bonds	reactant
-re64	protein with correct disulfide bonds	product
-re65	fabZ_mRNA	reactant
-re65	FabZ	product
-re66	(3R)-3-hydroxyglutaryl-[acp] methyl ester	reactant
-re66	enoylglutaryl-[acp] methyl ester	product
-re67	3-hydroxypimeloyl-[acp] methyl ester	reactant
-re67	enoylpimelyl-[acp] methyl ester	product
-re68	(3R)-3-hydroxy cis delta7-tetradecenoyl-[acp]	reactant
-re68	trans-delta3-cis-delta7-tetradecenoyl-[acp]	product
-re69	(3R)-3-hydroxy cis delta9-hexadecenoyl-[acp]	reactant
-re69	trans-delta3-cis-delta9-hexadecenoyl-[acp]	product
-re70	AcpP	reactant
-re70	AcpP	product
-re71	beta-OH-acyl-ACP	reactant
-re71	CH3(CH2)xCH=CHCO-S-ACP	product
-re72	AcpP	reactant
-re72	trans hexadecenoyl-[acp]	product
-re73	beta-hydroxyhexanoyl-[acp]	reactant
-re73	trans hex-2-enoyl-[acp]	product
-re74	beta-hydroxydecanoyl-[acp]	reactant
-re74	(2E)-dec-2-enoyl-[acp]	product
-re75	beta-hydroxydodecanoyl-[acp]	reactant
-re75	(2E)-dodec-2-enoyl-[acp]	product
-re76	beta-hydroxymyristoyl-[acp]	reactant
-re76	trans tetradec-2-enoyl-[acp]	product
-re77	AcpP	reactant
-re77	crotonyl-[acp]	product
-re78	(3R)-3-hydroxy-cis-vaccenoyl-[acp]	reactant
-re78	(2E,11Z)-octadeca-2,11-dienoyl-[acp]	product
-re79	ftnB_mRNA	reactant
-re79	FtnB	product
-re80	hha_mRNA	reactant
-re80	Hha	product
-re81	ldtC_mRNA	reactant
-re81	LdtC	product
-re82	nascent peptidoglycan with (L-alanyl-gamma-D-glutamyl-meso-2,6-diaminopimeloyl-D-alanine) tetrapeptide	reactant
-re82	glycine	reactant
-re82	nascent peptidoglycan with (L-alanyl-gamma-D-glutamyl-meso-2,6-diaminopimeloyl-glycine) tetrapeptide	product
-re82	ala	product
-re83	nascent peptidoglycan with (L-alanyl-gamma-D-glutamyl-meso-2,6-diaminopimeloyl-D-alanine) tetrapeptide	reactant
-re83	nascent peptidoglycan with (L-alanyl-gamma-D-glutamyl-meso-2,6-diaminopimelate) tripeptide	product
-re83	ala	product
-re84	peptidoglycan with (L-alanyl-gamma-D-glutamyl-meso-2,6-diaminopimeloyl-D-alanine) tetrapeptide	reactant
-re84	MlpA	reactant
-re84	peptidoglycan tripeptide-Lpp crosslink	product
-re84	ala	product
-re85	ldtD_mRNA	reactant
-re85	LdtD	product
-re86	nascent peptidoglycan with (L-alanyl-gamma-D-glutamyl-meso-2,6-diaminopimeloyl-D-alanine) tetrapeptide	reactant
-re86	peptidoglycan with (L-alanyl-gamma-D-glutamyl-meso-2,6-diaminopimeloyl-D-alanine) tetrapeptide	reactant
-re86	nascent peptidoglycan with L,D cross links (meso-diaminopimelate containing)	product
-re86	ala	product
-re87	peptidoglycan tetrapeptide, glycan chain 1	reactant
-re87	peptidoglycan tetrapeptide, glycan chain 2	reactant
-re87	peptidoglycan DAP-DAP crosslink	product
-re87	ala	product
-re88	lpxA_mRNA	reactant
-re88	LpxA	product
-re89	beta-hydroxymyristoyl-[acp]	reactant
-re89	UDP-GlcNAc	reactant
-re89	UDP-3-O-(3-hydroxymyristoyl)-N-acetylglucosamine	product
-re89	AcpP	product
-re90	lpxD_mRNA	reactant
-re90	LpxD	product
-re91	UDP-3-O-(3-hydroxytetradecanoyl)glucosamine	reactant
-re91	beta-hydroxymyristoyl-[acp]	reactant
-re91	UDP-2,3-diacyl-glucosamine	product
-re91	AcpP	product
-re92	marA_mRNA	reactant
-re92	MarA	product
-re93	marB_mRNA	reactant
-re93	MarB	product
-re94	marR_mRNA	reactant
-re94	MarR	product
-re95	mdtA_mRNA	reactant
-re95	MdtA	product
-re96	MdtC	reactant
-re96	MdtA	reactant
-re96	MdtB	reactant
-re96	TolC	reactant
-re96	TolC-MdtC-MdtB-MdtA	product
-re97	mdtB_mRNA	reactant
-re97	MdtB	product
-re98	mdtC_mRNA	reactant
-re98	MdtC	product
-re99	mdtD_mRNA	reactant
-re99	MdtD	product
-re100	mzrA_mRNA	reactant
-re100	MzrA	product
-re101	ompC_mRNA	reactant
-re101	OmpC	product
-re102	hydrophilic solute or ion 600 Da_Ext	reactant
-re102	hydrophilic solute or ion 600 Da	product
-re103	betaine_Ext	reactant
-re103	betaine	product
-re104	5-methylthioribose_Ext	reactant
-re104	5-methylthioribose	product
-re105	inositol_Ext	reactant
-re105	inositol	product
-re106	amino acid_Ext	reactant
-re106	amino acid	product
-re107	base(2)_Ext	reactant
-re107	base(2)	product
-re108	C4-dicarboxylate_Ext	reactant
-re108	C4-dicarboxylate	product
-re109	polyol_Ext	reactant
-re109	polyol	product
-re110	short-chain alcohol_Ext	reactant
-re110	short-chain alcohol	product
-re111	short-chain acid anion_Ext	reactant
-re111	short-chain acid anion	product
-re112	organosulfur compound_Ext	reactant
-re112	organosulfur compound	product
-re113	CO2_Ext	reactant
-re113	CO2	product
-re114	ion_Ext	reactant
-re114	ion	product
-re115	monosaccharide_Ext	reactant
-re115	monosaccharide	product
+re51	DAHP	product
+re52	bacA_mRNA	reactant
+re52	BacA	product
+re53	UPP (ambiguous)	reactant
+re53	ditrans,polycis-undecaprenyl phosphate	product
+re53	phosphate	product
+re54	farnesyl-PP	reactant
+re54	(E,E)-farnesyl phosphate	product
+re54	phosphate	product
+re55	baeR_mRNA	reactant
+re55	BaeR	product
+re56	baeS_mRNA	reactant
+re56	BaeS	product
+re57	cpxA_mRNA	reactant
+re57	CpxA	product
+re58	cpxP_mRNA	reactant
+re58	CpxP	product
+re59	cpxQ_mRNA	reactant
+re59	RNA:CpxQ	product
+re60	cpxR_mRNA	reactant
+re60	CpxR	product
+re61	degP_mRNA	reactant
+re61	DegP	product
+re62	protein	reactant
+re62	peptide	product
+re63	dgcZ_mRNA	reactant
+re63	DgcZ	product
+re64	guanosine-triphosphate	reactant
+re64	diphosphate	product
+re64	c-di-GMP	product
+re65	dsbA_mRNA	reactant
+re65	Dsf	product
+re66	protein with reduced SH groups	reactant
+re66	protein with oxidized disulfide bonds	product
+re67	dsbA_mRNA	reactant
+re67	PpfA	product
+re68	dsbC_mRNA	reactant
+re68	DsbC	product
+re69	protein with incorrect disulfide bonds	reactant
+re69	protein with correct disulfide bonds	product
+re70	fabZ_mRNA	reactant
+re70	FabZ	product
+re71	(3R)-3-hydroxyglutaryl-[acp] methyl ester	reactant
+re71	enoylglutaryl-[acp] methyl ester	product
+re72	3-hydroxypimeloyl-[acp] methyl ester	reactant
+re72	enoylpimelyl-[acp] methyl ester	product
+re73	(3R)-3-hydroxy cis delta7-tetradecenoyl-[acp]	reactant
+re73	Trans-D2-cis-D7-tetradecenoyl-ACPs	product
+re74	(3R)-3-hydroxy cis delta9-hexadecenoyl-[acp]	reactant
+re74	trans-delta3-cis-delta9-hexadecenoyl-[acp]	product
+re75	AcpP	reactant
+re75	AcpP	product
+re76	beta-OH-acyl-ACP	reactant
+re76	CH3(CH2)xCH=CHCO-S-ACP	product
+re77	(3R)-3-hydroxy-cis-vaccenoyl-[acp]	reactant
+re77	(2E,11Z)-octadeca-2,11-dienoyl-[acp]	product
+re78	AcpP	reactant
+re78	crotonyl-[acp]	product
+re79	beta-hydroxymyristoyl-[acp]	reactant
+re79	trans tetradec-2-enoyl-[acp]	product
+re80	beta-hydroxydodecanoyl-[acp]	reactant
+re80	(2E)-dodec-2-enoyl-[acp]	product
+re81	beta-hydroxyhexanoyl-[acp]	reactant
+re81	trans hex-2-enoyl-[acp]	product
+re82	beta-hydroxydecanoyl-[acp]	reactant
+re82	(2E)-dec-2-enoyl-[acp]	product
+re83	AcpP	reactant
+re83	trans hexadecenoyl-[acp]	product
+re84	ftnB_mRNA	reactant
+re84	FtnB	product
+re85	hha_mRNA	reactant
+re85	Hha	product
+re86	kbp_mRNA	reactant
+re86	Kbp	product
+re87	ldtC_mRNA	reactant
+re87	LdtC	product
+re88	nascent peptidoglycan with (L-alanyl-gamma-D-glutamyl-meso-2,6-diaminopimeloyl-D-alanine) tetrapeptide	reactant
+re88	glycine	reactant
+re88	nascent peptidoglycan with (L-alanyl-gamma-D-glutamyl-meso-2,6-diaminopimeloyl-glycine) tetrapeptide	product
+re88	ala	product
+re89	nascent peptidoglycan with (L-alanyl-gamma-D-glutamyl-meso-2,6-diaminopimeloyl-D-alanine) tetrapeptide	reactant
+re89	nascent peptidoglycan with (L-alanyl-gamma-D-glutamyl-meso-2,6-diaminopimelate) tripeptide	product
+re89	ala	product
+re90	peptidoglycan with (L-alanyl-gamma-D-glutamyl-meso-2,6-diaminopimeloyl-D-alanine) tetrapeptide	reactant
+re90	MlpA	reactant
+re90	peptidoglycan tripeptide-Lpp crosslink	product
+re90	ala	product
+re91	ldtD_mRNA	reactant
+re91	LdtD	product
+re92	nascent peptidoglycan with (L-alanyl-gamma-D-glutamyl-meso-2,6-diaminopimeloyl-D-alanine) tetrapeptide	reactant
+re92	peptidoglycan with (L-alanyl-gamma-D-glutamyl-meso-2,6-diaminopimeloyl-D-alanine) tetrapeptide	reactant
+re92	nascent peptidoglycan with L,D cross links (meso-diaminopimelate containing)	product
+re92	ala	product
+re93	peptidoglycan tetrapeptide, glycan chain 2	reactant
+re93	peptidoglycan tetrapeptide, glycan chain 1	reactant
+re93	peptidoglycan DAP-DAP crosslink	product
+re93	ala	product
+re94	lpxA_mRNA	reactant
+re94	LpxA	product
+re95	beta-hydroxymyristoyl-[acp]	reactant
+re95	UDP-GlcNAc	reactant
+re95	UDP-3-O-(3-hydroxymyristoyl)-N-acetylglucosamine	product
+re95	AcpP	product
+re96	lpxD_mRNA	reactant
+re96	LpxD	product
+re97	UDP-3-O-(3-hydroxytetradecanoyl)glucosamine	reactant
+re97	beta-hydroxymyristoyl-[acp]	reactant
+re97	UDP-2,3-diacyl-glucosamine	product
+re97	AcpP	product
+re98	marA_mRNA	reactant
+re98	MarA	product
+re99	marB_mRNA	reactant
+re99	MarB	product
+re100	marR_mRNA	reactant
+re100	MarR	product
+re101	mdtA_mRNA	reactant
+re101	MdtA	product
+re102	MdtC	reactant
+re102	MdtB	reactant
+re102	TolC	reactant
+re102	MdtA	reactant
+re102	TolC-MdtC-MdtB-MdtA	product
+re103	novobiocin_Ext	reactant
+re103	novobiocin	product
+re104	deoxycholate_Ext	reactant
+re104	deoxycholate	product
+re105	mdtB_mRNA	reactant
+re105	MdtB	product
+re106	mdtC_mRNA	reactant
+re106	MdtC	product
+re107	mdtD_mRNA	reactant
+re107	MdtD	product
+re108	mzrA_mRNA	reactant
+re108	MzrA	product
+re109	ompC_mRNA	reactant
+re109	OmpC	product
+re110	hydrophilic solute or ion 600 Da_Ext	reactant
+re110	hydrophilic solute or ion 600 Da	product
+re111	organophosphorus compound_Ext	reactant
+re111	organophosphorus compound	product
+re112	MCFA_Ext	reactant
+re112	MCFA	product
+re113	caprate_Ext	reactant
+re113	caprate	product
+re114	glycoside_Ext	reactant
+re114	glycoside	product
+re115	sugar_Ext	reactant
+re115	sugar	product
 re116	beta-Neu5Ac_Ext	reactant
 re116	beta-Neu5Ac	product
 re117	N-acetylneuraminate_Ext	reactant
 re117	N-acetylneuraminate	product
-re118	ppiA_mRNA	reactant
-re118	PpiA	product
-re119	peptidylproline (omega = 180)	reactant
-re119	peptidylproline (omega = 0)	product
-re120	ppiD_mRNA	reactant
-re120	PpiD	product
-re121	rdoA_mRNA	reactant
-re121	RdoA	product
-re122	[protein]-L-serine/L-threonine	reactant
-re122	[protein] (L-serine/L-threonine) phosphate	product
-re123	rpoH_mRNA	reactant
-re123	RpoH	product
-re124	RpoH	reactant
-re124	RpoA	reactant
-re124	RpoC	reactant
-re124	RpoB	reactant
-re124	RpoB-RpoC-RpoA-RpoH	product
-re125	rprA_mRNA	reactant
-re125	RNA:RprA	product
-re126	sbmA_mRNA	reactant
-re126	SbmA	product
-re127	Peptide Antibiotic_Ext	reactant
-re127	Peptide Antibiotic	product
-re128	skp_mRNA	reactant
-re128	Skp	product
-re129	slt_mRNA	reactant
-re129	Slt	product
-re130	peptidoglycan dimer (generic)	reactant
-re130	GlcNAc-1,6-anhydro-MurNAc-pentapeptide	product
-re130	lipid II	product
-re131	spy_mRNA	reactant
-re131	Spy	product
-re132	tomB_mRNA	reactant
-re132	TomB	product
-re133	yaiW_mRNA	reactant
-re133	YaiW	product
-re134	yccA_mRNA	reactant
-re134	YccA	product
-re135	yebE_mRNA	reactant
-re135	YebE	product
-re136	yidQ_mRNA	reactant
-re136	YidQ	product
-re137	yqaE_mRNA	reactant
-re137	YqaE	product
-re138	yqjA_mRNA	reactant
-re138	YqjA	product
-re139	enoylglutaryl-[acp] methyl ester	reactant
-re139	3-hydroxypimeloyl-[acp] methyl ester	product
-re140	trans-delta3-cis-delta7-tetradecenoyl-[acp]	reactant
-re140	(3R)-3-hydroxy cis delta9-hexadecenoyl-[acp]	product
-re141	AcpP	reactant
-re141	(3R)-3-hydroxy cis delta7-tetradecenoyl-[acp]	product
-re142	trans-delta3-cis-delta9-hexadecenoyl-[acp]	reactant
-re142	(3R)-3-hydroxy-cis-vaccenoyl-[acp]	product
-re143	(2E)-dec-2-enoyl-[acp]	reactant
-re143	AcpP	product
-re144	CH3(CH2)xCH=CHCO-S-ACP	reactant
-re144	beta-hydroxydecanoyl-[acp]	product
-re145	trans tetradec-2-enoyl-[acp]	reactant
-re145	AcpP	product
-re146	crotonyl-[acp]	reactant
-re146	beta-hydroxyhexanoyl-[acp]	product
-re147	trans hex-2-enoyl-[acp]	reactant
-re147	beta-hydroxydecanoyl-[acp]	product
-re148	(2E)-dec-2-enoyl-[acp]	reactant
-re148	beta-hydroxydodecanoyl-[acp]	product
-re149	(2E)-dodec-2-enoyl-[acp]	reactant
-re149	beta-hydroxymyristoyl-[acp]	product
-re150	UDP-3-O-(3-hydroxymyristoyl)-N-acetylglucosamine	reactant
-re150	UDP-3-O-(3-hydroxytetradecanoyl)glucosamine	product
+re118	sugar phosphate_Ext	reactant
+re118	sugar phosphate	product
+re119	monocarboxylate_Ext	reactant
+re119	monocarboxylate	product
+re120	aromatic compound_Ext	reactant
+re120	aromatic compound	product
+re121	enterobactin_Ext	reactant
+re121	enterobactin	product
+re122	trisaccharide_Ext	reactant
+re122	trisaccharide	product
+re123	disaccharide_Ext	reactant
+re123	disaccharide	product
+re124	maltose_Ext	reactant
+re124	maltose	product
+re125	chitobiose_Ext	reactant
+re125	chitobiose	product
+re126	oligopeptide_Ext	reactant
+re126	oligopeptide	product
+re127	nucleotide_Ext	reactant
+re127	nucleotide	product
+re128	nucleotide sugar_Ext	reactant
+re128	nucleotide sugar	product
+re129	nucleoside_Ext	reactant
+re129	nucleoside	product
+re130	RCHO_Ext	reactant
+re130	RCHO	product
+re131	lactone_Ext	reactant
+re131	lactone	product
+re132	amide_Ext	reactant
+re132	amide	product
+re133	amine_Ext	reactant
+re133	amine	product
+re134	hydroxy carboxylate_Ext	reactant
+re134	hydroxy carboxylate	product
+re135	aldonate_Ext	reactant
+re135	aldonate	product
+re136	betaine_Ext	reactant
+re136	betaine	product
+re137	5-methylthioribose_Ext	reactant
+re137	5-methylthioribose	product
+re138	inositol_Ext	reactant
+re138	inositol	product
+re139	amino acid_Ext	reactant
+re139	amino acid	product
+re140	base(2)_Ext	reactant
+re140	base(2)	product
+re141	dicarboxylate_Ext	reactant
+re141	dicarboxylate	product
+re142	polyol_Ext	reactant
+re142	polyol	product
+re143	short-chain alcohol_Ext	reactant
+re143	short-chain alcohol	product
+re144	short-chain acid anion_Ext	reactant
+re144	short-chain acid anion	product
+re145	organosulfur compound_Ext	reactant
+re145	organosulfur compound	product
+re146	sulfadiazine_Ext	reactant
+re146	sulfadiazine	product
+re147	ion_Ext	reactant
+re147	ion	product
+re148	glycerol 1-phosphate_Ext	reactant
+re148	glycerol 1-phosphate	product
+re149	ppiA_mRNA	reactant
+re149	PpiA	product
+re150	peptidylproline (omega = 180)	reactant
+re150	peptidylproline (omega = 0)	product
+re151	ppiD_mRNA	reactant
+re151	PpiD	product
+re152	rpoH_mRNA	reactant
+re152	RpoH	product
+re153	RpoH	reactant
+re153	RpoB	reactant
+re153	RpoC	reactant
+re153	RpoA	reactant
+re153	RpoB-RpoC-RpoA-RpoH	product
+re154	rprA_mRNA	reactant
+re154	RNA:RprA	product
+re155	sbmA_mRNA	reactant
+re155	SbmA	product
+re156	Peptide Antibiotic_Ext	reactant
+re156	Peptide Antibiotic	product
+re157	skp_mRNA	reactant
+re157	Skp	product
+re158	slt_mRNA	reactant
+re158	Slt	product
+re159	mature peptidoglycan with (L-alanyl-gamma-D-glutamyl-meso-2,6-diaminopimeloyl-glycine) tetrapeptide	reactant
+re159	mature peptidoglycan with (L-alanyl-gamma-D-glutamyl-meso-2,6-diaminopimeloyl-glycine) tetrapeptide	product
+re159	GlcNAc-1,6-anhMurNAc-L-Ala-gamma-D-Glu-DAP-D-Ala	product
+re160	a mature peptidoglycan (meso-diaminopimelate containing)	reactant
+re160	a mature peptidoglycan strand with 1,6-anhydro-MurNAc terminus	product
+re160	a mature peptidoglycan strand with GlcNAc terminus	product
+re161	peptidoglycan dimer (generic)	reactant
+re161	GlcNAc-1,6-anhydro-MurNAc-pentapeptide	product
+re161	lipid II	product
+re162	spy_mRNA	reactant
+re162	Spy	product
+re163	srkA_mRNA	reactant
+re163	SrkA	product
+re164	[protein]-L-serine/L-threonine	reactant
+re164	[protein] (L-serine/L-threonine) phosphate	product
+re165	tomB_mRNA	reactant
+re165	TomB	product
+re166	yaiW_mRNA	reactant
+re166	YaiW	product
+re167	yccA_mRNA	reactant
+re167	YccA	product
+re168	yebE_mRNA	reactant
+re168	YebE	product
+re169	yidQ_mRNA	reactant
+re169	YidQ	product
+re170	yqaE_mRNA	reactant
+re170	YqaE	product
+re171	yqjA_mRNA	reactant
+re171	YqjA	product
+re172	enoylglutaryl-[acp] methyl ester	reactant
+re172	3-hydroxypimeloyl-[acp] methyl ester	product
+re173	Trans-D2-cis-D7-tetradecenoyl-ACPs	reactant
+re173	(3R)-3-hydroxy cis delta9-hexadecenoyl-[acp]	product
+re174	AcpP	reactant
+re174	(3R)-3-hydroxy cis delta7-tetradecenoyl-[acp]	product
+re175	trans-delta3-cis-delta9-hexadecenoyl-[acp]	reactant
+re175	(3R)-3-hydroxy-cis-vaccenoyl-[acp]	product
+re176	(2E)-dec-2-enoyl-[acp]	reactant
+re176	AcpP	product
+re177	CH3(CH2)xCH=CHCO-S-ACP	reactant
+re177	beta-hydroxydecanoyl-[acp]	product
+re178	crotonyl-[acp]	reactant
+re178	beta-hydroxyhexanoyl-[acp]	product
+re179	(2E)-dodec-2-enoyl-[acp]	reactant
+re179	beta-hydroxymyristoyl-[acp]	product
+re180	trans tetradec-2-enoyl-[acp]	reactant
+re180	AcpP	product
+re181	(2E)-dec-2-enoyl-[acp]	reactant
+re181	beta-hydroxydodecanoyl-[acp]	product
+re182	trans hex-2-enoyl-[acp]	reactant
+re182	beta-hydroxydecanoyl-[acp]	product
+re183	UDP-3-O-(3-hydroxymyristoyl)-N-acetylglucosamine	reactant
+re183	UDP-3-O-(3-hydroxytetradecanoyl)glucosamine	product

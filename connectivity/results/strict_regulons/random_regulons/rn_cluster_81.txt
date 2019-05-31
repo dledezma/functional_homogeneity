@@ -1,280 +1,296 @@
-# From /Users/Daniela/Documents/CCG/codigos_random/random_regulons_same_enzymes.pl on Mon May 14 21:06:18 2018 using: /Users/Daniela/Documents/CCG/GU_art_2/connectivity/strict_regulons/random_sets/total_enzymes.txt
-# /Users/Daniela/Documents/CCG/GU_art_2/connectivity/strict_regulons/random_sets/strict_enzymes.txt
-AccB_neg	bacA//fabI//
-AcrR_neg	hypF//moaA//
-Ada_neg	bioA//leuB//
-Ada_pos	polB//mtlD//cysG//entH//
-AdiY_pos	mdh//tehB//gabT//argG//
-AgaR_neg	trpB//
-AidB_neg	uxuB//
-AlaS_neg	wzc//
-AllR_neg	deoD//napA//fadE//aceE//hcp//garL//
-AllS_pos	ilvC//hcaD//pflB//
-AlsR_neg	rhaD//entE//uxaB//
-AppY_pos	phnM//alkA//
-AraC_neg	polB//pfkA//fadA//gabT//deoB//
-AraC_pos	carB//nanA//nrfC//sufS//deoC//
+# From /Users/Daniela/Documents/CCG/codigos_random/random_regulons_same_enzymes.pl on Sat Nov 24 09:20:05 2018 using: /Users/Daniela/Documents/CCG/GU_art_2/v22/connectivity/strict_regulons//analysis/total_enzymes.txt
+# /Users/Daniela/Documents/CCG/GU_art_2/v22/connectivity/strict_regulons//analysis/all_enzymes_in_set.txt
+AcrR_neg	araD//fabZ//
+Ada_neg	ravA//hemA//
+Ada_pos	wecB//manA//ydcS//paaI//
+AdiY_pos	paaZ//rfe//cyaA//paaI//
+AgaR_neg	gatY//
+AidB_neg	fadM//
+AlaS_neg	ybjG//
+AllR_neg	pheT//uvrC//purM//dadA//dinB//pagP//
+AllS_pos	metL//nadB//yqhD//
+AlsR_neg	murI//frdA//alaC//
+AppY_pos	malY//hchA//
+AraC_neg	citG//lsrK//recB//pdeF//aroF//
+AraC_pos	hpt//purH//fumC//tdcE//bioC//lpxD//
+ArcA_neg	tynA//citC//dadA//ppsA//citX//lysC//paaY//wecC//chbG//phnI//atoB//aroA//fadJ//tyrB//fabA//paaB//prpB//hyaA//metB//rbsK//carB//nrdD//psd//purH//trpC//mpl//dgcC//alkA//waaZ//galK//hmp//thrS//umuC//tdcB//araB//ynfE//yqhD//ddlB//ulaD//bioF//ugpQ//luxS//pheS//lsrG//hyaB//argC//polA//ldtD//fabD//hemA//gabD//frdC//ttdB//fadJ//rtcB//accC//fabH//nrfC//glpB//guaA//ynfH//cysC//hypB//cysD//mtlD//feaB//phr//citE//sdhD//
+ArcA_pos	accD//ynfH//lacA//gpmM//rutA//napH//fucU//metL//yedX//pfkA//relA//uvrA//fabD//phnM//ynfE//hycD//ilvB//prpE//frdD//nfsA//asnA//hcaB//ruvB//fes//ssuD//fabI//uxuA//kbaY//ampC//idnK//paaA//
 ArgP_neg	
-ArgP_pos	fabG//dgcC//alaS//fbaA//fadA//ogt//pheS//mhpB//murI//
-ArgR_neg	rnpB//kbaY//sucA//fabG//citX//pck//dapD//rnpB//rsmH//gntK//fucA//pspE//rsmH//hypB//umpH//lysA//sucA//hycE//
-ArgR_pos	lacA//alsE//fes//umuC//citD//
-ArsR_neg	paaF//waaZ//
-AscG_neg	cysI//dkgA//
-AsnC_neg	napA//
-AsnC_pos	ulaD//
-AtoC_pos	fadE//pspE//mhpB//
-BaeR_pos	uxaA//rutD//
-BasR_neg	gloA//
-BasR_pos	nanM//puuD//
-BetI_neg	citG//bioD//phnG//
-BirA_neg	napG//glnA//rbsK//argD//atoD//
+ArgP_pos	nrdE//ftsI//trpC//guaA//cpdB//cynS//atoB//purA//murF//
+ArgR_neg	purK//nfsB//narG//fabG//narH//prpE//xdhB//gcd//murF//glpA//glgB//rhaB//trmD//hcaF//glgA//katE//ilvH//sodB//
+ArgR_pos	trpE//rhaA//metB//sodB//napA//
+ArsR_neg	murC//chbG//
+AscG_neg	manA//napH//
+AsnC_neg	hcaD//
+AsnC_pos	thrS//
+AtoC_pos	fruK//moaA//frdC//
+BCCP_neg	glyA//
+BaeR_pos	katE//puuA//
+BasR_neg	aldB//
+BasR_pos	ppc//entF//
+BetI_neg	rffC//pepD//dapD//
+BirA_neg	allD//nrdA//entF//argB//cyoE//
 BluR_neg	
-BolA_neg	accD//xapA//
-BolA_pos	nanK//wecC//
-CadC_pos	fruK//cysE//
-CaiF_pos	murF//glpQ//argE//uxuA//glmS//
-Cbl_pos	uvrC//tdcG//ogt//gltB//rnpB//
-CdaR_pos	narI//hycF//bglB//sucA//lsrF//glcE//glcD//gltB//dhaL//
-CecR_neg	
-ChbR_neg	relA//leuB//pyrC//
-ChbR_pos	sucB//metH//gcvT//
+BolA_neg	hycD//umuD//
+BolA_pos	pyrD//feaB//
+BtsR_pos	uxaB//
+CRP_neg	argH//accA//cysH//fabH//nadB//gltA//mhpC//asnB//fabZ//argB//gloA//poxB//ssuE//uxuB//purL//fadM//speA//phnI//patA//hcaE//ynfG//idnK//hflX//rbsK//mhpF//ycjG//nrfA//cdd//hyi//malS//yfdE//oxc//pagP//uxuA//araB//pncB//ogt//allB//yedX//napG//aspA//hyaC//wecB//fumC//sdhC//allB//wecE//rffM//ubiX//accD//dmsC//argC//yedX//glcB//fau//tnaA//ttdB//aroG//ulaG//apaH//codA//argH//sgbE//fabG//paaA//allE//yqhD//fumC//ilvH//bcsZ//metA//
+CRP_pos	cynT//tdcB//rutB//rutC//mhpC//galK//xdhA//purK//avtA//rffH//rbsK//dinB//narG//xdhA//fbaA//yeaE//glk//glmU//paaG//ugpQ//hycF//rffG//carA//glnA//preA//glpQ//allC//rutD//chbG//trpB//ftsI//metC//tdcB//gapA//ftsI//rutD//fabG//hypB//guaB//hycG//gltB//yqhD//gatD//sbcC//pyrC//fumA//narH//phnP//rutE//gadA//dapB//fumB//xapA//glpC//uidA//cysM//allA//fucI//alaC//sucC//oxc//entH//lsrK//icd//mazG//gatZ//atoD//wecC//fbaB//deoB//phr//argD//prpE//tadA//gntK//rutA//pck//fumB//uvrA//araB//argD//trpB//purN//aceE//upp//yeaG//paaE//nagB//glgX//puuC//ydcS//glpC//rffM//rutD//glpA//nemA//metC//oxc//gatY//pck//glnA//glgP//prpD//serC//ulaE//ftnA//carA//ansB//allE//aceF//araD//glpE//fau//preA//deoB//glxR//phnN//cmoM//hpt//murE//argC//bioD//malQ//aceB//hyaB//fadJ//dsdA//ilvA//upp//xapA//ansB//rutB//argG//pagP//fes//rimK//gor//phnN//hycD//fumA//araD//leuD//nemA//betB//fadA//fbaA//yfdE//metC//paaB//araA//hycE//pheT//idnD//ttdA//prpE//trpE//hcaB//cysE//manA//rutD//nanK//dapD//gatD//dacC//cysK//nadC//cheR//polA//rhaD//ftnA//ddlB//nrdB//entC//purE//acnB//phnI//sgbU//sdhB//tam//hyaB//ubiC//kbaY//luxS//add//ssuE//feaB//sgbH//garK//astA//lpxC//phnN//epd//yeaG//fumA//tdh//yqjH//wzb//glyA//rutD//ccp//ulaE//appA//polB//lacA//tdcG//sucA//leuA//sodB//murE//mhpC//xylB//acs//phnJ//cmoM//fadE//tyrA//prpB//sgbE//eno//cysH//nfsB//gltX//deoA//gapA//mhpE//alkB//torA//rffC//psd//gpmM//frc//nrdA//astA//ppc//hemF//rutE//allC//nirB//dapD//dusB//ttdB//atoB//luxS//cueO//lldD//lsrK//fadH//hcaC//prs//
+CadC_pos	alaA//atoB//yiaK//
+CaiF_pos	recD//alkB//sodB//ansB//metK//
+Cbl_pos	betB//moaA//phnH//mraY//ycjG//
+CdaR_pos	sgbU//glyA//galE//glgX//umuC//citX//aroA//ilvN//carB//
+CecR_neg	phnO//
+ChbR_neg	argE//galE//atoD//
+ChbR_pos	phnI//gadA//tadA//
 ComR_neg	
-CpxR_neg	phnH//pgk//edd//
-CpxR_pos	fadE//malP//rutC//folA//cueO//accC//fau//hcaC//mpl//lldD//rbsD//nrdF//glxR//hyaA//murC//nemA//phnP//glgX//
-Cra_neg	fadM//phnN//glgX//paaY//paaF//frdD//wrbA//argC//mhpB//katG//ascB//rffH//lyxK//guaB//nrfB//nrfB//sufS//aroL//lpxC//pspE//gltB//dhaM//appA//aroL//atoD//cysK//pdeH//ubiA//alsE//paaZ//yfdE//gor//speB//fruK//rbsD//edd//polB//fau//alkB//rpiB//phnP//yeaG//iscS//pnp//rffH//ftsI//
-Cra_pos	metB//ada//hcaB//cysE//xylB//puuA//purK//ahpF//ynfG//frdA//phnJ//talA//ycjG//fumC//serA//metE//tdcG//
-CreB_neg	caiB//
-CreB_pos	fabI//
-CsgD_neg	torC//mnmG//
-CsgD_pos	gcvP//pncB//allD//
-CsiR_neg	yqjH//rhaD//fadA//pgpC//
-CspA_pos	poxB//
-CueR_neg	mhpC//alsE//
-CueR_pos	fdhF//xylA//
-CusR_pos	hcaF//gnd//galE//
+CpxR_neg	acs//serA//acnB//
+CpxR_pos	mdh//hcaD//cpdB//pgpC//wecB//xdhA//recB//polB//sucA//citF//bacA//ppiA//uvrA//ygeA//zwf//astE//hmp//apaH//
+Cra_neg	prmC//adiA//fadE//frdD//leuD//paaH//fabD//purK//nfsA//sodA//mtlD//rhaA//srkA//pfkA//ilvC//fadD//dmsA//gcd//paaF//pgi//pyrD//nanA//codA//pgaD//sdhA//dmsC//murI//pykF//lysA//prpB//ubiC//ackA//fbaB//lysU//glmS//tadA//galE//rhaB//nirB//ubiC//lyxK//lsrK//pspE//ravA//yeaE//
+Cra_pos	hcaD//hcaF//moaD//ampD//rutC//rbsD//rbsK//ilvI//ackA//lysC//tynA//mhpC//ddlB//purA//sucA//yiaK//rffC//
+CreB_neg	ilvG_1//
+CreB_pos	glxK//
+CsgD_neg	argF//purA//
+CsgD_pos	recB//folA//caiC//
+CsiR_neg	dmsA//gltA//frdB//purD//
+CspA_pos	dadX//
+CueR_neg	wecB//paaY//lhgO//
+CueR_pos	yqjH//fdhF//
+CusR_pos	purA//alaS//sgbE//paaE//
 CynR_neg	
-CynR_pos	ldtB//carA//hemL//
-CysB_neg	tdcG//accC//uvrA//
-CysB_pos	murF//napB//ldtD//ubiX//puuE//pspE//frdB//fruK//pfkA//mnmG//mraY//alsE//metC//allC//fabI//
-CytR_neg	dapD//accD//atoD//metB//tdcE//astE//tnaA//umpH//yqjH//fbaB//
-Dan_pos	carB//astA//
-DcuR_pos	citD//tyrA//ulaE//rbsD//
-DeoR_neg	uxaA//gapA//nrdF//patA//atoA//trpC//
+CynR_pos	alaA//napA//pgm//
+CysB_neg	murF//tyrB//psd//
+CysB_pos	nrdB//prmC//rbsD//paaK//alaS//sdhD//serA//lpxC//pdeR//ilvC//purE//tam//fadM//lacZ//
+CytR_neg	pdeF//ulaG//sdhB//rsmA//rutE//thrS//ilvD//mhpB//rnpB//acnB//
+DcuR_pos	purE//phnN//argH//hypF//
+DeoR_neg	tdcE//nrdB//dadA//entH//hchA//nanM//
 DhaR_neg	
-DhaR_pos	fabD//
+DhaR_pos	hchA//
 DicA_neg	
-DinJ-YafQ_neg	epd//
-DnaA_neg	carA//ugpQ//nirB//uidA//rpiB//
-DnaA_pos	ynfF//cysK//glpX//
+DinJ-YafQ_neg	ppc//
+DnaA_neg	ynfE//cheR//sdhA//sbcC//ruvA//
+DnaA_pos	ogt//icd//allA//
 DpiA_neg	
-DpiA_pos	guaA//phnH//epd//mhpD//nrdF//
+DpiA_pos	preT//gltX//aroA//phnN//puuA//
 DsdC_neg	
-DsdC_pos	rfe//paaK//
+DsdC_pos	glgB//glxR//
 EbgR_neg	
-EnvR_neg	atoD//rsmH//
-EnvY_pos	trpD//acnB//
-EvgA_pos	sdhA//araD//hemL//allE//malP//pfkA//
-ExuR_neg	umpH//nanE//polB//uvrC//tdcB//bacA//
-FabR_neg	kbaZ//wecB//
-FadR_neg	ugpQ//ulaE//argG//sucC//bioC//garR//glk//cadA//ubiX//
-FadR_pos	napC//pgaD//glk//aceE//sgbU//mtlD//metK//nanM//ung//
-FeaR_pos	tyrB//paaB//
-FhlA_pos	astA//hycC//leuB//cysK//sodB//iscS//trpE//
-FlhDC_neg	mhpE//fadJ//
-FlhDC_pos	fabB//tktB//cynS//bioC//pck//phnL//hycC//rutE//napC//
-FliZ_neg	tyrA//moaE//napA//rutC//pagP//
-FucR_pos	argI//ppiA//alaC//rutB//ugpQ//hcaF//
-Fur_neg	tnaA//cynT//dgcZ//malQ//accA//cueO//glcE//murF//trpD//ubiX//luxS//hycG//katE//ubiC//lacZ//glmU//purH//aroH//uxuA//idnK//ldtC//dinB//accD//napG//cysJ//thrS//kbaY//araD//fabI//sgbE//speA//rhaD//citE//ulaD//fabH//lpxD//dmsB//katG//yqhD//nemA//ddlB//waaH//paaK//ynfF//dapD//nrdB//phnL//paaK//fabA//nrdF//fes//napG//pgpC//metA//
-Fur_pos	uidA//gpmM//amn//zwf//waaY//fumC//gor//tdcE//leuA//cynS//astA//garD//polA//fbaA//fabZ//arsC//napB//
-GadE-RcsB_pos	pgk//lysC//rutE//ppiA//
-GadE_pos	dsdA//serA//lacZ//mhpF//ynfH//uxaA//recF//nemA//sufS//tdcD//
-GadW_neg	glgC//allB//iscS//
-GadW_pos	moeB//napG//alsE//carB//
-GadX_neg	puuA//fabG//
-GadX_pos	nrdA//ybaS//mltF//rutE//fadA//citF//rutE//atoD//rutB//adhE//
-GalR_neg	ada//leuB//allB//phnJ//glmS//lsrG//
-GalR_pos	purF//oxc//glgC//adhE//
-GalS_neg	malQ//paaK//lsrK//mngB//sucC//narI//
-GalS_pos	metB//ampC//kbaZ//gcvP//
-GatR_neg	tam//gpmM//ssuD//
-GcvA_neg	fau//nagB//nfsA//
-GcvA_pos	deoD//sodA//garK//
+EnvR_neg	fadB//hcp//
+EnvY_pos	nagB//pnp//
+EvgA_pos	murD//gpmM//paaC//hycG//dgcN//aspC//
+ExuR_neg	nrdF//preA//ilvE//pncB//mtlD//sdhA//
+FNR_neg	ldtD//trpE//mhpB//kbaY//srlD//gutQ//garR//sdhD//luxS//recD//tdcB//add//deoD//purB//alaA//ahpF//nanM//ilvA//metC//sdhB//luxS//uxuA//lhgO//wecE//entF//dgcN//puuE//gdhA//ruvB//frdD//pgaC//pdeH//dmsB//pyrC//paaC//murG//rpiB//prpD//dkgA//hemH//fadB//chbG//pncB//dhaM//
+FNR_pos	truB//rffH//nirB//bcsZ//aspC//ada//torA//accD//narG//pncB//guaB//napB//prs//hchA//psd//uxuB//phnN//rffG//pheS//ilvG_1//ddlB//amn//sdhA//hycB//fumB//sucA//sdhB//rffH//glcF//narH//ruvA//glcB//ruvB//cysI//nrfD//entF//aspA//nfsA//sdhC//gcvP//fes//purE//rhaD//dusB//murG//cysC//cheB//hcaB//lyxK//prpD//hcp//recD//aldA//gatY//hcp//fumB//aspC//ilvM//cysJ//patD//aspA//ruvA//lsrG//sucC//rpiB//fadM//malZ//wzb//fumC//fadM//aldA//rtcA//fadH//pyrD//rfe//sbcC//alaC//speB//pck//galM//arsC//uvrB//gnd//sufS//melA//murG//nemA//paaY//gcvT//citG//pfkA//puuE//araA//paaH//pdeL//patZ//
+FabR_neg	manA//paaJ//caiC//
+FadR_neg	moaA//allD//hemA//accA//argH//ulaE//iscS//moaA//nrdD//
+FadR_pos	glpC//gutQ//preT//accC//pyrC//betB//narI//dadA//pheS//rutE//
+FeaR_pos	ulaD//rutC//
+FhlA_pos	garL//truB//ppc//phr//pepD//pflB//aroL//yeaE//
+Fis_neg	wzb//umuC//metH//ubiC//gcvH//glgB//iscS//sbcC//dmsB//aceA//yedX//hflX//nadC//moaE//asnB//gabT//guaB//ubiA//fucK//paaZ//fucK//mhpB//sgbE//purA//mazG//hycC//cpdB//astA//aspC//rffT//putA//phnH//cysH//accA//ynfG//nanK//pgk//hemL//rbsK//napG//nanA//nadC//rbsK//srkA//purC//idnD//
+Fis_pos	murG//sucC//ravA//carA//cysE//caiA//cysJ//xdhB//bioF//nrdD//garR//bglB//ilvA//purL//folE//cmoM//torC//rutE//lsrG//cdd//fadB//pgk//ybjG//gltX//gltX//slt//phnG//guaA//argC//fabA//ascB//cynT//sdaA//glpQ//aceA//wzc//entE//
+FlhDC_neg	metH//malS//
+FlhDC_pos	cdd//hycG//hemA//hcaE//fumC//cysD//dadA//hyi//aroL//dusB//wecE//argH//
+FliZ_neg	hemL//xylB//rutD//codA//malQ//
+FucR_pos	queA//phnP//oxc//gcvH//glgX//leuA//
+Fur_neg	pgaC//rutE//ycjG//nadA//fabB//polB//ravA//fabD//cysC//hcaD//carB//fbaA//umpH//glpC//pdeR//acnB//trpC//ravA//add//ruvB//aroA//add//gcd//thrS//uxaC//dkgA//ppsA//alsE//nirB//acs//napG//aceF//hemH//atoA//psd//fruK//torC//ttdA//lysC//asnA//pck//hcaF//uxaA//dhaK//nfsB//aldA//argH//rutE//cysH//nagA//bioC//pgm//uxuA//
+Fur_pos	gpmM//lacZ//dapD//lpxC//gltA//cysJ//speB//pflB//aceA//tynA//leuB//speA//carB//sucD//cysI//rnpB//
+GadE-RcsB_pos	uidA//malQ//amiA//rpiB//rbsK//
+GadE_pos	alkA//galK//metK//xdhA//gatD//trpA//napG//hycG//umpH//poxB//
+GadW_neg	trpA//talA//entB//
+GadW_pos	feaB//moaC//pnp//ttdA//
+GadX_neg	sbcD//lysA//
+GadX_pos	katG//glnA//lsrG//lpxD//puuA//umuC//pagP//cysE//fucK//citD//rffM//
+GalR_neg	gnd//purH//paaC//ilvN//lpd//ilvI//
+GalR_pos	sufS//xdhA//cysG//murG//
+GalS_neg	ampC//pdeL//umuC//yqjH//aldA//napA//
+GalS_pos	lldD//glcF//glmS//phnJ//
+GatR_neg	torA//murQ//deoB//
+GcvA_neg	gloA//waaZ//ada//
+GcvA_pos	wecC//galK//rfe//
 GlcC_neg	
-GlcC_pos	truB//aroL//rutE//
-GlpR_neg	pnp//narG//fabB//waaY//wecC//lpxA//murD//
+GlcC_pos	waaH//aldB//accA//
+GlpR_neg	cysH//alaS//mhpE//gabD//acs//lhgO//lacA//
 GlrR_pos	
-GntR_neg	guaB//fabD//purC//entC//puuC//ahpC//purN//metB//cysK//
-GutM_pos	epd//srlD//rpiB//
-GutR_neg	ynfF//nemA//hycB//
-HU_neg	ulaG//napH//paaJ//betA//gudD//chbF//patA//
+GntR_neg	cpdB//mhpA//uxaA//glgX//yqjH//rpiB//fadI//rsmA//galK//
+GutM_pos	nrdE//aceA//ccp//
+H-NS_neg	ubiA//torC//rfe//hypB//ung//prpE//ung//sdaA//hemH//alkA//cadA//umuC//metF//dhaL//waaY//luxS//purC//preA//trpE//fbaB//paaH//prpD//mpl//glcB//nrdF//atoA//aspA//cheB//dhaM//allC//sufS//bcsB//mltF//ttdB//mpaA//fadA//polA//fabG//sbcC//garD//mnmG//allE//pagP//araB//aroA//lsrF//ansB//dadX//argC//murC//fadH//
+H-NS_pos	trmA//glnA//rffG//xapA//glk//rbsK//alaC//tnaA//leuD//aceF//fadJ//alaS//patD//pgpC//gnd//
+HU_neg	umuC//pflB//araA//fadA//zwf//carB//cysM//
 HU_pos	
 HcaR_neg	
-HcaR_pos	phnJ//ogt//
+HcaR_pos	gntK//moaC//
 HdfR_neg	
 HdfR_pos	
-HigA_neg	purL//
-HigB-HigA_neg	garK//
-HipAB_neg	lsrG//aspC//
-HipB_neg	tehB//argI//lsrF//
-HyfR_pos	codA//
-HypT_neg	frdC//uvrB//
-HypT_pos	pncB//tam//rffC//metL//gloA//
-IclR_neg	nrfA//hcaE//citG//
-IdnR_neg	aspA//leuA//
-IdnR_pos	rimK//ttdB//waaH//cdd//
+HigA_neg	recF//
+HigB-HigA_neg	narI//
+HipAB_neg	wecC//gatD//
+HipB_neg	arsC//alsE//upp//
+HprR_neg	cysK//astD//
+HprR_pos	citC//talA//
+HyfR_pos	pyrD//
+HypT_neg	allC//mhpF//
+HypT_pos	ada//sgbH//ulaF//glgC//rffH//
+IHF_neg	garK//lpxC//hycD//glxK//purM//deoC//asnA//uvrA//napH//mpaA//yedX//aroA//paaZ//entH//alaC//chbG//eda//dmsC//katE//xdhC//xdhC//lpxA//truB//murD//fes//trpC//cadA//aroF//prpE//pgaC//garR//gudD//hcaC//sgbU//frdB//slt//cueO//paaF//pgaD//bioA//nrfC//glgB//ravA//
+IHF_pos	waaY//dapB//puuE//glcB//sodA//entB//umuD//leuC//mtlD//garL//fabI//aldB//yeaG//adhE//hpt//glpB//dapB//tpiA//uxuA//purD//dsdA//astB//rhaD//dmsB//purA//cueO//sdhA//rsmA//ubiG//wrbA//moaD//wrbA//rffH//nfsB//mtlD//fabZ//ulaE//atoA//folA//fabB//ynfH//ung//eno//ddlB//dgkA//citF//ackA//cynS//frdD//psd//rhaA//nadA//ldtC//uvrB//aroH//ubiG//nrfD//ppc//hflX//fadH//pgm//fumA//gltA//chbG//moaC//glpK//dhaK//pgaB//allB//acnB//gltA//
+IclR_neg	nirD//phr//puuA//
+IdnR_neg	pgm//torC//
+IdnR_pos	yfdE//yqjH//ubiC//glgX//
 IlvY_neg	
-IlvY_pos	bioA//
-IscR_neg	leuC//aroH//gatY//lysC//
-IscR_pos	ogt//tdcG//
-KdgR_neg	luxS//cueO//
-KdpE_pos	tam//
-LacI_neg	nrfD//glpK//ahpF//
+IlvY_pos	cynT//
+IscR_neg	ruvA//aldA//mhpE//bcsZ//leuD//rutA//
+IscR_pos	wecC//ynfF//
+KdgR_neg	rutD//nrdB//
+KdpE_pos	napA//
+LacI_neg	apaH//aspA//glxR//
 LeuO_neg	
-LeuO_pos	entF//glxR//deoA//cadA//rhaA//moeA//
-LexA_neg	cysG//astD//uxuB//malQ//galK//leuA//psd//accA//trpA//murF//metL//atoD//purE//phnO//phnP//citG//nrfD//astC//fucO//ribA//garL//
-LldR_neg	murI//ttdA//
-LldR_pos	nrfD//tehB//
+LeuO_pos	entD//mhpB//kbaZ//sodB//guaA//fabB//
+LexA_neg	agp//wecB//aroH//tdcE//fbaB//fadM//hpt//dapD//patA//lsrG//aroF//fadA//napG//cynS//lysA//glpA//fbaA//alaC//ilvI//metA//sdhB//fucO//waaY//
+LldR_neg	ttdB//dmsA//
+LldR_pos	cysM//acnB//
 LrhA_neg	
 LrhA_pos	
-LsrR_neg	ahpC//purH//purL//mpl//garD//
+Lrp_neg	udp//fdhF//prpB//nirD//ruvB//narH//ampD//sodA//hycG//nanM//sdaA//allD//pheT//bglB//frdD//purF//entA//lsrG//hycF//glcD//dmsC//gltX//talA//
+Lrp_pos	polA//tam//dinB//cheR//mhpD//fbaB//moaA//purF//gatZ//rsmA//ldtD//purD//gcd//ilvB//atoA//purK//paaY//atoD//paaZ//rtcA//
+LsrR_neg	preA//polA//ygeA//appA//puuD//
 LysR_neg	
-LysR_pos	metL//
-MalI_neg	sucD//mhpB//
-MalT_pos	pheS//entF//mnmG//nagA//garR//ruvB//
-MarA_neg	caiD//
-MarA_pos	napA//tnaA//ulaD//eno//aroF//yfbR//paaB//dacC//mraY//mhpD//rffT//rutA//galE//ribA//rutC//purK//gabT//narG//appA//uidA//dacC//entA//
+LysR_pos	gloA//
+MalI_neg	glsA//prpD//
+MalT_pos	caiB//arsC//hyaC//malZ//rsmH//accA//
+MarA_neg	mltF//
+MarA_pos	gudD//preA//frdC//recF//rsmA//dapB//pepD//chiA//moaE//ogt//trpB//fabG//aroA//rffM//tyrA//uxaB//hyi//deoD//trmA//gltX//nadC//astD//umpH//
 MarR_neg	
-MatA_neg	mtlD//
+MatA_neg	fadE//
 MatA_pos	
-MazE-MazF_neg	rffT//
-MazE_neg	glpX//
+MazE-MazF_neg	gadA//
+MazE_neg	frdA//
 McbR_neg	
 McbR_pos	
-MelR_neg	prs//astE//
-MelR_pos	mtlD//aceE//
-MetJ_neg	bglB//citE//paaI//murF//ruvB//fabG//fadH//treC//cysJ//sucC//
-MetR_neg	ubiA//
-MetR_pos	galM//rbsK//serA//paaJ//
-MhpR_pos	accA//fruK//entB//umuC//astC//glk//
-Mlc_neg	dmsC//prs//aldA//tktB//
-MlrA_pos	astE//
-MngR_neg	fabB//paaZ//
-MntR_neg	lacA//
-MntR_pos	nrfC//
-ModE_neg	mngB//frdB//pagP//phnG//gabT//argC//fdhF//mazG//
-ModE_pos	umpH//allB//rffC//hyaB//puuD//purM//
-MprA_neg	pykF//entH//tauD//
-MqsA_neg	ulaD//lsrF//
-MraZ_neg	wrbA//frdD//sucC//cysC//pnp//glxK//rnpB//metK//aroF//nanM//hypB//
-MtlR_neg	prpD//polA//aceA//
-MurR_neg	rhaB//allE//uvrA//
+MelR_neg	ygeA//ulaE//
+MelR_pos	ynfF//xapA//
+MetJ_neg	paaB//rffH//mnmG//lsrG//pfkA//ppc//sgbU//ftnA//ynfH//aspA//
+MetR_neg	glpK//
+MetR_pos	pheT//entC//pflB//purF//
+MhpR_pos	moaA//ilvA//phnL//glpK//xdhA//dinB//
+Mlc_neg	allC//dkgA//hcaF//bcsZ//
+MlrA_pos	rimK//
+MngR_neg	paaG//xylB//
+MntR_neg	fabI//
+MntR_pos	patZ//
+ModE_neg	cysN//kbaY//ilvD//purC//accD//nadC//betA//nagB//
+ModE_pos	ynfF//mraY//uvrA//sodA//yfdE//ilvG_1//malZ//fau//glgX//
+MprA_neg	aceA//hemA//guaA//
+MqsA_neg	fabD//ttdA//
+MraZ_neg	chbF//trpC//xylB//prpE//amn//ppc//cyoE//fadB//dapD//mhpD//
+MurR_neg	atoA//fabI//fucK//
 MurR_pos	
-Nac_neg	glpB//treC//glgP//
-Nac_pos	narG//ybaS//rutA//aldA//mhpE//galM//ynfE//
-NadR_neg	gcvP//alkB//glgA//pspE//
-NagC_neg	rutD//pgm//araA//ruvA//dmsA//gpmM//glgX//nanA//glgB//napH//metB//poxB//narH//fdhF//hcp//tdcD//entE//narG//
-NagC_pos	fucO//gntK//
-NanR_neg	pnp//allE//fes//pncB//sgbE//puuE//
+Nac_neg	argI//paaI//fumB//
+Nac_pos	katG//chiA//aceF//add//glgA//prpC//ulaF//glgC//
+NadR_neg	hypF//polA//aceF//ynfH//
+NagC_neg	xylA//malS//upp//agp//hcaC//prpE//guaA//ahpC//trpB//patZ//caiB//gltX//rsmH//mhpD//gapA//uxaA//moeA//tynA//
+NagC_pos	gltA//astE//
+NanR_neg	glyA//fau//caiB//malY//ygeA//ldtC//
 NanR_pos	
-NarL_neg	fbaA//gltB//ugpQ//phnN//purA//sufS//hmp//mhpF//waaY//narI//sucD//ribA//nfsB//sodB//mhpD//bioF//trpC//feaB//gloA//rfe//rutB//sufS//mtlD//fbaA//
-NarL_pos	ssuE//polB//ampC//idnO//purE//aceE//tyrA//fadH//purM//feaB//frdC//guaB//murF//
-NarP_neg	ppiA//kbaZ//glgC//
-NarP_pos	folE//tyrB//ppc//pykF//metF//moeA//argB//add//thrS//fadJ//
-NemR_neg	prs//tehB//
-NhaR_pos	dapD//rimK//torC//alaS//cdd//
-NikR_neg	nanM//
-NimR_neg	wzc//
+NarL_neg	alaC//caiA//rffH//frc//glcE//pgm//prpE//glcD//pdeR//yqhD//sucA//ppc//fadJ//gltA//garD//fadE//wrbA//patA//hycE//gltD//pfkA//cheR//cysD//uxaC//paaF//frc//nfsB//ubiA//
+NarL_pos	napA//cysC//pck//paaZ//puuE//uxuA//astB//moeB//dgcC//grxA//pheT//hycD//dadA//fabA//rhaB//
+NarP_neg	waaZ//fucK//chbF//trpA//mpaA//
+NarP_pos	dkgA//serA//recF//pheT//sgbE//eno//mdh//glpE//gutQ//preT//luxS//mhpD//hyi//deoD//
+NemR_neg	ydcS//mhpA//
+NhaR_pos	nanM//wecB//grxA//galT//grxA//
+NikR_neg	murF//
+NimR_neg	gpmA//
 NorR_neg	
-NorR_pos	treC//
-NrdR_neg	mhpA//ynfG//cadA//asnB//
-NsrR_neg	chbG//hmp//purC//cynS//rhaD//dhaK//araB//sucB//puuC//sodA//cueO//astC//dkgB//lpxC//paaJ//phnM//paaF//lhgO//trpC//garD//bioC//cysH//entC//ulaE//trpA//feaB//narG//nrdE//leuD//tdcG//pepD//pheS//glcB//ycjG//purE//rbsK//
-NtrC_neg	ynfH//astD//
-NtrC_pos	idnD//lacZ//idnO//cysM//garL//amn//deoD//murQ//deoC//allE//paaY//waaZ//pgi//paaJ//serA//folA//gcl//napA//pheT//accA//hyaB//
-OmpR_neg	ndh//trpE//gapA//purA//entC//
-OmpR_pos	fadA//purF//betA//dmsB//
-OxyR_neg	napH//pspE//phoA//thrS//ppiA//
-OxyR_pos	eda//appA//malY//pdeR//malQ//paaC//galT//nadB//glpD//
-PaaX_neg	gcvH//deoB//rfe//ynfH//alsE//lpxC//sucA//edd//cysI//
-PdeL_pos	gapA//
-PdhR_neg	yfdE//nadB//cysE//allB//ldtB//allE//cysM//fucU//kbaZ//pgaB//nagA//paaC//oxc//fadB//ahpF//caiB//uxaC//gabT//ynfF//caiA//trpC//paaK//add//phnN//
-PdhR_pos	fumB//udp//
-PepA_neg	paaI//ruvA//
-PgrR_neg	puuB//adhE//
-PhoB_neg	dsdA//fruK//astC//truB//
-PhoB_pos	torC//mltF//bioD//entA//wzc//ruvB//paaB//phnP//udp//entF//cysI//dmsA//acnA//mpaA//ribA//argA//
-PhoP_neg	gatD//dhaK//lacZ//
-PhoP_pos	argB//fabB//mhpF//paaC//lyxK//argC//folE//fbaB//bioD//tyrA//entD//pgaD//phnN//fucU//dhaL//srlD//zwf//garR//purB//fabB//pgpC//mpl//fdhF//aroH//chbF//frdC//caiC//cdd//narG//allC//phnP//purB//
+NorR_pos	acs//
+NrdR_neg	gudD//astA//truB//ilvC//
+NsrR_neg	entF//puuE//garK//ftnA//speA//dmsC//waaH//mngB//ubiX//leuA//chbG//fbaB//lacZ//aspA//carB//trmD//carB//mhpE//ilvA//purL//argA//pdeL//nrfA//tdcB//recD//tyrB//nrdE//mpaA//purH//rffC//dapD//glnA//astD//dhaL//citX//deoB//moaE//glpA//argH//nfsB//
+NtrC_neg	garK//citD//
+NtrC_pos	lpxA//fbaA//tpiA//cysM//fruK//ampD//citD//fabI//fumB//citD//caiA//yfdE//argH//dinB//ubiX//hemL//purD//fucO//glnA//malS//alaA//
+OmpR_neg	cueO//puuE//acs//rffG//entE//
+OmpR_pos	mdh//fabD//phnO//pdeR//
+OxyR_neg	metF//atoB//hemA//rffH//hycB//
+OxyR_pos	prpE//yfdE//ruvA//phnM//fau//ilvB//umuC//entF//lpxA//pdxA//glpQ//gltA//
+PaaX_neg	nfsA//ppsA//dadA//ackA//glpA//glpC//fabD//phnL//uxuA//
+PdeL_pos	sucB//
+PdhR_neg	dgkA//trmA//glpC//gnd//mdh//accD//ychF//wrbA//torA//citX//nrdA//caiA//acs//wecB//preT//allA//hycD//hflX//allA//uxaB//argD//ttdA//ygeA//
+PdhR_pos	umpH//wecE//
+PepA_neg	ada//trpA//
+PgrR_neg	thrS//hemH//
+PhoB_neg	aceA//wecC//araA//phnI//pdeL//
+PhoB_pos	entH//rutC//xylA//aroA//moeA//patD//ldtC//hcp//fucO//allB//argE//entC//gcvH//ynfF//sodB//mhpA//napH//
+PhoP_neg	mhpA//paaY//fumA//
+PhoP_pos	ung//rhaB//chbF//rtcB//pspE//dusB//mhpA//uvrC//bioB//ribA//yedX//murF//atoD//ubiG//uvrB//trmA//ackA//nfsA//pdeL//rpiB//astE//wrbA//allD//glpX//moeA//uxaB//hyaA//paaJ//aldA//fumA//phnM//
 PrpR_neg	
-PrpR_pos	lpxD//dhaM//fes//astB//
+PrpR_pos	slt//fumB//ddlB//pdxA//
 PspF_neg	
-PspF_pos	metH//
-PurR_neg	wrbA//gcl//glmS//yeaE//bioF//fadJ//glgC//accA//napC//gltD//ssuD//ldtD//glxK//lpxD//pgk//gnd//fadD//rffG//xapA//pepD//pgm//ndh//argH//gadB//phr//fadI//
-PutA_neg	moaA//nrfA//
-PuuR_neg	entE//glmS//betB//rbsK//fbaB//pgaB//
+PspF_pos	dgkA//
+PurR_neg	pyrD//paaZ//entH//cynS//paaB//hcaC//deoB//allE//hycG//entD//ulaF//dsdA//argH//tadA//alkB//paaE//bacA//ldtD//nfsA//yedX//trpB//dacC//chbG//tnaA//dgcC//feaB//
+PutA_neg	rnpB//moaE//
+PuuR_neg	truB//mltF//phnP//gloA//uxaC//talA//
+QseB_neg	
 QseB_pos	
-RbsR_neg	purF//ndh//mdh//metC//polA//
-RbsR_pos	ssuE//
+RbsR_neg	hcp//chbG//tynA//nrfC//aroG//
+RbsR_pos	pck//
 RcdA_neg	
-RcdA_pos	gatD//
+RcdA_pos	allC//
 RclR_pos	
-RcnR_neg	ftnA//
-RcsAB_neg	sufS//
-RcsAB_pos	sdhC//argE//
-RcsB-BglJ_pos	entD//mhpA//
-RcsB_neg	nrdD//
-RcsB_pos	citC//frdC//mhpD//
-RelB-RelE_neg	argI//
-RelB_neg	cysJ//
+RcnR_neg	fabG//
+RcsAB_neg	nadA//
+RcsAB_pos	sgbE//dmsA//
+RcsB-BglJ_pos	trpC//tdh//
+RcsB_neg	ygeA//
+RcsB_pos	frdC//trpD//rbsK//
+RelB-RelE_neg	betA//
+RelB_neg	gloA//
 RhaR_pos	
-RhaS_pos	glk//pykF//alkB//fucI//
+RhaS_pos	ulaG//kbaZ//ilvE//paaZ//
 Rob_neg	
-Rob_pos	glgA//chbF//mpaA//garL//zwf//slt//fucA//galK//speB//pyrC//gutQ//uxuB//rutB//fadJ//fes//ftsI//murI//mltF//glcB//
-RstA_neg	ldtC//gudD//
-RstA_pos	pspE//
-RtcR_pos	puuE//metC//
-RutR_neg	rutE//yibQ//argI//gutQ//narH//mhpC//fucA//ycjG//nfsB//fdhF//
-RutR_pos	ampC//
+Rob_pos	allC//guaB//gloA//malP//xylA//uvrC//icd//preA//wecC//xylA//tam//speB//glk//murQ//purF//katG//purA//mltF//ampD//
+RstA_neg	epd//xylA//
+RstA_pos	katG//
+RtcR_pos	speA//malS//
+RutR_neg	ilvD//fadD//lpxC//ttdA//add//hycD//glpB//pdeL//pgaD//purK//
+RutR_pos	pdeL//
 SdiA_neg	
 SdiA_pos	
-SgrR_neg	nadA//
-SgrR_pos	ada//pdeR//
-SlyA_pos	
+SgrR_neg	metE//
+SgrR_pos	trmA//ppc//
+SlyA_neg	
+SlyA_pos	aroG//fabZ//glpX//nrdD//tdcD//asnA//tdcG//ampD//dinB//
 SoxR_neg	
-SoxR_pos	glpX//
+SoxR_pos	moeB//
 SoxS_neg	
-SoxS_pos	hycE//purK//leuD//moeA//astD//fadB//lsrK//citE//ogt//allE//pnp//dacC//iscS//caiA//ruvB//moaD//phnP//nrdB//dapB//astB//hmp//cysK//wzb//ychF//lacZ//allA//
-StpA_neg	hmp//ppiA//nadB//
-SutR_neg	lsrG//aroG//
+SoxS_pos	lsrF//fabG//nemA//recD//dacC//waaY//trmA//gapA//entD//cheR//waaZ//relA//phnH//dadA//cysC//gabT//speA//lacA//citC//mhpE//hycD//yfdE//kbl//ada//gntK//mtlD//
+SrlR_neg	rutC//mhpB//idnD//
+StpA_neg	dsdA//tdcG//ldtB//
+SutR_neg	narG//purL//
 SutR_pos	
-TdcA_pos	leuA//hypF//glpB//glpQ//ruvB//
-TdcR_pos	gadA//cysJ//mdh//cueO//carA//
-TorR_neg	bioF//
-TorR_pos	pck//ilvC//fucI//
-TreR_neg	gntK//nirD//
-TrpR_neg	pheT//pheT//purL//betA//metK//ruvA//gapA//mtlD//mnmG//
-TyrR_neg	tadA//rffH//gabT//gcvP//gcvP//cadA//bioC//
-TyrR_pos	fadI//puuD//phnO//
-UhpA_pos	aroH//
-UidR_neg	paaY//guaB//
-UlaR_neg	hyaA//ulaE//betB//ppsA//nrfD//
-UvrY_pos	paaY//purB//
-UxuR_neg	folA//tynA//rdoA//nrfA//purF//
-XapR_pos	citF//tadA//
+TdcA_pos	carB//nemA//yiaK//ynfH//garL//
+TdcR_pos	alaC//phnN//ybjG//glpA//yeaE//
+TorR_neg	rffH//
+TorR_pos	pyrD//dkgA//pyrC//glnA//
+TreR_neg	dadA//ftnA//
+TrpR_neg	argA//gabD//phnN//rbsD//malP//phnM//ppiA//ubiA//ampD//
+TtdR_pos	uvrC//hmp//
+TyrR_neg	purD//ogt//ychF//sufS//hcaF//hflX//alkB//
+TyrR_pos	gabT//hchA//nanK//
+UhpA_pos	tnaA//
+UidR_neg	metC//fdhF//
+UlaR_neg	narH//argE//metE//sdhD//tktB//
+UvrY_pos	avtA//rffC//
+UxuR_neg	pdeL//hycC//fadJ//gcl//hpt//
+XapR_pos	grxA//uxuA//
 XylR_neg	
-XylR_pos	gloA//glpX//sgbE//
+XylR_pos	metA//nrfC//cysK//
 YdeO_neg	
-YdeO_pos	dhaM//fabH//hypB//
-YedW_neg	dsdA//bglB//
-YedW_pos	malY//
-YefM-YoeB_neg	mtlD//
-YefM_neg	carA//
-YehT_pos	
+YdeO_pos	uvrB//acnB//fbaB//
+YefM-YoeB_neg	moeB//
+YefM_neg	trpB//
 YeiL_pos	
-YiaJ_neg	adhE//caiB//relA//accD//icd//fucO//
-YjjQ_neg	rhaD//
+YhaJ_pos	
+YiaJ_neg	fau//napG//ilvC//purB//ada//rtcB//
+YjjQ_neg	cysG//kbaZ//
 YpdB_pos	
-YqhC_pos	kbaY//ldtC//
-YqjI_neg	glgA//
-ZntR_pos	cysD//
+YqhC_pos	glxK//tnaA//
+YqjI_neg	thrS//
+ZntR_pos	ulaG//
 ZraR_pos	
-Zur_neg	paaG//
+Zur_neg	umuC//

@@ -16,8 +16,8 @@ re8	PtsG	reactant
 re8	Crr	reactant
 re8	PtsG-Crr	product
 re9	HPr - phosphorylated_Ext	reactant
-re9	beta-glucose_Ext	reactant
-re9	beta-D-glucose-6-P	product
+re9	glucopyranose_Ext	reactant
+re9	glucose-6-P	product
 re9	PtsH	product
 re10	HPr - phosphorylated_Ext	reactant
 re10	Methyl-D-glucoside_Ext	reactant
@@ -44,8 +44,8 @@ re16	ManX	reactant
 re16	ManY	reactant
 re16	ManZ-ManY-ManX	product
 re17	HPr - phosphorylated_Ext	reactant
-re17	alpha-D-mannose_Ext	reactant
-re17	alpha-D-mannose-6-P	product
+re17	seminose_Ext	reactant
+re17	mannopyranose-6-P	product
 re17	PtsH	product
 re18	HPr - phosphorylated_Ext	reactant
 re18	2-deoxyglucose_Ext	reactant
@@ -64,8 +64,8 @@ re21	NAcGlc_Ext	reactant
 re21	N-acetyl-alpha-D-glucosamine 6-phosphate	product
 re21	PtsH	product
 re22	HPr - phosphorylated_Ext	reactant
-re22	beta-Levulose_Ext	reactant
-re22	fructose-6-P	product
+re22	fructofuranose_Ext	reactant
+re22	keto-D-fructose 6-phosphate	product
 re22	PtsH	product
 re23	manX_mRNA	reactant
 re23	IIABMan	product
@@ -75,5 +75,8 @@ re25	manZ_mRNA	reactant
 re25	ManZ	product
 re26	ptsH_mRNA	reactant
 re26	PtsH	product
-re27	ptsI_mRNA	reactant
-re27	PtsI	product
+re27	MtlR	reactant
+re27	PtsH	reactant
+re27	MtlR-PtsH	product
+re28	ptsI_mRNA	reactant
+re28	PtsI	product

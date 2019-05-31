@@ -12,52 +12,52 @@ re6	chbR	reactant
 re6	chbR_mRNA	product
 re7	chiP	reactant
 re7	chiP_mRNA	product
-re8	creA	reactant
-re8	creA_mRNA	product
-re9	creB	reactant
-re9	creB_mRNA	product
-re10	creC	reactant
-re10	creC_mRNA	product
-re11	creD	reactant
-re11	creD_mRNA	product
-re12	crr	reactant
-re12	crr_mRNA	product
-re13	dinI	reactant
-re13	dinI_mRNA	product
-re14	galP	reactant
-re14	galP_mRNA	product
-re15	glmS	reactant
-re15	glmS_mRNA	product
-re16	glmU	reactant
-re16	glmU_mRNA	product
-re17	manX	reactant
-re17	manX_mRNA	product
-re18	manY	reactant
-re18	manY_mRNA	product
-re19	manZ	reactant
-re19	manZ_mRNA	product
-re20	nagA	reactant
-re20	nagA_mRNA	product
-re21	nagB	reactant
-re21	nagB_mRNA	product
-re22	nagC	reactant
-re22	nagC_mRNA	product
-re23	nagE	reactant
-re23	nagE_mRNA	product
-re24	nanC	reactant
-re24	nanC_mRNA	product
-re25	nanM	reactant
-re25	nanM_mRNA	product
-re26	nanS	reactant
-re26	nanS_mRNA	product
-re27	ptsH	reactant
-re27	ptsH_mRNA	product
-re28	ptsI	reactant
-re28	ptsI_mRNA	product
-re29	umpH	reactant
-re29	umpH_mRNA	product
-re30	ybfN	reactant
-re30	ybfN_mRNA	product
+re8	chiQ	reactant
+re8	chiQ_mRNA	product
+re9	creA	reactant
+re9	creA_mRNA	product
+re10	creB	reactant
+re10	creB_mRNA	product
+re11	creC	reactant
+re11	creC_mRNA	product
+re12	creD	reactant
+re12	creD_mRNA	product
+re13	crr	reactant
+re13	crr_mRNA	product
+re14	dinI	reactant
+re14	dinI_mRNA	product
+re15	galP	reactant
+re15	galP_mRNA	product
+re16	glmS	reactant
+re16	glmS_mRNA	product
+re17	glmU	reactant
+re17	glmU_mRNA	product
+re18	manX	reactant
+re18	manX_mRNA	product
+re19	manY	reactant
+re19	manY_mRNA	product
+re20	manZ	reactant
+re20	manZ_mRNA	product
+re21	nagA	reactant
+re21	nagA_mRNA	product
+re22	nagB	reactant
+re22	nagB_mRNA	product
+re23	nagC	reactant
+re23	nagC_mRNA	product
+re24	nagE	reactant
+re24	nagE_mRNA	product
+re25	nanC	reactant
+re25	nanC_mRNA	product
+re26	nanM	reactant
+re26	nanM_mRNA	product
+re27	nanS	reactant
+re27	nanS_mRNA	product
+re28	ptsH	reactant
+re28	ptsH_mRNA	product
+re29	ptsI	reactant
+re29	ptsI_mRNA	product
+re30	umpH	reactant
+re30	umpH_mRNA	product
 re31	ydeM	reactant
 re31	ydeM_mRNA	product
 re32	ydeN	reactant
@@ -66,8 +66,8 @@ re33	ydeP	reactant
 re33	ydeP_mRNA	product
 re34	chbA_mRNA	reactant
 re34	ChbA	product
-re35	ChbB	reactant
 re35	ChbA	reactant
+re35	ChbB	reactant
 re35	ChbC	reactant
 re35	ChbA-ChbC-ChbB	product
 re36	HPr - phosphorylated_Ext	reactant
@@ -104,157 +104,160 @@ re47	chiP_mRNA	reactant
 re47	ChiP	product
 re48	chitobiose_Ext	reactant
 re48	chitobiose	product
-re49	creA_mRNA	reactant
-re49	CreA	product
-re50	creB_mRNA	reactant
-re50	CreB	product
+re49	chiQ_mRNA	reactant
+re49	ChiQ	product
+re50	creA_mRNA	reactant
+re50	CreA	product
 re51	creB_mRNA	reactant
-re51	YjjE	product
-re52	creC_mRNA	reactant
-re52	CreC	product
-re53	creD_mRNA	reactant
-re53	CreD	product
-re54	crr_mRNA	reactant
-re54	Crr	product
-re55	PtsG	reactant
-re55	Crr	reactant
-re55	PtsG-Crr	product
-re56	HPr - phosphorylated_Ext	reactant
-re56	beta-glucose_Ext	reactant
-re56	beta-D-glucose-6-P	product
-re56	PtsH	product
+re51	CreB	product
+re52	creB_mRNA	reactant
+re52	YjjE	product
+re53	creC_mRNA	reactant
+re53	CreC	product
+re54	creD_mRNA	reactant
+re54	CreD	product
+re55	crr_mRNA	reactant
+re55	Crr	product
+re56	PtsG	reactant
+re56	Crr	reactant
+re56	PtsG-Crr	product
 re57	HPr - phosphorylated_Ext	reactant
-re57	Methyl-D-glucoside_Ext	reactant
-re57	methyl alpha-D-glucoside 6-phosphate	product
+re57	glucopyranose_Ext	reactant
+re57	glucose-6-P	product
 re57	PtsH	product
-re58	TreB	reactant
-re58	Crr	reactant
-re58	TreB-Crr	product
-re59	HPr - phosphorylated_Ext	reactant
-re59	trehalose_Ext	reactant
-re59	alpha,alpha-trehalose 6-phosphate	product
-re59	PtsH	product
-re60	MurP	reactant
-re60	Crr	reactant
-re60	MurP-Crr	product
-re61	HPr - phosphorylated_Ext	reactant
-re61	MurNAc_Ext	reactant
-re61	MurNAc-6-P	product
-re61	PtsH	product
-re62	dinI_mRNA	reactant
-re62	DinI	product
-re63	galP_mRNA	reactant
-re63	GalP	product
-re64	glucopyranose_Ext	reactant
-re64	glucopyranose	product
-re65	beta-D-galactose_Ext	reactant
-re65	beta-D-galactose	product
-re66	glmS_mRNA	reactant
-re66	GlmS	product
-re67	fructose-6-P	reactant
-re67	glutamine	reactant
-re67	alpha-D-glucosamine phosphate	product
-re67	L-glutamate	product
-re68	glmU_mRNA	reactant
-re68	GlmU	product
-re69	N-acetyl-alpha-D-glucosamine 1-phosphate	reactant
-re69	uridine-triphosphate	reactant
-re69	diphosphate	product
-re69	UDP-GlcNAc	product
-re70	glucosamine-1P	reactant
-re70	acetyl-CoA	reactant
-re70	N-acetyl-alpha-D-glucosamine 1-phosphate	product
-re70	coenzyme A	product
-re71	manX_mRNA	reactant
-re71	ManX	product
-re72	ManZ	reactant
-re72	ManX	reactant
-re72	ManY	reactant
-re72	ManZ-ManY-ManX	product
-re73	HPr - phosphorylated_Ext	reactant
-re73	alpha-D-mannose_Ext	reactant
-re73	alpha-D-mannose-6-P	product
-re73	PtsH	product
+re58	HPr - phosphorylated_Ext	reactant
+re58	Methyl-D-glucoside_Ext	reactant
+re58	methyl alpha-D-glucoside 6-phosphate	product
+re58	PtsH	product
+re59	TreB	reactant
+re59	Crr	reactant
+re59	TreB-Crr	product
+re60	HPr - phosphorylated_Ext	reactant
+re60	trehalose_Ext	reactant
+re60	alpha,alpha-trehalose 6-phosphate	product
+re60	PtsH	product
+re61	MurP	reactant
+re61	Crr	reactant
+re61	MurP-Crr	product
+re62	HPr - phosphorylated_Ext	reactant
+re62	MurNAc_Ext	reactant
+re62	MurNAc-6-P	product
+re62	PtsH	product
+re63	dinI_mRNA	reactant
+re63	DinI	product
+re64	galP_mRNA	reactant
+re64	GalP	product
+re65	galactopyranose_Ext	reactant
+re65	galactopyranose	product
+re66	glucopyranose_Ext	reactant
+re66	glucopyranose	product
+re67	glmS_mRNA	reactant
+re67	GlmS	product
+re68	fructose-6-P	reactant
+re68	glutamine	reactant
+re68	alpha-D-glucosamine phosphate	product
+re68	L-glutamate	product
+re69	glmU_mRNA	reactant
+re69	GlmU	product
+re70	N-acetyl-alpha-D-glucosamine 1-phosphate	reactant
+re70	uridine-triphosphate	reactant
+re70	diphosphate	product
+re70	UDP-GlcNAc	product
+re71	glucosamine-1P	reactant
+re71	acetyl-CoA	reactant
+re71	N-acetyl-alpha-D-glucosamine 1-phosphate	product
+re71	coenzyme A	product
+re72	manX_mRNA	reactant
+re72	ManX	product
+re73	ManZ	reactant
+re73	ManY	reactant
+re73	ManX	reactant
+re73	ManZ-ManY-ManX	product
 re74	HPr - phosphorylated_Ext	reactant
-re74	2-deoxyglucose_Ext	reactant
-re74	2-deoxy-D-glucose 6-phosphate	product
+re74	seminose_Ext	reactant
+re74	mannopyranose-6-P	product
 re74	PtsH	product
-re75	N-acetyl-beta-D-mannosamine_Ext	reactant
 re75	HPr - phosphorylated_Ext	reactant
-re75	ManNAc-6-P	product
+re75	2-deoxyglucose_Ext	reactant
+re75	2-deoxy-D-glucose 6-phosphate	product
 re75	PtsH	product
+re76	N-acetyl-beta-D-mannosamine_Ext	reactant
 re76	HPr - phosphorylated_Ext	reactant
-re76	chitosamine_Ext	reactant
-re76	alpha-D-glucosamine phosphate	product
+re76	ManNAc-6-P	product
 re76	PtsH	product
 re77	HPr - phosphorylated_Ext	reactant
-re77	NAcGlc_Ext	reactant
-re77	N-acetyl-alpha-D-glucosamine 6-phosphate	product
+re77	chitosamine_Ext	reactant
+re77	alpha-D-glucosamine phosphate	product
 re77	PtsH	product
 re78	HPr - phosphorylated_Ext	reactant
-re78	beta-Levulose_Ext	reactant
-re78	fructose-6-P	product
+re78	NAcGlc_Ext	reactant
+re78	N-acetyl-alpha-D-glucosamine 6-phosphate	product
 re78	PtsH	product
-re79	manX_mRNA	reactant
-re79	IIABMan	product
-re80	manY_mRNA	reactant
-re80	ManY	product
-re81	manZ_mRNA	reactant
-re81	ManZ	product
-re82	nagA_mRNA	reactant
-re82	NagA	product
-re83	N-acetyl-alpha-D-glucosamine 6-phosphate	reactant
-re83	alpha-D-glucosamine phosphate	product
-re83	acetate	product
-re84	nagB_mRNA	reactant
-re84	NagB	product
-re85	alpha-D-glucosamine phosphate	reactant
-re85	fructose-6-P	product
-re85	ammonium	product
-re86	nagC_mRNA	reactant
-re86	NagC	product
-re87	nagE_mRNA	reactant
-re87	NagE	product
+re79	HPr - phosphorylated_Ext	reactant
+re79	fructofuranose_Ext	reactant
+re79	keto-D-fructose 6-phosphate	product
+re79	PtsH	product
+re80	manX_mRNA	reactant
+re80	IIABMan	product
+re81	manY_mRNA	reactant
+re81	ManY	product
+re82	manZ_mRNA	reactant
+re82	ManZ	product
+re83	nagA_mRNA	reactant
+re83	NagA	product
+re84	N-acetyl-alpha-D-glucosamine 6-phosphate	reactant
+re84	alpha-D-glucosamine phosphate	product
+re84	acetate	product
+re85	nagB_mRNA	reactant
+re85	NagB	product
+re86	alpha-D-glucosamine phosphate	reactant
+re86	fructose-6-P	product
+re86	ammonium	product
+re87	nagC_mRNA	reactant
+re87	NagC	product
 re88	nagE_mRNA	reactant
-re88	EIINag	product
-re89	nanC_mRNA	reactant
-re89	NanC	product
-re90	N-acetylneuraminate_Ext	reactant
-re90	N-acetylneuraminate	product
-re91	beta-Neu5Ac_Ext	reactant
-re91	beta-Neu5Ac	product
-re92	nanM_mRNA	reactant
-re92	NanM	product
-re93	alpha-Neu5Ac	reactant
-re93	beta-Neu5Ac	product
-re94	nanS_mRNA	reactant
-re94	NanS	product
-re95	ptsH_mRNA	reactant
-re95	PtsH	product
-re96	ptsI_mRNA	reactant
-re96	PtsI	product
-re97	umpH_mRNA	reactant
-re97	UmpH	product
-re98	5'-ribonucleotide	reactant
-re98	nucleoside	product
-re98	phosphate	product
-re99	guanylate	reactant
-re99	phosphate	product
-re99	guanosine	product
-re100	5'-UMP	reactant
+re88	NagE	product
+re89	nagE_mRNA	reactant
+re89	EIINag	product
+re90	nanC_mRNA	reactant
+re90	NanC	product
+re91	N-acetylneuraminate_Ext	reactant
+re91	N-acetylneuraminate	product
+re92	beta-Neu5Ac_Ext	reactant
+re92	beta-Neu5Ac	product
+re93	nanM_mRNA	reactant
+re93	NanM	product
+re94	alpha-Neu5Ac	reactant
+re94	beta-Neu5Ac	product
+re95	nanS_mRNA	reactant
+re95	NanS	product
+re96	ptsH_mRNA	reactant
+re96	PtsH	product
+re97	MtlR	reactant
+re97	PtsH	reactant
+re97	MtlR-PtsH	product
+re98	ptsI_mRNA	reactant
+re98	PtsI	product
+re99	umpH_mRNA	reactant
+re99	UmpH	product
+re100	5'-ribonucleotide	reactant
+re100	nucleoside	product
 re100	phosphate	product
-re100	uridine	product
-re101	cytidylate	reactant
+re101	5'-IMP	reactant
 re101	phosphate	product
-re101	cytidine	product
-re102	5'-IMP	reactant
+re101	inosine	product
+re102	5'-UMP	reactant
 re102	phosphate	product
-re102	inosine	product
-re103	ybfN_mRNA	reactant
-re103	YbfN	product
-re104	ydeM_mRNA	reactant
-re104	YdeM	product
-re105	ydeN_mRNA	reactant
-re105	YdeN	product
-re106	ydeP_mRNA	reactant
-re106	YdeP	product
+re102	uridine	product
+re103	cytidylate	reactant
+re103	phosphate	product
+re103	cytidine	product
+re104	guanylate	reactant
+re104	phosphate	product
+re104	guanosine	product
+re105	ydeM_mRNA	reactant
+re105	YdeM	product
+re106	ydeN_mRNA	reactant
+re106	YdeN	product
+re107	ydeP_mRNA	reactant
+re107	YdeP	product

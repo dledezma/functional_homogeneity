@@ -16,8 +16,8 @@ re8	mhpA	reactant
 re8	mhpA_mRNA	product
 re9	hcaC_mRNA	reactant
 re9	HcaC	product
-re10	HcaE	reactant
 re10	HcaC	reactant
+re10	HcaE	reactant
 re10	HcaF	reactant
 re10	HcaD	reactant
 re10	HcaC-HcaD-HcaF-HcaE	product
@@ -35,12 +35,12 @@ re15	hcaE_mRNA	reactant
 re15	HcaE	product
 re16	mhpB_mRNA	reactant
 re16	MhpB	product
-re17	2,3-dihydroxycinnamic acid	reactant
+re17	2,3-DHP	reactant
 re17	oxygen	reactant
-re17	2-hydroxy-6-oxononatrienedioate	product
-re18	2,3-DHP	reactant
+re17	(2Z,4E)-2-hydroxy-6-ketononadienedioic acid	product
+re18	2,3-dihydroxycinnamic acid	reactant
 re18	oxygen	reactant
-re18	(2Z,4E)-2-hydroxy-6-ketononadienedioic acid	product
+re18	2-hydroxy-6-oxononatrienedioate	product
 re19	mhpC_mRNA	reactant
 re19	MhpC	product
 re20	(2Z,4E)-2-hydroxy-6-ketononadienedioic acid	reactant
@@ -57,9 +57,9 @@ re24	3-(5,6-dihydroxycyclohexa-1,3-dien-1-yl)propanoate	reactant
 re24	2,3-DHP	product
 re25	mhpA_mRNA	reactant
 re25	MhpA	product
-re26	3-coumarate	reactant
 re26	oxygen	reactant
-re26	2,3-dihydroxycinnamic acid	product
+re26	3HPP	reactant
+re26	2,3-DHP	product
+re27	3-coumarate	reactant
 re27	oxygen	reactant
-re27	3HPP	reactant
-re27	2,3-DHP	product
+re27	2,3-dihydroxycinnamic acid	product

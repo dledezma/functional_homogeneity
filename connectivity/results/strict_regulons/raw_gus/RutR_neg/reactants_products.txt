@@ -30,9 +30,9 @@ re15	rutR	reactant
 re15	rutR_mRNA	product
 re16	fepB_mRNA	reactant
 re16	FepB	product
-re17	FepD	reactant
-re17	FepB	reactant
 re17	FepG	reactant
+re17	FepB	reactant
+re17	FepD	reactant
 re17	FepC	reactant
 re17	FepC-FepD-FepG-FepB	product
 re18	ferric enterobactin_Ext	reactant
@@ -43,8 +43,8 @@ re20	gadX_mRNA	reactant
 re20	GadX	product
 re21	gloA_mRNA	reactant
 re21	GloA	product
-re22	oxopropanal	reactant
 re22	glutathione	reactant
+re22	oxopropanal	reactant
 re22	lactoylglutathione	product
 re23	nemA_mRNA	reactant
 re23	NemA	product
@@ -59,10 +59,10 @@ re27	5'pGpG	product
 re28	rutA_mRNA	reactant
 re28	RutA	product
 re29	Reduced FMN	reactant
-re29	oxygen	reactant
 re29	uracil	reactant
-re29	ureidoperacrylic acid	product
+re29	oxygen	reactant
 re29	flavin mononucleotide	product
+re29	ureidoperacrylic acid	product
 re30	Reduced FMN	reactant
 re30	thymine	reactant
 re30	oxygen	reactant
@@ -70,14 +70,14 @@ re30	(Z)-2-methylureidoperacrylic acid	product
 re30	flavin mononucleotide	product
 re31	rutB_mRNA	reactant
 re31	RutB	product
-re32	(Z)-2-methylureidoperacrylic acid	reactant
-re32	(Z)-2-methyl-peroxyaminoacrylate	product
+re32	ureidoperacrylic acid	reactant
+re32	peroxy aminoacrylate	product
 re32	carbamate	product
-re33	ureidoperacrylic acid	reactant
-re33	peroxy aminoacrylate	product
+re33	3-ureidoacrylate	reactant
+re33	aminoacrylate	product
 re33	carbamate	product
-re34	3-ureidoacrylate	reactant
-re34	aminoacrylate	product
+re34	(Z)-2-methylureidoperacrylic acid	reactant
+re34	(Z)-2-methyl-peroxyaminoacrylate	product
 re34	carbamate	product
 re35	rutC_mRNA	reactant
 re35	RutC	product

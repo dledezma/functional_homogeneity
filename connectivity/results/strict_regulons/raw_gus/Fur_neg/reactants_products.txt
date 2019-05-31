@@ -4,8 +4,8 @@ re2	aspC	reactant
 re2	aspC_mRNA	product
 re3	cirA	reactant
 re3	cirA_mRNA	product
-re4	crl	reactant
-re4	crl_mRNA	product
+re4	crl_1	reactant
+re4	crl_1_mRNA	product
 re5	cyoA	reactant
 re5	cyoA_mRNA	product
 re6	cyoB	reactant
@@ -240,8 +240,8 @@ re119	L-glutamate	product
 re119	oxalacetate	product
 re120	phenylpyruvate	reactant
 re120	L-glutamate	reactant
-re120	ketoglutarate	product
 re120	phenylalanine	product
+re120	ketoglutarate	product
 re121	ketoglutarate	reactant
 re121	tyrosine	reactant
 re121	hydroxyphenylpyruvate	product
@@ -258,13 +258,13 @@ re124	cirA_mRNA	reactant
 re124	CirA	product
 re125	hydrolyzed ferric enterobactin complex_Ext	reactant
 re125	hydrolyzed ferric enterobactin complex	product
-re126	crl_mRNA	reactant
-re126	Crl	product
+re126	crl_1_mRNA	reactant
+re126	Crl_1	product
 re127	cyoA_mRNA	reactant
 re127	CyoA	product
 re128	CyoC	reactant
-re128	CyoA	reactant
 re128	CyoD	reactant
+re128	CyoA	reactant
 re128	CyoB	reactant
 re128	CyoD-CyoA-CyoB-CyoC	product
 re129	ubiquinol_Ext	reactant
@@ -291,197 +291,200 @@ re137	EntB	product
 re138	isochorismate	reactant
 re138	(2S,3S)-2,3-dihydroxy-2,3-dihydrobenzoate	product
 re138	pyruvate	product
-re139	EntD	reactant
 re139	EntE	reactant
 re139	EntB	reactant
 re139	EntF	reactant
+re139	EntD	reactant
 re139	EntB-EntD-EntF-EntE	product
 re140	2-pyrocatechuate	reactant
 re140	serine	reactant
 re140	enterobactin	product
 re140	diphosphate	product
+re141	holo EntB monomer	reactant
 re141	2-pyrocatechuate	reactant
-re141	2,3-dihydroxybenzoyl-AMP	product
+re141	2,3-dihydroxybenzoyl-EntB	product
 re141	diphosphate	product
-re142	2,3-dihydroxybenzoyl-AMP	reactant
-re142	holo EntB monomer	reactant
-re142	2,3-dihydroxybenzoyl-EntB	product
-re143	serine	reactant
-re143	diphosphate	product
-re143	seryl-AMP	product
-re144	holo-[EntF peptidyl-carrier protein]	reactant
-re144	seryl-AMP	reactant
-re144	seryl-[EntF peptidyl-carrier protein]	product
-re145	seryl-[EntF peptidyl-carrier protein]	reactant
-re145	2,3-dihydroxybenzoyl-EntB	reactant
-re145	DHB-seryl-[EntF peptidyl-carrier protein]	product
-re145	holo EntB monomer	product
-re146	DHB-seryl-[EntF peptidyl-carrier protein]	reactant
-re146	holo-[EntF peptidyl-carrier protein]	product
-re146	enterobactin	product
-re147	entC_mRNA	reactant
-re147	EntC	product
-re148	chorismate	reactant
-re148	isochorismate	product
-re149	entD_mRNA	reactant
-re149	EntD	product
-re150	enterochelin synthase F	reactant
+re142	serine	reactant
+re142	diphosphate	product
+re142	seryl-AMP	product
+re143	holo-[EntF peptidyl-carrier protein]	reactant
+re143	seryl-AMP	reactant
+re143	seryl-[EntF peptidyl-carrier protein]	product
+re144	seryl-[EntF peptidyl-carrier protein]	reactant
+re144	2,3-dihydroxybenzoyl-EntB	reactant
+re144	DHB-seryl-[EntF peptidyl-carrier protein]	product
+re144	holo EntB monomer	product
+re145	DHB-seryl-[EntF peptidyl-carrier protein]	reactant
+re145	holo-[EntF peptidyl-carrier protein]	product
+re145	enterobactin	product
+re146	entC_mRNA	reactant
+re146	EntC	product
+re147	chorismate	reactant
+re147	isochorismate	product
+re148	entD_mRNA	reactant
+re148	EntD	product
+re149	enterochelin synthase F	reactant
+re149	coenzyme A	reactant
+re149	holo-[EntF peptidyl-carrier protein]	product
+re149	3',5'-ADP	product
 re150	coenzyme A	reactant
-re150	holo-[EntF peptidyl-carrier protein]	product
+re150	EntB	reactant
+re150	holo EntB monomer	product
 re150	3',5'-ADP	product
-re151	coenzyme A	reactant
-re151	EntB	reactant
-re151	holo EntB monomer	product
-re151	3',5'-ADP	product
-re152	entE_mRNA	reactant
-re152	EntE	product
-re153	entF_mRNA	reactant
-re153	EntF	product
-re154	entH_mRNA	reactant
-re154	EntH	product
-re155	2,3-dihydroxybenzoyl-EntB	reactant
-re155	2-pyrocatechuate	product
-re155	holo-EntB	product
-re156	3-hydroxybenzoyl-CoA	reactant
-re156	3-hydroxybenzoate	product
-re156	coenzyme A	product
-re157	entS_mRNA	reactant
-re157	EntS	product
-re158	EntS	reactant
-re158	TolC	reactant
-re158	EntS-TolC	product
-re159	enterobactin_Ext	reactant
-re159	enterobactin	product
-re160	exbB_mRNA	reactant
-re160	ExbB	product
-re161	ExbD	reactant
-re161	TonB	reactant
-re161	ExbB	reactant
-re161	TonB-ExbB-ExbD	product
-re162	exbD_mRNA	reactant
-re162	ExbD	product
-re163	fecA_mRNA	reactant
-re163	FecA	product
-re164	FecR	reactant
-re164	FecA	reactant
-re164	FecA-FecR	product
-re165	ExbD	reactant
-re165	TonB	reactant
-re165	ExbB	reactant
+re151	entE_mRNA	reactant
+re151	EntE	product
+re152	2-pyrocatechuate	reactant
+re152	2,3-dihydroxybenzoyl-AMP	product
+re152	diphosphate	product
+re153	2,3-dihydroxybenzoyl-AMP	reactant
+re153	holo EntB monomer	reactant
+re153	2,3-dihydroxybenzoyl-EntB	product
+re154	entF_mRNA	reactant
+re154	EntF	product
+re155	holo-[EntF peptidyl-carrier protein]	reactant
+re155	serine	reactant
+re155	seryl-[EntF peptidyl-carrier protein]	product
+re155	diphosphate	product
+re156	entH_mRNA	reactant
+re156	EntH	product
+re157	2,3-dihydroxybenzoyl-EntB	reactant
+re157	2-pyrocatechuate	product
+re157	holo-EntB	product
+re158	3-hydroxybenzoyl-CoA	reactant
+re158	3-hydroxybenzoate	product
+re158	coenzyme A	product
+re159	entS_mRNA	reactant
+re159	EntS	product
+re160	enterobactin_Ext	reactant
+re160	enterobactin	product
+re161	exbB_mRNA	reactant
+re161	ExbB	product
+re162	TonB	reactant
+re162	ExbD	reactant
+re162	ExbB	reactant
+re162	TonB-ExbB-ExbD	product
+re163	exbD_mRNA	reactant
+re163	ExbD	product
+re164	fecA_mRNA	reactant
+re164	FecA	product
+re165	FecR	reactant
 re165	FecA	reactant
-re165	FecA-ExbD-ExbB-TonB	product
-re166	iron dicitrate_Ext	reactant
-re166	iron dicitrate	product
-re167	fecB_mRNA	reactant
-re167	FecB	product
-re168	FecC	reactant
-re168	FecB	reactant
-re168	FecE	reactant
-re168	FecD	reactant
-re168	FecE-FecC-FecD-FecB	product
-re169	fecC_mRNA	reactant
-re169	FecC	product
-re170	fecD_mRNA	reactant
-re170	FecD	product
-re171	fecE_mRNA	reactant
-re171	FecE	product
-re172	fecI_mRNA	reactant
-re172	FecI	product
-re173	FecI	reactant
-re173	RpoA	reactant
-re173	RpoC	reactant
-re173	RpoB	reactant
-re173	RpoB-RpoC-RpoA-FecI	product
-re174	fecR_mRNA	reactant
-re174	FecR	product
-re175	feoA_mRNA	reactant
-re175	FeoA	product
-re176	feoB_mRNA	reactant
-re176	FeoB	product
-re177	Fe+2_Ext	reactant
-re177	Fe+2	product
-re178	feoC_mRNA	reactant
-re178	FeoC	product
-re179	fepA_mRNA	reactant
-re179	FepA	product
-re180	FepA	reactant
-re180	ExbD	reactant
-re180	TonB	reactant
-re180	ExbB	reactant
-re180	ExbD-ExbB-TonB-FepA	product
-re181	ferric enterobactin_Ext	reactant
-re181	ferric enterobactin	product
-re182	fepB_mRNA	reactant
-re182	FepB	product
-re183	FepD	reactant
-re183	FepB	reactant
-re183	FepG	reactant
-re183	FepC	reactant
-re183	FepC-FepD-FepG-FepB	product
-re184	fepC_mRNA	reactant
-re184	FepC	product
-re185	fepD_mRNA	reactant
-re185	FepD	product
-re186	fepE_mRNA	reactant
-re186	FepE	product
-re187	fepG_mRNA	reactant
-re187	FepG	product
-re188	fes_mRNA	reactant
-re188	Fes	product
-re189	ferric enterobactin	reactant
-re189	hydrolyzed ferric enterobactin complex	product
-re190	enterobactin	reactant
-re190	2,3-dihydroxybenzoylserine	product
+re165	FecA-FecR	product
+re166	ExbD	reactant
+re166	TonB	reactant
+re166	FecA	reactant
+re166	ExbB	reactant
+re166	FecA-ExbD-ExbB-TonB	product
+re167	iron dicitrate_Ext	reactant
+re167	iron dicitrate	product
+re168	fecB_mRNA	reactant
+re168	FecB	product
+re169	FecD	reactant
+re169	FecC	reactant
+re169	FecB	reactant
+re169	FecE	reactant
+re169	FecE-FecC-FecD-FecB	product
+re170	fecC_mRNA	reactant
+re170	FecC	product
+re171	fecD_mRNA	reactant
+re171	FecD	product
+re172	fecE_mRNA	reactant
+re172	FecE	product
+re173	fecI_mRNA	reactant
+re173	FecI	product
+re174	RpoC	reactant
+re174	RpoA	reactant
+re174	FecI	reactant
+re174	RpoB	reactant
+re174	RpoB-RpoC-RpoA-FecI	product
+re175	fecR_mRNA	reactant
+re175	FecR	product
+re176	feoA_mRNA	reactant
+re176	FeoA	product
+re177	feoB_mRNA	reactant
+re177	FeoB	product
+re178	Fe+2_Ext	reactant
+re178	Fe+2	product
+re179	feoC_mRNA	reactant
+re179	FeoC	product
+re180	fepA_mRNA	reactant
+re180	FepA	product
+re181	ExbB	reactant
+re181	FepA	reactant
+re181	ExbD	reactant
+re181	TonB	reactant
+re181	ExbD-ExbB-TonB-FepA	product
+re182	ferric enterobactin_Ext	reactant
+re182	ferric enterobactin	product
+re183	fepB_mRNA	reactant
+re183	FepB	product
+re184	FepB	reactant
+re184	FepG	reactant
+re184	FepD	reactant
+re184	FepC	reactant
+re184	FepC-FepD-FepG-FepB	product
+re185	fepC_mRNA	reactant
+re185	FepC	product
+re186	fepD_mRNA	reactant
+re186	FepD	product
+re187	fepE_mRNA	reactant
+re187	FepE	product
+re188	fepG_mRNA	reactant
+re188	FepG	product
+re189	fes_mRNA	reactant
+re189	Fes	product
+re190	ferric enterobactin	reactant
+re190	hydrolyzed ferric enterobactin complex	product
 re191	enterobactin	reactant
-re191	(2,3-dihydroxybenzoylserine)3	product
-re192	(2,3-dihydroxybenzoylserine)3	reactant
-re192	(2,3-dihydroxybenzoylserine)2	product
-re192	2,3-dihydroxybenzoylserine	product
-re193	(2,3-dihydroxybenzoylserine)2	reactant
+re191	2,3-dihydroxybenzoylserine	product
+re192	enterobactin	reactant
+re192	(2,3-dihydroxybenzoylserine)3	product
+re193	(2,3-dihydroxybenzoylserine)3	reactant
+re193	(2,3-dihydroxybenzoylserine)2	product
 re193	2,3-dihydroxybenzoylserine	product
-re194	fhuA_mRNA	reactant
-re194	FhuA	product
-re195	ExbD	reactant
-re195	TonB	reactant
-re195	FhuA	reactant
-re195	ExbB	reactant
-re195	ExbD-ExbB-TonB-FhuA	product
-re196	ferrichrome_Ext	reactant
-re196	ferrichrome	product
-re197	fhuB_mRNA	reactant
-re197	FhuB	product
-re198	FhuC	reactant
-re198	FhuB	reactant
-re198	FhuD	reactant
-re198	FhuC-FhuB-FhuD	product
-re199	iron (III) hydroxamate_Ext	reactant
-re199	iron (III) hydroxamate	product
-re200	fhuC_mRNA	reactant
-re200	FhuC	product
-re201	fhuD_mRNA	reactant
-re201	FhuD	product
-re202	fhuE_mRNA	reactant
-re202	FhuE	product
-re203	ExbD	reactant
-re203	TonB	reactant
-re203	FhuE	reactant
-re203	ExbB	reactant
-re203	FhuE-ExbD-ExbB-TonB	product
-re204	coprogen_Ext	reactant
-re204	coprogen	product
-re205	fhuF_mRNA	reactant
-re205	FhuF	product
-re206	fiu_mRNA	reactant
-re206	Fiu	product
-re207	flhC_mRNA	reactant
-re207	FlhC	product
-re208	FlhC	reactant
-re208	FlhD	reactant
-re208	FlhD-FlhC	product
-re209	flhD_mRNA	reactant
-re209	FlhD	product
-re210	fnr_mRNA	reactant
-re210	FNR	product
+re194	(2,3-dihydroxybenzoylserine)2	reactant
+re194	2,3-dihydroxybenzoylserine	product
+re195	fhuA_mRNA	reactant
+re195	FhuA	product
+re196	ExbB	reactant
+re196	FhuA	reactant
+re196	TonB	reactant
+re196	ExbD	reactant
+re196	ExbD-ExbB-TonB-FhuA	product
+re197	ferrichrome_Ext	reactant
+re197	ferrichrome	product
+re198	fhuB_mRNA	reactant
+re198	FhuB	product
+re199	FhuD	reactant
+re199	FhuC	reactant
+re199	FhuB	reactant
+re199	FhuC-FhuB-FhuD	product
+re200	iron (III) hydroxamate_Ext	reactant
+re200	iron (III) hydroxamate	product
+re201	coprogen_Ext	reactant
+re201	coprogen	product
+re202	fhuC_mRNA	reactant
+re202	FhuC	product
+re203	fhuD_mRNA	reactant
+re203	FhuD	product
+re204	fhuE_mRNA	reactant
+re204	FhuE	product
+re205	FhuE	reactant
+re205	ExbB	reactant
+re205	TonB	reactant
+re205	ExbD	reactant
+re205	FhuE-ExbD-ExbB-TonB	product
+re206	fhuF_mRNA	reactant
+re206	FhuF	product
+re207	fiu_mRNA	reactant
+re207	Fiu	product
+re208	flhC_mRNA	reactant
+re208	FlhC	product
+re209	FlhD	reactant
+re209	FlhC	reactant
+re209	FlhD-FlhC	product
+re210	flhD_mRNA	reactant
+re210	FlhD	product
 re211	fnr_mRNA	reactant
 re211	Fnr	product
 re212	fumC_mRNA	reactant
@@ -535,8 +538,8 @@ re232	glnK_mRNA	reactant
 re232	GlnK	product
 re233	gltB_mRNA	reactant
 re233	GltB	product
-re234	GltB	reactant
 re234	GltD	reactant
+re234	GltB	reactant
 re234	GltD-GltB	product
 re235	gltD_mRNA	reactant
 re235	GltD	product
@@ -571,18 +574,18 @@ re245	grcA_mRNA	reactant
 re245	GrcA	product
 re246	gspC_mRNA	reactant
 re246	GspC	product
-re247	GspI	reactant
-re247	GspD	reactant
-re247	GspF	reactant
-re247	GspH	reactant
 re247	GspL	reactant
-re247	GspG	reactant
-re247	GspE	reactant
-re247	GspC	reactant
-re247	GspO	reactant
+re247	GspF	reactant
 re247	GspJ	reactant
-re247	GspM	reactant
+re247	GspG	reactant
+re247	GspO	reactant
 re247	GspK	reactant
+re247	GspH	reactant
+re247	GspM	reactant
+re247	GspE	reactant
+re247	GspI	reactant
+re247	GspC	reactant
+re247	GspD	reactant
 re247	GspC-GspD-GspE-GspF-GspG-GspH-GspI-GspJ-GspK-GspL-GspM-GspO	product
 re248	gspD_mRNA	reactant
 re248	GspD	product
@@ -614,8 +617,8 @@ re260	Hmp	product
 re261	nitric oxide	reactant
 re261	oxygen	reactant
 re261	nitrate	product
-re262	tetrahydropteridine	reactant
-re262	6,7-dihydropteridine	product
+re262	6,7-dihydropteridine	reactant
+re262	tetrahydropteridine	product
 re263	lpd_mRNA	reactant
 re263	Lpd	product
 re264	[enzyme] N6-(dihydrolipoyl)lysine	reactant
@@ -626,242 +629,248 @@ re266	[pyruvate dehydrogenase E2 protein] N6-dihydrolipoyl-L-lysine	reactant
 re266	[pyruvate dehydrogenase E2 protein] N6-lipoyl-L-lysine	product
 re267	enzyme N6-(dihydrolipoyl)lysine	reactant
 re267	enzyme N6-(lipoyl)lysine	product
-re268	SucB	reactant
-re268	SucA	reactant
-re268	Lpd	reactant
-re268	SucA-SucB-Lpd	product
-re269	ketoglutarate	reactant
-re269	coenzyme A	reactant
-re269	suc-coa	product
-re269	CO2	product
-re270	enzyme N6-(lipoyl)lysine	reactant
+re268	A(H2)	reactant
+re268	TeO2	reactant
+re268	acceptors	product
+re268	Te0	product
+re269	SucA	reactant
+re269	SucB	reactant
+re269	Lpd	reactant
+re269	SucA-SucB-Lpd	product
 re270	ketoglutarate	reactant
-re270	[2-oxoglutarate dehydrogenase E2 protein] N6-S-succinyldihydrolipoyl-L-lysine	product
+re270	coenzyme A	reactant
+re270	suc-coa	product
 re270	CO2	product
-re271	enzyme N6-(dihydrolipoyl)lysine	reactant
-re271	suc-coa	reactant
+re271	enzyme N6-(lipoyl)lysine	reactant
+re271	ketoglutarate	reactant
 re271	[2-oxoglutarate dehydrogenase E2 protein] N6-S-succinyldihydrolipoyl-L-lysine	product
-re271	coenzyme A	product
-re272	GcvP	reactant
-re272	GcvH	reactant
-re272	GcvT	reactant
-re272	Lpd	reactant
-re272	Lpd-GcvP-GcvH-GcvT	product
-re273	THF polyglutamate	reactant
-re273	glycine	reactant
-re273	methylene-H4PteGlu(n)	product
-re273	ammonium	product
-re273	CO2	product
-re274	[glycine-cleavage complex H protein] N6-lipoyl-L-lysine	reactant
+re271	CO2	product
+re272	enzyme N6-(dihydrolipoyl)lysine	reactant
+re272	suc-coa	reactant
+re272	[2-oxoglutarate dehydrogenase E2 protein] N6-S-succinyldihydrolipoyl-L-lysine	product
+re272	coenzyme A	product
+re273	GcvT	reactant
+re273	GcvP	reactant
+re273	GcvH	reactant
+re273	Lpd	reactant
+re273	Lpd-GcvP-GcvH-GcvT	product
+re274	THF polyglutamate	reactant
 re274	glycine	reactant
-re274	[glycine-cleavage complex H protein] N6-aminomethyldihydrolipoyl-L-lysine	product
+re274	methylene-H4PteGlu(n)	product
+re274	ammonium	product
 re274	CO2	product
-re275	[glycine-cleavage complex H protein] N6-aminomethyldihydrolipoyl-L-lysine	reactant
-re275	THF polyglutamate	reactant
-re275	[glycine-cleavage complex H protein] N6-dihydrolipoyl-L-lysine	product
-re275	methylene-H4PteGlu(n)	product
-re275	ammonium	product
-re276	AceF	reactant
-re276	AceE	reactant
-re276	Lpd	reactant
-re276	AceE-AceF-Lpd	product
-re277	coenzyme A	reactant
-re277	pyruvate	reactant
-re277	acetyl-CoA	product
-re277	CO2	product
-re278	[pyruvate dehydrogenase E2 protein] N6-lipoyl-L-lysine	reactant
+re275	[glycine-cleavage complex H protein] N6-lipoyl-L-lysine	reactant
+re275	glycine	reactant
+re275	[glycine-cleavage complex H protein] N6-aminomethyldihydrolipoyl-L-lysine	product
+re275	CO2	product
+re276	[glycine-cleavage complex H protein] N6-aminomethyldihydrolipoyl-L-lysine	reactant
+re276	THF polyglutamate	reactant
+re276	[glycine-cleavage complex H protein] N6-dihydrolipoyl-L-lysine	product
+re276	methylene-H4PteGlu(n)	product
+re276	ammonium	product
+re277	AceF	reactant
+re277	AceE	reactant
+re277	Lpd	reactant
+re277	AceE-AceF-Lpd	product
+re278	coenzyme A	reactant
 re278	pyruvate	reactant
-re278	[enzyme] N6-(S-acetyldihydrolipoyl)lysine	product
+re278	acetyl-CoA	product
 re278	CO2	product
-re279	[enzyme] N6-(S-acetyldihydrolipoyl)lysine	reactant
-re279	coenzyme A	reactant
-re279	[pyruvate dehydrogenase E2 protein] N6-dihydrolipoyl-L-lysine	product
-re279	acetyl-CoA	product
-re280	metH_mRNA	reactant
-re280	MetH	product
-re281	N5-methyl-tetrahydrofolate	reactant
-re281	homo-cys	reactant
-re281	THF polyglutamate	product
-re281	methionine	product
-re282	5-methyltetrahydropteroyl tri-L-glutamate	reactant
+re279	[pyruvate dehydrogenase E2 protein] N6-lipoyl-L-lysine	reactant
+re279	pyruvate	reactant
+re279	[enzyme] N6-(S-acetyldihydrolipoyl)lysine	product
+re279	CO2	product
+re280	[enzyme] N6-(S-acetyldihydrolipoyl)lysine	reactant
+re280	coenzyme A	reactant
+re280	[pyruvate dehydrogenase E2 protein] N6-dihydrolipoyl-L-lysine	product
+re280	acetyl-CoA	product
+re281	metH_mRNA	reactant
+re281	MetH	product
+re282	N5-methyl-tetrahydrofolate	reactant
 re282	homo-cys	reactant
-re282	H4PteGlu(n)	product
+re282	THF polyglutamate	product
 re282	methionine	product
-re283	metJ_mRNA	reactant
-re283	MetJ	product
-re284	mntH_mRNA	reactant
-re284	MntH	product
-re285	Mn(II)_Ext	reactant
-re285	Mn(II)	product
-re286	nac_mRNA	reactant
-re286	Nac	product
-re287	ndh_mRNA	reactant
-re287	Ndh	product
-re288	ubiquinone	reactant
-re288	ubiquinol	product
-re289	vitamin K2	reactant
-re289	menaquinol	product
-re290	Cu(II)	reactant
-re290	Cu(I)	product
-re291	nohA_mRNA	reactant
-re291	NohA	product
-re292	nrdE_mRNA	reactant
-re292	NrdE	product
-re293	NrdE	reactant
-re293	NrdF	reactant
-re293	NrdE-NrdF	product
-re294	cytidine-diphosphate	reactant
-re294	YgaN	reactant
-re294	oxidized NrdH glutaredoxin-like protein	product
-re294	dCDP	product
-re295	guanosine-diphosphate	reactant
+re283	5-methyltetrahydropteroyl tri-L-glutamate	reactant
+re283	homo-cys	reactant
+re283	H4PteGlu(n)	product
+re283	methionine	product
+re284	metJ_mRNA	reactant
+re284	MetJ	product
+re285	mntH_mRNA	reactant
+re285	MntH	product
+re286	Mn(II)_Ext	reactant
+re286	Mn(II)	product
+re287	nac_mRNA	reactant
+re287	Nac	product
+re288	ndh_mRNA	reactant
+re288	Ndh	product
+re289	ubiquinone	reactant
+re289	ubiquinol	product
+re290	vitamin K2	reactant
+re290	menaquinol	product
+re291	Cu(II)	reactant
+re291	Cu(I)	product
+re292	nohA_mRNA	reactant
+re292	NohA	product
+re293	nrdE_mRNA	reactant
+re293	NrdE	product
+re294	NrdE	reactant
+re294	NrdF	reactant
+re294	NrdE-NrdF	product
+re295	cytidine-diphosphate	reactant
 re295	YgaN	reactant
 re295	oxidized NrdH glutaredoxin-like protein	product
-re295	dGDP	product
+re295	dCDP	product
+re296	guanosine-diphosphate	reactant
 re296	YgaN	reactant
 re296	oxidized NrdH glutaredoxin-like protein	product
-re296	dADP	product
-re297	uridine-diphosphate	reactant
+re296	dGDP	product
 re297	YgaN	reactant
 re297	oxidized NrdH glutaredoxin-like protein	product
-re297	dUDP	product
-re298	nucleoside diphosphate	reactant
-re298	reduced thioredoxin	reactant
-re298	deoxynucleoside diphosphate	product
-re298	thioredoxin disulfide	product
-re299	nrdF_mRNA	reactant
-re299	NrdF	product
-re300	nrdH_mRNA	reactant
-re300	NrdH	product
-re301	nrdI_mRNA	reactant
-re301	NrdI	product
-re302	oppA_mRNA	reactant
-re302	OppA	product
-re303	OppA	reactant
-re303	OppF	reactant
-re303	OppC	reactant
-re303	OppB	reactant
-re303	OppD	reactant
-re303	OppC-OppD-OppF-OppB-OppA	product
-re304	Peptide_Ext	reactant
-re304	Peptide	product
-re305	oppB_mRNA	reactant
-re305	OppB	product
-re306	MppA	reactant
-re306	OppF	reactant
-re306	OppC	reactant
-re306	OppB	reactant
-re306	OppD	reactant
-re306	OppB-OppC-OppD-OppF-MppA	product
-re307	Ala-gamma-D-Glu-Dap_Ext	reactant
-re307	Ala-gamma-D-Glu-Dap	product
-re308	oppC_mRNA	reactant
-re308	OppC	product
-re309	oppD_mRNA	reactant
-re309	OppD	product
-re310	oppF_mRNA	reactant
-re310	OppF	product
-re311	purR_mRNA	reactant
-re311	PurR	product
-re312	pyrC_mRNA	reactant
-re312	PyrC	product
-re313	dihydroorotate	reactant
-re313	carbamyl-aspartate	product
-re314	rcnA_mRNA	reactant
-re314	RcnA	product
-re315	cobalt ion_Ext	reactant
-re315	cobalt ion	product
-re316	nickel_Ext	reactant
-re316	nickel	product
-re317	rcnB_mRNA	reactant
-re317	RcnB	product
-re318	rnpB_mRNA	reactant
-re318	RNA:RnpB	product
-re319	tRNA precursor with a 5' extension	reactant
-re319	single-stranded RNA	product
-re319	uncharged tRNA	product
-re320	tRNA precursor with a 5' extension and a short 3' extension	reactant
-re320	tRNA precursor with a short 3' extension	product
-re320	single-stranded RNA	product
-re321	rnpB_mRNA	reactant
-re321	RnpB	product
-re322	rpoS_mRNA	reactant
-re322	RpoS	product
-re323	RpoA	reactant
-re323	RpoC	reactant
-re323	RpoS	reactant
-re323	RpoB	reactant
-re323	RpoB-RpoC-RpoA-RpoS	product
-re324	ryhB_mRNA	reactant
-re324	RNA:SraI	product
-re325	sodA_mRNA	reactant
-re325	SodA	product
-re326	superoxide	reactant
-re326	perhydrol	product
-re326	oxygen	product
-re327	soxR_mRNA	reactant
-re327	SoxR	product
-re328	soxS_mRNA	reactant
-re328	SoxS	product
-re329	sufA_mRNA	reactant
-re329	SufA	product
-re330	sufB_mRNA	reactant
-re330	SufB	product
-re331	SufD	reactant
-re331	SufB	reactant
-re331	SufC	reactant
-re331	SufB-SufC-SufD	product
-re332	sufC_mRNA	reactant
-re332	SufC	product
-re333	sufD_mRNA	reactant
-re333	SufD	product
-re334	sufE_mRNA	reactant
-re334	SufE	product
-re335	sufS_mRNA	reactant
-re335	SufS	product
-re336	unsulfurated [sulfur donor]	reactant
-re336	cysteine	reactant
-re336	sulfurated sulfur donor	product
-re336	alanine	product
-re337	protein cysteines	reactant
-re337	cysteine	reactant
-re337	[L-cysteine desulfurase] L-cysteine persulfide	product
-re337	alanine	product
-re338	[L-cysteine desulfurase] L-cysteine persulfide	reactant
+re297	dADP	product
+re298	uridine-diphosphate	reactant
+re298	YgaN	reactant
+re298	oxidized NrdH glutaredoxin-like protein	product
+re298	dUDP	product
+re299	nucleoside diphosphate	reactant
+re299	reduced thioredoxin	reactant
+re299	deoxynucleoside diphosphate	product
+re299	thioredoxin disulfide	product
+re300	nrdF_mRNA	reactant
+re300	NrdF	product
+re301	nrdH_mRNA	reactant
+re301	NrdH	product
+re302	nrdI_mRNA	reactant
+re302	NrdI	product
+re303	oppA_mRNA	reactant
+re303	OppA	product
+re304	OppF	reactant
+re304	OppA	reactant
+re304	OppC	reactant
+re304	OppD	reactant
+re304	OppB	reactant
+re304	OppC-OppD-OppF-OppB-OppA	product
+re305	oligopeptide_Ext	reactant
+re305	oligopeptide	product
+re306	Ala-gamma-D-Glu-Dap_Ext	reactant
+re306	Ala-gamma-D-Glu-Dap	product
+re307	dipeptide_Ext	reactant
+re307	dipeptide	product
+re308	oppB_mRNA	reactant
+re308	OppB	product
+re309	OppF	reactant
+re309	OppC	reactant
+re309	OppB	reactant
+re309	OppD	reactant
+re309	MppA	reactant
+re309	OppB-OppC-OppD-OppF-MppA	product
+re310	oppC_mRNA	reactant
+re310	OppC	product
+re311	oppD_mRNA	reactant
+re311	OppD	product
+re312	oppF_mRNA	reactant
+re312	OppF	product
+re313	purR_mRNA	reactant
+re313	PurR	product
+re314	pyrC_mRNA	reactant
+re314	PyrC	product
+re315	dihydroorotate	reactant
+re315	carbamyl-aspartate	product
+re316	rcnA_mRNA	reactant
+re316	RcnA	product
+re317	cobalt ion_Ext	reactant
+re317	cobalt ion	product
+re318	nickel_Ext	reactant
+re318	nickel	product
+re319	rcnB_mRNA	reactant
+re319	RcnB	product
+re320	rnpB_mRNA	reactant
+re320	RNA:RnpB	product
+re321	tRNA precursor with a 5' extension	reactant
+re321	uncharged tRNA	product
+re321	tRNA-fragment	product
+re322	tRNA precursor with a 5' extension and a short 3' extension	reactant
+re322	tRNA precursor with a short 3' extension	product
+re322	tRNA-fragment	product
+re323	rnpB_mRNA	reactant
+re323	RnpB	product
+re324	rpoS_mRNA	reactant
+re324	RpoS	product
+re325	RpoA	reactant
+re325	RpoS	reactant
+re325	RpoC	reactant
+re325	RpoB	reactant
+re325	RpoB-RpoC-RpoA-RpoS	product
+re326	ryhB_mRNA	reactant
+re326	RNA:SraI	product
+re327	sodA_mRNA	reactant
+re327	SodA	product
+re328	superoxide	reactant
+re328	perhydrol	product
+re328	oxygen	product
+re329	soxR_mRNA	reactant
+re329	SoxR	product
+re330	soxS_mRNA	reactant
+re330	SoxS	product
+re331	sufA_mRNA	reactant
+re331	SufA	product
+re332	sufB_mRNA	reactant
+re332	SufB	product
+re333	SufB	reactant
+re333	SufC	reactant
+re333	SufD	reactant
+re333	SufB-SufC-SufD	product
+re334	sufC_mRNA	reactant
+re334	SufC	product
+re335	sufD_mRNA	reactant
+re335	SufD	product
+re336	sufE_mRNA	reactant
+re336	SufE	product
+re337	sufS_mRNA	reactant
+re337	SufS	product
 re338	unsulfurated [sulfur donor]	reactant
+re338	cysteine	reactant
 re338	sulfurated sulfur donor	product
-re338	protein cysteines	product
-re339	3-sulfinoalanine	reactant
+re338	alanine	product
+re339	protein cysteines	reactant
+re339	cysteine	reactant
+re339	[L-cysteine desulfurase] L-cysteine persulfide	product
 re339	alanine	product
-re339	sulfite	product
-re340	selenocysteine	reactant
-re340	A(H2)	reactant
-re340	acceptors	product
-re340	selenide	product
-re340	alanine	product
-re341	tfaQ_mRNA	reactant
-re341	TfaQ	product
-re342	tonB_mRNA	reactant
-re342	TonB	product
-re343	ybdZ_mRNA	reactant
-re343	YbdZ	product
-re344	ydfN_mRNA	reactant
-re344	YdfN	product
-re345	ygaC_mRNA	reactant
-re345	YgaC	product
-re346	yhhY_mRNA	reactant
-re346	YhhY	product
-re347	yjjZ_mRNA	reactant
-re347	YjjZ	product
-re348	yqjH_mRNA	reactant
-re348	YqjH	product
-re349	hydrolyzed ferric enterobactin complex	reactant
-re349	(2,3-dihydroxybenzoylserine)3	product
-re349	Fe+2	product
-re350	iron chelate	reactant
-re350	siderophore	product
-re350	Fe+2	product
-re351	zwf_mRNA	reactant
-re351	Zwf	product
-re352	glucose-6-P	reactant
-re352	6-phosphogluconolactone	product
+re340	[L-cysteine desulfurase] L-cysteine persulfide	reactant
+re340	unsulfurated [sulfur donor]	reactant
+re340	sulfurated sulfur donor	product
+re340	protein cysteines	product
+re341	3-sulfinoalanine	reactant
+re341	alanine	product
+re341	sulfite	product
+re342	selenocysteine	reactant
+re342	A(H2)	reactant
+re342	acceptors	product
+re342	selenide	product
+re342	alanine	product
+re343	tfaQ_mRNA	reactant
+re343	TfaQ	product
+re344	tonB_mRNA	reactant
+re344	TonB	product
+re345	ybdZ_mRNA	reactant
+re345	YbdZ	product
+re346	ydfN_mRNA	reactant
+re346	YdfN	product
+re347	ygaC_mRNA	reactant
+re347	YgaC	product
+re348	yhhY_mRNA	reactant
+re348	YhhY	product
+re349	yjjZ_mRNA	reactant
+re349	YjjZ	product
+re350	yqjH_mRNA	reactant
+re350	YqjH	product
+re351	hydrolyzed ferric enterobactin complex	reactant
+re351	(2,3-dihydroxybenzoylserine)3	product
+re351	Fe+2	product
+re352	iron chelate	reactant
+re352	siderophore	product
+re352	Fe+2	product
+re353	zwf_mRNA	reactant
+re353	Zwf	product
+re354	glucose-6-P	reactant
+re354	6-phosphogluconolactone	product

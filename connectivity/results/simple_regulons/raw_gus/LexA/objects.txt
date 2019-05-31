@@ -1,10 +1,14 @@
 5'-phosphooligonucleotide	SIMPLE_MOLECULE	|5-phosphooligonucleotides|
 Cho	PROTEIN	G6937-MONOMER
 DNA combined with exogenous DNA to form a recombinational junction	SIMPLE_MOLECULE	|DNA-Combined-With-Exogenous-DNA|
-DNA containing a pyrimidine dimer	SIMPLE_MOLECULE	|DNA-With-Pyrimidine-Dimers|
 DNA with lesion	SIMPLE_MOLECULE	CPD-8180
 DNA without lesion	SIMPLE_MOLECULE	CPD-8534
 DNA(N)	SIMPLE_MOLECULE	DNA-N
+DNA-Cytidines	SIMPLE_MOLECULE	|DNA-Cytidines|
+DNA-deoxycytidine-dimer	SIMPLE_MOLECULE	|DNA-deoxycytidine-dimer|
+DNA-deoxycytidine-thymidine-dimer	SIMPLE_MOLECULE	|DNA-deoxycytidine-thymidine-dimer|
+DNA-thymidine-dimer	SIMPLE_MOLECULE	|DNA-thymidine-dimer|
+DNA-thymidines	SIMPLE_MOLECULE	|DNA-thymidines|
 DinB	PROTEIN	G6115-MONOMER
 DinD	PROTEIN	EG11193-MONOMER
 DinF	PROTEIN	DINF-MONOMER
@@ -18,7 +22,6 @@ FtsK	PROTEIN	G6464-MONOMER
 HokE	PROTEIN	MONOMER0-1581
 InsK	PROTEIN	G7777-MONOMER
 LexA	PROTEIN	PD00205
-PYRIMIDINE RESIDUES (IN DNA)	SIMPLE_MOLECULE	|DNA-Adjacent-Pyrimidines|
 Phr	PROTEIN	EG10736-MONOMER
 PolB	PROTEIN	EG10747-MONOMER
 PriA	PROTEIN	EG10763-MONOMER
@@ -31,6 +34,7 @@ RecC	PROTEIN	EG10825-MONOMER
 RecD	PROTEIN	EG10826-MONOMER
 RecD-RecC-RecB	COMPLEX	RECBCD
 RecN	PROTEIN	EG10831-MONOMER
+RecQ	PROTEIN	EG10833-MONOMER
 RecX	PROTEIN	EG12080-MONOMER
 RpoA	PROTEIN	EG10893-MONOMER
 RpoB	PROTEIN	RPOB-MONOMER
@@ -66,6 +70,7 @@ RuvC-RuvB-RuvA	COMPLEX	RUVABC-CPLX
 Sra	PROTEIN	EG11508-MONOMER
 SymE	PROTEIN	G7940-MONOMER
 TisB	PROTEIN	MONOMER0-1922
+UmuB	SIMPLE_MOLECULE	EG10823-MONOMER
 UmuC	PROTEIN	EG11056-MONOMER
 UmuC-UmuD	COMPLEX	CPLX0-3925
 UmuD	PROTEIN	EG11057-MONOMER
@@ -79,8 +84,11 @@ YafN	PROTEIN	G6116-MONOMER
 YafO	PROTEIN	G6117-MONOMER
 YafP	PROTEIN	G6118-MONOMER
 YbfE	PROTEIN	EG11775-MONOMER
+YbiB	PROTEIN	EG11580-MONOMER
 YdjM	PROTEIN	G6933-MONOMER
 YebG	PROTEIN	EG11808-MONOMER
+a polynucleotide	SIMPLE_MOLECULE	A-DOUBLE-STRANDED-DNA-WITH-A-3-OVERHANG
+a-double-stranded-DNA-with-a-blunt-end	SIMPLE_MOLECULE	|a-double-stranded-DNA-with-a-blunt-end|
 cho	GENE
 cho_mRNA	RNA
 deoxynucleoside triphosphate	SIMPLE_MOLECULE	|Deoxy-Ribonucleoside-Triphosphates|
@@ -98,6 +106,7 @@ diphosphate	SIMPLE_MOLECULE	PPI
 dnaG	GENE
 dnaG_mRNA	RNA
 double stranded DNA	SIMPLE_MOLECULE	|Double-Stranded-DNAs|
+double-helix DNA	SIMPLE_MOLECULE	|Double-helix-DNA|
 ftsK	GENE
 ftsK_mRNA	RNA
 hokE	GENE
@@ -106,9 +115,13 @@ insK	GENE
 insK_mRNA	RNA
 lexA	GENE
 lexA_mRNA	RNA
+light	SIMPLE_MOLECULE	|Light|
 mRNA	SIMPLE_MOLECULE	|mRNAs|
+mRNA fragments	SIMPLE_MOLECULE	|mRNA-Fragments|
 mononucleotide	SIMPLE_MOLECULE	|Nucleoside-Monophosphates|
+nucleoside triphosphate	SIMPLE_MOLECULE	|Ribonucleoside-Triphosphates|
 peptide	SIMPLE_MOLECULE	|Peptides-holder|
+phosphate	SIMPLE_MOLECULE	|Pi|
 phr	GENE
 phr_mRNA	RNA
 polB	GENE
@@ -124,6 +137,8 @@ recD	GENE
 recD_mRNA	RNA
 recN	GENE
 recN_mRNA	RNA
+recQ	GENE
+recQ_mRNA	RNA
 recX	GENE
 recX_mRNA	RNA
 resolution of recombinational junction formation of two intact strands	SIMPLE_MOLECULE	|Resolution-of-Recombinational-Junction|
@@ -135,9 +150,9 @@ ruvA	GENE
 ruvA_mRNA	RNA
 ruvB	GENE
 ruvB_mRNA	RNA
-short RNA Segment	SIMPLE_MOLECULE	|Short-RNA-Fragments|
 single stranded DNA	SIMPLE_MOLECULE	|Single-Stranded-DNAs|
-single-stranded RNA	SIMPLE_MOLECULE	|ssRNAs|
+ssDNA-RNA-primer-hybrid	SIMPLE_MOLECULE	|ssDNA-RNA-primer-hybrid|
+supercoiled duplex DNA	SIMPLE_MOLECULE	|Supercoiled-Duplex-DNAs|
 symE	GENE
 symE_mRNA	RNA
 tisB	GENE
@@ -146,6 +161,7 @@ umuC	GENE
 umuC_mRNA	RNA
 umuD	GENE
 umuD_mRNA	RNA
+unwound double-stranded DNA	SIMPLE_MOLECULE	|Unwound-DNA|
 uvrB	GENE
 uvrB_mRNA	RNA
 uvrC	GENE
@@ -162,6 +178,8 @@ yafP	GENE
 yafP_mRNA	RNA
 ybfE	GENE
 ybfE_mRNA	RNA
+ybiB	GENE
+ybiB_mRNA	RNA
 ydjM	GENE
 ydjM_mRNA	RNA
 yebG	GENE

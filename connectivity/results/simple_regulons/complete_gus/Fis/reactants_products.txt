@@ -177,8 +177,8 @@ re88	glyU_mRNA	reactant
 re88	charged-glyU-tRNA	product
 re89	gyrB_mRNA	reactant
 re89	GyrB	product
-re90	GyrA	reactant
 re90	GyrB	reactant
+re90	GyrA	reactant
 re90	GyrA-GyrB	product
 re91	double stranded DNA	reactant
 re91	negatively supercoiled DNA	product
@@ -233,7 +233,7 @@ re115	metU_mRNA	reactant
 re115	charged-metU-tRNA	product
 re116	msrA_mRNA	reactant
 re116	MsrA	product
-re117	protein-L-methionine-(S)-S-oxide	reactant
+re117	Protein-L-methionine-S-S-oxides	reactant
 re117	reduced thioredoxin	reactant
 re117	[protein]-L-methionine	product
 re117	thioredoxin disulfide	product
@@ -244,7 +244,8 @@ re118	methionine	product
 re119	pdxA_mRNA	reactant
 re119	PdxA	product
 re120	phospho-hydroxy-threonine	reactant
-re120	2-amino-3-oxo-4-phosphonooxybutyrate	product
+re120	3-amino-2-oxopropyl phosphate	product
+re120	CO2	product
 re121	pheU_mRNA	reactant
 re121	pheU-tRNA	product
 re122	pheU_mRNA	reactant

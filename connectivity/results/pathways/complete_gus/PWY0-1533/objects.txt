@@ -1,5 +1,11 @@
+1-(2-N-acetamidomethylphosphonato) 5-phospho-alpha-D-ribose	SIMPLE_MOLECULE	CPD-19236
+2-N-acetamidomethylphosphonate	SIMPLE_MOLECULE	CPD0-2518
+5'-deoxyadenosine	SIMPLE_MOLECULE	CH33ADO
 5-phospho-alpha-D-ribose 1,2-cyclic phosphate	SIMPLE_MOLECULE	CPD0-2463
+5-triphospho-alpha-D-ribosyl-1-(2-N-acetamidomethylphosphonate)	SIMPLE_MOLECULE	CPD-19235
+A(H2)	SIMPLE_MOLECULE	|Donor-H2|
 MePn	SIMPLE_MOLECULE	CPD0-1068
+N-methylacetamide	SIMPLE_MOLECULE	CPD-19237
 PWY0-1533	PROTEIN
 PhnG	PROTEIN	EG10716-MONOMER
 PhnH	PROTEIN	EG10717-MONOMER
@@ -10,11 +16,14 @@ PhnL	PROTEIN	PHNL-MONOMER
 PhnL-PhnH-PhnG-PhnI	COMPLEX	CPLX0-7958
 PhnM	PROTEIN	EG10722-MONOMER
 PhnP	PROTEIN	EG10725-MONOMER
+SAM	SIMPLE_MOLECULE	S-ADENOSYLMETHIONINE
+acceptors	SIMPLE_MOLECULE	|Acceptor|
 adenine	SIMPLE_MOLECULE	ADENINE
 alpha-D-ribose-1-methylphosphonate 5-phosphate	SIMPLE_MOLECULE	CPD0-2480
 alpha-D-ribose-1-methylphosphonate-5-triphosphate	SIMPLE_MOLECULE	CPD0-2479
 diphosphate	SIMPLE_MOLECULE	PPI
 methane	SIMPLE_MOLECULE	CH4
+methionine	SIMPLE_MOLECULE	MET
 phnG	GENE
 phnG_mRNA	RNA
 phnH	GENE

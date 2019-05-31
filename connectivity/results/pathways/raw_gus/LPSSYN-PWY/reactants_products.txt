@@ -187,13 +187,13 @@ re75	D-glucosyl-lipopolysaccharide	product
 re75	uridine-diphosphate	product
 re76	waaU_mRNA	reactant
 re76	WaaU	product
-re77	lipopolysaccharide	reactant
-re77	UDP-GlcNAc	reactant
-re77	N-acetyl-alpha-D-glucosaminyl-lipopolysaccharide	product
-re77	uridine-diphosphate	product
-re78	galactosyl-(glucosyl)3-(heptosyl)3-Kdo2-lipid A-bisphosphate	reactant
-re78	ADP-L-glycero-D-manno-heptose	reactant
-re78	lipid A-core	product
+re77	galactosyl-(glucosyl)3-(heptosyl)3-Kdo2-lipid A-bisphosphate	reactant
+re77	ADP-L-glycero-D-manno-heptose	reactant
+re77	lipid A-core	product
+re78	lipopolysaccharide	reactant
+re78	UDP-GlcNAc	reactant
+re78	N-acetyl-alpha-D-glucosaminyl-lipopolysaccharide	product
+re78	uridine-diphosphate	product
 re79	acpP_mRNA	reactant
 re79	AcpP	product
 re80	entB_mRNA	reactant
@@ -201,31 +201,29 @@ re80	EntB	product
 re81	isochorismate	reactant
 re81	(2S,3S)-2,3-dihydroxy-2,3-dihydrobenzoate	product
 re81	pyruvate	product
+re82	EntF	reactant
+re82	EntB	reactant
 re82	EntD	reactant
 re82	EntE	reactant
-re82	EntB	reactant
-re82	EntF	reactant
 re82	EntB-EntD-EntF-EntE	product
 re83	2-pyrocatechuate	reactant
 re83	serine	reactant
 re83	enterobactin	product
 re83	diphosphate	product
+re84	holo EntB monomer	reactant
 re84	2-pyrocatechuate	reactant
-re84	2,3-dihydroxybenzoyl-AMP	product
+re84	2,3-dihydroxybenzoyl-EntB	product
 re84	diphosphate	product
-re85	2,3-dihydroxybenzoyl-AMP	reactant
-re85	holo EntB monomer	reactant
-re85	2,3-dihydroxybenzoyl-EntB	product
-re86	serine	reactant
-re86	diphosphate	product
-re86	seryl-AMP	product
-re87	holo-[EntF peptidyl-carrier protein]	reactant
-re87	seryl-AMP	reactant
-re87	seryl-[EntF peptidyl-carrier protein]	product
-re88	seryl-[EntF peptidyl-carrier protein]	reactant
-re88	2,3-dihydroxybenzoyl-EntB	reactant
-re88	DHB-seryl-[EntF peptidyl-carrier protein]	product
-re88	holo EntB monomer	product
-re89	DHB-seryl-[EntF peptidyl-carrier protein]	reactant
-re89	holo-[EntF peptidyl-carrier protein]	product
-re89	enterobactin	product
+re85	serine	reactant
+re85	diphosphate	product
+re85	seryl-AMP	product
+re86	holo-[EntF peptidyl-carrier protein]	reactant
+re86	seryl-AMP	reactant
+re86	seryl-[EntF peptidyl-carrier protein]	product
+re87	seryl-[EntF peptidyl-carrier protein]	reactant
+re87	2,3-dihydroxybenzoyl-EntB	reactant
+re87	DHB-seryl-[EntF peptidyl-carrier protein]	product
+re87	holo EntB monomer	product
+re88	DHB-seryl-[EntF peptidyl-carrier protein]	reactant
+re88	holo-[EntF peptidyl-carrier protein]	product
+re88	enterobactin	product

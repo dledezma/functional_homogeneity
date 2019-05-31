@@ -14,9 +14,18 @@ re7	GSSG	reactant
 re7	glutathione	product
 re8	grxC_mRNA	reactant
 re8	GrxC	product
-re9	nrdH_mRNA	reactant
-re9	NrdH	product
-re10	grxA_mRNA	reactant
-re10	GrxA	product
-re11	grxB_mRNA	reactant
-re11	GrxB	product
+re9	reduced glutaredoxin	reactant
+re9	protein disulfide	reactant
+re9	oxidized glutaredoxin	product
+re9	protein dithiol	product
+re10	nrdH_mRNA	reactant
+re10	NrdH	product
+re11	grxA_mRNA	reactant
+re11	GrxA	product
+re12	reduced glutaredoxin	reactant
+re12	S-sulfocysteine	reactant
+re12	oxidized glutaredoxin	product
+re12	cysteine	product
+re12	sulfite	product
+re13	grxB_mRNA	reactant
+re13	GrxB	product

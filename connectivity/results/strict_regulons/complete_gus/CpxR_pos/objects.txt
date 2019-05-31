@@ -5,6 +5,7 @@
 (3R)-3-hydroxy cis delta9-hexadecenoyl-[acp]	SIMPLE_MOLECULE	|3-hydroxy-cis-D9-hexaecenoyl-ACPs|
 (3R)-3-hydroxy-cis-vaccenoyl-[acp]	SIMPLE_MOLECULE	|R-3-hydroxy-cis-vaccenoyl-ACPs|
 (3R)-3-hydroxyglutaryl-[acp] methyl ester	SIMPLE_MOLECULE	|3-Hydroxyglutaryl-ACP-methyl-ester|
+(E,E)-farnesyl phosphate	SIMPLE_MOLECULE	CPD-12587
 3-hydroxypimeloyl-[acp] methyl ester	SIMPLE_MOLECULE	|3-hydroxypimeloyl-ACP-methyl-esters|
 5-methylthioribose	SIMPLE_MOLECULE	CPD-560
 5-methylthioribose_Ext	SIMPLE_MOLECULE	CPD-560_Ext
@@ -20,27 +21,27 @@ AroG	PROTEIN	AROG-MONOMER
 BacA	PROTEIN	EG11665-MONOMER
 BaeR	PROTEIN	BAER-MONOMER
 BaeS	PROTEIN	BAES-MONOMER
-C4-dicarboxylate	SIMPLE_MOLECULE	|C4-dicarboxylates|
-C4-dicarboxylate_Ext	SIMPLE_MOLECULE	|C4-dicarboxylates|_Ext
 CH3(CH2)xCH=CHCO-S-ACP	SIMPLE_MOLECULE	TRANS-D2-ENOYL-ACP
-CO2	SIMPLE_MOLECULE	CARBON-DIOXIDE
-CO2_Ext	SIMPLE_MOLECULE	CARBON-DIOXIDE_Ext
 CpxA	PROTEIN	CPXA-MONOMER
 CpxP	PROTEIN	G7816-MONOMER
 CpxR	PROTEIN	CPXR-MONOMER
 DAHP	SIMPLE_MOLECULE	3-DEOXY-D-ARABINO-HEPTULOSONATE-7-P
 DegP	PROTEIN	EG10463-MONOMER
 DgcZ	PROTEIN	EG11643-MONOMER
-DsbA	PROTEIN	DISULFOXRED-MONOMER
 DsbC	PROTEIN	CPLX0-8002
+Dsf	PROTEIN	DISULFOXRED-MONOMER
 FabZ	PROTEIN	FABZ-MONOMER
 FtnB	PROTEIN	G7033-MONOMER
+GlcNAc-1,6-anhMurNAc-L-Ala-gamma-D-Glu-DAP-D-Ala	SIMPLE_MOLECULE	CPD0-1080
 GlcNAc-1,6-anhydro-MurNAc-pentapeptide	SIMPLE_MOLECULE	|GlcNAc-1-6-anhydro-MurNAc-pentapeptide|
 Hha	PROTEIN	EG10439-MONOMER
+Kbp	PROTEIN	G7395-MONOMER
 LdtC	PROTEIN	G6571-MONOMER
 LdtD	PROTEIN	EG11253-MONOMER
 LpxA	PROTEIN	UDPNACETYLGLUCOSAMACYLTRANS-MONOMER
 LpxD	PROTEIN	UDPHYDROXYMYRGLUCOSAMNACETYLTRANS-MONO
+MCFA	SIMPLE_MOLECULE	|Medium-chain-fatty-acids|
+MCFA_Ext	SIMPLE_MOLECULE	|Medium-chain-fatty-acids|_Ext
 MarA	PROTEIN	PD00365
 MarB	PROTEIN	EG11599-MONOMER
 MarR	PROTEIN	PD00364
@@ -56,10 +57,13 @@ OmpC	PROTEIN	EG10670-MONOMER
 P-enol-pyruvate	SIMPLE_MOLECULE	PHOSPHO-ENOL-PYRUVATE
 Peptide Antibiotic	SIMPLE_MOLECULE	|Peptide-Antibiotics|
 Peptide Antibiotic_Ext	SIMPLE_MOLECULE	|Peptide-Antibiotics|_Ext
+PpfA	PROTEIN	MONOMER0-4152
 PpiA	PROTEIN	EG10757-MONOMER
 PpiD	PROTEIN	G6242-MONOMER
+RCHO	SIMPLE_MOLECULE	|Aldehydes|
+RCHO_Ext	SIMPLE_MOLECULE	|Aldehydes|_Ext
+RNA:CpxQ	PROTEIN	RNA0-389
 RNA:RprA	PROTEIN	RPRA-RNA
-RdoA	PROTEIN	EG11831-MONOMER
 RpoA	PROTEIN	EG10893-MONOMER
 RpoB	PROTEIN	RPOB-MONOMER
 RpoB-RpoC-RpoA-RpoH	COMPLEX	RNAP32-CPLX
@@ -69,9 +73,11 @@ SbmA	PROTEIN	SBMA-MONOMER
 Skp	PROTEIN	EG10455-MONOMER
 Slt	PROTEIN	EG10950-MONOMER
 Spy	PROTEIN	G6939-MONOMER
+SrkA	PROTEIN	EG11831-MONOMER
 TolC	PROTEIN	EG11009-MONOMER
 TolC-MdtC-MdtB-MdtA	COMPLEX	TRANS-CPLX-202
 TomB	PROTEIN	EG12429-MONOMER
+Trans-D2-cis-D7-tetradecenoyl-ACPs	SIMPLE_MOLECULE	|Trans-D2-cis-D7-tetradecenoyl-ACPs|
 UDP-2,3-diacyl-glucosamine	SIMPLE_MOLECULE	OH-MYRISTOYL
 UDP-3-O-(3-hydroxymyristoyl)-N-acetylglucosamine	SIMPLE_MOLECULE	UDP-OHMYR-ACETYLGLUCOSAMINE
 UDP-3-O-(3-hydroxytetradecanoyl)glucosamine	SIMPLE_MOLECULE	UDP-OHMYR-GLUCOSAMINE
@@ -85,13 +91,24 @@ YqaE	PROTEIN	G7396-MONOMER
 YqjA	PROTEIN	G7609-MONOMER
 [protein] (L-serine/L-threonine) phosphate	SIMPLE_MOLECULE	|Protein-Ser-or-Thr-phosphate|
 [protein]-L-serine/L-threonine	SIMPLE_MOLECULE	|Protein-L-serine-or-L-threonine|
+a mature peptidoglycan (meso-diaminopimelate containing)	SIMPLE_MOLECULE	CPD-18804
+a mature peptidoglycan strand with 1,6-anhydro-MurNAc terminus	SIMPLE_MOLECULE	CPD-18806
+a mature peptidoglycan strand with GlcNAc terminus	SIMPLE_MOLECULE	CPD-18805
 acrD	GENE
 acrD_mRNA	RNA
 ala	SIMPLE_MOLECULE	D-ALANINE
+aldonate	SIMPLE_MOLECULE	|Aldonic-Acids|
+aldonate_Ext	SIMPLE_MOLECULE	|Aldonic-Acids|_Ext
+amide	SIMPLE_MOLECULE	|Amides|
+amide_Ext	SIMPLE_MOLECULE	|Amides|_Ext
+amine	SIMPLE_MOLECULE	|All-Amines|
+amine_Ext	SIMPLE_MOLECULE	|All-Amines|_Ext
 amino acid	SIMPLE_MOLECULE	|Amino-Acids|
 amino acid_Ext	SIMPLE_MOLECULE	|Amino-Acids|_Ext
 aroG	GENE
 aroG_mRNA	RNA
+aromatic compound	SIMPLE_MOLECULE	|Aromatics|
+aromatic compound_Ext	SIMPLE_MOLECULE	|Aromatics|_Ext
 bacA	GENE
 bacA_mRNA	RNA
 baeR	GENE
@@ -110,18 +127,30 @@ beta-hydroxymyristoyl-[acp]	SIMPLE_MOLECULE	|R-3-hydroxymyristoyl-ACPs|
 betaine	SIMPLE_MOLECULE	BETAINE
 betaine_Ext	SIMPLE_MOLECULE	BETAINE_Ext
 c-di-GMP	SIMPLE_MOLECULE	C-DI-GMP
+caprate	SIMPLE_MOLECULE	CPD-3617
+caprate_Ext	SIMPLE_MOLECULE	CPD-3617_Ext
+chitobiose	SIMPLE_MOLECULE	CHITOBIOSE
+chitobiose_Ext	SIMPLE_MOLECULE	CHITOBIOSE_Ext
 cpxA	GENE
 cpxA_mRNA	RNA
 cpxP	GENE
 cpxP_mRNA	RNA
+cpxQ	GENE
+cpxQ_mRNA	RNA
 cpxR	GENE
 cpxR_mRNA	RNA
 crotonyl-[acp]	SIMPLE_MOLECULE	|Crotonyl-ACPs|
 degP	GENE
 degP_mRNA	RNA
+deoxycholate	SIMPLE_MOLECULE	DEOXYCHOLATE
+deoxycholate_Ext	SIMPLE_MOLECULE	DEOXYCHOLATE_Ext
 dgcZ	GENE
 dgcZ_mRNA	RNA
+dicarboxylate	SIMPLE_MOLECULE	|dicarboxylate|
+dicarboxylate_Ext	SIMPLE_MOLECULE	|dicarboxylate|_Ext
 diphosphate	SIMPLE_MOLECULE	PPI
+disaccharide	SIMPLE_MOLECULE	|Disaccharides|
+disaccharide_Ext	SIMPLE_MOLECULE	|Disaccharides|_Ext
 ditrans,polycis-undecaprenyl phosphate	SIMPLE_MOLECULE	CPD-9646
 drug	SIMPLE_MOLECULE	|Drugs|
 drug_Ext	SIMPLE_MOLECULE	|Drugs|_Ext
@@ -131,21 +160,34 @@ dsbC	GENE
 dsbC_mRNA	RNA
 enoylglutaryl-[acp] methyl ester	SIMPLE_MOLECULE	|Enoylglutaryl-ACP-methyl-esters|
 enoylpimelyl-[acp] methyl ester	SIMPLE_MOLECULE	|Enoylpimeloyl-ACP-methyl-esters|
+enterobactin	SIMPLE_MOLECULE	ENTEROBACTIN
+enterobactin_Ext	SIMPLE_MOLECULE	ENTEROBACTIN_Ext
 erythrose-4P	SIMPLE_MOLECULE	ERYTHROSE-4P
 fabZ	GENE
 fabZ_mRNA	RNA
+farnesyl-PP	SIMPLE_MOLECULE	FARNESYL-PP
 ftnB	GENE
 ftnB_mRNA	RNA
+glycerol 1-phosphate	SIMPLE_MOLECULE	|Glycerol-1-phosphate|
+glycerol 1-phosphate_Ext	SIMPLE_MOLECULE	|Glycerol-1-phosphate|_Ext
 glycine	SIMPLE_MOLECULE	GLY
+glycoside	SIMPLE_MOLECULE	|Glycosides|
+glycoside_Ext	SIMPLE_MOLECULE	|Glycosides|_Ext
 guanosine-triphosphate	SIMPLE_MOLECULE	GTP
 hha	GENE
 hha_mRNA	RNA
 hydrophilic solute or ion 600 Da	SIMPLE_MOLECULE	|Hydrophilic-Solute-Or-Ion-LT-600Da|
 hydrophilic solute or ion 600 Da_Ext	SIMPLE_MOLECULE	|Hydrophilic-Solute-Or-Ion-LT-600Da|_Ext
+hydroxy carboxylate	SIMPLE_MOLECULE	|Hydroxy-carboxylates|
+hydroxy carboxylate_Ext	SIMPLE_MOLECULE	|Hydroxy-carboxylates|_Ext
 inositol	SIMPLE_MOLECULE	|Inositols|
 inositol_Ext	SIMPLE_MOLECULE	|Inositols|_Ext
 ion	SIMPLE_MOLECULE	|Ions|
 ion_Ext	SIMPLE_MOLECULE	|Ions|_Ext
+kbp	GENE
+kbp_mRNA	RNA
+lactone	SIMPLE_MOLECULE	|Lactones|
+lactone_Ext	SIMPLE_MOLECULE	|Lactones|_Ext
 ldtC	GENE
 ldtC_mRNA	RNA
 ldtD	GENE
@@ -155,12 +197,15 @@ lpxA	GENE
 lpxA_mRNA	RNA
 lpxD	GENE
 lpxD_mRNA	RNA
+maltose	SIMPLE_MOLECULE	MALTOSE
+maltose_Ext	SIMPLE_MOLECULE	MALTOSE_Ext
 marA	GENE
 marA_mRNA	RNA
 marB	GENE
 marB_mRNA	RNA
 marR	GENE
 marR_mRNA	RNA
+mature peptidoglycan with (L-alanyl-gamma-D-glutamyl-meso-2,6-diaminopimeloyl-glycine) tetrapeptide	SIMPLE_MOLECULE	CPD-17989
 mdtA	GENE
 mdtA_mRNA	RNA
 mdtB	GENE
@@ -169,16 +214,28 @@ mdtC	GENE
 mdtC_mRNA	RNA
 mdtD	GENE
 mdtD_mRNA	RNA
-monosaccharide	SIMPLE_MOLECULE	|Monosaccharides|
-monosaccharide_Ext	SIMPLE_MOLECULE	|Monosaccharides|_Ext
+monocarboxylate	SIMPLE_MOLECULE	|Monocarboxylates|
+monocarboxylate_Ext	SIMPLE_MOLECULE	|Monocarboxylates|_Ext
 mzrA	GENE
 mzrA_mRNA	RNA
 nascent peptidoglycan with (L-alanyl-gamma-D-glutamyl-meso-2,6-diaminopimelate) tripeptide	SIMPLE_MOLECULE	CPD-17968
 nascent peptidoglycan with (L-alanyl-gamma-D-glutamyl-meso-2,6-diaminopimeloyl-D-alanine) tetrapeptide	SIMPLE_MOLECULE	CPD-17926
 nascent peptidoglycan with (L-alanyl-gamma-D-glutamyl-meso-2,6-diaminopimeloyl-glycine) tetrapeptide	SIMPLE_MOLECULE	CPD-17969
 nascent peptidoglycan with L,D cross links (meso-diaminopimelate containing)	SIMPLE_MOLECULE	CPD-17947
+novobiocin	SIMPLE_MOLECULE	CPD-15417
+novobiocin_Ext	SIMPLE_MOLECULE	CPD-15417_Ext
+nucleoside	SIMPLE_MOLECULE	|Nucleosides|
+nucleoside_Ext	SIMPLE_MOLECULE	|Nucleosides|_Ext
+nucleotide	SIMPLE_MOLECULE	|Nucleotides|
+nucleotide sugar	SIMPLE_MOLECULE	NUCLEOTIDE-SUGARS
+nucleotide sugar_Ext	SIMPLE_MOLECULE	NUCLEOTIDE-SUGARS_Ext
+nucleotide_Ext	SIMPLE_MOLECULE	|Nucleotides|_Ext
+oligopeptide	SIMPLE_MOLECULE	OLIGOPEPTIDES
+oligopeptide_Ext	SIMPLE_MOLECULE	OLIGOPEPTIDES_Ext
 ompC	GENE
 ompC_mRNA	RNA
+organophosphorus compound	SIMPLE_MOLECULE	|Organophosphorus-Compounds|
+organophosphorus compound_Ext	SIMPLE_MOLECULE	|Organophosphorus-Compounds|_Ext
 organosulfur compound	SIMPLE_MOLECULE	ORGANOSULFUR
 organosulfur compound_Ext	SIMPLE_MOLECULE	ORGANOSULFUR_Ext
 peptide	SIMPLE_MOLECULE	|Peptides-holder|
@@ -203,8 +260,6 @@ protein with correct disulfide bonds	SIMPLE_MOLECULE	|Proteins-with-correct-disu
 protein with incorrect disulfide bonds	SIMPLE_MOLECULE	|Proteins-with-incorrect-disulfides|
 protein with oxidized disulfide bonds	SIMPLE_MOLECULE	|Protein-Ox-Disulfides|
 protein with reduced SH groups	SIMPLE_MOLECULE	|Protein-Red-Disulfides|
-rdoA	GENE
-rdoA_mRNA	RNA
 rpoH	GENE
 rpoH_mRNA	RNA
 rprA	GENE
@@ -221,13 +276,22 @@ slt	GENE
 slt_mRNA	RNA
 spy	GENE
 spy_mRNA	RNA
+srkA	GENE
+srkA_mRNA	RNA
+sugar	SIMPLE_MOLECULE	|Sugar|
+sugar phosphate	SIMPLE_MOLECULE	|Sugar-Phosphate|
+sugar phosphate_Ext	SIMPLE_MOLECULE	|Sugar-Phosphate|_Ext
+sugar_Ext	SIMPLE_MOLECULE	|Sugar|_Ext
+sulfadiazine	SIMPLE_MOLECULE	CPD-20940
+sulfadiazine_Ext	SIMPLE_MOLECULE	CPD-20940_Ext
 tomB	GENE
 tomB_mRNA	RNA
 trans hex-2-enoyl-[acp]	SIMPLE_MOLECULE	|Hex-2-enoyl-ACPs|
 trans hexadecenoyl-[acp]	SIMPLE_MOLECULE	|2-Hexadecenoyl-ACPs|
 trans tetradec-2-enoyl-[acp]	SIMPLE_MOLECULE	|Tetradec-2-enoyl-ACPs|
-trans-delta3-cis-delta7-tetradecenoyl-[acp]	SIMPLE_MOLECULE	|Trans-D3-cis-D7-tetradecenoyl-ACPs|
 trans-delta3-cis-delta9-hexadecenoyl-[acp]	SIMPLE_MOLECULE	|Trans-D3-cis-D9-hexadecenoyl-ACPs|
+trisaccharide	SIMPLE_MOLECULE	|Trisaccharides|
+trisaccharide_Ext	SIMPLE_MOLECULE	|Trisaccharides|_Ext
 yaiW	GENE
 yaiW_mRNA	RNA
 yccA	GENE

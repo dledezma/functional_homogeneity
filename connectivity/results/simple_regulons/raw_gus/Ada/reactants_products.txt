@@ -10,38 +10,60 @@ re5	DNA 6-O-methylguanine	reactant
 re5	peptide cysteine	reactant
 re5	[protein]-S-methyl-L-cysteine	product
 re5	DNA guanine	product
-re6	alkA_mRNA	reactant
-re6	AlkA	product
-re7	alkylated DNA	reactant
-re7	base(2)	product
-re7	DNA(N)	product
-re8	alkB_mRNA	reactant
-re8	AlkB	product
-re9	ketoglutarate	reactant
-re9	DNA-base-CH3	reactant
-re9	oxygen	reactant
-re9	nucleobase within DNA	product
-re9	succinate	product
-re9	formol	product
-re9	CO2	product
-re10	1-ethyladenine	reactant
-re10	ketoglutarate	reactant
-re10	oxygen	reactant
-re10	succinate	product
-re10	adenine	product
-re10	ethanal	product
-re10	CO2	product
-re11	N3-methylcytosine	reactant
+re6	a modified nucleobase within DNA	reactant
+re6	peptide cysteine	reactant
+re6	[protein]-S-methyl-L-cysteine	product
+re6	a-thymine-in-DNA	product
+re7	a DNA containing Spmethyl phosphotriester	reactant
+re7	peptide cysteine	reactant
+re7	a DNA without Spmethyl phosphotriester	product
+re7	[protein]-S-methyl-L-cysteine	product
+re8	alkA_mRNA	reactant
+re8	AlkA	product
+re9	alkylated DNA	reactant
+re9	DNA containing an AP site	product
+re9	base(2)	product
+re10	alkB_mRNA	reactant
+re10	AlkB	product
+re11	an-Nsup1sup-methyladenine-in-DNA	reactant
 re11	ketoglutarate	reactant
 re11	oxygen	reactant
+re11	DNA adenine	product
 re11	succinate	product
-re11	cytosine	product
 re11	formol	product
 re11	CO2	product
-re12	1-methyladenine	reactant
+re12	an-Nsup3sup-methylcytosine-in-DNA	reactant
 re12	ketoglutarate	reactant
 re12	oxygen	reactant
+re12	DNA dcytosine	product
 re12	succinate	product
-re12	adenine	product
 re12	formol	product
 re12	CO2	product
+re13	an-iNisup1sup-ethyladenine-in-DNA	reactant
+re13	ketoglutarate	reactant
+re13	oxygen	reactant
+re13	DNA adenine	product
+re13	succinate	product
+re13	ethanal	product
+re13	CO2	product
+re14	1iNisup6sup-ethenoadenine-in-DNA	reactant
+re14	ketoglutarate	reactant
+re14	oxygen	reactant
+re14	DNA adenine	product
+re14	succinate	product
+re14	glyoxal	product
+re14	CO2	product
+re15	1-methyl-dATP	reactant
+re15	ketoglutarate	reactant
+re15	oxygen	reactant
+re15	succinate	product
+re15	formol	product
+re15	dATP	product
+re15	CO2	product
+re16	1-methyl-dAMP	reactant
+re16	ketoglutarate	reactant
+re16	oxygen	reactant
+re16	succinate	product
+re16	formol	product
+re16	dAMP	product
+re16	CO2	product

@@ -62,11 +62,11 @@ re31	narX	reactant
 re31	narX_mRNA	product
 re32	ccmA_mRNA	reactant
 re32	CcmA	product
-re33	CcmA	reactant
-re33	CcmD	reactant
-re33	CcmB	reactant
 re33	CcmE	reactant
 re33	CcmC	reactant
+re33	CcmB	reactant
+re33	CcmD	reactant
+re33	CcmA	reactant
 re33	CcmD-CcmB-CcmA-CcmE-CcmC	product
 re34	protoheme IX_Ext	reactant
 re34	protoheme IX	product
@@ -78,9 +78,9 @@ re37	ccmD_mRNA	reactant
 re37	CcmD	product
 re38	ccmE_mRNA	reactant
 re38	CcmE	product
-re39	CcmG	reactant
 re39	CcmE	reactant
 re39	CcmF	reactant
+re39	CcmG	reactant
 re39	CcmH	reactant
 re39	CcmE-CcmF-CcmG-CcmH	product
 re40	ccmF_mRNA	reactant
@@ -93,12 +93,12 @@ re43	hycA_mRNA	reactant
 re43	HycA	product
 re44	hycB_mRNA	reactant
 re44	HycB	product
-re45	HycB	reactant
-re45	HycG	reactant
-re45	HycD	reactant
 re45	HycE	reactant
+re45	HycG	reactant
 re45	HycF	reactant
+re45	HycB	reactant
 re45	HycC	reactant
+re45	HycD	reactant
 re45	HycD-HycC-HycF-HycG-HycB-HycE	product
 re46	reduced hydrogenase 3	reactant
 re46	oxidized hydrogenase 3	product
@@ -123,55 +123,63 @@ re54	large subunit of hydrogenase 3	product
 re55	moaA_mRNA	reactant
 re55	MoaA	product
 re56	guanosine-triphosphate	reactant
-re56	diphosphate	product
-re56	cPMP	product
+re56	A(H2)	reactant
+re56	SAM	reactant
+re56	5'-deoxyadenosine	product
+re56	3',8-cH2GTP	product
+re56	methionine	product
+re56	acceptors	product
 re57	moaB_mRNA	reactant
 re57	MoaB	product
 re58	moaC_mRNA	reactant
 re58	MoaC	product
-re59	moaD_mRNA	reactant
-re59	MoaD	product
-re60	MoaD	reactant
-re60	MoaE	reactant
-re60	MoaD-MoaE	product
-re61	thiocarboxylated small subunit of molybdopterin synthase	reactant
-re61	cPMP	reactant
-re61	small subunit of molybdopterin synthase	product
-re61	H2Dtpp-mP	product
-re62	moaE_mRNA	reactant
-re62	MoaE	product
-re63	napA_mRNA	reactant
-re63	NapA	product
-re64	NapH	reactant
-re64	NapB	reactant
-re64	NapA	reactant
-re64	NapC	reactant
-re64	NapG	reactant
-re64	NapB-NapC-NapH-NapG-NapA	product
-re65	ubiquinol	reactant
-re65	nitrate	reactant
-re65	ubiquinone	product
-re65	nitrite	product
-re66	menaquinol	reactant
+re59	3',8-cH2GTP	reactant
+re59	diphosphate	product
+re59	cPMP	product
+re60	moaD_mRNA	reactant
+re60	MoaD	product
+re61	MoaD	reactant
+re61	MoaE	reactant
+re61	MoaD-MoaE	product
+re62	thiocarboxylated small subunit of molybdopterin synthase	reactant
+re62	cPMP	reactant
+re62	MPT-Synthase-small-subunits	product
+re62	H2Dtpp-mP	product
+re63	moaE_mRNA	reactant
+re63	MoaE	product
+re64	napA_mRNA	reactant
+re64	NapA	product
+re65	NapA	reactant
+re65	NapB	reactant
+re65	NapB-NapA	product
+re66	Reduced-NapC-proteins	reactant
 re66	nitrate	reactant
-re66	vitamin K2	product
+re66	Oxidized-NapC-proteins	product
 re66	nitrite	product
 re67	napB_mRNA	reactant
 re67	NapB	product
 re68	napC_mRNA	reactant
 re68	NapC	product
-re69	napD_mRNA	reactant
-re69	NapD	product
-re70	napF_mRNA	reactant
-re70	NapF	product
-re71	napG_mRNA	reactant
-re71	NapG	product
-re72	NapH	reactant
-re72	NapG	reactant
-re72	NapG-NapH	product
-re73	napH_mRNA	reactant
-re73	NapH	product
-re74	narL_mRNA	reactant
-re74	NarL	product
-re75	narX_mRNA	reactant
-re75	NarX	product
+re69	ferri c-type cytochrome	reactant
+re69	menaquinol	reactant
+re69	reduced Cytochrome C protein	product
+re69	vitamin K2	product
+re70	napD_mRNA	reactant
+re70	NapD	product
+re71	napF_mRNA	reactant
+re71	NapF	product
+re72	napG_mRNA	reactant
+re72	NapG	product
+re73	NapG	reactant
+re73	NapH	reactant
+re73	NapG-NapH	product
+re74	Oxidized-NapC-proteins	reactant
+re74	ubiquinol	reactant
+re74	Reduced-NapC-proteins	product
+re74	ubiquinone	product
+re75	napH_mRNA	reactant
+re75	NapH	product
+re76	narL_mRNA	reactant
+re76	NarL	product
+re77	narX_mRNA	reactant
+re77	NarX	product

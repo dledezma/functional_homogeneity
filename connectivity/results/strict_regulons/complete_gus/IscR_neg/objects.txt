@@ -12,7 +12,7 @@ IscS	PROTEIN	G7325-MONOMER
 IscU	PROTEIN	G7324-MONOMER
 NapA	PROTEIN	NAPA-MONOMER
 NapB	PROTEIN	NAPB-MONOMER
-NapB-NapC-NapH-NapG-NapA	COMPLEX	NAP-CPLX
+NapB-NapA	COMPLEX	NAP-CPLX
 NapC	PROTEIN	NAPC-MONOMER
 NapD	PROTEIN	NAPD-MONOMER
 NapF	PROTEIN	NAPF-MONOMER
@@ -20,6 +20,8 @@ NapG	PROTEIN	NAPG-MONOMER
 NapG-NapH	COMPLEX	CPLX0-3241
 NapH	PROTEIN	NAPH-MONOMER
 NfuA	PROTEIN	G7748-MONOMER
+Oxidized-NapC-proteins	SIMPLE_MOLECULE	|Oxidized-NapC-proteins|
+Reduced-NapC-proteins	SIMPLE_MOLECULE	|Reduced-NapC-proteins|
 RnlA	PROTEIN	G7365-MONOMER
 RnlB	PROTEIN	G7366-MONOMER
 RnlB-RnlA	COMPLEX	CPLX0-7909
@@ -33,6 +35,7 @@ cystein desulfurase	SIMPLE_MOLECULE	|L-Cysteine-Desulfurases|
 cysteine	SIMPLE_MOLECULE	CYS
 erpA	GENE
 erpA_mRNA	RNA
+ferri c-type cytochrome	SIMPLE_MOLECULE	|Cytochromes-C-Oxidized|
 hyaA	GENE
 hyaA_mRNA	RNA
 hyaB	GENE
@@ -54,6 +57,7 @@ iscS_mRNA	RNA
 iscU	GENE
 iscU_mRNA	RNA
 mRNA	SIMPLE_MOLECULE	|mRNAs|
+mRNA fragments	SIMPLE_MOLECULE	|mRNA-Fragments|
 menaquinol	SIMPLE_MOLECULE	|Menaquinols|
 napA	GENE
 napA_mRNA	RNA
@@ -75,11 +79,11 @@ nfuA_mRNA	RNA
 nitrate	SIMPLE_MOLECULE	NITRATE
 nitrite	SIMPLE_MOLECULE	NITRITE
 protein cysteines	SIMPLE_MOLECULE	|Cysteine-Desulfurase-L-cysteine|
+reduced Cytochrome C protein	SIMPLE_MOLECULE	|Cytochromes-C-Reduced|
 rnlA	GENE
 rnlA_mRNA	RNA
 rnlB	GENE
 rnlB_mRNA	RNA
-single-stranded RNA	SIMPLE_MOLECULE	|ssRNAs|
 sulfurated sulfur donor	SIMPLE_MOLECULE	|Sulfurated-Sulfur-Acceptors|
 sulfurylated sulfur-carrier protein ThiI	SIMPLE_MOLECULE	|Sulfurylated-ThiI|
 ubiquinol	SIMPLE_MOLECULE	|Ubiquinols|

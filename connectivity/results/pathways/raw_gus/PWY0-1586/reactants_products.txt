@@ -45,8 +45,8 @@ re21	PbpC	product
 re22	ampH_mRNA	reactant
 re22	AmpH	product
 re23	peptidoglycan D-alanyl-DAP crosslink	reactant
-re23	peptidoglycan tetrapeptide, glycan chain 1	product
 re23	peptidoglycan tetrapeptide, glycan chain 2	product
+re23	peptidoglycan tetrapeptide, glycan chain 1	product
 re24	nascent peptidoglycan with (L-alanyl-gamma-D-glutamyl-meso-2,6-diaminopimeloyl-D-alanyl-D-alanine) pentapeptide	reactant
 re24	nascent peptidoglycan with (L-alanyl-gamma-D-glutamyl-meso-2,6-diaminopimeloyl-D-alanine) tetrapeptide	product
 re24	ala	product
@@ -54,60 +54,72 @@ re25	yfeW_mRNA	reactant
 re25	YfeW	product
 re26	dacC_mRNA	reactant
 re26	DacC	product
-re27	dacD_mRNA	reactant
-re27	DacD	product
-re28	dacA_mRNA	reactant
-re28	DacA	product
-re29	beta-lactam	reactant
-re29	substituted beta-amino acid	product
-re30	mrdA_mRNA	reactant
-re30	MrdA	product
-re31	nascent peptidoglycan with (L-alanyl-gamma-D-glutamyl-meso-2,6-diaminopimeloyl-D-alanyl-D-alanine) pentapeptide	reactant
-re31	peptidoglycan with (L-alanyl-gamma-D-glutamyl-meso-2,6-diaminopimeloyl-D-alanine) tetrapeptide	reactant
-re31	nascent peptidoglycan with D,D cross-links (meso-diaminopimelate containing)	product
-re31	ala	product
-re32	ftsI_mRNA	reactant
-re32	FtsI	product
-re33	mrcB_mRNA	reactant
-re33	MrcB	product
-re34	LpoB	reactant
-re34	MrcB	reactant
-re34	MrcB-LpoB	product
-re35	lpoB_mRNA	reactant
-re35	LpoB	product
-re36	lpoA_mRNA	reactant
-re36	LpoA	product
-re37	MrcA	reactant
-re37	LpoA	reactant
-re37	LpoA-MrcA	product
-re38	mrcA_mRNA	reactant
-re38	MrcA	product
-re39	ldtA_mRNA	reactant
-re39	LdtA	product
-re40	nascent peptidoglycan with (L-alanyl-gamma-D-glutamyl-meso-2,6-diaminopimeloyl-D-alanine) tetrapeptide	reactant
-re40	glycine	reactant
-re40	nascent peptidoglycan with (L-alanyl-gamma-D-glutamyl-meso-2,6-diaminopimeloyl-glycine) tetrapeptide	product
-re40	ala	product
-re41	nascent peptidoglycan with (L-alanyl-gamma-D-glutamyl-meso-2,6-diaminopimeloyl-D-alanine) tetrapeptide	reactant
-re41	nascent peptidoglycan with (L-alanyl-gamma-D-glutamyl-meso-2,6-diaminopimelate) tripeptide	product
-re41	ala	product
-re42	peptidoglycan with (L-alanyl-gamma-D-glutamyl-meso-2,6-diaminopimeloyl-D-alanine) tetrapeptide	reactant
-re42	MlpA	reactant
-re42	peptidoglycan tripeptide-Lpp crosslink	product
-re42	ala	product
-re43	ldtB_mRNA	reactant
-re43	LdtB	product
-re44	ldtC_mRNA	reactant
-re44	LdtC	product
-re45	ldtD_mRNA	reactant
-re45	LdtD	product
-re46	nascent peptidoglycan with (L-alanyl-gamma-D-glutamyl-meso-2,6-diaminopimeloyl-D-alanine) tetrapeptide	reactant
+re27	diacetyl-L-lys-D-ala-D-ala	reactant
+re27	diacetyl-lys-D-ala	product
+re27	ala	product
+re28	UDP-N-acetylmuramoyl-L-alanyl-gamma-D-glutamyl-meso-2,6-diaminopimeloyl-D-alanyl-D-alanine	reactant
+re28	UDP-MurNAc-tetrapeptide	product
+re28	ala	product
+re29	NAM-pentapeptide	reactant
+re29	NAM-tetrapeptide	product
+re29	ala	product
+re30	dacD_mRNA	reactant
+re30	DacD	product
+re31	beta-lactam	reactant
+re31	substituted beta-amino acid	product
+re32	CPD-15384	reactant
+re32	CPD-20750	product
+re32	ala	product
+re33	dacA_mRNA	reactant
+re33	DacA	product
+re34	mrdA_mRNA	reactant
+re34	MrdA	product
+re35	nascent peptidoglycan with (L-alanyl-gamma-D-glutamyl-meso-2,6-diaminopimeloyl-D-alanyl-D-alanine) pentapeptide	reactant
+re35	peptidoglycan with (L-alanyl-gamma-D-glutamyl-meso-2,6-diaminopimeloyl-D-alanine) tetrapeptide	reactant
+re35	nascent peptidoglycan with D,D cross-links (meso-diaminopimelate containing)	product
+re35	ala	product
+re36	ftsI_mRNA	reactant
+re36	FtsI	product
+re37	mrcB_mRNA	reactant
+re37	MrcB	product
+re38	LpoB	reactant
+re38	MrcB	reactant
+re38	MrcB-LpoB	product
+re39	lpoB_mRNA	reactant
+re39	LpoB	product
+re40	lpoA_mRNA	reactant
+re40	LpoA	product
+re41	MrcA	reactant
+re41	LpoA	reactant
+re41	LpoA-MrcA	product
+re42	mrcA_mRNA	reactant
+re42	MrcA	product
+re43	ldtA_mRNA	reactant
+re43	LdtA	product
+re44	nascent peptidoglycan with (L-alanyl-gamma-D-glutamyl-meso-2,6-diaminopimeloyl-D-alanine) tetrapeptide	reactant
+re44	glycine	reactant
+re44	nascent peptidoglycan with (L-alanyl-gamma-D-glutamyl-meso-2,6-diaminopimeloyl-glycine) tetrapeptide	product
+re44	ala	product
+re45	nascent peptidoglycan with (L-alanyl-gamma-D-glutamyl-meso-2,6-diaminopimeloyl-D-alanine) tetrapeptide	reactant
+re45	nascent peptidoglycan with (L-alanyl-gamma-D-glutamyl-meso-2,6-diaminopimelate) tripeptide	product
+re45	ala	product
 re46	peptidoglycan with (L-alanyl-gamma-D-glutamyl-meso-2,6-diaminopimeloyl-D-alanine) tetrapeptide	reactant
-re46	nascent peptidoglycan with L,D cross links (meso-diaminopimelate containing)	product
+re46	MlpA	reactant
+re46	peptidoglycan tripeptide-Lpp crosslink	product
 re46	ala	product
-re47	peptidoglycan tetrapeptide, glycan chain 1	reactant
-re47	peptidoglycan tetrapeptide, glycan chain 2	reactant
-re47	peptidoglycan DAP-DAP crosslink	product
-re47	ala	product
-re48	ldtE_mRNA	reactant
-re48	LdtE	product
+re47	ldtB_mRNA	reactant
+re47	LdtB	product
+re48	ldtC_mRNA	reactant
+re48	LdtC	product
+re49	ldtD_mRNA	reactant
+re49	LdtD	product
+re50	nascent peptidoglycan with (L-alanyl-gamma-D-glutamyl-meso-2,6-diaminopimeloyl-D-alanine) tetrapeptide	reactant
+re50	peptidoglycan with (L-alanyl-gamma-D-glutamyl-meso-2,6-diaminopimeloyl-D-alanine) tetrapeptide	reactant
+re50	nascent peptidoglycan with L,D cross links (meso-diaminopimelate containing)	product
+re50	ala	product
+re51	peptidoglycan tetrapeptide, glycan chain 1	reactant
+re51	peptidoglycan tetrapeptide, glycan chain 2	reactant
+re51	peptidoglycan DAP-DAP crosslink	product
+re51	ala	product
+re52	ldtE_mRNA	reactant
+re52	LdtE	product

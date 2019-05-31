@@ -26,10 +26,10 @@ re13	non-specific ion/solute_Ext	reactant
 re13	non-specific ion/solute	product
 re14	malE_mRNA	reactant
 re14	MalE	product
-re15	MalE	reactant
-re15	MalF	reactant
 re15	MalG	reactant
+re15	MalE	reactant
 re15	MalK	reactant
+re15	MalF	reactant
 re15	MalK-MalF-MalG-MalE	product
 re16	maltotetraose_Ext	reactant
 re16	maltotetraose	product
@@ -80,12 +80,12 @@ re31	maltotetraose	product
 re31	maltose	product
 re32	maltohexaose	reactant
 re32	maltose	reactant
-re32	glucopyranose	product
 re32	maltoheptaose	product
-re33	maltotriose	reactant
-re33	maltose	reactant
-re33	glucopyranose	product
-re33	maltotetraose	product
+re32	glucopyranose	product
+re33	glucopyranose	reactant
+re33	maltotetraose	reactant
+re33	maltotriose	product
+re33	maltose	product
 re34	malS_mRNA	reactant
 re34	MalS	product
 re35	amylose	reactant

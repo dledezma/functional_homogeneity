@@ -1,3 +1,6 @@
+3',8-cH2GTP	SIMPLE_MOLECULE	CPD-19179
+5'-deoxyadenosine	SIMPLE_MOLECULE	CH33ADO
+A(H2)	SIMPLE_MOLECULE	|Donor-H2|
 C terminal 32 amino-acid peptide	SIMPLE_MOLECULE	|C-terminal-32-aminoacid-Peptides|
 CcmA	PROTEIN	CCMA-MONOMER
 CcmB	PROTEIN	CCMB-MONOMER
@@ -20,6 +23,7 @@ HycF	PROTEIN	HYCF-MONOMER
 HycG	PROTEIN	HYCG-MONOMER
 HycH	PROTEIN	EG10481-MONOMER
 HycI	PROTEIN	G7414-MONOMER
+MPT-Synthase-small-subunits	SIMPLE_MOLECULE	|MPT-Synthase-small-subunits|
 MoaA	PROTEIN	EG11595-MONOMER
 MoaB	PROTEIN	MONOMER0-1501
 MoaC	PROTEIN	EG11666-MONOMER
@@ -29,7 +33,7 @@ MoaE	PROTEIN	EG11598-MONOMER
 ModE	PROTEIN
 NapA	PROTEIN	NAPA-MONOMER
 NapB	PROTEIN	NAPB-MONOMER
-NapB-NapC-NapH-NapG-NapA	COMPLEX	NAP-CPLX
+NapB-NapA	COMPLEX	NAP-CPLX
 NapC	PROTEIN	NAPC-MONOMER
 NapD	PROTEIN	NAPD-MONOMER
 NapF	PROTEIN	NAPF-MONOMER
@@ -38,6 +42,10 @@ NapG-NapH	COMPLEX	CPLX0-3241
 NapH	PROTEIN	NAPH-MONOMER
 NarL	PROTEIN	NARL-MONOMER
 NarX	PROTEIN	NARX-MONOMER
+Oxidized-NapC-proteins	SIMPLE_MOLECULE	|Oxidized-NapC-proteins|
+Reduced-NapC-proteins	SIMPLE_MOLECULE	|Reduced-NapC-proteins|
+SAM	SIMPLE_MOLECULE	S-ADENOSYLMETHIONINE
+acceptors	SIMPLE_MOLECULE	|Acceptor|
 cPMP	SIMPLE_MOLECULE	PRECURSOR-Z
 ccmA	GENE
 ccmA_mRNA	RNA
@@ -56,6 +64,7 @@ ccmG_mRNA	RNA
 ccmH	GENE
 ccmH_mRNA	RNA
 diphosphate	SIMPLE_MOLECULE	PPI
+ferri c-type cytochrome	SIMPLE_MOLECULE	|Cytochromes-C-Oxidized|
 guanosine-triphosphate	SIMPLE_MOLECULE	GTP
 hycA	GENE
 hycA_mRNA	RNA
@@ -78,6 +87,7 @@ hycI_mRNA	RNA
 hydrogen	SIMPLE_MOLECULE	HYDROGEN-MOLECULE
 large subunit of hydrogenase 3	SIMPLE_MOLECULE	|Precursor-of-hydrogenase-3|
 menaquinol	SIMPLE_MOLECULE	|Menaquinols|
+methionine	SIMPLE_MOLECULE	MET
 moaA	GENE
 moaA_mRNA	RNA
 moaB	GENE
@@ -113,8 +123,8 @@ pos	PROTEIN
 precursor of large subunit of hydrogenase 3	SIMPLE_MOLECULE	|a-precursor-of-large-subunit-of-hydrogen|
 protoheme IX	SIMPLE_MOLECULE	PROTOHEME
 protoheme IX_Ext	SIMPLE_MOLECULE	PROTOHEME_Ext
+reduced Cytochrome C protein	SIMPLE_MOLECULE	|Cytochromes-C-Reduced|
 reduced hydrogenase 3	SIMPLE_MOLECULE	|Reduced-hydrogenase-3|
-small subunit of molybdopterin synthase	SIMPLE_MOLECULE	|MPT-Synthases|
 thiocarboxylated small subunit of molybdopterin synthase	SIMPLE_MOLECULE	|Thiocarboxylated-MPT-synthases|
 ubiquinol	SIMPLE_MOLECULE	|Ubiquinols|
 ubiquinone	SIMPLE_MOLECULE	|Ubiquinones|

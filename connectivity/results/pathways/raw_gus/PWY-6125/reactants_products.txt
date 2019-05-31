@@ -50,8 +50,8 @@ re22	dGMP	reactant
 re22	dGDP	product
 re23	nrdA_mRNA	reactant
 re23	NrdA	product
-re24	NrdB	reactant
 re24	NrdA	reactant
+re24	NrdB	reactant
 re24	NrdA-NrdB	product
 re25	nucleoside diphosphate	reactant
 re25	reduced thioredoxin	reactant
@@ -65,9 +65,9 @@ re27	reduced thioredoxin	reactant
 re27	uridine-diphosphate	reactant
 re27	thioredoxin disulfide	product
 re27	dUDP	product
-re28	thioredoxin disulfide	reactant
-re28	dADP	reactant
-re28	reduced thioredoxin	product
+re28	reduced thioredoxin	reactant
+re28	thioredoxin disulfide	product
+re28	dADP	product
 re29	guanosine-diphosphate	reactant
 re29	reduced thioredoxin	reactant
 re29	thioredoxin disulfide	product
@@ -76,29 +76,28 @@ re30	nrdB_mRNA	reactant
 re30	NrdB	product
 re31	nrdD_mRNA	reactant
 re31	NrdD	product
-re32	FldA	reactant
-re32	FldA	product
-re32	dATP	product
-re33	guanosine-triphosphate	reactant
-re33	FldA	reactant
-re33	FldA	product
-re33	dGTP	product
-re34	uridine-triphosphate	reactant
-re34	FldA	reactant
-re34	FldA	product
-re34	dUTP	product
-re35	cytidine-triphosphate	reactant
-re35	FldA	reactant
-re35	FldA	product
-re35	dCTP	product
-re36	nucleoside triphosphate	reactant
-re36	FldA	reactant
-re36	deoxynucleoside triphosphate	product
-re36	FldA	product
-re37	NrdG	reactant
+re32	nucleoside triphosphate	reactant
+re32	formate	reactant
+re32	deoxynucleoside triphosphate	product
+re32	CO2	product
+re33	formate	reactant
+re33	dATP	product
+re33	CO2	product
+re34	guanosine-triphosphate	reactant
+re34	formate	reactant
+re34	dGTP	product
+re34	CO2	product
+re35	uridine-triphosphate	reactant
+re35	formate	reactant
+re35	dUTP	product
+re35	CO2	product
+re36	cytidine-triphosphate	reactant
+re36	formate	reactant
+re36	dCTP	product
+re36	CO2	product
 re37	NrdD	reactant
-re37	Fpr	reactant
-re37	NrdD-NrdG-Fpr	product
+re37	NrdG	reactant
+re37	NrdD-NrdG	product
 re38	nrdE_mRNA	reactant
 re38	NrdE	product
 re39	NrdE	reactant

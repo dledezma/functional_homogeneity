@@ -12,13 +12,15 @@ ManZ	PROTEIN	MANZ-MONOMER
 ManZ-ManY-ManX	COMPLEX	CPLX-165
 Methyl-D-glucoside_Ext	SIMPLE_MOLECULE	CPD-3582_Ext
 Mlc	PROTEIN
+MtlR	PROTEIN	PD00369
+MtlR-PtsH	COMPLEX	MONOMER0-2461
 MurNAc-6-P	SIMPLE_MOLECULE	CPD0-881
 MurNAc_Ext	SIMPLE_MOLECULE	NACMUR_Ext
 MurP	PROTEIN	MONOMER0-5
 MurP-Crr	COMPLEX	CPLX0-7
 N-acetyl-alpha-D-glucosamine 6-phosphate	SIMPLE_MOLECULE	N-ACETYL-D-GLUCOSAMINE-6-P
-N-acetyl-beta-D-mannosamine_Ext	SIMPLE_MOLECULE	N-ACETYL-D-MANNOSAMINE_Ext
-NAcGlc_Ext	SIMPLE_MOLECULE	N-ACETYL-D-GLUCOSAMINE_Ext
+N-acetyl-beta-D-mannosamine_Ext	SIMPLE_MOLECULE	|N-acetyl-D-mannosamine|_Ext
+NAcGlc_Ext	SIMPLE_MOLECULE	|N-acetyl-D-glucosamine|_Ext
 NagC	PROTEIN
 PtsG	PROTEIN	PTSG-MONOMER
 PtsG-Crr	COMPLEX	CPLX-157
@@ -29,24 +31,24 @@ TreB	PROTEIN	TREB-MONOMER
 TreB-Crr	COMPLEX	CPLX-168
 alpha,alpha-trehalose 6-phosphate	SIMPLE_MOLECULE	TREHALOSE-6P
 alpha-D-glucosamine phosphate	SIMPLE_MOLECULE	D-GLUCOSAMINE-6-P
-alpha-D-mannose-6-P	SIMPLE_MOLECULE	MANNOSE-6P
-alpha-D-mannose_Ext	SIMPLE_MOLECULE	CPD-13559_Ext
-beta-D-glucose-6-P	SIMPLE_MOLECULE	GLC-6-P
-beta-Levulose_Ext	SIMPLE_MOLECULE	BETA-D-FRUCTOSE_Ext
-beta-glucose_Ext	SIMPLE_MOLECULE	GLC_Ext
 chitosamine_Ext	SIMPLE_MOLECULE	GLUCOSAMINE_Ext
 crr	GENE
 crr_mRNA	RNA
-fructose-6-P	SIMPLE_MOLECULE	FRUCTOSE-6P
+fructofuranose_Ext	SIMPLE_MOLECULE	|Fructofuranose|_Ext
+glucopyranose_Ext	SIMPLE_MOLECULE	|Glucopyranose|_Ext
+glucose-6-P	SIMPLE_MOLECULE	|D-glucopyranose-6-phosphate|
+keto-D-fructose 6-phosphate	SIMPLE_MOLECULE	CPD-18719
 manX	GENE
 manX_mRNA	RNA
 manY	GENE
 manY_mRNA	RNA
 manZ	GENE
 manZ_mRNA	RNA
+mannopyranose-6-P	SIMPLE_MOLECULE	CPD-15979
 methyl alpha-D-glucoside 6-phosphate	SIMPLE_MOLECULE	CPD-16619
 ptsH	GENE
 ptsH_mRNA	RNA
 ptsI	GENE
 ptsI_mRNA	RNA
+seminose_Ext	SIMPLE_MOLECULE	|D-mannopyranose|_Ext
 trehalose_Ext	SIMPLE_MOLECULE	TREHALOSE_Ext

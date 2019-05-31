@@ -2,10 +2,14 @@
 5'-phosphooligonucleotide	SIMPLE_MOLECULE	|5-phosphooligonucleotides|
 Cho	PROTEIN	G6937-MONOMER
 DNA combined with exogenous DNA to form a recombinational junction	SIMPLE_MOLECULE	|DNA-Combined-With-Exogenous-DNA|
-DNA containing a pyrimidine dimer	SIMPLE_MOLECULE	|DNA-With-Pyrimidine-Dimers|
 DNA with lesion	SIMPLE_MOLECULE	CPD-8180
 DNA without lesion	SIMPLE_MOLECULE	CPD-8534
 DNA(N)	SIMPLE_MOLECULE	DNA-N
+DNA-Cytidines	SIMPLE_MOLECULE	|DNA-Cytidines|
+DNA-deoxycytidine-dimer	SIMPLE_MOLECULE	|DNA-deoxycytidine-dimer|
+DNA-deoxycytidine-thymidine-dimer	SIMPLE_MOLECULE	|DNA-deoxycytidine-thymidine-dimer|
+DNA-thymidine-dimer	SIMPLE_MOLECULE	|DNA-thymidine-dimer|
+DNA-thymidines	SIMPLE_MOLECULE	|DNA-thymidines|
 DdlB	PROTEIN	DALADALALIGB-MONOMER
 DinB	PROTEIN	G6115-MONOMER
 DinD	PROTEIN	EG11193-MONOMER
@@ -38,7 +42,6 @@ MurD	PROTEIN	UDP-NACMURALA-GLU-LIG-MONOMER
 MurE	PROTEIN	UDP-NACMURALGLDAPLIG-MONOMER
 MurF	PROTEIN	UDP-NACMURALGLDAPAALIG-MONOMER
 MurG	PROTEIN	NACGLCTRANS-MONOMER
-PYRIMIDINE RESIDUES (IN DNA)	SIMPLE_MOLECULE	|DNA-Adjacent-Pyrimidines|
 Phr	PROTEIN	EG10736-MONOMER
 PolB	PROTEIN	EG10747-MONOMER
 PriA	PROTEIN	EG10763-MONOMER
@@ -51,6 +54,7 @@ RecC	PROTEIN	EG10825-MONOMER
 RecD	PROTEIN	EG10826-MONOMER
 RecD-RecC-RecB	COMPLEX	RECBCD
 RecN	PROTEIN	EG10831-MONOMER
+RecQ	PROTEIN	EG10833-MONOMER
 RecX	PROTEIN	EG12080-MONOMER
 RpoA	PROTEIN	EG10893-MONOMER
 RpoB	PROTEIN	RPOB-MONOMER
@@ -98,6 +102,7 @@ UDP-MurNAc-L-Ala-gamma-D-Glu-meso-A2pm	SIMPLE_MOLECULE	UDP-AAGM-DIAMINOHEPTANEDI
 UDP-N-acetyl-alpha-D-muramoyl-L-alanyl-D-glutamate	SIMPLE_MOLECULE	UDP-AA-GLUTAMATE
 UDP-N-acetyl-alpha-D-muramyl-L-Ala	SIMPLE_MOLECULE	CPD0-1456
 UDP-N-acetylmuramoyl-L-alanyl-gamma-D-glutamyl-meso-2,6-diaminopimeloyl-D-alanyl-D-alanine	SIMPLE_MOLECULE	C1
+UmuB	SIMPLE_MOLECULE	EG10823-MONOMER
 UmuC	PROTEIN	EG11056-MONOMER
 UmuC-UmuD	COMPLEX	CPLX0-3925
 UmuD	PROTEIN	EG11057-MONOMER
@@ -113,8 +118,11 @@ YafP	PROTEIN	G6118-MONOMER
 YafQ	PROTEIN	G6109-MONOMER
 YafQ-DinJ	COMPLEX	CPLX0-7787
 YbfE	PROTEIN	EG11775-MONOMER
+YbiB	PROTEIN	EG11580-MONOMER
 YdjM	PROTEIN	G6933-MONOMER
 YebG	PROTEIN	EG11808-MONOMER
+a polynucleotide	SIMPLE_MOLECULE	A-DOUBLE-STRANDED-DNA-WITH-A-3-OVERHANG
+a-double-stranded-DNA-with-a-blunt-end	SIMPLE_MOLECULE	|a-double-stranded-DNA-with-a-blunt-end|
 acetate	SIMPLE_MOLECULE	ACET
 ala	SIMPLE_MOLECULE	D-ALANINE
 alanine	SIMPLE_MOLECULE	L-ALPHA-ALANINE
@@ -143,6 +151,7 @@ ditrans,polycis-undecaprenyl phosphate	SIMPLE_MOLECULE	CPD-9646
 dnaG	GENE
 dnaG_mRNA	RNA
 double stranded DNA	SIMPLE_MOLECULE	|Double-Stranded-DNAs|
+double-helix DNA	SIMPLE_MOLECULE	|Double-helix-DNA|
 ftsA	GENE
 ftsA_mRNA	RNA
 ftsI	GENE
@@ -164,12 +173,13 @@ insK	GENE
 insK_mRNA	RNA
 lexA	GENE
 lexA_mRNA	RNA
+light	SIMPLE_MOLECULE	|Light|
 lipid I	SIMPLE_MOLECULE	C5
 lipid II	SIMPLE_MOLECULE	C6
-lipid II_Ext	SIMPLE_MOLECULE	C6_Ext
 lpxC	GENE
 lpxC_mRNA	RNA
 mRNA	SIMPLE_MOLECULE	|mRNAs|
+mRNA fragments	SIMPLE_MOLECULE	|mRNA-Fragments|
 mononucleotide	SIMPLE_MOLECULE	|Nucleoside-Monophosphates|
 mraY	GENE
 mraY_mRNA	RNA
@@ -186,6 +196,7 @@ murG_mRNA	RNA
 nascent peptidoglycan with (L-alanyl-gamma-D-glutamyl-meso-2,6-diaminopimeloyl-D-alanyl-D-alanine) pentapeptide	SIMPLE_MOLECULE	CPD-17927
 nascent peptidoglycan with D,D cross-links (meso-diaminopimelate containing)	SIMPLE_MOLECULE	CPD-17932
 neg	PROTEIN
+nucleoside triphosphate	SIMPLE_MOLECULE	|Ribonucleoside-Triphosphates|
 peptide	SIMPLE_MOLECULE	|Peptides-holder|
 peptidoglycan with (L-alanyl-gamma-D-glutamyl-meso-2,6-diaminopimeloyl-D-alanine) tetrapeptide	SIMPLE_MOLECULE	CPD-17931
 phosphate	SIMPLE_MOLECULE	|Pi|
@@ -204,6 +215,8 @@ recD	GENE
 recD_mRNA	RNA
 recN	GENE
 recN_mRNA	RNA
+recQ	GENE
+recQ_mRNA	RNA
 recX	GENE
 recX_mRNA	RNA
 resolution of recombinational junction formation of two intact strands	SIMPLE_MOLECULE	|Resolution-of-Recombinational-Junction|
@@ -217,13 +230,13 @@ ruvB	GENE
 ruvB_mRNA	RNA
 sbmC	GENE
 sbmC_mRNA	RNA
-short RNA Segment	SIMPLE_MOLECULE	|Short-RNA-Fragments|
 single stranded DNA	SIMPLE_MOLECULE	|Single-Stranded-DNAs|
-single-stranded RNA	SIMPLE_MOLECULE	|ssRNAs|
+ssDNA-RNA-primer-hybrid	SIMPLE_MOLECULE	|ssDNA-RNA-primer-hybrid|
 ssb	GENE
 ssb_mRNA	RNA
 sulA	GENE
 sulA_mRNA	RNA
+supercoiled duplex DNA	SIMPLE_MOLECULE	|Supercoiled-Duplex-DNAs|
 symE	GENE
 symE_mRNA	RNA
 tisB	GENE
@@ -232,6 +245,7 @@ umuC	GENE
 umuC_mRNA	RNA
 umuD	GENE
 umuD_mRNA	RNA
+unwound double-stranded DNA	SIMPLE_MOLECULE	|Unwound-DNA|
 uridine-diphosphate	SIMPLE_MOLECULE	UDP
 uvrA	GENE
 uvrA_mRNA	RNA
@@ -253,6 +267,8 @@ yafQ	GENE
 yafQ_mRNA	RNA
 ybfE	GENE
 ybfE_mRNA	RNA
+ybiB	GENE
+ybiB_mRNA	RNA
 ydjM	GENE
 ydjM_mRNA	RNA
 yebG	GENE

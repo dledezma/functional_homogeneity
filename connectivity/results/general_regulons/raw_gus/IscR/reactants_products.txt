@@ -67,8 +67,8 @@ re33	ErpA	product
 re34	hyaA_mRNA	reactant
 re34	HyaA	product
 re35	HyaC	reactant
-re35	HyaB	reactant
 re35	HyaA	reactant
+re35	HyaB	reactant
 re35	HyaA-HyaB-HyaC	product
 re36	hyaB_mRNA	reactant
 re36	HyaB	product
@@ -113,99 +113,100 @@ re50	S-sulfanyl-[L-cysteine desulfurase]	reactant
 re50	S-sulfanyl-[cysteine desulfurase]-[disordered-form scaffold protein] complex	product
 re51	napA_mRNA	reactant
 re51	NapA	product
-re52	NapH	reactant
 re52	NapB	reactant
 re52	NapA	reactant
-re52	NapC	reactant
-re52	NapG	reactant
-re52	NapB-NapC-NapH-NapG-NapA	product
-re53	ubiquinol	reactant
+re52	NapB-NapA	product
+re53	Reduced-NapC-proteins	reactant
 re53	nitrate	reactant
-re53	ubiquinone	product
+re53	Oxidized-NapC-proteins	product
 re53	nitrite	product
-re54	menaquinol	reactant
-re54	nitrate	reactant
-re54	vitamin K2	product
-re54	nitrite	product
-re55	napB_mRNA	reactant
-re55	NapB	product
-re56	napC_mRNA	reactant
-re56	NapC	product
+re54	napB_mRNA	reactant
+re54	NapB	product
+re55	napC_mRNA	reactant
+re55	NapC	product
+re56	ferri c-type cytochrome	reactant
+re56	menaquinol	reactant
+re56	reduced Cytochrome C protein	product
+re56	vitamin K2	product
 re57	napD_mRNA	reactant
 re57	NapD	product
 re58	napF_mRNA	reactant
 re58	NapF	product
 re59	napG_mRNA	reactant
 re59	NapG	product
-re60	NapH	reactant
 re60	NapG	reactant
+re60	NapH	reactant
 re60	NapG-NapH	product
-re61	napH_mRNA	reactant
-re61	NapH	product
-re62	nfuA_mRNA	reactant
-re62	NfuA	product
-re63	nrdE_mRNA	reactant
-re63	NrdE	product
-re64	NrdE	reactant
-re64	NrdF	reactant
-re64	NrdE-NrdF	product
-re65	cytidine-diphosphate	reactant
-re65	YgaN	reactant
-re65	oxidized NrdH glutaredoxin-like protein	product
-re65	dCDP	product
-re66	guanosine-diphosphate	reactant
+re61	Oxidized-NapC-proteins	reactant
+re61	ubiquinol	reactant
+re61	Reduced-NapC-proteins	product
+re61	ubiquinone	product
+re62	napH_mRNA	reactant
+re62	NapH	product
+re63	nfuA_mRNA	reactant
+re63	NfuA	product
+re64	nrdE_mRNA	reactant
+re64	NrdE	product
+re65	NrdE	reactant
+re65	NrdF	reactant
+re65	NrdE-NrdF	product
+re66	cytidine-diphosphate	reactant
 re66	YgaN	reactant
 re66	oxidized NrdH glutaredoxin-like protein	product
-re66	dGDP	product
+re66	dCDP	product
+re67	guanosine-diphosphate	reactant
 re67	YgaN	reactant
 re67	oxidized NrdH glutaredoxin-like protein	product
-re67	dADP	product
-re68	uridine-diphosphate	reactant
+re67	dGDP	product
 re68	YgaN	reactant
 re68	oxidized NrdH glutaredoxin-like protein	product
-re68	dUDP	product
-re69	nucleoside diphosphate	reactant
-re69	reduced thioredoxin	reactant
-re69	deoxynucleoside diphosphate	product
-re69	thioredoxin disulfide	product
-re70	nrdF_mRNA	reactant
-re70	NrdF	product
-re71	nrdH_mRNA	reactant
-re71	NrdH	product
-re72	nrdI_mRNA	reactant
-re72	NrdI	product
-re73	rnlA_mRNA	reactant
-re73	RnlA	product
-re74	mRNA	reactant
-re74	single-stranded RNA	product
-re75	RnlA	reactant
-re75	RnlB	reactant
-re75	RnlB-RnlA	product
-re76	rnlB_mRNA	reactant
-re76	RnlB	product
-re77	sufA_mRNA	reactant
-re77	SufA	product
-re78	sufB_mRNA	reactant
-re78	SufB	product
-re79	SufD	reactant
-re79	SufB	reactant
-re79	SufC	reactant
-re79	SufB-SufC-SufD	product
-re80	sufC_mRNA	reactant
-re80	SufC	product
-re81	sufD_mRNA	reactant
-re81	SufD	product
-re82	sufE_mRNA	reactant
-re82	SufE	product
-re83	sufS_mRNA	reactant
-re83	SufS	product
-re84	3-sulfinoalanine	reactant
-re84	alanine	product
-re84	sulfite	product
-re85	selenocysteine	reactant
-re85	A(H2)	reactant
-re85	acceptors	product
-re85	selenide	product
+re68	dADP	product
+re69	uridine-diphosphate	reactant
+re69	YgaN	reactant
+re69	oxidized NrdH glutaredoxin-like protein	product
+re69	dUDP	product
+re70	nucleoside diphosphate	reactant
+re70	reduced thioredoxin	reactant
+re70	deoxynucleoside diphosphate	product
+re70	thioredoxin disulfide	product
+re71	nrdF_mRNA	reactant
+re71	NrdF	product
+re72	nrdH_mRNA	reactant
+re72	NrdH	product
+re73	nrdI_mRNA	reactant
+re73	NrdI	product
+re74	rnlA_mRNA	reactant
+re74	RnlA	product
+re75	mRNA	reactant
+re75	mRNA fragments	product
+re76	RnlA	reactant
+re76	RnlB	reactant
+re76	RnlB-RnlA	product
+re77	rnlB_mRNA	reactant
+re77	RnlB	product
+re78	sufA_mRNA	reactant
+re78	SufA	product
+re79	sufB_mRNA	reactant
+re79	SufB	product
+re80	SufB	reactant
+re80	SufD	reactant
+re80	SufC	reactant
+re80	SufB-SufC-SufD	product
+re81	sufC_mRNA	reactant
+re81	SufC	product
+re82	sufD_mRNA	reactant
+re82	SufD	product
+re83	sufE_mRNA	reactant
+re83	SufE	product
+re84	sufS_mRNA	reactant
+re84	SufS	product
+re85	3-sulfinoalanine	reactant
 re85	alanine	product
-re86	ydiU_mRNA	reactant
-re86	YdiU	product
+re85	sulfite	product
+re86	selenocysteine	reactant
+re86	A(H2)	reactant
+re86	acceptors	product
+re86	selenide	product
+re86	alanine	product
+re87	ydiU_mRNA	reactant
+re87	YdiU	product

@@ -1,0 +1,110 @@
+# From /Users/Daniela/Documents/CCG/data_sets_GUs/analysis/scripts/connectivity_from_gufiles_permissive_enx_v1.pl on Sat Nov 24 05:21:29 2018
+# Input = /Users/Daniela/Documents/CCG/GU_art_2/v22/connectivity/simple_regulons//complete_gus/
+GU name	Total enzymes	Enzymes	Total connected enzymes	Connected enzymes	Total components	Components	Total Enzymatic reactions	Total transport reactions	Connectivity
+AcrR	0		0		0	*	0	0	-0.0
+Ada	3	Ada,AlkA,AlkB,	2	AlkB,Ada,	3	*re5,re6,re7,*re9,*re11,re12,re13,re14,re15,re16,*	10	0	0.4
+AgaR	1	KbaY-KbaZ,	0		1	*re17,*	1	0	0.0
+AlaS	1	AlaS,	0		1	*re3,*	1	0	0.0
+AllR	6	AllB,GlxR,Gcl,GlxK,AllA,Hyi,	6	AllA,Hyi,GlxK,AllB,GlxR,Gcl,	1	*re11,re16,re20,re18,re22,re25,re13,*	6	0	1.0
+AllS	3	AllD,AllC,AllE,	3	AllC,AllD,AllE,	1	*re5,re9,re7,*	3	0	1.0
+AlsR	3	AlsE,AlsA-AlsC-AlsB,RpiB,	2	AlsE,RpiB,	3	*re9,*re17,*re13,re16,*	4	1	0.4
+ArcA	1	YdeA,	0		1	*re5,*	1	1	0.0
+ArgP	3	DapD,DapB,LysC,	3	DapD,DapB,LysC,	1	*re5,re10,re7,re9,*	3	0	1.0
+ArgR	10	ArgE,ArgB,LysO,ArgH,ArgC,ArgF,ArgA,ArtJ-ArtQ-ArtM-ArtP,NAGS,ArgI,	9	ArgA,ArtJ-ArtQ-ArtM-ArtP,NAGS,ArgI,ArgE,ArgB,ArgH,ArgF,ArgC,	2	*re16,re19,re21,re40,re23,re25,re41,re27,re34,*re39,*	8	2	0.8
+ArsR	2	ArsC,ArsB,	2	ArsB,ArsC,	2	*re5,*re6,re8,*	3	2	0.7
+AscG	0		0		0	*	0	0	-0.0
+AsnC	1	AsnA,	0		1	*re3,*	1	0	0.0
+BasR	1	DgkA,	0		1	*re3,*	1	0	0.0
+BirA	5	BioD,BioC,BioB,BioF,BioA,	5	BioD,BioB,BioC,BioF,BioA,	1	*re10,re11,re13,re19,re7,re15,re17,re18,re9,*	8	0	1.0
+BluR	0		0		0	*	0	0	-0.0
+BolA	2	DacC,AmpC,	1	DacC,	2	*re6,re7,re8,re9,*re4,*	5	0	0.3
+CRP	16	AaeA-AaeB,ArfB,Agp,PatZ,SpeC,HflX,NadC,PreT-PreA,UbiG,IlvB-IlvN,CpdB,AmpD,GpsA,ManA,GlpE,GlpG,	6	UbiG,IlvB-IlvN,CpdB,SpeC,NadC,GlpE,	20	*re122,re123,re133,re160,*re103,*re88,re91,*re89,re94,*re100,re101,*re81,*re138,*re85,re86,*re78,*re106,*re87,re93,*re142,*re70,*re112,*re76,*re75,*re90,re92,*re165,re166,re174,*re128,*re143,*	30	1	0.2
+CdaR	3	GudD,GarD,GudP,	3	GudD,GudP,GarD,	2	*re13,*re10,re11,re14,re8,re15,*	6	3	0.8
+CecR	1	YbhS-YbhR-YbhF,	0		1	*re9,*	1	1	0.0
+CpxR	9	Slt,LdtC,SbmA,SrkA,Dsf,LdtD,DsbC,BacA,Ung,	2	LdtC,LdtD,	11	*re48,*re32,*re33,*re70,*re52,re53,re54,re56,re57,*re45,*re69,*re76,*re67,*re71,*re73,*	15	1	0.1
+Cra	11	FruK,GpmM,TpiA,PpsA,PykF,FruB-FruA,Glk,Ppc,PfkA,Eno,FbaB,	10	GpmM,FbaB,PykF,TpiA,PpsA,Eno,Ppc,FruK,PfkA,FruB-FruA,	4	*re36,*re17,re34,re48,re49,re50,re39,re41,re43,re21,re29,re26,re24,re25,re37,re45,*re32,*re31,*	15	3	0.7
+CreB	1	TalA,	0		1	*re3,*	1	0	0.0
+CsgD	3	DgcC,WrbA,PepD,	0		7	*re19,*re15,*re20,*re17,*re11,*re16,*re21,*	7	0	0.0
+CueR	2	CopA,CueO,	2	CueO,CopA,	1	*re4,re6,re7,re8,re9,*	5	1	1.0
+CynR	3	CynS,CynX,CynT,	3	CynS,CynT,CynX,	1	*re11,re7,re12,re9,*	3	1	1.0
+CysB	4	CysD-CysN,CysK,CysC,TcyP,	4	CysK,TcyP,CysC,CysD-CysN,	4	*re24,*re23,*re11,re14,re30,re16,re17,re18,re25,*re26,*	9	4	0.6
+DhaR	1	DhaK-DhaL-DhaM,	1	DhaK-DhaL-DhaM,	1	*re7,re8,*	2	0	1.0
+DicA	0		0		0	*	0	0	-0.0
+DnaA	1	PolA,	1	PolA,	2	*re4,*re5,re6,*	3	0	0.5
+EvgA	3	Frc,Oxc,YfdE,	3	YfdE,Frc,Oxc,	1	*re10,re13,re8,*	3	0	1.0
+FNR	11	PdeF,BcsZ,CheR,BcsB-BcsA,PepT,TrmD,XdhA-XdhB-XdhC,UraA,CheB,PitA,Upp,	8	XdhA-XdhB-XdhC,Upp,TrmD,UraA,BcsZ,CheR,BcsB-BcsA,CheB,	11	*re65,*re89,re90,*re66,*re63,*re34,re36,*re68,*re83,re85,*re69,*re38,re39,re40,re41,re42,re43,re44,re45,re53,re49,re46,re47,re50,re51,re52,re81,*re67,*re61,*	29	6	0.4
+FadR	7	FabD,KASIII,FabH,FabG,AccA-AccD,FadM,FabI,	7	FabH,FabG,KASIII,FabD,FabI,FadM,AccA-AccD,	2	*re11,re14,re22,re23,re24,re29,re31,re32,re38,re45,re57,re58,re67,re70,re79,re73,re51,re55,re53,re71,re69,re16,re54,re56,re21,re68,re25,re72,re35,re37,re40,re74,re49,re18,re61,re62,re47,re64,re48,re19,re63,re46,re20,re65,re66,re43,re44,re26,re75,re17,re59,re60,re36,re39,*re27,re76,re77,re41,re42,re78,re28,*	34	0	0.9
+FeaR	1	TynA,	1	TynA,	1	*re3,re4,re5,re6,*	4	0	1.0
+Fis	9	TrmA,TopA,RsmA,QueA,ApaH,GltX,PdxA,MsrA,GyrA-GyrB,	6	QueA,GyrA-GyrB,RsmA,MsrA,TopA,TrmA,	5	*re84,*re63,*re117,re118,re132,re134,re149,*re120,*re146,re91,*	10	0	0.5
+FlhDC	3	PdeH,GltI-GltK-GltJ-GltL,RecD-RecC-RecB,	1	RecD-RecC-RecB,	5	*re71,*re76,*re82,*re70,*re83,re84,*	6	2	0.1
+FliZ	0		0		0	*	0	0	-0.0
+Fur	6	FepC-FepD-FepG-FepB,FhuC-FhuB-FhuD,ExbD-ExbB-TonB-FhuA,GpmA,EntS,FhuE-ExbD-ExbB-TonB,	1	GpmA,	6	*re25,*re40,*re36,*re39,*re31,*re46,re48,re47,re49,re50,*	10	5	0.1
+GadX	5	GlsA,AsnB,BtuB-ExbD-ExbB-TonB,Lon,MurI,	3	MurI,GlsA,AsnB,	4	*re10,re11,re20,re9,*re15,*re18,*re14,*	7	2	0.4
+GcvA	0		0		0	*	0	0	-0.0
+H-NS	5	ChiA,AdeD,HchA,MdtJ-MdtI,CmoM,	1	HchA,	8	*re18,*re22,*re24,*re35,*re36,*re19,*re37,*re28,re29,re30,re31,*	11	3	0.1
+HU	1	Pgm,	1	Pgm,	1	*re4,re5,re6,*	3	0	1.0
+HcaR	2	HcaC-HcaD-HcaF-HcaE,HcaB,	2	HcaB,HcaC-HcaD-HcaF-HcaE,	1	*re12,re13,re9,re8,*	4	0	1.0
+IHF	2	HemF,AmiA,	0		2	*re8,*re10,*	2	0	0.0
+IlvY	1	IlvC,	0		3	*re6,*re5,*re4,*	3	0	0.0
+IscR	3	RnlA,IscS,IscU,	2	IscS,IscU,	2	*re13,re14,re15,re16,re17,re19,*re21,*	7	0	0.5
+KdpE	1	KdpF-KdpA-KdpB-KdpC,	0		1	*re7,*	1	1	0.0
+LeuO	3	LeuC-LeuD,LeuB,LeuA,	3	LeuC-LeuD,LeuB,LeuA,	1	*re11,re14,re15,re16,re9,*	5	0	1.0
+LexA	13	UmuC-UmuD,RecD,RecQ,PolB,DinB,PtrA,RecB,RecD-RecC-RecB,YafO,DnaG,Phr,UvrB-UvrC-UvrA,RuvC-RuvB-RuvA,	7	DinB,PolB,Phr,DnaG,RecQ,UmuC-UmuD,RecD-RecC-RecB,	8	*re61,*re42,re49,re67,re66,re72,re59,*re80,*re95,*re55,re56,re57,*re68,*re89,*re65,*	15	0	0.3
+LrhA	0		0		0	*	0	0	-0.0
+Lrp	10	Tdh,LivK-LivM-LivH-LivG-LivF,AlaE,Kbl,AvtA,LivF-LivG-LivH-LivM-LivJ,LeuE,SdaA,LysU,AlaA,	7	AvtA,LivF-LivG-LivH-LivM-LivJ,Kbl,AlaA,AlaE,SdaA,Tdh,	8	*re24,re45,*re22,*re27,*re40,*re17,re19,re21,re30,re42,re43,*re31,*re32,*re26,*	14	6	0.4
+LysR	0		0		0	*	0	0	-0.0
+MalT	1	MalZ,	1	MalZ,	1	*re3,re4,re5,re6,re7,*	5	0	1.0
+MarA	0		0		0	*	0	0	-0.0
+MatA	0		0		0	*	0	0	-0.0
+McbR	0		0		0	*	0	0	-0.0
+MetJ	4	MetF,MetC,FolE,MetA,	2	MetA,MetC,	3	*re7,*re16,*re11,re12,re14,re13,re18,re9,*	7	0	0.3
+MlrA	0		0		0	*	0	0	-0.0
+MngR	2	MngB,MngA,	2	MngB,MngA,	1	*re5,re7,*	2	1	1.0
+MntR	0		0		0	*	0	0	-0.0
+MprA	1	EmrA-EmrB-TolC,	0		1	*re6,*	1	1	0.0
+MqsA	1	MqsR,	0		1	*re6,*	1	0	0.0
+MurR	0		0		0	*	0	0	-0.0
+Nac	2	PatD,YdcS,	0		2	*re7,*re10,*	2	0	0.0
+NadR	3	PnuC,NadA,NadB,	2	NadA,NadB,	2	*re5,re7,re8,*re10,*	4	1	0.5
+NagC	2	GlmU,GlmS,	2	GlmU,GlmS,	1	*re11,re15,re13,re14,*	3	0	1.0
+NanR	0		0		0	*	0	0	-0.0
+NimR	1	NimT,	0		2	*re6,*re5,*	2	2	0.0
+NsrR	20	RffH,PgpC,TehB,MhpT,WzxE,Rfe,RffT,RffC,WecC,RffM,WecB,RffG,WecE,DkgB,TadA,ThrS,TehA,PheS-PheT,MepH,YeaE,	12	ThrS,WzxE,WecE,WecB,RffG,RffH,RffM,PheS-PheT,WecC,RffC,Rfe,RffT,	11	*re67,*re69,*re44,*re43,*re46,*re33,*re41,*re34,*re35,*re49,re58,re56,re80,re54,re62,re60,re52,re76,re78,re83,re73,*re71,*	22	4	0.4
+NtrC	4	HisQ-HisP-HisM-ArgT,PotG-PotH-PotI-PotF,YeaG,DdpX,	0		6	*re19,*re29,*re37,*re20,*re21,*re32,*	6	4	0.0
+OmpR	1	DtpA,	0		2	*re7,*re6,*	2	2	0.0
+OxyR	4	Gor,GrxA,DsbG,HemH,	0		5	*re15,*re19,*re12,*re17,*re11,*	5	0	0.0
+PaaX	1	PaaY,	0		1	*re5,*	1	0	0.0
+PepA	1	PepA,	0		2	*re3,*re4,*	2	0	0.0
+PgrR	2	YcjG,MpaA,	2	MpaA,YcjG,	1	*re12,re9,*	2	0	1.0
+PhoB	12	SbcC-SbcD,PhnC-NP-Phn,PitB,PhnP,PhnM,PhnL-PhnH-PhnG-PhnI,PhnN,PhoA,PhnO,PhoE,TktB,PhnJ,	9	TktB,PhnN,PhnL-PhnH-PhnG-PhnI,PhnJ,PhnM,PhnP,PhoE,PhnO,PhoA,	82	*re63,*re137,*re35,*re149,*re138,*re113,re169,re170,re176,re86,re89,*re104,re105,*re122,*re108,*re162,*re121,*re103,*re130,*re111,*re102,*re75,re76,re77,*re151,*re98,*re128,*re78,*re119,*re83,*re147,*re100,re94,re95,*re125,*re66,*re129,*re110,*re135,*re36,*re101,*re64,*re82,*re124,*re131,*re90,*re150,*re143,*re85,*re118,*re153,*re97,*re146,*re107,re87,*re88,*re123,re96,re126,*re132,*re166,*re71,re72,re73,*re136,*re156,*re127,*re144,*re145,*re70,*re99,*re69,*re155,*re80,re81,*re154,*re68,*re141,*re142,*re160,*re148,*re65,*re134,*re114,*re79,*re112,*re109,*re67,*re152,*re120,*re139,*re133,*re161,*re106,*re41,re42,re52,re47,re46,re51,re92,re93,re61,re54,re175,re56,re57,re58,re59,re84,*re74,*re91,*re140,*	111	44	0.1
+PhoP	6	YbjG,PagP,GlgB,MgtA,GlgX,OmpT,	0		6	*re31,*re19,*re29,*re21,*re25,*re40,*	6	1	0.0
+PspF	0		0		0	*	0	0	-0.0
+PurR	10	UbiX,PurE,PurC,PurK,PurB,SpeA,PurF,Prs,SpeB,PurL,	9	PurL,PurF,PurC,Prs,SpeB,SpeA,PurE,PurB,PurK,	3	*re34,re36,*re19,re28,re32,re41,re42,re39,re21,re22,re24,re26,re30,re40,*re38,*	11	0	0.8
+RbsR	1	Add,	1	Add,	1	*re3,re4,*	2	0	1.0
+RcdA	0		0		0	*	0	0	-0.0
+RclR	0		0		0	*	0	0	-0.0
+RcnR	0		0		0	*	0	0	-0.0
+RcsAB	2	Wzb,Wzc,	2	Wzb,Wzc,	1	*re11,re13,*	2	0	1.0
+RcsB	0		0		0	*	0	0	-0.0
+RcsB-BglJ	0		0		0	*	0	0	-0.0
+Rob	1	MltF,	0		2	*re3,*re4,*	2	0	0.0
+RutR	0		0		0	*	0	0	-0.0
+SdiA	0		0		0	*	0	0	-0.0
+SgrR	2	ThiQ-ThiP-TbpA,AlaC,	0		2	*re8,*re12,*	2	1	0.0
+SoxS	4	YdbK,Pgi,OmpN,RibA,	0		4	*re16,*re10,*re12,*re14,*	4	1	0.0
+SutR	1	CysE,	0		1	*re4,*	1	0	0.0
+TorR	0		0		0	*	0	0	-0.0
+TrpR	7	TrpE-TrpD,TrpC,TrpD,TrpA,AroH,TrpB,TrpA-TrpB,	7	TrpC,TrpB,AroH,TrpE-TrpD,TrpA,TrpA-TrpB,TrpD,	1	*re10,re27,re13,re14,re15,re18,re19,re23,re22,*	8	0	1.0
+TtdR	2	TtdT,TtdA-TtdB,	2	TtdA-TtdB,TtdT,	1	*re11,re7,*	2	1	1.0
+TyrR	3	TyrA,TyrB,AroF,	3	TyrB,AroF,TyrA,	1	*re10,re11,re12,re13,re15,re8,re7,re14,re5,*	7	0	1.0
+UidR	0		0		0	*	0	0	-0.0
+UvrY	1	LuxS,	0		1	*re3,*	1	0	0.0
+XapR	2	XapA,XapB,	2	XapA,XapB,	1	*re4,re5,re6,re7,re9,*	5	1	1.0
+YdeO	0		0		0	*	0	0	-0.0
+YhaJ	0		0		0	*	0	0	-0.0
+YjjQ	1	DgcN,	0		1	*re9,*	1	0	0.0
+YpdB	0		0		0	*	0	0	-0.0
+YqhC	2	YqhD,DkgA,	0		10	*re10,*re4,*re13,*re7,*re11,*re5,*re14,*re12,*re9,*re6,*	10	0	0.0
+ZntR	1	ZntA,	0		1	*re3,*	1	1	0.0
+ZraR	0		0		0	*	0	0	-0.0
+Zur	1	ZnuC-ZnuB-ZnuA,	0		1	*re10,*	1	1	0.0

@@ -14,28 +14,29 @@ re7	nrfG	reactant
 re7	nrfG_mRNA	product
 re8	nrfA_mRNA	reactant
 re8	NrfA	product
-re9	NrfC	reactant
-re9	NrfA	reactant
-re9	NrfD	reactant
 re9	NrfB	reactant
-re9	NrfD-NrfC-NrfB-NrfA	product
-re10	menaquinol	reactant
+re9	NrfA	reactant
+re9	NrfA-NrfB	product
+re10	a-reduced-NrfB-protein	reactant
 re10	nitrite	reactant
-re10	vitamin K2	product
+re10	an-oxidized-NrfB-protein	product
 re10	ammonium	product
-re11	reduced Cytochrome C protein	reactant
-re11	nitrite	reactant
-re11	ferri c-type cytochrome	product
-re11	ammonium	product
-re12	nrfB_mRNA	reactant
-re12	NrfB	product
-re13	nrfC_mRNA	reactant
-re13	NrfC	product
-re14	nrfD_mRNA	reactant
-re14	NrfD	product
-re15	nrfE_mRNA	reactant
-re15	NrfE	product
-re16	nrfF_mRNA	reactant
-re16	NrfF	product
-re17	nrfG_mRNA	reactant
-re17	NrfG	product
+re11	nrfB_mRNA	reactant
+re11	NrfB	product
+re12	nrfC_mRNA	reactant
+re12	NrfC	product
+re13	NrfC	reactant
+re13	NrfD	reactant
+re13	NrfD-NrfC	product
+re14	an-oxidized-NrfB-protein	reactant
+re14	menaquinol	reactant
+re14	a-reduced-NrfB-protein	product
+re14	vitamin K2	product
+re15	nrfD_mRNA	reactant
+re15	NrfD	product
+re16	nrfE_mRNA	reactant
+re16	NrfE	product
+re17	nrfF_mRNA	reactant
+re17	NrfF	product
+re18	nrfG_mRNA	reactant
+re18	NrfG	product

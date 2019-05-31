@@ -10,8 +10,8 @@ re5	enzyme N6-(lipoyl)lysine	reactant
 re5	ketoglutarate	reactant
 re5	[2-oxoglutarate dehydrogenase E2 protein] N6-S-succinyldihydrolipoyl-L-lysine	product
 re5	CO2	product
-re6	SucB	reactant
 re6	SucA	reactant
+re6	SucB	reactant
 re6	Lpd	reactant
 re6	SucA-SucB-Lpd	product
 re7	ketoglutarate	reactant
@@ -34,40 +34,44 @@ re13	[glycine-cleavage complex H protein] N6-dihydrolipoyl-L-lysine	reactant
 re13	[glycine-cleavage complex H protein] N6-lipoyl-L-lysine	product
 re14	[pyruvate dehydrogenase E2 protein] N6-dihydrolipoyl-L-lysine	reactant
 re14	[pyruvate dehydrogenase E2 protein] N6-lipoyl-L-lysine	product
-re15	GcvP	reactant
-re15	GcvH	reactant
-re15	GcvT	reactant
-re15	Lpd	reactant
-re15	Lpd-GcvP-GcvH-GcvT	product
-re16	THF polyglutamate	reactant
-re16	glycine	reactant
-re16	methylene-H4PteGlu(n)	product
-re16	ammonium	product
-re16	CO2	product
-re17	[glycine-cleavage complex H protein] N6-lipoyl-L-lysine	reactant
+re15	A(H2)	reactant
+re15	TeO2	reactant
+re15	acceptors	product
+re15	Te0	product
+re16	GcvH	reactant
+re16	GcvT	reactant
+re16	GcvP	reactant
+re16	Lpd	reactant
+re16	Lpd-GcvP-GcvH-GcvT	product
+re17	THF polyglutamate	reactant
 re17	glycine	reactant
-re17	[glycine-cleavage complex H protein] N6-aminomethyldihydrolipoyl-L-lysine	product
+re17	methylene-H4PteGlu(n)	product
+re17	ammonium	product
 re17	CO2	product
-re18	[glycine-cleavage complex H protein] N6-aminomethyldihydrolipoyl-L-lysine	reactant
-re18	THF polyglutamate	reactant
-re18	[glycine-cleavage complex H protein] N6-dihydrolipoyl-L-lysine	product
-re18	methylene-H4PteGlu(n)	product
-re18	ammonium	product
-re19	AceF	reactant
-re19	AceE	reactant
-re19	Lpd	reactant
-re19	AceE-AceF-Lpd	product
-re20	coenzyme A	reactant
-re20	pyruvate	reactant
-re20	acetyl-CoA	product
-re20	CO2	product
-re21	[pyruvate dehydrogenase E2 protein] N6-lipoyl-L-lysine	reactant
+re18	[glycine-cleavage complex H protein] N6-lipoyl-L-lysine	reactant
+re18	glycine	reactant
+re18	[glycine-cleavage complex H protein] N6-aminomethyldihydrolipoyl-L-lysine	product
+re18	CO2	product
+re19	[glycine-cleavage complex H protein] N6-aminomethyldihydrolipoyl-L-lysine	reactant
+re19	THF polyglutamate	reactant
+re19	[glycine-cleavage complex H protein] N6-dihydrolipoyl-L-lysine	product
+re19	methylene-H4PteGlu(n)	product
+re19	ammonium	product
+re20	AceE	reactant
+re20	AceF	reactant
+re20	Lpd	reactant
+re20	AceE-AceF-Lpd	product
+re21	coenzyme A	reactant
 re21	pyruvate	reactant
-re21	[enzyme] N6-(S-acetyldihydrolipoyl)lysine	product
+re21	acetyl-CoA	product
 re21	CO2	product
-re22	[enzyme] N6-(S-acetyldihydrolipoyl)lysine	reactant
-re22	coenzyme A	reactant
-re22	[pyruvate dehydrogenase E2 protein] N6-dihydrolipoyl-L-lysine	product
-re22	acetyl-CoA	product
-re23	acetyl-CoA	reactant
-re23	ketoglutarate	product
+re22	[pyruvate dehydrogenase E2 protein] N6-lipoyl-L-lysine	reactant
+re22	pyruvate	reactant
+re22	[enzyme] N6-(S-acetyldihydrolipoyl)lysine	product
+re22	CO2	product
+re23	[enzyme] N6-(S-acetyldihydrolipoyl)lysine	reactant
+re23	coenzyme A	reactant
+re23	[pyruvate dehydrogenase E2 protein] N6-dihydrolipoyl-L-lysine	product
+re23	acetyl-CoA	product
+re24	acetyl-CoA	reactant
+re24	ketoglutarate	product

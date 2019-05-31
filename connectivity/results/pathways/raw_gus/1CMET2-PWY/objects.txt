@@ -2,6 +2,7 @@
 1CMET2-PWY	PROTEIN
 5-methyltetrahydropteroyl tri-L-glutamate	SIMPLE_MOLECULE	CPD-1302
 7,8-dihydrofolate	SIMPLE_MOLECULE	DIHYDROFOLATE-GLU-N
+A(H2)	SIMPLE_MOLECULE	|Donor-H2|
 AceE	PROTEIN	E1P-MONOMER
 AceE-AceF-Lpd	COMPLEX	PYRUVATEDEH-CPLX
 AceF	PROTEIN	E2P-MONOMER
@@ -28,6 +29,8 @@ SucA	PROTEIN	E1O-MONOMER
 SucA-SucB-Lpd	COMPLEX	2OXOGLUTARATEDEH-CPLX
 SucB	PROTEIN	E2O-MONOMER
 THF polyglutamate	SIMPLE_MOLECULE	THF-GLU-N
+Te0	SIMPLE_MOLECULE	CPD-16009
+TeO2	SIMPLE_MOLECULE	CPD-4544
 ThyA	PROTEIN	THYMIDYLATESYN-MONOMER
 [2-oxoglutarate dehydrogenase E2 protein] N6-S-succinyldihydrolipoyl-L-lysine	SIMPLE_MOLECULE	|Oxo-glutarate-dehydro-suc-DH-lipoyl|
 [enzyme] N6-(S-acetyldihydrolipoyl)lysine	SIMPLE_MOLECULE	|Pyruvate-dehydrogenase-acetylDHlipoyl|
@@ -37,6 +40,7 @@ ThyA	PROTEIN	THYMIDYLATESYN-MONOMER
 [glycine-cleavage complex H protein] N6-lipoyl-L-lysine	SIMPLE_MOLECULE	PROTEIN-LIPOYLLYSINE
 [pyruvate dehydrogenase E2 protein] N6-dihydrolipoyl-L-lysine	SIMPLE_MOLECULE	|Pyruvate-dehydrogenase-dihydrolipoate|
 [pyruvate dehydrogenase E2 protein] N6-lipoyl-L-lysine	SIMPLE_MOLECULE	|Pyruvate-dehydrogenase-lipoate|
+acceptors	SIMPLE_MOLECULE	|Acceptor|
 acetyl-CoA	SIMPLE_MOLECULE	ACETYL-COA
 ala	SIMPLE_MOLECULE	D-ALANINE
 allo-thr	SIMPLE_MOLECULE	ALLO-THR

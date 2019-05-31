@@ -19,8 +19,8 @@ re9	glpX_mRNA	product
 re10	glpA_mRNA	reactant
 re10	GlpA	product
 re11	GlpC	reactant
-re11	GlpA	reactant
 re11	GlpB	reactant
+re11	GlpA	reactant
 re11	GlpA-GlpB-GlpC	product
 re12	glycerol-3-phosphate	reactant
 re12	vitamin K2	reactant
@@ -38,34 +38,38 @@ re16	ubiquinol	product
 re16	DHAP	product
 re17	glpF_mRNA	reactant
 re17	GlpF	product
-re18	arsenite_Ext	reactant
-re18	arsenite	product
-re19	glycine_Ext	reactant
-re19	glycine	product
-re20	urea_Ext	reactant
-re20	urea	product
-re21	DL-glyceraldehyde_Ext	reactant
-re21	DL-glyceraldehyde	product
-re22	glycerol_Ext	reactant
-re22	glycerol	product
-re23	glpK_mRNA	reactant
-re23	GlpK	product
-re24	glycerol	reactant
-re24	glycerol-3-phosphate	product
-re25	glpQ_mRNA	reactant
-re25	GlpQ	product
-re26	glycerol-3-P-OR	reactant
+re18	polyol_Ext	reactant
+re18	polyol	product
+re19	glycerol_Ext	reactant
+re19	glycerol	product
+re20	DL-glyceraldehyde_Ext	reactant
+re20	DL-glyceraldehyde	product
+re21	glycine_Ext	reactant
+re21	glycine	product
+re22	urea_Ext	reactant
+re22	urea	product
+re23	arsenite_Ext	reactant
+re23	arsenite	product
+re24	stiborous acid_Ext	reactant
+re24	stiborous acid	product
+re25	glpK_mRNA	reactant
+re25	GlpK	product
+re26	glycerol	reactant
 re26	glycerol-3-phosphate	product
-re26	alcohol	product
-re27	diglycerol phosphate	reactant
-re27	glycerol-3-phosphate	product
-re27	glycerol	product
-re28	glpT_mRNA	reactant
-re28	GlpT	product
-re29	glycerol-3-phosphate_Ext	reactant
+re27	glpQ_mRNA	reactant
+re27	GlpQ	product
+re28	glycerol-3-P-OR	reactant
+re28	glycerol-3-phosphate	product
+re28	alcohol	product
+re29	diglycerol phosphate	reactant
 re29	glycerol-3-phosphate	product
-re30	glpX_mRNA	reactant
-re30	GlpX	product
-re31	fructose 1,6-biphosphate	reactant
-re31	fructose-6-P	product
-re31	phosphate	product
+re29	glycerol	product
+re30	glpT_mRNA	reactant
+re30	GlpT	product
+re31	glycerol-3-phosphate_Ext	reactant
+re31	glycerol-3-phosphate	product
+re32	glpX_mRNA	reactant
+re32	GlpX	product
+re33	fructose 1,6-biphosphate	reactant
+re33	fructose-6-P	product
+re33	phosphate	product

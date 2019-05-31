@@ -2,140 +2,161 @@ re1	ahpC	reactant
 re1	ahpC_mRNA	product
 re2	ahpF	reactant
 re2	ahpF_mRNA	product
-re3	dps	reactant
-re3	dps_mRNA	product
-re4	dsbG	reactant
-re4	dsbG_mRNA	product
-re5	fur	reactant
-re5	fur_mRNA	product
-re6	gor	reactant
-re6	gor_mRNA	product
-re7	grxA	reactant
-re7	grxA_mRNA	product
-re8	hcp	reactant
-re8	hcp_mRNA	product
-re9	hcr	reactant
-re9	hcr_mRNA	product
-re10	hemH	reactant
-re10	hemH_mRNA	product
-re11	katG	reactant
-re11	katG_mRNA	product
-re12	mntH	reactant
-re12	mntH_mRNA	product
-re13	oxyS	reactant
-re13	oxyS_mRNA	product
-re14	sufA	reactant
-re14	sufA_mRNA	product
-re15	sufB	reactant
-re15	sufB_mRNA	product
-re16	sufC	reactant
-re16	sufC_mRNA	product
-re17	sufD	reactant
-re17	sufD_mRNA	product
-re18	sufE	reactant
-re18	sufE_mRNA	product
-re19	sufS	reactant
-re19	sufS_mRNA	product
-re20	trxC	reactant
-re20	trxC_mRNA	product
-re21	uof	reactant
-re21	uof_mRNA	product
-re22	yhjA	reactant
-re22	yhjA_mRNA	product
-re23	ahpC_mRNA	reactant
-re23	AhpC	product
-re24	AhpF	reactant
-re24	AhpC	reactant
-re24	AhpC-AhpF	product
-re25	ROOH	reactant
-re25	alcohol	product
-re26	ahpF_mRNA	reactant
-re26	AhpF	product
-re27	dps_mRNA	reactant
-re27	Dps	product
-re28	dsbG_mRNA	reactant
-re28	DsbG	product
-re29	protein with incorrect disulfide bonds	reactant
-re29	protein with correct disulfide bonds	product
-re30	protein with reduced SH groups	reactant
-re30	protein with oxidized disulfide bonds	product
-re31	fur_mRNA	reactant
-re31	Fur	product
-re32	gor_mRNA	reactant
-re32	Gor	product
-re33	GSSG	reactant
-re33	glutathione	product
-re34	grxA_mRNA	reactant
-re34	GrxA	product
-re35	hcp_mRNA	reactant
-re35	Hcp	product
-re36	NH2OH	reactant
-re36	A(H2)	reactant
-re36	acceptors	product
-re36	ammonium	product
-re37	hcr_mRNA	reactant
-re37	Hcr	product
-re38	oxidized hybrid-cluster protein	reactant
-re38	reduced hybrid-cluster protein	product
-re39	hemH_mRNA	reactant
-re39	HemH	product
-re40	protoporphyrin	reactant
-re40	Fe+2	reactant
-re40	protoheme IX	product
-re41	katG_mRNA	reactant
-re41	KatG	product
-re42	perhydrol	reactant
-re42	oxygen	product
-re43	perhydrol	reactant
-re43	A(H2)	reactant
-re43	acceptors	product
-re44	mntH_mRNA	reactant
-re44	MntH	product
-re45	Fe+2_Ext	reactant
-re45	Fe+2	product
-re46	Mn(II)_Ext	reactant
-re46	Mn(II)	product
-re47	oxyS_mRNA	reactant
-re47	RNA:OxyS	product
-re48	sufA_mRNA	reactant
-re48	SufA	product
-re49	sufB_mRNA	reactant
-re49	SufB	product
-re50	SufD	reactant
-re50	SufB	reactant
-re50	SufC	reactant
-re50	SufB-SufC-SufD	product
-re51	sufC_mRNA	reactant
-re51	SufC	product
-re52	sufD_mRNA	reactant
-re52	SufD	product
-re53	sufE_mRNA	reactant
-re53	SufE	product
-re54	sufS_mRNA	reactant
-re54	SufS	product
-re55	unsulfurated [sulfur donor]	reactant
-re55	cysteine	reactant
-re55	sulfurated sulfur donor	product
-re55	alanine	product
-re56	protein cysteines	reactant
-re56	cysteine	reactant
-re56	[L-cysteine desulfurase] L-cysteine persulfide	product
-re56	alanine	product
-re57	[L-cysteine desulfurase] L-cysteine persulfide	reactant
-re57	unsulfurated [sulfur donor]	reactant
-re57	sulfurated sulfur donor	product
-re57	protein cysteines	product
-re58	3-sulfinoalanine	reactant
-re58	alanine	product
-re58	sulfite	product
-re59	selenocysteine	reactant
-re59	A(H2)	reactant
-re59	acceptors	product
-re59	selenide	product
-re59	alanine	product
-re60	trxC_mRNA	reactant
-re60	TrxC	product
-re61	uof_mRNA	reactant
-re61	Uof	product
-re62	yhjA_mRNA	reactant
-re62	YhjA	product
+re3	ccp	reactant
+re3	ccp_mRNA	product
+re4	dps	reactant
+re4	dps_mRNA	product
+re5	dsbG	reactant
+re5	dsbG_mRNA	product
+re6	fur	reactant
+re6	fur_mRNA	product
+re7	gor	reactant
+re7	gor_mRNA	product
+re8	grxA	reactant
+re8	grxA_mRNA	product
+re9	hcp	reactant
+re9	hcp_mRNA	product
+re10	hcr	reactant
+re10	hcr_mRNA	product
+re11	hemH	reactant
+re11	hemH_mRNA	product
+re12	katG	reactant
+re12	katG_mRNA	product
+re13	mntH	reactant
+re13	mntH_mRNA	product
+re14	oxyS	reactant
+re14	oxyS_mRNA	product
+re15	poxB	reactant
+re15	poxB_mRNA	product
+re16	sufA	reactant
+re16	sufA_mRNA	product
+re17	sufB	reactant
+re17	sufB_mRNA	product
+re18	sufC	reactant
+re18	sufC_mRNA	product
+re19	sufD	reactant
+re19	sufD_mRNA	product
+re20	sufE	reactant
+re20	sufE_mRNA	product
+re21	sufS	reactant
+re21	sufS_mRNA	product
+re22	trxC	reactant
+re22	trxC_mRNA	product
+re23	uof	reactant
+re23	uof_mRNA	product
+re24	ahpC_mRNA	reactant
+re24	AhpC	product
+re25	AhpC	reactant
+re25	AhpF	reactant
+re25	AhpC-AhpF	product
+re26	ROOH	reactant
+re26	alcohol	product
+re27	ahpF_mRNA	reactant
+re27	AhpF	product
+re28	ccp_mRNA	reactant
+re28	Ccp	product
+re29	menaquinol	reactant
+re29	perhydrol	reactant
+re29	vitamin K2	product
+re30	dps_mRNA	reactant
+re30	Dps	product
+re31	dsbG_mRNA	reactant
+re31	DsbG	product
+re32	protein with incorrect disulfide bonds	reactant
+re32	protein with correct disulfide bonds	product
+re33	protein with reduced SH groups	reactant
+re33	protein with oxidized disulfide bonds	product
+re34	fur_mRNA	reactant
+re34	Fur	product
+re35	gor_mRNA	reactant
+re35	Gor	product
+re36	GSSG	reactant
+re36	glutathione	product
+re37	grxA_mRNA	reactant
+re37	GrxA	product
+re38	reduced glutaredoxin	reactant
+re38	S-sulfocysteine	reactant
+re38	oxidized glutaredoxin	product
+re38	cysteine	product
+re38	sulfite	product
+re39	hcp_mRNA	reactant
+re39	Hcp	product
+re40	A(H2)	reactant
+re40	NH2OH	reactant
+re40	acceptors	product
+re40	ammonium	product
+re41	hcr_mRNA	reactant
+re41	Hcr	product
+re42	oxidized hybrid-cluster protein	reactant
+re42	reduced hybrid-cluster protein	product
+re43	hemH_mRNA	reactant
+re43	HemH	product
+re44	protoheme IX	reactant
+re44	protoporphyrin	product
+re44	Fe+2	product
+re45	katG_mRNA	reactant
+re45	KatG	product
+re46	perhydrol	reactant
+re46	oxygen	product
+re47	perhydrol	reactant
+re47	A(H2)	reactant
+re47	acceptors	product
+re48	mntH_mRNA	reactant
+re48	MntH	product
+re49	Fe+2_Ext	reactant
+re49	Fe+2	product
+re50	Mn(II)_Ext	reactant
+re50	Mn(II)	product
+re51	oxyS_mRNA	reactant
+re51	RNA:OxyS	product
+re52	poxB_mRNA	reactant
+re52	PoxB	product
+re53	ubiquinone	reactant
+re53	pyruvate	reactant
+re53	ubiquinol	product
+re53	acetate	product
+re53	CO2	product
+re54	pyruvate	reactant
+re54	ethanal	reactant
+re54	acetoin	product
+re54	CO2	product
+re55	sufA_mRNA	reactant
+re55	SufA	product
+re56	sufB_mRNA	reactant
+re56	SufB	product
+re57	SufD	reactant
+re57	SufC	reactant
+re57	SufB	reactant
+re57	SufB-SufC-SufD	product
+re58	sufC_mRNA	reactant
+re58	SufC	product
+re59	sufD_mRNA	reactant
+re59	SufD	product
+re60	sufE_mRNA	reactant
+re60	SufE	product
+re61	sufS_mRNA	reactant
+re61	SufS	product
+re62	unsulfurated [sulfur donor]	reactant
+re62	cysteine	reactant
+re62	sulfurated sulfur donor	product
+re62	alanine	product
+re63	protein cysteines	reactant
+re63	cysteine	reactant
+re63	[L-cysteine desulfurase] L-cysteine persulfide	product
+re63	alanine	product
+re64	[L-cysteine desulfurase] L-cysteine persulfide	reactant
+re64	unsulfurated [sulfur donor]	reactant
+re64	sulfurated sulfur donor	product
+re64	protein cysteines	product
+re65	3-sulfinoalanine	reactant
+re65	sulfite	product
+re65	alanine	product
+re66	selenocysteine	reactant
+re66	A(H2)	reactant
+re66	acceptors	product
+re66	selenide	product
+re66	alanine	product
+re67	trxC_mRNA	reactant
+re67	TrxC	product
+re68	uof_mRNA	reactant
+re68	Uof	product

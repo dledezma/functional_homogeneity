@@ -28,17 +28,17 @@ re13	diphosphate	product
 re13	H2Pte	product
 re14	folC_mRNA	reactant
 re14	FolC	product
-re15	THF polyglutamate	reactant
+re15	methylene-H4PteGlu(n)	reactant
 re15	L-glutamate	reactant
-re15	THF polyglutamate	product
+re15	methylene-H4PteGlu(n)	product
 re15	phosphate	product
 re16	10-formyl-THF mono-L-glutamate	reactant
 re16	L-glutamate	reactant
 re16	10-formyl-THF mono-L-glutamate	product
 re16	phosphate	product
-re17	methylene-H4PteGlu(n)	reactant
+re17	THF polyglutamate	reactant
 re17	L-glutamate	reactant
-re17	methylene-H4PteGlu(n)	product
+re17	THF polyglutamate	product
 re17	phosphate	product
 re18	L-glutamate	reactant
 re18	H2Pte	reactant
@@ -88,13 +88,11 @@ re35	L-glutamate	product
 re36	pabA_mRNA	reactant
 re36	PabA	product
 re37	pabC_mRNA	reactant
-re37	pabC	product
+re37	PabC	product
 re38	4-amino-4-deoxychorismate	reactant
 re38	pyruvate	product
 re38	pABA	product
-re39	pabC_mRNA	reactant
-re39	PabC	product
-re40	PabA	reactant
-re40	pabC	reactant
-re40	PabB	reactant
-re40	PabA-PabB-pabC	product
+re39	PabC	reactant
+re39	PabA	reactant
+re39	PabB	reactant
+re39	PabA-PabB-PabC	product

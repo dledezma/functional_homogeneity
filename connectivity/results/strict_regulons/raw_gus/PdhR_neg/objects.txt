@@ -1,4 +1,6 @@
 2-(alpha-hydroxyethyl)-TPP	SIMPLE_MOLECULE	2-ALPHA-HYDROXYETHYL-THPP
+2-hydroxybutyrate	SIMPLE_MOLECULE	CPD-3564
+2-hydroxybutyrate_Ext	SIMPLE_MOLECULE	CPD-3564_Ext
 5'-UMP	SIMPLE_MOLECULE	UMP
 5-aminolevulinate	SIMPLE_MOLECULE	5-AMINO-LEVULINATE
 A(H2)	SIMPLE_MOLECULE	|Donor-H2|
@@ -56,6 +58,8 @@ SucA	PROTEIN	E1O-MONOMER
 SucA-SucB-Lpd	COMPLEX	2OXOGLUTARATEDEH-CPLX
 SucB	PROTEIN	E2O-MONOMER
 THF polyglutamate	SIMPLE_MOLECULE	THF-GLU-N
+Te0	SIMPLE_MOLECULE	CPD-16009
+TeO2	SIMPLE_MOLECULE	CPD-4544
 ThPP	SIMPLE_MOLECULE	THIAMINE-PYROPHOSPHATE
 TomB	PROTEIN	EG12429-MONOMER
 UDP-3-O-(3-hydroxymyristoyl)-N-acetylglucosamine	SIMPLE_MOLECULE	UDP-OHMYR-ACETYLGLUCOSAMINE
@@ -102,10 +106,12 @@ ddlB	GENE
 ddlB_mRNA	RNA
 diphosphate	SIMPLE_MOLECULE	PPI
 ditrans,polycis-undecaprenyl phosphate	SIMPLE_MOLECULE	CPD-9646
+electron-transfer quinol	SIMPLE_MOLECULE	|ETR-Quinols|
+electron-transfer quinone	SIMPLE_MOLECULE	|ETR-Quinones|
 enzyme N6-(dihydrolipoyl)lysine	SIMPLE_MOLECULE	|Oxo-glutarate-dehydrogenase-DH-lipoyl|
 enzyme N6-(lipoyl)lysine	SIMPLE_MOLECULE	|Oxo-glutarate-dehydrogenase-lipoyl|
 farnesyl-PP	SIMPLE_MOLECULE	FARNESYL-PP
-ferroheme o	SIMPLE_MOLECULE	HEME_O
+ferroheme o	SIMPLE_MOLECULE	CPD-17063
 ftsA	GENE
 ftsA_mRNA	RNA
 ftsI	GENE
@@ -143,11 +149,10 @@ hemL_mRNA	RNA
 hha	GENE
 hha_mRNA	RNA
 ketoglutarate	SIMPLE_MOLECULE	2-KETOGLUTARATE
-lactate	SIMPLE_MOLECULE	D-LACTATE
-lactate_Ext	SIMPLE_MOLECULE	D-LACTATE_Ext
+lactate	SIMPLE_MOLECULE	L-LACTATE
+lactate_Ext	SIMPLE_MOLECULE	L-LACTATE_Ext
 lipid I	SIMPLE_MOLECULE	C5
 lipid II	SIMPLE_MOLECULE	C6
-lipid II_Ext	SIMPLE_MOLECULE	C6_Ext
 lipoyl-domain	SIMPLE_MOLECULE	|Lipoyl-Protein-N6-lipoyllysine|
 lpd	GENE
 lpd_mRNA	RNA
@@ -180,7 +185,7 @@ pdhR	GENE
 pdhR_mRNA	RNA
 peptidoglycan with (L-alanyl-gamma-D-glutamyl-meso-2,6-diaminopimeloyl-D-alanine) tetrapeptide	SIMPLE_MOLECULE	CPD-17931
 phosphate	SIMPLE_MOLECULE	|Pi|
-protoheme IX	SIMPLE_MOLECULE	|Heme-b|
+protoheme IX	SIMPLE_MOLECULE	PROTOHEME
 pyruvate	SIMPLE_MOLECULE	PYRUVATE
 rsmH	GENE
 rsmH_mRNA	RNA

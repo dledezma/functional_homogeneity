@@ -29,66 +29,70 @@ re14	EntB	product
 re15	isochorismate	reactant
 re15	(2S,3S)-2,3-dihydroxy-2,3-dihydrobenzoate	product
 re15	pyruvate	product
+re16	EntB	reactant
 re16	EntD	reactant
 re16	EntE	reactant
-re16	EntB	reactant
 re16	EntF	reactant
 re16	EntB-EntD-EntF-EntE	product
 re17	2-pyrocatechuate	reactant
 re17	serine	reactant
 re17	enterobactin	product
 re17	diphosphate	product
+re18	holo EntB monomer	reactant
 re18	2-pyrocatechuate	reactant
-re18	2,3-dihydroxybenzoyl-AMP	product
+re18	2,3-dihydroxybenzoyl-EntB	product
 re18	diphosphate	product
-re19	2,3-dihydroxybenzoyl-AMP	reactant
-re19	holo EntB monomer	reactant
-re19	2,3-dihydroxybenzoyl-EntB	product
-re20	serine	reactant
-re20	diphosphate	product
-re20	seryl-AMP	product
-re21	holo-[EntF peptidyl-carrier protein]	reactant
-re21	seryl-AMP	reactant
-re21	seryl-[EntF peptidyl-carrier protein]	product
-re22	seryl-[EntF peptidyl-carrier protein]	reactant
-re22	2,3-dihydroxybenzoyl-EntB	reactant
-re22	DHB-seryl-[EntF peptidyl-carrier protein]	product
-re22	holo EntB monomer	product
-re23	DHB-seryl-[EntF peptidyl-carrier protein]	reactant
-re23	holo-[EntF peptidyl-carrier protein]	product
-re23	enterobactin	product
-re24	entC_mRNA	reactant
-re24	EntC	product
-re25	chorismate	reactant
-re25	isochorismate	product
-re26	entD_mRNA	reactant
-re26	EntD	product
-re27	enterochelin synthase F	reactant
+re19	serine	reactant
+re19	diphosphate	product
+re19	seryl-AMP	product
+re20	holo-[EntF peptidyl-carrier protein]	reactant
+re20	seryl-AMP	reactant
+re20	seryl-[EntF peptidyl-carrier protein]	product
+re21	seryl-[EntF peptidyl-carrier protein]	reactant
+re21	2,3-dihydroxybenzoyl-EntB	reactant
+re21	DHB-seryl-[EntF peptidyl-carrier protein]	product
+re21	holo EntB monomer	product
+re22	DHB-seryl-[EntF peptidyl-carrier protein]	reactant
+re22	holo-[EntF peptidyl-carrier protein]	product
+re22	enterobactin	product
+re23	entC_mRNA	reactant
+re23	EntC	product
+re24	chorismate	reactant
+re24	isochorismate	product
+re25	entD_mRNA	reactant
+re25	EntD	product
+re26	enterochelin synthase F	reactant
+re26	coenzyme A	reactant
+re26	holo-[EntF peptidyl-carrier protein]	product
+re26	3',5'-ADP	product
 re27	coenzyme A	reactant
-re27	holo-[EntF peptidyl-carrier protein]	product
+re27	EntB	reactant
+re27	holo EntB monomer	product
 re27	3',5'-ADP	product
-re28	coenzyme A	reactant
-re28	EntB	reactant
-re28	holo EntB monomer	product
-re28	3',5'-ADP	product
-re29	entE_mRNA	reactant
-re29	EntE	product
-re30	entH_mRNA	reactant
-re30	EntH	product
-re31	2,3-dihydroxybenzoyl-EntB	reactant
-re31	2-pyrocatechuate	product
-re31	holo-EntB	product
-re32	3-hydroxybenzoyl-CoA	reactant
-re32	3-hydroxybenzoate	product
-re32	coenzyme A	product
-re33	fepA_mRNA	reactant
-re33	FepA	product
-re34	FepA	reactant
-re34	ExbD	reactant
-re34	TonB	reactant
-re34	ExbB	reactant
-re34	ExbD-ExbB-TonB-FepA	product
-re35	ferric enterobactin_Ext	reactant
-re35	ferric enterobactin	product
-re36	fiu_mRNA	reactant
-re36	Fiu	product
+re28	entE_mRNA	reactant
+re28	EntE	product
+re29	2-pyrocatechuate	reactant
+re29	2,3-dihydroxybenzoyl-AMP	product
+re29	diphosphate	product
+re30	2,3-dihydroxybenzoyl-AMP	reactant
+re30	holo EntB monomer	reactant
+re30	2,3-dihydroxybenzoyl-EntB	product
+re31	entH_mRNA	reactant
+re31	EntH	product
+re32	2,3-dihydroxybenzoyl-EntB	reactant
+re32	2-pyrocatechuate	product
+re32	holo-EntB	product
+re33	3-hydroxybenzoyl-CoA	reactant
+re33	3-hydroxybenzoate	product
+re33	coenzyme A	product
+re34	fepA_mRNA	reactant
+re34	FepA	product
+re35	FepA	reactant
+re35	ExbB	reactant
+re35	TonB	reactant
+re35	ExbD	reactant
+re35	ExbD-ExbB-TonB-FepA	product
+re36	ferric enterobactin_Ext	reactant
+re36	ferric enterobactin	product
+re37	fiu_mRNA	reactant
+re37	Fiu	product

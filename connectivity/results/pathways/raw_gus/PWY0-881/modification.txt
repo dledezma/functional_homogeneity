@@ -1,174 +1,21 @@
 re100	CATALYSIS	EntB-EntD-EntF-EntE
 re101	CATALYSIS	EntB-EntD-EntF-EntE
+re102	CATALYSIS	EntB-EntD-EntF-EntE
+re103	CATALYSIS	EntB-EntD-EntF-EntE
 re17	CATALYSIS	AccA-AccD
-re17	INHIBITION	(2E)-dec-2-enoyl-[acp]	REG0-10525
-re17	INHIBITION	(2E)-dodec-2-enoyl-[acp]	REG0-10525
-re17	INHIBITION	(2E,11Z)-octadeca-2,11-dienoyl-[acp]	REG0-10525
-re17	INHIBITION	(3R)-3-hydroxy cis delta7-tetradecenoyl-[acp]	REG0-10525
-re17	INHIBITION	(3R)-3-hydroxy cis delta9-hexadecenoyl-[acp]	REG0-10525
-re17	INHIBITION	(3R)-3-hydroxy-cis-vaccenoyl-[acp]	REG0-10525
-re17	INHIBITION	(3R)-3-hydroxyglutaryl-[acp] methyl ester	REG0-10525
-re17	INHIBITION	(5Z)-dodec-5-enoyl-[acp]	REG0-10525
-re17	INHIBITION	18:0-ACP	REG0-10525
-re17	INHIBITION	2,3,4-saturated fatty acyl-[acp]	REG0-10525
-re17	INHIBITION	2,3-dihydroxybenzoyl-EntB	REG0-10525
-re17	INHIBITION	3-hydroxypimeloyl-[acp] methyl ester	REG0-10525
-re17	INHIBITION	3-ketopimelyl-[acp] methyl ester	REG0-10525
-re17	INHIBITION	3-oxo-cis-delta7-tetradecenoyl-[acp]	REG0-10525
-re17	INHIBITION	3-oxo-cis-delta9-hexadecenoyl-[acp]	REG0-10525
-re17	INHIBITION	3-oxo-cis-vaccenoyl-[acp]	REG0-10525
-re17	INHIBITION	3-oxo-decanoyl-[acp]	REG0-10525
-re17	INHIBITION	3-oxo-dodecanoyl-[acp]	REG0-10525
-re17	INHIBITION	3-oxo-glutaryl-[acp] methyl ester	REG0-10525
-re17	INHIBITION	3-oxo-hexanoyl-[acp]	REG0-10525
-re17	INHIBITION	3-oxo-myristoyl-[acp]	REG0-10525
-re17	INHIBITION	3-oxo-octanoyl-[acp]	REG0-10525
-re17	INHIBITION	3-oxo-palmitoyl-[acp]	REG0-10525
-re17	INHIBITION	AcpP	REG0-10525
-re17	INHIBITION	CH3(CH2)xCH=CHCO-S-ACP	REG0-10525
-re17	INHIBITION	acetoacetyl-[acp]	REG0-10525
-re17	INHIBITION	acetoacyl-ACP	REG0-10525
-re17	INHIBITION	acetyl-[acp]	REG0-10525
 re17	INHIBITION	acyl-ACP	REG0-10525
-re17	INHIBITION	beta-OH-acyl-ACP	REG0-10525
-re17	INHIBITION	beta-hydroxydecanoyl-[acp]	REG0-10525
-re17	INHIBITION	beta-hydroxydodecanoyl-[acp]	REG0-10525
-re17	INHIBITION	beta-hydroxyhexanoyl-[acp]	REG0-10525
-re17	INHIBITION	beta-hydroxymyristoyl-[acp]	REG0-10525
-re17	INHIBITION	butyryl-[acp]	REG0-10525
-re17	INHIBITION	cis-delta7-tetradecenoyl-[acp]	REG0-10525
-re17	INHIBITION	cis-vaccenoyl-[acp]	REG0-10525
-re17	INHIBITION	crotonyl-[acp]	REG0-10525
-re17	INHIBITION	decanoyl-[acp]	REG0-10525
-re17	INHIBITION	enoylglutaryl-[acp] methyl ester	REG0-10525
-re17	INHIBITION	enoylpimelyl-[acp] methyl ester	REG0-10525
-re17	INHIBITION	glutaryl-[acp] methyl ester	REG0-10525
-re17	INHIBITION	hexanoyl-[acp]	REG0-10525
-re17	INHIBITION	lauryl-[acp]	REG0-10525
-re17	INHIBITION	myristoyl-[acp]	REG0-10525
-re17	INHIBITION	octanoyl-[acp]	REG0-10525
-re17	INHIBITION	palmitoleoyl-[acp]	REG0-10525
-re17	INHIBITION	pimelyl-[acp] methyl ester	REG0-10525
-re17	INHIBITION	trans hex-2-enoyl-[acp]	REG0-10525
-re17	INHIBITION	trans hexadecenoyl-[acp]	REG0-10525
-re17	INHIBITION	trans tetradec-2-enoyl-[acp]	REG0-10525
-re17	INHIBITION	trans-delta3-cis-delta7-tetradecenoyl-[acp]	REG0-10525
-re17	INHIBITION	trans-delta3-cis-delta9-hexadecenoyl-[acp]	REG0-10525
 re20	CATALYSIS	AccC
-re22	CATALYSIS	AccD-AccA-AccC-AccB
-re25	CATALYSIS	FabD
-re25	INHIBITION	acetyl-CoA	REG0-7082
-re25	INHIBITION	coenzyme A	REG0-7083
-re25	INHIBITION	malonyl-S-ACP	REG0-7084
+re24	CATALYSIS	FabD
+re24	INHIBITION	acetyl-CoA	REG0-7082
+re24	INHIBITION	coenzyme A	REG0-7083
+re24	INHIBITION	malonyl-S-ACP	REG0-7084
+re26	CATALYSIS	FabH
+re26	CATALYSIS	KASIII
+re26	INHIBITION	acyl-ACP	REG0-8790
+re26	INHIBITION	acyl-ACP	REG0-8791
 re27	CATALYSIS	FabH
-re27	INHIBITION	(2E)-dec-2-enoyl-[acp]	REG0-8790
-re27	INHIBITION	(2E)-dec-2-enoyl-[acp]	REG0-8791
-re27	INHIBITION	(2E)-dodec-2-enoyl-[acp]	REG0-8790
-re27	INHIBITION	(2E)-dodec-2-enoyl-[acp]	REG0-8791
-re27	INHIBITION	(2E,11Z)-octadeca-2,11-dienoyl-[acp]	REG0-8790
-re27	INHIBITION	(2E,11Z)-octadeca-2,11-dienoyl-[acp]	REG0-8791
-re27	INHIBITION	(3R)-3-hydroxy cis delta7-tetradecenoyl-[acp]	REG0-8790
-re27	INHIBITION	(3R)-3-hydroxy cis delta7-tetradecenoyl-[acp]	REG0-8791
-re27	INHIBITION	(3R)-3-hydroxy cis delta9-hexadecenoyl-[acp]	REG0-8790
-re27	INHIBITION	(3R)-3-hydroxy cis delta9-hexadecenoyl-[acp]	REG0-8791
-re27	INHIBITION	(3R)-3-hydroxy-cis-vaccenoyl-[acp]	REG0-8790
-re27	INHIBITION	(3R)-3-hydroxy-cis-vaccenoyl-[acp]	REG0-8791
-re27	INHIBITION	(3R)-3-hydroxyglutaryl-[acp] methyl ester	REG0-8790
-re27	INHIBITION	(3R)-3-hydroxyglutaryl-[acp] methyl ester	REG0-8791
-re27	INHIBITION	(5Z)-dodec-5-enoyl-[acp]	REG0-8790
-re27	INHIBITION	(5Z)-dodec-5-enoyl-[acp]	REG0-8791
-re27	INHIBITION	18:0-ACP	REG0-8790
-re27	INHIBITION	18:0-ACP	REG0-8791
-re27	INHIBITION	2,3,4-saturated fatty acyl-[acp]	REG0-8790
-re27	INHIBITION	2,3,4-saturated fatty acyl-[acp]	REG0-8791
-re27	INHIBITION	2,3-dihydroxybenzoyl-EntB	REG0-8790
-re27	INHIBITION	2,3-dihydroxybenzoyl-EntB	REG0-8791
-re27	INHIBITION	3-hydroxypimeloyl-[acp] methyl ester	REG0-8790
-re27	INHIBITION	3-hydroxypimeloyl-[acp] methyl ester	REG0-8791
-re27	INHIBITION	3-ketopimelyl-[acp] methyl ester	REG0-8790
-re27	INHIBITION	3-ketopimelyl-[acp] methyl ester	REG0-8791
-re27	INHIBITION	3-oxo-cis-delta7-tetradecenoyl-[acp]	REG0-8790
-re27	INHIBITION	3-oxo-cis-delta7-tetradecenoyl-[acp]	REG0-8791
-re27	INHIBITION	3-oxo-cis-delta9-hexadecenoyl-[acp]	REG0-8790
-re27	INHIBITION	3-oxo-cis-delta9-hexadecenoyl-[acp]	REG0-8791
-re27	INHIBITION	3-oxo-cis-vaccenoyl-[acp]	REG0-8790
-re27	INHIBITION	3-oxo-cis-vaccenoyl-[acp]	REG0-8791
-re27	INHIBITION	3-oxo-decanoyl-[acp]	REG0-8790
-re27	INHIBITION	3-oxo-decanoyl-[acp]	REG0-8791
-re27	INHIBITION	3-oxo-dodecanoyl-[acp]	REG0-8790
-re27	INHIBITION	3-oxo-dodecanoyl-[acp]	REG0-8791
-re27	INHIBITION	3-oxo-glutaryl-[acp] methyl ester	REG0-8790
-re27	INHIBITION	3-oxo-glutaryl-[acp] methyl ester	REG0-8791
-re27	INHIBITION	3-oxo-hexanoyl-[acp]	REG0-8790
-re27	INHIBITION	3-oxo-hexanoyl-[acp]	REG0-8791
-re27	INHIBITION	3-oxo-myristoyl-[acp]	REG0-8790
-re27	INHIBITION	3-oxo-myristoyl-[acp]	REG0-8791
-re27	INHIBITION	3-oxo-octanoyl-[acp]	REG0-8790
-re27	INHIBITION	3-oxo-octanoyl-[acp]	REG0-8791
-re27	INHIBITION	3-oxo-palmitoyl-[acp]	REG0-8790
-re27	INHIBITION	3-oxo-palmitoyl-[acp]	REG0-8791
-re27	INHIBITION	AcpP	REG0-8790
-re27	INHIBITION	AcpP	REG0-8791
-re27	INHIBITION	CH3(CH2)xCH=CHCO-S-ACP	REG0-8790
-re27	INHIBITION	CH3(CH2)xCH=CHCO-S-ACP	REG0-8791
-re27	INHIBITION	acetoacetyl-[acp]	REG0-8790
-re27	INHIBITION	acetoacetyl-[acp]	REG0-8791
-re27	INHIBITION	acetoacyl-ACP	REG0-8790
-re27	INHIBITION	acetoacyl-ACP	REG0-8791
-re27	INHIBITION	acetyl-[acp]	REG0-8790
-re27	INHIBITION	acetyl-[acp]	REG0-8791
-re27	INHIBITION	acyl-ACP	REG0-8790
-re27	INHIBITION	acyl-ACP	REG0-8791
-re27	INHIBITION	beta-OH-acyl-ACP	REG0-8790
-re27	INHIBITION	beta-OH-acyl-ACP	REG0-8791
-re27	INHIBITION	beta-hydroxydecanoyl-[acp]	REG0-8790
-re27	INHIBITION	beta-hydroxydecanoyl-[acp]	REG0-8791
-re27	INHIBITION	beta-hydroxydodecanoyl-[acp]	REG0-8790
-re27	INHIBITION	beta-hydroxydodecanoyl-[acp]	REG0-8791
-re27	INHIBITION	beta-hydroxyhexanoyl-[acp]	REG0-8790
-re27	INHIBITION	beta-hydroxyhexanoyl-[acp]	REG0-8791
-re27	INHIBITION	beta-hydroxymyristoyl-[acp]	REG0-8790
-re27	INHIBITION	beta-hydroxymyristoyl-[acp]	REG0-8791
-re27	INHIBITION	butyryl-[acp]	REG0-8790
-re27	INHIBITION	butyryl-[acp]	REG0-8791
-re27	INHIBITION	cis-delta7-tetradecenoyl-[acp]	REG0-8790
-re27	INHIBITION	cis-delta7-tetradecenoyl-[acp]	REG0-8791
-re27	INHIBITION	cis-vaccenoyl-[acp]	REG0-8790
-re27	INHIBITION	cis-vaccenoyl-[acp]	REG0-8791
-re27	INHIBITION	crotonyl-[acp]	REG0-8790
-re27	INHIBITION	crotonyl-[acp]	REG0-8791
-re27	INHIBITION	decanoyl-[acp]	REG0-8790
-re27	INHIBITION	decanoyl-[acp]	REG0-8791
-re27	INHIBITION	enoylglutaryl-[acp] methyl ester	REG0-8790
-re27	INHIBITION	enoylglutaryl-[acp] methyl ester	REG0-8791
-re27	INHIBITION	enoylpimelyl-[acp] methyl ester	REG0-8790
-re27	INHIBITION	enoylpimelyl-[acp] methyl ester	REG0-8791
-re27	INHIBITION	glutaryl-[acp] methyl ester	REG0-8790
-re27	INHIBITION	glutaryl-[acp] methyl ester	REG0-8791
-re27	INHIBITION	hexanoyl-[acp]	REG0-8790
-re27	INHIBITION	hexanoyl-[acp]	REG0-8791
-re27	INHIBITION	lauryl-[acp]	REG0-8790
-re27	INHIBITION	lauryl-[acp]	REG0-8791
-re27	INHIBITION	myristoyl-[acp]	REG0-8790
-re27	INHIBITION	myristoyl-[acp]	REG0-8791
-re27	INHIBITION	octanoyl-[acp]	REG0-8790
-re27	INHIBITION	octanoyl-[acp]	REG0-8791
-re27	INHIBITION	palmitoleoyl-[acp]	REG0-8790
-re27	INHIBITION	palmitoleoyl-[acp]	REG0-8791
-re27	INHIBITION	pimelyl-[acp] methyl ester	REG0-8790
-re27	INHIBITION	pimelyl-[acp] methyl ester	REG0-8791
-re27	INHIBITION	trans hex-2-enoyl-[acp]	REG0-8790
-re27	INHIBITION	trans hex-2-enoyl-[acp]	REG0-8791
-re27	INHIBITION	trans hexadecenoyl-[acp]	REG0-8790
-re27	INHIBITION	trans hexadecenoyl-[acp]	REG0-8791
-re27	INHIBITION	trans tetradec-2-enoyl-[acp]	REG0-8790
-re27	INHIBITION	trans tetradec-2-enoyl-[acp]	REG0-8791
-re27	INHIBITION	trans-delta3-cis-delta7-tetradecenoyl-[acp]	REG0-8790
-re27	INHIBITION	trans-delta3-cis-delta7-tetradecenoyl-[acp]	REG0-8791
-re27	INHIBITION	trans-delta3-cis-delta9-hexadecenoyl-[acp]	REG0-8790
-re27	INHIBITION	trans-delta3-cis-delta9-hexadecenoyl-[acp]	REG0-8791
-re28	CATALYSIS	FabH
-re28	INHIBITION	coenzyme A	REG0-8249
+re27	CATALYSIS	KASIII
+re27	INHIBITION	coenzyme A	REG0-8249
 re30	CATALYSIS	FabA
 re30	CATALYSIS	FabZ
 re31	CATALYSIS	FabA
@@ -194,60 +41,8 @@ re43	CATALYSIS	FabZ
 re44	CATALYSIS	FabZ
 re46	CATALYSIS	FabI
 re47	CATALYSIS	FabI
-re47	INHIBITION	(2E)-dec-2-enoyl-[acp]	REG0-8493
-re47	INHIBITION	(2E)-dodec-2-enoyl-[acp]	REG0-8493
-re47	INHIBITION	(2E,11Z)-octadeca-2,11-dienoyl-[acp]	REG0-8493
-re47	INHIBITION	(3R)-3-hydroxy cis delta7-tetradecenoyl-[acp]	REG0-8493
-re47	INHIBITION	(3R)-3-hydroxy cis delta9-hexadecenoyl-[acp]	REG0-8493
-re47	INHIBITION	(3R)-3-hydroxy-cis-vaccenoyl-[acp]	REG0-8493
-re47	INHIBITION	(3R)-3-hydroxyglutaryl-[acp] methyl ester	REG0-8493
-re47	INHIBITION	(5Z)-dodec-5-enoyl-[acp]	REG0-8493
-re47	INHIBITION	18:0-ACP	REG0-8493
-re47	INHIBITION	2,3,4-saturated fatty acyl-[acp]	REG0-8493
-re47	INHIBITION	2,3-dihydroxybenzoyl-EntB	REG0-8493
-re47	INHIBITION	3-hydroxypimeloyl-[acp] methyl ester	REG0-8493
-re47	INHIBITION	3-ketopimelyl-[acp] methyl ester	REG0-8493
-re47	INHIBITION	3-oxo-cis-delta7-tetradecenoyl-[acp]	REG0-8493
-re47	INHIBITION	3-oxo-cis-delta9-hexadecenoyl-[acp]	REG0-8493
-re47	INHIBITION	3-oxo-cis-vaccenoyl-[acp]	REG0-8493
-re47	INHIBITION	3-oxo-decanoyl-[acp]	REG0-8493
-re47	INHIBITION	3-oxo-dodecanoyl-[acp]	REG0-8493
-re47	INHIBITION	3-oxo-glutaryl-[acp] methyl ester	REG0-8493
-re47	INHIBITION	3-oxo-hexanoyl-[acp]	REG0-8493
-re47	INHIBITION	3-oxo-myristoyl-[acp]	REG0-8493
-re47	INHIBITION	3-oxo-octanoyl-[acp]	REG0-8493
-re47	INHIBITION	3-oxo-palmitoyl-[acp]	REG0-8493
-re47	INHIBITION	AcpP	REG0-8493
-re47	INHIBITION	CH3(CH2)xCH=CHCO-S-ACP	REG0-8493
-re47	INHIBITION	acetoacetyl-[acp]	REG0-8493
-re47	INHIBITION	acetoacyl-ACP	REG0-8493
-re47	INHIBITION	acetyl-[acp]	REG0-8493
-re47	INHIBITION	acyl-ACP	REG0-8493
-re47	INHIBITION	beta-OH-acyl-ACP	REG0-8493
-re47	INHIBITION	beta-hydroxydecanoyl-[acp]	REG0-8493
-re47	INHIBITION	beta-hydroxydodecanoyl-[acp]	REG0-8493
-re47	INHIBITION	beta-hydroxyhexanoyl-[acp]	REG0-8493
-re47	INHIBITION	beta-hydroxymyristoyl-[acp]	REG0-8493
-re47	INHIBITION	butyryl-[acp]	REG0-8493
-re47	INHIBITION	cis-delta7-tetradecenoyl-[acp]	REG0-8493
-re47	INHIBITION	cis-vaccenoyl-[acp]	REG0-8493
-re47	INHIBITION	crotonyl-[acp]	REG0-8493
-re47	INHIBITION	decanoyl-[acp]	REG0-8493
-re47	INHIBITION	enoylglutaryl-[acp] methyl ester	REG0-8493
-re47	INHIBITION	enoylpimelyl-[acp] methyl ester	REG0-8493
-re47	INHIBITION	glutaryl-[acp] methyl ester	REG0-8493
-re47	INHIBITION	hexanoyl-[acp]	REG0-8493
-re47	INHIBITION	lauryl-[acp]	REG0-8493
-re47	INHIBITION	myristoyl-[acp]	REG0-8493
-re47	INHIBITION	octanoyl-[acp]	REG0-8493
-re47	INHIBITION	palmitoleoyl-[acp]	REG0-8493
-re47	INHIBITION	pimelyl-[acp] methyl ester	REG0-8493
-re47	INHIBITION	trans hex-2-enoyl-[acp]	REG0-8493
-re47	INHIBITION	trans hexadecenoyl-[acp]	REG0-8493
-re47	INHIBITION	trans tetradec-2-enoyl-[acp]	REG0-8493
-re47	INHIBITION	trans-delta3-cis-delta7-tetradecenoyl-[acp]	REG0-8493
-re47	INHIBITION	trans-delta3-cis-delta9-hexadecenoyl-[acp]	REG0-8493
 re48	CATALYSIS	FabI
+re48	INHIBITION	acyl-ACP	REG0-8493
 re49	CATALYSIS	FabI
 re50	CATALYSIS	FabI
 re51	CATALYSIS	FabI
@@ -274,27 +69,40 @@ re72	CATALYSIS	FabG
 re73	CATALYSIS	FabG
 re74	CATALYSIS	FabG
 re76	CATALYSIS	FabB
+re76	CATALYSIS	KASI
 re77	CATALYSIS	FabB
+re77	CATALYSIS	KASI
 re78	CATALYSIS	FabB
+re78	CATALYSIS	KASI
 re79	CATALYSIS	FabB
+re79	CATALYSIS	KASI
 re80	CATALYSIS	FabB
+re80	CATALYSIS	KASI
 re81	CATALYSIS	FabB
+re81	CATALYSIS	KASI
 re82	CATALYSIS	FabB
+re82	CATALYSIS	KASI
 re83	CATALYSIS	FabB
+re83	CATALYSIS	KASI
 re84	CATALYSIS	FabB
+re84	CATALYSIS	KASI
 re85	CATALYSIS	FabB
+re85	CATALYSIS	KASI
 re86	CATALYSIS	FabB
 re87	CATALYSIS	FabB
 re87	CATALYSIS	FabF
+re87	CATALYSIS	KASI
+re87	CATALYSIS	KASII
 re88	CATALYSIS	FabB
 re88	CATALYSIS	FabF
+re88	CATALYSIS	KASI
+re88	CATALYSIS	KASII
 re88	INHIBITION	AcpP	REG0-11706
-re88	INHIBITION	holo EntB monomer	REG0-11706
 re89	CATALYSIS	FabB
-re91	CATALYSIS	FabF
-re93	CATALYSIS	EntB
-re95	CATALYSIS	EntB-EntD-EntF-EntE
-re96	CATALYSIS	EntB-EntD-EntF-EntE
-re97	CATALYSIS	EntB-EntD-EntF-EntE
+re89	CATALYSIS	KASI
+re91	CATALYSIS	KASI
+re93	CATALYSIS	FabF
+re93	CATALYSIS	KASII
+re96	CATALYSIS	EntB
 re98	CATALYSIS	EntB-EntD-EntF-EntE
 re99	CATALYSIS	EntB-EntD-EntF-EntE

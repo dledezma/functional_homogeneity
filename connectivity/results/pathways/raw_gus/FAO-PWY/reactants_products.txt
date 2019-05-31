@@ -14,53 +14,145 @@ re7	fadB	reactant
 re7	fadB_mRNA	product
 re8	fadA_mRNA	reactant
 re8	FadA	product
-re9	(3Z)-dodecenoyl-CoA	reactant
-re9	acetyl-CoA	reactant
-re9	3-keto-5-cis-tetradecenoyl-CoA	product
-re9	coenzyme A	product
-re10	RCOCH2CO-CoA	reactant
+re9	RCOCH2CO-CoA	reactant
+re9	coenzyme A	reactant
+re9	fatty acyln-CoA	product
+re9	acetyl-CoA	product
+re10	3-oxo-18:1-delta9-CoA	reactant
 re10	coenzyme A	reactant
-re10	fatty acyln-CoA	product
 re10	acetyl-CoA	product
-re11	FadA	reactant
-re11	FadB	reactant
-re11	FadB-FadA	product
-re12	fadI_mRNA	reactant
-re12	FadI	product
-re13	FadI	reactant
-re13	FadJ	reactant
-re13	FadJ-FadI	product
-re14	fadD_mRNA	reactant
-re14	FadD	product
-re15	2,3,4-saturated fatty acid	reactant
+re10	16:1(n-9)	product
+re11	3-oxo-16:1-delta7-CoA	reactant
+re11	coenzyme A	reactant
+re11	acetyl-CoA	product
+re11	14:1(n-9)	product
+re12	3-oxo-18:1-delta11-CoA	reactant
+re12	coenzyme A	reactant
+re12	16:1-delta9-CoA	product
+re12	acetyl-CoA	product
+re13	3-oxo-16:1-delta9-CoA	reactant
+re13	coenzyme A	reactant
+re13	14:1(n-7)-CoA	product
+re13	acetyl-CoA	product
+re14	3-oxo-14:1-delta7-CoA	reactant
+re14	coenzyme A	reactant
+re14	12:1(n-7)-CoA	product
+re14	acetyl-CoA	product
+re15	3-oxo-12:1-delta5-CoA	reactant
 re15	coenzyme A	reactant
-re15	fatty acyln-CoA	product
-re15	diphosphate	product
-re16	fadK_mRNA	reactant
-re16	FadK	product
-re17	fadE_mRNA	reactant
-re17	FadE	product
-re18	fatty acyln-CoA	reactant
-re18	oxidized ETF	reactant
-re18	trans-2,3-dehydroacyl-CoA	product
-re18	reduced ETF	product
-re19	fadJ_mRNA	reactant
-re19	FadJ	product
-re20	trans-2,3-dehydroacyl-CoA	reactant
-re20	3-OH-acyl-CoA	product
-re21	3-OH-acyl-CoA	reactant
-re21	3-OH-acyl-CoA	product
-re22	(3Z)-dodecenoyl-CoA	reactant
-re22	trans-2,3-dehydroacyl-CoA	product
-re23	(3Z)-dodecenoyl-CoA	reactant
-re23	(2E)-dodecenoyl-CoA	product
-re24	3-OH-acyl-CoA	reactant
-re24	RCOCH2CO-CoA	product
-re25	3-hydroxy-5-cis-tetradecenoyl-CoA	reactant
-re25	3-keto-5-cis-tetradecenoyl-CoA	product
-re26	fadB_mRNA	reactant
-re26	FadB	product
-re27	2-trans,5-cis-tetradecadienoyl-CoA	reactant
-re27	3-hydroxy-5-cis-tetradecenoyl-CoA	product
-re28	2-trans,5-cis-tetradecadienoyl-CoA	reactant
-re28	3E,5Z-tetradecadienoyl-CoA	product
+re15	10:1(n-7)-CoA	product
+re15	acetyl-CoA	product
+re16	3-keto-5-cis-tetradecenoyl-CoA	reactant
+re16	coenzyme A	reactant
+re16	(3Z)-dodecenoyl-CoA	product
+re16	acetyl-CoA	product
+re17	FadB	reactant
+re17	FadA	reactant
+re17	FadB-FadA	product
+re18	fadI_mRNA	reactant
+re18	FadI	product
+re19	FadJ	reactant
+re19	FadI	reactant
+re19	FadI-FadJ	product
+re20	fadD_mRNA	reactant
+re20	FadD	product
+re21	2,3,4-saturated fatty acid	reactant
+re21	coenzyme A	reactant
+re21	fatty acyln-CoA	product
+re21	diphosphate	product
+re22	2,3,4-saturated fatty acid_Ext	reactant
+re22	coenzyme A_Ext	reactant
+re22	fatty acyln-CoA	product
+re22	diphosphate	product
+re23	cis-vaccenate_Ext	reactant
+re23	coenzyme A_Ext	reactant
+re23	cis-vaccenoyl-CoA	product
+re23	diphosphate	product
+re24	coenzyme A_Ext	reactant
+re24	oleate_Ext	reactant
+re24	diphosphate	product
+re24	18:1(n-9)	product
+re25	palmitoleate_Ext	reactant
+re25	coenzyme A_Ext	reactant
+re25	16:1-delta9-CoA	product
+re25	diphosphate	product
+re26	fadK_mRNA	reactant
+re26	FadK	product
+re27	fadE_mRNA	reactant
+re27	FadE	product
+re28	fatty acyln-CoA	reactant
+re28	oxidized ETF	reactant
+re28	trans-2,3-dehydroacyl-CoA	product
+re28	reduced ETF	product
+re29	oxidized ETF	reactant
+re29	18:1(n-9)	reactant
+re29	(2E,9Z)-octadecenoyl-CoA	product
+re29	reduced ETF	product
+re30	oxidized ETF	reactant
+re30	16:1(n-9)	reactant
+re30	(2E,7Z)-hexadecenoyl-CoA	product
+re30	reduced ETF	product
+re31	oxidized ETF	reactant
+re31	14:1(n-9)	reactant
+re31	2-trans,5-cis-tetradecadienoyl-CoA	product
+re31	reduced ETF	product
+re32	cis-vaccenoyl-CoA	reactant
+re32	oxidized ETF	reactant
+re32	(2E,11Z)-octadecenoyl-CoA	product
+re32	reduced ETF	product
+re33	16:1-delta9-CoA	reactant
+re33	oxidized ETF	reactant
+re33	(2E,9Z)-hexadecenoyl-CoA	product
+re33	reduced ETF	product
+re34	14:1(n-7)-CoA	reactant
+re34	oxidized ETF	reactant
+re34	(2E,7Z)-tetradecenoyl-CoA	product
+re34	reduced ETF	product
+re35	12:1(n-7)-CoA	reactant
+re35	oxidized ETF	reactant
+re35	(2E,5Z)-dodecenoyl-CoA	product
+re35	reduced ETF	product
+re36	fadJ_mRNA	reactant
+re36	FadJ	product
+re37	3-OH-acyl-CoA	reactant
+re37	RCOCH2CO-CoA	product
+re38	(S)-3-hydroxy-18:1-delta9-CoA	reactant
+re38	3-oxo-18:1-delta9-CoA	product
+re39	(S)-3-hydroxy-16:1-delta7-CoA	reactant
+re39	3-oxo-16:1-delta7-CoA	product
+re40	3-hydroxy-5-cis-tetradecenoyl-CoA	reactant
+re40	3-keto-5-cis-tetradecenoyl-CoA	product
+re41	(S)-3-hydroxy-18:1-delta11-CoA	reactant
+re41	3-oxo-18:1-delta11-CoA	product
+re42	(S)-3-hydroxy-16:1-delta9-CoA	reactant
+re42	3-oxo-16:1-delta9-CoA	product
+re43	(S)-3-hydroxy-14:1-delta7-CoA	reactant
+re43	3-oxo-14:1-delta7-CoA	product
+re44	(S)-3-hydroxy-12:1-delta5-CoA	reactant
+re44	3-oxo-12:1-delta5-CoA	product
+re45	trans-2,3-dehydroacyl-CoA	reactant
+re45	3-OH-acyl-CoA	product
+re46	(2E,9Z)-octadecenoyl-CoA	reactant
+re46	(S)-3-hydroxy-18:1-delta9-CoA	product
+re47	(2E,7Z)-hexadecenoyl-CoA	reactant
+re47	(S)-3-hydroxy-16:1-delta7-CoA	product
+re48	2-trans,5-cis-tetradecadienoyl-CoA	reactant
+re48	3-hydroxy-5-cis-tetradecenoyl-CoA	product
+re49	(2E,11Z)-octadecenoyl-CoA	reactant
+re49	(S)-3-hydroxy-18:1-delta11-CoA	product
+re50	(2E,9Z)-hexadecenoyl-CoA	reactant
+re50	(S)-3-hydroxy-16:1-delta9-CoA	product
+re51	(2E,7Z)-tetradecenoyl-CoA	reactant
+re51	(S)-3-hydroxy-14:1-delta7-CoA	product
+re52	(2E,5Z)-dodecenoyl-CoA	reactant
+re52	(S)-3-hydroxy-12:1-delta5-CoA	product
+re53	3-OH-acyl-CoA	reactant
+re53	3-OH-acyl-CoA	product
+re54	(3Z)-dodecenoyl-CoA	reactant
+re54	trans-2,3-dehydroacyl-CoA	product
+re55	(3Z)-dodecenoyl-CoA	reactant
+re55	(2E)-dodecenoyl-CoA	product
+re56	fadB_mRNA	reactant
+re56	FadB	product
+re57	2-trans,5-cis-tetradecadienoyl-CoA	reactant
+re57	3E,5Z-tetradecadienoyl-CoA	product

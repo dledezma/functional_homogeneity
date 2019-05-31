@@ -11,20 +11,27 @@ re5	moaE_mRNA	product
 re6	moaA_mRNA	reactant
 re6	MoaA	product
 re7	guanosine-triphosphate	reactant
-re7	diphosphate	product
-re7	cPMP	product
+re7	A(H2)	reactant
+re7	SAM	reactant
+re7	5'-deoxyadenosine	product
+re7	3',8-cH2GTP	product
+re7	methionine	product
+re7	acceptors	product
 re8	moaB_mRNA	reactant
 re8	MoaB	product
 re9	moaC_mRNA	reactant
 re9	MoaC	product
-re10	moaD_mRNA	reactant
-re10	MoaD	product
-re11	MoaD	reactant
-re11	MoaE	reactant
-re11	MoaD-MoaE	product
-re12	thiocarboxylated small subunit of molybdopterin synthase	reactant
-re12	cPMP	reactant
-re12	small subunit of molybdopterin synthase	product
-re12	H2Dtpp-mP	product
-re13	moaE_mRNA	reactant
-re13	MoaE	product
+re10	3',8-cH2GTP	reactant
+re10	diphosphate	product
+re10	cPMP	product
+re11	moaD_mRNA	reactant
+re11	MoaD	product
+re12	MoaE	reactant
+re12	MoaD	reactant
+re12	MoaD-MoaE	product
+re13	thiocarboxylated small subunit of molybdopterin synthase	reactant
+re13	cPMP	reactant
+re13	MPT-Synthase-small-subunits	product
+re13	H2Dtpp-mP	product
+re14	moaE_mRNA	reactant
+re14	MoaE	product

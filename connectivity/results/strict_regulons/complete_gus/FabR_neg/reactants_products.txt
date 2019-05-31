@@ -7,17 +7,17 @@ re3	FabA	product
 re4	beta-OH-acyl-ACP	reactant
 re4	CH3(CH2)xCH=CHCO-S-ACP	product
 re5	AcpP	reactant
-re5	trans hexadecenoyl-[acp]	product
-re6	beta-hydroxyhexanoyl-[acp]	reactant
-re6	trans hex-2-enoyl-[acp]	product
-re7	beta-hydroxydecanoyl-[acp]	reactant
-re7	(2E)-dec-2-enoyl-[acp]	product
-re8	beta-hydroxydodecanoyl-[acp]	reactant
-re8	(2E)-dodec-2-enoyl-[acp]	product
-re9	beta-hydroxymyristoyl-[acp]	reactant
-re9	trans tetradec-2-enoyl-[acp]	product
+re5	crotonyl-[acp]	product
+re6	beta-hydroxymyristoyl-[acp]	reactant
+re6	trans tetradec-2-enoyl-[acp]	product
+re7	beta-hydroxydodecanoyl-[acp]	reactant
+re7	(2E)-dodec-2-enoyl-[acp]	product
+re8	beta-hydroxyhexanoyl-[acp]	reactant
+re8	trans hex-2-enoyl-[acp]	product
+re9	beta-hydroxydecanoyl-[acp]	reactant
+re9	(2E)-dec-2-enoyl-[acp]	product
 re10	AcpP	reactant
-re10	crotonyl-[acp]	product
+re10	trans hexadecenoyl-[acp]	product
 re11	AcpP	reactant
 re11	AcpP	product
 re12	(2E)-dec-2-enoyl-[acp]	reactant
@@ -91,38 +91,44 @@ re26	CO2	product
 re27	malonyl-S-ACP	reactant
 re27	acetyl-[acp]	product
 re27	CO2	product
-re28	acetoacyl-ACP	reactant
-re28	beta-OH-acyl-ACP	product
-re29	CH3(CH2)xCH=CHCO-S-ACP	reactant
-re29	2,3,4-saturated fatty acyl-[acp]	product
-re30	3-oxo-palmitoyl-[acp]	reactant
-re30	AcpP	product
-re31	3-oxo-hexanoyl-[acp]	reactant
-re31	beta-hydroxyhexanoyl-[acp]	product
-re32	trans hex-2-enoyl-[acp]	reactant
-re32	hexanoyl-[acp]	product
-re33	3-oxo-decanoyl-[acp]	reactant
-re33	beta-hydroxydecanoyl-[acp]	product
-re34	(2E)-dec-2-enoyl-[acp]	reactant
-re34	decanoyl-[acp]	product
-re35	acetoacyl-ACP	reactant
-re35	beta-hydroxydecanoyl-[acp]	product
-re36	3-oxo-dodecanoyl-[acp]	reactant
-re36	beta-hydroxydodecanoyl-[acp]	product
-re37	(2E)-dodec-2-enoyl-[acp]	reactant
-re37	lauryl-[acp]	product
-re38	3-oxo-myristoyl-[acp]	reactant
-re38	beta-hydroxymyristoyl-[acp]	product
-re39	trans tetradec-2-enoyl-[acp]	reactant
-re39	myristoyl-[acp]	product
-re40	crotonyl-[acp]	reactant
-re40	butyryl-[acp]	product
-re41	3-oxo-octanoyl-[acp]	reactant
-re41	AcpP	product
-re42	AcpP	reactant
-re42	octanoyl-[acp]	product
-re43	3-oxo-cis-delta7-tetradecenoyl-[acp]	reactant
-re43	cis-delta7-tetradecenoyl-[acp]	product
+re28	fabB_mRNA	reactant
+re28	KASI	product
+re29	malonyl-S-ACP	reactant
+re29	AcpP	reactant
+re29	AcpP	product
+re29	CO2	product
+re30	acetoacyl-ACP	reactant
+re30	beta-OH-acyl-ACP	product
+re31	CH3(CH2)xCH=CHCO-S-ACP	reactant
+re31	2,3,4-saturated fatty acyl-[acp]	product
+re32	crotonyl-[acp]	reactant
+re32	butyryl-[acp]	product
+re33	3-oxo-myristoyl-[acp]	reactant
+re33	beta-hydroxymyristoyl-[acp]	product
+re34	trans tetradec-2-enoyl-[acp]	reactant
+re34	myristoyl-[acp]	product
+re35	3-oxo-dodecanoyl-[acp]	reactant
+re35	beta-hydroxydodecanoyl-[acp]	product
+re36	(2E)-dodec-2-enoyl-[acp]	reactant
+re36	lauryl-[acp]	product
+re37	3-oxo-hexanoyl-[acp]	reactant
+re37	beta-hydroxyhexanoyl-[acp]	product
+re38	trans hex-2-enoyl-[acp]	reactant
+re38	hexanoyl-[acp]	product
+re39	3-oxo-decanoyl-[acp]	reactant
+re39	beta-hydroxydecanoyl-[acp]	product
+re40	(2E)-dec-2-enoyl-[acp]	reactant
+re40	decanoyl-[acp]	product
+re41	acetoacyl-ACP	reactant
+re41	beta-hydroxydecanoyl-[acp]	product
+re42	3-oxo-palmitoyl-[acp]	reactant
+re42	AcpP	product
+re43	3-oxo-octanoyl-[acp]	reactant
+re43	AcpP	product
 re44	AcpP	reactant
-re44	AcpP	reactant
-re44	(5Z)-dodec-5-enoyl-[acp]	product
+re44	octanoyl-[acp]	product
+re45	3-oxo-cis-delta7-tetradecenoyl-[acp]	reactant
+re45	cis-delta7-tetradecenoyl-[acp]	product
+re46	AcpP	reactant
+re46	AcpP	reactant
+re46	(5Z)-dodec-5-enoyl-[acp]	product

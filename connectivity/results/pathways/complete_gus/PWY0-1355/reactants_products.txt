@@ -26,9 +26,9 @@ re12	fdnI_mRNA	reactant
 re12	FdnI	product
 re13	fdoG_mRNA	reactant
 re13	FdoG	product
-re14	FdoH	reactant
 re14	FdoG	reactant
 re14	FdoI	reactant
+re14	FdoH	reactant
 re14	FdoG-FdoH-FdoI	product
 re15	vitamin K2_Ext	reactant
 re15	formate_Ext	reactant
@@ -40,8 +40,8 @@ re17	fdoI_mRNA	reactant
 re17	FdoI	product
 re18	torC_mRNA	reactant
 re18	TorC	product
-re19	TorA	reactant
 re19	TorC	reactant
+re19	TorA	reactant
 re19	TorC-TorA	product
 re20	menaquinol	reactant
 re20	TMAO	reactant
@@ -49,3 +49,7 @@ re20	vitamin K2	product
 re20	(CH3)3NH	product
 re21	torA_mRNA	reactant
 re21	TorA	product
+re22	a-reduced-TorC-protein	reactant
+re22	TMAO	reactant
+re22	an-oxidized-TorC-protein	product
+re22	(CH3)3NH	product

@@ -16,50 +16,46 @@ re8	entB	reactant
 re8	entB_mRNA	product
 re9	accD_mRNA	reactant
 re9	AccD	product
-re10	AccA	reactant
 re10	AccD	reactant
+re10	AccA	reactant
 re10	AccA-AccD	product
+re11	carboxybiotin-L-lysine-in-BCCP-dimers	reactant
 re11	acetyl-CoA	reactant
-re11	FabE	reactant
+re11	biotin-L-lysine-in-BCCP-dimers	product
 re11	malonyl-CoA	product
-re11	phosphate	product
-re11	BCCP	product
 re12	accA_mRNA	reactant
 re12	AccA	product
 re13	accC_mRNA	reactant
 re13	AccC	product
+re14	biotin-L-lysine-in-BCCP-dimers	reactant
 re14	carbonate	reactant
-re14	BCCP	reactant
+re14	carboxybiotin-L-lysine-in-BCCP-dimers	product
 re14	phosphate	product
-re14	FabE	product
-re15	AccB	reactant
-re15	AccC	reactant
 re15	AccA	reactant
+re15	AccC	reactant
 re15	AccD	reactant
-re15	AccD-AccA-AccC-AccB	product
-re16	acetyl-CoA	reactant
-re16	carbonate	reactant
-re16	malonyl-CoA	product
-re16	phosphate	product
-re17	accB_mRNA	reactant
-re17	AccB	product
-re18	fabD_mRNA	reactant
-re18	FabD	product
-re19	malonyl-CoA	reactant
-re19	AcpP	reactant
-re19	malonyl-S-ACP	product
-re19	coenzyme A	product
-re20	fabH_mRNA	reactant
-re20	FabH	product
-re21	malonyl-S-ACP	reactant
+re15	AccD-AccA-AccC	product
+re16	accB_mRNA	reactant
+re16	AccB	product
+re17	fabD_mRNA	reactant
+re17	FabD	product
+re18	malonyl-CoA	reactant
+re18	AcpP	reactant
+re18	malonyl-S-ACP	product
+re18	coenzyme A	product
+re19	fabH_mRNA	reactant
+re19	FabH	product
+re20	malonyl-S-ACP	reactant
+re20	acetyl-CoA	reactant
+re20	acetoacetyl-[acp]	product
+re20	coenzyme A	product
+re20	CO2	product
 re21	acetyl-CoA	reactant
-re21	acetoacetyl-[acp]	product
+re21	AcpP	reactant
+re21	acetyl-[acp]	product
 re21	coenzyme A	product
-re21	CO2	product
-re22	acetyl-CoA	reactant
-re22	AcpP	reactant
-re22	acetyl-[acp]	product
-re22	coenzyme A	product
+re22	fabH_mRNA	reactant
+re22	KASIII	product
 re23	acpP_mRNA	reactant
 re23	AcpP	product
 re24	entB_mRNA	reactant
@@ -67,33 +63,31 @@ re24	EntB	product
 re25	isochorismate	reactant
 re25	(2S,3S)-2,3-dihydroxy-2,3-dihydrobenzoate	product
 re25	pyruvate	product
-re26	EntD	reactant
-re26	EntE	reactant
 re26	EntB	reactant
+re26	EntE	reactant
+re26	EntD	reactant
 re26	EntF	reactant
 re26	EntB-EntD-EntF-EntE	product
 re27	2-pyrocatechuate	reactant
 re27	serine	reactant
 re27	enterobactin	product
 re27	diphosphate	product
+re28	holo EntB monomer	reactant
 re28	2-pyrocatechuate	reactant
-re28	2,3-dihydroxybenzoyl-AMP	product
+re28	2,3-dihydroxybenzoyl-EntB	product
 re28	diphosphate	product
-re29	2,3-dihydroxybenzoyl-AMP	reactant
-re29	holo EntB monomer	reactant
-re29	2,3-dihydroxybenzoyl-EntB	product
-re30	serine	reactant
-re30	diphosphate	product
-re30	seryl-AMP	product
-re31	holo-[EntF peptidyl-carrier protein]	reactant
-re31	seryl-AMP	reactant
-re31	seryl-[EntF peptidyl-carrier protein]	product
-re32	seryl-[EntF peptidyl-carrier protein]	reactant
-re32	2,3-dihydroxybenzoyl-EntB	reactant
-re32	DHB-seryl-[EntF peptidyl-carrier protein]	product
-re32	holo EntB monomer	product
-re33	DHB-seryl-[EntF peptidyl-carrier protein]	reactant
-re33	holo-[EntF peptidyl-carrier protein]	product
-re33	enterobactin	product
-re34	(2S,3S)-2,3-dihydroxy-2,3-dihydrobenzoate	reactant
-re34	2-pyrocatechuate	product
+re29	serine	reactant
+re29	diphosphate	product
+re29	seryl-AMP	product
+re30	holo-[EntF peptidyl-carrier protein]	reactant
+re30	seryl-AMP	reactant
+re30	seryl-[EntF peptidyl-carrier protein]	product
+re31	seryl-[EntF peptidyl-carrier protein]	reactant
+re31	2,3-dihydroxybenzoyl-EntB	reactant
+re31	DHB-seryl-[EntF peptidyl-carrier protein]	product
+re31	holo EntB monomer	product
+re32	DHB-seryl-[EntF peptidyl-carrier protein]	reactant
+re32	holo-[EntF peptidyl-carrier protein]	product
+re32	enterobactin	product
+re33	(2S,3S)-2,3-dihydroxy-2,3-dihydrobenzoate	reactant
+re33	2,3-dihydroxybenzoyl-EntB	product

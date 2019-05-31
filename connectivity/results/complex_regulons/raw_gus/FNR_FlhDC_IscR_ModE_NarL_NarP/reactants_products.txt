@@ -14,32 +14,33 @@ re7	napH	reactant
 re7	napH_mRNA	product
 re8	napA_mRNA	reactant
 re8	NapA	product
-re9	NapH	reactant
-re9	NapB	reactant
 re9	NapA	reactant
-re9	NapC	reactant
-re9	NapG	reactant
-re9	NapB-NapC-NapH-NapG-NapA	product
-re10	ubiquinol	reactant
+re9	NapB	reactant
+re9	NapB-NapA	product
+re10	Reduced-NapC-proteins	reactant
 re10	nitrate	reactant
-re10	ubiquinone	product
+re10	Oxidized-NapC-proteins	product
 re10	nitrite	product
-re11	menaquinol	reactant
-re11	nitrate	reactant
-re11	vitamin K2	product
-re11	nitrite	product
-re12	napB_mRNA	reactant
-re12	NapB	product
-re13	napC_mRNA	reactant
-re13	NapC	product
+re11	napB_mRNA	reactant
+re11	NapB	product
+re12	napC_mRNA	reactant
+re12	NapC	product
+re13	ferri c-type cytochrome	reactant
+re13	menaquinol	reactant
+re13	reduced Cytochrome C protein	product
+re13	vitamin K2	product
 re14	napD_mRNA	reactant
 re14	NapD	product
 re15	napF_mRNA	reactant
 re15	NapF	product
 re16	napG_mRNA	reactant
 re16	NapG	product
-re17	NapH	reactant
 re17	NapG	reactant
+re17	NapH	reactant
 re17	NapG-NapH	product
-re18	napH_mRNA	reactant
-re18	NapH	product
+re18	Oxidized-NapC-proteins	reactant
+re18	ubiquinol	reactant
+re18	Reduced-NapC-proteins	product
+re18	ubiquinone	product
+re19	napH_mRNA	reactant
+re19	NapH	product

@@ -72,69 +72,65 @@ re28	DOXP	product
 re28	CO2	product
 re29	thiF_mRNA	reactant
 re29	ThiF	product
-re30	cysteine	reactant
+re30	sulfurylated sulfur-carrier protein ThiI	reactant
+re30	reduced ferredoxin	reactant
 re30	ThiS	reactant
-re30	alanine	product
-re30	ThiS	product
-re31	ThiS	reactant
+re30	thiocarboxy-[ThiS-Protein]	product
+re30	oxidized ferredoxin	product
+re30	ThiI	product
+re31	ThiS sulfur-carrier protein	reactant
 re31	diphosphate	product
 re31	ThiS	product
-re32	sulfurylated sulfur-carrier protein ThiI	reactant
-re32	reduced ferredoxin	reactant
-re32	ThiS	reactant
-re32	thiocarboxy-[ThiS-Protein]	product
-re32	oxidized ferredoxin	product
-re32	ThiI	product
-re33	ThiS sulfur-carrier protein	reactant
-re33	diphosphate	product
-re33	ThiS	product
-re34	thiH_mRNA	reactant
-re34	ThiH	product
-re35	tyrosine	reactant
-re35	SAM	reactant
-re35	5'-deoxyadenosine	product
-re35	iminoacetate	product
-re35	methionine	product
-re35	4-cresol	product
-re36	iscS_mRNA	reactant
-re36	IscS	product
-re37	cystein desulfurase	reactant
-re37	cysteine	reactant
-re37	S-sulfanyl-[L-cysteine desulfurase]	product
-re37	alanine	product
-re38	unsulfurated [sulfur donor]	reactant
-re38	cysteine	reactant
-re38	sulfurated sulfur donor	product
-re38	alanine	product
-re39	[L-cysteine desulfurase] L-cysteine persulfide	reactant
-re39	unsulfurated [sulfur donor]	reactant
-re39	sulfurated sulfur donor	product
-re39	protein cysteines	product
-re40	[L-cysteine desulfurase] L-cysteine persulfide	reactant
-re40	ThiI	reactant
-re40	sulfurylated sulfur-carrier protein ThiI	product
-re40	protein cysteines	product
-re41	protein cysteines	reactant
-re41	cysteine	reactant
-re41	[L-cysteine desulfurase] L-cysteine persulfide	product
+re32	thiH_mRNA	reactant
+re32	ThiH	product
+re33	tyrosine	reactant
+re33	SAM	reactant
+re33	5'-deoxyadenosine	product
+re33	iminoacetate	product
+re33	methionine	product
+re33	4-cresol	product
+re34	iscS_mRNA	reactant
+re34	IscS	product
+re35	cystein desulfurase	reactant
+re35	cysteine	reactant
+re35	S-sulfanyl-[L-cysteine desulfurase]	product
+re35	alanine	product
+re36	unsulfurated [sulfur donor]	reactant
+re36	cysteine	reactant
+re36	sulfurated sulfur donor	product
+re36	alanine	product
+re37	[L-cysteine desulfurase] L-cysteine persulfide	reactant
+re37	unsulfurated [sulfur donor]	reactant
+re37	sulfurated sulfur donor	product
+re37	protein cysteines	product
+re38	[L-cysteine desulfurase] L-cysteine persulfide	reactant
+re38	ThiI	reactant
+re38	sulfurylated sulfur-carrier protein ThiI	product
+re38	protein cysteines	product
+re39	protein cysteines	reactant
+re39	cysteine	reactant
+re39	[L-cysteine desulfurase] L-cysteine persulfide	product
+re39	alanine	product
+re40	sufS_mRNA	reactant
+re40	SufS	product
+re41	3-sulfinoalanine	reactant
+re41	sulfite	product
 re41	alanine	product
-re42	sufS_mRNA	reactant
-re42	SufS	product
-re43	3-sulfinoalanine	reactant
-re43	alanine	product
-re43	sulfite	product
-re44	selenocysteine	reactant
-re44	A(H2)	reactant
-re44	acceptors	product
-re44	selenide	product
-re44	alanine	product
-re45	thiI_mRNA	reactant
-re45	ThiI	product
-re46	'activated' tRNA	reactant
-re46	cysteine	reactant
-re46	tRNA containing a thionucleotide	product
-re46	serine	product
-re47	fdx_mRNA	reactant
-re47	Fdx	product
-re48	thiS_mRNA	reactant
-re48	ThiS	product
+re42	selenocysteine	reactant
+re42	A(H2)	reactant
+re42	acceptors	product
+re42	selenide	product
+re42	alanine	product
+re43	thiI_mRNA	reactant
+re43	ThiI	product
+re44	sulfurylated sulfur-carrier protein ThiI	reactant
+re44	reduced ferredoxin	reactant
+re44	uracil in tRNA	reactant
+re44	oxidized ferredoxin	product
+re44	tRNA 4-thiouridine	product
+re44	diphosphate	product
+re44	ThiI	product
+re45	fdx_mRNA	reactant
+re45	Fdx	product
+re46	thiS_mRNA	reactant
+re46	ThiS	product

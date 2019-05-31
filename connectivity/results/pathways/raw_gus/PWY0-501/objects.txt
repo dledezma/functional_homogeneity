@@ -1,5 +1,4 @@
 (2S,3S)-2,3-dihydroxy-2,3-dihydrobenzoate	SIMPLE_MOLECULE	DIHYDRO-DIOH-BENZOATE
-2,3-dihydroxybenzoyl-AMP	SIMPLE_MOLECULE	CPD-62
 2,3-dihydroxybenzoyl-EntB	SIMPLE_MOLECULE	|23DHB-EntB|
 2-pyrocatechuate	SIMPLE_MOLECULE	2-3-DIHYDROXYBENZOATE
 5'-deoxyadenosine	SIMPLE_MOLECULE	CH33ADO
@@ -8,19 +7,23 @@ AceF	SIMPLE_MOLECULE	E2P-MONOMER
 AcpP	PROTEIN	EG50003-MONOMER
 AcpP	SIMPLE_MOLECULE	ACP
 DHB-seryl-[EntF peptidyl-carrier protein]	SIMPLE_MOLECULE	|DHB-Seryl-EntF|
-EntB	PROTEIN	CPLX0-7849
+EntB	PROTEIN	ENTB-MONOMER
 EntB	PROTEIN	HOLO-ENTB
 EntB-EntD-EntF-EntE	COMPLEX	ENTMULTI-CPLX
 EntD	PROTEIN	ENTD-MONOMER
 EntE	PROTEIN	ENTE-MONOMER
 EntF	PROTEIN	ENTF-PANT
 Fdx	PROTEIN	FERREDOXIN-MONOMER
+Fe+2	SIMPLE_MOLECULE	FE+2
+Fe4S4-Cluster-Protein	SIMPLE_MOLECULE	|Fe4S4-Cluster-Protein|
 LipA	PROTEIN	EG11306-MONOMER
 LipB	PROTEIN	EG11591-MONOMER
 PWY0-501	PROTEIN
 SAM	SIMPLE_MOLECULE	S-ADENOSYLMETHIONINE
 SucB	SIMPLE_MOLECULE	E2O-MONOMER
 SucB	SIMPLE_MOLECULE	SUCB-LIPOATE
+[Fe-S] cluster scaffold protein	SIMPLE_MOLECULE	|Iron-Sulfur-Cluster-Scaffold-Proteins|
+[enzyme] N6-(dihydrolipoyl)lysine	SIMPLE_MOLECULE	|Dihydro-Lipoyl-Proteins|
 [glycine-cleavage complex H protein] N6-lipoyl-L-lysine	SIMPLE_MOLECULE	PROTEIN-LIPOYLLYSINE
 [lipoyl-carrier protein]-L-lysine	SIMPLE_MOLECULE	|Lipoyl-Protein-L-Lysine|
 acpP	GENE
@@ -41,15 +44,13 @@ lipB	GENE
 lipB_mRNA	RNA
 lipoyl-ACP	SIMPLE_MOLECULE	LIPOYL-ACP
 lipoyl-ACP	SIMPLE_MOLECULE	|Lipoyl-ACPs|
-lipoyl-domain	SIMPLE_MOLECULE	|Lipoyl-Protein-N6-lipoyllysine|
 methionine	SIMPLE_MOLECULE	MET
 octanoyl-[acp]	SIMPLE_MOLECULE	|Octanoyl-ACPs|
 octanoylated protein lipoyl-domain	SIMPLE_MOLECULE	|Octanoylated-domains|
-oxidized [2Fe-2S] ferredoxin	SIMPLE_MOLECULE	|Oxidized-2Fe-2S-Ferredoxins|
+oxidized ferredoxin	SIMPLE_MOLECULE	|Oxidized-ferredoxins|
 pyruvate	SIMPLE_MOLECULE	PYRUVATE
-reduced [2Fe-2S] ferredoxin	SIMPLE_MOLECULE	|Reduced-2Fe-2S-Ferredoxins|
+reduced ferredoxin	SIMPLE_MOLECULE	|Reduced-ferredoxins|
 serine	SIMPLE_MOLECULE	SER
 seryl-AMP	SIMPLE_MOLECULE	SERYL-AMP
 seryl-[EntF peptidyl-carrier protein]	SIMPLE_MOLECULE	|Seryl-EntF|
-sulfurated sulfur donor	SIMPLE_MOLECULE	|Sulfurated-Sulfur-Acceptors|
-unsulfurated [sulfur donor]	SIMPLE_MOLECULE	|Unsulfurated-Sulfur-Acceptors|
+sulfur(2-)	SIMPLE_MOLECULE	CPD-7046

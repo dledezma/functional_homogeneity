@@ -15,14 +15,18 @@ re6	malate	product
 re7	glcD_mRNA	reactant
 re7	GlcD	product
 re8	GlcF	reactant
-re8	GlcE	reactant
 re8	GlcD	reactant
+re8	GlcE	reactant
 re8	GlcD-GlcE-GlcF	product
 re9	acceptors	reactant
 re9	glycolate	reactant
 re9	glyoxylate	product
 re9	A(H2)	product
-re10	glcE_mRNA	reactant
-re10	GlcE	product
-re11	glcF_mRNA	reactant
-re11	GlcF	product
+re10	electron-transfer quinone	reactant
+re10	glycolate	reactant
+re10	electron-transfer quinol	product
+re10	glyoxylate	product
+re11	glcE_mRNA	reactant
+re11	GlcE	product
+re12	glcF_mRNA	reactant
+re12	GlcF	product

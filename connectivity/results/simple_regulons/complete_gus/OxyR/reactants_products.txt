@@ -30,16 +30,21 @@ re15	GSSG	reactant
 re15	glutathione	product
 re16	grxA_mRNA	reactant
 re16	GrxA	product
-re17	hemH_mRNA	reactant
-re17	HemH	product
-re18	protoporphyrin	reactant
-re18	Fe+2	reactant
-re18	protoheme IX	product
-re19	isrC_mRNA	reactant
-re19	RNA:IS102	product
-re20	oxyS_mRNA	reactant
-re20	RNA:OxyS	product
-re21	trxC_mRNA	reactant
-re21	TrxC	product
-re22	ychF_mRNA	reactant
-re22	YchF	product
+re17	reduced glutaredoxin	reactant
+re17	S-sulfocysteine	reactant
+re17	oxidized glutaredoxin	product
+re17	cysteine	product
+re17	sulfite	product
+re18	hemH_mRNA	reactant
+re18	HemH	product
+re19	protoheme IX	reactant
+re19	protoporphyrin	product
+re19	Fe+2	product
+re20	isrC_mRNA	reactant
+re20	RNA:IS102	product
+re21	oxyS_mRNA	reactant
+re21	RNA:OxyS	product
+re22	trxC_mRNA	reactant
+re22	TrxC	product
+re23	ychF_mRNA	reactant
+re23	YchF	product

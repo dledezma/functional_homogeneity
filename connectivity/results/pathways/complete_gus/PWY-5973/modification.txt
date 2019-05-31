@@ -2,11 +2,12 @@ re10	CATALYSIS	TesA
 re11	CATALYSIS	TesA
 re12	CATALYSIS	TesA
 re14	CATALYSIS	FabF
+re14	CATALYSIS	KASII
 re15	CATALYSIS	FabF
+re15	CATALYSIS	KASII
 re16	CATALYSIS	FabF
+re16	CATALYSIS	KASII
 re16	INHIBITION	AcpP	REG0-11706
-re16	INHIBITION	holo EntB monomer	REG0-11706
-re18	CATALYSIS	FabG
 re19	CATALYSIS	FabG
 re20	CATALYSIS	FabG
 re21	CATALYSIS	FabG
@@ -15,13 +16,13 @@ re23	CATALYSIS	FabG
 re24	CATALYSIS	FabG
 re25	CATALYSIS	FabG
 re26	CATALYSIS	FabG
-re26	CATALYSIS	FabZ
 re27	CATALYSIS	FabG
+re27	CATALYSIS	FabZ
 re28	CATALYSIS	FabG
 re29	CATALYSIS	FabG
 re30	CATALYSIS	FabG
 re31	CATALYSIS	FabG
-re33	CATALYSIS	FabZ
+re32	CATALYSIS	FabG
 re34	CATALYSIS	FabZ
 re35	CATALYSIS	FabZ
 re36	CATALYSIS	FabZ
@@ -33,63 +34,11 @@ re41	CATALYSIS	FabZ
 re42	CATALYSIS	FabZ
 re43	CATALYSIS	FabZ
 re44	CATALYSIS	FabZ
-re46	CATALYSIS	FabI
+re45	CATALYSIS	FabZ
 re47	CATALYSIS	FabI
-re47	INHIBITION	(2E)-dec-2-enoyl-[acp]	REG0-8493
-re47	INHIBITION	(2E)-dodec-2-enoyl-[acp]	REG0-8493
-re47	INHIBITION	(2E,11Z)-octadeca-2,11-dienoyl-[acp]	REG0-8493
-re47	INHIBITION	(3R)-3-hydroxy cis delta7-tetradecenoyl-[acp]	REG0-8493
-re47	INHIBITION	(3R)-3-hydroxy cis delta9-hexadecenoyl-[acp]	REG0-8493
-re47	INHIBITION	(3R)-3-hydroxy-cis-vaccenoyl-[acp]	REG0-8493
-re47	INHIBITION	(3R)-3-hydroxyglutaryl-[acp] methyl ester	REG0-8493
-re47	INHIBITION	(5Z)-dodec-5-enoyl-[acp]	REG0-8493
-re47	INHIBITION	18:0-ACP	REG0-8493
-re47	INHIBITION	2,3,4-saturated fatty acyl-[acp]	REG0-8493
-re47	INHIBITION	2,3-dihydroxybenzoyl-EntB	REG0-8493
-re47	INHIBITION	3-hydroxypimeloyl-[acp] methyl ester	REG0-8493
-re47	INHIBITION	3-ketopimelyl-[acp] methyl ester	REG0-8493
-re47	INHIBITION	3-oxo-cis-delta7-tetradecenoyl-[acp]	REG0-8493
-re47	INHIBITION	3-oxo-cis-delta9-hexadecenoyl-[acp]	REG0-8493
-re47	INHIBITION	3-oxo-cis-vaccenoyl-[acp]	REG0-8493
-re47	INHIBITION	3-oxo-decanoyl-[acp]	REG0-8493
-re47	INHIBITION	3-oxo-dodecanoyl-[acp]	REG0-8493
-re47	INHIBITION	3-oxo-glutaryl-[acp] methyl ester	REG0-8493
-re47	INHIBITION	3-oxo-hexanoyl-[acp]	REG0-8493
-re47	INHIBITION	3-oxo-myristoyl-[acp]	REG0-8493
-re47	INHIBITION	3-oxo-octanoyl-[acp]	REG0-8493
-re47	INHIBITION	3-oxo-palmitoyl-[acp]	REG0-8493
-re47	INHIBITION	AcpP	REG0-8493
-re47	INHIBITION	CH3(CH2)xCH=CHCO-S-ACP	REG0-8493
-re47	INHIBITION	acetoacetyl-[acp]	REG0-8493
-re47	INHIBITION	acetoacyl-ACP	REG0-8493
-re47	INHIBITION	acetyl-[acp]	REG0-8493
-re47	INHIBITION	acyl-ACP	REG0-8493
-re47	INHIBITION	beta-OH-acyl-ACP	REG0-8493
-re47	INHIBITION	beta-hydroxydecanoyl-[acp]	REG0-8493
-re47	INHIBITION	beta-hydroxydodecanoyl-[acp]	REG0-8493
-re47	INHIBITION	beta-hydroxyhexanoyl-[acp]	REG0-8493
-re47	INHIBITION	beta-hydroxymyristoyl-[acp]	REG0-8493
-re47	INHIBITION	butyryl-[acp]	REG0-8493
-re47	INHIBITION	cis-delta7-tetradecenoyl-[acp]	REG0-8493
-re47	INHIBITION	cis-vaccenoyl-[acp]	REG0-8493
-re47	INHIBITION	crotonyl-[acp]	REG0-8493
-re47	INHIBITION	decanoyl-[acp]	REG0-8493
-re47	INHIBITION	enoylglutaryl-[acp] methyl ester	REG0-8493
-re47	INHIBITION	enoylpimelyl-[acp] methyl ester	REG0-8493
-re47	INHIBITION	glutaryl-[acp] methyl ester	REG0-8493
-re47	INHIBITION	hexanoyl-[acp]	REG0-8493
-re47	INHIBITION	lauryl-[acp]	REG0-8493
-re47	INHIBITION	myristoyl-[acp]	REG0-8493
-re47	INHIBITION	octanoyl-[acp]	REG0-8493
-re47	INHIBITION	palmitoleoyl-[acp]	REG0-8493
-re47	INHIBITION	pimelyl-[acp] methyl ester	REG0-8493
-re47	INHIBITION	trans hex-2-enoyl-[acp]	REG0-8493
-re47	INHIBITION	trans hexadecenoyl-[acp]	REG0-8493
-re47	INHIBITION	trans tetradec-2-enoyl-[acp]	REG0-8493
-re47	INHIBITION	trans-delta3-cis-delta7-tetradecenoyl-[acp]	REG0-8493
-re47	INHIBITION	trans-delta3-cis-delta9-hexadecenoyl-[acp]	REG0-8493
 re48	CATALYSIS	FabI
 re49	CATALYSIS	FabI
+re49	INHIBITION	acyl-ACP	REG0-8493
 re50	CATALYSIS	FabI
 re51	CATALYSIS	FabI
 re52	CATALYSIS	FabI
@@ -101,8 +50,8 @@ re57	CATALYSIS	FabI
 re58	CATALYSIS	FabI
 re59	CATALYSIS	FabI
 re60	CATALYSIS	FabI
-re63	CATALYSIS	EntB
-re65	CATALYSIS	EntB-EntD-EntF-EntE
+re61	CATALYSIS	FabI
+re64	CATALYSIS	EntB
 re66	CATALYSIS	EntB-EntD-EntF-EntE
 re67	CATALYSIS	EntB-EntD-EntF-EntE
 re68	CATALYSIS	EntB-EntD-EntF-EntE

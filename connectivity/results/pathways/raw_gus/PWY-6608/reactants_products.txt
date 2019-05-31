@@ -34,35 +34,35 @@ re15	phosphate	product
 re16	5'-ribonucleotide	reactant
 re16	nucleoside	product
 re16	phosphate	product
-re17	guanylate	reactant
+re17	5'-IMP	reactant
 re17	phosphate	product
-re17	guanosine	product
+re17	inosine	product
 re18	5'-UMP	reactant
 re18	phosphate	product
 re18	uridine	product
 re19	cytidylate	reactant
 re19	phosphate	product
 re19	cytidine	product
-re20	5'-IMP	reactant
+re20	guanylate	reactant
 re20	phosphate	product
-re20	inosine	product
-re21	ribonucleoside 3'-phosphate	reactant
+re20	guanosine	product
+re21	3'-phosphomononucleotide	reactant
 re21	nucleoside	product
 re21	phosphate	product
-re22	3'-AMP	reactant
+re22	3'-CMP	reactant
 re22	phosphate	product
-re22	adenosine	product
-re23	3'-CMP	reactant
+re22	cytidine	product
+re23	3'-AMP	reactant
+re23	adenosine	product
 re23	phosphate	product
-re23	cytidine	product
 re24	deoxynucleoside monophosphate	reactant
 re24	deoxynucleoside	product
 re24	phosphate	product
-re25	dGMP	reactant
-re25	deoxyguanosine	product
+re25	dTMP	reactant
 re25	phosphate	product
-re26	dAMP	reactant
-re26	deoxyadenosine	product
+re25	thymidine	product
+re26	dGMP	reactant
+re26	deoxyguanosine	product
 re26	phosphate	product
 re27	dUMP	reactant
 re27	deoxyuridine	product
@@ -70,9 +70,9 @@ re27	phosphate	product
 re28	dCMP	reactant
 re28	d-cytidine	product
 re28	phosphate	product
-re29	dTMP	reactant
+re29	dAMP	reactant
+re29	deoxyadenosine	product
 re29	phosphate	product
-re29	thymidine	product
 re30	deoxynucleoside 3'-phosphate	reactant
 re30	deoxynucleoside	product
 re30	phosphate	product
@@ -108,9 +108,9 @@ re41	yrfG_mRNA	reactant
 re41	YrfG	product
 re42	xdhA_mRNA	reactant
 re42	XdhA	product
+re43	XdhB	reactant
 re43	XdhA	reactant
 re43	XdhC	reactant
-re43	XdhB	reactant
 re43	XdhA-XdhB-XdhC	product
 re44	xanthine	reactant
 re44	urate	product
@@ -142,8 +142,8 @@ re53	deoxyinosine	reactant
 re53	phosphate	reactant
 re53	deoxy-D-ribose 1-phosphate	product
 re53	hypoxanthine	product
-re54	phosphate	reactant
 re54	adenosine	reactant
+re54	phosphate	reactant
 re54	ribose-1-phosphate	product
 re54	adenine	product
 re55	deoxyadenosine	reactant
@@ -156,7 +156,7 @@ re57	xanthosine	reactant
 re57	phosphate	reactant
 re57	ribose-1-phosphate	product
 re57	xanthine	product
-re58	ribose-1-phosphate	reactant
-re58	vitamin PP	reactant
-re58	nicotinamide ribose	product
-re58	phosphate	product
+re58	nicotinamide ribose	reactant
+re58	phosphate	reactant
+re58	ribose-1-phosphate	product
+re58	vitamin PP	product

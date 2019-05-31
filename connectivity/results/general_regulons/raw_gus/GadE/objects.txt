@@ -74,6 +74,7 @@ MdtF	PROTEIN	YHIV-MONOMER
 MotA	PROTEIN	MOTA-FLAGELLAR-MOTOR-STATOR-PROTEIN
 MotB	PROTEIN	MOTB-FLAGELLAR-MOTOR-STATOR-PROTEIN
 PurA	PROTEIN	ADENYLOSUCCINATE-SYN-MONOMER
+RNA:GadF	PROTEIN	RNA0-392
 RcsA	PROTEIN	PD02233
 RcsB	PROTEIN	RCSB-MONOMER
 RcsB-GadE	COMPLEX	CPLX0-7852
@@ -81,6 +82,7 @@ RcsB-RcsA	COMPLEX	PC00084
 Skp	PROTEIN	EG10455-MONOMER
 TolC	PROTEIN	EG11009-MONOMER
 TolC-MdtE-MdtF	COMPLEX	TRANS-CPLX-204
+Trans-D2-cis-D7-tetradecenoyl-ACPs	SIMPLE_MOLECULE	|Trans-D2-cis-D7-tetradecenoyl-ACPs|
 UDP-2,3-diacyl-glucosamine	SIMPLE_MOLECULE	OH-MYRISTOYL
 UDP-3-O-(3-hydroxymyristoyl)-N-acetylglucosamine	SIMPLE_MOLECULE	UDP-OHMYR-ACETYLGLUCOSAMINE
 UDP-3-O-(3-hydroxytetradecanoyl)glucosamine	SIMPLE_MOLECULE	UDP-OHMYR-GLUCOSAMINE
@@ -112,7 +114,7 @@ enoylpimelyl-[acp] methyl ester	SIMPLE_MOLECULE	|Enoylpimeloyl-ACP-methyl-esters
 fabZ	GENE
 fabZ_mRNA	RNA
 farnesyl-PP	SIMPLE_MOLECULE	FARNESYL-PP
-ferroheme o	SIMPLE_MOLECULE	HEME_O
+ferroheme o	SIMPLE_MOLECULE	CPD-17063
 fliC	GENE
 fliC_mRNA	RNA
 gadB	GENE
@@ -121,6 +123,8 @@ gadC	GENE
 gadC_mRNA	RNA
 gadE	GENE
 gadE_mRNA	RNA
+gadF	GENE
+gadF_mRNA	RNA
 gadW	GENE
 gadW_mRNA	RNA
 gadX	GENE
@@ -153,7 +157,7 @@ mdtF	GENE
 mdtF_mRNA	RNA
 oxygen_Ext	SIMPLE_MOLECULE	OXYGEN-MOLECULE_Ext
 phosphate	SIMPLE_MOLECULE	|Pi|
-protoheme IX	SIMPLE_MOLECULE	|Heme-b|
+protoheme IX	SIMPLE_MOLECULE	PROTOHEME
 purA	GENE
 purA_mRNA	RNA
 rcsA	GENE
@@ -164,7 +168,6 @@ skp_mRNA	RNA
 trans hex-2-enoyl-[acp]	SIMPLE_MOLECULE	|Hex-2-enoyl-ACPs|
 trans hexadecenoyl-[acp]	SIMPLE_MOLECULE	|2-Hexadecenoyl-ACPs|
 trans tetradec-2-enoyl-[acp]	SIMPLE_MOLECULE	|Tetradec-2-enoyl-ACPs|
-trans-delta3-cis-delta7-tetradecenoyl-[acp]	SIMPLE_MOLECULE	|Trans-D3-cis-D7-tetradecenoyl-ACPs|
 trans-delta3-cis-delta9-hexadecenoyl-[acp]	SIMPLE_MOLECULE	|Trans-D3-cis-D9-hexadecenoyl-ACPs|
 ubiquinol_Ext	SIMPLE_MOLECULE	|Ubiquinols|_Ext
 ubiquinone	SIMPLE_MOLECULE	|Ubiquinones|

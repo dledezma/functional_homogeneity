@@ -25,29 +25,43 @@ re9	unsulfurated [sulfur donor]	product
 re9	5'-deoxyadenosine	product
 re9	methionine	product
 re9	biotin	product
-re10	bioC_mRNA	reactant
-re10	BioC	product
-re11	malonyl-S-ACP	reactant
+re10	reduced [2Fe-2S] ferredoxin	reactant
+re10	sulfurated sulfur donor	reactant
+re10	dethiobiotin	reactant
+re10	SAM	reactant
+re10	oxidized [2Fe-2S] ferredoxin	product
+re10	unsulfurated [sulfur donor]	product
+re10	9-mercaptodethiobiotin	product
+re10	5'-deoxyadenosine	product
+re10	methionine	product
+re11	9-mercaptodethiobiotin	reactant
 re11	SAM	reactant
-re11	malonyl-[acp] methyl ester	product
-re11	adenosylhomocysteine	product
-re12	bioD_mRNA	reactant
-re12	BioD	product
-re13	DAPA	reactant
-re13	CO2	reactant
-re13	dethiobiotin	product
-re13	phosphate	product
-re14	bioF_mRNA	reactant
-re14	BioF	product
-re15	pimelyl-[acp]	reactant
-re15	alanine	reactant
-re15	AcpP	product
-re15	KAPA	product
-re15	CO2	product
-re16	pimelyl-CoA	reactant
-re16	alanine	reactant
-re16	coenzyme A	product
-re16	KAPA	product
-re16	CO2	product
-re17	malonyl-[acp] methyl ester	reactant
-re17	pimelyl-[acp]	product
+re11	5'-deoxyadenosine	product
+re11	methionine	product
+re11	biotin	product
+re12	bioC_mRNA	reactant
+re12	BioC	product
+re13	malonyl-S-ACP	reactant
+re13	SAM	reactant
+re13	malonyl-[acp] methyl ester	product
+re13	adenosylhomocysteine	product
+re14	bioD_mRNA	reactant
+re14	BioD	product
+re15	DAPA	reactant
+re15	CO2	reactant
+re15	dethiobiotin	product
+re15	phosphate	product
+re16	bioF_mRNA	reactant
+re16	BioF	product
+re17	pimelyl-[acp]	reactant
+re17	alanine	reactant
+re17	KAPA	product
+re17	AcpP	product
+re17	CO2	product
+re18	pimelyl-CoA	reactant
+re18	alanine	reactant
+re18	coenzyme A	product
+re18	KAPA	product
+re18	CO2	product
+re19	malonyl-[acp] methyl ester	reactant
+re19	pimelyl-[acp]	product

@@ -8,8 +8,10 @@ HemH	PROTEIN	PROTOHEME-FERROCHELAT-MONOMER
 OxyR	PROTEIN
 RNA:IS102	PROTEIN	IS102-RNA
 RNA:OxyS	PROTEIN	OXYS-RNA
+S-sulfocysteine	SIMPLE_MOLECULE	SULFO-CYSTEINE
 TrxC	PROTEIN	RED-THIOREDOXIN2-MONOMER
 YchF	PROTEIN	EG11404-MONOMER
+cysteine	SIMPLE_MOLECULE	CYS
 dsbG	GENE
 dsbG_mRNA	RNA
 flu	GENE
@@ -23,6 +25,7 @@ hemH	GENE
 hemH_mRNA	RNA
 isrC	GENE
 isrC_mRNA	RNA
+oxidized glutaredoxin	SIMPLE_MOLECULE	|Ox-Glutaredoxins|
 oxyS	GENE
 oxyS_mRNA	RNA
 protein with correct disulfide bonds	SIMPLE_MOLECULE	|Proteins-with-correct-disulfides|
@@ -31,6 +34,8 @@ protein with oxidized disulfide bonds	SIMPLE_MOLECULE	|Protein-Ox-Disulfides|
 protein with reduced SH groups	SIMPLE_MOLECULE	|Protein-Red-Disulfides|
 protoheme IX	SIMPLE_MOLECULE	PROTOHEME
 protoporphyrin	SIMPLE_MOLECULE	PROTOPORPHYRIN_IX
+reduced glutaredoxin	SIMPLE_MOLECULE	|Red-Glutaredoxins|
+sulfite	SIMPLE_MOLECULE	SO3
 trxC	GENE
 trxC_mRNA	RNA
 ychF	GENE

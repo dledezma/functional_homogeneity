@@ -43,36 +43,36 @@ re21	MazG	product
 re22	nucleoside triphosphate	reactant
 re22	mononucleotide	product
 re22	diphosphate	product
-re23	dITP	reactant
+re23	dCTP	reactant
 re23	diphosphate	product
-re23	dIMP	product
-re24	inosine triphosphate	reactant
+re23	dCMP	product
+re24	dUTP	reactant
 re24	diphosphate	product
-re24	5'-IMP	product
-re25	dCTP	reactant
+re24	dUMP	product
+re25	dATP	reactant
 re25	diphosphate	product
-re25	dCMP	product
-re26	uridine-triphosphate	reactant
+re25	dAMP	product
+re26	inosine triphosphate	reactant
 re26	diphosphate	product
-re26	5'-UMP	product
-re27	dTTP	reactant
+re26	5'-IMP	product
+re27	xanthosine 5' triphosphate	reactant
+re27	xanthosine-5-P	product
 re27	diphosphate	product
-re27	dTMP	product
-re28	dGTP	reactant
+re28	dTTP	reactant
 re28	diphosphate	product
-re28	dGMP	product
-re29	dATP	reactant
+re28	dTMP	product
+re29	dGTP	reactant
 re29	diphosphate	product
-re29	dAMP	product
-re30	dUTP	reactant
+re29	dGMP	product
+re30	cytidine-triphosphate	reactant
 re30	diphosphate	product
-re30	dUMP	product
-re31	xanthosine 5' triphosphate	reactant
-re31	xanthosine-5-P	product
+re30	cytidylate	product
+re31	uridine-triphosphate	reactant
 re31	diphosphate	product
-re32	cytidine-triphosphate	reactant
+re31	5'-UMP	product
+re32	dITP	reactant
 re32	diphosphate	product
-re32	cytidylate	product
+re32	dIMP	product
 re33	dut_mRNA	reactant
 re33	Dut	product
 re34	nudI_mRNA	reactant
@@ -89,8 +89,8 @@ re38	dTMP	reactant
 re38	dTDP	product
 re39	nrdA_mRNA	reactant
 re39	NrdA	product
-re40	NrdB	reactant
 re40	NrdA	reactant
+re40	NrdB	reactant
 re40	NrdA-NrdB	product
 re41	nucleoside diphosphate	reactant
 re41	reduced thioredoxin	reactant
@@ -104,9 +104,9 @@ re43	reduced thioredoxin	reactant
 re43	uridine-diphosphate	reactant
 re43	thioredoxin disulfide	product
 re43	dUDP	product
-re44	thioredoxin disulfide	reactant
-re44	dADP	reactant
-re44	reduced thioredoxin	product
+re44	reduced thioredoxin	reactant
+re44	thioredoxin disulfide	product
+re44	dADP	product
 re45	guanosine-diphosphate	reactant
 re45	reduced thioredoxin	reactant
 re45	thioredoxin disulfide	product
@@ -118,8 +118,8 @@ re47	CarB	product
 re48	CarB	reactant
 re48	CarA	reactant
 re48	CarB-CarA	product
-re49	glutamine	reactant
 re49	carbonate	reactant
+re49	glutamine	reactant
 re49	L-glutamate	product
 re49	carbamoyl-P	product
 re49	phosphate	product
@@ -160,50 +160,54 @@ re62	5'-UMP	product
 re62	CO2	product
 re63	pyrD_mRNA	reactant
 re63	PyrD	product
+re64	electron-transfer quinone	reactant
 re64	dihydroorotate	reactant
-re64	ubiquinone	reactant
-re64	ubiquinol	product
+re64	electron-transfer quinol	product
 re64	orotate	product
 re65	dihydroorotate	reactant
-re65	vitamin K2	reactant
-re65	menaquinol	product
+re65	ubiquinone	reactant
+re65	ubiquinol	product
 re65	orotate	product
-re66	pyrH_mRNA	reactant
-re66	PyrH	product
-re67	5'-UMP	reactant
-re67	uridine-diphosphate	product
-re68	ndk_mRNA	reactant
-re68	Ndk	product
-re69	nucleoside diphosphate	reactant
-re69	nucleoside triphosphate	product
-re70	uridine-diphosphate	reactant
-re70	uridine-triphosphate	product
-re71	cytidine-diphosphate	reactant
-re71	cytidine-triphosphate	product
-re72	dUDP	reactant
-re72	dUTP	product
-re73	dCDP	reactant
-re73	dCTP	product
-re74	dTDP	reactant
-re74	dTTP	product
-re75	dADP	reactant
-re75	dATP	product
-re76	dGDP	reactant
-re76	dGTP	product
-re77	guanosine-diphosphate	reactant
-re77	guanosine-triphosphate	product
-re78	pyrG_mRNA	reactant
-re78	PyrG	product
-re79	uridine-triphosphate	reactant
-re79	glutamine	reactant
-re79	cytidine-triphosphate	product
-re79	L-glutamate	product
-re79	phosphate	product
+re66	dihydroorotate	reactant
+re66	vitamin K2	reactant
+re66	menaquinol	product
+re66	orotate	product
+re67	pyrH_mRNA	reactant
+re67	PyrH	product
+re68	5'-UMP	reactant
+re68	uridine-diphosphate	product
+re69	ndk_mRNA	reactant
+re69	Ndk	product
+re70	nucleoside diphosphate	reactant
+re70	nucleoside triphosphate	product
+re71	uridine-diphosphate	reactant
+re71	uridine-triphosphate	product
+re72	cytidine-diphosphate	reactant
+re72	cytidine-triphosphate	product
+re73	dUDP	reactant
+re73	dUTP	product
+re74	dCDP	reactant
+re74	dCTP	product
+re75	dTDP	reactant
+re75	dTTP	product
+re76	dADP	reactant
+re76	dATP	product
+re77	dGDP	reactant
+re77	dGTP	product
+re78	guanosine-diphosphate	reactant
+re78	guanosine-triphosphate	product
+re79	pyrG_mRNA	reactant
+re79	PyrG	product
 re80	uridine-triphosphate	reactant
-re80	ammonium	reactant
+re80	glutamine	reactant
 re80	cytidine-triphosphate	product
+re80	L-glutamate	product
 re80	phosphate	product
-re81	trxA_mRNA	reactant
-re81	TrxA	product
-re82	trxC_mRNA	reactant
-re82	TrxC	product
+re81	uridine-triphosphate	reactant
+re81	ammonium	reactant
+re81	cytidine-triphosphate	product
+re81	phosphate	product
+re82	trxA_mRNA	reactant
+re82	TrxA	product
+re83	trxC_mRNA	reactant
+re83	TrxC	product

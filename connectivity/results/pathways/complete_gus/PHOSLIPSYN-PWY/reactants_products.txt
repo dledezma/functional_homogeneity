@@ -35,163 +35,165 @@ re17	cardiolipin	product
 re17	glycerol	product
 re18	clsB_mRNA	reactant
 re18	ClsB	product
-re19	pssA_mRNA	reactant
-re19	PssA	product
-re20	CDP-diglyceride	reactant
-re20	serine	reactant
-re20	phosphatidyl-serine	product
-re20	cytidylate	product
-re21	psd_mRNA	reactant
-re21	Psd	product
-re22	Psd	reactant
-re22	Psd-Psd	product
-re23	gpsA_mRNA	reactant
-re23	GpsA	product
-re24	DHAP	reactant
-re24	glycerol-3-phosphate	product
-re25	plsC_mRNA	reactant
-re25	PlsC	product
-re26	(Z)-octadec-11-enoylglycerol 3-phosphate	reactant
-re26	palmitoleoyl-[acp]	reactant
-re26	18:1-16:1-PA	product
-re26	AcpP	product
-re27	1-palmitoylglycerol 3-phosphate	reactant
-re27	palmitoleoyl-[acp]	reactant
-re27	16:0-16:1-PA	product
+re19	glycerol	reactant
+re19	PtdEtn	reactant
+re19	phosphatidylglycerol	product
+re19	colamine	product
+re20	pssA_mRNA	reactant
+re20	PssA	product
+re21	CDP-diglyceride	reactant
+re21	serine	reactant
+re21	phosphatidyl-serine	product
+re21	cytidylate	product
+re22	psd_mRNA	reactant
+re22	Psd	product
+re23	Psd	reactant
+re23	Psd-Psd	product
+re24	gpsA_mRNA	reactant
+re24	GpsA	product
+re25	DHAP	reactant
+re25	glycerol-3-phosphate	product
+re26	plsC_mRNA	reactant
+re26	PlsC	product
+re27	2-lysophosphatidate	reactant
+re27	acyl-ACP	reactant
+re27	phosphatidate	product
 re27	AcpP	product
-re28	1-palmitoylglycerol 3-phosphate	reactant
-re28	myristoyl-[acp]	reactant
-re28	1-palmitoyl-2-myristoyl phosphatidate	product
+re28	2,3,4-saturated fatty acyl-[acp]	reactant
+re28	acyl-sn-glycerol-3P	reactant
+re28	phosphatidate	product
 re28	AcpP	product
-re29	1-myristoylglycerol 3-phosphate	reactant
-re29	palmitoleoyl-[acp]	reactant
-re29	1-myristoyl-2-palmitoleoyl phosphatidate	product
-re29	AcpP	product
-re30	1-myristoylglycerol 3-phosphate	reactant
-re30	myristoyl-[acp]	reactant
-re30	dimyristoyl phosphatidate	product
-re30	AcpP	product
-re31	1-palmitoylglycerol 3-phosphate	reactant
-re31	18:0-ACP	reactant
-re31	PA(16:0/16:0)	product
-re31	AcpP	product
-re32	2-lysophosphatidate	reactant
-re32	acyl-ACP	reactant
-re32	phosphatidate	product
-re32	AcpP	product
-re33	2-lysophosphatidate	reactant
-re33	acyl-CoA	reactant
-re33	phosphatidate	product
+re29	2-lysophosphatidate	reactant
+re29	acyl-CoA	reactant
+re29	phosphatidate	product
+re29	coenzyme A	product
+re30	1-palmitoylglycerol 3-phosphate	reactant
+re30	cis-vaccenoyl-CoA	reactant
+re30	16:0-18:1-PA	product
+re30	coenzyme A	product
+re31	(Z)-octadec-11-enoylglycerol 3-phosphate	reactant
+re31	cis-vaccenoyl-CoA	reactant
+re31	18:1-18:1-PA	product
+re31	coenzyme A	product
+re32	1-myristoylglycerol 3-phosphate	reactant
+re32	16:1-delta9-CoA	reactant
+re32	1-myristoyl-2-palmitoleoyl phosphatidate	product
+re32	coenzyme A	product
+re33	1-palmitoylglycerol 3-phosphate	reactant
+re33	16:1-delta9-CoA	reactant
+re33	16:0-16:1-PA	product
 re33	coenzyme A	product
-re34	1-palmitoylglycerol 3-phosphate	reactant
-re34	cis-vaccenoyl-CoA	reactant
-re34	16:0-18:1-PA	product
+re34	(Z)-octadec-11-enoylglycerol 3-phosphate	reactant
+re34	16:1-delta9-CoA	reactant
+re34	18:1-16:1-PA	product
 re34	coenzyme A	product
-re35	(Z)-octadec-11-enoylglycerol 3-phosphate	reactant
-re35	cis-vaccenoyl-CoA	reactant
-re35	18:1-18:1-PA	product
+re35	1-palmitoylglycerol 3-phosphate	reactant
+re35	myristoyl-CoA	reactant
+re35	1-palmitoyl-2-myristoyl phosphatidate	product
 re35	coenzyme A	product
-re36	1-palmitoylglycerol 3-phosphate	reactant
+re36	1-myristoylglycerol 3-phosphate	reactant
 re36	myristoyl-CoA	reactant
-re36	1-palmitoyl-2-myristoyl phosphatidate	product
+re36	dimyristoyl phosphatidate	product
 re36	coenzyme A	product
-re37	1-myristoylglycerol 3-phosphate	reactant
-re37	myristoyl-CoA	reactant
-re37	dimyristoyl phosphatidate	product
-re37	coenzyme A	product
+re37	1-palmitoylglycerol 3-phosphate	reactant
+re37	18:0-ACP	reactant
+re37	PA(16:0/16:0)	product
+re37	AcpP	product
 re38	1-myristoylglycerol 3-phosphate	reactant
-re38	16:1-delta9-CoA	reactant
-re38	1-myristoyl-2-palmitoleoyl phosphatidate	product
-re38	coenzyme A	product
-re39	1-palmitoylglycerol 3-phosphate	reactant
-re39	16:1-delta9-CoA	reactant
-re39	16:0-16:1-PA	product
-re39	coenzyme A	product
-re40	(Z)-octadec-11-enoylglycerol 3-phosphate	reactant
-re40	16:1-delta9-CoA	reactant
-re40	18:1-16:1-PA	product
-re40	coenzyme A	product
-re41	2,3,4-saturated fatty acyl-[acp]	reactant
-re41	acyl-sn-glycerol-3P	reactant
-re41	phosphatidate	product
+re38	myristoyl-[acp]	reactant
+re38	dimyristoyl phosphatidate	product
+re38	AcpP	product
+re39	1-myristoylglycerol 3-phosphate	reactant
+re39	palmitoleoyl-[acp]	reactant
+re39	1-myristoyl-2-palmitoleoyl phosphatidate	product
+re39	AcpP	product
+re40	1-palmitoylglycerol 3-phosphate	reactant
+re40	myristoyl-[acp]	reactant
+re40	1-palmitoyl-2-myristoyl phosphatidate	product
+re40	AcpP	product
+re41	1-palmitoylglycerol 3-phosphate	reactant
+re41	palmitoleoyl-[acp]	reactant
+re41	16:0-16:1-PA	product
 re41	AcpP	product
-re42	cdsA_mRNA	reactant
-re42	CdsA	product
-re43	cytidine-triphosphate	reactant
-re43	phosphatidate	reactant
-re43	CDP-diglyceride	product
-re43	diphosphate	product
-re44	plsB_mRNA	reactant
-re44	PlsB	product
-re45	glycerol-3-phosphate	reactant
-re45	18:0-ACP	reactant
-re45	1-palmitoylglycerol 3-phosphate	product
-re45	AcpP	product
+re42	(Z)-octadec-11-enoylglycerol 3-phosphate	reactant
+re42	palmitoleoyl-[acp]	reactant
+re42	18:1-16:1-PA	product
+re42	AcpP	product
+re43	cdsA_mRNA	reactant
+re43	CdsA	product
+re44	cytidine-triphosphate	reactant
+re44	phosphatidate	reactant
+re44	CDP-diglyceride	product
+re44	diphosphate	product
+re45	plsB_mRNA	reactant
+re45	PlsB	product
 re46	glycerol-3-phosphate	reactant
-re46	myristoyl-[acp]	reactant
-re46	1-myristoylglycerol 3-phosphate	product
+re46	acyl-ACP	reactant
+re46	2-lysophosphatidate	product
 re46	AcpP	product
 re47	glycerol-3-phosphate	reactant
-re47	cis-vaccenoyl-[acp]	reactant
-re47	(Z)-octadec-11-enoylglycerol 3-phosphate	product
+re47	18:0-ACP	reactant
+re47	1-palmitoylglycerol 3-phosphate	product
 re47	AcpP	product
 re48	glycerol-3-phosphate	reactant
-re48	acyl-ACP	reactant
-re48	2-lysophosphatidate	product
+re48	myristoyl-[acp]	reactant
+re48	1-myristoylglycerol 3-phosphate	product
 re48	AcpP	product
 re49	glycerol-3-phosphate	reactant
-re49	acyl-CoA	reactant
-re49	2-lysophosphatidate	product
-re49	coenzyme A	product
-re50	pgsA_mRNA	reactant
-re50	PgsA	product
-re51	glycerol-3-phosphate	reactant
-re51	CDP-diglyceride	reactant
-re51	1-phosphatidyl-glycerol-P	product
-re51	cytidylate	product
-re52	pgpA_mRNA	reactant
-re52	PgpA	product
-re53	1-phosphatidyl-glycerol-P	reactant
-re53	phosphatidylglycerol	product
-re53	phosphate	product
-re54	pgpB_mRNA	reactant
-re54	PgpB	product
-re55	DGPP	reactant
-re55	phosphatidate	product
-re55	phosphate	product
-re56	UPP (ambiguous)	reactant
-re56	ditrans,polycis-undecaprenyl phosphate	product
+re49	cis-vaccenoyl-[acp]	reactant
+re49	(Z)-octadec-11-enoylglycerol 3-phosphate	product
+re49	AcpP	product
+re50	glycerol-3-phosphate	reactant
+re50	acyl-CoA	reactant
+re50	2-lysophosphatidate	product
+re50	coenzyme A	product
+re51	pgsA_mRNA	reactant
+re51	PgsA	product
+re52	glycerol-3-phosphate	reactant
+re52	CDP-diglyceride	reactant
+re52	1-phosphatidyl-glycerol-P	product
+re52	cytidylate	product
+re53	pgpA_mRNA	reactant
+re53	PgpA	product
+re54	1-phosphatidyl-glycerol-P	reactant
+re54	phosphatidylglycerol	product
+re54	phosphate	product
+re55	pgpB_mRNA	reactant
+re55	PgpB	product
+re56	DGPP	reactant
+re56	phosphatidate	product
 re56	phosphate	product
-re57	pgpC_mRNA	reactant
-re57	PgpC	product
-re58	clsC_mRNA	reactant
-re58	ClsC	product
-re59	phosphatidylglycerol	reactant
-re59	PtdEtn	reactant
-re59	cardiolipin	product
-re59	colamine	product
-re60	acpP_mRNA	reactant
-re60	AcpP	product
-re61	entB_mRNA	reactant
-re61	EntB	product
-re62	isochorismate	reactant
-re62	(2S,3S)-2,3-dihydroxy-2,3-dihydrobenzoate	product
-re62	pyruvate	product
-re63	EntD	reactant
-re63	EntE	reactant
-re63	EntB	reactant
-re63	EntF	reactant
-re63	EntB-EntD-EntF-EntE	product
-re64	2-pyrocatechuate	reactant
-re64	serine	reactant
-re64	enterobactin	product
-re64	diphosphate	product
+re57	UPP (ambiguous)	reactant
+re57	ditrans,polycis-undecaprenyl phosphate	product
+re57	phosphate	product
+re58	pgpC_mRNA	reactant
+re58	PgpC	product
+re59	clsC_mRNA	reactant
+re59	ClsC	product
+re60	phosphatidylglycerol	reactant
+re60	PtdEtn	reactant
+re60	cardiolipin	product
+re60	colamine	product
+re61	acpP_mRNA	reactant
+re61	AcpP	product
+re62	entB_mRNA	reactant
+re62	EntB	product
+re63	isochorismate	reactant
+re63	(2S,3S)-2,3-dihydroxy-2,3-dihydrobenzoate	product
+re63	pyruvate	product
+re64	EntD	reactant
+re64	EntE	reactant
+re64	EntB	reactant
+re64	EntF	reactant
+re64	EntB-EntD-EntF-EntE	product
 re65	2-pyrocatechuate	reactant
-re65	2,3-dihydroxybenzoyl-AMP	product
+re65	serine	reactant
+re65	enterobactin	product
 re65	diphosphate	product
-re66	2,3-dihydroxybenzoyl-AMP	reactant
 re66	holo EntB monomer	reactant
+re66	2-pyrocatechuate	reactant
 re66	2,3-dihydroxybenzoyl-EntB	product
+re66	diphosphate	product
 re67	serine	reactant
 re67	diphosphate	product
 re67	seryl-AMP	product
@@ -208,4 +210,4 @@ re70	enterobactin	product
 re71	phosphatidyl-serine	reactant
 re71	PtdEtn	product
 re72	(2S,3S)-2,3-dihydroxy-2,3-dihydrobenzoate	reactant
-re72	2-pyrocatechuate	product
+re72	2,3-dihydroxybenzoyl-EntB	product

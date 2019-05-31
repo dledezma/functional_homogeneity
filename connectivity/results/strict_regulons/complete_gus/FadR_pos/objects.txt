@@ -22,11 +22,10 @@
 3-oxo-palmitoyl-[acp]	SIMPLE_MOLECULE	|3-oxo-palmitoyl-ACPs|
 AccA	PROTEIN	CARBOXYL-TRANSFERASE-ALPHA-MONOMER
 AccA-AccD	COMPLEX	ACETYL-COA-CARBOXYLTRANSFER-CPLX
-AccB	PROTEIN	BCCP-BIOTIN
-AccB	PROTEIN	BCCP-MONOMER
+AccB	PROTEIN	BCCP-BIOTIN-CO2
 AccC	PROTEIN	BIOTIN-CARBOXYL-MONOMER
 AccD	PROTEIN	CARBOXYL-TRANSFERASE-BETA-MONOMER
-AccD-AccA-AccC-AccB	COMPLEX	ACETYL-COA-CARBOXYLMULTI-CPLX
+AccD-AccA-AccC	COMPLEX	ACETYL-COA-CARBOXYLMULTI-CPLX
 AcpP	SIMPLE_MOLECULE	ACP
 AcpP	SIMPLE_MOLECULE	|2-Octenoyl-ACPs|
 AcpP	SIMPLE_MOLECULE	|3-Hydroxy-octanoyl-ACPs|
@@ -35,18 +34,19 @@ AcpP	SIMPLE_MOLECULE	|Cis-delta-3-decenoyl-ACPs|
 AcpP	SIMPLE_MOLECULE	|R-3-Hydroxypalmitoyl-ACPs|
 AcpP	SIMPLE_MOLECULE	|Trans-D3-cis-D5-dodecenoyl-ACPs|
 AcpP	SIMPLE_MOLECULE	|b-Keto-cis-D5-dodecenoyl-ACPs|
-BCCP	SIMPLE_MOLECULE	|BCCP-dimers|
 CH3(CH2)xCH=CHCO-S-ACP	SIMPLE_MOLECULE	TRANS-D2-ENOYL-ACP
 CO2	SIMPLE_MOLECULE	CARBON-DIOXIDE
 FabA	PROTEIN	FABA-MONOMER
 FabB	PROTEIN	FABB-MONOMER
 FabD	PROTEIN	MALONYL-COA-ACP-TRANSACYL-MONOMER
-FabE	SIMPLE_MOLECULE	|Carboxybiotin-BCCP|
 FabG	PROTEIN	3-OXOACYL-ACP-REDUCT-MONOMER
 FabH	PROTEIN	FABH-MONOMER
 FabI	PROTEIN	ENOYL-ACP-REDUCT-NADH-MONOMER
 FadR	PROTEIN	PD01520
 IclR	PROTEIN	PD04099
+KASI	PROTEIN	FABB-CPLX
+KASIII	PROTEIN	CPLX0-252
+Trans-D2-cis-D7-tetradecenoyl-ACPs	SIMPLE_MOLECULE	|Trans-D2-cis-D7-tetradecenoyl-ACPs|
 accA	GENE
 accA_mRNA	RNA
 accB	GENE
@@ -65,8 +65,10 @@ beta-hydroxydecanoyl-[acp]	SIMPLE_MOLECULE	|Beta-hydroxydecanoyl-ACPs|
 beta-hydroxydodecanoyl-[acp]	SIMPLE_MOLECULE	|R-3-hydroxydodecanoyl-ACPs|
 beta-hydroxyhexanoyl-[acp]	SIMPLE_MOLECULE	|R-3-hydroxyhexanoyl-ACPs|
 beta-hydroxymyristoyl-[acp]	SIMPLE_MOLECULE	|R-3-hydroxymyristoyl-ACPs|
+biotin-L-lysine-in-BCCP-dimers	SIMPLE_MOLECULE	|biotin-L-lysine-in-BCCP-dimers|
 butyryl-[acp]	SIMPLE_MOLECULE	|Butanoyl-ACPs|
 carbonate	SIMPLE_MOLECULE	HCO3
+carboxybiotin-L-lysine-in-BCCP-dimers	SIMPLE_MOLECULE	|carboxybiotin-L-lysine-in-BCCP-dimers|
 cis-delta7-tetradecenoyl-[acp]	SIMPLE_MOLECULE	|Cis-Delta7-tetradecenoyl-ACPs|
 cis-vaccenoyl-[acp]	SIMPLE_MOLECULE	|Cis-vaccenoyl-ACPs|
 coenzyme A	SIMPLE_MOLECULE	CO-A
@@ -104,5 +106,4 @@ pos	PROTEIN
 trans hex-2-enoyl-[acp]	SIMPLE_MOLECULE	|Hex-2-enoyl-ACPs|
 trans hexadecenoyl-[acp]	SIMPLE_MOLECULE	|2-Hexadecenoyl-ACPs|
 trans tetradec-2-enoyl-[acp]	SIMPLE_MOLECULE	|Tetradec-2-enoyl-ACPs|
-trans-delta3-cis-delta7-tetradecenoyl-[acp]	SIMPLE_MOLECULE	|Trans-D3-cis-D7-tetradecenoyl-ACPs|
 trans-delta3-cis-delta9-hexadecenoyl-[acp]	SIMPLE_MOLECULE	|Trans-D3-cis-D9-hexadecenoyl-ACPs|

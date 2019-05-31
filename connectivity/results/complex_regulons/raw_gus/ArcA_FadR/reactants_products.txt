@@ -10,26 +10,108 @@ re5	fatty acyln-CoA	reactant
 re5	oxidized ETF	reactant
 re5	trans-2,3-dehydroacyl-CoA	product
 re5	reduced ETF	product
-re6	fadI_mRNA	reactant
-re6	FadI	product
-re7	RCOCH2CO-CoA	reactant
-re7	coenzyme A	reactant
-re7	fatty acyln-CoA	product
-re7	acetyl-CoA	product
-re8	FadI	reactant
-re8	FadJ	reactant
-re8	FadJ-FadI	product
-re9	fadJ_mRNA	reactant
-re9	FadJ	product
-re10	trans-2,3-dehydroacyl-CoA	reactant
-re10	3-OH-acyl-CoA	product
-re11	3-OH-acyl-CoA	reactant
-re11	3-OH-acyl-CoA	product
-re12	(3Z)-dodecenoyl-CoA	reactant
-re12	trans-2,3-dehydroacyl-CoA	product
-re13	(3Z)-dodecenoyl-CoA	reactant
-re13	(2E)-dodecenoyl-CoA	product
-re14	3-OH-acyl-CoA	reactant
-re14	RCOCH2CO-CoA	product
-re15	3-hydroxy-5-cis-tetradecenoyl-CoA	reactant
-re15	3-keto-5-cis-tetradecenoyl-CoA	product
+re6	oxidized ETF	reactant
+re6	18:1(n-9)	reactant
+re6	(2E,9Z)-octadecenoyl-CoA	product
+re6	reduced ETF	product
+re7	oxidized ETF	reactant
+re7	16:1(n-9)	reactant
+re7	(2E,7Z)-hexadecenoyl-CoA	product
+re7	reduced ETF	product
+re8	oxidized ETF	reactant
+re8	14:1(n-9)	reactant
+re8	2-trans,5-cis-tetradecadienoyl-CoA	product
+re8	reduced ETF	product
+re9	cis-vaccenoyl-CoA	reactant
+re9	oxidized ETF	reactant
+re9	(2E,11Z)-octadecenoyl-CoA	product
+re9	reduced ETF	product
+re10	16:1-delta9-CoA	reactant
+re10	oxidized ETF	reactant
+re10	(2E,9Z)-hexadecenoyl-CoA	product
+re10	reduced ETF	product
+re11	14:1(n-7)-CoA	reactant
+re11	oxidized ETF	reactant
+re11	(2E,7Z)-tetradecenoyl-CoA	product
+re11	reduced ETF	product
+re12	12:1(n-7)-CoA	reactant
+re12	oxidized ETF	reactant
+re12	(2E,5Z)-dodecenoyl-CoA	product
+re12	reduced ETF	product
+re13	fadI_mRNA	reactant
+re13	FadI	product
+re14	FadJ	reactant
+re14	FadI	reactant
+re14	FadI-FadJ	product
+re15	RCOCH2CO-CoA	reactant
+re15	coenzyme A	reactant
+re15	fatty acyln-CoA	product
+re15	acetyl-CoA	product
+re16	3-oxo-18:1-delta9-CoA	reactant
+re16	coenzyme A	reactant
+re16	acetyl-CoA	product
+re16	16:1(n-9)	product
+re17	3-oxo-16:1-delta7-CoA	reactant
+re17	coenzyme A	reactant
+re17	acetyl-CoA	product
+re17	14:1(n-9)	product
+re18	3-keto-5-cis-tetradecenoyl-CoA	reactant
+re18	coenzyme A	reactant
+re18	(3Z)-dodecenoyl-CoA	product
+re18	acetyl-CoA	product
+re19	3-oxo-18:1-delta11-CoA	reactant
+re19	coenzyme A	reactant
+re19	16:1-delta9-CoA	product
+re19	acetyl-CoA	product
+re20	3-oxo-16:1-delta9-CoA	reactant
+re20	coenzyme A	reactant
+re20	14:1(n-7)-CoA	product
+re20	acetyl-CoA	product
+re21	3-oxo-14:1-delta7-CoA	reactant
+re21	coenzyme A	reactant
+re21	12:1(n-7)-CoA	product
+re21	acetyl-CoA	product
+re22	3-oxo-12:1-delta5-CoA	reactant
+re22	coenzyme A	reactant
+re22	10:1(n-7)-CoA	product
+re22	acetyl-CoA	product
+re23	fadJ_mRNA	reactant
+re23	FadJ	product
+re24	3-OH-acyl-CoA	reactant
+re24	RCOCH2CO-CoA	product
+re25	(S)-3-hydroxy-18:1-delta9-CoA	reactant
+re25	3-oxo-18:1-delta9-CoA	product
+re26	(S)-3-hydroxy-16:1-delta7-CoA	reactant
+re26	3-oxo-16:1-delta7-CoA	product
+re27	3-hydroxy-5-cis-tetradecenoyl-CoA	reactant
+re27	3-keto-5-cis-tetradecenoyl-CoA	product
+re28	(S)-3-hydroxy-18:1-delta11-CoA	reactant
+re28	3-oxo-18:1-delta11-CoA	product
+re29	(S)-3-hydroxy-16:1-delta9-CoA	reactant
+re29	3-oxo-16:1-delta9-CoA	product
+re30	(S)-3-hydroxy-14:1-delta7-CoA	reactant
+re30	3-oxo-14:1-delta7-CoA	product
+re31	(S)-3-hydroxy-12:1-delta5-CoA	reactant
+re31	3-oxo-12:1-delta5-CoA	product
+re32	trans-2,3-dehydroacyl-CoA	reactant
+re32	3-OH-acyl-CoA	product
+re33	(2E,9Z)-octadecenoyl-CoA	reactant
+re33	(S)-3-hydroxy-18:1-delta9-CoA	product
+re34	(2E,7Z)-hexadecenoyl-CoA	reactant
+re34	(S)-3-hydroxy-16:1-delta7-CoA	product
+re35	2-trans,5-cis-tetradecadienoyl-CoA	reactant
+re35	3-hydroxy-5-cis-tetradecenoyl-CoA	product
+re36	(2E,11Z)-octadecenoyl-CoA	reactant
+re36	(S)-3-hydroxy-18:1-delta11-CoA	product
+re37	(2E,9Z)-hexadecenoyl-CoA	reactant
+re37	(S)-3-hydroxy-16:1-delta9-CoA	product
+re38	(2E,7Z)-tetradecenoyl-CoA	reactant
+re38	(S)-3-hydroxy-14:1-delta7-CoA	product
+re39	(2E,5Z)-dodecenoyl-CoA	reactant
+re39	(S)-3-hydroxy-12:1-delta5-CoA	product
+re40	3-OH-acyl-CoA	reactant
+re40	3-OH-acyl-CoA	product
+re41	(3Z)-dodecenoyl-CoA	reactant
+re41	trans-2,3-dehydroacyl-CoA	product
+re42	(3Z)-dodecenoyl-CoA	reactant
+re42	(2E)-dodecenoyl-CoA	product

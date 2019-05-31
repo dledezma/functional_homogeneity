@@ -8,33 +8,55 @@ re4	DNA 6-O-methylguanine	reactant
 re4	peptide cysteine	reactant
 re4	[protein]-S-methyl-L-cysteine	product
 re4	DNA guanine	product
-re5	alkB_mRNA	reactant
-re5	AlkB	product
-re6	ketoglutarate	reactant
-re6	DNA-base-CH3	reactant
-re6	oxygen	reactant
-re6	nucleobase within DNA	product
-re6	succinate	product
-re6	formol	product
-re6	CO2	product
-re7	1-ethyladenine	reactant
-re7	ketoglutarate	reactant
-re7	oxygen	reactant
-re7	succinate	product
-re7	adenine	product
-re7	ethanal	product
-re7	CO2	product
-re8	N3-methylcytosine	reactant
+re5	a modified nucleobase within DNA	reactant
+re5	peptide cysteine	reactant
+re5	[protein]-S-methyl-L-cysteine	product
+re5	a-thymine-in-DNA	product
+re6	a DNA containing Spmethyl phosphotriester	reactant
+re6	peptide cysteine	reactant
+re6	a DNA without Spmethyl phosphotriester	product
+re6	[protein]-S-methyl-L-cysteine	product
+re7	alkB_mRNA	reactant
+re7	AlkB	product
+re8	an-Nsup1sup-methyladenine-in-DNA	reactant
 re8	ketoglutarate	reactant
 re8	oxygen	reactant
+re8	DNA adenine	product
 re8	succinate	product
-re8	cytosine	product
 re8	formol	product
 re8	CO2	product
-re9	1-methyladenine	reactant
+re9	an-Nsup3sup-methylcytosine-in-DNA	reactant
 re9	ketoglutarate	reactant
 re9	oxygen	reactant
+re9	DNA dcytosine	product
 re9	succinate	product
-re9	adenine	product
 re9	formol	product
 re9	CO2	product
+re10	an-iNisup1sup-ethyladenine-in-DNA	reactant
+re10	ketoglutarate	reactant
+re10	oxygen	reactant
+re10	DNA adenine	product
+re10	succinate	product
+re10	ethanal	product
+re10	CO2	product
+re11	1iNisup6sup-ethenoadenine-in-DNA	reactant
+re11	ketoglutarate	reactant
+re11	oxygen	reactant
+re11	DNA adenine	product
+re11	succinate	product
+re11	glyoxal	product
+re11	CO2	product
+re12	1-methyl-dATP	reactant
+re12	ketoglutarate	reactant
+re12	oxygen	reactant
+re12	succinate	product
+re12	formol	product
+re12	dATP	product
+re12	CO2	product
+re13	1-methyl-dAMP	reactant
+re13	ketoglutarate	reactant
+re13	oxygen	reactant
+re13	succinate	product
+re13	formol	product
+re13	dAMP	product
+re13	CO2	product
